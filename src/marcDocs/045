@@ -1,0 +1,937 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 045:
+         						Time Period of Content (Network Development and MARC Standards
+         					Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the time period of content  (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>045</strong></div>
+      <hr><a name="skip_menu"></a><h1>045 - Time Period of Content (NR)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2003</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Type of time period in subfield $b or $c</em><br># - Subfield $b or $c not present <br>0 - Single date/time <br>1 - Multiple single dates/times <br>2 - Range of dates/times <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Time period code (R) <br>$b - Formatted 9999 B.C. through C.E. time period (R) <br>$c - Formatted pre-9999 B.C. time period (R) <br></td>
+            <td colspan="1">$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Time period code (subfield $a) and/or a formatted time period (subfield
+            $b and/or $c) associated with an item.
+      </p>
+      <p>Time period code in subfield $a is derived from the B.C. (Before Common Era)
+                     and/or C.E. (Common Era) lists in the Time Period Code Table provided under the
+                     description of subfield $a.
+      </p>
+      <p>For <strong>books</strong> and <strong>continuing resources</strong>, this field
+                     indicates the period depicted by the content of the item (e.g., history of the 16th
+                     century would be coded as 045 ##$at-t- or 045
+                     2#$bd1500$bd1599).
+      </p>
+      <p>For collections of <strong>mixed materials</strong>, this field indicates the time
+                     period covered by the collection.
+      </p>
+      <p>For <strong>computer files</strong>, this field indicates the period covered by the data
+                     in the file (e.g., a data file containing statistics for the period 1950-1960 would be
+                     coded 045 ##$ax5x6).
+      </p>
+      <p>For <strong>cartographic material</strong>, this field indicates the date portrayed on
+                     the item, that is, the situation date. A currently prepared map of Rome in 50 B.C. would
+                     be coded for the B.C. date. A remote-sensing map which depicts the time the satellite
+                     recorded the image would be coded for that time.
+      </p>
+      <p>For <strong>printed music</strong> and <strong>sound recordings</strong>, this field
+                     indicates the period of the composition, and will usually relate to the date of the
+                     composition. If the precise date of composition cannot be determined, an approximate
+                     date (or range of dates) or the dates of the composer are used.
+      </p>
+      <p>For <strong>motion pictures</strong> and <strong>videorecordings</strong>, this field
+                     indicates the time period depicted in the film (e.g., a videorecording documentary of
+                     the history of the brewing industry in Wisconsin for the period 1900-1986 would be coded
+                     045 2#$bd1900$bd1986).
+      </p>
+      <p>For <strong>two-dimensional nonprojectable graphic representations</strong>, this field
+                     indicates the time period depicted in the graphic (e.g., a collection of photographs
+                     from 1870 to 1930 would be coded 045 ##$aw7x3).
+      </p>
+      <p>For <strong>artifacts</strong>, this field indicates the time period covered by the
+                     content of the artifact (e.g., a model of an automobile repair shop of the 1920-1930
+                     period would be coded 045 ##$ax2x3).
+      </p>
+      <p>For <strong>naturally occurring objects</strong>, this field indicates the time period
+                     of the content, that is, the time period that the item originated (e.g., a geode would
+                     be coded for the time period when it was formed).      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Type of time period in subfield $b or $c</strong> <div class="description">Whether a subfield $b or $c is present in the field and,
+                              when subfield $b or $c is present, the type of time period
+                              it contains. The values distinguish among a single date/time, multiple single
+                              dates/times, and a range of dates/times.
+            <div class="indicatorvalue"><strong># - Subfield $b or $c not present</strong> <div class="description">Neither subfield $b or $c is present.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">651</td>
+                           <td vAlign="top" colspan="9" align="left">#0$aEgypt$xEconomic conditions$yTo 332 B.C.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>a0d6
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Single date/time</strong> <div class="description">Subfield $b and/or $c is present and contains a single
+                                       date/time.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">650</td>
+                           <td vAlign="top" colspan="9" align="left">#0$aLunar petrology.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$c</strong>2500000000
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Multiple single dates/times</strong> <div class="description">Multiple $b and/or $c subfields are present, each
+                                       containing a date/time.A range of dates/times is identified by value 2.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$b</strong>d1972<strong>$b</strong>d1975<br><em>[1972 and 1975]</em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Range of dates/times</strong> <div class="description">Two $b and/or $c subfields are present and contain a
+                                       range of dates/times.Multiple single dates and/or times are identified by value 1 (Multiple single
+                                       dates/times).
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">650</td>
+                           <td vAlign="top" colspan="9" align="left">#0$aShenandoah Valley Campaign, 1864
+                                                      (May-August)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$b</strong>d186405<strong>$b</strong>d186408
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">650</td>
+                           <td vAlign="top" colspan="9" align="left">#0$aAurignacian culture.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$c</strong>25000<strong>$c</strong>15000
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
+           
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Time period code</strong> <div class="description">Four-character alphanumeric code derived from the "Time Period Code Table" for
+                              B.C. and A.D. time periods.
+         </div>
+         <div class="description2">
+            <div class="description">Table is found in <em>MARC 21 Format for Bibliographic Data</em> under the
+                                 description of field 045.
+            </div>
+         </div>
+         <div class="description2">
+            <div class="description">Each time period code associated with a heading is contained in a separate
+                                 subfield $a.
+            </div>
+			<div class="description">
+            <div class="description2"><strong>Time Period Code Table</strong></div>
+            <div class="description2"><u>B.C. (Before Common Era)</u></div>
+            <div class="description2"><em>(Add 0, 1, 2, ... 9 to each alphabetic character for the decade)</em></div></div>
+            <div class="table">
+               <table>
+                  <tr>
+                     <td width="82" align="left" valign="top"><u>Code</u></td>
+                     <td width="291" align="left" valign="top"><u>Time period</u></td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>a0</strong></td>
+                     <td valign="top" align="left">before 2999</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>b0</strong></td>
+                     <td valign="top" align="left">2999-2900</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>b1</strong></td>
+                     <td valign="top" align="left">2899-2800</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>b2</strong></td>
+                     <td valign="top" align="left">2799-2700</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>b3</strong></td>
+                     <td valign="top" align="left">2699-2600</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>b4</strong></td>
+                     <td valign="top" align="left">2599-2500</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>b5</strong></td>
+                     <td valign="top" align="left">2499-2400</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>b6</strong></td>
+                     <td valign="top" align="left">2399-2300</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>b7</strong></td>
+                     <td valign="top" align="left">2299-2200</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>b8</strong></td>
+                     <td valign="top" align="left">2199-2100</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>b9</strong></td>
+                     <td valign="top" align="left">2099-2000</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>c0</strong></td>
+                     <td valign="top" align="left">1999-1900</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>c1</strong></td>
+                     <td valign="top" align="left">1899-1800</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>c2</strong></td>
+                     <td valign="top" align="left">1799-1700</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>c3</strong></td>
+                     <td valign="top" align="left">1699-1600</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>c4</strong></td>
+                     <td valign="top" align="left">1599-1500</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>c5</strong></td>
+                     <td valign="top" align="left">1499-1400</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>c6</strong></td>
+                     <td valign="top" align="left">1399-1300</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>c7</strong></td>
+                     <td valign="top" align="left">1299-1200</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>c8</strong></td>
+                     <td valign="top" align="left">1199-1100</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>c9</strong></td>
+                     <td valign="top" align="left">1099-1000</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>d0</strong></td>
+                     <td valign="top" align="left">999-900</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>d1</strong></td>
+                     <td valign="top" align="left">899-800</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>d2</strong></td>
+                     <td valign="top" align="left">799-700</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>d3</strong></td>
+                     <td valign="top" align="left">699-600</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>d4</strong></td>
+                     <td valign="top" align="left">599-500</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>d5</strong></td>
+                     <td valign="top" align="left">499-400</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>d6</strong></td>
+                     <td valign="top" align="left">399-300</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>d7</strong></td>
+                     <td valign="top" align="left">299-200</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>d8</strong></td>
+                     <td valign="top" align="left">199-100</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>d9</strong></td>
+                     <td valign="top" align="left">99-1</td>
+                  </tr>
+               </table>
+            </div>
+			<div class="description">
+            <div class="description2"><u>C.E. (Common Era)</u></div></div>
+            <div class="table">
+               <table>
+                  <tr>
+                     <td width="80" align="left" valign="top"><u>Code</u></td>
+                     <td width="293" align="left" valign="top"><u>Time period</u></td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>e</strong></td>
+                     <td valign="top" align="left">1-99</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>f</strong></td>
+                     <td valign="top" align="left">100-199</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>g</strong></td>
+                     <td valign="top" align="left">200-299</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>h</strong></td>
+                     <td valign="top" align="left">300-399</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>i</strong></td>
+                     <td valign="top" align="left">400-499</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>j</strong></td>
+                     <td valign="top" align="left">500-599</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>k</strong></td>
+                     <td valign="top" align="left">600-699</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>l</strong></td>
+                     <td valign="top" align="left">700-799</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>m</strong></td>
+                     <td valign="top" align="left">800-899</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>n</strong></td>
+                     <td valign="top" align="left">900-999</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>o</strong></td>
+                     <td valign="top" align="left">1000-1099</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>p</strong></td>
+                     <td valign="top" align="left">1100-1199</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>q</strong></td>
+                     <td valign="top" align="left">1200-1299</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>r</strong></td>
+                     <td valign="top" align="left">1300-1399</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>s</strong></td>
+                     <td valign="top" align="left">1400-1499</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>t</strong></td>
+                     <td valign="top" align="left">1500-1599</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>u</strong></td>
+                     <td valign="top" align="left">1600-1699</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>v</strong></td>
+                     <td valign="top" align="left">1700-1799</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>w</strong></td>
+                     <td valign="top" align="left">1800-1899</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>x</strong></td>
+                     <td valign="top" align="left">1900-1999</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>y</strong></td>
+                     <td valign="top" align="left">2000-2099</td>
+                  </tr>
+               </table>
+            </div>
+			<div class="description">
+            <div class="description2">For <strong>B.C. dates</strong>, the lowercase alphabetic character represents the
+                                 millennium and the digit represents the century. If the century is not known, a
+                                 hyphen (-) is used instead of a number. A single century or a period within a
+                                 century is coded by repeating the appropriate two-character code to create the
+                                 required four-characters.
+            </div>
+         </div></div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aRome$xHistory$yRepublic, 265-30 B.C.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>d7d9
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">650</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aBronze age.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>a-c-<br><em>[3000-1000 B.C.]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aEgypt$xHistory$yEighteenth dynasty, ca. 1570-1320 B.C.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>c4c6
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="description2">
+            <div class="description">For <strong>C.E. dates</strong>, the lowercase alphabetic character represents the
+                                 century. A digit (0-9) is added to represent the decade. If the decade is not
+                                 known, a hyphen (-) is used instead of a number.
+            </div>
+			<div class="description">
+            <div class="description2">A single year or a period within a decade is coded by repeating the appropriate
+                                 two-character code to create the required four characters.
+            </div>
+         </div>
+		 </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aGreat Britain$xHistory$yMedieval period, 1066-1485.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>o6s8
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">650</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aBhopal Union Carbide Plant Disaster, Bhopal, India,
+                                             1984.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>x8x8
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">650</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aCivilization, Modern$y20th century.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>x-x-
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">650</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aCatalan literature$y16th-18th centuries.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>t-v-
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aGreece$xHistory$y146 B.C.-323 A.D.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>d8h2
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">650</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aTwenty-first century$xForecasts.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>y-y-
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Formatted 9999 B.C. through C.E. time period</strong> <div class="description">Specific time period recorded in the pattern <em>yyyymmddhh</em> and preceded by a
+                              code for the era (<em>c</em> for B.C.; <em>d</em> for C.E.).
+         </div>
+         <div class="description2">
+            <div class="description">Era and year are required components; month, day, and hour are optional.</div>
+            <ul>
+               <li class="nobullet">era expressed as a code: c (B.C.), d (C.E.)</li>
+               <li class="nobullet">year expressed as a four-digit number (0000 to 9999) right justified; unused
+                                       positions contain zeros
+               </li>
+               <li class="nobullet">month expressed as a two-digit number (01 to 12) right justified; unused
+                                       positions contain zeros
+               </li>
+               <li class="nobullet">day expressed as a two-digit number (01 to 31) right justified; unused
+                                       positions contain zeros
+               </li>
+               <li class="nobullet">hour expressed as a two-digit number using the 24-hour clock (00 to 23)
+                                       right justified; unused positions contain zeros.
+               </li>
+            </ul>
+			<div class="description">
+            <div class="description2">First indicator position values 0-2 specify whether the time period in subfield
+                                 $b is a single date, multiple dates, or a range of dates. Each 9999
+                                 B.C. through C.E. time period associated with the heading is contained in a
+                                 separate subfield $b.
+            </div>
+         </div>
+		 </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aFrance$xHistory$yRevolution, 1791-1797.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$b</strong>d1791<strong>$b</strong>d1797
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aJapan$xHistory$yFebruary Incident, 1936 (February 26)</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$b</strong>d19360226
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aChina$xHistory$y221 B.C.-960 A.D.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>d7n6<strong>$b</strong>c0221<strong>$b</strong>d0960
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - Formatted pre-9999 B.C. time period</strong> <div class="description">Formatted time period that consists of as many numeric characters as are needed to
+                              represent the number of pre-9999 years B.C.
+         </div>
+         <div class="description2">
+            <div class="description">First indicator position values 0-2 specify whether the time period in subfield
+                                 $c is a single date, multiple dates, or a range of dates. Each pre-9999
+                                 B.C. time period associated with the heading is contained in a separate subfield
+                                 $c.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">650</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aGeology, Stratigraphic$yMesozoic.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>045</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$c</strong>225000000<strong>$c</strong>70000000
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - No marks of punctuation are used in field 045.
+      </div>
+      <div class="description2"><strong>Order of subfields</strong> - Subfield $c (Formatted pre-9999 B.C. time period) is input preceding subfield
+                     $b (Formatted 9999 B.C. through C.E. time period).
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>Indicator 1 - Type of time period in subfield $b or $c [NEW, 1979]</em><br><br><em>$b - Chronological date/time [NEW, 1979]</em><br><em>$b - 9999 B.C. through C.E. time period, formatted [REDEFINED, 1987]</em><br><em>$c - Pre-9999 B.C. time period, formatted [NEW, 1987]</em><br>Subfield $b was redefined for 9999 B.C. through C.E. time periods when
+                        subfield $c was defined for pre-9999 B.C. time periods in 1987. Prior to
+                        that time, all dates/times were contained in subfield $b.
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>045</strong></div> (02/20/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

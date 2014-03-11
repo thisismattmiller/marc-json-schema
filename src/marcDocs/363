@@ -1,0 +1,780 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 363: Normalized
+  Date and Sequential Designation (Network Development and MARC
+  Standards Office, Library of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the normalized date and sequential designation (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link href="http://www.loc.gov/marc/marc-generic.css" rel=
+  "stylesheet" type="text/css">
+<style type="text/css">
+                                        body {margin-left: 2em; margin-right: 2em;}
+ 
+                                        h1 {font-family:Arial, Helvetica, sans-serif;}
+                                        h3 {text-align:left;}
+                                        h4 {margin-top:.5em; margin-bottom:.5em;}
+                                        p {text-align:justify; margin-left:2em; margin-right:2em;}
+                                        .formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+                                        .datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+                                        .font_small {font-size:9pt;}
+                                        .fieldtoc {margin-left:2em;}
+                                        .box {font-family:ZapfDingbats;}
+                                        .description {text-align:justify; margin-left:2em;}
+                                        .description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+                                        .description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+                                        .indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+                                        .charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+                                        .example {margin-left:4em;}
+                                        .changed {color: #FF0000;}
+                                        .captiontext {font-style:italic;}
+                                        .displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+                                        .displaycontent {text-align:left;}
+                                        .table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+                                        .summary {margin-left:2em;}
+                                        .summarytable {margin-left:4em;}
+</style>
+<style type="text/css">
+ body {
+  background-color: #FFFFFF;
+ }
+</style>
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>
+    &gt;&gt; <strong>363</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>363 - Normalized Date and Sequential Designation (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2008
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Start/End designator</em><br>
+      # - No information provided<br>
+      0 - Starting information<br>
+      1 - Ending information<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>State of issuance</em><br>
+      # - Not specified<br>
+      0 - Closed<br>
+      1 - Open<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - First level of enumeration (NR)<br>
+      $b - Second level of enumeration (NR)<br>
+      $c - Third level of enumeration (NR)<br>
+      $d - Fourth level of enumeration (NR)<br>
+      $e - Fifth level of enumeration (NR)<br>
+      $f - Sixth level of enumeration (NR)<br>
+      $g - Alternative numbering scheme, first level of
+      enumeration (NR)<br>
+      $h - Alternative numbering scheme, second level of
+      enumeration (NR)<br>
+      $i - First level of chronology (NR)<br></td>
+
+      <td colspan="1">$j - Second level of chronology (NR)<br>
+      $k - Third level of chronology (NR)<br>
+      $l - Fourth level of chronology (NR)<br>
+      $m - Alternative numbering scheme, chronology (NR)<br>
+      $u - First level textual designation (NR)<br>
+      $v - First level of chronology, issuance (NR)<br>
+      $x - Nonpublic note (R)<br>
+      $z - Public note (R)<br>
+      $6 - Linkage (NR)<br>
+      $8 - Field link and sequence number (NR)<br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>The numeric, alphabetic and/or normalized date designation
+  used on the bibliographic item that identifies its parts and
+  shows the relationship of the parts to the whole.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <div class="indicator">
+    <strong>First Indicator - Start/End designator</strong>
+
+    <div class="description">
+      Whether the data in the field is the starting information
+      for a sequence or the ending information. A start/end pair
+      is linked via subfield $8.
+
+      <div class="description2">
+        If the first indicator is value 1, the second indicator
+        will always be set to 0.
+      </div>
+
+      <div class="indicatorvalue">
+        <strong># - No information provided</strong>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>0 - Starting information</strong>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>1 - Ending information</strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="indicator">
+    <strong>Second Indicator - State of issuance</strong>
+
+    <div class="description">
+      Whether the sequence of the publication is still being
+      issued or is complete.
+
+      <div class="description2">
+        If the second indicator is value 0 in a starting field,
+        and there is no ending field, the field specifies a
+        single issue. If the second indicator value is 1 in a
+        starting field there will be no ending field and the span
+        is open. If the second indicator is value 0 in a starting
+        field, and there is an ending field, the field specifies
+        the beginning of a closed span.
+      </div>
+
+      <div class="indicatorvalue">
+        <strong># - Not specified</strong>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>0 - Closed</strong>
+
+        <div class="description">
+          The sequence of the publication has terminated and is
+          no longer being issued.
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>1 - Open</strong>
+
+        <div class="description">
+          The sequence of the publication continues to be issued.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h4><span class="box">â </span> SUBFIELD CODES</h4>
+
+  <div class="subfield">
+    <strong>$a - First level of enumeration</strong>
+
+    <div class="description">
+      Highest level of enumeration.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$b - Second level of enumeration</strong>
+  </div>
+
+  <div class="subfield">
+    <strong>$c - Third level of enumeration</strong>
+  </div>
+
+  <div class="subfield">
+    <strong>$d - Fourth level of enumeration</strong>
+  </div>
+
+  <div class="subfield">
+    <strong>$e - Fifth level of enumeration</strong>
+  </div>
+
+  <div class="subfield">
+    <strong>$f - Sixth level of enumeration</strong>
+  </div>
+
+  <div class="subfield">
+    <strong>$g - Alternative numbering scheme, first level of
+    enumeration</strong>
+
+    <div class="description">
+      Highest level of an alternative numbering scheme.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$h - Alternative numbering scheme, second level of
+    enumeration</strong>
+  </div>
+
+  <div class="subfield">
+    <strong>$i - First level of chronology</strong>
+
+    <div class="description">
+      Highest level of chronology.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$j - Second level of chronology</strong>
+  </div>
+
+  <div class="subfield">
+    <strong>$k - Third level of chronology</strong>
+  </div>
+
+  <div class="subfield">
+    <strong>$l - Fourth level of chronology</strong>
+  </div>
+
+  <div class="subfield">
+    <strong>$m - Alternative numbering scheme,
+    chronology</strong>
+
+    <div class="description">
+      Highest level of an alternative chronology scheme.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$u - First level textual designation</strong>
+
+    <div class="description">
+      Textual information associated with enumeration and
+      chronology.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$v - First level of chronology, issuance</strong>
+
+    <div class="description">
+      For items that use coverage in subfield $i (First level of
+      chronology) when the issuing date is different.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$x - Nonpublic note</strong>
+
+    <div class="description">
+      Used for starting and ending notes. The note is
+      <em>not</em> written in a form that is adequate for public
+      display. A note for public display is contained in subfield
+      $z (Public note).
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$z - Public note</strong>
+
+    <div class="description">
+      The note is written in a form that is adequate for public
+      display and contains information that cannot be contained
+      in other subfields. A note <em>not</em> for public display
+      is contained in subfield $x (Nonpublic note).
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$6 - Linkage</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$8 - Field link and sequence number</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+
+  <h4><span class="box">â </span> EXAMPLES</h4>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">362</td>
+
+        <td valign="top" colspan="9" align="left">
+        0#$aNachgewiesen 2004 -</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>363</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>01</strong><strong>$i</strong>2004</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">362</td>
+
+        <td valign="top" colspan="9" align="left">0#$a15.2005,2
+        -</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>363</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>01</strong><strong>$a</strong>15<strong>$b</strong>2<strong>
+        $i</strong>2005</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">362</td>
+
+        <td valign="top" colspan="9" align="left">0#$a1949(1951);
+        1956(1959) nachgewiesen</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>363</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>00</strong><strong>$8</strong>1.1\x<strong>$i</strong>1949<strong>
+        $v</strong>1951</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>363</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>10</strong><strong>$8</strong>1.2\x<strong>$i</strong>1956<strong>
+        $v</strong>1959</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">110</td>
+
+        <td valign="top" colspan="9" align="left">2#$aUnited
+        Nations$0(DE-101b)333-5</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">245</td>
+
+        <td valign="top" colspan="9" align="left">00$aUN monthly
+        chronicle$cUnited Nations Office of Public
+        Information</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">362</td>
+
+        <td valign="top" colspan="9" align="left">0#$a1.1964 -
+        19.1982,5</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>363</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>00</strong><strong>$8</strong>1.1\x<strong>$a</strong>1<strong>
+        $i</strong>1964</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>363</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>10</strong><strong>$8</strong>1.2\x<strong>$a</strong>19<strong>
+        $b</strong>5<strong>$i</strong>1982</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">245</td>
+
+        <td valign="top" colspan="9" align="left">
+        00$aVolkszeitung$bsozialdemokratisches Organ fÃ¼r die
+        Provinz Rheinhessen und die Mainspitze</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">362</td>
+
+        <td valign="top" colspan="9" align="left">
+        0#$a15.1904,2.Apr. - 44.1933,29.Apr.; damit Ersch.
+        eingest.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>363</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>00</strong><strong>$8</strong>1.1\x<strong>$a</strong>15<strong>
+        $i</strong>1904<strong>$j</strong>Apr<strong>$k</strong>2</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>363</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>10</strong><strong>$8</strong>1.2\x<strong>$a</strong>44<strong>
+        $i</strong>1933<strong>$j</strong>Apr<strong>$k</strong>29</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">110</td>
+
+        <td valign="top" colspan="9" align="left">
+        2#$aNordrhein-Westfalen$bLandtag$0(DE-101b)2029522-4</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">245</td>
+
+        <td valign="top" colspan="9" align="left">00$aRegister zu
+        den Verhandlungen des Landtags / Landtag
+        Nordrhein-Westfalen$bin der ... Wahlperiode</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">362</td>
+
+        <td valign="top" colspan="9" align="left">0#$aWahlper.
+        2.1950/54(1955) - 11.1990/95(1996)</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>363</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>00</strong><strong>$8</strong>1.1\x<strong>$u</strong>Wahlper.<strong>
+        $a</strong>2<strong>$i</strong>1950/54<strong>$v</strong>1955</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>363</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>10</strong><strong>$8</strong>1.2\x<strong>$a</strong>11<strong>
+        $i</strong>1990/95 <strong>$v</strong>1996</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">130</td>
+
+        <td valign="top" colspan="9" align="left">##$aJournal of
+        polymer science / B</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">245</td>
+
+        <td valign="top" colspan="9" align="left">00$aJournal of
+        polymer science$nB, Polymer physics</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">780</td>
+
+        <td valign="top" colspan="9" align="left">00$tJournal of
+        polymer science / Polymer physics
+        edition$w(DE-600)220649-3</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">362</td>
+
+        <td valign="top" colspan="9" align="left">0#$a24.1986,2
+        -</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>363</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>01</strong><strong>$a</strong>24<strong>$b</strong>2<strong>
+        $i</strong>1986</td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+
+  <h3>INPUT CONVENTIONS</h3>
+
+  <div class="description2">
+    <strong>Questionable or unknown starting dates</strong> - If
+    the starting date is questionable or unknown, it may be
+    omitted and only an end date used.
+  </div>
+
+  <div class="description2">
+    <strong>Order of subfields</strong> - When used, subfield $8
+    (Field link and sequence number) is always the first subfield
+    in the field.
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>
+          &gt;&gt; <strong>363</strong>
+        </div>(02/22/2008)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

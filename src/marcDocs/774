@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy, see www.w3.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 774: Constituent
+  Unit Entry (Network Development and MARC Standards Office,
+  Library of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the constituent unit entry (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link href="http://www.loc.gov/marc/marc-generic.css" rel=
+  "stylesheet" type="text/css">
+<style type="text/css">
+                                        body {margin-left: 2em; margin-right: 2em;} 
+                                        h1 {font-family:Arial, Helvetica, sans-serif;}
+                                        h3 {text-align:left;}
+                                        h4 {margin-top:.5em; margin-bottom:.5em;}
+                                        p {text-align:justify; margin-left:2em; margin-right:2em;}
+                                        .formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+                                        .datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+                                        .font_small {font-size:9pt;}
+                                        .fieldtoc {margin-left:2em;}
+                                        .box {font-family:ZapfDingbats;}
+                                        .description {text-align:justify; margin-left:2em;}
+                                        .description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+                                        .description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+                                        .indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .subfieldvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+                                        .charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+                                        .example {margin-left:4em;}
+                                        .changed {color: #FF0000;}
+                                        .captiontext {font-style:italic;}
+                                        .displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+                                        .displaycontent {text-align:left;}
+                                        .table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+                                        .summary {margin-left:2em;}
+                                        .summarytable {margin-left:4em;}
+</style>
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a>
+    &gt;&gt; <strong>774</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>774 - Constituent Unit Entry (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Note controller</em><br>
+      0 - Display note<br>
+      1 - Do not display note<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Display constant controller</em><br>
+      # - Constituent unit<br>
+      8 - No display constant generated<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Main entry heading (NR)<br>
+      $b - Edition (NR)<br>
+      $c - Qualifying information (NR)<br>
+      $d - Place, publisher, and date of publication (NR)<br>
+      $g - Related parts (R)<br>
+      $h - Physical description (NR)<br>
+      $i - Relationship information (R)<br>
+      $k - Series data for related item (R)<br>
+      $m - Material-specific details (NR)<br>
+      $n - Note (R)<br>
+      $o - Other item identifier (R)<br>
+      $r - Report number (R)<br>
+      $s - Uniform title (NR)<br></td>
+
+      <td colspan="1">$t - Title (NR)<br>
+      $u - Standard Technical Report Number (NR)<br>
+      $w - Record control number (R)<br>
+      $x - International Standard Serial Number (NR)<br>
+      $y - CODEN designation (NR)<br>
+      $z - International Standard Book Number (R)<br>
+      $4 - Relationship code (R)<br>
+      $6 - Linkage (NR)<br>
+      $7 - Control subfield (NR)<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/0 - Type of main entry heading<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/1 - Form of name<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/2 - Type of record<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/3 - Bibliographic level<br>
+      $8 - Field link and sequence number (R)<br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>Information concerning a constituent unit associated with a
+  larger bibliographic unit (vertical relationship). When a note
+  is generated from this field, the introductory term
+  <em>Constituent unit:</em> may be generated based on the field
+  tag for display.</p>
+
+  <p>Constituent units may be part of a single bibliographic
+  item, a multipart item, or a collection. The constituent item
+  may or may not be described in a separate bibliographic
+  record.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <p>Description of the first indicator position and all subfield
+  codes, as well as input conventions except for display
+  constants, for field 774 are given in the <em><a href=
+  "bd76x78x.html">76X-78X Linking Entries-General
+  Information</a></em> section.</p>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <div class="indicator">
+    <strong>Second Indicator - Display constant
+    controller</strong>
+
+    <div class="description">
+      Controls the generation of a display constant preceding the
+      data in the linking entry field.
+
+      <div class="indicatorvalue">
+        <strong># - Constituent unit</strong>
+
+        <div class="description">
+          Used to generate the display constant <em>Constituent
+          unit:</em>.
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>8 - No display constant generated</strong>
+
+        <div class="description">
+          Information may be provided in subfield $i
+          (Relationship information)
+          when special introductory text is needed.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h4><span class="box">â </span> EXAMPLES</h4>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">245</td>
+
+        <td valign="top" colspan="9" align="left">10$a[136th
+        Street, southeastern section of the
+        Bronx]$h[graphic].</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>774</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$8</strong>1\c<strong>$o</strong>NYDA.1993.010.00130.
+        <strong>$n</strong>[DIAPimage].<strong>$t</strong>Map of
+        area with highlighted street</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>774</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$o</strong>NYDA.1993.010.00130.
+        <strong>$n</strong>[DIAPimage]<strong>$t</strong>Map of
+        area with highlighted street</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>774</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$8</strong>2\c<strong>$o</strong>NYDA.1993.010.00131.
+        <strong>$n</strong>[DIAPimage].<strong>$t</strong>View of
+        Mill Brook Houses from one of the
+        houses,<strong>$d</strong>89/05</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>774</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$o</strong>NYDA.1993.010.00131.
+        <strong>$n</strong>[DIAPimage]<strong>$t</strong>View of
+        Mill Brook Houses from one of the
+        houses,<strong>$d</strong>89/05</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>774</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$8</strong>3\c<strong>$o</strong>NYDA.1993.010.00132.
+        <strong>$n</strong>[DIAPimage].<strong>$t</strong>View SE
+        from Mill Brook Houses on rooftop on Cypress Ave. between
+        136th St. and 137th St.,<strong>$d</strong>93/05</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>774</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$o</strong>NYDA.1993.010.00132.
+        <strong>$n</strong>[DIAPimage]<strong>$t</strong>View SE
+        from Mill Brook Houses on rooftop on Cypress Ave. Between
+        136th St. and 137th St.,<strong>$d</strong>93/05</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>774</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$8</strong>4\c<strong>$o</strong>NYDA.1993.010.00133.
+        <strong>$n</strong>[DIAPimage].<strong>$t</strong>View N
+        from 136th St. roof top of area between Bruckner
+        Expressway and Cypress Ave.,<strong>$d</strong>93/06</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>774</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$o</strong>NYDA.1993.010.00133.
+        <strong>$n</strong>[DIAPimage]<strong>$t</strong>View N
+        from 136th St. roof top area between Bruckner Expressway
+        and Cypress Ave.,<strong>$d</strong>93/06</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>774</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$8</strong>5\c<strong>$o</strong>NYDA.1993.010.00134.
+        <strong>$n</strong>[DIAPimage].<strong>$t</strong>View E
+        from rooftop of garden bounded by Bruckner Expressway,
+        136th St. and 135th St.,<strong>$d</strong>93/06</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>774</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$o</strong>NYDA.1993.010.00134.
+        <strong>$n</strong>[DIAPimage]<strong>$t</strong>View E
+        from rooftop of garden bounded by Bruckner Expressway,
+        136th St. and 135th St.,<strong>$d</strong>93/06</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">856</td>
+
+        <td valign="top" colspan="9" align="left">
+        7#$81.1\c$uhttp://www.cc.columbia.edu/imaging/photocd/3009-1031-1443/IMG0089.512.gif$2http</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">856</td>
+
+        <td valign="top" colspan="9" align="left">
+        7#$81.2\c$uhttp://www.cc.columbia.edu/imaging/diap/jfif00/.mosaic/nyc00217.jpg$2http</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">856</td>
+
+        <td valign="top" colspan="9" align="left">
+        7#$82.1\c$uhttp://www.cc.columbia.edu/imaging/photocd/3009-1031-1443/IMP0090.512.gif$2http</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">856</td>
+
+        <td valign="top" colspan="9" align="left">
+        7#$82.2\c$uhttp://www.cc.columbia.edu/imaging/diap/jfif00/.mosaic/nyc00345.jpg$2http</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">856</td>
+
+        <td valign="top" colspan="9" align="left">
+        7#$83.1\c$uhttp://www.cc.columbia.edu/imaging/photocd/3009-1031-1443/IMP0091.512.gif$2http</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">856</td>
+
+        <td valign="top" colspan="9" align="left">
+        7#$83.2\c$uhttp://www.cc.columbia.edu/imaging/diap/jfif00/.mosaic/nyc00346.jpg$2http</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">856</td>
+
+        <td valign="top" colspan="9" align="left">
+        7#$84.1\c$uhttp://www.cc.columbia.edu/imaging/photocd/3009-1031-1443/IMP0092.512.gif$2http</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">856</td>
+
+        <td valign="top" colspan="9" align="left">
+        7#$84.2\c$uhttp://www.cc.columbia.edu/imaging/diap/jfif00/.mosaic/nyc00347.jpg$2http</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">856</td>
+
+        <td valign="top" colspan="9" align="left">
+        7#$85.1\c$uhttp://www.cc.columbia.edu/imaging/photocd/3009-1031-1443/IMP0094.512.gif$2http</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">856</td>
+
+        <td valign="top" colspan="9" align="left">
+        7#$85.2\c$uhttp://www.cc.columbia.edu/imaging/diap/jfif00/.mosaic/nyc00349.jpg$2http<br>
+
+        <em>[Record is for a larger bibliographic unit; 774
+        fields give entries for constituent units with links to
+        URL's in field 856 (Electronic Location and Access) for
+        the images themselves]</em></td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+
+  <h3>CONTENT DESIGNATOR HISTORY</h3>
+
+  <div class="font_small">
+    <em>Indicator 2 - Display constant controller</em><br>
+    <em>0 - Includes [OBSOLETE] [CAN/MARC only]</em>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a>
+          &gt;&gt; <strong>774</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

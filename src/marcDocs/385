@@ -1,0 +1,379 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 385:
+         Audience Characteristics (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>Â  
+               
+               &gt;&gt;
+               <strong>385</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>385</span> - <span>Audience Characteristics</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">April 2013</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Audience term<span> (R)</span></li>
+                  <li>$b - Audience code<span> (R)</span></li>
+                  <li>$m - Demographic group term<span> (NR)</span></li>
+                  <li>$n - Demographic group code<span> (NR)</span></li>
+                  <li>$0 - Authority record control number or standard number<span> (R)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$2 - Source<span> (NR)</span></li>
+                  <li>$3 - Materials specified<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>A category of persons for which a resource is intended or a
+               category of persons representing the intellectual level for which
+               the content of a resource is considered appropriate.
+            </p>
+         </div>
+         <div>
+            <p>If a demographic group is not specified then multiple audience
+        characteristics from the same source vocabulary or code list may
+        be recorded in the same field in separate occurrences of subfield
+        $a and subfield $b. If a demographic group is specified
+        then the characteristics in the field must all come from the same group. 
+        Terms from different source vocabularies are recorded in separate 
+        occurrences of the field.</p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p></p>
+         </div>
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <ul>
+               <li>Both indicator positions are undefined; each contains a blank
+                  (#).
+               </li>
+            </ul>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Audience term</strong> 
+                  </p>
+                  <div>
+                     <p>Intended audience of the work being described. Repeatable if an audience 
+            falls into multiple demographic groups.</p>
+                 </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">00$aMy first book of limericks.</td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Children<strong>$2</strong>lcsh
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">00$aCreative color for the oil painter.</td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Painters<strong>$2</strong>lcsh
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">00$aHealth care and HIV :$bnutritional guide for providers and clients</td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>HIV Long-Term
+                              Survivors<strong>$a</strong>Caregivers<strong>$2</strong>mesh
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>HIV-positive persons<strong>$a</strong>Caregivers<strong>$2</strong>lcsh
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Audience code</strong> 
+                  </p>
+                  <div>
+                     <p>Code representing intended audience of the work being described.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$m - Demographic group term</strong> 
+                  </p>
+                  <div>
+                     <p>A designator for a demographic group (e.g., an age
+            group; a religious group) to which the terms and codes
+            in $a or $b belong. </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">10$aEssential math, science, and 
+                              computer terms for college freshmen.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$m</strong>Educational level group<strong>$a</strong>College Freshmen<strong>$2</strong>ericd
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">00$aCreative color for the oil painter.</td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$m</strong>Occupational/field of activity group<strong>$a</strong>Painters<strong>$2</strong>lcsh
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">10$aIngleÌs para ninÌos.</td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$m</strong>Age group<strong>$a</strong>Children<strong>$2</strong>ericd
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$m</strong>Language group<strong>$a</strong>Spanish Speaking<strong>$2</strong>ericd
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$n - Demographic group code</strong> 
+                  </p>
+                  <div>
+                     <p>A code designating the demographic group (e.g.,
+            an age group; a religious group) to which the terms and codes
+            in $a or $b belong.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">10$aTalks to teeners; $bchapel talks delivered during morning 
+                              devotions at the Christian High School, Grand Rapids, Michigan.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$n</strong>age<strong>$a</strong>adolescent<strong>$b</strong>d<strong>$2</strong>marctarget
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">10$aEssential Spanish for policemen, lawyers, and judges.</td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$n</strong>occ<strong>$a</strong>Police<strong>$a</strong>Lawyers<strong>$a</strong>Judges<strong>$2</strong>lcsh
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$0 - Authority record control number or standard number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">00$aJanet Suzeman on acting in Shakespearian comedy.</td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Actors<strong>$2</strong>lcsh<strong>$0</strong>(DLC)sh 85000744
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Source</strong> 
+                  </p>
+                  <div>
+                     <p>MARC code that identifies the source of the term or code used
+                        to record intended audience information. 
+                     </p>
+                  </div>
+                  <div>
+                     <p>Code from: <em><a href="http://www.loc.gov/standards/sourcelist/subject.html">Subject Heading and Term Source Codes</a></em> or <em><a href="http://www.loc.gov/standards/sourcelist/target-audience.html">Target Audience Code and Term Source Codes</a></em>.
+                        
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">00$aBuddhist reader for young Buddhists.</td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$m</strong>Religious group<strong>$a</strong>Buddhists<strong>$2</strong>lcsh
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>385</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$m</strong>Age group<strong>$a</strong>Youth<strong>$2</strong>lcsh
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$3 - Materials specified</strong> 
+                  </p>
+                  <div>
+                     <p>Part of the described materials to which the field
+                        applies.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="historyField">
+            <div><em>Field 385 - Audience Characteristics [NEW, 2013]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>Â  
+               
+               &gt;&gt;
+               <strong>385</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(04/29/2013)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

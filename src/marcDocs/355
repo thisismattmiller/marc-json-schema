@@ -1,0 +1,533 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 355: Security Classification Control (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains information about security classification control (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>355</strong></div>
+      <hr><a name="skip_menu"></a><h1>355 - Security Classification Control (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2003</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Controlled element</em><br>0 - Document <br>1 - Title <br>2 - Abstract <br>3 - Contents note <br>4 - Author <br>5 - Record <br>8 - None of the above <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Security classification (NR) <br>$b - Handling instructions (R) <br>$c - External dissemination information (R) <br>$d - Downgrading or declassification event (NR) <br>$e - Classification system (NR) <br>$f - Country of origin code (NR) <br></td>
+            <td colspan="1">$g - Downgrading date (NR) <br>$h - Declassification date (NR) <br>$j - Authorization (R) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Specifics pertaining to the security classification associated with the document, title,
+         abstract, contents note, and/or the author. In addition, it can contain handling
+         instructions and external dissemination information pertaining to the dissemination of
+         the document, title, abstract, contents note, and author. The field may also contain
+         downgrading or declassification data, the name of the classification system, and a
+                     country of origin code. 
+      </p>
+      <p>Used with both classified and unclassified material. It is used when the security
+                     information is too specific to be handled by field 506 (Restrictions on Access Note).
+      </p>
+      <p>Repeatable when multiple classification and/or dissemination specifics are applicable to
+                     the record in hand.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Controlled element</strong> <div class="description">What element is controlled by the security classification in subfield
+                              $a, i.e., whether it is the document as a whole or the title, abstract,
+                              contents note, or author.
+            <div class="indicatorvalue"><strong>0 - Document</strong> <div class="description">Security classification pertains to the document as a whole.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Unclassified<strong>$b</strong>FOUO
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Title</strong> <div class="description">Security classification pertains to the title in fields 21X-24X, 740 Added
+                                       Entry-Uncontrolled Related Analytical Title.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Secret<strong>$c</strong>UK
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Abstract</strong> <div class="description">Security classification pertains to field 520 (Summary, Etc. Note).
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>Confidential<strong>$b</strong>NOFORN
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>3 - Contents note</strong> <div class="description">Security classification pertains to field 505 (Formatted Contents Note).
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$a</strong>Secret
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>4 - Author</strong> <div class="description">Security classification pertains to 245$c and to the 100-111 main
+                                       entry and 700-711 fields.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>4#</strong><strong>$a</strong>Unclassified
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>5 - Record</strong> <div class="description">Security classification pertains to the entire record.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>5#</strong><strong>$a</strong>Classified
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>8 - None of the above</strong> <div class="description">Security classification pertains to other than the document, title, abstract,
+                                       contents note, or author.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>8#</strong><strong>$a</strong>Secret<br><em>[A subject heading contains a term that is classified as secret.]</em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
+            </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Security classification</strong> <div class="description">Security classification (e.g., <em>Unclassified</em>, <em>Secret</em>,
+                                 <em>Confidential</em>) associated with the document, title, abstract, contents
+                              note, or author.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Restricted
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Handling instructions</strong> <div class="description">Handling instructions, e.g., who internally in the organization may handle or see
+                              the document, title, abstract, contents note, or author.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Secret<strong>$b</strong>NOFORN<strong>$b</strong>NOCONTRACT
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - External dissemination information</strong> <div class="description">External dissemination information, e.g., which foreign countries may see the
+                              document, title, abstract, contents note, or author.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Secret<strong>$b</strong>FRD<strong>$c</strong>AS<strong>$d</strong>010101
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$d - Downgrading or declassification event</strong> <div class="description">Data about the security classification, often a phrase pertaining to downgrading
+                              or declassification, e.g., <em>OADR</em> (which stands for "Original Agency
+                              Determination Required"). Dates relating to the downgrading or declassification
+                              are recorded in subfields $g or $h.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Secret<strong>$b</strong>NOFORN<strong>$b</strong>WNINTEL<strong>$b</strong>NOCONTRACT<strong>$d</strong>OADR
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$e - Classification system</strong> <div class="description">Name of a security classification system, not necessarily come from a controlled
+                              list.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Top secret<strong>$e</strong>NATO
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$f - Country of origin code</strong> <div class="description">Two- or three-character alphabetic MARC code indicating the country of origin of
+                              the classification. Code from: <em><a href="http://www.loc.gov/marc/countries/">MARC Code List for Countries</a></em>.
+         </div>
+         <div class="description2">
+            <div class="description">For the U.S. intelligence community, this subfield is not used if the country of
+                                 origin of the classification is the United States.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Top Secret<strong>$c</strong>US<strong>$c</strong>CA<strong>$f</strong>xxk
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$g - Downgrading date</strong> <div class="description">Date pertaining to the downgrading of the document, title, abstract, contents
+                              note, or author. Downgrading involves changes to security classification, from a
+                              higher level to lower level of classification.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Confidential<strong>$b</strong>NOCONTRACT<strong>$c</strong>UK<strong>$g</strong>20281001<br><em>[The review for downgrading of the classification is in October
+                                          2028.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$h - Declassification date</strong> <div class="description">Date pertaining to the declassification of the document, title, abstract, contents
+                              note, or author. Declassification involves the removal of any security
+                              classification on an item.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Secret<strong>$b</strong>NOFORN<strong>$h</strong>20230301<br><em>[Security classification for a document that is eligible for
+                                             declassification in March 2023.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$j - Authorization</strong> <div class="description">Information that identifies by whose authority a change in security classification
+                              was made. The subfield contains a MARC code of the authorizing agency. See
+                              Appendix I: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdorg.html">Organization Code
+                                          Sources</a></em> for a listing of sources used in MARC 21 records.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>355</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Secret<strong>$b</strong>NOFORN<strong>$h</strong>20230301<strong>$j</strong>&lt;agency identifier&gt;<br><em>[Security classification for a document that is eligible for
+                                             declassification in March 2023.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Field 355 does not end with a period unless the last word in the field is an
+                     abbreviation, initial/letter, or data that ends with a mark of punctuation.
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>355</strong></div> (02/22/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

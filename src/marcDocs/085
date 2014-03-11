@@ -1,0 +1,462 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 085: Synthesized
+  Classification Number Components (Network Development and MARC
+  Standards Office, Library of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the synthesized classification number components (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office"> <link type="text/css" rel="stylesheet" href=
+  "update10-stylesheet.css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>
+    &gt;&gt; <strong>085</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>085 - Synthesized Classification Number Components (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2008
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Undefined</em><br>
+      # - Undefined<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Undefined</em><br>
+      # - Undefined<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Number where instructions are
+      found-single number or beginning number of span (R)<br>
+      $b - Base number (R)<br>
+      $c - Classification number-ending number of span (R)<br>
+      $f - Facet designator (R)<br>
+      $r - Root number (R)<br>
+      $s - Digits added from classification number in schedule or
+      external table (R)<br>
+      $t - Digits added from internal subarrangement or add table
+      (R)</td>
+
+      <td colspan="1">$u - Number being analyzed (R)<br>
+      $v - Number in internal subarrangement or add table where
+      instructions are found (R)<br>
+      $w - Table identification-Internal subarrangement or add
+      table (R)<br>
+      $y - Table sequence number for internal subarrangement or
+      add table (R)<br>
+      $z - Table identification (R)<br>
+      $6 - Linkage (NR)<br>
+      $8 - Field link and sequence number (R)</td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>Information about how a synthesized classification number or
+  a portion of a synthesized classification number was built. It
+  traces the different components of a synthesized number,
+  showing the different portions of the number and where the add
+  instructions are given. If a number was built using two or more
+  instructions, a separate field 085 is given for each
+  instruction.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <ul>
+    <li>Both indicators are undefined; each contains a blank
+    (#).</li>
+  </ul>
+
+  <h4><span class="box">â </span> SUBFIELD CODES</h4>
+
+  <div class="subfield">
+    <strong>$a - Number where instructions are found-single
+    number or beginning number of span</strong>
+  </div>
+
+  <div class="subfield">
+    <strong>$b - Base number</strong>
+
+    <div class="description">
+      Base classification number to which one or more other
+      numbers are added. In many instances it may be the same as
+      subfield $a. When two or more additions are used to build
+      one number, the base number for the second and following
+      085 fields is the number resulting from the immediately
+      preceding addition.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$c - Classification number-ending number of
+    span</strong>
+
+    <div class="description">
+      Ending number of a classification number span under which
+      an internal subarrangement or add instructions are found.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$f - Facet designator</strong>
+
+    <div class="description">
+      Extra character(s) to be added to classification numbers
+      that indicate facets.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$r - Root number</strong>
+
+    <div class="description">
+      Initial digits of the pattern number or span when these
+      digits are not added. If this subfield is present, subfield
+      $s or $t must also be present to specify the digits that
+      are added.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$s - Digits added from classification number in
+    schedule or external table</strong>
+
+    <div class="description">
+      Digits that have been added from a classification number in
+      a schedule or external table to make up the synthesized
+      number.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$t - Digits added from internal subarrangement or add
+    table</strong>
+
+    <div class="description">
+      Digits that have been added from an internal subarrangement
+      or add table to make up the synthesized number.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$u - Number being analyzed</strong>
+
+    <div class="description">
+      Repeated when the same 085 field is applicable to more than
+      one number appearing in the same record.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$v - Number in internal subarrangement or add table
+    where instructions are found</strong>
+
+    <div class="description">
+      Number (single number or beginning number of span) in an
+      internal subarrangement or add table under which add
+      instructions are found.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$w - Table identification-Internal subarrangement or
+    add table</strong>
+
+    <div class="description">
+      Classification number (single number or beginning number of
+      span) under which an internal subarrangement or add table
+      is found.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$y - Table sequence number for internal
+    subarrangement or add table</strong>
+
+    <div class="description">
+      Sequence number or other identifier for an internal
+      classification subarrangement or add table. If the first or
+      only add table found at a classification number is the
+      number 1, and succeeding integers are used for any
+      following add tables found at that number.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$z - Table identification</strong>
+
+    <div class="description">
+      Identifies the table used in building a number. For a
+      classification number span, subfield $z is given only once,
+      before the first number.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$6 - Linkage</strong>
+
+    <div class="description">
+      See the description of this subfield in Appendix A:
+      <em><a href=
+      "http://www.loc.gov/marc/classification/eccdcntf.html">Control
+      Subfields</a></em>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$8 - Field link and sequence number</strong>
+
+    <div class="description">
+      See the description of this subfield in Appendix A:
+      <em><a href=
+      "http://www.loc.gov/marc/classification/eccdcntf.html">Control
+      Subfields</a></em>.
+    </div>
+  </div>
+
+  <h4><span class="box">â </span> EXAMPLES</h4>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">082</td>
+
+        <td valign="top" colspan="9" align="left">
+        00$81$a346.0469516$222</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>085</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>##</strong><strong>$8</strong>1.1<strong>$b</strong>346.046<strong>
+        $a</strong>346.046<strong>$r</strong>333<strong>$s</strong>95</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>085</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>##</strong><strong>$8</strong>1.1<strong>$b</strong>346.046<strong>
+        $a</strong>346.046<strong>$r</strong>333<strong>$s</strong>95<br>
+
+        <em>The Dewey number in the 082 field--346.0469516--means
+        law providing for government control and regulation of
+        biological resources for the sake of conserving them. The
+        first 085 field shows that the number 346.04695 was built
+        with 346.046 Law of government control and regulation of
+        specific kinds of natural resources plus 95 from 333.95
+        Biological resources, following the instructions at
+        346.046. The second 085 field shows that the number
+        346.0469516 was built with 346.04695 plus 16 Conservation
+        from the first add table under 333.7-333.9, as instructed
+        under 333.7-333.9.</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">082</td>
+
+        <td valign="top" colspan="9" align="left">
+        04$81$a599.0994$c22</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">083</td>
+
+        <td valign="top" colspan="9" align="left">0#$82$a
+        598.0994$222</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>085</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>##</strong><strong>$8</strong>1.1<strong>$b</strong>599<strong>
+        $z</strong>1<strong>$s</strong>09</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>085</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>##</strong><strong>$8</strong>1.2<strong>$b</strong>599.09<strong>
+        $z</strong>1<strong>$a</strong>093<strong>$c</strong>099<strong>
+        $z</strong>2<strong>$s</strong>94</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>085</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>##</strong><strong>$8</strong>2.1<strong>$b</strong>598<strong>
+        $z</strong>1<strong>$s</strong>09</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>085</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>##</strong><strong>$8</strong>2.2<strong>$b</strong>598.09<strong>
+        $z</strong>1<strong>$a</strong>093<strong>$c</strong>099<strong>
+        $z</strong>2<strong>$s</strong>94<br>
+        <em>The first two 085 fields show how the Dewey number in
+        the 082 field - 599.0994 - was built. The first 085 field
+        shows that 599.09 was built with 599 Mammals plus 09
+        Geographic treatment from Table 1 Standard subdivisions.
+        The second 085 field shows that 599.0994 was built with
+        599.09 plus 94 Australia from Table 2 Areas, following
+        instructions at 093-099 in Table 1. The second t wo 085
+        fields show how the Dewey number in the 083 field -
+        598.0994 - was built.</em></td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+
+  <h3>INPUT CONVENTIONS</h3>
+
+  <div class="description2">
+    <strong>Dewey Decimal Classification</strong> - Primary use
+    for this field is for the <em>Dewey Decimal
+    Classification</em>, which is based on the concept of number
+    building. Field 085 is repeated each time an addition is made
+    to the base number.
+  </div>
+
+  <div class="description2">
+    <strong>Order of subfields</strong> - For the <em>Dewey
+    Decimal Classification</em> the base number (subfield $b) is
+    always given first, followed by the location of add
+    instructions (subfields $a and $c). When there are multiple
+    additions to a synthesized number, a cumulative base number
+    (the number which resulted from the previous addition) is
+    used in subfield $b of the following 085 field. This field
+    includes instructions about how many zeros to add for
+    standard subdivisions. In these cases, the zeros are recorded
+    in subfield $f (Facet designator).
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>
+          &gt;&gt; <strong>085</strong>
+        </div>(09/01/2008)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

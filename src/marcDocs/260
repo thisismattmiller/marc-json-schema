@@ -1,0 +1,714 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 260:
+         Publication, Distribution, etc. (Imprint) (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd25x28x.html">25X-28X</a> &gt;&gt;
+               <strong>260</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>260</span> - <span>Publication, Distribution, etc. (Imprint)</span> (R)
+      </h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2011</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Sequence of publishing statements</em><br /><span># - Not applicable/No information provided/Earliest available publisher</span><br /><span>2 - Intervening publisher</span><br /><span>3 - Current/latest publisher</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Place of publication, distribution, etc. (R)</li>
+                  <li>$b - Name of publisher, distributor, etc. (R)</li>
+                  <li>$c - Date of publication, distribution, etc. (R)</li>
+                  <li>$e - Place of manufacture (R)</li>
+                  <li>$f - Manufacturer (R)</li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$g - Date of manufacture (R)</li>
+                  <li>$3 - Materials specified (NR)</li>
+                  <li>$6 - Linkage (NR)</li>
+                  <li>$8 - Field link and sequence number (R)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Information relating to the publication, printing, distribution, issue, release, or
+               production of a work.
+            </p>
+         </div>
+         <div>
+            <p>For unpublished items or materials that are collectively controlled, this field may not
+            be included in a record or may contain only subfield $c (Date of publication,
+            distribution, etc.).</p>
+         </div>
+         <div>
+            <p>Information in field 260 is similar to information in field 264
+               (Production, Publication, Distribution, Manufacture, and Copyright Notice).
+               Field 260 is useful for cases where the content standard or institutional
+               policies used do not make a distinction between functions
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p>All data elements are separately subfield coded except: 1) qualifiers and subscription
+               addresses added to place names, 2) statements of the function of the publisher, printer,
+               distributor, etc., and 3) adjacent dates of publication, distribution, etc. data
+               (including dates preceded by the word <em>distributed</em> or the term
+               <em>i.e.</em>).
+            </p>
+         </div>
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p><strong>First Indicator - Sequence of publishing statements</strong></p>
+                  <div>
+                     <p>Chronologically sequences multiple publishing statements for a resource.</p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - Not applicable/No information provided/Earliest available publisher</span><div>
+                           <p>Used when a resource is first cataloged. Information given in value # is not
+                              changed (unless incorrect or earlier issues of a serial are later available
+                              with differing publishing information).
+                           </p>
+                           <p>Defined as âNo information providedâ for monographic works that are complete as
+                              first issued. Only one publishing statement may contain first indicator value #
+                              in a record.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>260</strong></td>
+                                 <td colspan="9"><strong>##</strong><strong>$a</strong>Paris :<strong>$b</strong>Gauthier-Villars ;<strong>$a</strong>Chicago :<strong>$b</strong>University of Chicago Press,<strong>$c</strong>1955.
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - Intervening publisher</span><div>
+                           <p>Used when the publisher or place of publication changes. Additional publishing
+                              statements between the earliest and latest may also be recorded with first
+                              indicator value 2.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>260</strong></td>
+                                 <td colspan="9"><strong>2#</strong><strong>$3</strong>1980-May 1993<strong>$a</strong>London :<strong>$b</strong>Vogue
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">3 - Current/latest publisher</span><div>
+                           <p>Used when the publisher changes, or when the place of publication associated
+                              with the earliest publisher changes. The current publishing statement may be
+                              added with first indicator value 3. Data given in a subsequent publishing
+                              statement can be changed to reflect the current information when only the
+                              earliest and most current data is needed.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>260</strong></td>
+                                 <td colspan="9"><strong>3#</strong><strong>$3</strong>1998-<strong>$a</strong>Washington, D.C. :<strong>$b</strong>National Agriculture Library :<strong>$b</strong>For sale by the Supt. of Docs., U.S.
+                                    G.P.O.
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p><strong>Second Indicator - Undefined</strong></p>
+                  <div>
+                     <p>Undefined and contains a blank (#).</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Place of publication, distribution, etc.</strong> 
+                  </p>
+                  <div>
+                     <p>Place of publication and any additions to the name of a place, including an
+                  address, bracketed correction to erroneous information, or bracketed clarification
+                  of a fictitious place. In records formulated according to ISBD principles,
+                  subfield $a includes all data up to and including the next mark of ISBD
+                  punctuation (a colon (:) when subfield $a is followed by subfield
+                  $b, a semicolon (;) when subfield $a is followed by another
+                  subfield $a, and a comma (,) when subfield $a is followed by
+                  subfield $c).</p>
+                  </div>
+                  <div>
+                     <p>May contain the abbreviation <em>[S.l.]</em> when the place is unknown.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>New York, N.Y. :<strong>$b</strong>Elsevier,<strong>$c</strong>1984.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Rio [de Janeiro] :<strong>$b</strong>Delta,<strong>$c</strong>1967.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Cambridge [Cambridgeshire] :<strong>$b</strong>University of Cambridge Press,<strong>$c</strong>1980.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>[S.l.] :<strong>$b</strong>Insight Press,<strong>$c</strong>1981.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Washington, D.C. (1649 K St., N.W., Washington 20006) :<strong>$b</strong>Wider Opportunities for Women,<strong>$c</strong>1979 printing, c1975.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Belfast [i.e. Dublin :<strong>$b</strong>s.n.],<strong>$c</strong>1946 [reprinted 1965]
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>[S.l. :<strong>$b</strong>s.n.,<strong>$c</strong>15--?]
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>When multiple places are given, each is recorded in a separate subfield
+                  $a.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>New York ;<strong>$a</strong>Berlin :<strong>$b</strong>Springer Verlag,<strong>$c</strong>1977.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>[Reston, Va.?] :<strong>$b</strong>U.S. Geological Survey ;<strong>$a</strong>Washington, D.C. :<strong>$b</strong>For sale by the Supt. of Docs., U.S. G.P.O.,<strong>$c</strong>1986-
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>[Philadelphia] :<strong>$b</strong>United States Pharacopeial Convention ;<strong>$a</strong>[s.l.] :<strong>$b</strong>Distributed by Mack Pub. Co.,<strong>$c</strong>1980-
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Name of publisher, distributor, etc.</strong> 
+                  </p>
+                  <div>
+                     <p>Name of the publisher or distributor and any qualifying terms, such as an
+                        indication of function (e.g., <em>[distributor]</em>) or corrections to erroneous
+                  information. In records formulated according to ISBD principles, subfield
+                  $b is always preceded by a colon (:) and includes all data up to and
+                  including the mark of ISBD punctuation that introduces the next data element (a
+                  comma (,) when subfield $b is followed by subfield $c, a
+                  colon (:) when subfield $b is followed by another subfield
+                  $b, or a semicolon (;) when subfield $b is followed by
+                  subfield $a).
+                     </p>
+                  </div>
+                  <div>
+                     <p>May contain the abbreviation <em>[s.n.]</em> when the name is unknown.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>[New York] :<strong>$b</strong>American Statistical Association,<strong>$c</strong>1975.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Washington, D.C. :<strong>$b</strong>U.S. Dept. of Agriculture, Forest Service :<strong>$b</strong>For sale by the Supt. of Docs. U.S. G.P.O.,<strong>$c</strong>1981.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Victoria, B.C. :<strong>$b</strong>[s.n.],<strong>$c</strong>1898-1945.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Paris :<strong>$b</strong>Gauthier-Villars ;<strong>$a</strong>Chicago :<strong>$b</strong>University of Chicago Press,<strong>$c</strong>1955.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$c - Date of publication, distribution, etc.</strong> 
+                  </p>
+                  <div>
+                     <p>May contain multiple dates (e.g., dates of publication and copyright).</p>
+                  </div>
+                  <div>
+                     <p>If the date of manufacture is substituted for the date of publication, it is
+                  recorded in subfield $c. The date of creation may be recorded for
+                  unpublished items. Multiple adjacent publication dates such as a date of
+                  publication and copyright date are recorded in a single subfield $c. In
+                  records formulated according to ISBD principles, subfield $c is always
+                  preceded by a comma (,) unless it is the first subfield in field 260. Subfield
+                  $c ends with a period (.), hyphen (-) for open-ended dates, a closing
+                  bracket (]) or closing parenthesis ()). If subfield $c is followed by
+                  some other subfield, the period is omitted. If there are both a publication date
+                  and a date of manufacture, the date of manufacture is recorded in subfield
+                  $g.</p>
+                     <p>Only one subfield $c may be recorded in multiple publishing statements
+                  of a record.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>New York :<strong>$b</strong>Xerox Films,<strong>$c</strong>1973.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>London :<strong>$b</strong>Collins,<strong>$c</strong>1967, c1965.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Oak Ridge, Tenn. :<strong>$b</strong>U.S. Dept. of Energy,<strong>$c</strong>April 15, 1977.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>London :<strong>$b</strong>Sussex Tapes,<strong>$c</strong>1968 [i.e. 1971]
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>London :<strong>$b</strong>Macmillan,<strong>$c</strong>1971<strong>$g</strong>(1973 printing)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$c</strong>1908-1924.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>[S.l. :<strong>$b</strong>s.n.],<strong>$c</strong>1970<strong>$e</strong>(London :<strong>$f</strong>High Fidelity Sound Studios)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Paris :<strong>$b</strong>Impr. Vincent,<strong>$c</strong>1798<strong>$a</strong>[i.e. Bruxelles :<strong>$b</strong>Moens,<strong>$c</strong>1883]
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Stuttgart :<strong>$b</strong>Klett-Cotta,<strong>$c</strong>&lt;1981- &gt;
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>For <strong>serials</strong>, the date of publication is given only when the first
+                        and/or last issues are available or when the serial is no longer published.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>London :<strong>$b</strong>[s.n.],<strong>$c</strong>1889-1912.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Chicago, etc. :<strong>$b</strong>Time Inc.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$e - Place of manufacture</strong> 
+                  </p>
+                  <div>
+                     <p>Place of manufacture and any additions to the place name. When subfield
+                  $e is recorded, subfield $f is also generally recorded. In
+                  records formulated according to ISBD principles, subfield $e is
+                  recorded after any subfield $a, $b, or $c.
+                  Subfield $e data along with any subfield $f and
+                  $g data are enclosed in parenthesis. Subfield $e includes
+                  all data up to and including the next mark of ISBD punctuation (i.e., a colon
+                  (:)).</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>New York :<strong>$b</strong>E.P. Dutton,<strong>$c</strong>1980<strong>$e</strong>(Moscow :<strong>$f</strong>Russky Yazyk)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>[Pennsylvania :<strong>$b</strong>s.n.],<strong>$c</strong>1878-[1927?]<strong>$e</strong>(Gettysburg :<strong>$f</strong>J.E. Wible, Printer)
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$f - Manufacturer</strong> 
+                  </p>
+                  <div>
+                     <p>Name of the manufacturer and any qualifying terms. In records formulated according
+                  to ISBD principles, subfield $f contains all data following the last
+                  mark of ISBD punctuation (i.e., a colon (:)) and up to and including the mark of
+                  ISBD punctuation that introduces the next data element (a comma (,) when subfield
+                  $f is followed by subfield $g, a closing parenthesis ())
+                  when subfield $f is the last subfield in field 260. Subfield
+                  $f data, along with any subfield $e or $g data,
+                  are enclosed in parentheses.</p>
+                  </div>
+                  <div>
+                     <p>May contain the abbreviation <em>[s.n.]</em> when the name is unknown.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>New York :<strong>$b</strong>Published by W. Schaus,<strong>$c</strong>c1860<strong>$e</strong>(Boston :<strong>$f</strong>Printed at J.H. Bufford's)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>London :<strong>$b</strong>Arts Council of Great Britain,<strong>$c</strong>1976<strong>$e</strong>(Twickenham :<strong>$f</strong>CTD Printers,<strong>$g</strong>1974)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Bethesda, Md. :<strong>$b</strong>Toxicology Information Program, National Library of
+                              Medicine [producer] ;<strong>$a</strong>Springfield, Va. :<strong>$b</strong>National Technical Information Service [distributor],<strong>$c</strong>1974-<strong>$e</strong>(Oak Ridge, Tenn. :<strong>$f</strong>Oak Ridge National Laboratory
+                              [generator])
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$g - Date of manufacture</strong> 
+                  </p>
+                  <div>
+                     <p>If the date of manufacture has been used in place of a date of publication in
+                  subfield $c, it is not recorded in subfield $g. In records
+                  formulated according to ISBD principles, subfield $g contains all data
+                  following a comma ( , ) when subfield $g follows subfield
+                  $f, and ends with a closing parenthesis ( ) ). Subfield $g
+                  data, along with any subfield $e and $f data are enclosed in
+                  parentheses.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/06-14</td>
+                           <td colspan="9">s1949####<em><span><br /><span> [Item is not considered a reprint]</span></span></em></td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Harmondsworth :<strong>$b</strong>Penguin,<strong>$c</strong>1949<strong>$g</strong>(1963 printing)
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$3 - Materials specified</strong> 
+                  </p>
+                  <div>
+                     <p>Information to differentiate the multiple statements of the described materials to
+                        which the field applies.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Paris ;<strong>$a</strong>New York :<strong>$b</strong>Vogue,<strong>$c</strong>1964-
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>2#</strong><strong>$3</strong>1980-May 1993<strong>$a</strong>London :<strong>$b</strong>Vogue
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>3#</strong><strong>$3</strong>June 1993-<strong>$a</strong>London :<strong>$b</strong>Elle
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>260</strong></td>
+                           <td colspan="9"><strong>2#</strong><strong>$3</strong>2000?-2002<strong>$a</strong>New York :<strong>$b</strong>Columbia University Press
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Punctuation - </strong>See subfield descriptions for punctuation information.
+            </p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>260</strong></td>
+                     <td colspan="9"><strong>##</strong><strong>$a</strong>New York, N.Y. :<strong>$b</strong>E. Steiger,<strong>$c</strong>1878-1879.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>260</strong></td>
+                     <td colspan="9"><strong>##</strong><strong>$a</strong>[Pennsylvania :<strong>$b</strong>s.n.],<strong>$c</strong>1878-[1927?]<strong>$e</strong>(Gettysburg :<strong>$f</strong>J.E. Wible, Printer)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>260</strong></td>
+                     <td colspan="9"><strong>##</strong><strong>$a</strong>Tulsa, Okla. :<strong>$b</strong>Winchester Press,<strong>$c</strong>&lt;1981- &gt;
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>260</strong></td>
+                     <td colspan="9"><strong>##</strong><strong>$a</strong>London :<strong>$b</strong>Howard League for Penal Reform,<strong>$c</strong>[c1965-c1983]
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>260</strong></td>
+                     <td colspan="9"><strong>##</strong><strong>$a</strong>[New York] :<strong>$b</strong>American Statistical Association
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div>
+            <p><strong>Spacing - </strong>No spaces are used between letters of initials, including adjacent initials in personal
+               names.
+            </p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>260</strong></td>
+                     <td colspan="9"><strong>##</strong><strong>$a</strong>Columbia, S.C. :<strong>$b</strong>H.W. Williams Co.,<strong>$c</strong>1982.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <p>One space is used between two or more distinct initialisms (or sets of initials),
+               acronyms, or abbreviations appearing in juxtaposition.
+            </p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>260</strong></td>
+                     <td colspan="9"><strong>##</strong><strong>$a</strong>Washington :<strong>$b</strong>U.S. G.P.O.,<strong>$c</strong>1981-
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div>
+            <p><strong>Temporary Data - </strong>If any portion of the date is subject to change (e.g., when the record for a multipart
+            item is not yet complete but a span of years has already been recorded in subfield
+            $c), angle brackets (&lt; ... &gt;) are customarily used to record
+            that part of the date which is subject to change. The opening or closing date may also
+            be omitted until the first and/or last piece of the bibliographic item is received.
+            </p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>260</strong></td>
+                     <td colspan="9"><strong>##</strong><strong>$a</strong>New York :<strong>$b</strong>Macmillan,<strong>$c</strong>1981-&lt;1982&gt;<em><span><br /><span>[temporary date recorded in angle brackets.]</span></span></em></td>
+                  </tr>
+                  <tr>
+                     <td><strong>260</strong></td>
+                     <td colspan="9"><strong>##</strong><strong>$a</strong>Amsterdam :<strong>$b</strong>Elsevier,<strong>$c</strong>1979-<em><span><br /><span>[temporary date omitted pending receipt of last piece]</span></span></em></td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div>
+            <p>In 2001, the field was changed from Not-repeatable (NR) to Repeatable (R) to account for
+               publisher changes over time.
+            </p>
+         </div>
+         <div class="indicatorHistory"><em>Indicator 1 - Presence of publisher in imprint (BK, MP, MU, SE) [OBSOLETE, 1990]</em><div>
+               <p>Values were: 0 (Publisher, distributor, etc. is present), 1 (Publisher, distributor,
+                  etc. not present).
+               </p>
+            </div>
+         </div>
+         <div class="indicatorHistory"><em>Indicator 1 - Sequence of publishing statements [REDEFINED, 2001]</em></div>
+         <div class="indicatorHistory"><em>Indicator 2 - Added entry/publisher relationship (SE) [OBSOLETE, 1990]</em><div>
+               <p>Values were: 0 (Publisher, distributor, etc. not same as issuing body in added
+                  entry), 1 (Publisher, distributor, etc. same as issuing body in added entry).
+               </p>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$d - Plate or publisher's number for music (Pre-AACR2) [OBSOLETE, 1981] [CAN/MARC only]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$d - Plate or publisher's number for music (Pre-AACR2) [OBSOLETE, 1999] [USMARC only]</em><div class="subfieldHistoryDsc">
+                  <p>In 1980, the use of subfield $d was restricted to pre-AACR2 records for
+               music. At that time, field 028 (Publisher Number) was defined for the data in field
+               260 subfield $d. See description in Appendix H.</p>
+               </div>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$k - Identification/manufacturer number [OBSOLETE, 1988] [CAN/MARC only]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$l - Matrix and/or take number [OBSOLETE, 1988] [CAN/MARC only]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$3 - Materials specified [NEW, 2001]</em><div class="subfieldHistoryDsc">
+                  <p>Defined to differentiate the multiple statements of the described materials to which
+                     the field applies.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div>
+            <p>In 2004, subfields $e, $f and $g were made repeatable
+            for archival materials.</p>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd25x28x.html">25X-28X</a> &gt;&gt;
+               <strong>260</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/01/2011)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 787:
+         Other Relationship Entry (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a> &gt;&gt;
+               <strong>787</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1>787 - Other Relationship Entry (R)</h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">October 2010</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Note controller</em><br /><span>0 - Display note</span><br /><span>1 - Do not display note</span><br /><br /></td>
+            <td><em>Display constant controller</em><br /><span># - Related item</span><br /><span>8 - No display constant generated</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Main entry heading (NR)</li>
+                  <li>$b - Edition (NR)</li>
+                  <li>$c - Qualifying information (NR)</li>
+                  <li>$d - Place, publisher, and date of publication (NR)</li>
+                  <li>$g - Related parts (R)</li>
+                  <li>$h - Physical description (NR)</li>
+                  <li>$i - Relationship information (R)</li>
+                  <li>$k - Series data for related item (R)</li>
+                  <li>$m - Material-specific details (NR)</li>
+                  <li>$n - Note (R)</li>
+                  <li>$o - Other item identifier (R)</li>
+                  <li>$r - Report number (R)</li>
+                  <li>$s - Uniform title (NR)</li>
+                  <li>$t - Title (NR)</li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$u - Standard Technical Report Number (NR)</li>
+                  <li>$w - Record control number (R)</li>
+                  <li>$x - International Standard Serial Number (NR)</li>
+                  <li>$y - CODEN designation (NR)</li>
+                  <li>$z - International Standard Book Number (R)</li>
+                  <li>$4 - Relationship code (R)</li>
+                  <li>$6 - Linkage (NR)</li>
+                  <li>$7 - Control subfield (NR)<br />Â Â Â Â /0 - Type of main entry heading<br />Â Â Â Â /1 - Form of name<br />Â Â Â Â /2 - Type of record<br />Â Â Â Â /3 - Bibliographic level
+                  </li>
+                  <li>$8 - Field link and sequence number (R)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Information concerning the work related to the target item when the relationship does
+               not fit any of those defined in fields 760-785.
+            </p>
+         </div>
+         <div>
+            <p>In most cases, a note is recorded in field 580 that defines the specific
+               relationship.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p>Description of the first indicator position and all subfield codes, as well as input
+               conventions, for field 787 are given in the <em><a href="bd76x78x.html">76X-78X Linking
+                     Entries-General Information</a></em> section.
+            </p>
+         </div>
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <p><strong>Second Indicator - Display constant controller</strong></p>
+               <div>
+                  <p>Controls the generation of a display constant preceding the data in the linking
+                     entry field.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Related item</span><div>
+                        <p>Used to generate the display constant <em>Related item:</em>.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">8 - No display constant generated</span><div>
+                        <p>Information may be provided in subfield $i (Relationship information) when
+                     special introductory text is needed.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â  </span> EXAMPLES
+         </h4>
+         <div class="examplesec">
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>245</td>
+                     <td colspan="9">00$aEmpire State report weekly.</td>
+                  </tr>
+                  <tr>
+                     <td>580</td>
+                     <td colspan="9">##$aCompanion publication to: Empire State report
+                        (1982).
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>787</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$t</strong>Empire State report (1982)<strong>$x</strong>0747-0711<strong>$w</strong>(DLC)###84647292#<strong>$w</strong>(OCoLC)8541622<em><span><br /><span>[Link to companion publication]</span></span></em></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>130</td>
+                     <td colspan="9">0#$aEmpire State report (1982)</td>
+                  </tr>
+                  <tr>
+                     <td>580</td>
+                     <td colspan="9">##$aComplemented by: Empire State report
+                        weekly.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>787</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$t</strong>Empire State report weekly<strong>$x</strong>0745-8622<strong>$w</strong>(DLC)###84647299#<strong>$w</strong>(OCoLC)9403759<em><span><br /><span>[Link to complement publication]</span></span></em></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>024</td>
+                     <td colspan="9">7#$a0A42010111177788$2istc<em><span><br /><span>[ISTC for the work âGeorge Orwell's Animal farmâ]</span></span></em></td>
+                  </tr>
+                  <tr>
+                     <td>100</td>
+                     <td colspan="9">1#$aWoolridge, Ian.</td>
+                  </tr>
+                  <tr>
+                     <td>245</td>
+                     <td colspan="9">10$aGeorge Orwell's Animal farm /$cadapted by Ian Woolridge.</td>
+                  </tr>
+                  <tr>
+                     <td>700</td>
+                     <td colspan="9">1#$aOrwell, George,$d1903-1950.$tAnimal farm.</td>
+                  </tr>
+                  <tr>
+                     <td><strong>787</strong></td>
+                     <td colspan="9"><strong>18</strong><strong>$i</strong>Related source work<strong>$o</strong>(istc)0A3200912B4A1057<em><span><br /><span>[ISTC for the original source work âAnimal farmâ]</span></span></em></td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a> &gt;&gt;
+               <strong>787</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(05/31/2011)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

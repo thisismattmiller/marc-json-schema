@@ -1,0 +1,593 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 651: Subject Added Entry-Geographic Name (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the subject added entry-geographic name  (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a> &gt;&gt; <strong>651</strong></div>
+      <hr><a name="skip_menu"></a><h1>651 - Subject Added Entry-Geographic Name (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2007</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Thesaurus</em><br>0 - Library of Congress Subject Headings <br>1 - LC subject headings for children's literature <br>2 - Medical Subject Headings <br>3 - National Agricultural Library subject authority file <br>4 - Source not specified <br>5 - Canadian Subject Headings <br>6 - R&eacute;pertoire de vedettes-mati&egrave;re <br>7 - Source specified in subfield $2 <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td><em>Name portion</em><br>$a - Geographic name (NR) <br>$e - Relator term (R) <br>$4 - Relator code (R) <br><br><em>Subject subdivision portion</em><br>$v - Form subdivision (R) <br>$x - General subdivision (R) <br>$y - Chronological subdivision (R) <br>$z - Geographic subdivision (R) <br></td><td><em>Control subfields</em><br>
+              $0 - Authority record control number (R)<br>
+              $2 - Source of heading or term (NR) <br>$3 - Materials specified (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Subject added entry in which the entry element is a geographic name.</p>
+      <p>Subject added entries are assigned to a bibliographic record to provide access according
+                     to generally accepted cataloging and thesaurus-building rules (e.g., <em>Library of
+                           Congress Subject Headings</em> (LCSH), <em>Medical Subject Headings</em> (MeSH)).
+                     Field 651 may be used by any institution assigning subject headings based on the lists
+                     and authority files identified in the second indicator position or in subfield
+                     $2 (Source of heading or term).
+      </p>
+      <p>Jurisdiction names used alone or followed by subject subdivisions are contained in 651
+                     fields. A name of a jurisdiction that represents an ecclesiastical entity is contained
+                     in a 610 field. A corporate name, a form subheading, a title of a work, and/or a city
+                     section name entered under the name of a jurisdiction are contained in 610 fields.
+                     Geographic names used in phrase subject headings (e.g., Iran in the Koran) are contained
+                     in 650 fields.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
+            </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Thesaurus</strong> <div class="description">Subject heading system or thesaurus used in constructing the subject heading.
+            <div class="indicatorvalue"><strong>0 - Library of Congress Subject Headings</strong> <div class="description">Subject added entry conforms to and is appropriate for use in the <em>Library
+                                             of Congress Subject Headings</em> (LCSH) and the Name authority files that
+                                       are maintained by the Library of Congress.</div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - LC subject headings for children's literature</strong> <div class="description">Subject added entry conforms to the "AC Subject Headings" section of the
+                                          <em>Library of Congress Subject Headings</em> and is appropriate for use in
+                                       the LC Annotated Card Program.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Medical Subject Headings</strong> <div class="description">Subject added entry conforms to and is appropriate for use in the National
+                                       Library of Medicine authority files.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>3 - National Agricultural Library subject authority file</strong> <div class="description">Subject added entry conforms to and is appropriate for use in the National
+                                       Agricultural Library subject authority file.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>4 - Source not specified</strong> <div class="description">Subject added entry conforms to a controlled list that cannot be identified by
+                                       second indicator values 0-3, 5-6 or by a code in subfield $2.Field 653 (Index Term-Uncontrolled) is used to record terms that are not
+                                       derived from controlled subject heading lists.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>5 - Canadian Subject Headings</strong> <div class="description">Subject added entry conforms to and is appropriate for use in the <em>Canadian
+                                             Subject Headings</em> that is maintained by the Library and Archives
+                                    Canada.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>6 - R&eacute;pertoire de vedettes-mati&egrave;re</strong> <div class="description">Subject added entry conforms to the <em>R&eacute;pertoire de vedettes-mati&egrave;re</em>
+                                       that is maintained by the Biblioth&egrave;que de l'Universit&eacute; Laval.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>7 - Source specified in subfield $2</strong> <div class="description">Subject added entry conforms to a set of subject heading system/thesaurus
+                                       building rules. The identifying code is given in subfield $2.
+               </div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Geographic name</strong> <div class="description">Parenthetical qualifying information is not separately subfield coded.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Amazon River.
+                  </td>
+               </tr>
+              
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Altamira Cave (Spain)
+                  </td>
+               </tr>
+              
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Pompeii (Extinct city)
+                  </td>
+               </tr>
+              
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Antietam National Battlefield (Md.)
+                  </td>
+               </tr>
+               
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>King Ranch (Tex.)
+                  </td>
+               </tr>
+              
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Ming Tombs (China)
+                  </td>
+               </tr>
+              
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Kenwood (Chicago, Ill.)
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Chelsea (London, England)
+                  </td>
+               </tr>
+              
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Clear Lake (Iowa : Lake)
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$e - Relator term</strong> <div class="description">Designation of the relationship between a geographic name and the described
+                              materials, e.g., depicted.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Niagara Falls (N.Y. and Ont.),<strong>$e</strong>depicted.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Bonneville Salt Flats (Utah),<strong>$e</strong>depicted.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$v - Form subdivision</strong> <div class="description">Form subdivision that designates a specific kind or genre of material as defined
+                              by the thesaurus being used. Subfield $v is appropriate only when a
+                              form subject subdivision is added to a geographic name.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Salem (Mass.)<strong>$v</strong>Fiction.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Russia<strong>$x</strong>History<strong>$v</strong>Maps.
+                  </td>
+               </tr>
+             
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$x - General subdivision</strong> <div class="description">Subject subdivision that is not more appropriately contained in subfield
+                              $v (Form subdivision), subfield $y (Chronological
+                              subdivision), or subfield $z (Geographic subdivision). Subfield
+                              $x is appropriate only when a general topical subdivision is added to a
+                              geographic name.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Texas<strong>$x</strong>Officials and employees<strong>$x</strong>Accidents.
+                  </td>
+               </tr>
+              
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Aix-en-Provence (France)<strong>$x</strong>Social life and customs<strong>$v</strong>Early works to 1800.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>United States<strong>$x</strong>Census, 2nd, 1800.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$y - Chronological subdivision</strong> <div class="description">Subject subdivision that represents a period of time. Subfield $y is
+                              appropriate only when a chronological subject subdivision is added to a geographic
+                              name.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Uruguay<strong>$x</strong>History<strong>$y</strong>Great War, 1843-1852.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Greece<strong>$x</strong>History<strong>$y</strong>Geometric period, ca. 900-700 B.C.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$z - Geographic subdivision</strong> <div class="description">Geographic subject subdivision. Subfield $z is appropriate only when a
+                              geographic subject subdivision is added to a geographic name.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>United States<strong>$x</strong>Boundaries<strong>$z</strong>Canada.
+                  </td>
+               </tr>
+              
+            </table>
+         </div>
+      </div>
+      
+         <div class="subfield"><strong>$0 - Authority record control number</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                          Subfields</a></em>. 
+            </div>
+         </div>
+      
+      <div class="subfield"><strong>$2 - Source of heading or term</strong> <div class="description">MARC code that identifies the source list from which the subject added entry was
+                              assigned. It is used only when the second indicator position contains value 7
+                              (Source specified in subfield $2). Code from: <em><a href="http://www.loc.gov/standards/sourcelist/subject.html">Subject Heading and Term Source Codes</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$3 - Materials specified</strong> <div class="description">Part of the described materials to which the field applies.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$3</strong>Psychiatric admission records<strong>$a</strong>Pennsylvania<strong>$x</strong>Nuclear reactor safety<strong>$y</strong>1975-1985<strong>$z</strong>United States.<strong>$2</strong>[thesaurus code]
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$4 - Relator code</strong> <div class="description">MARC code that specifies the relationship between a geographic name and the
+                              described materials. Code from: <em><a href="http://www.loc.gov/marc/relators/index.html">MARC Code List for Relators</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Ambiguous Headings</strong> - See <a href="http://www.loc.gov/marc/ambiguous-headings.html">Appendix E</a>.
+      </div>
+      <div class="description2"><strong>Punctuation</strong> - Punctuation of the subelements of a heading is generally dictated by descriptive
+                     cataloging or subject heading system/thesaurus rules. These input conventions clarify
+                     MARC punctuation practices. Field 651 ends with a mark of punctuation or a closing
+                     parenthesis. If the final subfield is subfield $2 or $3, the mark
+                     of punctuation precedes the subfield.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>New York (N.Y.)<strong>$2</strong>ericd
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>United States<strong>$x</strong>History<strong>$y</strong>1849-1877.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>United States<strong>$x</strong>Economic policy<strong>$y</strong>1993-
+                  </td>
+               </tr>
+            </table>
+         </div><br>Geographic name followed by a subject subdivision does not end with a mark of
+                     punctuation unless the name ends with an abbreviation, initial/letter, or open date.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Louisiana<strong>$x</strong>Politics and government<strong>$v</strong>Anecdotes.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Spacing</strong> - No spaces are used in initialisms, acronyms, or abbreviations.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Washington (D.C.)
+                  </td>
+               </tr>
+            </table>
+         </div><br>One space is used between preceding and succeeding initials if an abbreviation consists
+                     of more than a single letter.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Vienna (W. Va.)
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Display Constant</strong>
+        <div class="table">
+            <table>
+               <tr>
+                  <td width="38" align="left" valign="top">-</td>
+                  <td width="559" align="left" valign="top"><em>[dash associated with the content of subfield $v,
+                                                      $x, $y, and $z]</em></td>
+               </tr>
+            </table>
+        </div>Dash (-) that precedes a subdivision in an extended subject heading is not carried in
+                     the MARC record. It may be system generated as a display constant associated with the
+                     content of subfields $v, $x, $y, and $z.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td width="100%">
+                     <div class="captiontext">Content designated field :</div>
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>651</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Washington (D.C.)<strong>$x</strong>History<strong>$v</strong>Periodicals.
+              <tr>
+                        <td></td>
+                        <td>
+                           <div class="displaytext">Display example:&nbsp;</div>
+                        </td>
+              </tr>
+                     <tr>
+                        <td></td>
+                        <td>
+                           <div class="displaycontent">Washington (D.C.)-History-Periodicals. </div>
+                        </td>
+                    
+               </tr>
+            </table>
+         </div>
+   </div>
+      <div class="description2"><strong>Initial Articles</strong> - Initial articles (e.g., Le) occurring at the beginning of geographic subject added entry
+                     fields are usually omitted in most languages (except when the intent is to file on the
+                     article). Any diacritics and/or special characters occurring at the beginning of fields
+                     are retained. Note that such characters are usually ignored for purposes of sorting and
+                     filing.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>$b - Geographic name following place entry element [OBSOLETE, 1981]</em><br>Subject headings currently formulated in this pattern are contained in field 610.<br><em>$e - Relator term [NEW, 2005]</em><br>
+      <em>$0 - Authority record control number [NEW, 2007]</em>
+         <br><em>$4 - Relator code [NEW, 2005]</em></div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a> &gt;&gt; <strong>651</strong></div> (02/26/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

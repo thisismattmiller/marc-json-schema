@@ -1,0 +1,466 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>MARC 21 Format for Bibliographic Data: 653: Index Term-Uncontrolled (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the index term-uncontrolled (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a> &gt;&gt; <strong>653</strong></div>
+      <hr><a name="skip_menu"></a><h1>653 - Index Term-Uncontrolled (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2007</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Level of index term</em><br># - No information provided <br>0 - No level specified <br>1 - Primary <br>2 - Secondary <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br>
+              <em>Type of term or name</em><br>
+              # - No information provided <br>
+              0 - Topical term <br>
+              1 - Personal name <br>
+              2 - Corporate name <br>
+              3 - Meeting name <br>
+              4 - Chronological term <br>
+              5 - Geographic name <br>
+              6 - Genre/form term<br>
+              <br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Uncontrolled term (R) <br>$6 - Linkage (NR) <br></td>
+            <td colspan="1">$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Index term added entry that is not constructed by standard subject
+           heading/thesaurus-building conventions.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Level of index term</strong> <div class="description">Used to distinguish primary and secondary descriptors.
+            <div class="indicatorvalue"><strong># - No information provided</strong> </div>
+            <div class="indicatorvalue"><strong>0 - No level specified</strong> <div class="description">Level of the subject term could be determined but is not specified.</div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Primary</strong> <div class="description">Main focus or subject content of the material.</div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Secondary</strong> <div class="description">Less important aspect of the content of the material.</div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Type of term or name</strong> <div class="description">Distinguishes uncontrolled index terms by type.
+            <div class="indicatorvalue"><strong># - No information provided</strong> </div>
+            <div class="indicatorvalue"><strong>0 - Topical term</strong> <div class="example">
+                  <table width="100%">
+                     <tr>
+                        <td valign="top" width="5%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="15%" align="left"></td>
+                     </tr>
+                     <tr>
+                        <td vAlign="top" colspan="1" align="left">240</td>
+                        <td vAlign="top" colspan="9" align="left">00$aHere comes everybody$lGerman</td>
+                     </tr>
+                     <tr>
+                        <td vAlign="top" colspan="1" align="left">245</td>
+                        <td vAlign="top" colspan="9" align="left">14$aEin Mann in Dublin namens Joyce$cAnthony Burgess. [&Uuml;bers. ins Dt.: Gisela u. Manfred
+                                                      Triesch]                        </td>
+                     </tr>
+                     <tr>
+                        <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                        <td vAlign="top" colspan="9" align="left"><strong>#0$a</strong>Mann                        </td>
+                     </tr>
+                     <tr>
+                        <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                        <td vAlign="top" colspan="9" align="left"><strong>#5$a</strong>Dublin                        </td>
+                     </tr>
+                     <tr>
+                        <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                        <td vAlign="top" colspan="9" align="left"><strong>#1$a</strong>Joyce                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Personal name</strong> <div class="example">
+                  <table width="100%">
+                     <tr>
+                        <td valign="top" width="5%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="15%" align="left"></td>
+                     </tr>
+                     <tr>
+                        <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                        <td vAlign="top" colspan="9" align="left"><strong>#1$a</strong>Plath                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Corporate name</strong> <div class="example">
+                  <table width="100%">
+                     <tr>
+                        <td valign="top" width="5%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="15%" align="left"></td>
+                     </tr>
+                     <tr>
+                        <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                        <td vAlign="top" colspan="9" align="left"><strong>#2$a</strong>UNICEF                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>3 - Meeting name</strong> </div>
+            <div class="indicatorvalue"><strong>4 - Chronological term</strong> </div>
+            <div class="indicatorvalue"><strong>5 - Geographic name</strong> <div class="example">
+                  <table width="100%">
+                     <tr>
+                        <td valign="top" width="5%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="10%" align="left"></td>
+                        <td valign="top" width="15%" align="left"></td>
+                     </tr>
+                     <tr>
+                        <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                        <td vAlign="top" colspan="9" align="left"><strong>#5$a</strong>Hamburg                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>6 - Genre/form term</strong> </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Uncontrolled term</strong> <div class="description">Index term is from an uncontrolled subject heading system or thesaurus.</div>
+         <div class="description2">
+            <div class="description"> Subfield $a is repeatable when more than one index term at the level
+                                 designated in the first indicator is assigned.
+            </div>
+			<div class="description">
+            <div class="description2">If the second indicator is other than blank (#), subfield $a is not
+                                 repeated unless the content of all $a subfields are of the same
+                              type.
+            </div>
+         </div></div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>fuel cells<strong>$a</strong>molten carbonate<strong>$a</strong>power generation
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Man<strong>$a</strong>Eyes<strong>$a</strong>Diseases
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">10$aGesetz und Freiheit$beine Philosophie der Kunst$cHarald Fricke</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0$a</strong>Gesetz
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0$a</strong>Freiheit
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Field 653 does not end with a mark of punctuation or a closing parenthesis unless
+                     punctuation is part of the data.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Stamp collecting (United States)
+                  </td>
+               </tr>
+            </table>
+         </div><br>Uncontrolled terms followed by a subsequent term does not end with a mark of punctuation
+                     or a closing parenthesis unless the preceding term ends with punctuation as part of the
+                     data.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Ice, Sculpture, moulds, etc.<strong>$a</strong>Children's games
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Spacing</strong> - No spaces are used in initialisms, acronyms, or abbreviations.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>S.C.U.B.A.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Imprint Date Data</strong> - Imprint date (i.e., the date found in 260$c) may be used with the term
+                        <em>Imprints</em> for imprint access. The imprint date appears in one of three
+                     patterns:
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Imprints&lt;century&gt; &lt;date as found in
+                                          260<strong>$c</strong>&gt;
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Imprints 18th century 1788
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Imprints&lt;not before date as found in 260<strong>$c</strong>&gt;
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Imprints&lt;not after date as found in 260<strong>$c</strong>&gt;
+                  </td>
+               </tr>
+            </table>
+         </div><br>Brackets are not used (even when present in 260$c).
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">260</td>
+                  <td vAlign="top" colspan="9" align="left">##$c[not before 1479]</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Imprints not before 1479
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">260</td>
+                  <td vAlign="top" colspan="9" align="left">##$c[not after 21 Aug. 1492]</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>653</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Imprints not after 21 Aug. 1492
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>Indicator 2 - Type of term or name [NEW, 2007]</em><br>
+        
+   </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a> &gt;&gt; <strong>653</strong></div> (02/26/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

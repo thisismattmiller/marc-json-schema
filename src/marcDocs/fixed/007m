@@ -1,0 +1,2154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy, see www.w3.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 007: Motion
+  Picture (Network Development and MARC Standards Office, Library
+  of Congress)</title>
+  <meta content="text/html; charset=utf-8" http-equiv=
+  "Content-Type">
+  <meta content=
+  "This field contains the (Network Development and MARC Standards Office, Library of Congress)"
+  name="description">
+  <meta content="marc, marc21, marc standards" name="keywords">
+  <meta content=
+  "Library of Congress Network Development and MARC Standards Office"
+  name="author">
+  <link href="update10-stylesheet.css" rel="stylesheet" type=
+  "text/css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
+    &gt;&gt;<a href=
+    "http://www.loc.gov/marc/bibliographic/bd007.html">007</a>
+    &gt;&gt; <strong>007 (Motion Picture)</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>007 - Motion Picture (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+  <strong>Indicators and Subfield Codes</strong>
+
+  <div class="description">
+    Field has no indicators or subfield codes; the data elements
+    are positionally defined.
+  </div>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>Character Positions</strong><br>
+      <strong>00 - Category of material</strong><br>
+      m - Motion picture<br>
+      <br>
+      <strong>01 - Specific material designation</strong><br>
+      c - Film cartridge<br>
+      f - Film cassette<br>
+      o - Film roll<br>
+      r - Film reel<br>
+      u - Unspecified<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>02 - Undefined</strong><br>
+      # - Undefined<br>
+      <br>
+      <strong>03 - Color</strong><br>
+      b - Black-and-white<br>
+      c - Multicolored<br>
+      h - Hand colored<br>
+      m - Mixed<br>
+      n - Not applicable<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>04 - Motion picture presentation
+      format</strong><br>
+      a - Standard sound aperture (reduced frame)<br>
+      b - Nonanamorphic (wide-screen)<br>
+      c - 3D<br>
+      d - Anamorphic (wide-screen)<br>
+      e - Other wide-screen format<br>
+      f - Standard silent aperture (full frame)<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>05 - Sound on medium or separate</strong><br>
+      # - No sound (silent)<br>
+      a - Sound on medium<br>
+      b - Sound separate from medium<br>
+      u - Unknown<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>06 - Medium for sound</strong><br>
+      # - No sound (silent)<br>
+      a - Optical sound track on motion picture film<br>
+      b - Magnetic sound track on motion picture film<br>
+      c - Magnetic audio tape in cartridge<br>
+      d - Sound disc<br>
+      e - Magnetic audio tape on reel<br>
+      f - Magnetic audio tape in cassette<br>
+      g - Optical and magnetic sound track on motion picture
+      film<br>
+      h - Videotape<br>
+      i - Videodisc<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>07 - Dimensions</strong><br>
+      a - Standard 8 mm.<br>
+      b - Super 8 mm./single 8 mm.<br>
+      c - 9.5 mm.<br>
+      d - 16 mm.<br>
+      e - 28 mm.<br>
+      f - 35 mm.<br>
+      g - 70 mm.<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>08 - Configuration of playback
+      channels</strong><br>
+      k - Mixed<br>
+      m - Monaural<br>
+      n - Not applicable<br>
+      q - Quadraphonic, multichannel, or surround<br>
+      s - Stereophonic<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>09 - Production elements</strong><br>
+      a - Workprint<br>
+      b - Trims<br>
+      c - Outtakes<br>
+      d - Rushes<br>
+      e - Mixing tracks<br>
+      f - Title bands/inter-title rolls<br>
+      g - Production rolls<br>
+      n - Not applicable<br>
+      z - Other<br>
+      | - No attempt to code</td>
+
+      <td width="45%"><strong>10 - Positive/negative
+      aspect</strong><br>
+      a - Positive<br>
+      b - Negative<br>
+      n - Not applicable<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>11 - Generation</strong><br>
+      d - Duplicate<br>
+      e - Master<br>
+      o - Original<br>
+      r - Reference print/viewing copy<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>12 - Base of film</strong><br>
+      a - Safety base, undetermined<br>
+      c - Safety base, acetate undetermined<br>
+      d - Safety base, diacetate<br>
+      i - Nitrate base<br>
+      m - Mixed base (nitrate and safety)<br>
+      n - Not applicable<br>
+      p - Safety base, polyester<br>
+      r - Safety base, mixed<br>
+      t - Safety base, triacetate<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>13 - Refined categories of color</strong><br>
+      a - 3 layer color<br>
+      b - 2 color, single strip<br>
+      c - Undetermined 2 color<br>
+      d - Undetermined 3 color<br>
+      e - 3 strip color<br>
+      f - 2 strip color<br>
+      g - Red strip<br>
+      h - Blue or green strip<br>
+      i - Cyan strip<br>
+      j - Magenta strip<br>
+      k - Yellow strip<br>
+      l - S E N 2<br>
+      m - S E N 3<br>
+      n - Not applicable<br>
+      p - Sepia tone<br>
+      q - Other tone<br>
+      r - Tint<br>
+      s - Tinted and toned<br>
+      t - Stencil color<br>
+      u - Unknown<br>
+      v - Hand colored<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>14 - Kind of color stock or print</strong><br>
+      a - Imbibition dye transfer prints<br>
+      b - Three-layer stock<br>
+      c - Three layer stock, low fade<br>
+      d - Duplitized stock<br>
+      n - Not applicable<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>15 - Deterioration stage</strong><br>
+      <em>Other</em><br>
+      a - None apparent<br>
+      b - Nitrate: suspicious odor<br>
+      c - Nitrate: pungent odor<br>
+      d - Nitrate: brownish, discoloration, fading, dusty<br>
+      e - Nitrate: sticky<br>
+      f - Nitrate: frothy, bubbles, blisters<br>
+      g - Nitrate: congealed<br>
+      h - Nitrate: powder<br>
+      k - Non-nitrate: detectable deterioration<br>
+      l - Non-nitrate: advanced deterioration<br>
+      m - Non-nitrate: disaster<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>16 - Completeness</strong><br>
+      c - Complete<br>
+      i - Incomplete<br>
+      n - Not applicable<br>
+      u - Unknown<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>17-22 - Film inspection date</strong><br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>When field 007/00 contains code m, it contains special coded
+  information about the physical characteristics of a
+  <strong>motion picture</strong>.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> CHARACTER POSITIONS</h4>
+
+  <div class="characterposition">
+    <strong>00 - Category of material</strong>
+
+    <div class="charactervalue">
+      <strong>m - Motion picture</strong>
+
+      <div class="description">
+        One-character alphabetic code that indicates the category
+        of material to which the item belongs is <strong>motion
+        picture</strong> which is defined as a series of still
+        pictures on film, with or without sound, designed to be
+        projected in rapid succession to produce the optical
+        effect of motion. A fill character (|) is not allowed in
+        this position.
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>01 - Specific material designation</strong>
+
+    <div class="description">
+      Special class of motion picture to which the item belongs.,
+      e.g., a film reel.
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Film cartridge</strong>
+
+      <div class="description">
+        Encased in a cartridge that has the ends joined together
+        to form a loop that provides playback without rewinding.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Film cassette</strong>
+
+      <div class="description">
+        Encased in a cassette that winds and rewinds
+        reel-to-reel.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>o - Film roll</strong>
+
+      <div class="description">
+        A wound length of film not in a reel, cartridge, etc.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>r - Film reel</strong>
+
+      <div class="description">
+        Open reel of motion picture film designed for use with a
+        projector having its own take-up reel.
+      </div>
+
+      <div class="description2 description">
+        Includes sound track film intended to accompany visual
+        images actually not present.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unspecified</strong>
+
+      <div class="description">
+        Special material designation for the motion picture is
+        not specified.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>02 - Undefined</strong>
+
+    <div class="description">
+      Contains blank (#) or a fill character (|).
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>03 - Color</strong>
+
+    <div class="description">
+      Color characteristics of a motion picture.
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Black-and-white</strong>
+
+      <div class="description">
+        Printed or executed in black-and-white.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Multicolored</strong>
+
+      <div class="description">
+        Printed or executed in more than one color. Used for
+        color photographic processes.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>h - Hand colored</strong>
+
+      <div class="description">
+        Motion picture, produced by a printing or photographic
+        process, is hand colored. Rarely used with commercial
+        films since these are not typically issued with hand
+        coloring.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed</strong>
+
+      <div class="description">
+        Work or collection is a combination of black-and-white,
+        multicolored, hand colored, and/or other images.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Color characteristics are not applicable because the item
+        has no images.
+      </div>
+
+      <div class="description2 description">
+        Used, for example, when the item in hand is sound track
+        film intended to accompany visual images not actually
+        present.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Color characteristics of the motion picture are not
+        known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate (e.g., toned,
+        stained, tinted, etc.)
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>04 - Motion picture presentation format</strong>
+
+    <div class="description">
+      Presentation format for motion pictures.
+    </div>
+
+    <div class="description2 description">
+      Wide-screen is usually indicated with terms such as
+      Techniscope, Todd-AO, Super-Panavision, etc.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Standard sound aperture (reduced
+      frame)</strong>
+
+      <div class="description">
+        Used for non-wide-screen formats.
+      </div>
+
+      <div class="description2 description">
+        Includes all standard sound 35 mm., 16 mm., and super 8
+        mm. film. Should be used even for silent films in which a
+        space has been left for the inclusion of a sound track,
+        i.e., where a full frame silent picture has been cropped
+        to allow space for a sound track.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Nonanamorphic (wide-screen)</strong>
+
+      <div class="description">
+        Wide-screen effect without optically compressing the
+        image or requiring the use of special projection
+        techniques.
+      </div>
+
+      <div class="description2 description">
+        Nonanamorphic wide-screen process is primarily associated
+        with 35 mm. and larger film gauges where the image on the
+        film is natural (not optically compressed) and of smaller
+        frame height, which is expanded by projection on a wide
+        screen through the use of normal lenses and the
+        appropriate aperture plate to give the required aspect
+        ratio.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - 3D</strong>
+
+      <div class="description">
+        Films which achieve a three-dimensional effect originally
+        through the use of two projectors which superimpose two
+        images of the film on the screen (usually a wide screen).
+        It is usually associated with 35 mm. film. Polarized
+        lenses worn by viewers help to create the impression of
+        depth and dimension.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Anamorphic (wide-screen)</strong>
+
+      <div class="description">
+        Films which achieve the wide-screen effect through the
+        use of an image which is optically compressed or squeezed
+        horizontally. It is then expanded to the correct
+        proportions by projection on a wide screen with the use
+        of special lenses that give greater magnification
+        laterally than vertically. Introduced and adopted for
+        commercial use in 1953 under the name of Cinemascope,
+        followed by Techniscope (1963), Naturama, Panavision,
+        etc. Also used for 16 mm. film which employs this
+        process.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Other wide-screen format</strong>
+
+      <div class="description">
+        Any other wide-screen process not covered by other codes.
+        Includes Cinerama, Viterama, Cinemiracle, Circarama and
+        other formats that achieve a wide-screen effect though
+        the use of simultaneous projection of separate prints on
+        very large, sometimes deeply curved screens through the
+        use of multiprojectors that build up the projected
+        picture by a series of images, generally side-by-side.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Standard silent aperture (full frame)</strong>
+
+      <div class="description">
+        35 mm. film on which the exposed picture is approximately
+        the width of the space between the perforation holes of
+        the frame.
+      </div>
+
+      <div class="description2 description">
+        Standard format for silent film from about 1899 until the
+        late 1920's when sound film was introduced and the frame
+        size decreased to make room for the sound track.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Presentation format of the motion picture is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate. An example of
+        this is the 70 mm. Imax format which is a
+        non-rectangular, circular 180 degree limited use format
+        that is not standardized. Imax may not technically be
+        considered a wide-screen format because it does not have
+        an aspect ratio, but it does achieve a wide-screen
+        effect.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>05 - Sound on medium or separate</strong>
+
+    <div class="description">
+      Whether the sound is on the item or separate from the item.
+    </div>
+
+    <div class="charactervalue">
+      <strong># - No sound (silent)</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Sound on medium</strong>
+
+      <div class="description">
+        Always used when coding a separate sound track which is
+        physically part of the film (e.g., magnetic strip on edge
+        of film base).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Sound separate from medium</strong>
+
+      <div class="description">
+        Sound is on a separate medium, designed to accompany the
+        images (e.g., a cassette).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Presence or absence of sound on the item is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>06 - Medium for sound</strong>
+
+    <div class="description">
+      Specific medium used to carry the sound of an item (whether
+      that sound is carried on the item itself or is in the form
+      of accompanying material) and the type of sound playback
+      required.
+    </div>
+
+    <div class="description2 description">
+      Used in conjunction with the information coded in 007/05
+      (Sound on medium or separate) and 007/07 (Dimensions).
+      Typically, the carriers of sound are: 1) optical and/or
+      magnetic track on a film reel or encased in a cassette or
+      cartridge; 2) audio or video tape which may be on a reel or
+      encased in a cassette or cartridge; and 3) sound or
+      videodisc.
+    </div>
+
+    <div class="charactervalue">
+      <strong># - No sound (silent)</strong>
+
+      <div class="description">
+        Sound is not present (i.e., the item is intended to be
+        silent).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Optical sound track on motion picture
+      film</strong>
+
+      <div class="description">
+        Sound to accompany a motion picture is carried on an
+        optical track that is part of the film. Optical sound is
+        the most commonly used process for 16 and 35 mm. film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Magnetic sound track on motion picture
+      film</strong>
+
+      <div class="description">
+        Sound to accompany a motion picture is carried on a
+        separate magnetic track that is part of the film. 70 mm.
+        motion picture films often include magnetic sound tracks.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Magnetic audio tape in cartridge</strong>
+
+      <div class="description">
+        Accompanying sound is carried on a magnetic audio tape
+        cartridge.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Sound disc</strong>
+
+      <div class="description">
+        Sound to accompany an item is carried on a sound disc.
+        Sound discs include 7, 10, and 12 in. vinyl phonograph
+        records and 4 3/4 in. compact discs.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Magnetic audio tape on reel</strong>
+
+      <div class="description">
+        Sound to accompany an item is carried on a reel of
+        magnetic audio tape.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Magnetic audio tape in cassette</strong>
+
+      <div class="description">
+        Sound to accompany an item is carried on a cassette of
+        magnetic audio tape.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - Optical and magnetic sound track on motion
+      picture film</strong>
+
+      <div class="description">
+        Sound to accompany a motion picture is carried on both an
+        optical and magnetic track.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>h - Videotape</strong>
+
+      <div class="description">
+        Sound to accompany an item is included as part of a
+        videotape. Videotape is not ordinarily used to record
+        only sound.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>i - Videodisc</strong>
+
+      <div class="description">
+        Sound to accompany an item is included as part of a
+        videodisc. Videodiscs are not ordinarily used to record
+        only sound. A distinction must be made between videodiscs
+        (e.g., 12 in. laser-scan videodiscs that include video
+        information) and compact discs that are used to record
+        sound only (e.g., 4 3/4 in. audio compact discs). The
+        technology to physically record video or audio
+        information on digital disc systems is the same.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Medium for sound is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>07 - Dimensions</strong>
+
+    <div class="description">
+      Width of a motion picture.
+    </div>
+
+    <div class="description2 description">
+      Only codes that exactly match the measurements of the item
+      as given in the physical description should be used. If no
+      code exactly matches, code z is used.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Standard 8 mm.</strong>
+
+      <div class="description">
+        Width of the motion picture film is standard 8 mm. Motion
+        pictures termed <em>Mauer 8 mm.</em> are recorded as code
+        a.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Super 8 mm./single 8 mm.</strong>
+
+      <div class="description">
+        Width of the motion picture film is super 8 mm. Single 8
+        mm. motion picture film is a Japanese equivalent of super
+        8 mm. motion picture film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - 9.5 mm.</strong>
+
+      <div class="description">
+        Width of the motion picture film is 9.5 mm.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - 16 mm.</strong>
+
+      <div class="description">
+        Width of the motion picture film is 16 mm.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - 28 mm.</strong>
+
+      <div class="description">
+        Width of the motion picture film is 28 mm.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - 35 mm.</strong>
+
+      <div class="description">
+        Width of the motion picture film is 35 mm.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - 70 mm.</strong>
+
+      <div class="description">
+        Width of the motion picture film is 70 mm.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Dimensions are not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>08 - Configuration of playback channels</strong>
+
+    <div class="description">
+      Configuration of playback channels for the sound portion of
+      a motion picture.
+    </div>
+
+    <div class="description2 description">
+      Should be coded based on a clear indication of intended
+      playback. These codes do not refer to the configuration of
+      channels originally recorded unless those channels are all
+      intended to be available on playback.
+    </div>
+
+    <div class="charactervalue">
+      <strong>k - Mixed</strong>
+
+      <div class="description">
+        More than one configuration of playback channels is
+        available on a single motion picture.
+      </div>
+
+      <div class="description2 description">
+        An example would be a film with both monaural optical and
+        stereophonic magnetic sound tracks.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Monaural</strong>
+
+      <div class="description">
+        Configured to be played back on one channel.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Film is silent, has no sound or sound is on separate
+        medium (007/05 contains b).
+      </div>
+
+      <div class="description2 description">
+        Also used when describing an item with separate sound.
+        The configuration of playback channels for the separate
+        sound track would be described in another 007
+        representing the sound recording on accompanying material
+        (e.g., sound on cassette).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>q - Quadraphonic, multichannel, or
+      surround</strong>
+
+      <div class="description">
+        Configured to be played back or more than two channels.
+        Used for Dolby surround sound tracks and other
+        multichannel techniques.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>s - Stereophonic</strong>
+
+      <div class="description">
+        Configured to be played back on two separate channels.
+        Use when the medium is not monaural and when it is not
+        possible to ascertain that multiple playback sources are
+        available or intended.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Configuration of sound playback channels is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>09 - Production elements</strong>
+
+    <div class="description">
+      Whether the film is part of a complete production or is a
+      preliminary or post-production element.
+    </div>
+
+    <div class="description2 description">
+      Materials described in this character position do not
+      represent a complete work (i.e., a finished film).
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Workprint</strong>
+
+      <div class="description">
+        Print from the original camera footage which is edited to
+        a fine degree to achieve the final version.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Trims</strong>
+
+      <div class="description">
+        Sections of shots remaining after the desired portions
+        have been incorporated into the workprint.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Outtakes</strong>
+
+      <div class="description">
+        Shots discarded in the editing of a film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Rushes</strong>
+
+      <div class="description">
+        First positive prints from the laboratory of the previous
+        day's shooting.
+      </div>
+
+      <div class="description2 description">
+        Also called dailies.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Mixing tracks</strong>
+
+      <div class="description">
+        Separate sound tracks that are combined for the final
+        film sound track.
+      </div>
+
+      <div class="description2 description">
+        Mixing tracks may include music, sound effects, and
+        dialog tracks.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Title bands/inter-title rolls</strong>
+
+      <div class="description">
+        Printed captions or titles separated from their
+        corresponding picture.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - Production rolls</strong>
+
+      <div class="description">
+        Various types of production elements (film usually wound
+        on cores) before they are cut and assembled into reels.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Item is not a production element.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>10 - Positive/negative aspect</strong>
+
+    <div class="description">
+      Whether the film is positive or negative.
+    </div>
+
+    <div class="description2 description">
+      Positive/negative aspect of motion picture film is related
+      to the kind of emulsion bonded to and supported by a film
+      base.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Positive</strong>
+
+      <div class="description">
+        Colors and/or tonal values are the same as the original
+        subject matter.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Negative</strong>
+
+      <div class="description">
+        For a black-and-white film, tonal values are the opposite
+        of those in the original subject matter. For a color
+        film, tonal values are the complements of the original
+        subject matter (e.g., red appears as green in a color
+        negative).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Film does not have a positive/negative aspect.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Positive/negative aspect of the film is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>11 - Generation</strong>
+
+    <div class="description">
+      How far away from the original material the item is (e.g.,
+      the actual negative film or original videotape in the
+      camera). Generation data is used to evaluate the quality of
+      available copies, to make preservation decisions, and to
+      identify materials available for viewing and research.
+    </div>
+
+    <div class="description2 description">
+      Concept of <em>generation</em> represents the photographic
+      process required to create, duplicate, and preserve moving
+      image materials. Material that is produced successively
+      from the original is second, third, fourth, etc. generation
+      material (e.g., original negative to master-positive to
+      duplicate negative to reference print).
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Duplicate</strong>
+
+      <div class="description">
+        Duplicate that is usually negative, referred to as a dupe
+        neg, and is a reproduction of the original picture or
+        sound track. A duplicate negative is made from a master
+        positive, which in turn was made from an earlier
+        negative. A duplicate is at least three generations from
+        the original. Duplicate negatives may be prepared either
+        to obtain characteristics not present in the original
+        image, as in special effects work, or to protect and
+        extend the production availability of the assembled
+        original negative as when duplicate negatives are
+        prepared for release printing simultaneously at different
+        labs.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Master</strong>
+
+      <div class="description">
+        Master that is usually positive and referred to as a
+        master positive. It is a specially prepared positive
+        print made from an earlier generation negative film and
+        used for the preparation of duplicate negatives rather
+        than for projection. The master is normally considered
+        second generation material.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>o - Original</strong>
+
+      <div class="description">
+        Original that is usually negative. It is film exposed in
+        a camera and thus of better quality than any subsequent
+        generation or derivative. When referring to older film,
+        an original is almost always a negative. However, the
+        original film may also be a reversal positive.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>r - Reference print/viewing copy</strong>
+
+      <div class="description">
+        Reference print (ref print) that is defined technically
+        as a release print which has been approved by the
+        producer and director of a film. A reference print may
+        also mean a print kept as a reference print to evaluate
+        the quality of subsequent prints. In film archives, the
+        term is used to indicate that a film may be viewed by
+        researchers. It is not original, master, or duplicate
+        material.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Generation stage of the film is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>12 - Base of film</strong>
+
+    <div class="description">
+      Safety base film is a comparatively nonflammable film base
+      that meets ISO requirements for a safety base. On some
+      film, the phrase <em>safety film</em> appears on the edge
+      of motion pictures. Nitrate film base is a highly flammable
+      film base that does not meet the ISO requirements for
+      safety base film.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Safety base, undetermined</strong>
+
+      <div class="description">
+        Safety base film whose type has not been identified.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Safety base, acetate undetermined</strong>
+
+      <div class="description">
+        Acetate safety base film whose exact type cannot be
+        determined, i.e., where it is unknown if the type is
+        diacetate or triacetate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Safety base, diacetate</strong>
+
+      <div class="description">
+        Cellulose diacetate film base. Introduced before World
+        War I for home movies, diacetate base was more expensive
+        and unpredictable than nitrate base and so failed to gain
+        acceptance in professional 35 mm. film production.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>i - Nitrate base</strong>
+
+      <div class="description">
+        Cellulose nitrate film base. Cellulose nitrate support or
+        base was used in the manufacture of 35 mm. film (and some
+        17.5 mm. film) until 1951. Nitrate base film is no longer
+        manufactured.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed base (nitrate and safety)</strong>
+
+      <div class="description">
+        Combination of nitrate base and safety base film. The use
+        of a mixed base was common in the early 1950s when
+        nitrate base stock shots were spliced with safety base
+        film for low-budget motion pictures. In such releases, up
+        to 50% of the film consisted of stock shots on nitrate
+        base film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Item does not have a film base, e.g., paper film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>p - Safety base, polyester</strong>
+
+      <div class="description">
+        Film base made of a synthetic resin (e.g., estar).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>r - Safety base, mixed</strong>
+
+      <div class="description">
+        Mixed safety base films spliced together, but <em>no
+        nitrate film</em>.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>t - Safety base, triacetate</strong>
+
+      <div class="description">
+        Cellulose triacetate film base. Cellulose triacetate is a
+        high acetal compound with very low flammability and slow
+        burning characteristics. From 1951, triacetate has been
+        used for professional as well as for amateur produced
+        moving image film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Base of the film is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>13 - Refined categories of color</strong>
+
+    <div class="description">
+      More specific color characteristics of the moving image
+      than are contained in 007/03 (Color).
+    </div>
+
+    <div class="description2 description">
+      If the color portions of the item include more than one
+      color process, a code for the predominant color process is
+      given. The additional color processes are described in
+      field 500 (General Note).
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - 3 layer color</strong>
+
+      <div class="description">
+        Three layers of emulsion: cyan, magenta, and yellow. Each
+        layer is sensitive to its own primary color. Beginning in
+        the early 1950's, color film work has been done primarily
+        on 3 layer, also called multilayer, film. This process is
+        also known as integral tri-pack.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - 2 color, single strip</strong>
+
+      <div class="description">
+        Single strip of film was exposed with pairs of images by
+        means of a beam-splitter prism. One of the pairs of
+        images was exposed through a red filter and one through a
+        green filter. The resulting negative was used to produce
+        both prints consisting of two strips cemented together,
+        and, later in the history of the process, two color dye
+        transfer prints. Also known as <em>red and green
+        Technicolor</em>, the process was used exclusively by
+        Technicolor and had its heyday between 1922 and 1933,
+        although it was used until 1936 for animated cartoons.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Undetermined 2 color</strong>
+
+      <div class="description">
+        System of color reproduction, which cannot be
+        specifically identified, in which the visible spectrum is
+        divided either into blue and red regions or into green
+        and red regions for recording and presentation. Although
+        extensively used in early color film processes, the
+        inherent inability of two components to reproduce a
+        satisfactory range of hues rendered all such systems
+        obsolete when three-color processes became readily
+        available and relatively inexpensive.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Undetermined 3 color</strong>
+
+      <div class="description">
+        System of color reproduction, which cannot be
+        specifically identified, in which the visible spectrum is
+        divided into three sections, normally red, green, and
+        blue, for the purposes of recording and presentation.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - 3 strip color</strong>
+
+      <div class="description">
+        Color system in which three color-separation negatives
+        were produced on black-and-white film. 3 strip color is
+        often used synonymously with the trademark Technicolor.
+        In the Technicolor three-component system, light
+        reflected from the subject matter is transmitted through
+        the single lens of a special camera where it strikes a
+        prism. One part of the light is passed through the prism
+        and a green filter to produce a green record. The
+        remainder of the light is reflected from the prism and
+        absorbed by negatives to produce red and blue records.
+        Each of the negatives is developed to produce new
+        negatives which resemble black-and-white negatives.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - 2 strip color</strong>
+
+      <div class="description">
+        Color system in which two strips of film, one to record
+        red light and one to record blue, were run through the
+        camera simultaneously and exposed through the base of the
+        front piece of film. These two strips of negatives were
+        then used to produce prints of duplitized film stock
+        (film stock with emulsion on both sides of the base),
+        with a red-dyed image on one side, and a blue-dyed or
+        -toned image on the other. Although extensively used in
+        early color film processes, the inherent inability of two
+        components to reproduce the visible color spectrum
+        rendered all such systems obsolete when three-color
+        processes became readily available. The process used from
+        about 1929 to about 1950 by, among others, the following
+        companies: Cinecolor, Magnacolor, and Multicolor.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - Red strip</strong>
+
+      <div class="description">
+        Cinecolor process, in which the color separation record
+        of blue-green light prints as red. In the Super Cinecolor
+        process, the color separation record of green light which
+        prints as magenta (called "red" by Cinecolor). In the
+        two-color Technicolor process, the color separation
+        record of green light which prints as red.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>h - Blue or green strip</strong>
+
+      <div class="description">
+        Cinecolor process and the Super Cinecolor process, in
+        which the blue strip is the color separation record of
+        red light which prints as blue-green (called "blue" by
+        Cinecolor). In the two-color Technicolor process, the
+        green strip is the color separation record of magenta-red
+        light which prints as green.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>i - Cyan strip</strong>
+
+      <div class="description">
+        Color separation record of red light which prints as
+        cyan.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>j - Magenta strip</strong>
+
+      <div class="description">
+        Color separation record of green light which prints as
+        magenta.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>k - Yellow strip</strong>
+
+      <div class="description">
+        Color separation record of blue light which prints as
+        yellow.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>l - S E N 2</strong>
+
+      <div class="description">
+        Successive exposure negative 2. S E N 2 is a method of
+        motion picture color photography in which two color
+        separation negative images were recorded on one strip of
+        film by photographing each frame two times successively
+        through red and blue filters. The resultant negative was
+        subsequently optically printed by the use of a skip-frame
+        mechanism. The process was restricted to the photography
+        of animated cartoon and puppet subjects in which the
+        movement from frame to frame could be controlled. The
+        successive exposure process was rendered obsolete by the
+        introduction of 3 layer (multilayer) color negative film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - S E N 3</strong>
+
+      <div class="description">
+        Successive exposure negative 3. S E N 3 is a method of
+        motion picture color photography in which three color
+        separation negative images were recorded on one strip of
+        film by photographing each frame three times successively
+        through red, blue, and green filters. The resultant
+        negative was subsequently optically printed by the use of
+        a skip-frame mechanism. The process was usually
+        restricted to the photography of animated cartoon and
+        puppet subjects in which the movement from frame to frame
+        could be controlled. The successive exposure process was
+        rarely used after the introduction of 3 layer
+        (multilayer) color negative film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Item is not a color film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>p - Sepia tone</strong>
+
+      <div class="description">
+        Sepia tone which is a conversion of a black-and-white
+        image in silver to sepia (a brownish grey to dark olive
+        brown) by metallic compounds. Sepia was the most common
+        tone used, and was used in black-and-white prints of
+        films for special sequences to enhance the dramatic or
+        pictorial effect.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>q - Other tone</strong>
+
+      <div class="description">
+        Color created by chemically altering the color, for
+        example, uranium produces red, or increasing the
+        brilliance of a print. Toning differs from tinting in
+        that the clear portions of the film remain unaffected.
+        Only the silver image of the positive film becomes
+        colored.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>r - Tint</strong>
+
+      <div class="description">
+        Early in the history of tinting, a tint was created by
+        dipping film in a bath of chemical dyes to get a dominant
+        hue. Later raw stock became available already tinted in
+        eleven stock shades: peach blow, blue for moonlight,
+        amber for firelight, etc. The tinting of a film may be in
+        whole or in part. Tinting was common until the advent of
+        sound.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>s - Tinted and toned</strong>
+
+      <div class="description">
+        Color has been added to a film by using a tinted base and
+        a toned emulsion.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>t - Stencil color</strong>
+
+      <div class="description">
+        Color is added using stencils, one cut for each color.
+        Stencil color replaced the hand-coloring used in earlier
+        years.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Refined category of color is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>v - Hand colored</strong>
+
+      <div class="description">
+        Image, produced by a photographic process, is hand
+        colored. Used whenever code h (hand-colored) is present
+        in 007/03 (Color).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate, such as when no
+        single color process is predominant.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>14 - Kind of color stock or print</strong>
+
+    <div class="description">
+      Type of color film stock or color print the item
+      represents.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Imbibition dye transfer prints</strong>
+
+      <div class="description">
+        Film color prints created by the transfer of two or more
+        differently colored dye images to a single strip of blank
+        film. The dye transfer process was used only to produce
+        prints. Imbibition dye transfer prints can be produced
+        from film originally shot on either multi-strip or
+        multi-layer film. The process was used only by the
+        Technicolor Company from ca. 1928 to ca. 1975. The
+        patents were sold to the People's Republic of China, and
+        since ca. 1980, the process has been available only in
+        China.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Three-layer stock</strong>
+
+      <div class="description">
+        Color film stock with three layers of emulsion: cyan,
+        magenta and yellow. Each layer is sensitive to its own
+        primary color. Since the early 1950's, most color films
+        have been both shot and printed on this stock. It is also
+        called multilayer film stock.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Three layer stock, low fade</strong>
+
+      <div class="description">
+        Color film stock with three layers of emulsion: cyan,
+        magenta and yellow. Each layer is sensitive to its own
+        primary color and stabilized to reduce color fading as
+        much as possible. It has been available since ca. 1983.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Duplitized stock</strong>
+
+      <div class="description">
+        Color print stock with emulsion on both sides. Usually
+        one side is dyed red, and the other side is dyed or toned
+        blue.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Item is not a color film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Type of color film stock is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>15 - Deterioration stage</strong>
+
+    <div class="description">
+      Level of deterioration of the motion picture film.
+    </div>
+
+    <div class="description2 description">
+      Codes are listed according to the seriousness of the
+      deterioration. If more than one condition is applicable to
+      the film in hand, the code for the most serious condition
+      is recorded.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - None apparent</strong>
+
+      <div class="description">
+        No deterioration is apparent on either nitrate or
+        non-nitrate motion picture film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Nitrate: suspicious odor</strong>
+
+      <div class="description">
+        Codes b-h are used for recording nitrate deterioration.
+        The codes are listed according to the seriousness of the
+        condition of deterioration. If more than one condition is
+        applicable to the film in hand, the code for the most
+        serious condition is recorded.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Nitrate: pungent odor</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Nitrate: brownish, discoloration, fading,
+      dusty</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Nitrate: sticky</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Nitrate: frothy, bubbles, blisters</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - Nitrate: congealed</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>h - Nitrate: powder</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>k - Non-nitrate: detectable deterioration</strong>
+
+      <div class="description">
+        Codes k-m are used to record deterioration of non-nitrate
+        materials (safety film, etc.). The codes are listed
+        according to the seriousness of the deterioration. If
+        more than one condition is applicable to the film in
+        hand, the code for the most serious condition is
+        recorded.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>l - Non-nitrate: advanced deterioration</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Non-nitrate: disaster</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>16 - Completeness</strong>
+
+    <div class="description">
+      Whether or not the item being cataloged is judged to be
+      complete.
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Complete</strong>
+
+      <div class="description">
+        Judged to be complete.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>i - Incomplete</strong>
+
+      <div class="description">
+        Judged to be incomplete.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Completeness is not applicable to the type of motion
+        picture, e.g., home movies, unedited footage, outtakes,
+        and in some cases, unidentified material, etc.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Completeness of the item is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>17-22 - Film inspection date</strong>
+
+    <div class="description">
+      Six characters that indicate the most recent film
+      inspection date; the date is recorded in the pattern
+      <em>ccyymm</em> (century/year/month). A hyphen is used for
+      any unknown portion of the date. Six fill characters
+      (||||||) are used if no attempt is made to code these
+      character positions.
+    </div>
+
+    <div class="description2 description">
+      Film inspection date may be the date the item was cataloged
+      or the date it was viewed. If the date is completely
+      unknown, six hyphens are recorded.
+
+      <div class="example">
+        <table width="100%">
+          <tr>
+            <td align="left" width="5%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="15%" valign="top"></td>
+          </tr>
+
+          <tr>
+            <td align="left" colspan="1" valign="top">
+            <strong>007/17-22</strong></td>
+
+            <td align="left" colspan="8" valign="top">199312<br>
+            <em>[December 1993]</em></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="example">
+        <table width="100%">
+          <tr>
+            <td align="left" width="5%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="10%" valign="top"></td>
+
+            <td align="left" width="15%" valign="top"></td>
+          </tr>
+
+          <tr>
+            <td align="left" colspan="1" valign="top">
+            <strong>007/17-22</strong></td>
+
+            <td align="left" colspan="8" valign="top">1987--<br>
+            <em>[Inspected in 1987; the month is not
+            known]</em></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <hr>
+
+    <h4><span class="box">â </span> EXAMPLES</h4>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>007/00-22</strong></td>
+
+          <td align="left" colspan="8" valign="top">
+          mr#caaadmnartauac198606<br>
+          <em>[Item is a motion picture (007/00); on reel (01);
+          in color (03); standard sound aperture (04); on medium
+          (05); optical track (06); 16 mm. (07); monaural sound
+          (08); production elements not applicable (09); positive
+          emulsion (10); reference print/viewing copy (11);
+          safety base (triacetate) (12); three-layer color (13);
+          kind of color stock unknown (14); no apparent
+          deterioration (15); complete film (16); and film
+          inspected June 1986 (17-22).]</em></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>007/00-22</strong></td>
+
+          <td align="left" colspan="8" valign="top">
+          mr#bf##fnnartnnai198512<br>
+          <em>[Item is a motion picture (007/00); on reel (01);
+          in black-and-white (03); standard silent aperture (04);
+          no sound (05-06); 35 mm. (07); kind of sound and
+          production elements not applicable (08-09); positive
+          emulsion (10); reference print (11); safety base
+          (triacetate) (12); color categories and stock not
+          applicable (13-14) no apparent deterioration (15);
+          incomplete film (16); and film was inspected December
+          1985 (17-22).]</em></td>
+        </tr>
+      </table>
+    </div>
+    <hr>
+
+    <h3>INPUT CONVENTIONS</h3>
+
+    <div class="description2">
+      <strong>Field length</strong> - Field 007 for the category
+      of material <strong>motion picture</strong> currently has
+      23 character positions defined for it. The first eight
+      positions (007/00-07) should always be used. An institution
+      may choose additionally to code positions following 007/07
+      up to and including 007/22. Because the definitions of the
+      codes in field 007 are dependent upon the character
+      position in which they occur, the coding of any character
+      position following 007/07 mandates that each preceding
+      character position contains a code or fill character (|).
+    </div>
+    <hr>
+
+    <h3>CONTENT DESIGNATOR HISTORY</h3>
+
+    <div class="font_small">
+      <em>007/01 - Specific material
+      designation [NEW, 2009]</em>
+
+      <div class="charactervaluehistory">
+        <em>o - Film roll [NEW,
+        2009]</em>
+      </div><br>
+      <em>007/02 - Original versus reproduction aspect [OBSOLETE,
+      1997] [USMARC only]</em>
+
+      <div class="description">
+        Defined codes were: f (Facsimile), o (Original), r
+        (Reproduction), and u (Unknown).
+      </div><br>
+      <em>007/04 - Motion picture presentation format</em>
+
+      <div class="charactervaluehistory">
+        <em>n - Not applicable [OBSOLETE, 1983]</em>
+      </div>
+
+      <div class="charactervaluehistory">
+        <em>e - Other [OBSOLETE, 1980]</em>
+      </div>
+
+      <div class="charactervaluehistory">
+        <em>e - Other wide-screen format [NEW, 1981]</em>
+      </div><br>
+      <em>007/06 - Medium for sound</em>
+
+      <div class="charactervaluehistory">
+        <em>g - Other [OBSOLETE, 1980]</em>
+      </div>
+
+      <div class="charactervaluehistory">
+        <em>g - Optical and magnetic sound track on motion
+        picture film [NEW, 1985]</em>
+      </div><br>
+      <em>007/09 - Productions elements</em>
+
+      <div class="charactervaluehistory">
+        <em>h - Other [OBSOLETE, 1988]</em>
+      </div><br>
+      <em>007/17-22 - Film inspection date [CAN/MARC only]</em>
+
+      <div class="description">
+        Prior to the definition of this character position, the
+        film inspection date was coded in field 009/16-19 for
+        Visual Materials (Film inspection date).
+      </div>
+    </div>
+    <hr>
+
+    <table cellpadding="0" cellspacing="0" border="0" width=
+    "100%">
+      <tr valign="bottom">
+        <td>
+          <div class="head-nav">
+            <a href="http://www.loc.gov/">Library of Congress</a>
+            &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+            &gt;&gt; <a href=
+            "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+            &gt;&gt; <a href=
+            "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
+            &gt;&gt;<a href=
+            "http://www.loc.gov/marc/bibliographic/bd007.html">007</a>
+            &gt;&gt; <strong>007 (Motion Picture)</strong>
+          </div>(11/12/2009)
+        </td>
+
+        <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+        Us</a></td>
+      </tr>
+    </table>
+  </div>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

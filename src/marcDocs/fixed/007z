@@ -1,0 +1,176 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 007: Unspecified 
+         					 (Network Development and MARC Standards Office, Library of
+         					Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the 007 for unspecified (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-left:6em; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {margin-left:4em;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> 
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd007.html">007</a> &gt;&gt; <strong>007 (Unspecified) </strong></div>
+      <hr><a name="skip_menu"></a><h1>007 - Unspecified (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">February 1999</div>
+      <hr><strong>Indicators and Subfield Codes</strong><div class="description">Field has no indicators or subfield codes; the data elements are positionally
+                  defined.
+      </div>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>Character Positions</strong><br>
+              <strong>00 - Category of material </strong><br>
+              z - Unspecified <br><br>
+              <strong>01 - Specific material designation </strong><br>
+              m - Multiple physical forms <br>u - Unspecified <br>z - Other <br>| - No attempt to code <br><br></td>
+            <td width="45%">&nbsp;</td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>When field 007/00 contains code z, the special coded information about physical
+                     characteristics relates to an <strong>unspecified</strong> category of material.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> CHARACTER POSITIONS
+      </h4>
+      <div class="characterposition"><strong>00 - Category of material  </strong><div class="charactervalue"><strong>z - Unspecified</strong> <div class="description">One-character alphabetic code that indicates the category of material to which
+                                    the item belongs is <strong>unspecified</strong>, which means that the item is
+                                    not identified by one of the other 007 code values or that its multiple
+                                    physical forms are not being specifically denoted (for instance, when the item
+                                    in hand is a collection containing different material categories and an
+                                    institution chooses not to input separate 007 fields for the various
+                                    components). A fill character (|) is not allowed in this position.
+            </div>
+         </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>01 - Specific material designation  </strong><div class="description">Special class of material to which the item belongs.</div>
+         <div class="charactervalue"><strong>m - Multiple physical forms</strong> <div class="description">Multiple physical forms are involved.</div>
+         </div>
+         <div class="charactervalue"><strong>u - Unspecified</strong> <div class="description">Physical form of the item is not specified.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <h4><span class="box">&#9632;</span>EXAMPLES
+      </h4>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>007</strong></td>
+               <td vAlign="top" colspan="8" align="left">zz<br><em>[Item is a musical score.]</em></td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>007</strong></td>
+               <td vAlign="top" colspan="8" align="left">zz<br><em>[Item is a model.]</em></td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>007</strong></td>
+               <td vAlign="top" colspan="8" align="left">zm<br><em>[Item is a collection containing different material categories and separate 007
+                                       fields are not being input for the various components.]</em></td>
+            </tr>
+         </table>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Field length</strong> - Field 007 for the category of material <strong>unspecified</strong> currently has only
+                     two character positions defined for it.
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd007.html">007</a> &gt;&gt; <strong>007 (Unspecified) </strong></div> 
+               (02/14/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

@@ -1,0 +1,430 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>MARC 21 Format for Bibliographic Data: 552: Entity and Attribute Information Note (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the entity and attribute information note (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a> &gt;&gt; <strong>552</strong></div>
+      <hr><a name="skip_menu"></a><h1>552 - Entity and Attribute Information Note (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2003</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Entity type label (NR) <br>$b - Entity type definition and source (NR) <br>$c - Attribute label (NR) <br>$d - Attribute definition and source (NR) <br>$e - Enumerated domain value (R) <br>$f - Enumerated domain value definition and source (R) <br>$g - Range domain minimum and maximum (NR) <br>$h - Codeset name and source (NR) <br>$i - Unrepresentable domain (NR) <br>$j - Attribute units of measurement and resolution (NR) <br></td>
+            <td colspan="1">$k - Beginning and ending date of attribute values (NR) <br>$l - Attribute value accuracy (NR) <br>$m - Attribute value accuracy explanation (NR) <br>$n - Attribute measurement frequency (NR) <br>$o - Entity and attribute overview (R) <br>$p - Entity and attribute detail citation (R) <br>$u - Uniform Resource Identifier (R) <br>$z - Display note (R) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Description of the information content of the data set, including the entity types,
+         their attributes, and the domains from which attribute values may be assigned.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <ul>
+         <li>Both indicators are undefined; each contains a blank (#).</li>
+      </ul>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Entity type label</strong> <div class="description">Name of a set into which similar entity instances are classified.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>552</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Elevation point<strong>$b</strong>a point of known elevation<strong>$c</strong>Elevation<strong>$d</strong>altitude above or below a reference datum<strong>$g</strong>999 to 2641<strong>$j</strong>meters.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Entity type definition and source</strong> <div class="description">Description of the entity type and the authority of the definition.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>552</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Scale bar and text, title information text<strong>$b</strong>Level 1, Green
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - Attribute label</strong> <div class="description">Name of a defined characteristic of an entity.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>552</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>soil type<strong>$b</strong>soil mapping unit polygon (SCS)<strong>$c</strong>numbered<strong>$d</strong>soil category,user-defined <strong>$g</strong>1-4<strong>$j</strong>integer<strong>$k</strong>19940809-19940812<strong>$l</strong>untested
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$d - Attribute definition and source</strong> <div class="description">Description of a defined characteristic of an entity and the authority of the
+                              definition.
+         </div>
+		 <div class="description">
+         <div class="description2">See subfield $c example.</div></div>
+      </div>
+      <div class="subfield"><strong>$e - Enumerated domain value</strong> <div class="description">Name or label of a member of an established set of valid values.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>552</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$c</strong>AREA<strong>$d</strong>Area of poly/region in square coverage units, computer<strong>$e</strong>positive real numbers; Source: Circum-Arctic Map of
+                                             Permafrost and Ground-Ice Conditions
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$f - Enumerated domain value definition and source</strong> <div class="description">Description of the value and the authority of the definition.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>552</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>FED_BND.PAT<strong>$b</strong>polygon attribute table for fed_bnd, computed<strong>$e</strong>12<strong>$f</strong>floating, USGS
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$g - Range domain minimum and maximum</strong> <div class="description">Least value and greatest value of a continuum of valid values that the attribute
+                              can be assigned.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>552</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>soil type<strong>$b</strong>soil mapping unit polygon (SCS)<strong>$c</strong>numbered<strong>$d</strong>soil category, user-defined<strong>$g</strong>1-4<strong>$j</strong>integer<strong>$k</strong>19940809-19940812<strong>$l</strong>untested
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$h - Codeset name and source</strong> <div class="description">Title of a standard or list which contains the members of an established set of
+                              valid values and the authority of the standard or list.
+         </div>
+      </div>
+      <div class="subfield"><strong>$i - Unrepresentable domain</strong> <div class="description">Description of the values and reasons why they cannot be represented.</div>
+      </div>
+      <div class="subfield"><strong>$j - Attribute units of measurement and resolution</strong> <div class="description">Standard of measurement for an attribute value and the smallest unit increment to
+                              which an attribute value is measured.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>552</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>floodplain polygon<strong>$b</strong>100 and 500 year floodplain zones (FIRM maps (FEMA))<strong>$c</strong>user-id<strong>$d</strong>floodplain zone, USACERL<strong>$g</strong>100-500<strong>$j</strong>Years (time)
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$k - Beginning and ending date of attribute values</strong> <div class="description">Earliest and latest date for which the attribute values are valid. The date is
+                              expressed in four digits.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>552</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>soil type<strong>$b</strong>soil mapping unit polygon (SCS)<strong>$c</strong>numbered<strong>$d</strong>soil category, user-defined<strong>$g</strong>1-4<strong>$j</strong>integer<strong>$k</strong>19940809-19940812<strong>$l</strong>untested
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$l - Attribute value accuracy</strong> <div class="description">Estimate of the accuracy of the assignment of attribute values.</div>
+	  <div class="description">
+         <div class="description2">See subfield $k example.</div>
+      </div></div>
+      <div class="subfield"><strong>$m - Attribute value accuracy explanation</strong> <div class="description">Definition of the Attribute Accuracy measure and units, and a description of how
+                              the estimate was derived.
+         </div>
+      </div>
+      <div class="subfield"><strong>$n - Attribute measurement frequency</strong> <div class="description">Frequency with which attribute values are added.</div>
+      </div>
+      <div class="subfield"><strong>$o - Entity and attribute overview</strong> <div class="description">Detailed summary of the information contained in a data set.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>552</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$o</strong>soil polygons with user defined
+                                          attributes
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$p - Entity and attribute detail citation</strong> <div class="description">Reference to the complete description of the entity types, attributes, and
+                              attribute values for the data set.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>552</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$o</strong>Three observables: Carrier-phase measurements,
+                                             pseudorange (code) measurements, and observation times, as well as station
+                                             and antenna information<strong>$p</strong>GPS Bulletin, Vol. 3, No. 3, September-October 1990
+                                             issue, from the Commission VIII International Coordination of Space
+                                             Techniques for Geodesy and Geodynamics
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$u - Uniform Resource Identifier</strong> <div class="description">Uniform Resource Identifier (URI), for example a URL or URN, which provides
+                              electronic access data in a standard syntax. This data can be used for automated
+                              access to an electronic item using one of the Internet protocols.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>552</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$u</strong>&lt;URI&gt;
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$z - Display note</strong> <div class="description">Note that introduces the data in the field when needed.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>552</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$z</strong>Entity values:<strong>$u</strong>&lt;URI&gt;
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Field 552 ends with a period unless another mark of punctuation is present.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small">This field was established provisionally as field 551, but changed to field 552 in 1999
+                     to eliminate conflicts in the definition of field 004 in the Holdings and field 551 in
+                     the Community Information formats.<br>
+   <br><em>$u - Uniform Resource Identifier [NEW, 2000]</em><br><em>$z - Display note [NEW, 2000]</em></div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a> &gt;&gt; <strong>552</strong></div> (02/25/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

@@ -1,0 +1,337 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 086: Government Document Classification Number (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the government document classification number (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>086</strong></div>
+      <hr><a name="skip_menu"></a><h1>086 - Government Document Classification Number (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2001</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Number source</em><br># - Source specified in subfield $2 <br>0 - Superintendent of Documents Classification System <br>1 - Government of Canada Publications: Outline of Classification <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Classification number (NR) <br>$z - Canceled/invalid classification number (R) <br>$2 - Number source (NR) <br></td>
+            <td colspan="1">$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Classification number assigned to documents by designated agencies in countries that
+                 have a government documents classification program.
+      </p>
+      <p>Government agency may be at any level (e.g., provincial, state, national,
+         international). If a number can be characterized as both a stock number (field 037) and
+         a classification number, the number is recorded in field 086. If the nature of the
+                     number is unknown, it is recorded in field 037 (Source of Acquisition). Field 086 is
+                     repeated for multiple valid government document classification numbers.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Number source</strong> <div class="description">Source of the government document classification number.
+            <div class="indicatorvalue"><strong># - Source specified in subfield $2</strong> <div class="description">Classification number other than the U.S. or Canadian scheme.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>086</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>HEU/G74.3C49<strong>$2</strong>ordocs
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Superintendent of Documents Classification System</strong> <div class="description">Assigned by the U.S Government Printing Office. <em>Supt. of Docs. no.:</em>
+                                       may be generated for display.Superintendent of Documents may be input by other institutions if verified in
+                                       the <em>Monthly Catalog of United States Government Publications</em> or the
+                                          <em>Daily Depository Shipping List.</em><div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>086</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>A 13.28:F 61/2/981 Glacier
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Government of Canada Publications: Outline of Classification</strong> <div class="description">Source is <em>Government of Canada Publications: Outline of
+                                          Classification</em>. The Canadian government printing office assigns
+                                       classification numbers to denote special series or publications of a given
+                                       department.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>086</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>CS13-211
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
+            </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Classification number</strong> <div class="description">Government document classification number, including parenthetical qualifying
+                              information.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>086</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>HE 20.6209:13/45
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>086</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>ITC 1.12:TA-503 (A)-18 AND 332-279
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>086</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>LC 3.12:
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$z - Canceled/invalid classification number</strong> <div class="description">Document number that has been canceled or determined to be invalid by the
+                              authoritative agency. Subfield $z is repeated for multiple canceled or
+                              invalid classification numbers.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>086</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>A 1.1:<strong>$z</strong>A 1.1/3:984
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$2 - Number source</strong> <div class="description">MARC code that identifies the government document classification scheme used to
+                              assign the number when the first indicator position contains value #. The code may
+                              be used to generate a display constant to identify the source of the
+                              classification number. Code from: <em><a href="http://www.loc.gov/standards/sourcelist/classification.html">Classification Scheme Source Codes</a></em>.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>086</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>HEU/G74.3C49<strong>$2</strong>ordocs
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Field 086 does not end with a period unless the field ends with an abbreviation,
+                     initial/letter, or other data that ends with a period.
+      </div>
+      <div class="description2"><strong>U.S. Superintendent of Documents Classification numbers</strong> - One space is recorded between letters and numbers unless there is intervening
+                     punctuation. For serially-issued items, only the "stem" of the number, that is, that
+                     part of the number up to the colon or slash which represents the individual title, is
+                     recorded. The date, series number, etc. for the particular issue are not recorded.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>086</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>TD 1.1:<br><em>[Number as it appears on the source is: TD 1.1:985.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Government of Canada Publications: Outline of Classification numbers</strong> -  No spaces are recorded in the number.
+      </div>
+      <div class="description2"><strong>Display Constants</strong> - Content of subfield $2 may be used to generate a display constant that
+                     identifies the source of the number.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small">This field was defined originally as <em>Superintendent of Documents
+                        Classification</em>. Both indicators were undefined; subfield $a contained
+                     the classification number <em>[USMARC only]</em>. In 1975, the scope of the field was
+                     expanded to include document numbers from other government jurisdictions and the name
+                     changed to <em>Government Document Number</em>. In 1981, the scope of the field was restricted to call numbers and classification
+                     numbers.<br>
+                     <br>
+                     <em>Indicator 1 - Government jurisdiction (BK, MP, MU, VM, SE)</em><br>
+                     In 1975, the first indicator was defined as Government jurisdiction with values 0
+                        (United States), 1 (Canada), 2-9 (Reserved). In 1981, the first indicator definition
+                        was made obsolete and subfield $2 was defined for recording a code for the
+                        source of the number. In 1985, the first indicator position was given its present
+                        definition.
+                     <br>            
+        <em>Indicator 2 - Printing Agency [OBSOLETE, 1997] [CAN/MARC only]</em><br>
+                     Second indicator was defined to indicate the name of the printing agency as well as
+                        the language of the work. The values were: # (when first indicator is not &#8220;1"), 0 (IC
+                        cat. no.), 1 (Cat. IC, no.), 2 (QP cat. no.), 3 (Cat. IR, no.), 4 (DSS cat. no.), and
+   5 (Cat. MAS, no.).<br>
+   <br><em>$2 - Number source [NEW, 1981]</em></div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>086</strong></div> (02/21/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

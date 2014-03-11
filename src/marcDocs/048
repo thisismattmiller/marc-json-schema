@@ -1,0 +1,714 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 048:
+         						Number of Musical Instruments or Voices Code (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the number of musical instruments or voices code (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>048</strong></div>
+      <hr><a name="skip_menu"></a><h1>048 - Number of Musical Instruments or Voices Code (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2006</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Source of code</em><br># - MARC code <br>7 - Source specified in subfield $2 <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Performer or ensemble (R) <br>$b - Soloist (R) <br></td>
+            <td colspan="1">$2 - Source of code (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Two-character code that indicates the medium of performance for a musical composition.
+                     Also contains the <em>number</em> of parts, indicated by a two-digit number immediately
+         following the code for the musical instruments or voices (e.g., va02, a two-part
+                     composition for Voices - Soprano). The number of parts may be omitted if not
+                  specified.
+      </p>
+      <p>Codes for the various types of instrumental and vocal combinations are listed in this
+                     section. The function of the instrumentalist or vocalist is represented by the choice of
+                     subfield code.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <p>Record when  medium of performance is stated explicitly or can easily be identified. Field  048 is repeated when more than one medium of performance is stated for a single  composition, or when multiple compositions with different instrumentation are  being described.      </p>
+      <p>If the medium is not stated explicitly in the item and cannot be inferred, field 048 is
+                     not recorded. Types of music for which the medium is not stated include operas, musical
+                     comedies, folk-songs, hymns, school song-books, and sound recordings of popular music.
+                     In most instances, information in character positions 18 and 19 (Form of composition) in
+                     field 008 (Fixed-Length Data Elements) for music, field 047, and subject headings will
+                     also provide useful access.
+      </p>
+      <p>The codes are recorded in score order, and, if possible, the codes for the soloists are
+                     given first. Each code may be followed by a two-digit number (01-99) which indicates the
+                     number of parts or performers. An exception is made for large ensembles, which are
+                     followed by a number when more than one such ensemble is specified.
+      </p>
+      <p><strong>Special cases</strong></p>
+      <p>Arrangements are coded for the medium of the work being described, not for the original
+                     medium.
+      </p>
+      <p>A solo instrument which is not accompanied is coded as a performer (subfield
+                     $a), not as a soloist (subfield $b).
+      </p>
+      <p>If the performer plays more than one instrument in a composition, the code for the first
+                     named instrument is given. If a principal instrument can be determined, the code for
+                     that instrument is given.
+      </p>
+      <p>For percussion music, whether for a single performer or more than one, the code for the
+                     number of performers is given, rather than for the number of instruments.
+      </p>
+      <p>For monologues, or works with narration, the code for unspecified voice (vn) is given
+                     for the speaker or narrator.
+      </p>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
+           
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Source of code</strong> <div class="description">Source of the instruments or voices code used in the field.
+            <div class="indicatorvalue"><strong># - MARC code</strong> <div class="description">Source of the code is the <em>MARC 21 Instruments or Voices Code List</em>.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>7 - Source specified in subfield $2</strong> <div class="description">Source of the instruments or voices code is indicated by a code in subfield
+                                       $2.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>048</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$b</strong>vso01<strong>$a</strong>tth01<strong>$a</strong>tch01<strong>$a</strong>kor01<strong>$2</strong>[code for controlled list]<br><em>[For soprano and continuo group comprised of theorbo, chittarone and
+                                                         positive organ]</em></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>048</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>pcg01<strong>$a</strong>pct01<strong>$a</strong>pxy02<strong>$a</strong>pta01<strong>$2</strong>[code for controlled list]<br><em>[For an ensemble of congas, crotales, two xylophones, and tablas]</em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Performer or ensemble</strong> <div class="description">Two-character code for a performer or ensemble (from the list below) and, if
+                              applicable, a two-digit number specifying the number of parts.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>048</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>ka01<strong>$a</strong>sa01<strong>$a</strong>sc01<br><em>[Piano trio.]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>048</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$b</strong>vi01<strong>$a</strong>ka01<br><em>[For medium voice and piano.]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>048</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>ka01
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>048</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>kb01<br><em>[For piano or organ.]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>048</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$b</strong>oe01<strong>$a</strong>oa<br><em>[Concerto for dance band with orchestra.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Soloist</strong> <div class="description">Two-character alphabetic code for a soloist (from the list below) and, if
+                              applicable, a two-digit number specifying the number of parts.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>048</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$b</strong>va02<strong>$b</strong>vc01<strong>$b</strong>vd01<strong>$b</strong>vf02<strong>$a</strong>ca04<strong>$a</strong>oc<br><em>[Soloists (SSATBB), Chorus (SATB) and string orchestra.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$2 - Source of code</strong> <div class="description">Code from: <em><a href="http://www.loc.gov/standards/sourcelist/musical-instrumentation.html">Musical Instrumentation and Voice Code Source Codes</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+         <div class="description2">
+            <div class="description"><strong>MARC 21 Instruments or Voices Codes</strong></div>
+            <div class="table">
+               <table>
+                  <tr>
+                     <td width="65" align="left" valign="top"><strong>ba</strong></td>
+                     <td width="588" align="left" valign="top">Brass - Horn</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>bb</strong></td>
+                     <td valign="top" align="left">Brass - Trumpet</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>bc</strong></td>
+                     <td valign="top" align="left">Brass - Cornet</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>bd</strong></td>
+                     <td valign="top" align="left">Brass - Trombone</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>be</strong></td>
+                     <td valign="top" align="left">Brass - Tuba</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>bf</strong></td>
+                     <td valign="top" align="left">Brass - Baritone</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>bn</strong></td>
+                     <td valign="top" align="left">Brass - Unspecified</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>bu</strong></td>
+                     <td valign="top" align="left">Brass - Unknown</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>by</strong></td>
+                     <td valign="top" align="left">Brass - Ethnic</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>bz</strong></td>
+                     <td valign="top" align="left">Brass - Other</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ca</strong></td>
+                     <td valign="top" align="left">Choruses - Mixed</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>cb</strong></td>
+                     <td valign="top" align="left">Choruses - Women's</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>cc</strong></td>
+                     <td valign="top" align="left">Choruses - Men's</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>cd</strong></td>
+                     <td valign="top" align="left">Choruses - Children's</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>cn</strong></td>
+                     <td valign="top" align="left">Choruses - Unspecified</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>cu</strong></td>
+                     <td valign="top" align="left">Choruses - Unknown</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>cy</strong></td>
+                     <td valign="top" align="left">Choruses - Ethnic</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ea</strong></td>
+                     <td valign="top" align="left">Electronic - Synthesizer</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>eb</strong></td>
+                     <td valign="top" align="left">Electronic - Tape</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ec</strong></td>
+                     <td valign="top" align="left">Electronic - Computer</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ed</strong></td>
+                     <td valign="top" align="left">Electronic - Ondes Martinot</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>en</strong></td>
+                     <td valign="top" align="left">Electronic - Unspecified</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>eu</strong></td>
+                     <td valign="top" align="left">Electronic - Unknown</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ez</strong></td>
+                     <td valign="top" align="left">Electronic - Other</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ka</strong></td>
+                     <td valign="top" align="left">Keyboard - Piano</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>kb</strong></td>
+                     <td valign="top" align="left">Keyboard - Organ</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>kc</strong></td>
+                     <td valign="top" align="left">Keyboard - Harpsichord</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>kd</strong></td>
+                     <td valign="top" align="left">Keyboard - Clavichord</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ke</strong></td>
+                     <td valign="top" align="left">Keyboard - Continuo</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>kf</strong></td>
+                     <td valign="top" align="left">Keyboard - Celeste</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>kn</strong></td>
+                     <td valign="top" align="left">Keyboard - Unspecified</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ku</strong></td>
+                     <td valign="top" align="left">Keyboard - Unknown</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ky</strong></td>
+                     <td valign="top" align="left">Keyboard - Ethnic</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>kz</strong></td>
+                     <td valign="top" align="left">Keyboard - Other</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>oa</strong></td>
+                     <td valign="top" align="left">Larger ensemble - Full orchestra</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ob</strong></td>
+                     <td valign="top" align="left">Larger ensemble - Chamber orch.</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>oc</strong></td>
+                     <td valign="top" align="left">Larger ensemble - String orchestra</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>od</strong></td>
+                     <td valign="top" align="left">Larger ensemble - Band</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>oe</strong></td>
+                     <td valign="top" align="left">Larger ensemble - Dance orchestra</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>of</strong></td>
+                     <td valign="top" align="left">Larger ensemble - Brass band (brass with some doubling, with or
+                                                      without percussion)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>on</strong></td>
+                     <td valign="top" align="left">Larger ensemble - Unspecified</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ou</strong></td>
+                     <td valign="top" align="left">Larger ensemble - Unknown</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>oy</strong></td>
+                     <td valign="top" align="left">Larger ensemble - Ethnic</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>oz</strong></td>
+                     <td valign="top" align="left">Larger ensemble - Other</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>pa</strong></td>
+                     <td valign="top" align="left">Percussion - Timpani</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>pb</strong></td>
+                     <td valign="top" align="left">Percussion - Xylophone</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>pc</strong></td>
+                     <td valign="top" align="left">Percussion - Marimba</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>pd</strong></td>
+                     <td valign="top" align="left">Percussion - Drum</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>pn</strong></td>
+                     <td valign="top" align="left">Percussion - Unspecified</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>pu</strong></td>
+                     <td valign="top" align="left">Percussion - Unknown</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>py</strong></td>
+                     <td valign="top" align="left">Percussion - Ethnic</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>pz</strong></td>
+                     <td valign="top" align="left">Percussion - Other</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>sa</strong></td>
+                     <td valign="top" align="left">Strings, bowed - Violin</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>sb</strong></td>
+                     <td valign="top" align="left">Strings, bowed - Viola</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>sc</strong></td>
+                     <td valign="top" align="left">Strings, bowed - Violoncello</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>sd</strong></td>
+                     <td valign="top" align="left">Strings, bowed - Double bass</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>se</strong></td>
+                     <td valign="top" align="left">Strings, bowed - Viol</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>sf</strong></td>
+                     <td valign="top" align="left">Strings, bowed - Viola d'amore</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>sg</strong></td>
+                     <td valign="top" align="left">Strings, bowed - Viola da gamba</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>sn</strong></td>
+                     <td valign="top" align="left">Strings, bowed - Unspecified</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>su</strong></td>
+                     <td valign="top" align="left">Strings, bowed - Unknown</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>sy</strong></td>
+                     <td valign="top" align="left">Strings, bowed - Ethnic</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>sz</strong></td>
+                     <td valign="top" align="left">Strings, bowed - Other</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ta</strong></td>
+                     <td valign="top" align="left">Strings, plucked - Harp</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>tb</strong></td>
+                     <td valign="top" align="left">Strings, plucked - Guitar</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>tc</strong></td>
+                     <td valign="top" align="left">Strings, plucked - Lute</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>td</strong></td>
+                     <td valign="top" align="left">Strings, plucked - Mandolin</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>tn</strong></td>
+                     <td valign="top" align="left">Strings, plucked - Unspecified</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>tu</strong></td>
+                     <td valign="top" align="left">Strings, plucked - Unknown</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ty</strong></td>
+                     <td valign="top" align="left">Strings, plucked - Ethnic</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>tz</strong></td>
+                     <td valign="top" align="left">Strings, plucked - Other</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>va</strong></td>
+                     <td valign="top" align="left">Voices - Soprano</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>vb</strong></td>
+                     <td valign="top" align="left">Voices - Mezzo Soprano</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>vc</strong></td>
+                     <td valign="top" align="left">Voices - Alto</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>vd</strong></td>
+                     <td valign="top" align="left">Voices - Tenor</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>ve</strong></td>
+                     <td valign="top" align="left">Voices - Baritone</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>vf</strong></td>
+                     <td valign="top" align="left">Voices - Bass</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>vg</strong></td>
+                     <td valign="top" align="left">Voices - Counter tenor</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>vh</strong></td>
+                     <td valign="top" align="left">Voices - High voice</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>vi</strong></td>
+                     <td valign="top" align="left">Voices - Medium voice</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>vj</strong></td>
+                     <td valign="top" align="left">Voices - Low voice</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>vn</strong></td>
+                     <td valign="top" align="left">Voices - Unspecified</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>vu</strong></td>
+                     <td valign="top" align="left">Voices - Unknown</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>vy</strong></td>
+                     <td valign="top" align="left">Voices - Ethnic</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>wa</strong></td>
+                     <td valign="top" align="left">Woodwinds - Flute</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>wb</strong></td>
+                     <td valign="top" align="left">Woodwinds - Oboe</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>wc</strong></td>
+                     <td valign="top" align="left">Woodwinds - Clarinet</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>wd</strong></td>
+                     <td valign="top" align="left">Woodwinds - Bassoon</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>we</strong></td>
+                     <td valign="top" align="left">Woodwinds - Piccolo</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>wf</strong></td>
+                     <td valign="top" align="left">Woodwinds - English horn</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>wg</strong></td>
+                     <td valign="top" align="left">Woodwinds - Bass clarinet</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>wh</strong></td>
+                     <td valign="top" align="left">Woodwinds - Recorder</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>wi</strong></td>
+                     <td valign="top" align="left">Woodwinds - Saxophone</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>wn</strong></td>
+                     <td valign="top" align="left">Woodwinds - Unspecified</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>wu</strong></td>
+                     <td valign="top" align="left">Woodwinds - Unknown</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>wy</strong></td>
+                     <td valign="top" align="left">Woodwinds - Ethnic</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>wz</strong></td>
+                     <td valign="top" align="left">Woodwinds - Other</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>zn</strong></td>
+                     <td valign="top" align="left">Unspecified instruments</td>
+                  </tr>
+                  <tr>
+                     <td valign="top" align="left"><strong>zu</strong></td>
+                     <td valign="top" align="left">Unknown</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Capitalization</strong> - All instruments and voices codes are recorded in lowercase alphabetic characters.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>Instruments or Voices codes</em><br>
+        <br>In 1980, the second character <em>o (Other)</em> and <em>z (Unknown)</em> instrument and
+                     voice codes were changed to z and u, respectively (e.g., bo (Brass-other) became bz; bz
+                     (Brass-unknown) became bu).<br><br>In 1997, the code <em>pf (Celesta)</em> was made obsolete. <em>[CAN/MARC only]</em><br>
+                     <br>
+                     <em>Indicator 1 - Relationship of performer to work (MU) [OBSOLETE, 1981]</em><br>
+                     First indicator position definition was made obsolete in 1981. The defined values
+                        were: 0 (One performer to a part), 1 (More than one performer to some parts or all
+                        parts), 2 (Soloist with type of ensemble referred to in 1 above).   <em><br>
+                        Indicator 2 - Source of code [NEW, 2005]</em><br>
+   <br><em>$2 - Source of code [NEW, 2005]</em></div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>048</strong></div> (02/20/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

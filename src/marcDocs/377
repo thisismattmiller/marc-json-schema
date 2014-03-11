@@ -1,0 +1,217 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 377:
+         Associated Language (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt;
+               <strong>377</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>377</span> - <span>Associated Language</span> (R)
+      </h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2011</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+            <td><em>Source of code</em><br /><span># - MARC language code</span><br />
+            <span>7 - Source specified in subfield $2</span><br />
+            <br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Language code (R)</li>
+                  <li>$l - Language term (R)</li>
+                  <li>$2 - Source (NR)</li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$6 - Linkage (NR)</li>
+                  <li>$8 - Field link and sequence number (R)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Codes for languages associated with the entity described in the record. 
+               				Includes the language a person uses when writing for publication, broadcasting, 
+               				etc., a language a corporate body uses in its communications, a language of a 
+               				family, or a language in which a work is expressed.
+            </p>
+         </div>
+         <div>
+            <p>Guidelines for using field 377 in relation to field 008/35-37, 041 and 546 in those cases
+               				where the Bibliographic format is used to represent a  work or expression with no 
+               				manifestation information:
+            </p>
+            <p><strong>At 008</strong>:  The 008 supports primarily machine indexing of the language of the resource for 
+               				user tasks to find and select.  Always supply 008 for a resource/manifestation or an expression,
+               				but do not supply if the record is for a work.
+            </p>
+            <p><strong>At 041</strong>:  Supply 041 as needed and as applicable in bibliographic records for the manifestation 
+               				only; do not use if the record is for a work or expression.
+            </p>
+            <p><strong>At 546</strong>:  Use 546 to record textual information about language in bibliographic records for the manifestation
+               			or expression; do not use if the record is for a work.
+            </p>
+            <p><strong>At 377</strong>:  When the resource description is for an expression, the 377 can be supplied even when one 377 
+               				duplicates the language information in the heading $l.  In an expression description, fields 008 and
+               				546 may also contain language information.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p></p>
+         </div>
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p><strong>First Indicator - Undefined</strong></p>
+                  <div>
+                     <p>Undefined and contains a blank (#).</p>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p><strong>Second Indicator - Source of code</strong></p>
+                  <div></div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - MARC language code</span><div>
+                           <p>Code from: <em><a href="http://www.loc.gov/marc/languages/langhome.html">MARC Code List
+                                    								for Languages</a></em>.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">7 - Source specified in $2</span><div>
+                           <p>Source of language code is indicated by a code in subfield $2.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Language code</strong> 
+                  </p>
+                  <div>
+                     <p>A language code identifying the language that a person, organization, 
+                        							or family uses for publication, communication, etc., or in which a 
+                        						    work is expressed.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$l - Language term</strong> 
+                  </p>
+                  <div>
+                     <p>Language that a person, organization, or family uses for publication, 
+                        						communication, etc., or in which a work is expressed.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Source</strong> 
+                  </p>
+                  <div>
+                     <p>Specifies a code that identifies the source of the language code in subfield $a.</p>
+                  </div>
+                  <div>
+                     <p>Code from: <em><a href="http://www.loc.gov/standards/sourcelist/language.html">Language Code and Term Source Codes</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/authority/ecadcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/authority/ecadcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="historyField">
+            <div><em>Field 377 - Associated Language [NEW, 2011]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt;
+               <strong>377</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/01/2011)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

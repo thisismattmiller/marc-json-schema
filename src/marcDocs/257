@@ -1,0 +1,366 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<!-- Re-saved with no modifications to the document on 2/17/10.  Document remains unchanged from 11/12/09-->
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy, see www.w3.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 257: Country of
+  Producing Entity (Network Development and MARC Standards
+  Office, Library of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link href="update10-stylesheet.css" rel="stylesheet" type=
+  "text/css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd25x28x.html">25X-28X</a>
+    &gt;&gt; <strong>257</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <div>
+    <h1>257 - Country of Producing Entity (R)</h1>
+  </div>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Undefined</em><br>
+      # - Undefined<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Undefined</em><br>
+      # - Undefined<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Country of
+      producing entity (R)<br>
+      $2 - Source (NR)<br></td>
+
+      <td colspan="1">$6 - Linkage (NR)<br>
+      $8 - Field link and sequence number (R)<br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>Name or abbreviation of the name of the country(s) where the
+  principal offices of the producing entity(s) of a
+  resource are located.</p>
+
+  <p>Entity(s) in this instance is the production company(s) or
+  individual that is named in the statement of responsibility
+  (subfield $c) of field 245 (Title Statement).</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <ul>
+    <li>Both indicator positions are undefined; each contains a
+    blank (#).</li>
+  </ul>
+
+  <h4><span class="box">â </span> SUBFIELD CODES</h4>
+
+  <div class="subfield">
+    <strong>$a - Country of producing
+    entity</strong>
+
+    <div class="description">
+      Name or abbreviation of the name of the country(s) where
+      the principal offices of the producing entity(s) of a resource are
+      located.
+    </div>
+
+    <div class="description2 description">
+      May contain the abbreviation <em>[S.l.]</em> when the
+      country is unknown.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>257</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>U.S.</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>257</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>[S.l.].</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>257</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>Italy ;
+          France.</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">500</td>
+
+          <td valign="top" colspan="9" align="left">##$aAvers
+          Film has separate offices in Italy and France.</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>257</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>France<strong>$a</strong>Germany<strong>$a</strong>Italy<strong>$2</strong>naf</td>
+        </tr>
+      </table>
+    </div>
+  	<div class="example">
+  		<table width="100%">
+  			<tr>
+  				<td valign="top" width="5%" align="left"></td>
+  				
+  				<td valign="top" width="10%" align="left"></td>
+  				
+  				<td valign="top" width="10%" align="left"></td>
+  				
+  				<td valign="top" width="10%" align="left"></td>
+  				
+  				<td valign="top" width="10%" align="left"></td>
+  				
+  				<td valign="top" width="10%" align="left"></td>
+  				
+  				<td valign="top" width="10%" align="left"></td>
+  				
+  				<td valign="top" width="10%" align="left"></td>
+  				
+  				<td valign="top" width="10%" align="left"></td>
+  				
+  				<td valign="top" width="15%" align="left"></td>
+  			</tr>
+  			<tr>
+  				<td vAlign="top" colspan="1" align="left"><strong>257</strong></td>
+  				<td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>United States<strong>$2</strong>naf
+  				</td>
+  			</tr>
+  			<tr>
+  				<td vAlign="top" colspan="1" align="left"><strong>257</strong></td>
+  				<td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Italy<strong>$2</strong>naf
+  				</td>
+  			</tr>
+  		</table>
+  	</div>
+  </div>
+
+  <div class="subfield">
+    <strong>$2 - Source</strong>
+
+    <div class="description">
+      MARC code that identifies the source of the term in
+      subfield $a.
+    </div>
+
+    <div class="description2 description">
+      Code from: <em><a href=
+      "http://www.loc.gov/standards/sourcelist/subject.html">Subject Heading and Term Source Codes</a></em>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$6 - Linkage</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em> .
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$8 - Field link and sequence number</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em> .
+    </div>
+  </div>
+  <hr>
+
+  <h3>INPUT CONVENTIONS</h3>
+
+  <div class="description2">
+  	<strong>Punctuation</strong> - Field 257 ends with a mark of 
+  		punctuation unless the last word in the field is an abbreviation, initial/letter, 
+  		or other data that ends with a mark of punctuation.  No punctuation is recorded 
+  		between subfields.
+  </div>
+  <hr>
+
+  <h3>CONTENT DESIGNATOR HISTORY</h3>
+
+  <div class="font_small">
+    <div>
+      <em>Field 257 - Country of Producing Entity [RENAMED,
+      2009]</em><br>
+      Prior to 2010 was named "Country of Producing Entity for
+      Archival Films" and was (NR)
+    </div>
+
+    <div>
+      <em>$a - Country of producing entity [RENAMED,
+      2009]</em><br>
+      Prior to 2010 was named "Country of Producing Entity for
+      Archival Films" and was (NR)
+    </div>
+
+    <div>
+      <em>$2 - Source (NR) [NEW, 2009]</em>
+    </div>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd25x28x.html">25X-28X</a>
+          &gt;&gt; <strong>257</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

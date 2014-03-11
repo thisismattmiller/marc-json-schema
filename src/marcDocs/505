@@ -1,0 +1,519 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>MARC 21 Format for Bibliographic Data: 505: Formatted Contents Note (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the formatted contents note (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a> &gt;&gt; <strong>505</strong></div>
+      <hr><a name="skip_menu"></a><h1>505 - Formatted Contents Note (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2001</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Display constant controller</em><br>0 - Contents <br>1 - Incomplete contents <br>2 - Partial contents <br>8 - No display constant generated <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Level of content designation</em><br># - Basic <br>0 - Enhanced <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Formatted contents note (NR) <br>$g - Miscellaneous information (R) <br>$r - Statement of responsibility (R) <br>$t - Title (R) <br></td>
+            <td colspan="1">$u - Uniform Resource Identifier (R) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Titles of separate works or parts of an item or the table of contents. The field may
+         also contain statements of responsibility and volume numbers or other sequential
+                     designations.
+      </p>
+      <p>Chapter numbers are generally omitted. This field contains a formatted contents note.
+                     Contents information may be encoded at one of two levels; basic or enhanced. For some
+                     materials, data normally belonging in other notes or in other areas of description may
+                     be included (e.g., the number of pages, pieces, frames in each part).
+      </p>
+      <p>For <strong>mixed materials</strong> and materials under archival control, this field
+                     may contain the table of contents of a finding aid.
+      </p>
+      <p>Unformatted contents notes are recorded in field 500 (General Note).</p>
+      <p>The note is usually displayed and/or printed with an introductory term or phrase that is
+                     generated as a display constant based on the first indicator value.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Display constant controller</strong> <div class="description">Controls the generation of an introductory phrase.
+            <div class="indicatorvalue"><strong>0 - Contents</strong> <div class="description">Complete contents of an item. Value 0 is used to generate the display constant
+                                          <em>Contents:</em>.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>pt. 1. Carbon -- pt. 2. Nitrogen -- pt. 3. Sulphur
+                                                         -- pt. 4. Metals.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>How these records were discovered -- A short sketch
+                                                         of the Talmuds -- Constantine's letter.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Incomplete contents</strong> <div class="description">Incomplete because not all parts of a multipart item are available for
+                                       analysis, either because they have not been published, or because they have not
+                                       yet been acquired by the cataloging agency. <em>Incomplete contents:</em> may
+                                       be generated for display.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>pt. 1. General observations -- pt. 2. Methodology --
+                                                         pt. 3. Initial phase<br><em>[Parts to be added after pt. 3; note left open (no final period).]
+                                                      </em></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>v. 1. Report -- v. 3. Overseas systems of
+                                                         compensation.<br><em>[Spaces used to represent missing intermediate part.] </em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Partial contents</strong> <div class="description">Partial contents note that describes only selected parts of an item even though
+                                       all parts are available for analysis. <em>Partial contents:</em> may be
+                                       generated for display.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>manual 1. Principles of solar geometry and optics --
+                                                         manual 2. Solar radiation quantitative analysis -- manual 3. Heat
+                                                         transfer principles for solar applications -- manual 4. Passive solar
+                                                         hearing systems.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>8 - No display constant generated</strong> </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Level of content designation</strong> <div class="description">Level of content designation that has been provided for the data recorded in the
+                              field.
+            <div class="indicatorvalue"><strong># - Basic</strong> <div class="description">All information is recorded in a single occurrence of subfield
+                                    $a.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>pt. 1. Carbon -- pt. 2. Nitrogen -- pt.3. Sulphur --
+                                                         p. 4. Metals.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Enhanced</strong> <div class="description">Enhanced content designation is supplied for the parts detailed in the
+                                       formatted contents note. Data is encoded with repetitions of the defined
+                                       subfields, other than subfield $a.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$t</strong>Quark models /<strong>$r</strong>J. Rosner --<strong>$t</strong>Introduction to gauge theories of the strong, weak,
+                                                         and electromagnetic interactions /<strong>$r</strong>C. Quigg --<strong>$t</strong>Deep inelastic leptognnucleon scattering /<strong>$r</strong>D.H. Perkins --<strong>$t</strong>Jet phenomena /<strong>$r</strong>M. Jacob --<strong>$t</strong>An accelerator design study /<strong>$r</strong>R.R.Wilson --<strong>$t</strong>Lectures in accelerator theory /<strong>$r</strong>M. Month.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Formatted contents note</strong> <div class="description">Formatted contents note, whether complete, incomplete, or partial when the second
+                              indicator is value # (Basic). The text of the contents note may include titles,
+                              statements of responsibility, volume numbers and sequential designations,
+                              durations (for sound recordings), etc. For records formulated according to AACR
+                              rules, these elements are usually separated by ISBD punctuation.
+         </div>
+         <div class="description2">
+            <div class="description">Format of the note is determined by the relevant cataloging rules.</div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Future land use plan -- Recommended capital
+                                             improvements -- Existing land use -- Existing zoning.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Area 1, Lone Pine to Big Pine -- Area 2, Bishop to
+                                             Mammoth Lakes -- Area 3, June Lake to Bridgeport -- Area 4, White Mountains
+                                             area.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>pt. 1. Historical study. v. 1, Text. v. 2, Notes -- pt.
+                                             2. Annexes: alphabetic repertory of noble families &lt;v. 1
+                                          &gt;
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">500</td>
+                  <td vAlign="top" colspan="9" align="left">##$a"Table of statutes and regulations": p.
+                                          xvii-xxv.<br><em>[Unformatted content note recorded in field 500.] </em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$g - Miscellaneous information</strong> <div class="description">Any information other than the statement of responsibility or title, used in a
+                              coding-enhanced note (second indicator is value 0). It may include volume, part,
+                              page numbering or other extent information such as dates.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$t</strong>Quatrain II<strong>$g</strong>(16:35) --<strong>$t</strong>Water ways<strong>$g</strong>(1:57) --<strong>$t</strong>Waves<strong>$g</strong>(10:49).
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$r - Statement of responsibility</strong> <div class="description">Statement of responsibility of the article or part in the coding-enhanced contents
+                              note (second indicator is value 0). The author itself may be a personal or
+                              corporate name.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>20</strong><strong>$t</strong>Baptisms, 1816-1872 --<strong>$t</strong>Church members, 1816-1831 --<strong>$t</strong>History of the Second Presbyterian Church of West
+                                             Durham /<strong>$r</strong>by L. H. Fellows.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$t - Title</strong> <div class="description">Title used in the coding-enhanced contents note (second indicator is value 0).</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$g</strong>Nr. 1.<strong>$t</strong>Region Neusiedlersee --<strong>$g</strong>Nr. 2.<strong>$t</strong>Region Rosalia/Lithagebirge --<strong>$g</strong>Nr. 3.<strong>$t</strong>Region Mettelburgenland --<strong>$g</strong>Nr. 4.<strong>$t</strong>Region s&uuml;dliches Burgenland --<strong>$g</strong>Nr. 5.<strong>$t</strong>Region S&uuml;dburgland
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>20</strong><strong>$t</strong>Suite in D.<strong>$t</strong>Intrada ;<strong>$t</strong>Berceuse ;<strong>$t</strong>Procession and dance ;<strong>$t</strong>Carol ;<strong>$t</strong>Finale.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$u - Uniform Resource Identifier</strong> <div class="description">Uniform Resource Identifier (URI), for example a URL or URN, which provides
+                              electronic access data in a standard syntax. This data can be used for automated
+                              access to an electronic item using one of the Internet protocols.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="4%" align="left"></td>
+                  <td valign="top" width="48%" align="left"></td>
+                  <td valign="top" width="1%" align="left"></td>
+                  <td valign="top" width="6%" align="left"></td>
+                  <td valign="top" width="6%" align="left"></td>
+                  <td valign="top" width="6%" align="left"></td>
+                  <td valign="top" width="6%" align="left"></td>
+                  <td valign="top" width="6%" align="left"></td>
+                  <td valign="top" width="6%" align="left"></td>
+                  <td valign="top" width="11%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$u</strong>http://lcweb.loc.gov/catdir/toc/99176484.html
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td width="100%">
+                     <div class="displaytext">Display example:&nbsp;</div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>
+                     <div class="displaycontent">Contents:
+                                             http://lcweb.loc.gov/catdir/toc/99176484.html
+                     </div>
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Field 505 ends with a period when the field contains complete or partial contents,
+                     unless another mark of punctuation or a closing angle bracket (&lt;&gt;) is
+                     present or unless the contents continue in another occurrence of field 505. If the field
+                     contains incomplete contents, no period is recorded, unless the last word,
+                     initial/letter, or abbreviation ends in a period.<br><br>In records formulated according to AACR 2, a space-hyphen-hyphen-space ( -- ) is
+                     recorded between each item in the contents note unless a delimiter/subfield code follows
+                     in which case there is no ending space. In pre-AACR 2 records, items are separated by a
+                     period-hyphen-hyphen (.--).<br><br>Contents notes may contain prescribed ISBD punctuation (e.g., statements of
+                     responsibility are preceded by a space-slash-space ( / )).
+      </div>
+      <div class="description2"><strong>Temporary Data</strong> - Angle brackets (&lt;...&gt;) are customarily used to enclose holdings of
+                     individual volumes, within contents notes that are subject to change.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>v. 1-&lt;4&gt; Proceedings
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>505</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>pt. 1. Historical study. v. 1, Text. v. 2, Notes -- pt. 2.
+                                          Annexes: alphabetic repertory of noble families &lt;v.
+                                       1&gt;
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Display Constants</strong> - Introductory terms or phrases such as <em>Contents:</em>, <em>Partial contents:</em>,
+                     etc. are not carried in the MARC record. They may be system generated as display
+                     constants associated with the first indicator value.
+         <div class="table">
+            <table>
+               <tr>
+                  <td width="157" align="left" valign="top"><u>First indicator</u></td>
+                  <td width="277" align="left" valign="top"><em><u>Display constant</u></em></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">0</td>
+                  <td valign="top" align="left"> Contents: </td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">1</td>
+                  <td valign="top" align="left"> Incomplete contents: </td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">2</td>
+                  <td valign="top" align="left"> Partial contents: </td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">8</td>
+                  <td valign="top" align="left"><em>[no display constant]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>Indicator 1 - Undefined (VM) [OBSOLETE, 1984]</em><br><em>Indicator 2 - Level of content designation (BK, AM, CF, MP, MU, VM) [NEW, 1993]</em><br>
+      Prior to 1993, the value blank (#) meaning undefined in Indicator 2 can be
+                        interpreted as Basic. <br>
+                        <br><em>$u - Uniform Resource Identifier [NEW, 2000]</em></div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a> &gt;&gt; <strong>505</strong></div> (02/23/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

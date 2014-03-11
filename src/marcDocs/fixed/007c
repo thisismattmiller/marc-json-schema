@@ -1,0 +1,1385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy, see www.w3.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 007: Electronic
+  Resource (Network Development and MARC Standards Office,
+  Library of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link href="update10-stylesheet.css" rel="stylesheet" type=
+  "text/css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
+    &gt;&gt;<a href=
+    "http://www.loc.gov/marc/bibliographic/bd007.html">007</a>
+    &gt;&gt; <strong>007 (Electronic Resource)</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>007 - Electronic Resource (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+  <strong>Indicators and Subfield Codes</strong>
+
+  <div class="description">
+    Field has no indicators or subfield codes; the data elements
+    are positionally defined.
+  </div>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>Character Positions</strong><br>
+      <strong>00 - Category of material</strong><br>
+      c - Electronic resource<br>
+      <br>
+      <strong>01 - Specific material designation</strong><br>
+      a - Tape cartridge<br>
+      b - Chip cartridge<br>
+      c - Computer optical disc cartridge<br>
+      d - Computer disc, type unspecified<br>
+      e - Computer disc cartridge, type unspecified<br>
+      f - Tape cassette<br>
+      h - Tape reel<br>
+      j - Magnetic disk<br>
+      k - Computer card<br>
+      m - Magneto-optical disc<br>
+      o - Optical disc<br>
+      r - Remote<br>
+      u - Unspecified<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>02 - Undefined</strong><br>
+      # - Undefined<br>
+      <br>
+      <strong>03 - Color</strong><br>
+      a - One color<br>
+      b - Black-and-white<br>
+      c - Multicolored<br>
+      g - Gray scale<br>
+      m - Mixed<br>
+      n - Not applicable<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>04 - Dimensions</strong><br>
+      a - 3 1/2 in.<br>
+      e - 12 in.<br>
+      g - 4 3/4 in. or 12 cm.<br>
+      i - 1 1/8 x 2 3/8 in.<br>
+      j - 3 7/8 x 2 1/2 in.<br>
+      n - Not applicable<br>
+      o - 5 1/4 in.<br>
+      u - Unknown<br>
+      v - 8 in.<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>05 - Sound</strong><br>
+      # - No sound (silent)<br>
+      a - Sound<br>
+      u - Unknown<br>
+      | - No attempt to code<br>
+      <br></td>
+
+      <td width="45%"><strong>06-08 - Image bit
+      depth</strong><br>
+      001-999 - Exact bit depth<br>
+      mmm - Multiple<br>
+      nnn - Not applicable<br>
+      --- - Unknown<br>
+      ||| - No attempt to code<br>
+      <br>
+      <strong>09 - File formats</strong><br>
+      a - One file format<br>
+      m - Multiple file formats<br>
+      u - Unknown<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>10 - Quality assurance target(s)</strong><br>
+      a - Absent<br>
+      n - Not applicable<br>
+      p - Present<br>
+      u - Unknown<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>11 - Antecedent/Source</strong><br>
+      a - File reproduced from original<br>
+      b - File reproduced from microform<br>
+      c - File reproduced from an electronic resource<br>
+      d - File reproduced from an intermediate (not
+      microform)<br>
+      m - Mixed<br>
+      n - Not applicable<br>
+      u - Unknown<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>12 - Level of compression</strong><br>
+      a - Uncompressed<br>
+      b - Lossless<br>
+      d - Lossy<br>
+      m - Mixed<br>
+      u - Unknown<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>13 - Reformatting Quality</strong><br>
+      a - Access<br>
+      n - Not applicable<br>
+      p - Preservation<br>
+      r - Replacement<br>
+      u - Unknown<br>
+      | - No attempt to code<br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>When field 007/00 contains code c, it contains special coded
+  information about the physical characteristics of an electronic
+  resource.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> CHARACTER POSITIONS</h4>
+
+  <div class="characterposition">
+    <strong>00 - Category of material</strong>
+
+    <div class="charactervalue">
+      <strong>c - Electronic resource</strong>
+
+      <div class="description">
+        One-character alphabetic code that indicates the category
+        of material to which the item belongs is
+        <strong>electronic resource</strong> (e.g, programs, data
+        files, image files, digitized audio and video tapes,
+        etc.), which usually consist of digitized
+        machine-readable data, program code, etc. intended to be
+        accessed, processed, or executed by a computer. A fill
+        character (|) is not allowed in this position.
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>01 - Specific material designation</strong>
+
+    <div class="description">
+      Special class of material (usually the class of physical
+      object) to which an item belongs (e.g., a magnetic disk).
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Tape cartridge</strong>
+
+      <div class="description">
+        Removable module containing secondary storage medium such
+        as magnetic tape or magnetic disks.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Chip cartridge</strong>
+
+      <div class="description">
+        Removable module containing a miniaturized electronic
+        circuit, mass-produced on a tiny chip or wafer of
+        silicon, designed to provide additional processing or
+        memory capacity to a computer.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Computer optical disc cartridge</strong>
+
+      <div class="description">
+        Removable module containing one or more nonmagnetic discs
+        used to store digital information.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Computer disc, type unspecified</strong>
+
+      <div class="description">
+        A disc whose type is not specified.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Computer disc cartridge, type
+      unspecified</strong>
+
+      <div class="description">
+        A disc cartridge whose type is not specified.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Tape cassette</strong>
+
+      <div class="description">
+        Removable module, somewhat like an audio cassette, that
+        contains magnetic tape that can be written on and read
+        from by a tape drive.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>h - Tape reel</strong>
+
+      <div class="description">
+        Removable spool containing magnetic tape that can be
+        written to and read from by a tape drive.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>j - Magnetic disk</strong>
+
+      <div class="description">
+        Digital information storage medium usually consisting of
+        a thin Mylar disk coated with a magnetic material that
+        permits the recording of data. Magnetic disks come in
+        various sizes. They are also known as floppy disks,
+        stiffy disks, computer diskettes, or floppy diskettes.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>k - Computer card</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Magneto-optical disc</strong>
+
+      <div class="description">
+        Erasable or semi-erasable storage medium, similar to a
+        CD-ROM disc, capable of storing data at a very high
+        density. The disc is written to and read from using a
+        laser beam used to heat the recording surface to a point
+        at which regions of the surface of the disk become
+        magnetically aligned to store bits of data.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>o - Optical disc</strong>
+
+      <div class="description">
+        Medium that uses a series of laser-burned micron-sized
+        holes (pits) on a special recording surface to store
+        data. Recorded data is read optically. These discs are
+        usually a read-only medium. Commonly found computer
+        optical disc formats include: CD-A, CD-I, CD-R, CD-ROM,
+        CD-ROM-XA, DVD-ROM and Photo CD.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>r - Remote</strong>
+
+      <div class="description">
+        Electronic resource that is accessed, processed,
+        executed, etc. remotely. In this case the electronic
+        resource is used via input/output devices connected
+        electronically to a computer. Frequently this involves
+        connection through a computer network. The specific
+        material designation of the remotely accessed physical
+        item (e.g., a CD-ROM accessed remotely through a network)
+        is not specified when code r is used in 007/01.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unspecified</strong>
+
+      <div class="description">
+        Special material designation for the electronic resource
+        is not specified, e.g., it may be an electronic resource
+        that changes its medium over time.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>02 - Undefined</strong>
+
+    <div class="description">
+      Contains a blank (#) or a fill character (|).
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>03 - Color</strong>
+
+    <div class="description">
+      Whether the item is one color or multicolored.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - One color</strong>
+
+      <div class="description">
+        Images are intended to be produced in a single color
+        other than black (e.g. pink and white, brown and white).
+        If the images are black with white use code b.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Black-and-white</strong>
+
+      <div class="description">
+        Images are intended to be produced in black and white.
+        ASCII files, which do not include color, are coded as b.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Multicolored</strong>
+
+      <div class="description">
+        Image is printed or executed in more than one color. Code
+        c is used for color photographic processes.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - Gray scale</strong>
+
+      <div class="description">
+        Image is produced with degrees of dark to light from
+        black to gray to white.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed</strong>
+
+      <div class="description">
+        Work or collection is a combination of one color,
+        black-and-white, multicolored, hand colored, and/or other
+        images.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Color is not applicable to the electronic resource,
+        usually because it does not involve anything visual
+        (e.g., digitally encoded audio data).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Color characteristics of an item are not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>04 - Dimensions</strong>
+
+    <div class="description">
+      Dimensions of the medium used to encode the electronic
+      resource.
+    </div>
+
+    <div class="description2 description">
+      Only the most common dimensions are indicated. In many
+      cases the dimensions apply to the container in which a
+      magnetic or optical medium is encased. The field 007/04
+      code corresponding to the dimensions given in the
+      description of the item are used. If no code exactly
+      matches the dimensions of the medium (or container), code z
+      is used.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - 3 1/2 in.</strong>
+
+      <div class="description">
+        Diameter of the medium is 3 1/2 inches. It usually refers
+        to the diameter of a magnetic disk.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - 12 in.</strong>
+
+      <div class="description">
+        Diameter of the medium is 12 inches. It usually refers to
+        optical or magneto-optical disc.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - 4 3/4 in. or 12 cm.</strong>
+
+      <div class="description">
+        Diameter of the medium is 4 3/4 inches (or 12 cm.) It
+        usually refers to optical or magneto-optical disc.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>i - 1 1/8 x 2 3/8 in.</strong>
+
+      <div class="description">
+        Dimensions of the container used for the medium are 1 1/8
+        x 2 3/8 inches. It usually refers to cartridges.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>j - 3 7/8 x 2 1/2 in.</strong>
+
+      <div class="description">
+        Dimensions of the container used for the medium are 3 7/8
+        x 2 1/2 inches. It usually refers to cartridges.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Physical dimensions are not applicable to the electronic
+        resource. This code is appropriate for remote electronic
+        resources and electronic resources whose specific medium
+        varies (coded u in byte 01).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>o - 5 1/4 in.</strong>
+
+      <div class="description">
+        Diameter of the medium is 5 1/4 inches. It usually refers
+        to the dimensions of a magnetic disk.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Dimensions of the medium used for the electronic resource
+        are not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>v - 8 in.</strong>
+
+      <div class="description">
+        Diameter of the medium is 8 inches. It usually refers to
+        the diameter of a magnetic disk or optical disc.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>05 - Sound</strong>
+
+    <div class="description">
+      Whether the production of sound is an integral part of an
+      electronic resource.
+    </div>
+
+    <div class="charactervalue">
+      <strong># - No sound (silent)</strong>
+
+      <div class="description">
+        Not intended to produce sound.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Sound</strong>
+
+      <div class="description">
+        Includes digitally encoded sound or is intended to
+        produce sound.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Presence or absence of sound or the ability of an
+        electronic resource to produce sound is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>06-08 - Image bit depth</strong>
+
+    <div class="description">
+      Exact bit depth of the scanned image(s) that comprise the
+      electronic resource, or a three-character alphabetic code
+      which indicates that the exact bit depth cannot be
+      recorded. Since only exact bit depth is useful, coding
+      should not include missing digits represented by hyphens
+      (-).
+    </div>
+
+    <div class="description2 description">
+      Bit depth is determined by the number of bits used to
+      define each pixel representing the image.
+    </div>
+
+    <div class="charactervalue">
+      <strong>001-999 - Exact bit depth</strong>
+
+      <div class="description">
+        Image bit depth should be recorded if a single numeric
+        value applies to all files, e.g., all files were scanned
+        in 24-bit color. The numeric value of the image bit
+        depth, using three digits, is right justified with
+        leading zeros (e.g., 001, 024).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>mmm - Multiple</strong>
+
+      <div class="description">
+        Comprised of images that have been scanned and captured
+        at more than one bit depth, such as a volume with text
+        and color images where the text has been scanned as
+        bitonal (1-bit) images and the color plates have been
+        scanned and captured using 24-bit color.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>nnn - Not applicable</strong>
+
+      <div class="description">
+        Bit-depth is not applicable to this electronic resource
+        because there are no images.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>--- - Unknown</strong>
+
+      <div class="description">
+        Bit depth level of the image(s) comprising the electronic
+        resource are not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>||| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>09 - File formats</strong>
+
+    <div class="description">
+      Whether the file(s) which comprise the electronic resource
+      are of the same format or type for digitally reformatted
+      materials.
+    </div>
+
+    <div class="description2 description">
+      Values do not indicate specific types of file formats,
+      which may be contained in variable fields in the record.
+      The information indicates the number of file formats used.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - One file format</strong>
+
+      <div class="description">
+        File(s) which comprise(s)the electronic resource are of
+        the same format or type (e.g., all .jpg; all .tif; all
+        .txt; all .wav; all .mpg; etc.).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Multiple file formats</strong>
+
+      <div class="description">
+        Files which comprise the electronic resource are of at
+        least 2 different formats (e.g., .jpg and .tif; .tif and
+        .txt; .sgml and .wav; etc.).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Format(s) of the file(s) which comprise(s) the electronic
+        resource are not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>10 - Quality assurance target(s)</strong>
+
+    <div class="description">
+      Whether quality assurance targets have been included
+      appropriately at the time of reformatting/creation of the
+      electronic resource.
+    </div>
+
+    <div class="description2 description">
+      Targets are standard reference points which can be
+      interpreted by a human or machine and used to measure
+      resolution, color, faithfulness of representation to the
+      original, etc.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Absent</strong>
+
+      <div class="description">
+        Quality assurance targets were not included at the time
+        of reformatting and/or are not present in the electronic
+        resource.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Inclusion of quality assurance targets is not applicable
+        to this electronic resource.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>p - Present</strong>
+
+      <div class="description">
+        One or more quality assurance targets were appropriately
+        included at the time of reformatting and are present in
+        the electronic resource. Commonly found quality control
+        targets for scanning include the Kodak Q13 or Q14 Color
+        Separation Guide and Gray Scale; Kodak Q60 Color Input
+        Target; AIIM Scanning Test Chart #2; and the RIT
+        Alphanumeric Resolution Test Object. Commonly found
+        quality assurance targets for re-recording/transfer of
+        audio files include reference and azimuth tones.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Presence of quality assurance targets in the electronic
+        resource is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>11 - Antecedent/Source</strong>
+
+    <div class="description">
+      Information about the source of a digital file important to
+      the creation, use and management of digitally reformatted
+      materials.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - File reproduced from original</strong>
+
+      <div class="description">
+        Content (image, audio, or video) comprising the
+        electronic resource has been created by digitization of
+        the original item. Common examples of original objects
+        include: printed or manuscript texts and/or images that
+        are made on paper or on vellum; photographic prints (and
+        in some instances photographic negatives, depending on
+        creator's intent); analog audio formats; and video
+        formats. This value does not pertain to microform even if
+        microform is the original.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - File reproduced from microform</strong>
+
+      <div class="description">
+        Content comprising the electronic resource has been
+        created by scanning from microform (16mm microfilm, 35mm
+        microfilm, 105mm microfiche, microcard, micro-opaque,
+        etc.).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - File reproduced from an electronic
+      resource</strong>
+
+      <div class="description">
+        Electronic resource has been created or copied from an
+        existing electronic resource (e.g., to generate new
+        copies or derivative copies with lower resolution or
+        smaller file size; to process an existing file with
+        Optical Character Recognition - OCR - software; etc.).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - File reproduced from an intermediate (not
+      microform)</strong>
+
+      <div class="description">
+        Content comprising the electronic resource has been
+        created by reformatting/digitizing from an intermediate
+        other than microform. Common examples of non-microfom
+        intermediates for visual and textual materials are:
+        photocopies, 35 mm film, transparencies, slides, 2nd
+        generation video tape, etc. A common example of an
+        intermediate for audio materials is 2nd generation analog
+        tapes.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed</strong>
+
+      <div class="description">
+        Images comprising the electronic resource have been
+        created from mixed sources (portions scanned from
+        original item, portions scanned from microfilm, etc.).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Antecedent or source are not applicable to this
+        electronic resource. This code is appropriate for
+        electronic resources other than those created during a
+        reformatting process.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Antecedent or source of this reformatted electronic
+        resource is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>12 - Level of compression</strong>
+
+    <div class="description">
+      Kind of compression the electronic resource has been
+      subjected to.
+    </div>
+
+    <div class="description2 description">
+      Used to judge the fidelity of the file to the original.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Uncompressed</strong>
+
+      <div class="description">
+        Electronic resource has not been compressed through the
+        use of any compression technique.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Lossless</strong>
+
+      <div class="description">
+        Electronic resource has been compressed and the
+        compression type used is "lossless." Lossless compression
+        will allow an electronic resource to be compressed and
+        decompressed with absolute fidelity each time. To be
+        considered lossless, no informational loss may occur
+        during this process. An example of a lossless compression
+        scheme would be TIFF Group 4 compression employed on
+        bitonal image files.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Lossy</strong>
+
+      <div class="description">
+        Electronic resource has been compressed and the
+        compression type used is "lossy." Lossy compression
+        schemes employ techniques which average or discard some
+        of the encoded digital information. When the file is
+        decompressed, it will not be an exact replica of the
+        original file. Examples of lossy compression schemes
+        include JPEG, and Kodak ImagePac (Photo CD), AC-3 (Dolby
+        Digital) and MPEG.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed</strong>
+
+      <div class="description">
+        Mixture of techniques has been used to compress various
+        parts of the electronic resource.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Compression techniques are not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>13 - Reformatting Quality</strong>
+
+    <div class="description">
+      Reformatting quality of the electronic resource; an overall
+      assessment of the physical quality of the electronic
+      resource in relation to its intended use. It can be used to
+      judge the level of quality of a file, and an institution's
+      commitment to maintain its availability over time.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Access</strong>
+
+      <div class="description">
+        Electronic resource is of a quality that will support
+        current, electronic access to the original item
+        (reference use), but is not sufficient to serve as a
+        preservation copy.
+      </div>
+
+      <div class="description2 description">
+        Examples of electronic resources created for access
+        purposes may include images created for a temporary,
+        online exhibition (possibly to mirror an in-house
+        installation); compressed, lower resolution versions of
+        higher-quality master files that allow for easier
+        transmission and access over the Internet; video
+        converted to MPEG-2 for Internet access; photos which
+        have been scanned at lower resolutions to create an
+        online browsing tool for a collection; or articles
+        scanned as a part of an E-Reserve collection which will
+        be discarded in accordance with previous copyright
+        agreements which specify a time limit on the retention of
+        the electronic resource.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Reformatting quality is not applicable to the electronic
+        resource.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>p - Preservation</strong>
+
+      <div class="description">
+        Electronic resource was created via reformatting to help
+        preserve the original item.
+      </div>
+
+      <div class="description2 description">
+        Capture and storage techniques associated with
+        preservation files ensure high-quality, long-term
+        electronic resources that warrant long-term protection.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>r - Replacement</strong>
+
+      <div class="description">
+        Electronic resource is of very high quality and, when
+        printed out, viewed on screen or played via a listening
+        device could serve as a replacement should the original
+        be lost, damaged, or destroyed.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Reformatting quality of the electronic resource is not
+        known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <h4><span class="box">â </span> EXAMPLES</h4>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-05</strong></td>
+
+        <td valign="top" colspan="8" align="left">cj#ca#<br>
+        <em>[Item is a computer program on 3 1/2 inch diskette
+        (007/00, 01, and 04), which supports a color (03) video
+        interface but no sound (05).]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-05</strong></td>
+
+        <td valign="top" colspan="8" align="left">co#cga<br>
+        <em>[Item is interactive software and data on a 4 3/4
+        inch optical disc (CD-ROM) (007/00, 01, and 04) intended
+        to be viewed in color (03) with sound (05).]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-05</strong></td>
+
+        <td valign="top" colspan="8" align="left">cr#bn#<br>
+        <em>[Item is a textual electronic journal available
+        remotely (007/01), formatted as ASCII text
+        (007/03).]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-13</strong></td>
+
+        <td valign="top" colspan="8" align="left">
+        cu#gn#008apabp<br>
+        <em>[Item is a digitized version of an original,
+        reformatted for preservation purposes (007/00, 11, 13).
+        The electronic resource is comprised of grayscale TIFF
+        images only (no sound) which were scanned at a bit depth
+        of 8 bits per pixel, including quality control targets
+        and is compressed using lossless compression (03, 05,
+        06-08, 09, 10, 12). Because this file was created for
+        preservation purposes, the medium on which the file is
+        stored will vary as it is refreshed and migrated to new
+        systems to remain accessible (01, 04).]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-13</strong></td>
+
+        <td valign="top" colspan="8" align="left">
+        co#ngannnaadda<br>
+        <em>[Item is an access version of an audio file which had
+        been digitally reformatted from the 2nd generation analog
+        tape and is stored on a CD (007/00, 01, 04, 05, 09, 11,
+        13). Quality assurance target tones are not present on
+        this mpeg-compressed access copy (10, 12). Because it is
+        not an image or video file, color and bit depth aspects
+        are not applicable (03, 06-08).]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-13</strong></td>
+
+        <td valign="top" colspan="8" align="left">
+        cu#gn#008apabr<br>
+        <em>[Item is a digitized version of an original,
+        reformatted (and replaced) during preservation (007/00,
+        11, 13). The electronic resource is comprised of
+        grayscale TIFF images only (no sound) which were scanned
+        at a bit depth of 8 bits per pixel, including quality
+        control targets and is compressed using lossless
+        compression (03, 05, 06-08, 09, 10, 12). Because this
+        file was created to replace the original volumes, the
+        medium on which the file is stored will vary as it is
+        refreshed and migrated to new systems to remain
+        accessible (01, 04).]</em></td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+
+  <h3>INPUT CONVENTIONS</h3>
+
+  <div class="description2">
+    <strong>Field length</strong> - Field 007 for the category of
+    material <strong>electronic resource</strong> currently has
+    fourteen character positions defined for it. The first six
+    positions (007/00-05) should always be used. An institution
+    may choose additionally to code positions following 007/05 up
+    to and including 007/13 if providing information about
+    digitally reformatted or preserved materials.
+  </div>
+  <hr>
+
+  <h3>CONTENT DESIGNATOR HISTORY</h3>
+
+  <div class="font_small">
+    <br>
+    In 2002, the Computer File 007 field was renamed "Electronic
+    Resource."<br>
+    <br>
+    <em>007/00 - Category of material</em>
+
+    <div class="charactervaluehistory">
+      <em>c - Computer file</em>
+    </div><br>
+    <em>007/01 - Specific material designation</em>
+
+    <div class="charactervaluehistory">
+      <em>d - Computer disc, type
+      unspecified [NEW, 2009]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>e - Computer disc cartridge, type
+      unspecified [NEW, 2009]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>k - Computer card [NEW,
+      2009]</em>
+    </div><br>
+    <em>007/02 - Original versus reproduction aspect [OBSOLETE,
+    1997] [USMARC only]</em>
+
+    <div class="description">
+      Defined codes were: f (Facsimile), o (Original), r
+      (Reproduction), and u (Unknown).
+    </div><br>
+    <em>007/03 - Color</em>
+
+    <div class="charactervaluehistory">
+      <em>b - Black-and-white [NEW, 1999]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>h - Hand coloured [OBSOLETE, 1997] [CAN/MARC only]</em>
+    </div><br>
+    <em>007/06-08 - Image bit depth [NEW, 1999]</em><br>
+    <br>
+    <em>007/09 - File formats [NEW, 1999]</em><br>
+    <br>
+    <em>007/10 - Quality assurance targets [NEW, 1999]</em><br>
+    <br>
+    <em>007/11 - Antecedent/source [NEW, 1999]</em>
+
+    <div class="charactervaluehistory">
+      <em>c - File produced from a computer file</em>
+
+      <div class="description">
+        In 2002, code c was renamed "File produced from an
+        electronic resource."
+      </div>
+    </div><br>
+    <em>007/12 - Level of compression [NEW, 1999]</em><br>
+    <br>
+    <em>007/13 - Reformatting quality [NEW, 1999]</em>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd007.html">007</a>
+          &gt;&gt; <strong>007 (Electronic Resource)</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

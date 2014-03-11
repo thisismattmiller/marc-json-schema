@@ -1,0 +1,540 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 082:
+         Dewey Decimal Classification Number (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt;
+               <strong>082</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>082</span> - <span>Dewey Decimal Classification Number</span> (R)
+      </h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2011</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Type of edition</em><br /><span>0 - Full edition</span><br /><span>1 - Abridged edition</span><br />7 - Other edition specified in subfield $2<br /><br /></td>
+            <td><em>Source of classification number</em><br /><span># - No information provided</span><br /><span>0 - Assigned by LC</span><br /><span>4 - Assigned by agency other than LC</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Classification number (R)</li>
+                  <li>$b - Item number (NR)</li>
+                  <li>$m - Standard or optional designation (NR)</li>
+                  <li>$q - Assigning agency (NR)</li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$2 - Edition number (NR)</li>
+                  <li>$6 - Linkage (NR)</li>
+                  <li>$8 - Field link and sequence number (R)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Classification number is taken from <em>Dewey
+                  					Decimal Classification and Relative Index</em>,
+               				the <em>Abridged Dewey Decimal Classification and
+                  					Relative Index</em>, and electronic updates to
+               				either edition. Through 1997, updates were issued
+               				in <em>DC&amp; Dewey Decimal Classification
+                  					Additions, Notes and Decisions</em>.
+            </p>
+         </div>
+         <div>
+            <p>Second indicator values distinguish between content
+               				assigned by the Library of Congress (LC) and content
+               				assigned by an organization other than LC.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p><strong>First Indicator - Type of edition</strong></p>
+                  <div>
+                     <p>Indicates the edition from which the Dewey Decimal classification is taken.</p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Full edition</span><div>
+                           <p>Class number was taken from the full
+                              						edition.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>082</strong></td>
+                                 <td colspan="9"><strong>04</strong><strong>$a</strong>388/.0919<strong>$2</strong>22
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Abridged edition</span><div>
+                           <p>Class number was taken from the abridged
+                              							edition.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>082</strong></td>
+                                 <td colspan="9"><strong>14</strong><strong>$a</strong>914.3<strong>$2</strong>13
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">7 - Other edition specified in subfield $2</span><div>
+                           <p>The edition is specified in subfield $2 (Edition number).</p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>082</strong></td>
+                                 <td colspan="9"><strong>74</strong><strong>$a</strong>839.82<strong>$2</strong>5/nor<strong>$q</strong>NO-OsNB
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p><strong>Second Indicator - Source of classification number</strong></p>
+                  <div>
+                     <p>Designates whether the source of the class number is the
+                        						Library of Congress or another organization.
+                     </p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - No information provided</span><div>
+                           <p>No information is provided about the source
+                              							of the class number.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>082</strong></td>
+                                 <td colspan="9"><strong>0#</strong><strong>$a</strong>C848/.5407/05<strong>$2</strong>20
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Assigned by LC</span><div>
+                           <p>Source of the class number is the Library of
+                              							Congress.
+                           </p>
+                        </div>
+                        <div>
+                           <p>May be used by organizations transcribing
+                              							from LC copy.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>082</strong></td>
+                                 <td colspan="9"><strong>00</strong><strong>$a</strong>975.5/4252/00222<strong>$2</strong>22
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">4 - Assigned by agency other than LC</span><div>
+                           <p>Source of the class number is an organization
+                              							other than the Library of Congress.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>082</strong></td>
+                                 <td colspan="9"><strong>04</strong><strong>$a</strong>220.47<strong>$2</strong>22
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Classification number</strong> 
+                  </p>
+                  <div>
+                     <p>Classification number assigned using an edition
+                        						of the Dewey Decimal Classification. The source
+                        						of the classification number is the <em>Dewey
+                           							Decimal Classification and Relative
+                           						Index,</em> the <em>Abridged Dewey Decimal
+                           							Classification and Relative Index</em> and
+                        						electronic updates to either edition. Through
+                        						1997, updates were issued in <em>DC&amp;:
+                           							Dewey Decimal Classification Additions, Notes
+                           							and Decisions</em>.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>082</strong></td>
+                           <td colspan="9"><strong>00</strong><strong>$a</strong>355.02/17<strong>$2</strong>22
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>082</strong></td>
+                           <td colspan="9"><strong>04</strong><strong>$a</strong>343.7306/8<strong>$a</strong>347.30368<strong>$2</strong>20<em><span><br /><span>[The second number is optional]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>For DDC numbers for Canadian literature, an
+                        						uppercase âCâ is added as a prefix. For works
+                        						intended for a juvenile audience, a lowercase
+                        						âjâ is added as a prefix. The âjâ prefix is not
+                        						added to DDC numbers in records for juvenile
+                        						textbooks.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>082</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>C848<strong>$2</strong>20
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>082</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>j574<strong>$2</strong>20
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>082</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>jC813<strong>$2</strong>20
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Item number</strong> 
+                  </p>
+                  <div>
+                     <p>Item number portion of the number. This
+                        						subfield may also contain a copy (or set)
+                        						number.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$m - Standard or optional designation</strong> 
+                  </p>
+                  <div>
+                     <p>Designates whether the classification number contained in
+						the field is from the standard or optional part
+						of the schedules or tables of the scheme
+						identified by the first indicator (Type of
+						edition) and by subfield $2 (Edition
+						number). The following codes are used: a
+						(standard) and b (optional).</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>082</strong></td>
+                           <td colspan="9"><strong>00</strong><strong>$a</strong>345.73/0772<strong>$2</strong>20<strong>$m</strong>a
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>082</strong></td>
+                           <td colspan="9"><strong>00</strong><strong>$a</strong>347.305772<strong>$2</strong>20<strong>$m</strong>b
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$q - Assigning agency</strong> 
+                  </p>
+                  <div>
+                     <p>MARC organization code of the institution that
+                        						assigned the classification number.
+                     </p>
+                  </div>
+                  <div>
+                     <p>Code from: <em><a href="http://www.loc.gov/marc/organizations/orgshome.html">MARC Code List for Organizations</a></em>.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>082</strong></td>
+                           <td colspan="9"><strong>04</strong><strong>$a</strong>004<strong>$2</strong>22/ger<strong>$q</strong>DE-101b
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Edition number</strong> 
+                  </p>
+                  <div>
+                     <p>Number of the edition of the Dewey
+                        						classification schedules from which the
+                        						classification was assigned. If numbers are
+                        						assigned from more than one edition, each number
+                        						or range of numbers is contained in a separate
+                        						082 field.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>082</strong></td>
+                           <td colspan="9"><strong>00</strong><strong>$a</strong>888/.0108<strong>$2</strong>22
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Spacing - </strong>Lowercase "s" (for series) is separated from the
+               				number by one space.
+            </p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>082</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>920.073 s<strong>$a</strong>973.3/092<strong>$a</strong>B<strong>$2</strong>22
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div>
+            <p><strong>Display Constant</strong></p>
+            <div class="table">
+               <table>
+                  <tr>
+                     <td>[ ... ]</td>
+                     <td><em>[brackets]</em></td>
+                  </tr>
+               </table>
+            </div>
+            <p>Square brackets enclosing a DDC number that appear
+               				on printed products are not carried in the MARC
+               				record. They may be system generated as a display
+               				constant associated with the field tag.
+            </p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td width="5%"></td>
+                     <td colspan="9">
+                        <div class="captiontext">Content designated field:</div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>082</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>659.1 s<strong>$a</strong>659.1/57<strong>$2</strong>22
+                     </td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td colspan="9">
+                        <div class="displaytext">Display example:</div>659.1 s
+                        						[659.1/57] 22
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div>
+            <p><strong>Standard or optional designation - </strong>If subfield $m is present, only one
+				subfield $a should be coded, unless the
+				value in subfield $m applies to all
+				numbers in repeated occurrences of subfield
+				$a. Otherwise, the field is repeated.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="indicatorHistory"><em>Indicator 1 - Type of edition</em><div class="valuehistory">
+               <div><em># - No edition information recorded (BK, MU, VM, SE) [OBSOLETE]</em></div>
+            </div>
+            <div>
+               <p>Code # (No edition information recorded) was
+                  					valid 1979-1987. Records created before the
+                  					definition of the first indicator in 1979 may
+                  					contain a blank (#) meaning <em>undefined</em> in
+                  					this indicator position.
+               </p>
+            </div>
+            <div class="valuehistory">
+               <div><em>2 - Abridged NST version (BK, MU, VM, SE) [OBSOLETE]</em></div>
+            </div>
+            <div>
+               <p>This value was made obsolete in 1989. The U.S.
+                  					Library of Congress discontinued assigning class
+                  					numbers from the abridged NST version to items
+                  					included in <em>New Serial Titles</em> as of
+                  				1981.
+               </p>
+            </div>
+            <div class="valuehistory">
+               <div><em>7 - Other edition specified in subfield $2 [NEW, 2011]</em></div>
+            </div>
+         </div>
+         <div class="indicatorHistory"><em>Indicator 2 - Source of classification number</em><div class="valuehistory">
+               <div><em># - No information provided [OBSOLETE] [USMARC only, BK, CF, MU, VM, SE]</em></div>
+            </div>
+            <div>
+               <p>Code # (No information provided) was valid
+                  					1982-1987. Records created before the definition
+                  					of the second indicator in 1982 may contain a
+                  					blank (#) meaning <em>undefined</em> in this
+                  					indicator position.
+               </p>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$a - Classification number</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$b - DDC number-abridged NST version (SE) [OBSOLETE]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$b - Item number</em><div class="subfieldHistoryDsc">
+                  <p>Prior to 1975, the definitions of subfields
+					$a and $b in the serials
+					specifications were reversed: $a (DDC
+					number-abridged NST version), $b (DDC
+					number). This definition of subfield $b
+					was made obsolete when the first indicator and
+					subfield $2 were defined in 1979. The
+					current subfield $b was defined in
+					1987.</p>
+               </div>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$m - Standard or optional designation [NEW, 2008]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$q - Assigning agency [NEW, 2008]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt;
+               <strong>082</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/01/2011)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

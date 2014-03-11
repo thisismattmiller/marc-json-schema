@@ -1,0 +1,640 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy, see www.w3.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 773: Host Item
+  Entry (Network Development and MARC Standards Office, Library
+  of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the host item entry (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link href="http://www.loc.gov/marc/marc-generic.css" rel=
+  "stylesheet" type="text/css">
+<style type="text/css">
+                                        body {margin-left: 2em; margin-right: 2em;} 
+                                        h1 {font-family:Arial, Helvetica, sans-serif;}
+                                        h3 {text-align:left;}
+                                        h4 {margin-top:.5em; margin-bottom:.5em;}
+                                        p {text-align:justify; margin-left:2em; margin-right:2em;}
+                                        .formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+                                        .datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+                                        .font_small {font-size:9pt;}
+                                        .fieldtoc {margin-left:2em;}
+                                        .box {font-family:ZapfDingbats;}
+                                        .description {text-align:justify; margin-left:2em;}
+                                        .description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+                                        .description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+                                        .indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .subfieldvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+                                        .charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+                                        .example {margin-left:4em;}
+                                        .changed {color: #FF0000;}
+                                        .captiontext {font-style:italic;}
+                                        .displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+                                        .displaycontent {text-align:left;}
+                                        .table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+                                        .summary {margin-left:2em;}
+                                        .summarytable {margin-left:4em;}
+</style>
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a>
+    &gt;&gt; <strong>773</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>773 - Host Item Entry (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Note controller</em><br>
+      0 - Display note<br>
+      1 - Do not display note<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Display constant controller</em><br>
+      # - In<br>
+      8 - No display constant generated<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Main entry heading (NR)<br>
+      $b - Edition (NR)<br>
+      $d - Place, publisher, and date of publication (NR)<br>
+      $g - Related parts (R)<br>
+      $h - Physical description (NR)<br>
+      $i - Relationship information (R)<br>
+      $k - Series data for related item (R)<br>
+      $m - Material-specific details (NR)<br>
+      $n - Note (R)<br>
+      $o - Other item identifier (R)<br>
+      $p - Abbreviated title (NR)<br>
+      $q - Enumeration and first page (NR)<br>
+      $r - Report number (R)<br>
+      $s - Uniform title (NR)<br></td>
+
+      <td colspan="1">$t - Title (NR)<br>
+      $u - Standard Technical Report Number (NR)<br>
+      $w - Record control number (R)<br>
+      $x - International Standard Serial Number (NR)<br>
+      $y - CODEN designation (NR)<br>
+      $z - International Standard Book Number (R)<br>
+      $3 - Materials specified (NR)<br>
+      $4 - Relationship code (R)<br>
+      $6 - Linkage (NR)<br>
+      $7 - Control subfield (NR)<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/0 - Type of main entry heading<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/1 - Form of name<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/2 - Type of record<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/3 - Bibliographic level<br>
+      $8 - Field link and sequence number (R)<br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>Information concerning the host item for the constituent
+  unit described in the record (vertical relationship). In the
+  case of host items that are serial or multi-volume in nature,
+  information in subfields $g and $q is necessary to point to the
+  exact location of the component part within the bibliographic
+  item.</p>
+
+  <p>When a note is generated from this field, the introductory
+  term <em>In</em> may be generated based on the field tag for
+  display.</p>
+
+  <p>Provided in order to enable the user to locate the physical
+  piece that contains the component part or subunit being
+  described. Thus, only those data elements required to assist in
+  the identification of the host item need to be included in the
+  field, such as links to the bibliographic record describing the
+  item and/or descriptive data that identify the host item.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <p>Description of the first indicator position and all subfield
+  codes, as well as input conventions except for display
+  constants, for field 773 are given in the <em><a href=
+  "bd76x78x.html">76X-78X Linking Entries-General
+  Information</a></em> section.</p>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <div class="indicator">
+    <strong>Second Indicator - Display constant
+    controller</strong>
+
+    <div class="description">
+      Controls the generation of a display constant preceding the
+      data in the linking entry field.
+
+      <div class="indicatorvalue">
+        <strong># - In</strong>
+
+        <div class="description">
+          Used to generate the display constant <em>In:</em>.
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>8 - No display constant generated</strong>
+
+        <div class="description">
+          Information may be provided in subfield $i
+          (Relationship information)
+          when special introductory text is needed.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h4><span class="box">â </span> EXAMPLES</h4>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>773</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$t</strong>Horizon<strong>$g</strong>Vol.
+        17, no. 98 (Feb. 1948), p. 78-159<br>
+        <em>[Host item is identified by title.]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>773</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$g</strong>Vol. 2, no. 2 (Feb.
+        1976), p. 195-230<strong>$w</strong>(DLC)###75001234#<br>
+        <em>[Host item identified by record number.]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>773</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$t</strong>Networks for
+        networkers : critical issues in cooperative library
+        development<strong>$w</strong>(DLC)###79024054#<strong>$w</strong>(Uk)8040016<br>
+
+        <em>[Host item identified by title and by record
+        numbers.]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>773</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$7</strong>p1am<strong>$a</strong>Desio,
+        Ardito, 1897-<strong>$t</strong>Geographical features of
+        the Karakorum.<strong>$d</strong>Milano : ISMEO, 1991<br>
+        <em>[Host item identified by author and title.]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>773</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$7</strong>p1am<strong>$a</strong>Hamilton,
+        Milton W. (Milton Wheaton), 1901-<strong>$t</strong>Sir
+        William Johnson and the Indians of New
+        York.<strong>$d</strong>[Albany] : University of the
+        State of New York, State Education Dept., Office of State
+        History, 1967<strong>$w</strong>(DLC)###68066801#<br>
+        <em>[Host item identified by author, title, and record
+        number.]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>773</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$t</strong>Gilbert H.
+        Grosvenor Collection of Photographs of the Alexander
+        Graham Bell family<br>
+        <em>[Host item identified by title.]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>773</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$t</strong>Entomologists'
+        monthly magazine<strong>$p</strong>ENTOMOL MON
+        MAG<strong>$d</strong>Wallingford : Gem Publishing
+        Company<strong>$x</strong>0013-8908<strong>$y</strong>FNMMA</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>773</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$7</strong>c2tc<strong>$a</strong>Massachusetts.
+        Commission on Consumer
+        Affairs<strong>$t</strong>Records<strong>$w</strong>(MaRG)170</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>773</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$7</strong>nnas<strong>$t</strong>California
+        journal.<strong>$g</strong>Vol. 24, pt. B no. 9 (Sept.
+        1993), p. 235-48<strong>$q</strong>24:B:9&lt;235</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>773</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$7</strong>nnas<strong>$t</strong>Metro.
+        <strong>$g</strong>Vol. 96, no. 4 (May 2000), p. 23-24,
+        27<strong>$q</strong>96:4&lt;23</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>773</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$t</strong>Pacific rail
+        news.<strong>$q</strong>279&lt;GM5<br>
+        <em>[This example contains subfield $q with no
+        corresponding subfield $g]</em></td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+
+  <h3>CONTENT DESIGNATOR HISTORY</h3>
+
+  <div class="font_small">
+    <em>$q - Enumeration and first page [NEW, 2003]</em>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a>
+          &gt;&gt; <strong>773</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

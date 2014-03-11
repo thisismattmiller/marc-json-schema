@@ -1,0 +1,259 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 008: Mixed Materials 
+         					 (Network Development and MARC Standards Office, Library of
+         					Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the 008 for mixed materials (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-left:6em; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {margin-left:4em;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> 
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt; <strong>008 (Mixed Materials) </strong></div>
+      <hr><a name="skip_menu"></a><h1>008 - Mixed Materials (NR)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">February 2010</div>
+      <hr><strong>Indicators and Subfield Codes</strong><div class="description">Field has no indicators or subfield codes; the data elements are positionally
+                  defined.
+      </div>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>Character Positions</strong><br>
+              <strong>18-22 - Undefined  (006/01-05) </strong><br>
+              # - Undefined <br><br>
+              <strong>23 - Form of item  (006/06)</strong> <br>
+                 # - None of the following <br>a - Microfilm <br>b - Microfiche <br>c - Microopaque <br>d - Large print <br>f - Braille <br>o - Online <br>q - Direct electronic <br>r - Regular print reproduction <br>s - Electronic <br>| - No attempt to code<br><br>
+              <strong>24-34 - Undefined  (006/07-17) </strong><br>
+              # - Undefined</td>
+            <td width="45%">&nbsp;</td>
+         </tr>
+   </table>
+      <hr>
+      <h3>CHARACTER POSITION DEFINITION AND SCOPE</h3>
+      <p><strong>Mixed materials</strong> definition of field 008/18-34 is used when Leader/06
+                     (Type of record) contains code p (Mixed material). Field 008 positions 01-17 and 35-39
+                     are defined the same in all 008 fields and are described in the <em>008-All
+                        materials</em> section.
+      </p>
+      <p>Field 008/18-34 correspond to equivalent positionally defined data elements in field
+                     006/01-17 when field 006/00 (Form of material) contains code p (Mixed material). Details
+                     about specific codes defined for the equivalent character positions in field 006 and 008
+                     for <strong>mixed materials</strong> are provided in the <em>Guidelines for Applying
+                           Content Designators</em> section of <em>008-Mixed materials</em> only.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> CHARACTER POSITIONS
+      </h4>
+      <div class="characterposition"><strong>18-22 - Undefined   (006/01-05) </strong>
+         <div class="description">Undefined; each contains a blank (#) or a fill character (|).</div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>23 - Form of item   (006/06) </strong><div class="description">One-character alphabetic code that specifies the form of material for the
+                           item.
+         </div>
+         <div class="charactervalue"><strong># - None of the following</strong> <div class="description">Not specified by one of the other codes.</div>
+         </div>
+         <div class="charactervalue"><strong>a - Microfilm</strong> </div>
+         <div class="charactervalue"><strong>b - Microfiche</strong> <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/23</strong></td>
+                     <td vAlign="top" colspan="8" align="left">b</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">300</td>
+                     <td vAlign="top" colspan="9" align="left">##$a1 microfiche ;$c10 x 15 cm.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Microopaque</strong> </div>
+         <div class="charactervalue"><strong>d - Large print</strong> <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td height="21" colspan="1" align="left" vAlign="top"><strong>008/23</strong></td>
+                     <td vAlign="top" colspan="8" align="left">d</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">250</td>
+                     <td vAlign="top" colspan="9" align="left">##$aLarge print ed.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>f - Braille</strong> </div>
+         
+         <div class="charactervalue">
+            <strong>o - Online</strong>
+            
+            <div class="description">
+               The resource is accessed by means of hardware and software connections to a
+               communications network.  If a distinction between types of electronic resources is
+               not necessary, code s can be used as a generic code for any form of electronic resource.
+            </div>
+         </div>
+         
+         <div class="charactervalue">
+            <strong>q - Direct electronic</strong>
+            
+            <div class="description">
+               Storage on a directly accessible tangible recording medium, e.g. disc, tape, playaway
+               device, flashdrive, portable hard drive, etc.  If a distinction between types of electronic resources is
+               not necessary, code s can be used as a generic code for any form of electronic resource.
+            </div>
+         </div>
+         
+         <div class="charactervalue"><strong>r - Regular print reproduction</strong> <div class="description">Eye-readable print, such as a photocopy.</div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/23</strong></td>
+                     <td vAlign="top" colspan="8" align="left">r</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">500</td>
+                     <td vAlign="top" colspan="9" align="left">##$aPhoto-reproduction of 1963 edition.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>s - Electronic</strong> <div class="description">Intended for manipulation by a computer. May reside in a carrier accessed
+                                    either directly or remotely, in some cases requiring the use of peripheral
+                                    devices attached to the computer (e.g., a CD-ROM player). Not used for items
+                                    that do not require the use of a computer (e.g., music compact discs,
+                                    videodiscs).  This code can be used as a generic code
+                                    for any form of electronic resource.  Codes o and q may be used if there is a need
+                                    to separately identify online and direct electronic resources.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>24-34 - Undefined   (006/07-17) </strong>
+         <div class="description">Undefined; each contains a blank (#) or a fill character (|).</div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Capitalization</strong> - Alphabetic codes are input in lowercase.
+      </div>
+      <div class="description2"><strong>Field length</strong> - Field 008 should always consist of forty (40) character positions.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><br><em>008/23 - Form of item</em><div class="charactervaluehistory"><em># - None of the following [REDEFINED, 1987]</em></div>
+         <div class="charactervaluehistory"><em>g - Punched paper tape [OBSOLETE, 1987]</em></div>
+         <div class="charactervaluehistory"><em>h - Magnetic tape [OBSOLETE, 1987]</em></div>
+         <div class="charactervaluehistory"><em>i - Multimedia [OBSOLETE, 1987]</em></div>
+         <div class="charactervaluehistory"><em>j - Handwritten transcript [OBSOLETE, 1987]</em></div>
+         <div class="charactervaluehistory"><em>o - Online [NEW, 2010]</em></div>
+         <div class="charactervaluehistory"><em>p - Photocopy [OBSOLETE, 1987]</em></div>
+         <div class="charactervaluehistory"><em>q - Direct electronic [NEW, 2010]</em></div>
+         <div class="charactervaluehistory"><em>t - Typewritten transcript [OBSOLETE, 1987]</em></div>
+         <div class="charactervaluehistory"><em>z - Other form of reproduction [OBSOLETE, 1987]</em></div>
+         <div class="description">Code # (Not a reproduction) was redefined when the focus of 008/23 was changed. The
+                           other codes were made obsolete when the coding of 008/23 (Form of reproduction code)
+                           was redefined as information about the medium of the item in hand rather than about
+                           bibliographic reproductions.
+         </div><br><br><em>008/30 - Case file indicator [OBSOLETE, 1983]</em><div class="description">Defined codes were: # (No case file exists) and c (Case file exists). This kind of
+                           information may be contained in field 583 (Actions).
+         </div><br><br><em>008/32 - Processing status code [OBSOLETE, 1983]</em><div class="description">Defined codes were: a (Collection not in library), b (Completely processed), c
+                           (Processed but with unprocessed additions), d (Requires reprocessing), e (Totally
+                           unprocessed), f (Under total cloture), u (Unknown). This kind of information may be
+                           contained in field 583 (Actions).
+         </div><br><br><em>008/33 - Collection status code [OBSOLETE, 1983]</em><div class="description">Defined codes were: a (Discrete grouping of material), b (Accession), c (Active
+                           solicitation), d (Solicitation unsuccessful), e (Information file only), u (Unknown).
+                           This kind of information may be contained in field 583 (Actions).
+         </div><br><br><em>008/34 - Level of collection control code [OBSOLETE, 1983]</em><div class="description">Defined codes were: a (Control on collection level), b (Control by series), c
+                           (Control by container), d (Control by folder), e (Control by item), u (Unknown). This
+                           kind of information may be contained in field 555 (Cumulative Index/Finding Aids
+                           Note).
+         </div>
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt; <strong>008 (Mixed Materials) </strong></div> 
+               (03/05/2010) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

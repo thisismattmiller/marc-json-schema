@@ -1,0 +1,181 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>MARC 21 Format for Bibliographic Data: 410: Series Statement/Added Entry-Corporate Name (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the series statement/added entry-corporate name  (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.subfieldtoc {margin-left:3em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfieldvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+					.update {text-align:center; font-weight:bold; margin-top:1em; margin-bottom:1em;}
+					.changebox {font-style:italic; margin-top:.5em;}
+					.changesection {text-align:left; margin-left:2em; font-weight:bold; margin-top:.5em;}
+					.changefield {text-align:left; margin-left:1em; font-weight:bold;}
+					.changefieldlabel {margin-left:3em; font-weight:bold;}
+					.changeindicator {margin-left:3em;}
+					.changeindicatorfieldname {margin-left:2em;}
+					.changeindicatorvalue {margin-left:4em; font-weight:bold;}
+					.changesubfield {margin-left:3em; font-weight:bold;}
+					.changesubfieldname {margin-left:1em; font-weight:bold;}
+					.changesubfieldlocation {text-align:justify; font-weight:normal;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bdapndxh.html">Appendix H</a> &gt;&gt; <strong>410</strong></div>
+      <hr><a name="skip_menu"></a><h1>410 - Series Statement/Added Entry-Corporate Name (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Local</div>
+      <div class="datename">October 2003</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Type of corporate name entry element</em><br>0 - Inverted name <br>1 - Jurisdiction name <br>2 - Name in direct order <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Pronoun represents main entry</em><br>0 - Main entry not represented by pronoun <br>1 - Main entry represented by pronoun <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Corporate name or jurisdiction name as entry element (NR) <br>$b - Subordinate unit (R) <br>$c - Location of meeting (NR) <br>$d - Date of meeting or treaty signing (R) <br>$e - Relator term (R) <br>$f - Date of a work (NR) <br>$g - Miscellaneous information (NR) <br>$k - Form subheading (R) <br>$l - Language of a work (NR) <br></td>
+            <td colspan="1">$n - Number of part/section/meeting (R) <br>$p - Name of part/section of a work (R) <br>$t - Title of a work (NR) <br>$u - Affiliation (NR) <br>$v - Volume/sequential designation (NR) <br>$x - International Standard Serial Number (NR) <br>$4 - Relator code (R) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Used in the United States to support retrospective conversion of Pre-AACR 2 cataloging records. It was made obsolete in CAN/MARC
+         in 1988. This field contains an author/title series statement in which the author portion is a corporate name or a pronoun
+         representing it that refers back to a 110 field. Field 410 is both a series statement and a series added entry. When a 410
+         field is present, a corresponding 810 field is not used since it would duplicate the 410 field.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <p>Description of the first indicator position and all subfield codes are given in the <em><a href="bdx10.html">X10 Corporate Names-General Information</a></em> section. The second indicator is described under <a href="bd400.html">field 400</a>.      </p>
+      <h4><span class="box">&#9632;</span> EXAMPLES
+      </h4>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>410</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Mexico (City).<strong>$b</strong>Universidad Nacional.<strong>$b</strong>Instituto de Investigaciones Hist&oacute;ricas.<strong>$t</strong>Serie de historia general,<strong>$v</strong>v. 3
+               </td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left">110</td>
+               <td vAlign="top" colspan="9" align="left">1#$aWisconsin.$bLegislature.$bLegislative Reference Bureau.</td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>410</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>11</strong><strong>$a</strong>Its<strong>$t</strong>Research bulletin,<strong>$v</strong>78-RB-3
+               </td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left">110</td>
+               <td vAlign="top" colspan="9" align="left">2#$aWatt Committee on Energy.</td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>410</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>21</strong><strong>$a</strong>Its<strong>$t</strong>Report ;<strong>$v</strong>no. 1<strong>$x</strong>0141-9676
+               </td>
+            </tr>
+         </table>
+   </div>
+      <hr>
+      <h3>CONVERSION TO CURRENT FIELDS</h3>
+      <p>See <a href="bd400.html">field 400</a>.</p>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  							&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bdapndxh.html">Appendix H</a> &gt;&gt; <strong>410</strong></div> (02/28/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

@@ -1,0 +1,295 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 210: Abbreviated Title (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the abbreviated title (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a> &gt;&gt; <strong>210</strong></div>
+      <hr><a name="skip_menu"></a><h1>210 - Abbreviated Title (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2003</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Title added entry</em><br>0 - No added entry <br>1 - Added entry <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Type</em><br># - Abbreviated key title <br>0 - Other abbreviated title <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Abbreviated title (NR) <br>$b - Qualifying information (NR) <br>$2 - Source (R) </td>
+            <td colspan="1">$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) </td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Title as abbreviated for indexing or identification. An abbreviated <em>key</em> title
+         is supplied by ISSN centers, based on the Key Title (Field 222). Other abbreviated
+                  titles are supplied by cataloging agencies, including abstracting and indexing
+                  services.
+      </p>
+      <p>Abbreviated title may be created by the agency supplying the field or it may be taken
+                     from the piece.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Title added entry</strong> <div class="description">Whether an added entry is to be generated for the title.
+            <div class="indicatorvalue"><strong>0 - No added entry</strong> <div class="description">No title added entry is to be generated.</div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Added entry</strong> <div class="description">Title added entry is to be generated.</div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Type</strong> <div class="description">Type of abbreviated title.
+            <div class="indicatorvalue"><strong># - Abbreviated key title</strong> <div class="description">Abbreviated title is based on the title contained in field 222 (Key Title). It
+                                       is assigned by national centers under the auspices of the ISSN Network in
+                                       accordance with ISO 4, <em>Documentation - Rules for the Abbreviation of Title
+                                             Words and Titles of Publications</em> and <em>List of Serial Title Word
+                                             Abbreviations</em>. The abbreviated key title is an agency-assigned data
+                                       element.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Other abbreviated title</strong> <div class="description">Abbreviated title is other than an abbreviated key title.</div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Abbreviated title</strong> <div class="description">Complete abbreviated title.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>210</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Manage. improv. cost reduct. goals
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">222</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aManagement improvement and cost reduction
+                                          goals
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>210</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Surg. clin. North Am.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">222</td>
+                  <td vAlign="top" colspan="9" align="left">#4$aThe Surgical clinics of North America</td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Qualifying information</strong> <div class="description">Abbreviated form of the parenthetical qualifying information contained in the key
+                              title (field 222).
+         </div>
+         <div class="description2">
+            <div class="description">When qualifying information is present in the key title, the same information is
+                                 added to field 210 in the appropriate abbreviated form. The qualifier is always
+                                 enclosed in parentheses.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>210</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Plant prot. bull.<strong>$b</strong>(Faridabad)
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">222</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aPlant protection bulletin$b(Faridabad)</td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>210</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Annu. rep. - Dep. Public Welfare<strong>$b</strong>(Chic.)
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">222</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aAnnual report - Department of Public Welfare$b(Chicago)</td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$2 - Source</strong> <div class="description">MARC code that identifies the source list for the abbreviated title, if the source
+                              is known. Used primarily when the second indicator position contains value 0. It
+                              may also be added when the second indicator contains value blank and another
+                              abbreviated title list uses the same abbreviation as the abbreviated key
+                           title.
+         </div>
+         <div class="description2">
+            <div class="description">Code from: <em><a href="http://www.loc.gov/standards/sourcelist/abbreviated-title.html">Abbreviated Title Source Codes </a></em>.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>210</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>JAMA<strong>$2</strong>dnlm
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>210</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>JAMA j. Am. Med. Assoc.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Field 210 does not end with a mark of punctuation unless the last word in the field is
+                     an abbreviation, initial/letter, or data that ends with a mark of punctuation. See also
+                     subfield descriptions for punctuation information.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>Indicator 1 - Title added entry [NEW, 1977]</em><br>Records created prior to the definition of the first indicator in 1977 may contain #
+                        meaning <em>undefined</em> in this position.<br>
+                        <em>Indicator 2 - Type [NEW, 1998]</em><br>
+                        When the field was redefined to include non-key title abbreviations in 1998, value
+                        blank was redefined to identify key titles. Value blank in pre 1998 records also
+                        identifies key titles since only key title abbreviations allowed in the field before
+                        that date.
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a> &gt;&gt; <strong>210</strong></div> (02/21/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

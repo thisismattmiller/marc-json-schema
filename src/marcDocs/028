@@ -1,0 +1,459 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 028:
+         Publisher Number (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+               
+               &gt;&gt;
+               <strong>028</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>028</span> - <span>Publisher Number</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2012</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Type of publisher number</em><br /><span>0 - Issue number</span><br /><span>1 - Matrix number</span><br /><span>2 - Plate number</span><br /><span>3 - Other music number</span><br /><span>4 - Videorecording number</span><br /><span>5 - Other publisher number</span><br /><br /></td>
+            <td><em>Note/added entry controller</em><br /><span>0 - No note, no added entry</span><br /><span>1 - Note, added entry</span><br /><span>2 - Note, no added entry</span><br /><span>3 - No note, added entry</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Publisher number<span> (NR)</span></li>
+                  <li>$b - Source<span> (NR)</span></li>
+                  <li>$q - Qualifying information<span> (R)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Formatted number used for sound recordings, videorecordings, printed music, and other 
+               music-related material. Publisher's numbers that are given in an unformatted 
+               form are recorded in field 500 (General Note). A print constant identifying the kind
+               of publisher number may be generated based on the value in the first indicator position.
+            </p>
+         </div>
+         <div>
+            <p>Numbers that are identified as stock numbers are recorded in field 037 (Source of
+               Acquisition). In case of doubt as to whether a number is a publisherâs number, record
+               the number in field 500 or 037. Repeatable for multiple numbers associated with an
+               item.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>First Indicator - Type of publisher number</strong></p>
+                  <div></div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Issue number</span><div>
+                           <p>Number used to identify the issue designation, or serial identification,
+                              assigned by a publisher to a specific sound recording, side of a sound
+                              recording, or performance on a sound recording or to a group of sound
+                              recordings issued as a set.
+                           </p>
+                        </div>
+                        <div>
+                           <p>Appears on the record label or, in some cases for a group of sound recordings,
+                              on the packaging of these recordings.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>028</strong></td>
+                                 <td colspan="9"><strong>01</strong><strong>$a</strong>STMA 8007<strong>$b</strong>Tamla Motown<em><span><br /><span>[An issue number]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Matrix number</span><div>
+                           <p>Master from which the specific recording was pressed.</p>
+                        </div>
+                        <div>
+                           <p>Used as an identifying number when the item has no issue or label number.</p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>028</strong></td>
+                                 <td colspan="9"><strong>11</strong><strong>$a</strong>256A090<strong>$b</strong>Deutsche Grammophon Gesellschaft<em><span><br /><span>[A matrix number]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - Plate number</span><div>
+                           <p>Assigned by a publisher to a specific music publication.</p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>028</strong></td>
+                                 <td colspan="9"><strong>22</strong><strong>$a</strong>B. &amp; H. 8797<strong>$b</strong>Breitkopf &amp; Hartel
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>028</strong></td>
+                                 <td colspan="9"><strong>20</strong><strong>$a</strong>B. &amp; H. 8798<strong>$b</strong>Breitkopf &amp; Hartel
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>028</strong></td>
+                                 <td colspan="9"><strong>20</strong><strong>$a</strong>B. &amp; H. 8799<strong>$b</strong>Breitkopf &amp; Hartel
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>028</strong></td>
+                                 <td colspan="9"><strong>20</strong><strong>$a</strong>B. &amp; H. 8800<strong>$b</strong>Breitkopf &amp; Hartel
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>028</strong></td>
+                                 <td colspan="9"><strong>20</strong><strong>$a</strong>B. &amp; H. 8801<strong>$b</strong>Breitkopf &amp; Hartel
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>500</td>
+                                 <td colspan="9">##$aPl. no. : B. &amp; H. 8797-8801<em><span><br /><span>[Plate numbers]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">3 - Other music number</span><div>
+                           <p>Other than an issue, matrix, or plate number.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">4 - Videorecording number</span><div class="example"><br /><table>
+                              <tr>
+                                 <td><strong>028</strong></td>
+                                 <td colspan="9"><strong>42</strong><strong>$a</strong>VM5108<strong>$b</strong>Vidmark Entertainment
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>028</strong></td>
+                                 <td colspan="9"><strong>42</strong><strong>$a</strong>MV600167<strong>$b</strong>MGM/UA
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">5 - Other publisher number</span><div>
+                           <p>Other than any of the other defined values (i.e., it is not a publisher number
+                              for a sound recording, music, or a videorecording).
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Note/added entry controller</strong></p>
+                  <div>
+                     <p>Whether a note and/or an added entry generated from the content of this field is
+                        required for display.
+                     </p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - No note, no added entry</span><div>
+                           <p>Neither a note or an added entry needs to be generated.</p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>028</strong></td>
+                                 <td colspan="9"><strong>00</strong><strong>$a</strong>RF 202<strong>$b</strong>RBF
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>500</td>
+                                 <td colspan="9">##$aRBF: RF 202(x)A-RF 202(x)D. Imperfect: Side D
+                                    scratched.<em><span><br /><span>[An issue number for which no note or added entry is desired; note
+                                             provides other information.]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>028</strong></td>
+                                 <td colspan="9"><strong>40</strong><strong>$a</strong>MV600167<strong>$b</strong>MGM/UA<em><span><br /><span>[A videorecording number for which no note or added entry are
+                                             desired.]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Note, added entry</span><div>
+                           <p>Both a note and an added entry need to be displayed.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - Note, no added entry</span><div>
+                           <p>Note is displayed, but no added entry is required.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">3 - No note, added entry</span><div>
+                           <p>No note is displayed but an added entry is required.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Publisher number</strong> 
+                  </p>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>00</strong><strong>$a</strong>GV-201A<strong>$b</strong>Good Vibrations Records
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>11</strong><strong>$a</strong>L27410X<strong>$b</strong>Chaparral
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>40</strong><strong>$a</strong>VA5386<strong>$b</strong>Vestron Video
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Source</strong> 
+                  </p>
+                  <div>
+                     <p>Source of the publisher number. Varies according to the type of publication and
+                        the type of publisher's number being recorded. For sound recordings and
+                        videorecordings, the label name is recorded in subfield $b. For printed music, the
+                        publisher's name is recorded in subfield $b.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>00</strong><strong>$a</strong>M4X-31427<strong>$b</strong>Columbia
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>10</strong><strong>$a</strong>J-18961M-A<strong>$b</strong>Country Line
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$q - Qualifying information</strong> 
+                  </p>
+                  <div>
+                     <p>Contains qualifiers associated with the number such as part to which
+                        number pertains, where number found on item, etc.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>02</strong><strong>$a</strong>438 953-2<strong>$b</strong>Philips Classics<strong>$q</strong>(set)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>02</strong><strong>$a</strong>438 954-2<strong>$b</strong>Philips Classics<strong>$q</strong>(disc 1)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>02</strong><strong>$a</strong>438 955-2<strong>$b</strong>Philips Classics<strong>$q</strong>(disc 2)<em><span><br /><span>[2 CDs, with a number for the set and a number for each CD]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>02</strong><strong>$a</strong>K2 31158<strong>$b</strong>EMI Music Canada<strong>$q</strong>(on label)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>02</strong><strong>$a</strong>7234 8 31158<strong>$b</strong>EMI Music Canada<strong>$q</strong>(on container spine)<em><span><br /><span>[CD with two different numbers, one on the label and the other 
+                                       on the container spine]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>42</strong><strong>$a</strong>440 073 032-9<strong>$b</strong>Deutsche Grammophon<strong>$q</strong>(set and guide)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>42</strong><strong>$a</strong>440 073 033-9<strong>$b</strong>Deutsche Grammophon<strong>$q</strong>(disc 1)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>028</strong></td>
+                           <td colspan="9"><strong>42</strong><strong>$a</strong>440 073 034-9<strong>$b</strong>Deutsche Grammophon<strong>$q</strong>(disc 2)<em><span><br /><span>[2 DVDs, with number for the set and a number for each DVD]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Punctuation - </strong>Field 028 does not end with a mark of punctuation. All spacing and punctuation internal
+               to the number are carried in field 028.
+            </p>
+         </div>
+         <div>
+            <p><strong>Display Constants</strong></p>
+            <div class="table">
+               <table>
+                  <tr>
+                     <td>PL. no.:</td>
+                  </tr>
+                  <tr>
+                     <td>Publisher's no.:</td>
+                  </tr>
+               </table>
+            </div>
+            <p>The legends <em>Pl. no.:</em> and <em>Publisher's no.:</em> are not carried in the MARC
+               record. They may be system generated as display constants associated with the value in
+               the first and second indicator positions.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="indicatorHistory"><em>Indicator 2 -  [CAN/MARC only]</em><div class="valuehistory">
+               <div><em>0 - Print a note [REDEFINED, 1997]</em></div>
+            </div>
+            <div class="valuehistory">
+               <div><em>1 - Do not print a note [REDEFINED, 1997]</em></div>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$q - Qualifying information [NEW, 2012]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+               
+               &gt;&gt;
+               <strong>028</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/19/2012)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

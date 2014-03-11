@@ -1,0 +1,1645 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 008: Visual Materials 
+         					 (Network Development and MARC Standards Office, Library of
+         					Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the 008 for visual materials(Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-left:6em; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {margin-left:4em;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> 
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt; <strong>008 (Visual Materials) </strong></div>
+      <hr><a name="skip_menu"></a><h1>008 - Visual Materials (NR)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">February 2010</div>
+      <hr><strong>Indicators and Subfield Codes</strong><div class="description">Field has no indicators or subfield codes; the data elements are positionally
+                  defined.
+      </div>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>Character Positions</strong><br>
+              <strong>18-20 - Running time for motion pictures and videorecordings  (006/01-03) </strong><br>
+              000 - Running time exceeds three characters <br>001-999 - Running time <br>nnn - Not applicable <br>--- - Unknown <br>||| - No attempt to code <br><br>
+              <strong>21 - Undefined  (006/04) </strong><br>
+              # - Undefined <br><br>
+              <strong>22 - Target audience  (006/05) </strong><br>
+              # - Unknown or not specified <br>a - Preschool <br>b - Primary <br>c - Pre-adolescent <br>d - Adolescent <br>e - Adult <br>f - Specialized <br>g - General <br>j - Juvenile <br>| - No attempt to code <br><br>
+              <strong>23-27 - Undefined  (006/06-10) </strong><br>
+              # - Undefined <br>
+            <br>
+              <strong>28 - Government publication  (006/11) </strong><br>
+              # - Not a government publication <br>a - Autonomous or semi-autonomous component <br>c - Multilocal <br>f - Federal/national <br>i - International intergovernmental <br>l - Local <br>m - Multistate <br>o - Government publication-level undetermined <br>s - State, provincial, territorial, dependent, etc. <br>u - Unknown if item is government publication <br>z - Other <br>| - No attempt to code <br><br>
+              <strong>29 - Form of item  (006/12) </strong><br>
+              # - None of the following <br>a - Microfilm <br>b - Microfiche <br>c - Microopaque <br>d - Large print <br>f - Braille <br>o - Online <br>q - Direct electronic <br>r - Regular print reproduction <br>s - Electronic <br>| - No attempt to code
+             </td>
+            <td width="45%"><br>
+              <strong>30-32 - Undefined  (006/13-15) </strong><br>
+                # - Undefined <br><br>
+              <strong>33 - Type of visual material  (006/16) </strong><br>
+                a - Art original <br>b - Kit <br>c - Art reproduction <br>d - Diorama <br>f - Filmstrip <br>g - Game <br>i - Picture <br>k - Graphic <br>l - Technical drawing <br>m - Motion picture <br>n - Chart <br>o - Flash card <br>p - Microscope slide <br>q - Model <br>r - Realia <br>s - Slide <br>t - Transparency <br>v - Videorecording <br>w - Toy <br>z - Other <br>| - No attempt to code<br><br>
+              <strong>34 - Technique  (006/17) </strong><br>
+              a - Animation <br>c - Animation and live action <br>l - Live action <br>n - Not applicable <br>u - Unknown <br>z - Other <br>| - No attempt to code
+			  </td>
+         </tr>
+   </table>
+      <hr>
+      <h3>CHARACTER POSITION  DEFINITION AND SCOPE</h3>
+      <p><strong>Visual materials</strong> definition of field 008/18-34 is used when Leader/06
+         (Type of record) contains code g (Projected medium), code k (Two-dimensional
+         nonprojectable graphic, code o (Kit), or code r (Three-dimensional artifact or naturally
+                     occurring object). Field 008 positions 01-17 and 35-39 are defined the same in all 008
+                     fields and are described in the <em>008-All materials</em> section.
+      </p>
+      <p>Field 008/18-34 correspond to equivalent positionally defined data elements in field
+                     006/01-17 when field 006/00 (Form of material) contains code g, k, o, or r . Details
+                     about specific codes defined for the equivalent character positions in field 006 and 008
+                     for <strong>visual materials</strong> are provided in the <em>Guidelines for Applying
+                           Content Designators</em> section of <em>008-Visual materials</em> only.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> CHARACTER POSITIONS
+      </h4>
+      <div class="characterposition"><strong>18-20 - Running time for motion pictures and videorecordings   (006/01-03) </strong><div class="description">Three-digit number that indicates the total running time of the motion picture or
+                              videorecording. The number is right justified and each unused position contains a
+                              zero.
+         </div>
+         <div class="charactervalue"><strong>000 - Running time exceeds three characters</strong> <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="14%" align="left"></td>
+                     <td valign="top" width="2%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="14%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/18-20</strong></td>
+                     <td vAlign="top" colspan="8" align="left">000</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">300</td>
+                     <td vAlign="top" colspan="9" align="left">##$a30 videocassettes (52 min. each) :$bsd., col. ;$c1/2 in.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>001-999 - Running time</strong> <div class="description">Represents running time in whole numbers from 1 to 999. Running times of less
+                                    than three digits are right justified and unused positions contain zeros.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="14%" align="left"></td>
+                     <td valign="top" width="2%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="14%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/18-20</strong></td>
+                     <td vAlign="top" colspan="8" align="left">052</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">300</td>
+                     <td vAlign="top" colspan="9" align="left">##$a1 film reel (52 min.) :$bsd., col. ;$c16 mm.</td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="14%" align="left"></td>
+                     <td valign="top" width="2%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="14%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/18-20</strong></td>
+                     <td vAlign="top" colspan="8" align="left">180</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">300</td>
+                     <td vAlign="top" colspan="9" align="left">##$a12 videorecordings (15 min. each) :$bsd., col. ;$c1 in.</td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="14%" align="left"></td>
+                     <td valign="top" width="2%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="14%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/18-20</strong></td>
+                     <td vAlign="top" colspan="8" align="left">024</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">300</td>
+                     <td vAlign="top" colspan="9" align="left">##$a3 film reels (24 min.) :$bsd., col. ;$c16 mm.</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">505</td>
+                     <td vAlign="top" colspan="9" align="left">0#$aBirds of Maryland (5 min., 21 sec.) -- Birds of
+                                                   Virginia(10 min., 15 sec.) -- Birds of Delaware (8 min., 6
+                                                sec.)
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>nnn - Not applicable</strong> <div class="description">Running time is not applicable, such as when the item is not a motion picture
+                                    or a videorecording.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="14%" align="left"></td>
+                     <td valign="top" width="2%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="14%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/18-20</strong></td>
+                     <td vAlign="top" colspan="8" align="left">nnn</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">300</td>
+                     <td vAlign="top" colspan="9" align="left">##$a121 slides :$bcol. ;$c2x2 in. +$e1 teacher's guide.<br><em>[Code nnn indicates that the item is other than a motion picture or a
+                                                   videorecording.]</em></td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>--- - Unknown</strong> <div class="description">Running time is unknown.</div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="14%" align="left"></td>
+                     <td valign="top" width="2%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="14%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/18-20</strong></td>
+                     <td vAlign="top" colspan="8" align="left">---</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">300</td>
+                     <td vAlign="top" colspan="9" align="left">##$a1 videocassette :$bsd., col. ;$c3/4 in.<br><em>[Running time not stated elsewhere in the record.]</em></td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>||| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>21 - Undefined   (006/04) </strong>
+         <div class="description">Undefined; contains a blank (#) or a fill character (|).</div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>22 - Target audience   (006/05) </strong><div class="description">One-character alphabetic code that indicates the audience for which the item is
+                              intended.
+         </div>
+         <div class="description2">
+            <div class="description">Used primarily for educational audiovisual materials. When items with factual
+                                 content are considered appropriate for more than one target audience, the code is
+                                 recorded for the highest level appropriate.
+            </div>
+         </div>
+         <div class="charactervalue"><strong># - Unknown or not specified</strong> <div class="description">Target audience for which the material is intended is unknown or is not
+                                    specified. Used for all original or historical graphic material.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
+                     <td vAlign="top" colspan="8" align="left">#</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aQuantum mechanics.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>a - Preschool</strong> <div class="description">Intended for children, approximate ages 0-5 years.</div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
+                     <td vAlign="top" colspan="8" align="left">a</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">04$aThe Magic color wheel.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - Primary</strong> <div class="description">Intended for children, approximate ages 6-8 years.</div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
+                     <td vAlign="top" colspan="8" align="left">b</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">14$aThe alphabet.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Pre-adolescent</strong> <div class="description">Intended for young people, approximate ages 9-13.</div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
+                     <td vAlign="top" colspan="8" align="left">c</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aPearl Harbor$h[motion picture].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>d - Adolescent</strong> <div class="description">Intended for young people, approximate ages 14-17.</div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
+                     <td vAlign="top" colspan="8" align="left">d</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aBuilding of the Panama Canal.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>e - Adult</strong> <div class="description">Intended for adults.</div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
+                     <td vAlign="top" colspan="8" align="left">e</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aSquare dancing :$badvanced level calls.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>f - Specialized</strong> <div class="description">Aimed at a particular audience and the nature of the presentation would make
+                                    the item of little interest to other audiences. Examples include: 1) highly
+                                    technical training films; 2) items intended for special education of the
+                                    physically or mentally handicapped; and 3) items which address a limited
+                                    audience, for example, the employees of a single organization.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
+                     <td vAlign="top" colspan="8" align="left">f</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aProper use of the Scubapro buoyancy compensator$h[videorecording].<br><em>[An instructional tape accompanying special equipment]</em></td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>g - General</strong> <div class="description">Of general interest and not aimed at an audience of a particular intellectual
+                                    level. Used for fictional works not covered more appropriately by one of the
+                                    other codes.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
+                     <td vAlign="top" colspan="8" align="left">g</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aTo fly$h[motion picture].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>j - Juvenile</strong> <div class="description">Intended for use by children and young people, approximate ages 0-15. Used when
+                                    a more specific code for the juvenile target audience is not desired.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>23-27 - Undefined   (006/06-10) </strong>
+         <div class="description">Undefined; each contains a blank (#) or a fill character (|).</div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>28 - Government publication   (006/11) </strong><div class="description">One-character alphabetic code that indicates whether the item is published or
+                              produced by or for an international, provincial, national, state, or local
+                              government agency, or by any subdivision of such a body, and, if so, the
+                              jurisdictional level of the agency.
+         </div>
+         <div class="description2">
+            <div class="description">Government bodies and all their subdivisions are treated as government bodies
+                                 regardless of how they may be entered as headings (i.e., entered under
+                                 jurisdiction or not). In the bibliographic record, the body does not have to be a
+                                 main or added entry, but it should be named as publisher, etc. in the publication,
+                                 distribution, etc. area, or have caused the item to be published (usually inferred
+                                 when the governmental body is responsible for the content of the work). When in
+                                 doubt, treat the item as a government publication.
+            </div>
+         </div>
+         <div class="description2">
+            <div class="description"><strong>Guidelines for certain types of publications</strong></div>
+            <ul>
+               <li class="nobullet"><strong>Socialist countries</strong>- Since the coding of all items published
+                                       in socialist countries as government publications would limit the usefulness of
+                                       this element, coding should be used only for the same type of bodies that would
+                                       be considered government in a non-socialist country. In coding items in this
+                                       manner, when in doubt, treat the item as a government publication.
+               </li>
+               <li class="nobullet"><strong>Two levels</strong>- If an item is published or produced jointly by
+                                       government agencies at two different levels, record the code for the higher
+                                       government level.
+               </li>
+               <li class="nobullet"><strong>Academic publications</strong>- In the U.S., items published by
+                                       academic institutions are considered government publications if the
+                                       institutions are created or controlled by a government.
+               </li>
+               <li class="nobullet"><strong>University presses</strong>- In the U.S., items published by university
+                                       presses are considered government publications if the presses are created or
+                                       controlled by a government (e.g., state university presses in the United
+                                       States).
+               </li>
+            </ul>
+         </div>
+         <div class="charactervalue"><strong># - Not a government publication</strong> <div class="description">Not published by or for a government body.</div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
+                     <td vAlign="top" colspan="8" align="left">#</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">110</td>
+                     <td vAlign="top" colspan="9" align="left">2#$aUnited Artists.</td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
+                     <td vAlign="top" colspan="8" align="left">#</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">260</td>
+                     <td vAlign="top" colspan="9" align="left">##$aNew York :$bTime-Life Books,$c1976.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>a - Autonomous or semi-autonomous component</strong> <div class="description">Published or produced by or for a government body of an autonomous or
+                                    semi-autonomous component of a country.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
+                     <td vAlign="top" colspan="8" align="left">a</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">110</td>
+                     <td vAlign="top" colspan="9" align="left">1#$aSabah.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Multilocal</strong> <div class="description">Published or produced by or for a multilocal jurisdiction which is defined as a
+                                    regional combination of jurisdictions below the state level.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
+                     <td vAlign="top" colspan="8" align="left">c</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">110</td>
+                     <td vAlign="top" colspan="9" align="left">2#$aWashington Metropolitan Area Transit
+                                                Authority.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>f - Federal/national</strong> <div class="description">Published or produced by or for a federal or national government body, e.g., a
+                                    sovereign nation, such as Canada. Used for the governments of England, Wales,
+                                    Scotland, and Northern Ireland. Code f is also used for American Indian
+                                 tribes.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
+                     <td vAlign="top" colspan="8" align="left">f</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">110</td>
+                     <td vAlign="top" colspan="9" align="left">1#$aUnited States.$bNational Park Service.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>i - International intergovernmental</strong> <div class="description">Published or produced by or for an international intergovernmental body.</div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
+                     <td vAlign="top" colspan="8" align="left">i</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">110</td>
+                     <td vAlign="top" colspan="9" align="left">2#$aOrganization of American States.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>l - Local</strong> <div class="description">Published or produced by or for a local government jurisdiction such as a
+                                    county, city, town, etc.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
+                     <td vAlign="top" colspan="8" align="left">l</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">110</td>
+                     <td vAlign="top" colspan="9" align="left">1#$aZanesville (Ohio)</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>m - Multistate</strong> <div class="description">Published or produced by or for a regional combination of jurisdictions at the
+                                    state, provincial, territorial, etc. level.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
+                     <td vAlign="top" colspan="8" align="left">m</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">110</td>
+                     <td vAlign="top" colspan="9" align="left">2#$aTennessee Valley Authority.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>o - Government publication-level undetermined</strong> <div class="description">Published or produced by or for a government body but that the jurisdictional
+                                    level cannot be determined.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>s - State, provincial, territorial, dependent, etc.</strong> <div class="description">Jurisdictional level of the government body is a state, province, territory,
+                                    etc.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
+                     <td vAlign="top" colspan="8" align="left">s</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">110</td>
+                     <td vAlign="top" colspan="9" align="left">1#$aPuerto Rico.$bLegislative Assembly.</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown if item is government publication</strong> <div class="description">Whether or not the item is published or produced by or for a government agency
+                                    is unknown.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other defined codes are appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>29 - Form of item   (006/12) </strong><div class="description">One-character alphabetic code that specifies the form of material.</div>
+         <div class="charactervalue"><strong># - None of the following</strong> <div class="description">None of the other defined codes are appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>a - Microfilm</strong> </div>
+         <div class="charactervalue"><strong>b - Microfiche</strong> </div>
+         <div class="charactervalue"><strong>c - Microopaque</strong> </div>
+         <div class="charactervalue"><strong>d - Large print</strong> </div>
+         <div class="charactervalue"><strong>f - Braille</strong> </div>
+         <div class="charactervalue"><strong>o - Online</strong><div class="description">
+               The resource is accessed by means of hardware and software connections to a
+               communications network.  If a distinction between types of electronic resources is
+               not necessary, code s can be used as a generic code for any form of electronic resource.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>q - Direct electronic</strong><div class="description">
+               Storage on a directly accessible tangible recording medium, e.g. disc, tape, playaway
+               device, flashdrive, portable hard drive, etc.  If a distinction between types of electronic resources is
+               not necessary, code s can be used as a generic code for any form of electronic resource.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>r - Regular print reproduction</strong> <div class="description">Eye-readable print, such as a photocopy.</div>
+         </div>
+         <div class="charactervalue"><strong>s - Electronic</strong> <div class="description">Intended for manipulation by a computer. May reside in a carrier accessed
+                                    either directly or remotely, in some cases requiring the use of peripheral
+                                    devices attached to the computer (e.g., a CD-ROM player). Not used for items
+                                    that do not require the use of a computer (e.g., music compact discs,
+                                    videodiscs).  This code can be used as a generic code
+                                    for any form of electronic resource.  Codes o and q may be used if there is a need
+                                    to separately identify online and direct electronic resources.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>30-32 - Undefined   (006/13-15) </strong>
+         <div class="description">Undefined; each contains a blank (#) or a fill character (|).</div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>33 - Type of visual material   (006/16) </strong><div class="description">One-character alphabetic code that indicates the type of visual material being
+                              described.
+         </div>
+         <div class="charactervalue"><strong>a - Art original</strong> <div class="description">Two or three-dimensional work of art created by an artist, for example, a
+                                    sculpture, as contrasted with a reproduction of it.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">a</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">14$a[La gioconda]$h[art original] =$b[Mona Lisa].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - Kit</strong> <div class="description">Mixture of components from two or more categories, that is, sound recording,
+                                    maps, filmstrips, etc., no one of which is the predominant constituent of the
+                                    item.
+            </div>
+            <div class="description2">
+               <div class="description">Also includes the packages of material called laboratory kits, and packages of
+                                       assorted materials, such as a set of K-12 social studies curriculum material
+                                       (all books, workbooks, guides, activities, etc.) or packages of educational
+                                       test materials (tests, answer sheets, scoring guides, score charts,
+                                       interpretative manuals, etc.).
+               </div>
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">b</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$a200 ans d'op&eacute;ra, La Scala$h[kit] ...</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">500</td>
+                     <td vAlign="top" colspan="9" align="left">##$aIssued in box (63 x 48 x8 cm.) containing 1 vol.
+                                                   (166, [156] p. : ill. ; 31 cm.), 6 sound discs (33 1/3 rpm, mono. ; 12
+                                                   in. in case), 4 dioramas (47 pieces : col.), 4 souvenir booklets (12 p.
+                                                   each : ill. ; 15 cm. in case), and 2 art reproductions (photogravure,
+                                                   col. ; 60 x 45 cm.).
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Art reproduction</strong> <div class="description">Two or three-dimensional mechanically reproduced copy of a work of art,
+                                    generally as one of a commercial edition.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">c</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">10$a[Breezing up]$h[art reproduction].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>d - Diorama</strong> <div class="description">Three-dimensional representation of a scene created by placing objects,
+                                    figures, etc. in front of a two-dimensional background.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">d</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aCr&egrave;che de No&euml;l$h[diorama].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>f - Filmstrip</strong> <div class="description">Length of film containing a succession of images intended for projection one
+                                    frame at a time with or without recorded sound.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">f</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aWord processing$h[filmstrip]$can audiovisual production of the Robert C. Brady
+                                                Co.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>g - Game</strong> <div class="description">Item or set of items designed for play according to prescribed rules and
+                                    intended for recreation or instruction. Code g includes puzzles and
+                                    simulations.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">g</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">04$aThe Fable game$h[game].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>i - Picture</strong> <div class="description">Two-dimensional visual representation accessible to the naked eye and generally
+                                    on an opaque backing.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">i</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">03$a[A Rainbow over the Grand Canyon]$h[picture].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>k - Graphic</strong> <div class="description">Used for original or historical graphic material.</div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">k</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">100</td>
+                     <td vAlign="top" colspan="9" align="left">1#$aGilpin, Laura,$ephotographer.</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">15$a[The prelude]$h[graphic].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>l - Technical drawing</strong> <div class="description">Cross section, detail, diagram, elevation, perspective, plan, working plan,
+                                    etc., made for use in an architectural engineering or other technical
+                                 context.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">l</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$a[Cross section of west stairway]$h[technical drawing].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>m - Motion picture</strong> <div class="description">Series of still pictures on film with or without sound, designed to be
+                                    projected in rapid succession to produce the optical effect of motion.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">m</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aLeaving the freeway$h[motion picture].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Chart</strong> <div class="description">Opaque sheet that exhibits data in graphic or tabular form (e.g., a
+                                 calendar).
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">n</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$a[Periodic table]$h[chart].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>o - Flash card</strong> <div class="description">Card or other opaque material printed with words, numerals, or pictures and
+                                    designed for rapid display. Activity cards are included in this category.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">o</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aGerman$h[flash card].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>p - Microscope slide</strong> <div class="description">Transparent mount, usually glass, containing a minute object to be viewed
+                                    through a microscope or microprojector.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">p</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$a[Onion skin]$h[microscope slide].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>q - Model</strong> <div class="description">Three-dimensional representation of a real thing, either of the exact size of
+                                    the original or to scale.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">q</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aSolar system simulator$h[model].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>r - Realia</strong> <div class="description">Includes 1) all other three-dimensional items not covered by the other codes
+                                    (e.g., clothing, stitchery, fabrics, tools, utensils), and 2) naturally
+                                    occurring objects.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">r</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$a[Sea shell]$h[realia].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>s - Slide</strong> <div class="description">Transparent material on which there is a two-dimensional image, usually held in
+                                    a mount, and designed for use in a projector or viewer. Modern stereographs,
+                                    for example, Viewmaster reels, are included here.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">s</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aStreet paintings of Los Angeles$h[slide].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>t - Transparency</strong> <div class="description">Transparent material on which a basically still image is recorded.
+                                    Transparencies are designed for use with an overhead projector or a light box.
+                                    X-rays are coded as transparencies.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">t</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">04$aThe Electromagnetic spectrum$h[transparency].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>v - Videorecording</strong> <div class="description">Recording on which visual images, usually in motion and accompanied by sound,
+                                    have been registered. Videorecordings are designed for playback by means of a
+                                    television receiver or monitor.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">v</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aRadio processing--a short story history of
+                                                   processors$h[videorecording].
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>w - Toy</strong> <div class="description">Material object for children or others to play with (often an imitation of some
+                                    familiar object); a plaything; also, something contrived for amusement rather
+                                    than for practical use.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/33</strong></td>
+                     <td vAlign="top" colspan="8" align="left">w</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$a[Yoyo]$h[toy].</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other defined codes are appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>34 - Technique   (006/17) </strong><div class="description">One-character alphabetic code that indicates the technique used in creating motion
+                              in motion pictures or videorecordings.
+         </div>
+         <div class="charactervalue"><strong>a - Animation</strong> <div class="description">Animated films are produced using a variety of techniques including 1)
+                                    cartoons; 2) graphic film (with paint or other media directly applied to the
+                                    surface of the film); 3) model, clay, or puppet animation (where
+                                    three-dimensional objects are photographed one frame at a time to achieve the
+                                    effect of animation); and 4) other techniques.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/34</strong></td>
+                     <td vAlign="top" colspan="8" align="left">a</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aClosed Mondays$h[motion picture].</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">520</td>
+                     <td vAlign="top" colspan="9" align="left">##$aUses clay animation ...</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Animation and live action</strong> <div class="description">Combination of animation and live action. Used when there is some indication
+                                    elsewhere in the cataloging record that there are animated sequences. This
+                                    information may appear in a Summary note (field 520) or in a Credits note
+                                    (field 508).
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/34</strong></td>
+                     <td vAlign="top" colspan="8" align="left">c</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aNarcissus$h[motion picture].</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">520</td>
+                     <td vAlign="top" colspan="9" align="left">##$aThrough optical imagery shows the beauty of
+                                                   traditional ballet. Live action and animation are used
+                                                ...
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>l - Live action</strong> <div class="description">If no information is found in the cataloging record and accompanying material
+                                    that indicates otherwise, it is assumed that the motion picture or
+                                    videorecording is live action.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/34</strong></td>
+                     <td vAlign="top" colspan="8" align="left">l</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aAnnie Hall$h[motion picture] ...</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Item is not a motion picture or a videorecording.</div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Technique for creating motion is unknown.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">Primarily of special techniques which are neither animation nor live action.
+                                    These include microcinematography, time lapse cinematography, trick
+                                    cinematography, and other techniques. Code z is also used for videorecordings
+                                    and motion pictures which were made from still image slide sets or filmstrips
+                                    without adding animation to the images.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="9%" align="left"></td>
+                     <td valign="top" width="6%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>008/34</strong></td>
+                     <td vAlign="top" colspan="8" align="left">z</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">245</td>
+                     <td vAlign="top" colspan="9" align="left">00$aCloud formation$h[motion picture].</td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left">520</td>
+                     <td vAlign="top" colspan="9" align="left">##$aUses time-lapse photography to show actual cloud
+                                                   formation in the earth's atmosphere.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Capitalization</strong> - Alphabetic codes are input in lowercase.
+      </div>
+      <div class="description2"><strong>Field length</strong> - Field 008 should always consist of forty (40) character positions.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><br><em>008/18-20 - Length [REDEFINED, 1984]</em><div class="charactervaluehistory"><em><br>nnn - Not applicable [NEW, 1984]</em></div>
+         <div class="description">In 1984, 008/18-20 (Length) was redefined to limit its use to motion pictures and
+                           videorecordings. Code nnn (Not applicable) was defined at that time. Records created
+                           prior to that change may contain the number of slides, filmstrip frames, or
+                           transparencies in 008/18-20.
+         </div><br><br><em>008/21 - In LC collection [OBSOLETE, 1983] [USMARC only]</em><div class="description">Defined codes were: # (Not in LC), a (In LC, print note), b (In LC, do not print
+                           note), u (Unknown).
+         </div><br><br><em>008/22 - Target audience</em><div class="charactervaluehistory"><em><br>c - Elementary and junior high [RENAMED, 2002]</em></div>
+         <div class="charactervaluehistory"><em><br>d - Secondary (senior high) [RENAMED, 2002]</em></div>
+         <div class="charactervaluehistory"><em><br>f - General [OBSOLETE]</em></div>
+         <div class="charactervaluehistory"><em><br>g - Specialized [OBSOLETE]</em><div class="description">Prior to 1972, the definitions of codes f and g were reversed: f (General), g
+                                 (Specialized).
+            </div>
+         </div>
+         <div class="charactervaluehistory"><em><br>h - Secondary (grades 10-12) [OBSOLETE] [CAN/MARC only]</em></div>
+         <div class="charactervaluehistory"><em><br>k - Preschool and Kindergarten [OBSOLETE] [CAN/MARC only]</em></div>
+         <div class="charactervaluehistory"><em><br>m - Primary (grades 4-6) [OBSOLETE] [CAN/MARC only]</em></div>
+         <div class="charactervaluehistory"><em><br>p - Special education - general [OBSOLETE] [CAN/MARC only]</em></div>
+         <div class="charactervaluehistory"><em><br>q - Physically handicapped [OBSOLETE] [CAN/MARC only]</em></div>
+         <div class="charactervaluehistory"><em><br>r - Mentally retarded [OBSOLETE] [CAN/MARC only]</em></div>
+         <div class="charactervaluehistory"><em><br>s - Simplified works for adults [OBSOLETE] [CAN/MARC only]</em></div>
+         <div class="charactervaluehistory"><em><br>t - Gifted [OBSOLETE] [CAN/MARC only]</em></div><br><br><em>008/23-27 - Accompanying matter code [OBSOLETE, 1980]</em><div class="charactervaluehistory"><em><br>0 - No [OBSOLETE] [USMARC only]</em></div>
+         <div class="charactervaluehistory"><em><br>1 - Yes [OBSOLETE] [USMARC only]</em></div>
+         <div class="description">Prior to 1980, character positions 23-27 were positionally defined (23, Stills; 24,
+                           Script material; 25, Posters; 26, Press books; and 27, Other). Each position
+                           contained a status code 0 (No) or 1 (Yes) to indicate the absence or presence of the
+                           type of material. In 1980, specific codes were defined for types of accompanying
+                           material and 008/23-27 were restructured to contain as many as five codes.Character positions 23-27 were made obsolete in 1997. The defined codes were: # (No
+                           accompanying matter), l (Stills), m (Script material), o (Posters), p (Pressbooks), q
+                           (Lobby cards), r (Instructional materials), s (Music), z (Other).
+         </div><br><br><em>008/23 - Form of item [OBSOLETE, 1997] [CAN/MARC only]</em><div class="description">Defined codes were: # (None of the following), a (Microfilm); b (Microfiche); c
+                           (Microopaque). Code z (Other) was obsolete.
+         </div><br><br><em>008/24-27 - Accompanying material [OBSOLETE, 1997] [CAN/MARC only]</em><div class="description">Defined codes were: # (No accompanying material); a (Language material-printed); c
+                           (Music-printed); d (Diorama); e (Map-printed); f (Filmstrip); g (Game); h
+                           (Microform); i (Sound recording-non-musical); j (Sound recording-musical); k
+                           (Picture); l (Machine-readable data file); m (Motion picture); n (Chart); o (Flash
+                           card); p (Microscope slide); q (Model); r (Realia); s (Slide); t (Transparency); v
+                           (Videorecording); z (Other).
+         </div><br><br><em>008/28 - Government publication</em><div class="charactervaluehistory"><em><br>n - Government publication-level undetermined [OBSOLETE, 1979]</em></div>
+         <div class="description">Prior to 1979, an undetermined level was identified by code n; currently code o is
+                           used.
+         </div><br><br><em>008/29 - Form of item</em><div class="charactervaluehistory"><em><br>o - Online [NEW, 2010]</em>
+         </div>
+            <div class="charactervaluehistory"><em><br>q - Direct electronic [NEW, 2010]</em>
+         </div><br><br><em>008/32 - Main Entry in body of entry [OBSOLETE, 1990]</em><div class="description">Defined codes were: 0 (Main entry not in body of entry), 1 (Main entry in body of
+                           entry).
+         </div><br><br><em>008/33 - Type of visual material</em><div class="charactervaluehistory"><em><br>e - Electronic videorecording [OBSOLETE, 1975]</em></div>
+         <div class="description">Code was made obsolete when code v (Videotape) was redefined to include any
+                           videorecording.
+         </div><br><br><em>008/34 - Technique</em><div class="charactervaluehistory"><em><br># - Not applicable [OBSOLETE, 1980]</em></div>
+         <div class="description">Codes defined for this character position were applicable only to motion pictures
+                           until the definition was expanded to include videorecordings in 1980. At that time
+                           code n was defined for items other than motion pictures and videorecordings and # was
+                           made obsolete.
+         </div>
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt; <strong>008 (Visual Materials) </strong></div> 
+               (03/05/2010) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

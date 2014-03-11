@@ -1,0 +1,357 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 083:
+         Additional Dewey Decimal Classification Number (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt;
+               <strong>083</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>083</span> - <span>Additional Dewey Decimal Classification Number</span> (R)
+      </h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2011</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Type of edition</em><br /><span>0 - Full edition</span><br /><span>1 - Abridged edition</span><br />7 - Other edition specified in subfield $2<br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Classification number (R)</li>
+                  <li>$c - Classification number--Ending number of span (R)</li>
+                  <li>$m - Standard or optional designation (NR)</li>
+                  <li>$q - Assigning agency (NR)</li>
+                  <li>$y - Table sequence number for internal
+                     					subarrangement or add table (R)
+                  </li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$z - Table identification (R)</li>
+                  <li>$2 - Edition number (NR)</li>
+                  <li>$6 - Linkage (NR)</li>
+                  <li>$8 - Field link and sequence number (R)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Classification number used for subject access. It
+               				is taken from <em>Dewey Decimal Classification and
+                  					Relative Index</em>, the <em>Abridged Dewey
+                  					Decimal Classification and Relative Index</em>,
+               				and electronic updates to either edition. Through
+               				1997, updates were issued in <em>DC&amp; Dewey
+                  					Decimal Classification Additions, Notes and
+                  					Decisions</em>.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p><strong>First Indicator - Type of edition</strong></p>
+                  <div>
+                     <p>Indicates the edition from which the Dewey Decimal
+                        					classification is taken.
+                     </p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Full edition</span><div>
+                           <p>Class number was taken from the full
+                              						edition.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td>082</td>
+                                 <td colspan="9">04$a388.13$222</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>083</strong></td>
+                                 <td colspan="9"><strong>0#</strong><strong>$z</strong>2<strong>$a</strong>4947<strong>$2</strong>22<em><span><br /><span>For a book on tunnels in the Swiss Alps.
+                                             								The Dewey number 388.13 is used for
+                                             								interdisciplinary works on tunnels, but the
+                                             								number itself is broader, covering a variety
+                                             								of special road features. Consequently,
+                                             								geographic area notation cannot be added to
+                                             								the primary number in field 082. Field 083
+                                             								contains the geographic area notation from
+                                             								Table 2 for the Swiss Alps.</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Abridged edition</span><div>
+                           <p>Class number was taken from the abridged
+                              							edition.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">7 - Other edition specified in subfield $2</span><div>
+                           <p>The edition is specified in subfield $2 
+						(Edition number).</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p><strong>Second Indicator - Undefined</strong></p>
+                  <div>
+                     <p>Undefined and contains a blank (#).</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Classification number</strong> 
+                  </p>
+                  <div>
+                     <p>Additional classification number applied to the
+                        						resource, which could be used for subject access
+                        						in addition to the primary classification number
+                        						assigned.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>082</td>
+                           <td colspan="9">04$a599.0994$222</td>
+                        </tr>
+                        <tr>
+                           <td><strong>083</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>598.0994<strong>$2</strong>22
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>083</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$z</strong>2<strong>$a</strong>94<strong>$2</strong>22<em><span><br /><span>For a book on Australian birds and
+                                       							mammals. The Dewey number 599 is used for
+                                       							works on mammals and for comprehensive works
+                                       							on birds and mammals. The rest of the primary
+                                       							number in field 082 consists of 09 Geographic
+                                       							treatment from Table 1 and 94 Australia from
+                                       							Table 2. There is no way to tell from this
+                                       							number whether the book contains information
+                                       							about birds or not. The Dewey number 598 in
+                                       							the first 083 field means birds, and the full
+                                       							number means birds in Australia. The second
+                                       							083 field has the Table 2 area number for
+                                       							Australia; it is intended to help users
+                                       							seeking everything about Australia.</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$c - Classification number--Ending number of span</strong> 
+                  </p>
+                  <div>
+                     <p>Ending number of a number span when the
+						beginning number of the span is contained in
+						subfield $a.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$m - Standard or optional designation</strong> 
+                  </p>
+                  <div>
+                     <p>Designates whether the classification number contained in
+						the field is from the standard or optional part
+						of the schedules or tables of the scheme
+						identified by the first indicator (Type of
+						edition) and by subfield $2 (Edition
+						number). The following codes are used: a
+						(standard) and b (optional).</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$q - Assigning agency</strong> 
+                  </p>
+                  <div>
+                     <p>MARC organization code of the institution that
+                        						assigned the classification number.
+                     </p>
+                  </div>
+                  <div>
+                     <p>Code from: <em><a href="http://www.loc.gov/marc/organizations/orgshome.html">MARC Code List for Organizations</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$y - Table sequence number for internal
+                        					subarrangement or add table</strong> 
+                  </p>
+                  <div>
+                     <p>Sequence number or other identifier for an
+                        						internal classification subarrangement or add
+                        						table. If the first or only add table found at a
+                        						classification number is the number 1, succeeding integers are used for any following
+                        						add tables found at that number.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$z - Table identification</strong> 
+                  </p>
+                  <div>
+                     <p>Number of the table from which the
+						classification number in a subdivision record is
+						taken. Subfield $z always precedes
+						the associated subfield $a in the
+						field.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Edition number</strong> 
+                  </p>
+                  <div>
+                     <p>Number of the edition of the Dewey
+                        						classification schedules from which the
+                        						classification was assigned. 
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Spacing - </strong>Lowercase "s" (for series) is separated from the
+               				number by one space.
+            </p>
+         </div>
+         <div>
+            <p><strong>Display Constant</strong></p>
+            <div class="table">
+               <table>
+                  <tr>
+                     <td>[ ... ]</td>
+                     <td><em>[brackets]</em></td>
+                  </tr>
+               </table>
+            </div>
+            <p>Square brackets enclosing a DDC number that appear
+               				on printed products are not carried in the MARC
+               				record. They may be system generated as a display
+               				constant associated with the field tag.
+            </p>
+         </div>
+         <div>
+            <p><strong>Standard or optional designation - </strong>If subfield $m is present, only one
+				subfield $a should be coded, unless the
+				value in subfield $m applies to all
+				numbers in repeated occurrences of subfield
+				$a. Otherwise, the field is repeated.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="indicatorHistory"><em>Indicator 1 - Type of edition</em><div class="valuehistory">
+               <div><em>7 - Other edition specified in subfield $2 [NEW, 2011]</em></div>
+            </div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt;
+               <strong>083</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/01/2011)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

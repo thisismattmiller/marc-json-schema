@@ -1,0 +1,247 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 027:
+         Standard Technical Report Number (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+               
+               &gt;&gt;
+               <strong>027</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>027</span> - <span>Standard Technical Report Number</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2013</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Standard technical report number<span> (NR)</span></li>
+                  <li class="changed">$q - Qualifying information<span> (R)</span></li>
+                  <li>$z - Canceled/invalid number<span> (R)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>International Standard Technical Report number (ISRN) or a Standard Technical Report
+               Number (STRN)assigned to a technical report. Assignment of STRNs is coordinated by the
+               National Technical Information Service (NTIS), which also maintains an assignment
+               registry.
+            </p>
+         </div>
+         <div>
+            <p>Formulated according to specification in the standards <em>International Standard
+                  Technical Report Number (ISRN), ISO 10444</em>, <em>Standard Technical Report Number
+                  Format and Creation, ANSI/NISO Z39.23-1997</em>, or <em>Standard Technical Report
+                  Number (STRN), Format and Creation, ANSI Z39.23-1983</em>. The technical report
+               number is usually the primary means of identifying a specific technical report.
+            </p>
+            <p>Repeatable for multiple ISRNs and STRNs associated with an item.</p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <ul>
+               <li>Both indicators are undefined; each contains a blank (#).</li>
+            </ul>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Standard technical report number</strong> 
+                  </p>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>027</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>FOA--89-40265/C--SE
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>027</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>METPRO/CB/TR--74/216+PR.ENVR.WI
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>027</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>MPC-387
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div class="changed">
+                  <p class="label"><strong>$q - Qualifying information</strong> 
+                  </p>
+                  <div>
+                     <p>A brief statement of qualifying information concerning the item associated
+              with a number being recorded in subfield $a or subfield $z.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$z - Canceled/invalid number</strong> 
+                  </p>
+                  <div>
+                     <p>Any canceled and/or invalid standard number.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Number Structure - </strong>ISRN is formulated according to <em>International Standard Technical Report Number
+                  (ISRN), ISO 10444</em> or <em>Standard Technical Report Number Format and Creation,
+                  ANSI/NISO Z39.23-1997</em>. It is composed of three parts: 1) report code of
+               alphanumeric characters that designate the issuing organization and, in some cases, a
+               series; 2) a sequential group of numeric characters assigned by the issuing
+               organization; 3) an optional addition that includes a country code and local suffix
+               provided by the issuing organization. The report code and sequential group are separated
+               by a double hyphen (--). The country code is preceded by a double hyphen (--) and the
+               local suffix by a plus sign (+). Slashes and single hyphens may be used as subdividers
+               within the report code and within the sequential group. These marks are carried in the
+               MARC record.
+            </p>
+         </div>
+         <div class="example">
+            <table>
+               <tr>
+                  <td><strong>027</strong></td>
+                  <td colspan="9"><strong>##</strong><strong>$a</strong>FYHU/PF/2--80/12+MAGN
+                  </td>
+               </tr>
+               <tr>
+                  <td><strong>027</strong></td>
+                  <td colspan="9"><strong>##</strong><strong>$a</strong>WBK-MTT--89/64--DE
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div>
+            <p>STRN number is formulated according to <em>Standard Technical Report Number (STRN),
+                  Format and Creation, ANSI Z39.23-1983</em>. It is composed of three parts: 1) a
+               report code of alphanumeric characters that designate the issuing organization and, in
+               some cases, a series; 2) a sequential group of numeric characters assigned by the
+               issuing organization; and 3) an optional local suffix in which the issuing organization
+               may place additional information. The report code and sequential group are separated by
+               a single hyphen (-) and the sequential group and local suffix are separated by an
+               ampersand (&amp;) or a plus sign (+). Slashes may be used as subdividers within the
+               report code and within the sequential group. These marks are carried in the MARC
+               record.
+            </p>
+         </div>
+         <div class="example">
+            <table>
+               <tr>
+                  <td><strong>027</strong></td>
+                  <td colspan="9"><strong>##</strong><strong>$a</strong>METPRO/ED/SR-77/035
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div>
+            <p><strong>Punctuation - </strong>Field 027 does not end with a mark of punctuation.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="historySubfield">
+            <div class="changed"><em>$q - Qualifying information [NEW, 2013]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+               
+               &gt;&gt;
+               <strong>027</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/24/2013)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

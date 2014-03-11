@@ -1,0 +1,457 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 648:
+         Subject Added Entry-Chronological Term (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a>Â  
+               
+               &gt;&gt;
+               <strong>648</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>648</span> - <span>Subject Added Entry-Chronological Term</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">April 2013</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Type of date or time period</em><br /><span># - No information provided</span><br /><span>0 - Date or time period covered or depicted</span><br /><span>1 - Date or time period of creation or origin</span><br /><br /></td>
+            <td><em>Thesaurus</em><br /><span>0 - Library of Congress Subject Headings</span><br /><span>1 - LC subject headings for children's literature</span><br /><span>2 - Medical Subject Headings</span><br /><span>3 - National Agricultural Library subject authority file</span><br /><span>4 - Source not specified</span><br /><span>5 - Canadian Subject Headings</span><br /><span>6 - RÃ©pertoire de vedettes-matiÃ¨re</span><br /><span>7 - Source specified in subfield $2</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <p class="groupHeading">Main term portion</p>
+               <ul class="nomark">
+                  <li>$a - Chronological term<span> (NR)</span></li>
+               </ul><br /><p class="groupHeading">Subject subdivision portion</p>
+               <ul class="nomark">
+                  <li>$v - Form subdivision<span> (R)</span></li>
+                  <li>$x - General subdivision<span> (R)</span></li>
+                  <li>$y - Chronological subdivision<span> (R)</span></li>
+                  <li>$z - Geographic subdivision<span> (R)</span></li>
+               </ul><br /></td>
+            <td>
+               <p class="groupHeading">Control subfields</p>
+               <ul class="nomark">
+                  <li>$0 - Authority record control number or standard number<span> (R)</span></li>
+                  <li>$2 - Source of heading or term<span> (NR)</span></li>
+                  <li>$3 - Materials specified<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Subject added entry in which the entry element is a chronological term.</p>
+         </div>
+         <div>
+            <p>Subject added entries are assigned to a bibliographic record to provide access according
+               to generally accepted thesaurus-building rules (e.g., <em>Library of Congress Subject
+                  Headings</em> (LCSH), <em>Medical Subject Headings</em> (MeSH), <em>Faceted
+                  Application of Subject Terminology</em> (FAST)). Field 648 may be used by any
+            institution assigning subject headings based on the lists and authority files identified
+            in the second indicator position or in subfield $2 (Source of heading or
+            term).
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p>Content designators identify the subelements occurring in chronological terms and
+               subdivisions.
+            </p>
+         </div>
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>First Indicator - Type of date or time period</strong></p>
+                  <div></div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - No information provided</span></div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Date or time period covered or depicted</span><div class="example"><br /><table>
+                              <tr>
+                                 <td><strong>648</strong></td>
+                                 <td colspan="9"><strong>17</strong><strong>$a</strong>1860-1865<strong>$2</strong>fast
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>648</strong></td>
+                                 <td colspan="9"><strong>07</strong><strong>$a</strong>1860-1865<strong>$2</strong>fast<em><span><br /><span>[A collection, published 1969, of letters dated 1860-1865.
+                                             The period depicted and created are the same.]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Date or time period of creation or origin</span><div class="example"><br /><table>
+                              <tr>
+                                 <td><strong>648</strong></td>
+                                 <td colspan="9"><strong>10</strong><strong>$a</strong>Nineteenth century.
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>648</strong></td>
+                                 <td colspan="9"><strong>17</strong><strong>$a</strong>203-1486<strong>$2</strong>fast
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>648</strong></td>
+                                 <td colspan="9"><strong>10</strong><strong>$a</strong>Middle Ages.
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>648</strong></td>
+                                 <td colspan="9"><strong>17</strong><strong>$a</strong>1932-1940<strong>$2</strong>fast
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>648</strong></td>
+                                 <td colspan="9"><strong>10</strong><strong>$a</strong>Nineteen thirties.
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>648</strong></td>
+                                 <td colspan="9"><strong>10</strong><strong>$a</strong>Nineteen forties.
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Thesaurus</strong></p>
+                  <div>
+                     <p>Subject heading system or thesaurus used in constructing the subject heading.</p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Library of Congress Subject Headings</span><div>
+                           <p>Subject added entry conforms to and is appropriate for use in the <em>Library
+                                 of Congress Subject Headings</em> (LCSH) and the Name authority files that
+                              are maintained by the Library of Congress.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - LC subject headings for children's literature</span><div>
+                           <p>Subject added entry conforms to the "AC Subject Headings" section of the
+                              <em>Library of Congress Subject Headings</em> and is appropriate for use in
+                              the LC Annotated Card Program.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - Medical Subject Headings</span><div>
+                           <p>Subject added entry conforms to and is appropriate for use in the National
+                              Library of Medicine authority files.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">3 - National Agricultural Library subject authority file</span><div>
+                           <p>Subject added entry conforms to and is appropriate for use in the National
+                              Agricultural Library subject authority file.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">4 - Source not specified</span><div>
+                           <p>Subject added entry conforms to a controlled list that cannot be identified by
+                     second indicator values 0-3, 5-6 or by a code in subfield $2.</p>
+                        </div>
+                        <div>
+                           <p>Field 653 (Index Term-Uncontrolled) is used to record terms that are not
+                              derived from controlled subject heading lists.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">5 - Canadian Subject Headings</span><div>
+                           <p>Subject added entry conforms to and is appropriate for use in the <em>Canadian
+                                 Subject Headings</em> that is maintained by the Library and Archives
+                              Canada.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">6 - RÃ©pertoire de vedettes-matiÃ¨re</span><div>
+                           <p>Subject added entry conforms to the <em>RÃ©pertoire de vedettes-matiÃ¨re</em>
+                              that is maintained by the BibliothÃ¨que de l'UniversitÃ© Laval.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">7 - Source specified in subfield $2</span><div>
+                           <p>Subject added entry conforms to a set of subject heading system/thesaurus
+                     building rules. The identifying code is given in subfield $2.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Chronological term</strong> 
+                  </p>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>648</strong></td>
+                           <td colspan="9"><strong>#7</strong><strong>$a</strong>1900-1999<strong>$2</strong>fast
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>648</strong></td>
+                           <td colspan="9"><strong>#7</strong><strong>$a</strong>1862<strong>$2</strong>fast
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>648</strong></td>
+                           <td colspan="9"><strong>#7</strong><strong>$a</strong>1800-1899<strong>$2</strong>fast
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$v - Form subdivision</strong> 
+                  </p>
+                  <div>
+                     <p>Form subdivision that designates a specific kind or genre of material as defined
+                  by the thesaurus being used. Subfield $v is appropriate only when a
+                  form subject subdivision is added to a main term.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$x - General subdivision</strong> 
+                  </p>
+                  <div>
+                     <p>Subject subdivision that is not more appropriately contained in subfields
+                  $v (Form subdivision), $y (Chronological subdivision), or
+                  $z (Geographic subdivision). Subfield $x is appropriate only
+                  when a general topical subdivision is added to a main term.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$y - Chronological subdivision</strong> 
+                  </p>
+                  <div>
+                     <p>Subject subdivision that represents a period of time. Subfield $y is
+                  appropriate only when a chronological subject subdivision is added to a main
+               term.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$z - Geographic subdivision</strong> 
+                  </p>
+                  <div>
+                     <p>Geographic subject subdivision. Subfield $z is appropriate in field 648
+                  only when a geographic subject subdivision is added to a main term.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$0 - Authority record control number or standard number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>. 
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Source of heading or term</strong> 
+                  </p>
+                  <div>
+                     <p>MARC code that identifies the source list from which the subject added entry was
+                  assigned. It is used only when the second indicator position contains value 7
+                  (Source specified in subfield $2). Code from: <em><a href="http://www.loc.gov/standards/sourcelist/subject.html">Subject Heading and Term Source Codes</a></em>.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>648</strong></td>
+                           <td colspan="9"><strong>#7</strong><strong>$a</strong>1900-1999<strong>$2</strong>fast
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>648</strong></td>
+                           <td colspan="9"><strong>#7</strong><strong>$a</strong>1862<strong>$2</strong>fast
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>648</strong></td>
+                           <td colspan="9"><strong>#7</strong><strong>$a</strong>1800-1899<strong>$2</strong>fast
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$3 - Materials specified</strong> 
+                  </p>
+                  <div>
+                     <p>Part of the described materials to which the field applies.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>. 
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>. 
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Display Constant</strong></p>
+            <div class="table">
+               <table>
+                  <tr>
+                     <td>-</td>
+                     <td><em>[dash associated with the content of subfield $v,
+                              $x, $y, or $z]</em></td>
+                  </tr>
+               </table>
+            </div>
+            <p>Dash ( - ) that precedes a subject subdivision in an extended subject heading is not
+            carried in the machine-readable record. It may be system generated as a display constant
+            associated with the content of subfield $v, $x, $y, and
+            $z.</p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="indicatorHistory"><em>Indicator 1 - Type of date or time period [NEW, 2013]</em><div class="valuehistory">
+               <div><em># - No information provided [NEW, 2013]</em></div>
+            </div>
+            <div>
+               <p></p>
+            </div>
+            <div class="valuehistory">
+               <div><em>0 - Date or time period depicted [NEW, 2013]</em></div>
+            </div>
+            <div>
+               <p></p>
+            </div>
+            <div class="valuehistory">
+               <div><em>1 - Date or time period of creation or origin [NEW, 2013]</em></div>
+            </div>
+            <div>
+               <p>Prior to 2013 Indicator 1 was undefined.</p>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$0 - Authority record control number or standard number [NEW, 2007]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a>Â  
+               
+               &gt;&gt;
+               <strong>648</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(04/29/2013)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

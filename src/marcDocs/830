@@ -1,0 +1,387 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 830:
+         Series Added Entry-Uniform Title (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd80x83x.html">80X-83X</a>Â  
+               
+               &gt;&gt;
+               <strong>830</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>830</span> - <span>Series Added Entry-Uniform Title</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2013</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+            <td><em>Nonfiling characters</em><br /><span>0 - No nonfiling characters</span><br /><span>1-9 - Number of nonfiling characters</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Uniform title<span> (NR)</span></li>
+                  <li>$d - Date of treaty signing<span> (R)</span></li>
+                  <li>$f - Date of a work<span> (NR)</span></li>
+                  <li>$g - Miscellaneous information<span> (NR)</span></li>
+                  <li>$h - Medium<span> (NR)</span></li>
+                  <li>$k - Form subheading<span> (R)</span></li>
+                  <li>$l - Language of a work<span> (NR)</span></li>
+                  <li>$m - Medium of performance for music<span> (R)</span></li>
+                  <li>$n - Number of part/section of a work<span> (R)</span></li>
+                  <li>$o - Arranged statement for music<span> (NR)</span></li>
+                  <li>$p - Name of part/section of a work<span> (R)</span></li>
+                  <li>$r - Key for music<span> (NR)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$s - Version<span> (NR)</span></li>
+                  <li>$t - Title of a work<span> (NR)</span></li>
+                  <li>$v - Volume/sequential designation<span> (NR)</span></li>
+                  <li>$w - Bibliographic record control number<span> (R)</span></li>
+                  <li>$x - International Standard Serial Number<span> (NR)</span></li>
+                  <li>$0 - Authority record control number<span> (R)</span></li>
+                  <li>$3 - Materials specified<span> (NR)</span></li>
+                  <li>$5 - Institution to which field applies<span> (R)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li class="changed">$7 - Control subfield<span> (NR)</span><br />Â Â Â Â 
+                     /0 - Type of record<br />Â Â Â Â 
+                     /1 - Bibliographic level
+                  </li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Series added entry consisting of a series title
+               				alone.
+            </p>
+         </div>
+         <div>
+            <p>An 830 field is usually justified by a
+				series statement (field 490) or a general note
+				(field 500) relating to the series. For
+				reproductions, it may be justified by a series
+				statement in subfield $f of field 533
+				(Reproduction Note).</p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p>Description of the first indicator position and all
+               				subfield codes, as well as input conventions for the
+               				830 field are given in the <a href="http://www.loc.gov/marc/bibliographic/bdx30.html"><em>X30 Uniform
+                     					Titles-General Information</em></a> section. Because
+               				the second indicator is different for various
+               				fields, it is not described in the general
+               				information section, but is described below.
+            </p>
+         </div>
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Nonfiling characters</strong></p>
+                  <div>
+                     <p>Number of character positions associated with a
+                        						definite or indefinite article (e.g., Le, An) at
+                        						the beginning of a uniform title field that are
+                        						disregarded in sorting and filing processes.
+                     </p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - No nonfiling characters</span><div>
+                           <p>No initial article character positions are
+                              						disregarded.
+                           </p>
+                           <p>Diacritical marks or special characters at
+                              							the beginning of a uniform title field that
+                              							does not begin with an initial article are not
+                              							counted as nonfiling characters. An initial
+                              							definite or indefinite article may also simply
+                              							be deleted in the formulation of the uniform
+                              							title field. If the initial article is
+                              							retained but is not to be disregarded in
+                              							sorting and filing processes, value 0 is
+                              						used.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>830</strong></td>
+                                 <td colspan="9"><strong>#0</strong><strong>$a</strong>Wonders of man
+                                    									series.<em><span><br /><span>[Full title is The Wonders of man
+                                             								series.]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1-9 - Number of nonfiling characters</span><div>
+                           <p>Non-zero value indicates that a title begins
+                              							with a definite or indefinite article that is
+                              							disregarded in sorting and filing processes.
+                              							Any diacritical mark, space or mark of
+                              							punctuation associated with the article and
+                              							any space or mark of punctuation preceding the
+                              							first filing character after the article is
+                              							included in the count of nonfiling characters.
+                              							Any diacritic, however, associated with the
+                              							first filing character is <u>not</u> included
+                              							in the count of nonfiling characters.
+                           </p>
+                           <p><em>Common cataloging practice is to omit
+                                 								initial articles which are disregarded in
+                                 								sorting and filing processes for uniform
+                                 								title fields, thus, second indicator values
+                                 								1-9 are unlikely to be used in field
+                                 							830.</em></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â  </span> EXAMPLES
+         </h4>
+         <div class="examplesec">
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>490</td>
+                     <td colspan="9">1#$aSport : bulletin of the
+                        							Physical Education and Sports Department of
+                        							the International Union of Students ;$vv. 10
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$a</strong>Sport (International
+                        							Union of Students. Physical Education and
+                        							Sports Dept.) ;<strong>$v</strong>v. 10.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>490</td>
+                     <td colspan="9">1#$aMonograph / University
+                        							Extension, UCLA, Department of Continuing
+                        							Education in Health Sciences, UCLA School of
+                        							Medicine and UCLA School of Public
+                        						Health
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$a</strong>Monograph (University of
+                        							California, Los Angeles. Dept. of Continuing
+                        							Education in Health Sciences)
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>490</td>
+                     <td colspan="9">1#$aMusica da camera ;$v72</td>
+                  </tr>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$a</strong>Musica da camera (Oxford
+                        							University Press) ;<strong>$v</strong>72.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>490</td>
+                     <td colspan="9">1#$aBasic nursing skills ;$vtape 14</td>
+                  </tr>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$a</strong>Basic nursing skills
+                        							(Robert J. Brady Company) ;<strong>$v</strong>tape 14.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>533</td>
+                     <td colspan="9">##$aMicrofiche.$bGlen Rock, N.J. :$cMicrofilming Corp. of
+                        							America,$d1975.$e66 microfiches$f(The Gerritsen
+                        							collection of women's
+                        						history).
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$a</strong>Gerritsen collection of
+                        							women's history.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>490</td>
+                     <td colspan="9">1#$aThe Teenage
+                        						years
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$a</strong>Teenage years.<strong>$h</strong>[Videorecording]
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>490</td>
+                     <td colspan="9">1#$aBibliographies of modern
+                        							authors,$x0749-470X ;$vno. 27
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$a</strong>Bibliographies of modern
+                        							authors (San Bernardino, Calif.) ;<strong>$v</strong>no. 27.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$3</strong>1980:<strong>$a</strong>DHEW publication.<strong>$x</strong>0090-0206
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$3</strong>1982-<strong>$a</strong>DHHS publication.<strong>$x</strong>0276-4733
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$3</strong>&lt;May
+                        							1986-&gt;<strong>$a</strong>Tourism research
+                        						series.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$3</strong>v. 1-8<strong>$a</strong>Collection Byzantine.<strong>$x</strong>0223-3738
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$3</strong>v. 9<strong>$a</strong>Collection des
+                        							universitÃ©s de France.<strong>$x</strong>0184-7155
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$a</strong>Digital dictionaries of South Asia.<strong>$5</strong>ICU
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$a</strong>Cornell University Library historical math monographs.<strong>$5</strong>COO
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table class="changed">
+                  <tr class="changed">
+                     <td><strong>830</strong></td>
+                     <td colspan="9"><strong>#0</strong><strong>$a</strong>Fasteners<strong>$v</strong>5<strong>$w</strong>(DE-101)550955267<strong>$7</strong>am
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd80x83x.html">80X-83X</a>Â  
+               
+               &gt;&gt;
+               <strong>830</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/24/2013)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

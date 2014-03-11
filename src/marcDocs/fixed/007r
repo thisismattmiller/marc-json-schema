@@ -1,0 +1,367 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 007: Remote-Sensing Image 
+         					 (Network Development and MARC Standards Office, Library of
+         					Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the 007 for remote-sensing images (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-left:6em; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {margin-left:4em;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> 
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd007.html">007</a> &gt;&gt; <strong>007 (Remote-Sensing Image) </strong></div>
+      <hr><a name="skip_menu"></a><h1>007 - Remote-Sensing Image (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2003</div>
+      <hr><strong>Indicators and Subfield Codes</strong><div class="description">Field has no indicators or subfield codes; the data elements are positionally
+                  defined.
+      </div>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>Character Positions</strong><br>
+              <strong>00 - Category of material </strong><br>
+              r - Remote-sensing image <br><br>
+              <strong>01 - Specific material designation </strong><br>
+              u - Unspecified <br>| - No attempt to code <br><br>
+              <strong>02 - Undefined </strong><br>
+              # - Undefined <br><br>
+              <strong>03 - Altitude of sensor </strong><br>
+              a - Surface <br>b - Airborne <br>c - Spaceborne <br>n - Not applicable <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br>
+              <strong>04 - Attitude of sensor </strong><br>
+              a - Low oblique <br>b - High oblique <br>c - Vertical <br>n - Not applicable <br>u - Unknown <br>| - No attempt to code <br><br>
+              <strong>05 - Cloud cover </strong><br>
+              0 - 0-9% <br>1 - 10-19% <br>2 - 20-29% <br>3 - 30-39% <br>4 - 40-49% <br>5 - 50-59% <br>6 - 60-69% <br>7 - 70-79% <br>8 - 80-89% <br>9 - 90-100% <br>n - Not applicable <br>u - Unknown <br>| - No attempt to code <br><br>
+              <strong>06 - Platform construction type </strong><br>
+              a - Balloon <br>b - Aircraft--low altitude <br>c - Aircraft--medium altitude <br>d - Aircraft--high altitude <br>e - Manned spacecraft <br>f - Unmanned spacecraft <br>g - Land-based remote-sensing device <br>h - Water surface-based remote-sensing device <br>i - Submersible remote-sensing device <br>n - Not applicable <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br></td>
+            <td width="45%"><br>
+              <strong>07 - Platform use category </strong><br>
+           a - Meteorological <br>b - Surface observing <br>c - Space observing <br>m - Mixed uses <br>n - Not applicable <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br>
+           <strong>08 - Sensor type </strong><br>
+           a - Active <br>b - Passive <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br>
+           <strong>09-10 - Data type </strong><br>
+           aa - Visible light <br>da - Near infrared <br>db - Middle infrared <br>dc - Far infrared <br>dd - Thermal infrared <br>de - Shortwave infrared (SWIR) <br>df - Reflective infrared <br>dv - Combinations <br>dz - Other infrared data <br>ga - Sidelooking airborne radar (SLAR) <br>gb - Synthetic aperture radar (SAR)-Single frequency <br>gc - SAR-multi-frequency (multichannel) <br>gd - SAR-like polarization <br>ge - SAR-cross polarization <br>gf - Infometric SAR <br>gg - polarmetric SAR <br>gu - Passive microwave mapping <br>gz - Other microwave data <br>ja - Far ultraviolet <br>jb - Middle ultraviolet <br>jc - Near ultraviolet <br>jv - Ultraviolet combinations <br>jz - Other ultraviolet data <br>ma - Multi-spectral, multidata <br>mb - Multi-temporal <br>mm - Combination of various data types <br><br><em>Other</em><br>nn - Not applicable <br>pa - Sonar--water depth <br>pb - Sonar--bottom topography images, sidescan <br>pc - Sonar--bottom topography, near-surface <br>pd - Sonar--bottom topography, near-bottom <br>pe - Seismic surveys <br>pz - Other acoustical data <br>ra - Gravity anomalies (general) <br>rb - Free-air <br>rc - Bouger <br>rd - Isostatic <br>sa - Magnetic field <br>ta - radiometric surveys <br>uu - Unknown <br>zz - Other <br>|| - No attempt to code</td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>When field 007/00 contains code r, it contains special coded information about the
+                     physical characteristics of remote-sensing image.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> CHARACTER POSITIONS
+      </h4>
+      <div class="characterposition"><strong>00 - Category of material  </strong><div class="charactervalue"><strong>r - Remote-sensing image</strong> <div class="description">One-character alphabetic code that indicates the category of material to which
+                                    the item belongs is <strong>remote-sensing image</strong> which is defined as
+                                    an image produced by a recording device that is not in physical or intimate
+                                    contact with the object under study. This may be a map or other image that is
+                                    obtained through various remote sensing devices such as cameras, computers,
+                                    lasers, radio frequency receivers, radar systems, sonar, seismographs,
+                                    gravimeters, magnetometers, and scintillation counters. When the image has
+                                    cartographic or bibliographic information added, it is referred to as a
+                                    remote-sensing map. A fill character (|) is not allowed in this position.
+            </div>
+         </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>01 - Specific material designation  </strong><div class="description">Special class of material, usually the class of physical object, to which an item
+                              belongs..
+         </div>
+         <div class="charactervalue"><strong>u - Unspecified</strong> <div class="description">Special material designation of the remote sensing image is not specified.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>02 - Undefined  </strong>
+         <div class="description">Contains blank (#) or a fill character (|).</div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>03 - Altitude of sensor  </strong><div class="description">General position of the sensor relative to to the object under study.</div>
+         <div class="charactervalue"><strong>a - Surface</strong> <div class="description">Remote-sensing image was made from a device located on the surface of a body,
+                                    usually a planet or moon.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - Airborne</strong> <div class="description">Remote-sensing image was made from a device above the surface of a body,
+                                    generally in the atmosphere, an aircraft, balloon, or some other airborne
+                                    device.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Spaceborne</strong> <div class="description">Remote-sensing image was made from a device in space. Spaceborne sensors are
+                                    those located outside the primary layers of an atmosphere (usually in orbit)
+                                    and beyond.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Altitude of the sensor is not applicable to the image.</div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Altitude of the sensor from which the image was made is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>04 - Attitude of sensor  </strong><div class="description">General angle of the device from which the remote-sensing image is made.</div>
+         <div class="charactervalue"><strong>a - Low oblique</strong> <div class="description">Remote-sensing device is closer to parallel with the surface being imaged than
+                                    perpendicular.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - High oblique</strong> <div class="description">Remote-sensing device is closer to perpendicular than not.</div>
+         </div>
+         <div class="charactervalue"><strong>c - Vertical</strong> <div class="description">Angle of the remote-sensing device is vertical to the surface being imaged.</div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Angle of the remote-sensing device is not applicable, generally, because the
+                                    attitude does not affect the image.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Angle of the remote-sensing device is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>05 - Cloud cover  </strong><div class="description">Amount of cloud cover that was present when a remote-sensing image was made.</div>
+         <div class="charactervalue"><strong>0 - 0-9%</strong> <div class="description">Cloud cover present when an image was taken was between 0 and 9%.</div>
+         </div>
+         <div class="charactervalue"><strong>1 - 10-19%</strong> <div class="description">Cloud cover present when an image was taken was between 10 and 19%.</div>
+         </div>
+         <div class="charactervalue"><strong>2 - 20-29%</strong> <div class="description">Cloud cover present when an image was taken was between 20 and 29%.</div>
+         </div>
+         <div class="charactervalue"><strong>3 - 30-39%</strong> <div class="description">Cloud cover present when an image was taken was between 30 and 39%.</div>
+         </div>
+         <div class="charactervalue"><strong>4 - 40-49%</strong> <div class="description">Cloud cover present when an image was taken was between 40 and 49%.</div>
+         </div>
+         <div class="charactervalue"><strong>5 - 50-59%</strong> <div class="description">Cloud cover present when an image was taken was between 50 and 59%.</div>
+         </div>
+         <div class="charactervalue"><strong>6 - 60-69%</strong> <div class="description">Cloud cover present when an image was taken was between 60 and 69%.</div>
+         </div>
+         <div class="charactervalue"><strong>7 - 70-79%</strong> <div class="description">Cloud cover present when an image was taken was between 70 and 79%.</div>
+         </div>
+         <div class="charactervalue"><strong>8 - 80-89%</strong> <div class="description">Cloud cover present when an image was taken was between 80 and 89%.</div>
+         </div>
+         <div class="charactervalue"><strong>9 - 90-100%</strong> <div class="description">Cloud cover present when an image was taken was between 90 and 100%.</div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Cloud cover is not applicable to the image.</div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Amount of cloud cover is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>06 - Platform construction type  </strong><div class="description">Type of construction of the platform serving as the base for the remote-sensing
+                              device. For the purposes of this data element, "platform" refers to any structure
+                              that serves as a base, not only flat surfaces.
+         </div>
+         <div class="charactervalue"><strong>a - Balloon</strong> <div class="description">Base for the remote-sensing device was a balloon or similar lighter-than-air
+                                    platform.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - Aircraft--low altitude</strong> <div class="description">Base for the remote-sensing device was an dynamic lift aircraft designed for
+                                    low altitude flight (below 29,500 ft. (8,962 m.)).
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Aircraft--medium altitude</strong> <div class="description">Base for the remote-sensing device was an dynamic lift aircraft designed for
+                                    medium altitude flight (between 29,500 ft. (8,962 m.) and 49,000 ft. (14,810
+                                    m.)).
+            </div>
+         </div>
+         <div class="charactervalue"><strong>d - Aircraft--high altitude</strong> <div class="description">Base for the remote-sensing device was an dynamic lift aircraft designed for
+                                    high altitude flight (above 49,000 ft. (14,810 m.)).
+            </div>
+         </div>
+         <div class="charactervalue"><strong>e - Manned spacecraft</strong> <div class="description">Base for the remote-sensing device was a manned spacecraft.</div>
+         </div>
+         <div class="charactervalue"><strong>f - Unmanned spacecraft</strong> <div class="description">Base for the remote-sensing device was an unmanned spacecraft.</div>
+         </div>
+         <div class="charactervalue"><strong>g - Land-based remote-sensing device</strong> <div class="description">Base for the remote-sensing device was a land-based.</div>
+         </div>
+         <div class="charactervalue"><strong>h - Water surface-based remote-sensing device</strong> <div class="description">Base for the remote-sensing device was designed to remain on the surface of a
+                                    body of water (e.g., a ship or floating platform).
+            </div>
+         </div>
+         <div class="charactervalue"><strong>i - Submersible remote-sensing device</strong> <div class="description">Base for the remote-sensing device was designed to be submerged beneath the
+                                    surface of a body of water (e.g., a submersible vessel or platform).
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Construction type of the platform from which the remote-sensing image was made
+                                    is not known.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>07 - Platform use category  </strong><div class="description">Primary use intended for the platform specified in 007/06 (Platform construction
+                              type).
+         </div>
+         <div class="charactervalue"><strong>a - Meteorological</strong> <div class="description">Primary use for the platform is to make remote-sensing images of meteorological
+                                    events and conditions.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - Surface observing</strong> <div class="description">Primary use for the platform is to make remote-sensing images of the surface of
+                                    a planet, moon, etc. (including the Earth).
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Space observing</strong> <div class="description">Primary use for the platform is to make remote-sensing images of space.</div>
+         </div>
+         <div class="charactervalue"><strong>m - Mixed uses</strong> <div class="description">Platform from which remote-sensing images can be made is designed for a variety
+                                    of uses (i.e., uses covered by two or more of the other codes).
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Identification of platform use category is not applicable.</div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Platform use category is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>08 - Sensor type  </strong><div class="description">For the recording mode of the remote-sensing device, specifically, whether the
+                              sensor is involved in the creation of the transmission it eventually measures.
+         </div>
+         <div class="charactervalue"><strong>a - Active</strong> <div class="description">Sensor measures the strength of reflections of its transmissions sent to a
+                                    remote target.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - Passive</strong> <div class="description">Sensor measures the strength of transmissions (e.g., radiation) emitted by a
+                                    remote target without stimulation by the sensor.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Involvement of remote-sensing device in the creation of the transmission it
+                                    measured is not known.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>09-10 - Data type  </strong>
+        <div class="description">Spectral, acoustic, or magnetic characteristics of the data received by the device
+                              producing the remote-sensing image. It can be used to indicate both the wave
+                              length of radiation measured and the type of sensor used to measure it.
+        </div>
+         <div class="description2">
+            <div class="description">Section provides guidelines for the application of some data type codes. Most of
+                                 the other codes are self-explanatory.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>aa - Visible light</strong> </div>
+         <div class="charactervalue"><strong>da - Near infrared</strong> </div>
+         <div class="charactervalue"><strong>db - Middle infrared</strong> </div>
+         <div class="charactervalue"><strong>dc - Far infrared</strong> </div>
+         <div class="charactervalue"><strong>dd - Thermal infrared</strong> </div>
+         <div class="charactervalue"><strong>de - Shortwave infrared (SWIR)</strong> </div>
+         <div class="charactervalue"><strong>df - Reflective infrared</strong> </div>
+         <div class="charactervalue"><strong>dv - Combinations</strong> </div>
+         <div class="charactervalue"><strong>dz - Other infrared data</strong> </div>
+         <div class="charactervalue"><strong>ga - Sidelooking airborne radar (SLAR)</strong> </div>
+         <div class="charactervalue"><strong>gb - Synthetic aperture radar (SAR)-Single frequency</strong> </div>
+         <div class="charactervalue"><strong>gc - SAR-multi-frequency (multichannel)</strong> </div>
+         <div class="charactervalue"><strong>gd - SAR-like polarization</strong> </div>
+         <div class="charactervalue"><strong>ge - SAR-cross polarization</strong> </div>
+         <div class="charactervalue"><strong>gf - Infometric SAR</strong> </div>
+         <div class="charactervalue"><strong>gg - polarmetric SAR</strong> </div>
+         <div class="charactervalue"><strong>gu - Passive microwave mapping</strong> </div>
+         <div class="charactervalue"><strong>gz - Other microwave data</strong> </div>
+         <div class="charactervalue"><strong>ja - Far ultraviolet</strong> </div>
+         <div class="charactervalue"><strong>jb - Middle ultraviolet</strong> </div>
+         <div class="charactervalue"><strong>jc - Near ultraviolet</strong> </div>
+         <div class="charactervalue"><strong>jv - Ultraviolet combinations</strong> </div>
+         <div class="charactervalue"><strong>jz - Other ultraviolet data</strong> </div>
+         <div class="charactervalue"><strong>ma - Multi-spectral, multidata</strong> </div>
+         <div class="charactervalue"><strong>mb - Multi-temporal</strong> </div>
+         <div class="charactervalue"><strong>mm - Combination of various data types</strong> <div class="description">More than one data type is applicable to the remote-sensing image.</div>
+         </div>
+         <div class="charactervalue"><strong>nn - Not applicable</strong> <div class="description">Data type is not applicable to the remote-sensing image being described.</div>
+         </div>
+         <div class="charactervalue"><strong>pa - Sonar--water depth</strong> <div class="description">Acoustical data type for the remote-sensing image for water depth is sonar.
+                                    This code is also used for echo-sounding images.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>pb - Sonar--bottom topography images, sidescan</strong> <div class="description">Acoustical data type for the remote-sensing image is sidescan imaging. Sidescan
+                                    imaging includes both near-surface and near-bottom sensing data.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>pc - Sonar--bottom topography, near-surface</strong> <div class="description">Acoustical data type for the remote-sensing image is near-surface.</div>
+         </div>
+         <div class="charactervalue"><strong>pd - Sonar--bottom topography, near-bottom</strong> <div class="description">Acoustical data type for the remote-sensing image is near-bottom (i.e., taken
+                                    from 10-150 m. (33-494 ft.) from the bottom).
+            </div>
+         </div>
+         <div class="charactervalue"><strong>pe - Seismic surveys</strong> </div>
+         <div class="charactervalue"><strong>pz - Other acoustical data</strong> </div>
+         <div class="charactervalue"><strong>ra - Gravity anomalies (general)</strong> </div>
+         <div class="charactervalue"><strong>rb - Free-air</strong> </div>
+         <div class="charactervalue"><strong>rc - Bouger</strong> </div>
+         <div class="charactervalue"><strong>rd - Isostatic</strong> </div>
+         <div class="charactervalue"><strong>sa - Magnetic field</strong> <div class="description">Includes inclination, declination, and anomalies.</div>
+         </div>
+         <div class="charactervalue"><strong>ta - radiometric surveys</strong> </div>
+         <div class="charactervalue"><strong>uu - Unknown</strong> <div class="description">Data type for the remote-sensing image is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>zz - Other</strong> <div class="description">None of the other codes is appropriate (e.g., x-rays).</div>
+         </div>
+         <div class="charactervalue"><strong>|| - No attempt to code</strong> </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Field length</strong> - Field 007 for the category of material <strong>remote-sensing image</strong> has eleven
+                     character positions defined for it.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><br><em>007/01 - Specific material designation</em><div class="charactervaluehistory"><em><br># - No type specified [OBSOLETE, 1998]</em></div>
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd007.html">007</a> &gt;&gt; <strong>007 (Remote-Sensing Image) </strong></div> 
+               (02/14/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

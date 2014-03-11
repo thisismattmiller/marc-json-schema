@@ -1,0 +1,611 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 050:
+         						Library of Congress Call Number (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the Library of Congress call number  (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>050</strong></div>
+      <hr><a name="skip_menu"></a><h1>050 - Library of Congress Call Number (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2000</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Existence in LC collection</em><br># - No information provided <br>0 - Item is in LC <br>1 - Item is not in LC <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Source of call number</em><br>0 - Assigned by LC <br>4 - Assigned by agency other than LC <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Classification number (R) <br>$b - Item number (NR)<br>$3 - Materials specified (NR)<br></td>
+            <td colspan="1">$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Classification or call number that is taken from <em>Library of Congress
+                        Classification</em> or <em>LC Classification Additions and Changes</em>. The brackets
+               that customarily surround alternate class/call numbers are not carried in the MARC
+                     record; they may be generated based on the presence of repeated $a
+                  subfields.
+      </p>
+      <p>Second indicator values distinguish between content actually assigned by the Library of
+                     Congress and content assigned by an organization other than LC.
+      </p>
+      <p>Note that only subfield $u is locally defined. The entire field description
+                     is repeated here for ease of use of this document.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Existence in LC collection</strong> <div class="description">Whether or not the item is contained in the LC collections.
+            <div class="indicatorvalue"><strong># - No information provided</strong> <div class="description">Used for all call numbers assigned by agencies other than the Library of
+                                       Congress.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>#4</strong><strong>$a</strong>NB933.F44<strong>$b</strong>T6
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Item is in LC</strong> <div class="description">Item is in the LC collections under the call number given in the field.Other agencies should use this value when transcribing from LC cataloging copy
+                                       on which the call number is neither enclosed within brackets nor preceded by a
+                                       Maltese cross.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Z695.7<strong>$b</strong>.B37 1980
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Item is not in LC</strong> <div class="description">Item is not in the LC collections, or that it is not shelved under that
+                                    number.Used by other agencies when transcribing from LC copy on which the call number
+                                       appears in brackets or is preceded by a Maltese cross. Brackets that
+                                       customarily surround call numbers for items not in LC are not carried in the
+                                       MARC record; they may be generated for display.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>BJ1533.C4<strong>$b</strong>L49
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Source of call number</strong> <div class="description">Whether the source of the class/call number is the Library of Congress or another
+                              organization.
+            <div class="indicatorvalue"><strong>0 - Assigned by LC</strong> <div class="description">Used when an institution is transcribing from LC cataloging copy.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>JK609<strong>$b</strong>.M2
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>4 - Assigned by agency other than LC</strong> </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Classification number</strong> <div class="description">Classification number portion of the call number. The source of the classification
+                              number is <em>Library of Congress Classification</em> and the <em>LC
+                                    Classification-Additions and Changes</em>. Subfield $a is repeated
+                              to record an alternative class number. The alternate class number is recorded
+                              following the last subfield of the call number. If the alternate class number also
+                              includes an item number, the item number is included in the same subfield
+                              $a as the alternate class number; it is not separately subfielded.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>QC861.2<strong>$b</strong>.B36
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Z695.7<strong>$b</strong>.B37 1980
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Z7164.N3<strong>$b</strong>L34 no. 9<strong>$a</strong>Z7165.R42<strong>$a</strong>HC517.R42
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>RC951
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Item number</strong> <div class="description">Item number portion of the call number. An item number is the Cutter, date, term,
+                              etc. that is added to a classification number to distinguish an item from any
+                              other item assigned the same classification number.
+         </div>
+         <div class="description2">
+            <div class="description">Organizations that use the <em>Cutter-Sanborn Three-Figure Author Table</em> may
+                                 conform to Library of Congress item number practice by applying <em>Subject
+                                       Cataloging Manual: Shelflisting</em> conventions.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>JX1974.7<strong>$b</strong>.M5
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Z673.L7<strong>$b</strong>Y
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>HF5726<strong>$b</strong>.B27 1980
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>E506.5 6th<strong>$b</strong>G
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>E514.6 10th<strong>$b</strong>.T76 1905<br><em>[The above two call numbers are call numbers for regimental
+                                          histories.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$3 - Materials specified</strong> <div class="description">Part of the described material to which the field applies. The subfield is used
+                              with archival-type materials; its use is parallel with the use of subfield
+                              $3 in other fields.
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+   <div class="description2"><strong>LCCNs</strong> - When the call number field consists only of a class number (letters followed by numbers,
+                     possibly including a period and also a space), no subfield $b is used.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>QA37
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>E525.5 123d
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <br>
+         General rule is that the item number part of the call number begins at the last capital
+                     letter in the call number or the period, if present, preceding it.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>HF5549.5.R44<strong>$b</strong>M35
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <br>
+         Exceptions to the general rule for item numbers:<br><br>If the call number is followed by only a date, with no Cutter number, the date is
+                     contained in subfield $b.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>E457.92<strong>$b</strong>1967
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <br>
+         If the call number is followed by volume numbering that includes uppercase letters,
+                     these letters are ignored in locating the last capital letter.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>JX1977<strong>$b</strong>.A2 St/ESA/35
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>HA1501<strong>$b</strong>A, Nr. 615
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>HD28<strong>$b</strong>.Y555 vol. 55 Suppl.
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <br>
+         If the call number begins with CS71, subfield $b contains the date.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>CS71.C323<strong>$b</strong>1977
+                  </td>
+               </tr>
+            </table>
+         </div><br>If the call number is for a classification schedule (i.e., it is a call number beginning
+                     with Z696.U5), the class letter(s) for the particular classification and any following
+                     digit(s) are recorded in subfield $a (as part of the classification).
+                     Subfield $b contains the date.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Z696.U5E3<strong>$b</strong>1958
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Z696.U5H-HJ<strong>$b</strong>1981
+                  </td>
+               </tr>
+            </table>
+         </div><br>Abbreviations <em>subser.</em> and <em>Suppl.</em> are recorded in subfield
+                     $b, even when there is no item number.      </div>
+      <div class="description2"><strong>Capitalization</strong> - Alphabetic characters in the classification number portion of the field are generally
+                     uppercase.
+      </div>
+      <div class="description2"><strong>Spacing</strong> - Any spaces that are desired as part of the call number must be input.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>DK274.3 1968<strong>$b</strong>.K39
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>VM341<strong>$b</strong>.M9 vol. 48
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>CS71.C323<strong>$b</strong>1977
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Display Constant</strong>
+        <div class="table">
+            <table>
+               <tr>
+                  <td valign="top" align="left">[ ... ]</td>
+                  <td valign="top" align="left"><em>[brackets]</em></td>
+               </tr>
+            </table>
+        </div>Brackets that customarily surround call numbers for items not in LC or alternate
+                     class/call numbers are not carried in the MARC record. They may be system generated as a
+                     display constant associated with the first indicator value 1 or additional $a
+                     subfields.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td width="100%">
+                     <div class="captiontext">Content designated field:</div>
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>050</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>HF5726<strong>$b</strong>.B27 1980
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>
+                     <div class="displaytext">Display example:&nbsp;</div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>
+                     <div class="displaycontent">[HF5726.B27 1980]</div>
+                  </td>
+               </tr>
+            </table>
+         </div>
+   </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>Indicator 1 - Existence in LC collection</em><br><em># - No information provided</em><br>Prior to the definition of code 4 in the second indicator position in 1982, the first
+                        indicator in the visual materials specifications was undefined. Visual materials
+                        records created prior to 1982 may contain a <em>#</em> meaning <em>undefined</em> in
+                        the first indicator position.         <em><br>
+                        Indicator 2 - Series call number (SE) [OBSOLETE]</em><br>
+         In the serials specifications, the use of the second indicator position to indicate
+                        the type of series was made obsolete in 1976. The values were: 0 (No series
+                        involved), 1 (Main series), 2 (Subseries), 3 (Sub-subseries).         <em><br>
+                        Indicator 2 - Source of call number</em><br>
+         <em># - No information provided [OBSOLETE]</em><br>Second indicator was defined in 1982. Prior to that change, 050 was an
+                        agency-assigned field and contained only call numbers assigned by the Library of
+                        Congress. LC records created before the definition of this indicator may contain a
+                        blank (#) meaning <em>undefined</em> in this position.<br>
+                        <br><em>$d - Supplementary class number (MU) [OBSOLETE, 1981]</em></div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>050</strong></div> (02/20/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

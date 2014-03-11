@@ -1,0 +1,1061 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 852: Location (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the location (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfieldvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd84188x.html">841-88X</a> &gt;&gt; <strong>852</strong></div>
+      <hr><a name="skip_menu"></a><h1>852 - Location (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2007</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Shelving scheme</em><br># - No information provided <br>0 - Library of Congress classification <br>1 - Dewey Decimal classification <br>2 - National Library of Medicine classification <br>3 - Superintendent of Documents classification <br>4 - Shelving control number <br>5 - Title <br>6 - Shelved separately <br>7 - Source specified in subfield $2 <br>8 - Other scheme <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Shelving order</em><br># - No information provided <br>0 - Not enumeration <br>1 - Primary enumeration <br>2 - Alternative enumeration <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Location (NR) <br>$b - Sublocation or collection (R) <br>$c - Shelving location (R) <br>
+              $d - Former shelving location (R)<br>
+              $e - Address (R) <br>$f - Coded location qualifier (R)  <br>$g - Non-coded location qualifier (R) <br>$h - Classification part (NR) <br>$i - Item part (R) <br>$j - Shelving control number (NR) <br>$k - Call number prefix (R) <br>$l - Shelving form of title (NR) <br>$m - Call number suffix (R) <br></td>
+            <td colspan="1">$n - Country code (NR) <br>$p - Piece designation (NR) <br>$q - Piece physical condition (NR) <br>$s - Copyright article-fee code (R) <br>$t - Copy number (NR) <br>$u - Uniform Resource Identifier (R) <br>$x - Nonpublic note (R) <br>$z - Public note (R) <br>$2 - Source of classification or shelving scheme (NR) <br>$3 - Materials specified (NR) <br>$6 - Linkage (NR) <br>$8 - Sequence number (NR) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Identifies the organization holding the item or from which it is available. May also
+         contain detailed information about how to locate the item in a collection.
+      </p>
+      <p>Repeated when holdings are reported for multiple copies of an item and the location data
+                     elements vary.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Shelving scheme</strong> <div class="description">Scheme used to shelve a bibliographic item in the collections of the reporting
+                              organization.
+            <div class="indicatorvalue"><strong># - No information provided</strong> </div>
+            <div class="indicatorvalue"><strong>0 - Library of Congress classification</strong> <div class="description">Item is shelved by a Library of Congress classification number. This number,
+                                       which is contained in subfield $h (Classification part), is assigned
+                                       from the <em>Library of Congress Classification</em> or the <em>LC
+                                             Classification-Additions and Changes</em>; two publications that are
+                                       maintained by the Library of Congress. A full description of a Library of
+                                       Congress classification number is given under field 050 (Library of Congress
+                                       Call Number).
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Dewey Decimal classification</strong> <div class="description">Item is shelved by a Dewey Decimal classification number. This number, which is
+                                       contained in subfield $h (Classification part), is assigned from the
+                                          <em>Dewey Decimal Classification and Relative Index</em>, the <em>Abridged
+                                             Dewey Decimal Classification and Relative Index</em>, or the
+                                          <em>DC&amp;: Dewey Decimal Classification Additions, Notes and
+                                          Decisions</em>. These three publications are maintained by the Library of
+                                       Congress. A full description of a Dewey Decimal classification number is given
+                                       under field 082 (Dewey Decimal Call Number).
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - National Library of Medicine classification</strong> <div class="description">Item is shelved by a U.S. National Library of Medicine classification number.
+                                       This number, which is contained in subfield $h (Classification
+                                       part), has been assigned from the <em>National Library of Medicine
+                                             Classification</em> schedules QS-QZ and W or from the <em>Library of
+                                             Congress Classification</em> schedules used by the National Library of
+                                       Medicine. The National Library of Medicine maintains the National Library of
+                                       Medicine schedules. A full description of a U.S. National Library of Medicine
+                                       classification number is given under field 060 (National Library of Medicine
+                                       Call Number).
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>3 - Superintendent of Documents classification</strong> <div class="description">Item is shelved by a U.S. Superintendent of Documents classification number.
+                                       This number, which is contained in subfield $h (Classification
+                                       part), is assigned from the <em>Superintendent of Documents Classification
+                                             System</em>. Superintendent of Documents classification numbers are assigned
+                                       only by the U.S. Government Printing Office (GPO). A fuller description of the
+                                       GPO classification number is given under field 086 (Government Document
+                                       Classification Number).
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>4 - Shelving control number</strong> <div class="description">Item is shelved by a shelving control number, which is contained in subfield
+                                       $j (Shelving control number).
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>5 - Title</strong> <div class="description">Item is shelved by a title. If necessary, this title is contained in subfield
+                                       $l (Shelving form of title).
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>6 - Shelved separately</strong> <div class="description">Parts of the item are shelved separately because they are classed
+                                    separately.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>7 - Source specified in subfield $2</strong> <div class="description">Item is shelved by a classification number in a scheme other than that
+                                       specified by one of the other defined values and for which an identifying code
+                                       is given in subfield $2. The codes to be used are given in <em><a href="http://www.loc.gov/standards/sourcelist/classification.html">Classification Scheme Source Codes</a></em>.</div>
+            </div>
+            <div class="indicatorvalue"><strong>8 - Other scheme</strong> <div class="description">Particular shelving scheme is known but is not specified.</div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Shelving order</strong> <div class="description">Whether a serial or multipart item is shelved under a primary or alternative
+                              numbering scheme.
+            <div class="description2">Distinction is necessary when an item carries two numbering schemes. The numbering
+                                 scheme may be an alphabetical, numerical, or chronological designation.
+            </div>
+            <div class="indicatorvalue"><strong># - No information provided</strong> </div>
+            <div class="indicatorvalue"><strong>0 - Not enumeration</strong> </div>
+            <div class="indicatorvalue"><strong>1 - Primary enumeration</strong> <div class="description">Also used when only one numbering scheme is applicable.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>01</strong><strong>$a</strong>CtY<strong>$b</strong>Main<strong>$h</strong>LB201<strong>$i</strong>.M63
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">853</td>
+                           <td vAlign="top" colspan="9" align="left">10$81$ano.$i(year)</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">863</td>
+                           <td vAlign="top" colspan="9" align="left">40$81.1$a1-343$i1970-1971<br><em>[The items in a series are shelved by the series numbering, 1-343. Note
+                                                         that fields 853 and 863, although not specifically described in this format,
+                                                         may appear under certain conditions in bibliographic records.]</em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Alternative enumeration</strong> <div class="description">Item carries two numbering schemes and is shelved by the secondary scheme.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>02</strong><strong>$a</strong>CtY<strong>$b</strong>Main<strong>$h</strong>LB201<strong>$i</strong>.M63
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">853</td>
+                           <td vAlign="top" colspan="9" align="left">10$81$a(year)$gno.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">863</td>
+                           <td vAlign="top" colspan="9" align="left">40$81.1$a1970$g97</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">863</td>
+                           <td vAlign="top" colspan="9" align="left">40$81.2$a1971$g125<br><em>[An annual report carries both its year designation (the primary
+                                                         numbering scheme) and the numbering of the series of which it is a part (the
+                                                         alternative numbering scheme). It is shelved by the series
+                                                      numbering.]</em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Location</strong> <div class="description">Institution or person holding the item or from which access is given. Contains a
+                              MARC code of the holding institution or the name of the institution or person.
+         </div>
+         <div class="description2">
+            <div class="description">See: <em><a href="http://www.loc.gov/marc/organizations/">MARC Code List for Organizations</a></em>.
+            </div>
+         </div>
+        
+         <div class="description2">
+            <div class="description">Sublocations within an organization are contained in subfield $b
+                                 (Sublocation or collection). To assist in differentiating between a subfield
+                                 $a institutional location and a subfield $b sublocation,
+                                 subfield $a contains the name to be addressed in external communication
+                                 and subfield $b contains the name within the institution.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>CLU
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>National Archives and Records Service<strong>$b</strong>Genealogical Research Recording<strong>$e</strong>Pennsylvania Ave. at 8th St., N.W., Washington, D.C.
+                                             USA<strong>$n</strong>dcu
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>National Archives and Records Service<strong>$b</strong>Genealogical Research Recording
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="description2">
+            <div class="description">If the bibliographic item is owned by an individual or organization other than the
+                                 one identified in subfield $a, the actual owner may be identified in
+                                 subfield $x (Nonpublic note) or $z (Public note) or in field
+                                 561 (Provenance Note). If the item is physically located somewhere other than the
+                                 location from which it is available, the physical location may also be identified
+                                 in subfield $x or $z of field 852.
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Sublocation or collection</strong> <div class="description">Specific department, library, etc., within the holding organization in which the
+                              item is located or from which it is available.
+         </div>
+         <div class="description2">
+            <div class="description">Name is given in full or in a locally standardized abbreviated or coded form.</div>
+			<div class="description">
+            <div class="description2">Subfield $b may be repeated to indicate the organizational hierarchy of
+                                 the sublocation. Separate 852 fields are used for each sublocation when multiple
+                                 copies of an item having the same call number are housed in various sublocations
+                                 or when parts of a copy are split among several locations.
+            </div>
+         </div></div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>CSf<strong>$b</strong>Sci<strong>$t</strong>1
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>National Geographic Society<strong>$b</strong>Personnel Dept.<strong>$e</strong>17th &amp; M St., N.W., Washington, DC
+                                          USA
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>National Geographic Society<strong>$b</strong>Personnel Dept.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - Shelving location</strong> <div class="description">Shelving location of the item within the collection of the holding organization.
+                              It may be used to indicate the physical location within a sublocation; for
+                              example, reference alcove, oversize shelving. The description of the shelving
+                              location is given in full or in a standardized abbreviated or coded form.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>81</strong><strong>$a</strong> [location identifier] <strong>$b</strong>Main<strong>$c</strong>mezzanine stacks
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$d - Former shelving location</strong> <div class="description">Call numbers/shelf numbers where a resource was previously located, in cases of a
+                              relocation or a reordering/reorganization of a collection as a whole.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>8#$a</strong>[location identifier]<strong>$c</strong>N.Mus.ms. 2234<strong>$d</strong>Mus.ms.pr. XII/911<strong>$d</strong>13.492                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$e - Address</strong> <div class="description">Street address, city, state, zip code, and country information for the current
+                              physical location of the item.
+         </div>
+         <div class="description2">
+            <div class="description">May be repeated to separate the parts of an address.</div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>81</strong><strong>$a</strong>FrPALP<strong>$b</strong>Annex<strong>$c</strong>center shelves<strong>$e</strong>10, rue du G&eacute;n&eacute;ral Camou<strong>$e</strong>75007 Paris
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Library of Congress<strong>$b</strong>Manuscript Division<strong>$e</strong>James Madison Memorial Building, 1st &amp;
+                                             Independence Ave., S.E., Washington, DC USA<strong>$j</strong>4016
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$f - Coded location qualifier</strong> <div class="description">Three-character code that identifies the specific issues of the item that are
+                              located apart from the main holdings of the same item. Subfield $f
+                              immediately follows the subfield $a, $b, or $c
+                              being qualified.
+         </div>
+         <div class="description2">
+            <div class="description">Code is composed of Qualifier type, Number of units, and Unit type codes. If the
+                                 location qualifier cannot be expressed in coded form, it may be described in
+                                 subfield $g (Non-coded location qualifier).
+            </div>
+         </div>
+         <div class="charactervalue"><strong>l, p - Qualifier type</strong> <div class="description">One-character alphabetic code indicates if it is the latest or previous time or
+                                    part unit that is housed in a different location.
+            </div>
+            <div class="charactervalue"><strong>l - Latest</strong> <div class="description">Latest, including the current, time or part unit is housed in a different
+                                          location.
+               </div>
+            </div>
+            <div class="charactervalue"><strong>p - Previous</strong> <div class="description">Previous, not including the current, time or part unit is housed in a
+                                          different location.
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>1-9 - Number of units</strong> <div class="description">One-character number (1-9) specifies the number of time or part units that are
+                                    housed in a different location. When a number is not required to identify the
+                                    specific units, this character position contains a blank (#). If the number of
+                                    time or parts units exceeds 9, they may be contained in subfield $g
+                                    (Non-coded location qualifier) and this character position contains a blank
+                                    (#).
+            </div>
+            <div class="description3">When Qualifier type is Latest (code l), the number includes the current time or
+                                    part unit. When Qualifier type is Previous (code p), the number does not
+                                    include the current time or part unit.
+            </div>
+            <div class="charactervalue"><strong># - No information provided</strong> </div>
+            <div class="charactervalue"><strong>1-9 - Number of units</strong> </div>
+         </div>
+         <div class="charactervalue"><strong>m, w, y, e, i, s - Unit type</strong> <div class="description">One-character alphabetic code describes either the time period or the part that
+                                    is housed in a different location.
+            </div>
+            <div class="charactervalue"><strong>m - Month(s) time</strong> </div>
+            <div class="charactervalue"><strong>w - Week(s) time</strong> </div>
+            <div class="charactervalue"><strong>y - Year(s) time</strong> </div>
+            <div class="charactervalue"><strong>e - Edition(s) part</strong> </div>
+            <div class="charactervalue"><strong>i - Issue(s) part</strong> </div>
+            <div class="charactervalue"><strong>s - Supplement(s) part</strong> </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>01</strong><strong>$a</strong>DLC<strong>$b</strong>MRR Ref<strong>$f</strong>l2y<br><em>[The Library of Congress houses the item in its Serial Division except for
+                                             the latest two years which are in the Main Reading Room Reference
+                                          collection.]</em></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong> [location identifier] <strong>$b</strong>Ref.<strong>$f</strong>l1e<br><em>[Only the latest edition is held in Reference.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$g - Non-coded location qualifier</strong> <div class="description">Textual description that is used when the codes in subfield $f (Coded
+                              location qualifier) are inadequate for describing the unit that is located apart
+                              from the main holdings of the same item. Subfield $g immediately
+                              follows the subfield $a, $b, or $c being
+                              qualified.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>81</strong><strong>$a</strong> [location identifier] <strong>$b</strong>Ref<strong>$g</strong>holographic issue<br><em>[Only this special issue is housed in Reference.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$h - Classification part</strong> <div class="description">Classification portion of the call number used as the shelving scheme for an item.
+                              A Cutter, date, or term that is added to the classification to distinguish one
+                              item from any other item assigned the same classification is contained in subfield
+                              $i (Item part). A call number prefix is contained in subfield
+                              $k (Call number prefix).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong> [location identifier] <strong>$h</strong>QE653<strong>$i</strong>.H59
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>80</strong><strong>$a</strong> [location identifier] <strong>$h</strong>Fic<strong>$i</strong>Adams
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$i - Item part</strong> <div class="description">Cutter, date, or term that is added to the classification contained in subfield
+                              $h (Classification part) to distinguish one item from any other item
+                              assigned the same classification. A call number suffix is contained in subfield
+                              $m (Call number suffix).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>01</strong><strong>$a</strong>NvLN<strong>$h</strong>Z67<strong>$i</strong>.L7
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>81</strong><strong>$a</strong>FrPALP<strong>$h</strong>Per<strong>$i</strong>REF<br><em>[Reference periodicals all shelved together, unclassified.]</em></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>80</strong><strong>$a</strong> [location identifier] <strong>$h</strong>M<strong>$i</strong>Si55<br><em>[Local classification used by library, where mysteries are shelved together
+                                             and cuttered for author.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$j - Shelving control number</strong> <div class="description">Shelving control number that is used as the shelving scheme for an item. The first
+                              indicator position contains value 4 (Shelving control number).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>4#</strong><strong>$a</strong>DLC<strong>$b</strong>MicRR<strong>$j</strong>Microfilm 82/528 MicRR
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$k - Call number prefix</strong> <div class="description">Term that precedes a call number. Subfield $k is input before subfield
+                              $h (Classification part) or $i (Item part).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>01</strong><strong>$a</strong>ViBlbV<strong>$b</strong>Main Lib<strong>$b</strong>MRR<strong>$k</strong>Ref<strong>$h</strong>HF5531.A1<strong>$i</strong>N4273
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$l - Shelving form of title</strong> <div class="description">Shelving title of an unclassified item that is shelved by title.</div>
+         <div class="description2">
+            <div class="description">First indicator position contains value 5 (Title).</div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>51</strong><strong>$a</strong> [location identifier] <strong>$b</strong>0108<strong>$l</strong>NYT MAG
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$m - Call number suffix</strong> <div class="description">Term that follows a call number. Subfield $m is input after subfield
+                              $h (Classification part) or $i (Item part).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>DLC<strong>$b</strong>c-G&amp;M<strong>$h</strong>G3820 1687<strong>$i</strong>.H62<strong>$m</strong>Vault
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$n - Country code</strong> <div class="description">Two- or three-character MARC code for the principal location contained in subfield
+                              $a (Location). Code from: <em><a href="http://www.loc.gov/marc/countries/">MARC Code List for Countries</a></em>.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>81</strong><strong>$a</strong>FrPALP<strong>$b</strong>Annex<strong>$c</strong>center shelves<strong>$e</strong>10, rue du G&eacute;n&eacute;ral Camou<strong>$e</strong>75007 Paris<strong>$n</strong>fr
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$p - Piece designation</strong> <div class="description">Identification of a single piece when the holdings information does not contain an
+                              863-865 (Enumeration and Chronology) or 876-878 (Item Information) field that
+                              contains a subfield $p (Piece designation).
+         </div>
+         <div class="description2">
+            <div class="description">Designation may be an identification number such as a bar code number or an
+                                 accession number.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>81</strong><strong>$a</strong> [location identifier] <strong>$b</strong>0131<strong>$p</strong>1100064014
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="description2">
+            <div class="description">Piece designation number may be preceded by an uppercase B or U to specify whether
+                                 the piece is bound or unbound. When no piece designation exists, a double slash
+                                 (//) may be recorded in subfield $p to signify that the field relates
+                                 to a piece.
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$q - Piece physical condition</strong> <div class="description">Description of any unusual characteristic of the physical condition of the piece
+                              when the holdings information does not contain an 863-865 (Enumeration and
+                              Chronology) or 876-878 (Item Information) field that contains a subfield
+                              $q (Piece physical condition).
+         </div>
+         <div class="description2">
+            <div class="description">Subfield $q is not used for physical condition information resulting
+                                 from a formal review for making preservation decisions. Preservation decisions are
+                                 contained in field 583 (Action Note).
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong> [location identifier] <strong>$b</strong>Main<strong>$c</strong>oversize shelving<strong>$q</strong>child's graffiti on end papers
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>[location identifier]<strong>$b</strong>Main<strong>$c</strong>oversize shelving
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$s - Copyright article-fee code</strong> <div class="description">Description of the copyright article-fee code is given in field 018 (Copyright
+                              Article-Fee Code).
+         </div>
+      </div>
+      <div class="subfield"><strong>$t - Copy number</strong> <div class="description">Copy number or a range of numbers for copies that have the same location and call
+                              number when the holdings information does not contain an 863-865 Enumeration and
+                              Chronology field that contains subfield $t (Copy number).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong> [location identifier] <strong>$b</strong>Main<strong>$h</strong>PZ7.D684<strong>$i</strong>A1 1979<strong>$t</strong>1
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>4#</strong><strong>$a</strong> [location identifier] <strong>$b</strong>Main<strong>$j</strong>Mic77-3276<strong>$t</strong>2-3
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="description2">
+            <div class="description">If a break in the copy numbering sequence exists, each cluster of numbers is
+                                 recorded in a separate field 852. Separate 852 fields also are used for each
+                                 sublocation when parts of one copy of an item are housed in multiple
+                              locations.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$3</strong>v. 1-6<strong>$a</strong> [location identifier] <strong>$b</strong>Science Library<strong>$t</strong>1
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$3</strong>v. 7-11<strong>$a</strong> [location identifier] <strong>$b</strong>Engineering Library<strong>$t</strong>1
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="description2">
+            <div class="description">Used for <em>copy number</em>, not the number of copies held. The number of copies
+                                 held is contained in the MARC 21 holdings format field 008/17-19 (Number of copies
+                                 reported).
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$u - Uniform Resource Identifier</strong> <div class="description">Uniform Resource Identifier (URI), for example a URL or URN, which provides
+                              electronic access data in a standard syntax.
+         </div>
+		 <div class="description">
+         <div class="description2">The URI links to the repository that holds the item (regardless of whether the
+                              item is analog or digital). This information may also be recorded as an
+                              organization code or text in subfield $a (Location) and (if applicable)
+                              subfield $b (Sublocation).
+         </div></div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Library of Congress<strong>$b</strong>Prints and Photographs Division<strong>$e</strong>Washington, D.C. 20540 USA<strong>$n</strong>dcu<strong>$u</strong>http://hdl.loc.gov/loc.pnp/pp.print
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$x - Nonpublic note</strong> <div class="description">Note relating to the location of the item identified in the field. The note is not
+                              written in a form that is adequate for public display. A note for public display
+                              is contained in subfield $z (Public note).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>MH<strong>$c</strong>Current issues in R.R.<strong>$x</strong>1-54 on order in Microfiche
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>81</strong><strong>$a</strong> [location identifier] <strong>$h</strong>M<strong>$i</strong>S:55<strong>$p</strong>1100064014<strong>$x</strong>accession no.: 90/84370<br><em>[Both a bar code and an accession number are recorded.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$z - Public note</strong> <div class="description">Note relating to the location of the item identified in the field. The note is
+                              written in a form that is adequate for public display. A note not for public
+                              display is contained in subfield $x (Nonpublic note).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>01</strong><strong>$a</strong>DLC<strong>$b</strong>Ser Div<strong>$h</strong>A123<strong>$i</strong>.B456<strong>$z</strong>Signed by author
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$2 - Source of classification or shelving scheme</strong> <div class="description">MARC code that identifies the source from which the classification or shelving was
+                              assigned. It is used only when the first indicator position contains value 7
+                              (Source specified in subfield $2). Code from: <em><a href="http://www.loc.gov/standards/sourcelist/classification.html">Classification Scheme Source Codes</a></em>.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>70</strong><strong>$a</strong>PBm<strong>$h</strong>PY F532.17/4<strong>$2</strong>padocs
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$3 - Materials specified</strong> <div class="description">Part of the bibliographic item to which the field applies.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>852</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$3</strong>Correspondence<strong>$a</strong> [location identifier] <strong>$b</strong>Manuscript Division
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Sequence number</strong> 
+        <div class="description">To sequence related holdings records, see field 852, subfield $8 in the <em><a href="http://www.loc.gov/marc/holdings/">MARC 21 Format
+                                          for Holdings Data</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Order of Subfields</strong> - When used, subfield $f (Coded location qualifier) or $g (Non-coded
+                     location qualifier) immediately follows the subfield $a (Location),
+                     $b (Sublocation or collection), or $c (Shelving location) being
+                     qualified. Subfield $3 (Materials specified), when used, is always the first
+                     subfield in the field.
+      </div>
+      <div class="description2"><strong>Embedded Holdings Information</strong> - When holdings information is embedded in a MARC bibliographic record, multiple 852
+                     fields may be used only when the information does not include other holdings information
+                     fields that must be linked to a specific 852 field for intelligibility. When field
+                     linking is required, one 852 field and the other fields associated with it may be
+                     embedded in the bibliographic record. Separate holdings records must be made for each of
+                     the other 852 fields and its associated fields.
+      </div>
+      <div class="description2"><strong>Capitalization</strong> - Qualifier type and Unit type codes in subfield $f are input in lowercase.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small">
+         <em>$d - Former shelving location [NEW, 2007]</em>
+         <br><em>$k - Call number prefix/suffix [REDEFINED, 1990]</em><br><em>$m - Call number suffix [NEW, 1990]</em><br><em>$u - Uniform Resource Identifier [NEW, 2006]</em><br><em>$x - Nonpublic note [NEW, 1987]</em><br><em>$z - Note [REDEFINED, 1987]</em><br>Prior to 1987, $z contained both public and nonpublic notes.<br><em>$2 - Source of classification or shelving scheme [NEW, 1993]</em></div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd84188x.html">841-88X</a> &gt;&gt; <strong>852</strong></div> (02/28/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

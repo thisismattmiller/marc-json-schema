@@ -1,0 +1,759 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 007: Sound Recording 
+         					 (Network Development and MARC Standards Office, Library of
+         					Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the 007 for sound recordings (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-left:6em; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {margin-left:4em;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> 
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd007.html">007</a> &gt;&gt; <strong>007 (Sound Recording) </strong></div>
+      <hr><a name="skip_menu"></a><h1>007 - Sound Recording (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2002</div>
+      <hr><strong>Indicators and Subfield Codes</strong><div class="description">Field has no indicators or subfield codes; the data elements are positionally
+                  defined.
+      </div>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>Character Positions</strong><br>
+              <strong>00 - Category of material </strong><br>
+              s - Sound recording <br><br>
+              <strong>01 - Specific material designation </strong><br>
+              d - Sound disc <br>e - Cylinder <br>g - Sound cartridge <br>i - Sound-track film <br>q - Roll <br>s - Sound cassette <br>t - Sound-tape reel <br>u - Unspecified <br>w - Wire recording <br>z - Other <br>| - No attempt to code <br><br>
+              <strong>02 - Undefined </strong><br>
+              # - Undefined <br><br>
+              <strong>03 - Speed </strong><br>
+              a - 16 rpm (discs) <br>b - 33 1/3 rpm (discs) <br>c - 45 rpm (discs) <br>d - 78 rpm (discs) <br>e - 8 rpm (discs) <br>f - 1.4 m. per second (discs) <br>h - 120 rpm (cylinders) <br>i - 160 rpm (cylinders) <br>k - 15/16 ips (tapes) <br>l - 1 7/8 ips (tapes) <br>m - 3 3/4 ips (tapes) <br>o - 7 1/2 ips (tapes) <br>p - 15 ips (tapes) <br>r - 30 ips (tape) <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br>
+              <strong>04 - Configuration of playback channels </strong><br>
+              m - Monaural <br>
+              q - Quadraphonic <br>
+              s - Stereophonic <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br>
+              <strong>05 - Groove width/groove pitch </strong><br>
+              m - Microgroove/fine <br>n - Not applicable <br>s - Coarse/standard <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br>
+              <strong>06 - Dimensions </strong><br>
+              a - 3 in. diameter <br>b - 5 in. diameter <br>c - 7 in. diameter <br>d - 10 in. diameter <br>e - 12 in. diameter <br>f - 16 in. diameter <br>g - 4 3/4 in. or 12 cm. diameter <br>j - 3 7/8 x 2 1/2 in. <br>n - Not applicable <br>o - 5 1/4 x 3 7/8 in. <br>s - 2 3/4 x 4 in. <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br>
+              <strong>07 - Tape width </strong><br>
+              l - 1/8 in. <br>m - 1/4 in. <br>n - Not applicable <br>o - 1/2 in. <br>p - 1 in. <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br></td>
+            <td width="45%"><br>
+              <strong>08 - Tape Configuration </strong><br>
+           a - Full (1) track <br>b - Half (2) track <br>c - Quarter (4) track <br>d - Eight track <br>e - Twelve track <br>f - Sixteen track <br>n - Not applicable <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br>
+           <strong>09 - Kind of disc, cylinder or tape </strong><br>
+           a - Master tape <br>b - Tape duplication master <br>d - Disc master (negative) <br>i - Instantaneous (recorded on the spot) <br>m - Mass-produced <br>n - Not applicable <br>r - Mother (positive) <br>s - Stamper (negative) <br>t - Test pressing <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br>
+           <strong>10 - Kind of material </strong><br>
+           a - Lacquer coating <br>b - Cellulose nitrate <br>c - Acetate tape with ferrous oxide <br>g - Glass with lacquer <br>i - Aluminum with lacquer <br>l - Metal <br>m - Plastic with metal <br>p - Plastic <br>r - Paper with lacquer or ferrous oxide <br>s - Shellac <br>w - Wax <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br>
+           <strong>11 - Kind of cutting </strong><br>
+           h - Hill-and-dale cutting <br>l - Lateral or combined cutting <br>n - Not applicable <br>u - Unknown <br>| - No attempt to code <br><br>
+           <strong>12 - Special playback characteristics </strong><br>
+           a - NAB standard <br>b - CCIR standard <br>c - Dolby-B encoded <br>d - dbx encoded <br>e - Digital recording <br>f - Dolby-A encoded <br>g - Dolby-C encoded <br>h - CX encoded <br>n - Not applicable <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br>
+           <strong>13 - Capture and storage technique </strong><br>
+           a - Acoustical capture, direct storage <br>b - Direct storage, not acoustical <br>d - Digital storage <br>e - Analog electrical storage <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>When field 007/00 contains code s, it contains special coded information about the
+                     physical characteristics of a <strong>sound recording</strong>.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> CHARACTER POSITIONS
+      </h4>
+      <div class="characterposition"><strong>00 - Category of material  </strong><div class="charactervalue"><strong>s - Sound recording</strong> <div class="description">One-character alphabetic code that indicates the category of material to which
+                                    the item belongs is <strong>sound recording</strong>, which is defined as a
+                                    disc, tape, film, cylinder, or wire on which sound vibrations have been
+                                    registered so that the sound may be reproduced, and paper rolls on which the
+                                    notes of a musical composition are represented by perforations in the paper and
+                                    from which sound can be mechanically produced. A fill character (|) is not
+                                    allowed in this position.
+            </div>
+         </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>01 - Specific material designation  </strong><div class="description">Special class of sound recording to which the item belongs (e.g., a cylinder).</div>
+         <div class="charactervalue"><strong>d - Sound disc</strong> <div class="description">Sound discs are thin circular objects that vary in diameter (e.g., 7 in., 10
+                                    in., 12 in.), on which sound waves, recorded as modulations or pulses, are
+                                    incised or indented. Compact audio discs are typically 4 3/4 in. in
+                                 diameter.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>e - Cylinder</strong> <div class="description">Cylinders are cylindrical objects on which sound waves are incised or indented
+                                    in a continuous circular groove. Mass-produced cylinders are made of plastic.
+                                    Early cylinders were made of tinfoil or wax.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>g - Sound cartridge</strong> <div class="description">Sound cartridges are containers holding a single sound tape, run as an endless
+                                    loop.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>i - Sound-track film</strong> <div class="description">Sound-track film is a sound recording on film that is not intended to accompany
+                                    visual images. <em>Note:</em> Code i is also to be used when it is not known if
+                                    a sound recording on film is intended to accompany visual images.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>q - Roll</strong> <div class="description">Roll of paper, for example, for player piano or player organ, on which the
+                                    notes of a musical composition are represented by perforations in the paper and
+                                    from which sound can be mechanically produced.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>s - Sound cassette</strong> <div class="description">Sound cassette is a container holding a narrow, usually 1/8 inch, sound tape on
+                                    two reels, one to feed (and rewind) and the other to take up the sound
+                                 tape.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>t - Sound-tape reel</strong> <div class="description">Sound-tape reel is usually designated an <em>Open Reel</em> or
+                                    <em>Reel-to-Reel</em>. It is an audiotape-transport system with separate supply
+                                    (feed) and take-up reels.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unspecified</strong> <div class="description">Special material designation for the sound recording is not specified.</div>
+         </div>
+         <div class="charactervalue"><strong>w - Wire recording</strong> <div class="description">Wire recording is a round steel wire on which sound waves are magnetically
+                                    recorded.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>02 - Undefined  </strong>
+         <div class="description">Contains blank (#) or a fill character (|).</div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>03 - Speed  </strong><div class="description">Playback speed of the sound recording.</div>
+         <div class="description2">
+            <div class="description">Speed is associated with the kind of item with which it is associated; either disc
+                                 (007/01 is code d), cylinder (007/01 is code e), or tape (007/01 is code g, s, or
+                                 t.)
+            </div>
+            <div class="description3">Codes a, b, c, d, e indicate that the rotational speed of a sound disc is equal to
+                                 the value of revolutions per minute (RPM) represented by the specific code.
+                                 Certain speeds are usually associated with the diameter of the disc (e.g., 10 in.
+                                 discs are played back at 78 rpm, 7 in. discs are played back at 45 rpm, 12 in.
+                                 discs are played back at 33 1/3 rpm). Playback speed is not absolutely associated
+                                 with any one disc size.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>a - 16 rpm (discs)</strong> </div>
+         <div class="charactervalue"><strong>b - 33 1/3 rpm (discs)</strong> </div>
+         <div class="charactervalue"><strong>c - 45 rpm (discs)</strong> </div>
+         <div class="charactervalue"><strong>d - 78 rpm (discs)</strong> </div>
+         <div class="charactervalue"><strong>e - 8 rpm (discs)</strong> </div>
+         <div class="charactervalue"><strong>f - 1.4 m. per second (discs)</strong> <div class="description">Speed is calculated from the distance the playback mechanism covers on the
+                                    surface of the disc per second, and not the number of revolutions of the disc.
+                                    It is associated with compact discs (CDs).
+            </div>
+         </div>
+         <div class="charactervalue"><strong>h - 120 rpm (cylinders)</strong> </div>
+         <div class="charactervalue"><strong>i - 160 rpm (cylinders)</strong> </div>
+         <div class="charactervalue"><strong>k - 15/16 ips (tapes)</strong> <div class="description">Speed occurs, for example, on half-speed mini-cassettes used in small portable
+                                    recorders.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>l - 1 7/8 ips (tapes)</strong> <div class="description">Speed occurs, for example, on standard cassettes.</div>
+         </div>
+         <div class="charactervalue"><strong>m - 3 3/4 ips (tapes)</strong> <div class="description">Speed occurs, for example, on consumer and nonprofessional reel-to-reel tapes,
+                                    cartridges and very unusual cassette tapes.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>o - 7 1/2 ips (tapes)</strong> <div class="description">Speed occurs, for example, in reel-to-reel, nonprofessional, and studio
+                                 tapes.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>p - 15 ips (tapes)</strong> <div class="description">Speed occurs, for example, on reel-to-reel, studio tapes.</div>
+         </div>
+         <div class="charactervalue"><strong>r - 30 ips (tape)</strong> <div class="description">Speed occurs, for example, on reel-to-reel, studio tapes, but is rarely
+                                 used.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>04 - Configuration of playback channels  </strong><div class="description">Configuration of playback channels for a sound recording.</div>
+         <div class="description2">
+            <div class="description">Monaural, stereophonic, quadraphonic, and other configuration of playback channels
+                                 should be coded based on a clear indication of intended playback. These codes do
+                                 not refer to the configuration of channels orginally recorded, unless those
+                                 channels are all intended to be available on playback.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>m - Monaural</strong> <div class="description">Configured to be played back on one channel.</div>
+         </div>
+         <div class="charactervalue"><strong>q - Quadraphonic</strong>
+           <div class="description">Configured to be played back on more than two channels. Use this code for Dolby surround sound tracks and other multichannel techniques. </div>
+        </div>
+         <div class="charactervalue"><strong>s - Stereophonic</strong> <div class="description">Configured to be played back on two separate channels.</div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Configuration of playback channels is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>05 - Groove width/groove pitch  </strong><div class="description">Width of the groove of the recording for discs or the pitch of the groove for
+                              cylinders.
+         </div>
+         <div class="charactervalue"><strong>m - Microgroove/fine</strong> <div class="description">Microgroove disc or a fine cylinder. Discs issued at 16, 33 1/3, and 45 rpm are
+                                    usually issued as microgroove. Cylinders issued at 160 rpm (which have 200
+                                    grooves per inch) are usually issued as fine.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Item does not contain grooves. Used for tapes and compact audio discs.</div>
+         </div>
+         <div class="charactervalue"><strong>s - Coarse/standard</strong> <div class="description">Coarse or standard groove. Discs issued at 78 rpm are usually coarse. Cylinders
+                                    issued at 120 rpm (which have 100 grooves per inch) are usually standard.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Groove width/groove pitch is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>06 - Dimensions  </strong><div class="description">Diameter of an open reel or disc, or the dimensions of a cassette, cartridge, or
+                              cylinder.
+         </div>
+         <div class="charactervalue"><strong>a - 3 in. diameter</strong> </div>
+         <div class="charactervalue"><strong>b - 5 in. diameter</strong> </div>
+         <div class="charactervalue"><strong>c - 7 in. diameter</strong> </div>
+         <div class="charactervalue"><strong>d - 10 in. diameter</strong> </div>
+         <div class="charactervalue"><strong>e - 12 in. diameter</strong> </div>
+         <div class="charactervalue"><strong>f - 16 in. diameter</strong> </div>
+         <div class="charactervalue"><strong>g - 4 3/4 in. or 12 cm. diameter</strong> </div>
+         <div class="charactervalue"><strong>j - 3 7/8 x 2 1/2 in.</strong> <div class="description">Height and width of the cassette are 3 7/8 x 2 1/2 in. Used for a standard
+                                    compact cassette.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Sound recording is not a reel, disc, cassette, cartridge, or cylinder.</div>
+         </div>
+         <div class="charactervalue"><strong>o - 5 1/4 x 3 7/8 in.</strong> <div class="description">Height and width of the cartridge are 5 1/4 x 3 7/8 in. Used for a standard
+                                    audio cartridge.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>s - 2 3/4 x 4 in.</strong> <div class="description">Dimensions of a cylinder are 2 3/4 in. (diameter) x 4 in. (length).</div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Dimensions of the sound recording are not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>07 - Tape width  </strong><div class="description">Width of the tape.</div>
+         <div class="description2">
+            <div class="description"><em>Cassette</em> implies code l, <em>cartridge</em> implies code m, and <em>tape
+                                       reel</em> implies code m.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>l - 1/8 in.</strong> <div class="description">Most cassettes use 1/8 in. tape.</div>
+         </div>
+         <div class="charactervalue"><strong>m - 1/4 in.</strong> <div class="description">Nonprofessional, consumer, and some professional reels, and most 8-track
+                                    cartridges use 1/4 in. tape.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Item is not a tape or does not include a tape. For example, code n is used if
+                                    the item is a disc.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>o - 1/2 in.</strong> <div class="description">Recording studios customarily use 1/2 in. tape. Some 8-track cartridges have
+                                    been issued in 1/2 in. tape.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>p - 1 in.</strong> <div class="description">Recording studios often use 1 inch tape. Some 8-track cartridges have been
+                                    issued in 1 in. tape.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Tape width is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>08 - Tape Configuration  </strong><div class="description">Number of tracks on a tape.</div>
+         <div class="description2">
+            <div class="description"><em>Cassette</em> implies code c; <em>cartridge</em> implies code d. There is no
+                                 standard number of tracks for tape reels.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>a - Full (1) track</strong> <div class="description">Full or single track.</div>
+         </div>
+         <div class="charactervalue"><strong>b - Half (2) track</strong> <div class="description">Half track configuration is used to permit two tracks (channels) to be recorded
+                                    on one tape. It is used with audio cassettes to permit monoaural recordings in
+                                    two directions and with stereophonic recordings in one direction.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Quarter (4) track</strong> <div class="description">Quarter track configuration is used to permit four tracks (channels) to be
+                                    recorded on one tape. It is used with standard audio cassettes to permit
+                                    stereophonic recordings in two directions, and with quadraphonic recordings in
+                                    one direction.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>d - Eight track</strong> <div class="description">Eight track configuration is used with monaural, stereophonic, and quadraphonic
+                                    recordings. Commercial eight track cartridges customarily include four pairs of
+                                    stereophonic (two track) recordings.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>e - Twelve track</strong> <div class="description">Twelve track configuration is used in professional recording studios to permit
+                                    separate control of various tracks which are later mixed to produce a
+                                    stereophonic or quadraphonic recording.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>f - Sixteen track</strong> <div class="description">Sixteen track configuration is used in professional recording studios to permit
+                                    separate control of various tracks which are later mixed to produce a
+                                    stereophonic or quadraphonic recording.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Item is not a tape or does not include a tape. For example, code n is used if
+                                    the item is a disc.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Tape configuration is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>09 - Kind of disc, cylinder or tape  </strong><div class="charactervalue"><strong>a - Master tape</strong> <div class="description">Final tape production master that is used to make a disc master or a tape
+                                    duplication master.
+            </div>
+            <div class="description2">
+               <div class="description">Represents the final mix including special processing such as equalization,
+                                       compression, phasing, and sound synthesis.
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - Tape duplication master</strong> <div class="description">Sound tape produced from the master tape.</div>
+            <div class="description2">
+               <div class="description">Tape duplication master is played on a tape reproducer to produce the sound
+                                       tape for cassette, cartridge, or reel.
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>d - Disc master (negative)</strong> <div class="description">Negative disc master that is used for the preparation of the mother from which
+                                    more serviceable and longer lasting metal stampers can be made.
+            </div>
+            <div class="description2">
+               <div class="description">In the early years of recording, discs were pressed from the metal-plated disc
+                                       master or matrix. As commercial recording developed, the disc master was used,
+                                       and continues to be used, for the preparation of the <em>mother</em>.
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>i - Instantaneous (recorded on the spot)</strong> <div class="description">Original recording of a sound event or performance intended for direct
+                                    reproduction without further processing. In the early years of recording, a
+                                    single sound event was sometimes recorded simultaneously on several cylinders
+                                    or discs. All of these recordings would be instantaneous.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>m - Mass-produced</strong> <div class="description">Includes discs or tapes issued as <em>limited pressing</em> or <em>limited
+                                          issue</em> for private distribution.
+            </div>
+            <div class="description2">
+               <div class="description">Most commercial discs are mass-produced. Mass-produced discs are mechanically
+                                       pressed for distribution, either commercially or privately; also, tapes
+                                       reproduced from a tape duplication master for distribution either commercially
+                                       or privately.
+               </div>
+               <div class="description3">Mass-produced discs, cylinders, and tapes usually include the name of the
+                                       issuing company, the issue number, and bibliographic information on a printed
+                                       label or on the container in which the disc, tape, or cylinder is packaged.
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Item is not a disc, cylinder, or tape.</div>
+         </div>
+         <div class="charactervalue"><strong>r - Mother (positive)</strong> <div class="description">Exact copy of the original disc recording pressed from the disc master. From
+                                    the metal <em>mother</em> a negative metal <em>stamper</em> is made to press
+                                    discs for distribution.
+            </div>
+            <div class="description2">
+               <div class="description">Many <em>stampers</em> may be made from a single <em>mother</em>.
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>s - Stamper (negative)</strong> <div class="description">Negative metal part, produced from the <em>mother</em> in an electroplating
+                                    procedure, from which 500 to 750 discs may be pressed.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>t - Test pressing</strong> <div class="description">Either one finished disc or one of a very limited pressing is made, designed to
+                                    be examined aurally before a decision is made to proceed with a pressing.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Type of disc, cylinder, or tape is not known.</div>
+            <div class="description2">
+               <div class="description">Also used when it cannot be determined whether the item is instantaneous or
+                                       mass-produced.
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>10 - Kind of material  </strong><div class="description">Kind of material used in the manufacture of sound recordings (both instantaneous
+                              and mass-produced).
+         </div>
+         <div class="charactervalue"><strong>a - Lacquer coating</strong> <div class="description">Lacquer coated, but the base material on which the lacquer is applied is not
+                                    identified. To also identify the base, use codes g (Glass with lacquer), i
+                                    (Aluminum with lacquer) or r (Paper with lacquer or ferrous oxide).
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - Cellulose nitrate</strong> <div class="description">Cellulose nitrate base. This code may be used for items such as memovox
+                                 discs.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Acetate tape with ferrous oxide</strong> <div class="description">Acetate base with a ferrous oxide coating. May include acetate tape and belts,
+                                    such as magnabelts.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>g - Glass with lacquer</strong> <div class="description">Glass disc base with a lacquer coating.</div>
+         </div>
+         <div class="charactervalue"><strong>i - Aluminum with lacquer</strong> <div class="description">Aluminum disc base with a lacquer coating.</div>
+         </div>
+         <div class="charactervalue"><strong>l - Metal</strong> <div class="description">Made entirely of metal. Includes the earliest cylinders, which were made of
+                                    tinfoil, and aluminum transcription discs with no coating, as well as wire and
+                                    metal tape.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>m - Plastic with metal</strong> <div class="description">Made of plastic base with a metal coating. The metal part of such an item is
+                                    often a thin layer applied to the plastic base. Includes compact audio discs
+                                    (CDs).
+            </div>
+         </div>
+         <div class="charactervalue"><strong>p - Plastic</strong> <div class="description">Made entirely of plastic. Also includes mylar, polyester and vinyl materials.
+                                    Since the 1950s, commercial or mass-produced sound recordings on 16, 33 1/3,
+                                    and 45 rpm discs, cassettes, and cartridges are made of plastic.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>r - Paper with lacquer or ferrous oxide</strong> <div class="description">Paper or cardboard disc, tape, or cylinder base with a lacquer or ferrous oxide
+                                    coating.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>s - Shellac</strong> <div class="description">Made entirely of shellac. Most commercial or mass-produced 78 rpm discs are
+                                    made of shellac.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>w - Wax</strong> <div class="description">Made entirely of wax. Most instantaneous cylinders were made of wax.</div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Kind of material used in the manufacture of the item is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>11 - Kind of cutting  </strong><div class="description">Kind of cutting of the grooves used on a disc.</div>
+         <div class="description2">
+            <div class="description">Primary use is to identify discs which contain only hill-and-dale information.</div>
+         </div>
+         <div class="charactervalue"><strong>h - Hill-and-dale cutting</strong> <div class="description">Vertical cutting, with no lateral information intended for reproduction.</div>
+            <div class="description2">
+               <div class="description">All cylinders and some early discs have this cutting.</div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>l - Lateral or combined cutting</strong> <div class="description">Cutting containing lateral information intended for reproduction. Such discs
+                                    may also have vertical components intended for reproduction. Most contemporary
+                                    discs (i.e., all quadraphonic discs and nearly all stereophonic discs) contain
+                                    both vertical and laterial information and are coded l. Monographic discs are
+                                    normally lateral only.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Item is not a disc or a cylinder.</div>
+            <div class="description2">
+               <div class="description">Compact audio discs are coded n as they are pitted rather than cut.</div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Kind of cutting is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>12 - Special playback characteristics  </strong><div class="description">Playback characteristics for sound recordings, including special equipment or
+                              equalization necessary for proper playback. This code is <em>not</em> used to
+                              indicate special processes used during recording unless those processes must be
+                              applied during playback.
+         </div>
+         <div class="description2">
+            <div class="description">Codes should be used only if the item in hand includes a clear indication that
+                                 special playback characteristics are required.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>a - NAB standard</strong> <div class="description">National Association of Broadcasters (NAB) standard was used for the
+                                    transcription of the recording and NAB playback equalization is required.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - CCIR standard</strong> <div class="description">Comit&eacute; consultatif de la radiodiffusion (CCIR) standard was used for the
+                                    transcription of the recording and CCIR playback equalization is required.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Dolby-B encoded</strong> <div class="description">Requires Dolby-B decoding playback equipment. Indicated on commercial
+                                    recordings by the <em>double D</em> insignia (without indication of Dolby-C
+                                    encoding). If <em>Dolby</em> is used on a tape recording without other
+                                    indication, Dolby-B may be assumed. Despite the presence of the double-D or
+                                    "Dolby" on a disc recording, this code is never used for commercial discs.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>d - dbx encoded</strong> <div class="description">Used for disc or tape recordings which indicate on the label or package that
+                                    dbx decoding is required. If descriptive material indicates that dbx was used
+                                    during recording but that standard playback equipment may be used, this code
+                                    should not be assigned.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>e - Digital recording</strong> <div class="description">Requires digital playback equipment, such as Phillips/Sony <em>Compact
+                                       Discs</em> or Sony PCM tape recordings. Code e is <em>not</em> used when there
+                                    is indication that digital equipment was used during recording, but that analog
+                                    playback equipment may be used. No commercial recordings prior to 1982, and no
+                                    analog disc or tape recordings require code e.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>f - Dolby-A encoded</strong> <div class="description">Requires Dolby-A playback equipment. It is used only for master tapes and other
+                                    tape recordings where clear indication is given that the professional Dolby-A
+                                    encoding was applied, and that Dolby-A decoding is required. Dolby-A encoding
+                                    is never used for commercial tape or discs. (Instantaneous tape recordings
+                                    labelled "Dolby" without other indication are normally Dolby-B, particularly
+                                    cassette recordings.)
+            </div>
+         </div>
+         <div class="charactervalue"><strong>g - Dolby-C encoded</strong> <div class="description">Requires Dolby-C playback equipment. It is used for tape recordings where the
+                                    label or packaging clearly indicates that Dolby-C is required. "Dolby" or the
+                                    double-D symbol without specific explanation normally indicates Dolby-B.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>h - CX encoded</strong> <div class="description">Requires CX encoded playback equipment. It is used for recordings where the
+                                    symbol or mark <em>CX</em> appears. Such recordings may be labelled as
+                                    compatible with standard playback equipment. No CX recordings will appear with
+                                    pressing dates prior to 1981.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Item does not have special playback characteristics.</div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Playback characteristics of the item are not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is applicable.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>13 - Capture and storage technique  </strong><div class="description">How the sound was originally captured and stored. Re-releases of recordings should
+                              be coded for the original capture and storage technique, even though such
+                              re-releases may have been enhanced using another technique.
+         </div>
+         <div class="charactervalue"><strong>a - Acoustical capture, direct storage</strong> <div class="description">Usually a disc or cylinder recording, captured using an acoustical horn and
+                                    diaphragm and stored directly on a master surface. Most acoustical recordings
+                                    date from before 1927/29 when electrical recording equipment became
+                                 available.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - Direct storage, not acoustical</strong> <div class="description">Disc recordings captured using electrical equipment and stored directly on a
+                                    master surface. All recordings made with microphones and other electrical
+                                    equipment prior to the availability of magnetic recording techniques in the
+                                    late 1940s used direct storage.
+            </div>
+            <div class="description2">
+               <div class="description">Commercial recordings marked "direct to disc" or some equivalent phrase also
+                                       use this technique.
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>d - Digital storage</strong> <div class="description">Sound recordings which were captured electrically and stored using digital
+                                    techniques.
+            </div>
+            <div class="description2">
+               <div class="description">Such recordings are normally identified as "digitally recorded" or some similar
+                                       phrase on the label or package. "Digital remaster" or "digital mixing" does not
+                                       imply original digital storage. <em>Note:</em> Digital storage and digital
+                                       playback should not be confused. The need for digital playback should be
+                                       recorded in 007/12 (Special playback characteristics).
+               </div>
+            </div>
+         </div>
+         <div class="charactervalue"><strong>e - Analog electrical storage</strong> <div class="description">Sound recordings which were captured using electrical techniques and stored as
+                                    modulations and pulses on a magnetic surface. Most recordings made from the
+                                    late 1940s until early 1980s are analog electrical recordings.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Capture and storage technique are not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <h4><span class="box">&#9632;</span>EXAMPLES
+      </h4>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>007</strong></td>
+               <td vAlign="top" colspan="8" align="left">st#osncmcmnnne<br><em>[Item is a sound recording (007/00); released as a sound tape on reel (01); has
+                                       a speed of 7 1/2 ips (03); with stereophonic sound (04); on a 7 in. reel (06); on
+                                       1/4 in. tape (07); is a quarter (4) track tape (08); was mass-produced (09); and
+                                       analog electrical storage (13).]</em></td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>007</strong></td>
+               <td vAlign="top" colspan="8" align="left">sd#bsmennmplud<br><em>[Item is a sound recording (007/00); released as a sound disc (01); with speed
+                                       of 33 1/3 rpm (03); is stereo (04); with microgrooves (05); on a 12 in. disc (06);
+                                       is mass-produced (09); on plastic (10); with lateral cutting (11); any special
+                                       playback characteristics are unknown (12); and digital capture and storage
+                                    (13).]</em></td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>007</strong></td>
+               <td vAlign="top" colspan="8" align="left">ss#lsnjlcnnnuu<br><em>[Item is a sound recording (007/00); released as a sound cassette (01); with
+                                       speed of 1 7/8 ips (03); is stereo (04); has no grooves (05); measures 3 7/8 x 2
+                                       1/2 in. (06); tape width is 1/8 in. (07); with quarter (4) track (08); any special
+                                       playback characteristics are unknown (12); capture and storage technique also
+                                       unknown (13).]</em></td>
+            </tr>
+         </table>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Field length</strong> - Field 007 for the category of material <strong>sound recording</strong> currently has 14
+                     character positions defined for it.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><br><em>007/01 - Specific material designation</em><div class="charactervaluehistory"><em><br>c - Cylinder [OBSOLETE]</em></div>
+         <div class="charactervaluehistory"><em><br>f - Sound-track film [OBSOLETE]</em></div>
+         <div class="charactervaluehistory"><em><br>r - Roll [OBSOLETE]</em></div>
+         <div class="description">In 1981, the codes were changed to e, i, and q, respectively.</div><br><br><em>007/02 - Original versus reproduction aspect [OBSOLETE, 1997] [USMARC only]</em><div class="description">Defined codes were: f (Facsimile), o (Original), r (Reproduction), and u
+                        (Unknown).
+         </div><br><br><em>007/04 - Configuration of playback channels</em><div class="charactervaluehistory"><em><br>a - Acoustic [OBSOLETE]</em></div>
+         <div class="charactervaluehistory"><em><br>f - Monaural (digital) [OBSOLETE]</em></div>
+         <div class="charactervaluehistory"><em><br>g - Quadraphonic (digital) [OBSOLETE]</em></div>
+         <div class="charactervaluehistory"><em><br>j - Stereophonic (digital) [OBSOLETE]</em></div>
+         <div class="charactervaluehistory"><em><br>k - Other (digital) [OBSOLETE]</em></div>
+         <div class="charactervaluehistory"><em><br>o - Other (electric) [OBSOLETE]</em></div>
+         <div class="description">In 1987, 007/04 was redefined for coding only configuration of playback channels
+                           characteristics when 007/13 (Capture and storage technique) was defined for coding
+                           how the sound was originally captured and stored. These codes were made obsolete and
+                           the qualifier <em>(electric)</em> was removed from codes m, q, and s for 007/04.
+         </div><br><br><em>007/07 - Tape width</em><div class="charactervaluehistory"><em><br>a - 1/4 in. [OBSOLETE]</em></div>
+         <div class="charactervaluehistory"><em><br>b - 1/2 in. [OBSOLETE]</em></div>
+         <div class="charactervaluehistory"><em><br>c - 1 in. [OBSOLETE]</em></div>
+         <div class="description">In 1981, the codes were changed to m, o, and p, respectively.</div><br><br><em>007/10 - Kind of material</em><div class="charactervaluehistory"><em><br>m - Molded cylinder-mass produced [OBSOLETE, 1981]</em><div class="description">Code was made obsolete in 1981 when this characteristic was included in the
+                                 definition of code p (Plastic). 
+            </div>
+         </div>
+         <div class="charactervaluehistory"><em><br>m - Plastic with metal [NEW, 1986]</em></div>
+         <div class="charactervaluehistory"><em><br>n - Not applicable [OBSOLETE, 2002]</em></div>
+         <div class="charactervaluehistory"><em><br>a - Lacquered [RENAMED, 2002]</em></div>
+         <div class="charactervaluehistory"><em><br>b - Cellulose nitrate [NEW, 2002]</em></div>
+         <div class="charactervaluehistory"><em><br>c - Acetate tape with ferrous oxide [NEW, 2002]</em></div>
+         <div class="charactervaluehistory"><em><br>g - Glass with lacquer [NEW, 2002]</em></div>
+         <div class="charactervaluehistory"><em><br>i - Aluminum with lacquer [NEW, 2002]</em></div>
+         <div class="charactervaluehistory"><em><br>r - Paper with lacquer or ferrous oxide [NEW, 2002]</em></div>
+         <div class="charactervaluehistory"><em><br>m - Plastic with metal [RENAMED, 2002]</em></div>
+         <div class="charactervaluehistory"><em><br>z - Other [NEW, 2002]</em></div><br><br><em>007/13 - Capture and storage technique [NEW, 1987]</em><div class="description">Prior to the definition of this character position, capture and storage information
+                           was contained in 007/04 (Kind of sound) along with configuration. When 007/13 was
+                           defined, 007/04 was redefined as Configuration of playback channels. See also 007/04
+                           above.
+         </div>
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd007.html">007</a> &gt;&gt; <strong>007 (Sound Recording) </strong></div> 
+               (02/14/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

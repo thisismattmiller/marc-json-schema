@@ -1,0 +1,1152 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 245:
+         						Title Statement (Network Development and MARC Standards
+         					Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the title statement (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left:.5em; margin-right:.5em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.subfieldtoc {margin-left:3em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfieldvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+					.update {text-align:center; font-weight:bold; margin-top:1em; margin-bottom:1em;}
+					.changebox {font-style:italic; margin-top:.5em;}
+					.changesection {text-align:left; margin-left:2em; font-weight:bold; margin-top:.5em;}
+					.changefield {text-align:left; margin-left:1em; font-weight:bold;}
+					.changefieldlabel {margin-left:3em; font-weight:bold;}
+					.changeindicator {margin-left:3em;}
+					.changeindicatorfieldname {margin-left:2em;}
+					.changeindicatorvalue {margin-left:4em; font-weight:bold;}
+					.changesubfield {margin-left:3em; font-weight:bold;}
+					.changesubfieldname {margin-left:1em; font-weight:bold;}
+					.changesubfieldlocation {text-align:justify; font-weight:normal;}
+					.glossaryentry {margin-left:2em; margin-top:1em; font-weight:bold;}
+					.glossaryentrydescription {margin-left:4em; margin-bottom:1em; text-align:justify;}
+					.glossaryentryfields {margin-left:4em; margin-bottom:1em; text-align:justify; font-weight:bold;}
+					.citationaddress {margin-left:2em; text-align:justify;}
+					.citationinternet {margin-left:2em; text-align:justify;}
+					.citationname {font-style:italic; margin-top:1em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;  <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>  
+         					&gt;&gt;  <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a>  &gt;&gt;  <strong>245</strong></div>
+      <hr><a name="skip_menu"></a><h1>245 - Title Statement (NR)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2008</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Title added entry</em><br>0 - No added entry <br>1 - Added entry <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Nonfiling characters</em><br>0 - No nonfiling characters <br>1-9 - Number of nonfiling characters <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Title (NR) <br>$b - Remainder of title (NR) <br>$c - Statement of responsibility, etc. (NR) <br>$f - Inclusive dates (NR) <br>$g - Bulk dates (NR) <br>$h - Medium (NR) </td>
+            <td colspan="1">$k - Form (R) <br>$n - Number of part/section of a work (R) <br>$p - Name of part/section of a work (R) <br>$s - Version (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) </td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Title and statement of responsibility area of the bibliographic description of a
+                  work.
+      </p>
+      <p>Title Statement field consists of the title proper and may also contain the general
+         material designation (medium), remainder of title, other title information, the
+         remainder of the title page transcription, and statement(s) of responsibility. The title
+                     proper includes the short title and alternative title, the numerical designation of a
+                     part/section and the name of a part/section.
+      </p>
+      <p>For <strong>mixed material</strong>, the title statement is defined as the name by which
+                     the material is known. The field may contain inclusive dates (subfield $f)
+                     and bulk dates (subfield $g) pertaining to a collection. For collections with
+                     no formal bibliographic title, subfield $k (Form) is used. Subfield
+                     $k may also be used to indicate "form" even if a formal title is given in
+                     subfields $a, $b, and $c.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Title added entry</strong> <div class="description">Whether a title added entry is made.
+            <div class="indicatorvalue"><strong>0 - No added entry</strong> <div class="description">No title added entry is made, either because no title added entry is desired or
+                                       because the title added entry is not traced the same as the title in field
+                                    245.Value 0 is always used when a 1XX heading field is not present in the
+                                    record.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>[Man smoking at window].
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>03</strong><strong>$a</strong>Le Bureau<strong>$h</strong>[filmstrip] =<strong>$b</strong>La Oficina = Das B&uuml;ro.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Heritage Books archives.<strong>$p</strong>Underwood biographical dictionary.<strong>$n</strong>Volumes 1 &amp; 2 revised<strong>$h</strong>[electronic resource] /<strong>$c</strong>Laverne Galeener-Moore.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Added entry</strong> <div class="description">Desired title added entry is the same as the title in field 245.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Cancer research :<strong>$b</strong>official organ of the American Association for
+                                                         Cancer Research, Inc.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Statistics :<strong>$b</strong>facts or fiction.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>[Nocturne, dance house].
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Nonfiling characters</strong> <div class="description">Number of character positions associated with a definite or indefinite article
+                              (e.g., Le, An) at the beginning of a title that are disregarded in sorting and
+                              filing processes.
+            <div class="indicatorvalue"><strong>0 - No nonfiling characters</strong> <div class="description">No initial article character positions are disregarded.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>War of the worlds.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Harvard project manager.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>Diacritical marks or special characters at the beginning of a title field that
+                                       does not begin with an initial article are not counted as nonfiling
+                                    characters.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>[Diary].
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>--as others see us.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1-9 - Number of nonfiling characters</strong> <div class="description">Title begins with a definite or indefinite article that is disregarded in
+                                       sorting and filing processes. Any diacritical mark, space or mark of
+                                       punctuation associated with the article and any space or mark of punctuation
+                                       preceding the first filing character after the article is included in the count
+                                       of nonfiling characters. Any diacritic, however, associated with the first
+                                       filing character is <u>not</u> included in the count of nonfiling
+                                    characters.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>04</strong><strong>$a</strong>The Year book of medicine.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>12</strong><strong>$a</strong>A report to the legislature for the year
+                                                      ...
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>12</strong><strong>$a</strong>L'enfant criminal.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>05</strong><strong>$a</strong>[The Part of Pennsylvania that ...
+                                                      townships].
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>16</strong><strong>$a</strong>--the serpent--snapping eye.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>18</strong><strong>$a</strong>The
+                            ... annual report to the Governor.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>12</strong><strong>$a</strong>L'&eacute;t&eacute;.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>H&#275; Mon&#275; tou
+                            Horous Sina.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>15</strong><strong>$a</strong>T&#333;n
+                            meionot&#275;t&#333;n eunoia :<strong>$b</strong>mythistor&#275;ma
+                            /<strong>$c</strong>Spyrou Gkrintzou.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>15</strong><strong>$a</strong>T&#333;n Di&#333;nos R&#333;maik&#333;n histori&#333;n eikositria biblia =<strong>$b</strong>Dionis Romanarum historiarum libri XXIII, &agrave; XXXVI ad
+                                                         LVIII vsque.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>15</strong><strong>$a</strong>The &#8220;winter mind&#8221; :<strong>$b</strong>William Bronk and American letters /<strong>$c</strong>Burt Kimmelman.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Title</strong> <div class="description">Title proper and alternative title, excluding the designation of the number or
+                              name of a part. Subfield $a also contains the first title of separate
+                              works (by the same or different authors/composers) in a collection lacking a
+                              collective title.
+         </div><div class="description">
+         <div class="description2">In records formulated according to ISBD principles, subfield $a
+                              includes all the information up to and including the first mark of ISBD
+                              punctuation (e.g., an equal sign (=), a colon (:), a semicolon (;), or a slash
+                              (/)) or the medium designator (e.g., [microform]).
+         </div></div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Map of Amish farmland, Lancaster County,
+                                          Pennsylvania.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Proceedings /<strong>$c</strong>...
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>ETZ :<strong>$b</strong>...
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>John Eager Howard.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>13</strong><strong>$a</strong>al-Sharq al-`Arabi.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>13</strong><strong>$a</strong>An interpretation of Zarahemla ...
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Nineteenth-century bird prints.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Under the hill, or, The story of Venus and
+                                          Tannhauser.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>[Seventeen poems].
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Concerto for piano, with chamber music ensemble, op. 26
+                                             (1961).
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Hamlet ;<strong>$b</strong>Romeo and Juliette ; Othello ...
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Oklahoma<strong>$h</strong>[sound recording] ;<strong>$b</strong>Carousel ; South Pacific ...
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Portals to the world.<strong>$p</strong>Selected Internet resources.<strong>$p</strong>Maldives<strong>$h</strong>[electronic resource] /<strong>$c</strong>created and maintained by the Asian Division, Area
+                                             Studies Directorate.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Remainder of title</strong> <div class="description">Data includes parallel titles, titles subsequent to the first (in items lacking a
+                              collective title), and other title information.
+         </div>
+         <div class="description2"><div class="description">In records formulated according to ISBD principles, subfield $b
+                              contains all the data following the first mark of ISBD punctuation and up to and
+                              including the mark of ISBD punctuation that introduces the first author statement
+                              (i.e., the first slash (/)) or precedes either the number (subfield $n)
+                              or the name (subfield $p) of a part/section of a work. Note that
+                              subfield $b is not repeated when more than one parallel title,
+                              subsequent title, and/or other title information are given in the field.
+         </div></div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Private eyeballs :<strong>$b</strong>a golden treasury of bad taste.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Conference on Industrial Development in the Arab
+                                             Countries :<strong>$b</strong>[proceedings].
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Lord Macaulay's essays ;<strong>$b</strong>and, Lays of ancient Rome.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Distribution of the principal kinds of soil :<strong>$b</strong>orders, suborders, and great groups : National Soil
+                                             Survey Classification of 1967.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Colorado heritage :<strong>$b</strong>the journal of the Colorado Historical
+                                          Society.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Ceramic forum international :<strong>$b</strong>CFI : Berichte der DKG.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Trade Union Fellowship Program :<strong>$b</strong>[announcement].
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Map of Nelson, Richmond, Motueka :<strong>$b</strong>scale 1:20000.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Rock mechanics :<strong>$b</strong>journal of the International Society for Rock Mechanics
+                                             = Felsmechanik.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Gentlemen's quarterly<strong>$h</strong>[microform] :<strong>$b</strong>GQ.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Focus on grammar<strong>$h</strong>[electronic resource] :<strong>$b</strong>basic level.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Love from Joy :<strong>$b</strong>letters from a farmer&#8217;s wife.<strong>$n</strong>Part III,<strong>$p</strong>1987-1995, At the bungalow.
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>International review of applied psychology :<strong>$b</strong>the journal of the International Association of Applied
+                                             Psychology = Revue internationale de psychologie appliqu&eacute;e.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">246</td>
+                  <td vAlign="top" colspan="9" align="left">11$aRevue internationale de psychologie
+                                          appliqu&eacute;e
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - Statement of responsibility, etc.</strong> <div class="description">First statement of responsibility and/or remaining data in the field that has not
+                              been subfielded by one of the other subfield codes.
+         </div>
+         <div class="description2"><div class="description">In records formulated according to ISBD principles, subfield $c
+                              contains all data following the first slash (/). Once a subfield $c has
+                              been recorded, no further subfield coding of field 245 is possible.
+         </div></div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>04</strong><strong>$a</strong>The plays of Oscar Wilde /<strong>$c</strong>Alan Bird.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>How to play chess /<strong>$c</strong>Kevin Wicker ; with a foreword by David Pritchard ;
+                                             illustrated by Karel Feuerstein.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>He who hunted birds in his father's village :<strong>$b</strong>the dimensions of a Haida myth /<strong>$c</strong>Gary Snyder ; preface by Nathaniel Tarn ; edited by
+                                             Donald Allen.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Island series.<strong>$p</strong>Penrhyn, bethymetry /<strong>$c</strong>compilation by K.B. Lewis, P. Larkin, and T.T. Rongo ;
+                                             bathymetric compilation and contouring by K.B. Lewis, T.T. Rongo and A.T.
+                                             Utanga ; drawn by S.C. Glover.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Project directory /<strong>$c</strong>TDC = R&eacute;pertoire des projets / CDT.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>The analysis of the law /<strong>$c</strong>Sir Matthew Hale. The students companion / Giles
+                                          Jacob.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Management report.<strong>$n</strong>Part I /<strong>$c</strong>U.S. Navy's Military Sealift Command.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>B&eacute;tail et volaille /<strong>$c</strong>Bureau des statistiques de 
+																		Qu&eacute;bec = Livestock and
+                                             poultry / Quebec Bureau of Statistics.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Concerto per piano n. 21, K 467<strong>$h</strong>[sound recording] /<strong>$c</strong>W.A. Mozart. L&#8217;assedio di Corinto. Ouverture / G.
+                                             Rossini.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$f - Inclusive dates</strong> <div class="description">Time period during which the entirety of the contents of the described materials
+                              were created.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Short-Harrison-Symmes family papers,<strong>$f</strong>1760-1878.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$k</strong>Letter,<strong>$f</strong>1901 March 6,<strong>$b</strong>Dublin, to Henrik Ibsen, Kristiana
+                                          [Oslo].
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$g - Bulk dates</strong> <div class="description">Time period during which the bulk of the described materials were created.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$k</strong>Records,<strong>$f</strong>1939-1973<strong>$g</strong>1965-1972.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$k</strong>Employment applications<strong>$g</strong>Jan.-Dec. 1985.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$h - Medium</strong> <div class="description">Medium designator used in the title statement. In records formulated according to
+                              ISBD principles, the medium designator appears in lowercase letters and is
+                              enclosed within brackets. It follows the title proper (subfields $a,
+                              $n, $p) and precedes the remainder of the title
+                              ($b), subsequent titles (in items lacking a collective title), and/or
+                              statement(s) of responsibility ($c).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>04</strong><strong>$a</strong>The Green bag<strong>$h</strong>[microform] :<strong>$b</strong>a useless but entertaining magazine for
+                                          lawyers.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>The New Lost City Ramblers with Cousin Emmy<strong>$h</strong>[sound recording].
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>The royal gazette<strong>$h</strong>[microform] /<strong>$c</strong>New Brunswick.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>[Geode]<strong>$h</strong>[realia].
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Daily report.<strong>$p</strong>People's Republic of China<strong>$h</strong>[microform] /<strong>$c</strong>FBIS.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>The printer's manual<strong>$h</strong>[microform] /<strong>$c</strong>by Caleb Stower ; with a new introduction by John
+                                             Bidwell. The printer's companion / by Edward Grattan ; with a new
+                                             introduction by Clinton Sisson.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>03</strong><strong>$a</strong>La mer<strong>$h</strong>[sound recording] ;<strong>$b</strong>Khamma ; Rhapsody for clarinet and orchestra /<strong>$c</strong>Claude Debussy.<br><em>[Item lacking a collective title]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$k - Form</strong> <div class="description">Term that is descriptive of the form of the described materials, determined by an
+                              examination of their physical character, subject of their intellectual content, or
+                              the order of information within them (e.g., daybooks, diaries, directories,
+                              journals, memoranda, etc.).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Four years at Yale :<strong>$k</strong>diaries,<strong>$f</strong>1903 Sept. 16-1907 Oct. 5.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>PL 17 Hearing Files<strong>$k</strong>Case Files<strong>$f</strong>1974<strong>$p</strong>District 6<strong>$h</strong>microfilm (jacketted in fiche).
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>The charity ball :<strong>$b</strong>a comedy in four acts :<strong>$k</strong>typescript,<strong>$f</strong>1889 /<strong>$c</strong>by David Belasco and Henry C. DeMille.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$n - Number of part/section of a work</strong> <div class="description"><em>Number</em> designation for a part/section of a work used in a title.
+                                 <em>Numbering</em> is defined as an indication of sequencing in any form, e.g.,
+                              Part 1, Supplement A, Book two. In music titles, the serial opus, or thematic
+                              index number are generally not contained in subfield $n.
+         </div>
+         <div class="description2"><div class="description">In records formulated according to ISBD principles, subfield $n data
+                              follows a period (.) unless the last word in the [preceding] field is an
+                              abbreviation, initial/letter, or data that ends with final punctuation. Multiple
+                              alternative numberings for a part/section are contained in a single subfield
+                              $n.
+         </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00$a</strong>More!<strong>$n</strong>3 /<strong>$c</strong>Herbert Puchta ... [et al.].
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Faust.<strong>$n</strong>Part one.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>The Bookman.<strong>$n</strong>Part B.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$p - Name of part/section of a work</strong> <div class="description"><em>Name</em> of a part/section of a work in a title.
+         </div>
+         <div class="description2"><div class="description">In records formulated according to ISBD principles, subfield $p data
+                              follows a period (.) when it is preceded by subfield $a, $b
+                              or another subfield $p. Subfield $p follows a comma (,) when
+                              it follows subfield $n.
+         </div></div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Advanced calculus.<strong>$p</strong>Student handbook.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Internationale Strassenkarte.<strong>$p</strong>Europe 1:2.5 Mio. :<strong>$b</strong>mit Register = International road map.<strong>$p</strong>Europe, 1:2.5 mio : with index /<strong>$c</strong>RV Reise- und Verkehrsverlag.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Historical statistics.<strong>$p</strong>Supplement /<strong>$c</strong>...
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Dissertation abstracts.<strong>$n</strong>A,<strong>$p</strong>The humanities and social sciences.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Deutsche Bibliographie.<strong>$p</strong>W&ouml;chentliches Verzeichnis.<strong>$n</strong>Reihe B,<strong>$p</strong>Beilage, Erscheinungen ausserhalb des
+                                             Verlagsbuchhandels :<strong>$b</strong>Amtsblatt der Deutschen Bibliothek.
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="description2">
+            <div class="description">Subfields $n and $p are repeated only when following a
+                                 subfield $a, $b, $n, or $p. If a title
+                                 recorded in subfield $c includes the name and/or number of a
+                                 part/section, those elements are not separately subfield coded.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Zentralblatt f&uuml;r Bakteriologie, Parasitenkunde,
+                                             Infektionskrankheiten und Hygiene.<strong>$n</strong>1. Abt. Originale.<strong>$n</strong>Reihe B,<strong>$p</strong>Hygiene, Krankenhaushygiene, Betriebshygiene,
+                                             pr&auml;ventive Medizin.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Annual report of the Minister of Supply and Service
+                                             Canada under the Corporations and Labour Unions Returns Act.<strong>$n</strong>Part II,<strong>$p</strong>Labour unions =<strong>$b</strong>Rapport annuel du ministre des Approvisionnements et
+                                             services Canada pr&eacute;sent&eacute; sous l'empire et des syndicates ouvriers.<strong>$n</strong>Partie II,<strong>$p</strong>Syndicats ouvriers.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$s - Version</strong> <div class="description">Name, code, or description of a copy of the described materials that was generated
+                              at different times or for different audiences.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Director's report of the Association of Insurance
+                                             Adjusters.<strong>$s</strong>Member release.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+   <div class="description2"><strong>Punctuation</strong> - Field 245 ends with a period, even when another mark of punctuation is present, unless
+                     the last word in the field is an abbreviation, initial/letter, or data that ends with
+                     final punctuation.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Cosmic search.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Marcel Marceau, ou, L'art du mime.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Welcome aboard! :<strong>$b</strong>your career as a flight attendant /<strong>$c</strong>Becky S. Bock, Cheryl A. Cage.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Annual report for fiscal year ...
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Who is it?
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Hearne Brothers official polyconic projection map of
+                                          Greater Knoxville with all of Knox County /<strong>$c</strong>Hearne Brothers, cartographers ; production staff, G. Lee
+                                          Graham ... [et al.].
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Ahab&#8217;s wife, or, The star-gazer :<strong>$b</strong>a novel /<strong>$c</strong>by Sena Jeter Naslund ; illustrations by Christopher
+                                          Wormell.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Rubber world<strong>$h</strong>[microform].
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Moby-Dick, or, The whale /<strong>$c</strong>by Herman Melville.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Welcome! :<strong>$b</strong>a biblical and practical guide to receiving new members /<strong>$c</strong>Ervin R. Stutzman ; foreword by Marlene
+                                       Kropf.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Who&#8217;s inventing what? :<strong>$b</strong>patents granted in the United States as reported in the
+                                          Official gazette of the United States Patent and Trademark
+                                       Office.
+                  </td>
+               </tr>
+            </table>
+         </div><br>See also subfield descriptions for punctuation information.      </div>
+      <div class="description2"><strong>Spacing</strong> - When adjacent initials appear in a title separated or not separated by periods, no
+                     spaces are recorded between the letters or periods.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>NBA in action.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>H.G. Wells and the world state.
+                  </td>
+               </tr>
+            </table>
+         </div><br>One space is used between preceding and succeeding initials if an abbreviation consists
+                     of more than a single letter.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Mercer County, Virginia (W. Va.) 1850
+                                       census.
+                  </td>
+               </tr>
+            </table>
+         </div><br>An ellipsis ( ... ) is recorded when it occurs after the first word of the title. A
+                     space is input before and after an ellipse occuring within the data. No space is input
+                     following an ellipsis when it is followed by a comma, period, exclamation point, or
+                     question mark.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>245</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Azul ... y poemas /<strong>$c</strong>Rub&eacute;n Dar&iacute;o.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>$d - Designation of section/part/series (SE) [OBSOLETE, 1979]</em><br><em>$e - Name of part/section/series (SE) [OBSOLETE, 1979]</em><br>Prior to the redefinitions of subfields $n and $p for
+                           <strong>numbered</strong> and <strong>named</strong> parts/sections of a work in
+                        other fields in 1979, these data were contained in subfields $d and
+                        $e in field 245.<br><em>$h - Medium</em><br>Prior to 1994, AACR2 cataloging rules required that the medium designator be recorded
+                        following other title information and all the title in works lacking a collective
+                        title. In Pre-1994 records, subfield $h generally follows subfield
+                        $b and even subfield $c in some cases.
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> 
+                  							&gt;&gt;  <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a>  &gt;&gt; <strong>245</strong></div> (09/01/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

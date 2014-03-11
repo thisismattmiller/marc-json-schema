@@ -1,0 +1,346 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 264:
+         Production, Publication, Distribution, Manufacture, and Copyright Notice (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd25x28x.html">25X-28X</a> &gt;&gt;
+               <strong>264</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>264</span> - <span>Production, Publication, Distribution, Manufacture, and Copyright Notice</span> (R)
+      </h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2011</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Sequence of statements</em><br /><span># - Not applicable/No information provided/Earliest</span><br /><span>2 - Intervening</span><br /><span>3 - Current/latest</span><br /><br /></td>
+            <td><em>Function of entity</em><br /><span>0 - Production</span><br /><span>1 - Publication</span><br /><span>2 - Distribution</span><br /><span>3 - Manufacture</span><br /><span>4 - Copyright notice date</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Place of production, publication, distribution, manufacture (R)</li>
+                  <li>$b - Name of producer, publisher, distributor, manufacturer (R)</li>
+                  <li>$c - Date of production, publication, distribution, manufacture, or copyright notice (R)</li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$3 - Materials specified (NR)</li>
+                  <li>$6 - Linkage (NR)</li>
+                  <li>$8 - Field link and sequence number (R)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Statement relating to the publication, printing, distribution, issue, release, or
+               production of a work.
+            </p>
+         </div>
+         <div>
+            <p>Information in field 264 is similar to information in field 260
+               (Publication, Distribution, etc. (Imprint)). Field 264 is useful for
+               cases where the content standard or institutional policies make a 
+               distinction between functions
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p></p>
+         </div>
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p><strong>First Indicator - Sequence of statements</strong></p>
+                  <div>
+                     <p></p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - Not applicable/No information provided/Earliest</span><div>
+                           <p>Used when a resource is first cataloged. Information given in value # is not
+                              changed (unless incorrect or earlier issues of a serial are later available
+                              with differing publishing information).
+                           </p>
+                           <p>Defined as âNo information providedâ for monographic works that are complete as
+                              first issued.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - Intervening</span><div>
+                           <p>Used when the place of production, publication, distribution, 
+                              manufacture or the name of the producer, publisher, distributor,
+                              manufacturer changes. Additional production, publication, distribution, 
+                              manufacture statements between the earliest and latest may also be recorded with first
+                              indicator value 2.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">3 - Current/latest</span><div>
+                           <p>Used when the name of the producer, publisher, distributor, manufacturer changes,
+                              or when the place of production, publication, distribution, manufacture associated
+                              with the earliest statement changes. The current statement may be
+                              added with first indicator value 3. Data given in a subsequent 
+                              statement can be changed to reflect the current information when only the
+                              earliest and most current data is needed.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p><strong>Second Indicator - Function of entity</strong></p>
+                  <div>
+                     <p></p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Production</span><div>
+                           <p>Field contains a statement relating to the inscription, fabrication, 
+                              construction, etc., of a resource in an unpublished form.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Publication</span><div>
+                           <p>Field contains a statement relating to the publication, release,
+                              or issuing of a resource.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - Distribution</span><div>
+                           <p>Field contains a statement relating to the distribution of a 
+                              resource.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">3 - Manufacture</span><div>
+                           <p>Field contains a statement relating to the printing, duplicating, casting,
+                              etc., of a resource in a published form.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">4 - Copyright notice date</span><div>
+                           <p>Field contains a date associated with a notice of protection under copyright or a similar 
+                              regime. Copyright dates include phonogram dates (i.e., dates associated with
+                              claims of protection for sound recordings).
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Place of production, publication, distribution, manufacture</strong> 
+                  </p>
+                  <div>
+                     <p></p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>264</strong></td>
+                           <td colspan="9"><strong>#1</strong><strong>$a</strong>Boston : <strong>$b</strong>[publisher not identified], <strong>$c</strong>2010.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>264</strong></td>
+                           <td colspan="9"><strong>#3</strong><strong>$a</strong>Cambridge : <strong>$b</strong>Kinsey Printing Company<em><span><br /><span>[On source: Published in Boston, 2010; Cambridge -- Kinsey Printing Company; 
+                                       No distribution information]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Name of producer, publisher, distributor, manufacturer</strong> 
+                  </p>
+                  <div>
+                     <p></p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>264</strong></td>
+                           <td colspan="9"><strong>#1</strong><strong>$a</strong>[Place of publication not identified] : <strong>$b</strong>ABC Publishers, <strong>$c</strong>2009.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>264</strong></td>
+                           <td colspan="9"><strong>#2</strong><strong>$a</strong>Seattle : <strong>$b</strong>Iverson Company<em><span><br /><span>[On source: ABC Publishers, 2009; distributed by Iverson Company, Seattle]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$c - Date of production, publication, distribution, manufacture, or copyright notice</strong> 
+                  </p>
+                  <div>
+                     <p></p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>264</strong></td>
+                           <td colspan="9"><strong>#4</strong><strong>$c</strong>Â©2002
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>264</strong></td>
+                           <td colspan="9"><strong>#4</strong><strong>$c</strong>â1983
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>264</strong></td>
+                           <td colspan="9"><strong>#4</strong><strong>$c</strong>copyright 2005
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$3 - Materials specified</strong> 
+                  </p>
+                  <div>
+                     <p>Information to differentiate the multiple statements of the described materials to
+                        which the field applies.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Spacing - </strong>No spaces are used between letters of initials, including adjacent initials in personal
+               names.
+            </p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>264</strong></td>
+                     <td colspan="9"><strong>#1</strong><strong>$a</strong>Columbia, S.C. :<strong>$b</strong>H.W. Williams Co.,<strong>$c</strong>1982.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <p>One space is used between two or more distinct initialisms (or sets of initials),
+               acronyms, or abbreviations appearing in juxtaposition.
+            </p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>264</strong></td>
+                     <td colspan="9"><strong>#1</strong><strong>$a</strong>Washington :<strong>$b</strong>U.S. G.P.O.,<strong>$c</strong>1981-
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="historyField">
+            <div><em>Field 264 - Production, Publication, Distribution, Manufacture, 
+                  and Copyright Notice [NEW, 2011]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd25x28x.html">25X-28X</a> &gt;&gt;
+               <strong>264</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/01/2011)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

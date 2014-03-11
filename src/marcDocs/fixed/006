@@ -1,0 +1,280 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 006:  Fixed-Length Data Elements-Additional Material Characteristics
+         					 (Network Development and MARC Standards Office, Library of
+         					Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the fixed-length data elements-additional material (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-left:6em; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {margin-left:4em;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> 
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <strong>006</strong></div>
+      <hr><a name="skip_menu"></a><h1>006 -  Fixed-Length Data Elements-Additional Material Characteristics (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">February 2010</div>
+      <hr><strong>Indicators and Subfield Codes</strong><div class="description">Field has no indicators or subfield codes; the data elements are positionally defined
+         				by form of material. Forms of material are listed in the same order that they appear
+         				in field 008 (Fixed-Length Data Elements). Refer to the corresponding positions
+         				(18-34) in field 008 for descriptions of field 006 character positions 01-17.
+      </div>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><p><strong>Character Positions</strong><br>
+                <em>Books</em><br>
+              00 - Form of material <br>
+              01-04 - Illustrations <br>
+              05 - Target audience <br>
+              06 - Form of item <br>
+              07-10 - Nature of contents <br>
+              11 - Government publication <br>
+              12 - Conference publication <br>
+              13 - Festschrift <br>
+              14 - Index <br>
+              15 - Undefined <br>
+              16 - Literary form <br>
+              17 - Biography <br>
+              <br>
+                <em>Computer files/Electronic resources</em><br>
+              00 - Form of material <br>
+              01-04 - Undefined <br>
+              05 - Target audience <br>
+              06 - Form of item<br>
+              07-08 - Undefined <br>
+              09 - Type of computer file <br>
+              10 - Undefined <br>
+              11 - Government publication <br>
+              12-17 - Undefined <br>
+              <br>
+                <em>Maps</em><br>
+              00 - Form of material <br>
+              01-04 - Relief <br>
+              05-06 - Projection <br>
+              07 - Undefined <br>
+              08 - Type of cartographic material <br>
+              09-10 - Undefined <br>
+              11 - Government publication <br>
+              12 - Form of item <br>
+              13 - Undefined <br>
+              14 - Index <br>
+              15 - Undefined <br>
+              16-17 - Special format characteristics <br>
+              <br>
+                <em>Mixed materials</em><br>
+              00 - Form of material <br>
+              01-05 - Undefined <br>
+              06 - Form of item <br>
+              07-17 - Undefined <br>
+              </p>
+              </td>
+            <td width="45%"><em><br>
+            Music</em><br>
+           00 - Form of material <br>01-02 - Form of composition <br>03 - Format of music <br>04 - Music parts <br>05 - Target audience <br>06 - Form of item <br>07-12 - Accompanying matter <br>13-14 - Literary text for sound recordings <br>15 - Undefined <br>16 - Transposition and arrangement <br>17 - Undefined <br><br><em>Continuing resources</em><br>00 - Form of material <br>01 - Frequency <br>02 - Regularity <br>03 - Undefined <br>04 - Type of continuing resource <br>05 - Form of original item <br>06 - Form of item <br>07 - Nature of entire work <br>08-10 - Nature of contents <br>11 - Government publication <br>12 - Conference publication <br>13-15 - Undefined <br>16 - Original alphabet or script of title <br>17 - Entry convention <br><br><em>Visual materials</em><br>00 - Form of material <br>01-03 - Running time <br>04 - Undefined <br>05 - Target audience <br>06-10 - Undefined <br>11 - Government publication <br>12 - Form of item <br>13-15 - Undefined <br>16 - Type of visual material <br>17 - Technique <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Eighteen character positions (00-17) that provide for coding information about
+         				special aspects of the item being cataloged that cannot be coded in field 008
+         				(Fixed-Length Data Elements). It is used in cases when an item has multiple
+         				characteristics (e.g., printed material with an accompanying cassette or a map that
+         				is issued serially) and to record the coded serial aspects of nontextual continuing
+         				resources.
+      </p>
+      <p>It is also used to record the coded computer file aspects of electronic items coded
+         				in Leader/06 as something other than code m. The fixed-length data elements defined
+         				for field 006, like the corresponding field 008 data elements, are potentially
+         				useful for retrieval and data management purposes.
+      </p>
+      <p>Field has a generic tree structure, whereby the code given in 006/00 (Form of
+         				material) determines the data elements defined for subsequent character positions.
+         				Except for code s (Serial/Integrating resource), the codes in field 006/00
+         				correspond to those in Leader/06 (Type of record). For each occurrence of field 006,
+         				the codes defined for character positions 01-17 will be the same as those defined in
+         				the corresponding field 008, character positions 18-34. Configurations of field 006
+         				are given in the following order: books, computer files/electronic resources, maps,
+         				music, continuing resources, visual materials, and mixed materials.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <p>Data elements in field 006 are positionally defined. Character position 00 contains a
+         				code that identifies a form of material. The fill character (|) is not allowed in
+         				this position. The fill character may be used in any other character position when
+         				the cataloging agency makes no attempt to code the position.
+      </p>
+      <p>Only character position 00 is described in this section. The other character
+         				positions are described in the corresponding field 008 (Fixed-Length Data Elements)
+         				position descriptions. In all cases, field 006 positions 01-17 relate to positions
+         				18-34 in one of the field 008 configurations. The relationship between field 006/00
+         				(Form of material) codes and field 008 configurations is indicated below.
+      </p>
+      <div class="table">
+         <table>
+            <tr>
+               <td width="403" align="left" valign="top"><strong>Field 006/00 - Form of material</strong></td>
+               <td width="274" align="left" valign="top"><strong>Field 008/18-34 configuration</strong></td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">a - Language material</td>
+               <td valign="top" align="left">Books</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">c - Notated music</td>
+               <td valign="top" align="left">Music</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">d - Manuscript notated music</td>
+               <td valign="top" align="left">Music</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">e - Cartographic material</td>
+               <td valign="top" align="left">Maps</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">f - Manuscript cartographic material</td>
+               <td valign="top" align="left">Maps</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">g - Projected medium</td>
+               <td valign="top" align="left">Visual Materials</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">i - Nonmusical sound recording</td>
+               <td valign="top" align="left">Music</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">j - Musical sound recording</td>
+               <td valign="top" align="left">Music</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">k - Two-dimensional nonprojectable graphic</td>
+               <td valign="top" align="left">Visual Materials</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">m - Computer file/Electronic resource</td>
+               <td valign="top" align="left">Computer Files</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">o - Kit</td>
+               <td valign="top" align="left">Visual Materials</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">p - Mixed material</td>
+               <td valign="top" align="left">Mixed Materials</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">r - Three-dimensional artifact or naturally occurring object</td>
+               <td valign="top" align="left">Visual Materials</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">s - Serial/Integrating resource</td>
+               <td valign="top" align="left">Continuing Resources</td>
+            </tr>
+            <tr>
+               <td valign="top" align="left">t - Manuscript language material</td>
+               <td valign="top" align="left">Books</td>
+            </tr>
+         </table>
+      </div>
+      <h4><span class="box">&#9632;</span><strong>CODES FOR 006/00</strong></h4>
+      <div class="characterposition">
+        <div class="charactervalue"><strong>a - Language material</strong> <div class="description">Coded data elements relating to nonserial language material.</div>
+        </div>
+         <div class="charactervalue"><strong>c - Notated music</strong> <div class="description">Coded data elements relating to notated music.</div>
+         </div>
+         <div class="charactervalue"><strong>d - Manuscript notated music</strong> <div class="description">Coded data elements relating to manuscript notated music.</div>
+         </div>
+         <div class="charactervalue"><strong>e - Cartographic material</strong> <div class="description">Coded data elements relating to nonmanuscript cartographic material.</div>
+         </div>
+         <div class="charactervalue"><strong>f - Manuscript cartographic material</strong> <div class="description">Coded data elements relating to manuscript cartographic material.</div>
+         </div>
+         <div class="charactervalue"><strong>g - Projected medium</strong> <div class="description">Coded data elements relating to a projected medium.</div>
+         </div>
+         <div class="charactervalue"><strong>i - Nonmusical sound recording</strong> <div class="description">Coded data elements relating to a nonmusical sound recording.</div>
+         </div>
+         <div class="charactervalue"><strong>j - Musical sound recording</strong> <div class="description">Coded data elements relating to a musical sound recording.</div>
+         </div>
+         <div class="charactervalue"><strong>k - Two-dimensional nonprojectable graphic</strong> <div class="description">Coded data elements relating to a two-dimensional nonprojectable
+               						graphic.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>m - Computer file/Electronic resource</strong> <div class="description">Coded data elements relating to either a computer file or an electronic
+               							resource in form.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>o - Kit</strong> <div class="description">Coded data elements relating to a kit.</div>
+         </div>
+         <div class="charactervalue"><strong>p - Mixed material</strong> <div class="description">Coded data elements relating to mixed material.</div>
+         </div>
+         <div class="charactervalue"><strong>r - Three-dimensional artifact or naturally occurring object</strong> <div class="description">Coded data elements relating to a three-dimensional artifact or naturally
+               							occurring object.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>s - Serial/Integrating resource</strong> <div class="description">Coded data elements relating to the control aspects of a non-printed
+               							continuing resource. For serially-controlled printed language material,
+               							field 008 is used.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>t - Manuscript language material</strong> <div class="description">Coded data elements relating to manuscript language material.</div>
+         </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Capitalization</strong> - Alphabetic codes are input in lowercase.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small">
+         <p></p><em>Field 006 - Fixed-Length Data Elements-Additional Material Characteristics [NEW, 1995]</em><br>See Field 008 for history of character positions and values.
+            <br><p></p>In 2002, the Computer Files 006 field was renamed &#8220;Computer Files/Electronic
+               Resources.&#8221; The Serials 006 field was renamed &#8220;Continuing Resources.&#8221;<br>
+   </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <strong>006</strong></div> (03/05/2010) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

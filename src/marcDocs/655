@@ -1,0 +1,617 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>MARC 21 Format for Bibliographic Data: 655: Index Term-Genre/Form (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the index term-genre form (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a> &gt;&gt; <strong>655</strong></div>
+      <hr><a name="skip_menu"></a><h1>655 - Index Term-Genre/Form (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2007</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Type of heading</em><br># - Basic <br>0 - Faceted <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Thesaurus</em><br>0 - Library of Congress Subject Headings <br>1 - LC subject headings for children's literature <br>2 - Medical Subject Headings <br>3 - National Agricultural Library subject authority file <br>4 - Source not specified <br>5 - Canadian Subject Headings <br>6 - R&eacute;pertoire de vedettes-mati&egrave;re <br>7 - Source specified in subfield $2 <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Genre/form data or focus term (NR) <br>$b - Non-focus term (R) <br>$c - Facet/hierarchy designation (R) <br>$v - Form subdivision (R) <br>$x - General subdivision (R) <br>$y - Chronological subdivision (R) <br>$z - Geographic subdivision (R) <br></td>
+            <td colspan="1">$0 - Authority record control number (R)<br>
+           $2 - Source of term (NR) <br>$3 - Materials specified (NR) <br>$5 - Institution to which field applies (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Terms indicating the genre, form, and/or physical characteristics of the materials being
+                     described. A <em>genre term</em> designates the style or technique of the intellectual
+         content of textual materials or, for graphic materials, aspects such as vantage point,
+                     intended purpose, characteristics of the creator, publication status, or method of
+                     representation. A <em>form term</em> designates historically and functionally specific
+                     kinds of materials distinguished by their physical character, the subject of their
+                     intellectual content, or the order of information within them. <em>Physical
+                           characteristic</em> terms designate historically and functionally specific kinds of
+                     materials as distinguished by an examination of their physical character, subject of
+                     their intellectual content, or the order of information with them.
+      </p>
+      <p>Examples of genre terms for textual materials are: biographies, catechisms, essays,
+                     hymns, or reviews. Examples of form and physical characteristic terms are: daybooks,
+                     diaries, directories, journals, memoranda, questionnaires, syllabi, or time sheets.
+      </p>
+      <p>May contain terms constructed from a faceted vocabulary. For each term found in the
+                     field, an identification is given as to the facet/hierarchy in the thesaurus from which
+                     the term came. In addition, identification is given as to which term is the focus term
+                     of the expression.
+      </p>
+      <p>Standard published lists are used for the genre and form terms. The lists are identified
+                     either by the second indicator (Thesaurus) or by subfield $2 (Source of
+                     term).      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Type of heading</strong> <div class="description">Type of genre/form heading in the field.
+            <div class="indicatorvalue"><strong># - Basic</strong> <div class="description">Genre/form data is recorded in a single occurrence of subfield
+                                    $a.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Faceted</strong> <div class="description">Each genre/form term is recorded in a separate subfield $a or
+                                       $b. A subfield $c (Facet/hierarchy designation) precedes
+                                       each term in subfields $a and $b; it denotes the
+                                       facet/hierarchy of each term in a particular thesaurus.
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Thesaurus</strong> <div class="description">Subject heading system or thesaurus used in constructing the subject heading.
+            <div class="indicatorvalue"><strong>0 - Library of Congress Subject Headings</strong> <div class="description">Subject added entry conforms to and is appropriate for use in the <em>Library
+                                             of Congress Subject Headings</em> (LCSH) and the Name authority files that
+                                       are maintained by the Library of Congress.Conforms to <em>LCSH</em> is defined as:
+                                       <ul>
+                     <li class="nobullet">headings (or headings and subdivisions) found in the LC authority files
+                                                (including name authorities), or in the latest edition of <em>LCSH</em>,
+                                                including the latest microfiche, printed version, CD-ROM, and supplements;
+                     </li>
+                     <li class="nobullet">headings constructed following <em>AACR2</em>;
+                     </li>
+                     <li class="nobullet">headings found in the LC authority files, the latest edition of
+                                                <em>LCSH</em>, or constructed following <em>AACR2</em> to which is added a
+                                                free-floating or regular subdivision according to the rules stated in the
+                                                   <em>Subject Cataloging Manual: Subject Headings</em>, particularly
+                                                subdivisions listed in the pattern lists, and geographic subdivisions
+                                                formulated and applied according to the rules in the manual;
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - LC subject headings for children's literature</strong> <div class="description">Subject added entry conforms to the "AC Subject Headings" section of the
+                                          <em>Library of Congress Subject Headings</em> and is appropriate for use in
+                                       the LC Annotated Card Program.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Medical Subject Headings</strong> <div class="description">Subject added entry conforms to and is appropriate for use in the National
+                                       Library of Medicine authority files.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>3 - National Agricultural Library subject authority file</strong> <div class="description">Subject added entry conforms to and is appropriate for use in the National
+                                       Agricultural Library subject authority file.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>4 - Source not specified</strong> <div class="description">Subject added entry conforms to a controlled list that cannot be identified by
+                                       second indicator values 0-3, 5-6 or by a code in subfield $2.Field 653 (Index Term-Uncontrolled) is used to record terms that are not
+                                       derived from controlled subject heading lists.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>5 - Canadian Subject Headings</strong> <div class="description">Subject added entry conforms to and is appropriate for use in the <em>Canadian
+                                             Subject Headings</em> that is maintained by the Library and Archives
+                                    Canada.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>6 - R&eacute;pertoire de vedettes-mati&egrave;re</strong> <div class="description">Subject added entry conforms to the <em>R&eacute;pertoire de vedettes-mati&egrave;re</em>
+                                       that is maintained by the Biblioth&egrave;que de l'Universit&eacute; Laval.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>7 - Source specified in subfield $2</strong> <div class="description">Subject added entry conforms to a set of subject heading system/thesaurus
+                                       building rules. The identifying code is given in subfield $2.
+               </div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Genre/form data or focus term</strong> <div class="description">All genre, form, or physical characteristics data when the first indicator is #.
+                              For faceted headings (first indicator is value 0), it consists of the focus term.
+                              A focus term is the concrete thing forming the basis of the expression.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Bird's-eye views<strong>$y</strong>1874.<strong>$2</strong>gmgpc
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Cartoons<strong>$y</strong>1952.<strong>$2</strong>gmgpc
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Gampi fibers (Paper)<strong>$z</strong>Japan<strong>$y</strong>1955<strong>$2</strong>rbpap
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#2</strong><strong>$a</strong>Festschrift.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#2</strong><strong>$a</strong>Diaries.
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>07</strong><strong>$c</strong>k<strong>$b</strong>Laminated<strong>$c</strong>m<strong>$b</strong>marblewood<strong>$c</strong>v<strong>$a</strong>bust.<strong>$2</strong>aat
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Non-focus term</strong> <div class="description">Term other than that considered the focus in a faceted heading (first indicator is
+                              value 0).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>07</strong><strong>$c</strong>d<strong>$b</strong>Black<strong>$c</strong>f<strong>$b</strong>Hmong<strong>$c</strong>m<strong>$b</strong>cotton<strong>$c</strong>k<strong>$b</strong>courtship<strong>$c</strong>t<strong>$a</strong>balls.<strong>$2</strong>aat
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - Facet/hierarchy designation</strong> <div class="description">Facet/hierarchy for each term found in subfields $a and $b
+                              in faceted headings (first indicator is value 0). The designations differ,
+                              depending on the thesaurus used (as specified by the code found in subfield
+                              $2). The designations and their associated facets/hierarchies can be
+                              found in the thesaurus identified by subfield $2. Subfield
+                              $c always precedes the data to which it is associated.
+         </div>
+		 <div class="description">
+         <div class="description2"><em>See the examples under the descriptions of subfields $a and
+                                    $b.</em></div>
+      </div></div>
+      <div class="subfield"><strong>$v - Form subdivision</strong> <div class="description">Form subdivision that designates a specific kind or genre of material as defined
+                              by the thesaurus being used. Subfield $v is appropriate only when a
+                              form subject subdivision is added to a genre/form term.
+         </div>
+      </div>
+      <div class="subfield"><strong>$x - General subdivision</strong> <div class="description">Subject subdivision that is not more appropriately contained in subfield
+                              $v (Form subdivision), subfield $y (Chronological
+                              subdivision), or subfield $z (Geographic subdivision). Subfield
+                              $x is appropriate only when a topical subdivision is added to a term
+                              with a first indicator of # (Basic).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Dictionaries<strong>$x</strong>French<strong>$y</strong>18th century.<strong>$2</strong>rbgenr
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Photoprints<strong>$x</strong>Color<strong>$z</strong>Panama Canal Zone<strong>$y</strong>1900-1950.<strong>$2</strong>gmgpc
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$y - Chronological subdivision</strong> <div class="description">Subject subdivision that represents a period of time. Subfield $y is
+                              appropriate only when a chronological subject subdivision is added to a term.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Competition drawings<strong>$y</strong>1984.<strong>$2</strong>gmgpc
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$z - Geographic subdivision</strong> <div class="description">Geographic subject subdivision. Subfield $z is appropriate only when a
+                              geographic subject subdivision is added to a term.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Hymnals<strong>$z</strong>Massachusetts<strong>$y</strong>18th century.<strong>$2</strong>rbgenr
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Signing patterns (Printing)<strong>$z</strong>Germany<strong>$y</strong>18th century.<strong>$2</strong>rbpri
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+               <div class="subfield"><strong>$0 - Authority record control number</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                          Subfields</a></em>.
+            </div>
+         </div>
+      
+      <div class="subfield"><strong>$2 - Source of term</strong> <div class="description">MARC code that identifies the source list from which the index term was assigned.
+                              It is used only when the second indicator position contains value 7 (Source
+                              specified in subfield $2). Code from: <em><a href="http://www.loc.gov/standards/sourcelist/genre-form.html">Genre/Form Code and Term Source Codes</a></em>.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Emblem books<strong>$z</strong>Germany<strong>$y</strong>17th century.<strong>$2</strong>rbgenr
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Lithographs<strong>$z</strong>Germany<strong>$y</strong>1902.<strong>$2</strong>gmgpc
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$3 - Materials specified</strong> <div class="description">Part of the described materials to which the field applies.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$3</strong>Municipal Fire Station records<strong>$a</strong>Fire reports<strong>$z</strong>Atlanta, Georgia<strong>$y</strong>1978.<strong>$2</strong>[thesaurus code]
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$5 - Institution to which field applies</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Annotations (Provenance)<strong>$z</strong>Sweden<strong>$y</strong>18th century.<strong>$2</strong>rbprov<strong>$5</strong>MH-H
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Subfield preceding subfield $2 in field 655 ends with a mark of punctuation
+                     or a closing parenthesis.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Diaries<strong>$z</strong>Belgium.<strong>$2</strong> [thesaurus code] 
+                  </td>
+               </tr>
+            </table>
+         </div><br>Term followed by a subject subdivision does not end with a mark of punctuation unless
+                     the preceding term ends with an abbreviation, initial/letter, open date, or other data
+                     that end with a mark of punctuation.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Prayer books<strong>$z</strong>Rhode Island<strong>$y</strong>18th century.<strong>$2</strong> [thesaurus code] 
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Spacing</strong> - No spaces are used in initialisms, acronyms, or abbreviations.
+            </div>
+      <div class="description2"><strong>Subfield $y Imprint Date Data</strong> - Imprint date (i.e., the date found in 260$c) may be used in subfield
+                     $y of field 655. In subfield $y, the date data are recorded
+                     following <em>Library of Congress Rule Interpretations</em> 21.30M. Brackets are not
+                     used even though they may be present in 260$c. When the dates are preceded by
+                     alphabetic data in subfield $y, the first letter of the alphabetic data is
+                     capitalized, e.g., Not before [imprint date]; Not after [imprint date]; Ca. [imprint
+                     date].
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">260</td>
+                  <td vAlign="top" colspan="9" align="left">##$a [place of publication] :$b [publisher] ,$c[1885]</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Addresses<strong>$z</strong>Massachusetts<strong>$z</strong>Boston<strong>$y</strong>1885.<strong>$2</strong>rbgenr
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Display Constant</strong>
+        <div class="table">
+            <table width="724">
+               <tr>
+                  <td width="40" align="left" valign="top">-</td>
+                  <td width="672" align="left" valign="top"><em>[dash associated with the content of subfield $v,
+                                                      $x, $y, and $z]</em></td>
+               </tr>
+          </table>
+        </div>Dash (-) that precedes a subdivision in an extended genre/form heading is not carried in
+                     the MARC record. It may be system generated as a display constant associated with the
+                     content of subfields $v, $x, $y, and $z.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td width="100%">
+                     <div class="captiontext">Content designated field :</div>
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>655</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Agenda<strong>$x</strong>Weekly<strong>$y</strong>1980-1985.<strong>$2</strong> [thesaurus code] 
+              <tr>
+                        <td></td>
+                        <td>
+                           <div class="displaytext">Display example:&nbsp;</div>
+                        </td>
+              </tr>
+                     <tr>
+                        <td></td>
+                        <td>
+                           <div class="displaycontent">Agenda-Weekly-1980-1985. </div>
+                        </td>
+                     
+               </tr>
+            </table>
+         </div><br>In headings having a first indicator 0 (Faceted), the dash (-) that precedes any
+                     non-focus term that <em>follows</em> a focus term is not carried in the MARC record. It
+                     may be generated as a display constant associated with subfield $b.   </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small">Until field 755 (Added Entry-Physical Characteristics) was made obsolete in 1995,
+                     physical characteristics were recorded in field 755 instead of field 655.<br>
+                     <em><br>
+                     Indicator 1 - Type of heading [NEW, 1993]</em><br>
+                     <em>Indicator 2 - Source of term [REDEFINED, 2002]</em><br>
+                     <br>
+                     <em>$0 - Authority record control number [NEW, 2007]</em>
+   </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a> &gt;&gt; <strong>655</strong></div> (02/26/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

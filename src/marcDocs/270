@@ -1,0 +1,773 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 270: Address (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the address (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd25x28x.html">25X-28X</a> &gt;&gt; <strong>270</strong></div>
+      <hr><a name="skip_menu"></a><h1>270 - Address (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">February 1999</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Level</em><br># - No level specified <br>1 - Primary <br>2 - Secondary <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Type of address</em><br># - No type specified <br>0 - Mailing <br>7 - Type specified in subfield $i <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Address (R) <br>$b - City (NR) <br>$c - State or province (NR) <br>$d - Country (NR) <br>$e - Postal code (NR) <br>$f - Terms preceding attention name (NR) <br>$g - Attention name (NR) <br>$h - Attention position (NR) <br>$i - Type of address (NR) <br>$j - Specialized telephone number (R) <br>$k - Telephone number (R) <br></td>
+            <td colspan="1">$l - Fax number (R) <br>$m - Electronic mail address (R) <br>$n - TDD or TTY number (R) <br>$p - Contact person (R) <br>$q - Title of contact person (R) <br>$r - Hours (R) <br>$z - Public note (R) <br>$4 - Relator code (R) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>An address (as well as electronic access information such as email, telephone, fax, TTY,
+         etc. numbers) for contacts related to the content of the bibliographic item. Multiple
+         addresses, such as mailing addresses and addresses corresponding to the physical
+         location of an item or facilities, are recorded in separate occurrences of field
+                  270.
+      </p>
+      <p>For online resources, the addresses may apply to persons or agencies that are
+                     responsible for the general availability of the item.
+      </p>
+      <p>Addresses related to the publisher, manufacturer, or vendor of an item are recorded in
+                     field 260 (Publication, Distribution, Etc. (Imprint)) subfield $a (Place of
+                     publication, distribution, etc.), field 260 subfield$e (Place of
+                     manufacture), and field 037 (Source of Acquisition), respectively. Contacts related to
+                        <em>access</em> to an instance of an online resource at a particular electronic
+                     location are contained in field 856 (Electronic Location and access) subfield
+                     $m (Contact for access assistance).      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Level</strong> <div class="description">Used to distinguish primary and additional (secondary) addresses.
+            <div class="indicatorvalue"><strong># - No level specified</strong> </div>
+            <div class="indicatorvalue"><strong>1 - Primary</strong> <div class="description">Information relates to a primary address.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>St. Louis County Government Center, Room 212<strong>$b</strong>Clayton<strong>$c</strong>MO<strong>$e</strong>63143<strong>$k</strong>1-314-878-0238<strong>$p</strong>Marilyn Saunders
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Secondary</strong> <div class="description">Information relates to an address that is not the primary address.</div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Type of address</strong> <div class="description">Type of the address for cases when identification of the type is needed at the
+                              field level. At present, only one type of address is accommodated by a specific
+                              second indicator value. Other types may be indicated in subfield $i
+                              (Type of address).
+            <div class="indicatorvalue"><strong># - No type specified</strong> </div>
+            <div class="indicatorvalue"><strong>0 - Mailing</strong> </div>
+            <div class="indicatorvalue"><strong>7 - Type specified in subfield $i</strong> <div class="description">Address is other than a mailing address and that its type is identified in
+                                       subfield $i (Type of address).
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>27</strong><strong>$i</strong>U.S. business address<strong>$a</strong>Editorial Inca<strong>$a</strong>9610 SW 58th St.<strong>$b</strong>Miami<strong>$c</strong>FL<strong>$e</strong>33173
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Address</strong> <div class="description">All address information preceding the name of the city or town, except attention
+                              information which is recorded in subfields $f, $g, and
+                              $h. The subfield can also contain information indicating that no
+                              address information is available. Subfield $a is repeated to indicate
+                              separations of address information.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Gateway Publishing<strong>$a</strong>P.O. Box 786<strong>$b</strong>North Adams<strong>$c</strong>MA<strong>$e</strong>01247<strong>$k</strong>1- 413-664-6185<strong>$l</strong>1-413-664-9343<strong>$m</strong>info@prgguide.com<strong>$m</strong>Webmaster@internetsourcebook.com
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Hoover's, Inc.<strong>$a</strong>1033 La Posada Dr., Suite 250<strong>$b</strong>Austin<strong>$c</strong>TX<strong>$e</strong>78752<strong>$k</strong>1-512-374-4500<strong>$l</strong>1-512-374-4501<strong>$m</strong>info@hoovers.com
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>No address given/sin direcci&oacute;n
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - City</strong> <div class="description">Name of the city or town.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Claims Providers of America P.O. Box 395<strong>$b</strong>Esparto<strong>$c</strong>CA<strong>$e</strong>95627<strong>$k</strong>800-735-6660<strong>$l</strong>916-796-3631<strong>$m</strong>Info@claims.com
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - State or province</strong> <div class="description">Name of the state, province, or next larger jurisdiction, when this information is
+                              an integral part of the address.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>American National Standards Institute<strong>$a</strong>11 West 42 Street<strong>$b</strong>New York<strong>$c</strong>NY<strong>$e</strong>10036<strong>$k</strong>1-212-642-4900<strong>$l</strong>1-212-398-0023
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$d - Country</strong> <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>GaleNet<strong>$a</strong>835 Penobscot Bldg.<strong>$b</strong>Detroit<strong>$c</strong>MI<strong>$d</strong>U.S.<strong>$e</strong>48226-4094<strong>$m</strong>galenet@gale.com
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>International Atomic Energy Agency<strong>$a</strong>P.O. Box 100<strong>$a</strong>Wagramer Strasse 5,<strong>$e</strong>A-1400<strong>$b</strong>Vienna<strong>$d</strong>Austria<strong>$k</strong>+43-1-2600-0<strong>$l</strong>+43-1-2600-7<strong>$m</strong>officialmail@iaeo.org
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$e - Postal code</strong> <div class="description">Alphanumeric code assigned the postal delivery area by a national postal
+                           agency.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>University of Alaska<strong>$a</strong>707 A St.<strong>$b</strong>Anchorage<strong>$c</strong>AK<strong>$e</strong>99501<strong>$k</strong>1-901-279-4523
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Biblioth&egrave;que am&eacute;ricaine &agrave; Paris<strong>$a</strong>10, rue du G&eacute;n&eacute;ral Camou<strong>$b</strong>Paris<strong>$d</strong>France<strong>$e</strong>75007
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$f - Terms preceding attention name</strong> <div class="description">Term of address associated with the attention name (e.g., <em>General</em>,
+                                 <em>Dr.</em>) when the term precedes the name.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$f</strong>Dr.<strong>$g</strong>George Smith<strong>$h</strong>Director<strong>$a</strong>8899 South Lobo St.<strong>$b</strong>Vancouver<strong>$c</strong>BC<strong>$d</strong>Canada<strong>$e</strong>V2N 1Z5<strong>$j</strong>1-800-543-1234<strong>$k</strong>1-604-947-1255<strong>$l</strong>1-604-947-0505<strong>$m</strong>GSMITHBC
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$g - Attention name</strong> <div class="description">Attention name, e.g., the name of a person.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$g</strong>Evan Smith<strong>$h</strong>Webmaster<strong>$a</strong>National Association Headquarters<strong>$b</strong>Washington<strong>$c</strong>DC<strong>$m</strong>&lt;email address&gt;
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$g</strong>c/o M. Ballweg<strong>$a</strong>87 Woodward Ave., Staten Island<strong>$c</strong>NY<strong>$e</strong>10314<strong>$k</strong>1-718-761-5679
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$h - Attention position</strong> <div class="description">Position or terms of address associated with the attention name (e.g., <em>Chief,
+                                    M.D.</em>) when the information follows the name.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$h</strong>Executive Officer<strong>$a</strong>3701 Old Court Road, Suite 20<strong>$b</strong>Baltimore<strong>$c</strong>MD<strong>$e</strong>21208<strong>$k</strong>1-410-486-5515
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$i - Type of address</strong> <div class="description">One or more words denoting the kind of address found in the field (e.g.,
+                                 "<em>Billing</em>"). Subfield $i is the first subfield in the field,
+                              unless subfield $6 is present.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>17</strong><strong>$i</strong>Office:<strong>$a</strong>325 Spring St.<strong>$b</strong>New York<strong>$c</strong>NY<strong>$e</strong>10013
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>27</strong><strong>$i</strong>Billing address:<strong>$a</strong>Sears Credit<strong>$b</strong>7023 Albert Pick Rd.<strong>$c</strong>Greensboro<strong>$d</strong>NC<strong>$e</strong>27409<strong>$d</strong>USA<strong>$j</strong>1-800-347-8425
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$j - Specialized telephone number</strong> <div class="description">Important service number, as opposed to an administrative telephone number that is
+                              recorded in subfield $k. Examples of specialized telephone numbers
+                              include hotline numbers, toll-free numbers, emergency numbers, etc. If more than
+                              one specialized telephone number is associated with the address, each number is
+                              given in a separate subfield $j.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>OCLC Pacific<strong>$a</strong>9227 Haven Ave., Suite 260<strong>$b</strong>Rancho Cucamonga<strong>$c</strong>CA<strong>$e</strong>91730<strong>$j</strong>1-800-854-5753<strong>$k</strong>1-909-941-4220<strong>$l</strong>1-909-948-9803
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>P.O. Box 50007<strong>$b</strong>Pasadena<strong>$c</strong>CA<strong>$e</strong>91115<strong>$j</strong>1-213-681-2626 (24 hour hotline)
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$k - Telephone number</strong> <div class="description">Regular telephone number associated with the address and/or the public information
+                              contact person at that address. It can also contain information that no telephone
+                              number is available. If more than one telephone number is associated with the
+                              address and/or public information contact person, each number is given in a
+                              separate subfield $k.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Minnesota Center against Violence and Abuse<strong>$a</strong>386 McNeal Hall<strong>$a</strong>1985 Buford Ave.<strong>$a</strong>University of Minnesota<strong>$b</strong>Saint Paul<strong>$c</strong>MN<strong>$e</strong>55108<strong>$k</strong>1-612-624-0721<strong>$k</strong>1-800-646-2282 (In Minnesota)<strong>$l</strong>1-612-625-4288<strong>$m</strong>mincava@umn.edu
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Florence Bain Center<strong>$a</strong>5470 Beaverkill Road<strong>$b</strong>Columbia<strong>$c</strong>MD<strong>$k</strong>1-410-964-0415 (Eve)<strong>$k</strong>1-410-461-0275 (Day)
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>P.O. Box 74<strong>$a</strong>Staten Island<strong>$c</strong>NY<strong>$k</strong>no phone/sin tel&eacute;fono
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$l - Fax number</strong> <div class="description">Fax number associated with the address. If more than one fax number is associated
+                              with the address, each number is given in a separate subfield $l.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>InterNIC Information Services<strong>$b</strong>San Diego<strong>$c</strong>CA<strong>$k</strong>1-619-455-4600<strong>$l</strong>1-619-455-3900
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$m - Electronic mail address</strong> <div class="description">Electronic mail address associated with the address. If more than one electronic
+                              mail address is associated with the address, each number is given in a separate
+                              subfield $m.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Federation of Tax Administrators<strong>$a</strong>444 N. Capitol St., NW<strong>$b</strong>Washington<strong>$c</strong>DC<strong>$e</strong>20001<strong>$m</strong>webmaster@taxadmin.org
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Library of Congress<strong>$a</strong>Network Development and MARC Standards Office<strong>$b</strong>Washington<strong>$c</strong>DC<strong>$d</strong>U.S.<strong>$e</strong>20540-4402<strong>$l</strong>1-202-707-0115<strong>$m</strong>ndmso@loc.gov
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$n - TDD or TTY number</strong> <div class="description">TDD or a TTY number associated with the address. If there is both a TDD number and
+                              a TTY number (and/or more than one of each) associated with the address, each
+                              number is given in a separate subfield $n.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$k</strong>1-800-522-7116<strong>$n</strong>1-800-523-3494 (TTY)
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$p - Contact person</strong> <div class="description">Name of a contact person at the address. If more than one contact person is
+                              associated with the address, each name is given in a separate subfield
+                              $p. If the name of the person is the same name as the attention name
+                              found in subfield $g, the information is not repeated in subfield
+                              $p.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>School of Law, The University of Waikato<strong>$a</strong>Private Bag 3105<strong>$b</strong>Hamilton<strong>$d</strong>New Zealand<strong>$k</strong>64-7-856 2889 x6258<strong>$m</strong>douglas@liinz.org.nz<strong>$p</strong>DouglasDavey<strong>$q</strong>LIINZ site administrator
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>666 Broadway<strong>$b</strong>New York<strong>$c</strong>NY<strong>$e</strong>10012<strong>$j</strong>1-800-221-4602<strong>$k</strong>1-212-460-9330<strong>$p</strong>Donna M. Rosenthal
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$q - Title of contact person</strong> <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Hannah More Academy Center, 12035 Reisterstown Rd.<strong>$b</strong>Reisterstown<strong>$c</strong>MD<strong>$e</strong>21136<strong>$k</strong>1-410-887-1139<strong>$p</strong>Ian J. Forrest<strong>$q</strong>Bureau Chief
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$r - Hours</strong> <div class="description">Hours that access to the contact and/or telephone numbers is available. If the
+                              record is for a system or service, the hours it is available are recorded in field
+                              307 (Hours, Etc.). This subfield is only for the hours associated with address
+                              information in field 270. Days of the week and global time zone usually accompany
+                              the indication of hours.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>John Hopkins University<strong>$a</strong>5457 Twin Knolls Road<strong>$b</strong>Columbia<strong>$c</strong>MD<strong>$e</strong>21045<strong>$k</strong>+1-410-997-8045<strong>$r</strong>M-F 8:30am-5:00pm USA EST
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$z - Public note</strong> <div class="description">Note relating to the address information contained in field 270. The note is
+                              written in a form that is adequate for public display.
+         </div>
+      </div>
+      <div class="subfield"><strong>$4 - Relator code</strong> <div class="description">MARC code that specifies the relationship between the address and the item
+                              described in the record. More than one relator code may be used if there is more
+                              than one relationship. Code from: <em><a href="http://www.loc.gov/marc/relators/relahome.html">MARC Code Lists for
+                                          Relators, Sources, Description Conventions</a></em>.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>OCLC Online Computer Library Center, Inc.<strong>$a</strong>6565 Frantz Road<strong>$b</strong>Dublin<strong>$c</strong>OH<strong>$e</strong>43017-3395<strong>$k</strong>1-614-764-6000<strong>$m</strong>oclc@oclc.org<strong>$4</strong>org
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Subfields do not end with a mark of punctuation unless an abbreviation, initial/letter,
+                     or other data that ends with a mark of punctuation is present.
+      </div>
+      <div class="description2"><strong>Style for Recording Address Information</strong> - In subfield $c standard abbreviations for states and provinces are preferred,
+                     such as the two-character U.S. Postal Service abbreviations for the American states and
+                     the Canada Post abbreviations for the Canadian provinces. In subfield $d, the
+                     full name of the country is preferred, with exceptions for widely recognized
+                     abbreviations, such as U.S. for the United States of America.
+      </div>
+   <div class="description2"><strong>Input Order of Telephone Numbers</strong> - If the address has a regular telephone number and a contact person at that address has a
+                     different telephone number, the telephone number associated with the address follows the
+                     address information (subfields $a-$e); the telephone number
+                     associated with an attention or contact person follows the name of the person with whom
+                     it is associated.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>1500 Greenmount Ave.<strong>$b</strong>Baltimore<strong>$c</strong>MD<strong>$e</strong>21202<strong>$k</strong>1-410-361-4669<strong>$p</strong>Donna Green<strong>$k</strong>1-410-361-4669<strong>$p</strong>Shirley Price<strong>$k</strong>1-410-361-4674
+                  </td>
+               </tr>
+            </table>
+         </div>If the telephone numbers of the address and the person are the same, the telephone
+                     number follows the address information.      </div>
+      <div class="description2"><strong>Style for Recording Telephone, Fax, etc. Numbers</strong> - In field 270, periods, spaces, and parentheses used to divide the portions of a number
+                     are replaced with hyphens. The numbers recorded in subfields $j,
+                     $k, $l, and $n are recorded as follows:
+         <div class="table">
+            <table>
+               <tr>
+                  <td width="520" align="left" valign="top">&lt;country code&gt;-&lt;area/city
+                                                code&gt;-&lt;exchange/line number&gt;                  </td>
+               </tr>
+            </table>
+         </div>Exchange/line number portion often includes internal separators which are replaced by
+                     hyphens. If an extension is also given, it is appended to the telephone number preceded
+                     by a space and " <em>x</em>".
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>BOCA International<strong>$b</strong>Evanston<strong>$c</strong>IL<strong>$k</strong>1-708-799-2300 x111<br><em>[Telephone number includes the country code "1" for U.S.A., the area code 708
+                                          for Evanston, Illinois, the local exchange 799, the subscriber line number 2300,
+                                          and the extension 111]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd25x28x.html">25X-28X</a> &gt;&gt; <strong>270</strong></div> (02/22/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

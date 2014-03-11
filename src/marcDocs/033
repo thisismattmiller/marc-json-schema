@@ -1,0 +1,760 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 033:
+         						Date/Time and Place of an Event (Network Development and MARC Standards
+         					Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="update11-stylesheet.css" rel="stylesheet" type="text/css">
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;
+         						<a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>033</strong></div>
+      <hr><a name="skip_menu"></a><h1>033 - Date/Time and Place of an Event (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">
+         					February 2010
+         				
+      </div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Type of date in subfield $a</em><br># - No date information <em></em><br>0 - Single date <em></em><br>1 - Multiple single dates <em></em><br>2 - Range of dates <em></em><br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Type of event</em><br># - No information provided <em></em><br>0 - Capture <em></em><br>1 - Broadcast <em></em><br>2 - Finding <em></em><br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Formatted date/time (R)<br>$b - Geographic classification area code (R)<br>$c - Geographic classification subarea code (R)<br>$p - Place of event (R)<br>$0 - Authority record control number (R)</span><br></td>
+            <td colspan="1">$2 - Source of term (R)<br>$3 - Materials specified (NR)<br>$6 - Linkage (NR)<br>$8 - Field link and sequence number (R)<br></td>
+         </tr>
+      </table>
+      <p></p>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Formatted date/time and/or coded place of creation, capture, recording, filming, 
+         execution, or broadcast associated with an event or the finding of a naturally 
+         occurring object. This information in textual form is contained in field 518 (Date/Time 
+                     and Place of an Event Note).
+      </p>
+      <p></p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Type of date in subfield $a</strong> <em></em><div class="description">Type of date information contained in subfield $a.
+            <div class="indicatorvalue"><strong># - No date information</strong> <em></em><div class="description">No date information is given and therefore, there is no subfield $a.</div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Single date</strong> <em></em><div class="description">Date information consists of a single date, regardless of whether its form is
+                                       year-month-day, year-month, or year alone.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Multiple single dates</strong> <em></em><div class="description">Date information consists of more than one single date.  Also used for two
+                                       consecutive dates.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Range of dates</strong> <em></em><div class="description">Used, for example, when the period of capture, execution, etc., spanned more
+                                       than two consecutive days, and the individual dates are unknown or too numerous
+                                       to be specified.
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Type of event</strong> <em></em><div class="description">Specifies the type of event information found in the field.
+            <div class="indicatorvalue"><strong># - No information provided</strong> <em></em></div>
+            <div class="indicatorvalue"><strong>0 - Capture</strong> <em></em><div class="description">Pertains to the recording of sound, the filming of visual images, the making or
+                                       producing of an item, or other form of creation of an item.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Broadcast</strong> <em></em><div class="description">Pertains to the broadcasting (i.e., transmission) or re-broadcasting of sound
+                                       or visual images.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Finding</strong> <em></em><div class="description">Pertains to the finding of a naturally occurring object.</div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Formatted date/time</strong> <em></em><div class="description">Seventeen characters, recorded in the pattern <em>yyyymmddhhmm+-hmm</em>, that
+                              indicate the actual or approximate date <em>(yyyymmdd)</em>/time <em>(hhmm)</em>
+                              of capture, finding, or broadcast and Time Differential Factor <em>(+-hhmm)</em>
+                              information. A hyphen (-) is used for unknown digits in the year/month/day
+                              segment. Within each segment, the data is right justified and any unused position
+                              contains a zero.
+         </div>
+         <div class="description2">
+            <div class="description">The first eight characters <em>yyyymmdd</em> (4 for the year, 2 for the month, and
+                              2 for the day) represent the date and are mandatory if the subfield is used. 
+            </div>
+         </div>
+         <div class="description2">
+            <div class="description">The following four characters, <em>hhmm</em> (2 for the hour, 2 for the minute),
+                              represent the time as hour and minute.
+            </div>
+         </div>
+         <div class="description2">
+            <div class="description">The last 5 character positions <em>+hhmm</em> give the Time Differential Factor
+                                 information. The Time Differential Factor (TDF) is preceded by a plus (+) or minus
+                                 (-) sign, indicating the hours and minutes the local time is ahead of or behind
+                                 Universal Time (Greenwich Mean Time), respectively. Local times throughout the
+                                 world vary from Universal Time by as much as -1200 (west of the Greenwich
+                                 Meridian) and by as much as +1300 hours (east of the Greenwich Meridian).
+            </div>
+         </div>
+         <div class="description2">
+            <div class="description">For the hour, in all cases, the 24-hour clock (00-23) is used. </div>
+         </div>
+         <div class="description2">
+            <div class="description">Multiple single date/times and date/times in a range associated with the same type
+                                 of event may be contained in repeating $a subfields, with earlier times preceding
+                                 later ones.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">518</td>
+                  <td vAlign="top" colspan="9" align="left">##$aSigned and dated 1858 in the medium.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>1858----<br><em>[An original or historical graphic item that was executed in 1858.]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>02</strong><strong>$a</strong>19750305<strong>$b</strong>4034<strong>$c</strong>R4<br><em>[A meteorite that was found on March 5, 1975, in Richmond, Texas.]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">518</td>
+                  <td vAlign="top" colspan="9" align="left">##$aBroadcast October 17, 1954 at 7:30 p.m.
+                                          (PST).
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>01</strong><strong>$a</strong>195410171930-0700<br><em>[A television program.]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">518</td>
+                  <td vAlign="top" colspan="9" align="left">##$aBroadcast September 7, 1987 at 7:00 p.m. (EST) and
+                                             subsequently rebroadcast October 1, 1987 at 8:30 p.m. (EST).
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>11</strong><strong>$a</strong>198709071900-0400<strong>$a</strong>198710012030-0400<br><em>[A radio program.]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">518</td>
+                  <td vAlign="top" colspan="9" align="left">##$aBroadcast every night at 8:00 p.m. (EST) from September
+                                             10 to September 14, 1978.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>21</strong><strong>$a</strong>197809102000-0400<strong>$a</strong>197809142000-0400<br><em>[A television mini-series.]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">518</td>
+                  <td vAlign="top" colspan="9" align="left">##$aBroadcast at 9:30 p.m. (EST) in 1962.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>01</strong><strong>$a</strong>1962----2130<br><em>[An episode of a television series with the specific broadcast date unknown,
+                                             but known to have been broadcast at 9:30 p.m. (EST).]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>01</strong><strong>$a</strong>198707281409+0530<strong>$b</strong>7654<strong>$c</strong>C2<br><em>[A radio program broadcast at 2 hours, 9 minutes and 23 seconds past noon on
+                                             July 28, 1987 in Calcutta, India (five and one-half hours different from the
+                                             Universal Time and east of the Greenwich Meridian).]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="description2">
+            <div class="description">If an exact date is not specified, an approximate date or span of dates is
+                                 recorded.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">518</td>
+                  <td vAlign="top" colspan="9" align="left">##$aRecorded ca. 1963.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>1963----
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Geographic classification area code</strong> <em></em><div class="description">Four to six character numeric code for the main geographic area associated with an
+                              item. The code consists of the appropriate classification number from the range
+                              G3190-G9980 derived from the <em>Library of Congress Classification--Class G</em>
+                              by dropping the letter G.
+         </div>
+         <div class="description2">
+            <div class="description">Library of Congress maintains the <em>Library of Congress Classification--Class
+                                    G</em>. Subfield $b may be repeated when more than one place is associated with an
+                                 item.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$b</strong>3960<br><em>[The place of recording is implied from title, "Folk songs of S.E.
+                                             Tennessee," and a general note, "Recorded at performers' homes."]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>19780916<strong>$b</strong>3964<strong>$c</strong>N2<br><em>[A videorecording that was filmed in Nashville, Tennessee on September 16,
+                                             1978.]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>20</strong><strong>$a</strong>197601--<strong>$a</strong>197606--<strong>$b</strong>6714<strong>$c</strong>R7<strong>$b</strong>6714<strong>$c</strong>V4<br><em>[A motion picture that was filmed on location in Rome and Venice from
+                                             January through June 1976.]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="description2">
+            <div class="description">If the place of recording is not specified, but is implied, the implied place is
+                                 given as the place of recording, etc.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">00$aFolk songs of S.E. Tennessee$h[sound recording].</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">518</td>
+                  <td vAlign="top" colspan="9" align="left">##$aRecorded at the performers' homes.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$b</strong>3960
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">518</td>
+                  <td vAlign="top" colspan="9" align="left">##$aRecorded from Dutch and German radio
+                                          broadcasts.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$b</strong>6000
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$b</strong>6080
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - Geographic classification subarea code</strong> <em></em><div class="description">Alphanumeric Cutter number for a geographic subarea, derived from the <em>Library
+                                    of Congress Classification-Class G</em> or expanded Cutter number lists for
+                              place names. Cutter numbers for places in the United States are also published in
+                                 <em>Geographic Cutters</em>. <em>Class G, Geographic Cutters,</em> and the
+                              expanded Cutter lists are maintained by the Library of Congress.
+         </div>
+         <div class="description2">
+            <div class="description">Each geographic subarea code is contained in a separate subfield $c. Subfield $c
+                                 may be repeated when more than one place is associated with an item; each subfield
+                                 $c must follow its associated subfield $b.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>19770115<strong>$a</strong>19770210<strong>$b</strong>3824<strong>$c</strong>P5<strong>$b</strong>3804<strong>$c</strong>N4
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div>
+         <div class="subfield"><strong>$p - Place of event</strong> <em></em><div class="description">Place of event.  May be in a controlled or uncontrolled form.</div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                     <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>200008--<strong>$b</strong>5754<strong>$c</strong>L7<strong>$p</strong>Abbey Road Studio 1, London
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <div>
+         <div class="subfield"><strong>$0 - Authority record control number</strong> <em></em><div class="description">Control number of the record for a controlled place term in subfield $p.</div>
+            <div class="description2">
+               <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+               </div>
+            </div>
+         </div>
+      </div>
+      <div>
+         <div class="subfield"><strong>$2 - Source of term</strong> <em></em><div class="description">MARC code that identifies the source of the term used in $p when it is from a controlled list.</div>
+            <div class="description2">
+               <div class="description">Code from: <em><a href="http://www.loc.gov/standards/sourcelist/subject.html">Subject Heading and Term Source Codes</a></em>.
+                                 
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$3 - Materials specified</strong> <em></em><div class="description">Part of the described materials to which the field applies.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$3</strong>Horse<strong>$a</strong>1925----<br><em>[A horse component of a sculpture group that was cast in 1925.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <em></em><div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> <em></em><div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <p></p>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Collection of works</strong> - If the record is of a collection of works and their dates and places of recording are
+                     not listed individually in field 518, all information about the date(s) and place(s) are
+                     recorded in a single field 033.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">518</td>
+                  <td vAlign="top" colspan="9" align="left">##$aRecorded 1976-1978 principally in the Broadcasting House
+                                          Concert Hall or the New Gallery, London.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>20</strong><strong>$a</strong>1976----<strong>$a</strong>1978----<strong>$b</strong>5754<strong>$c</strong>L7
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>More than one work</strong> - If the recording contains more than one work, and the individual works were captured on
+                     different dates and/or in different locations, the information for each work or group of
+                     works is recorded in a separate field 033.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">518</td>
+                  <td vAlign="top" colspan="9" align="left">##$aRecorded Oct. 1979 during performances at Amerika Haus,
+                                          Munich, and the Limmalthaus, Zurich.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>197910--<strong>$b</strong>6299<strong>$c</strong>M8
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>197910--<strong>$b</strong>6044<strong>$c</strong>Z8
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">518</td>
+                  <td vAlign="top" colspan="9" align="left">##$aRecorded Aug. 1-2 (Finzi) and Nov. 28-29 (Stanford) 1979
+                                          in Henry Wood Hall, London.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>19790801<strong>$a</strong>19790802<strong>$b</strong>5754<strong>$c</strong>L7
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>19791128<strong>$a</strong>19791129<strong>$b</strong>5754<strong>$c</strong>L7
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>19770115<strong>$a</strong>19770210<strong>$b</strong>3824<strong>$c</strong>P5<strong>$b</strong>3804<strong>$c</strong>N4
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>20</strong><strong>$a</strong>19710607<strong>$a</strong>19710614<strong>$b</strong>3804<strong>$c</strong>N4:2C3<br><em>[A videorecording containing two works, one of which was captured in
+                                          Philadelphia and New York on January 15 and February 10, 1977, and one of which
+                                          was filmed during the week of June 7, 1971 in New York at Carnegie Hall.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Dates</strong> - If an item is recorded or filmed on one date and broadcast on another date, the
+                     information for each event is recorded in a separate field 033.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>19870705
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>033</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>01</strong><strong>$a</strong>198709272000-0400<strong>$a</strong>198712292200-0500<br><em>[A videorecording that was filmed on July 5, 1987 and broadcast on television
+                                          on September 27, 1987 at 8:00 p.m. (EST). It was rebroadcast on December 29 at
+                                          10:00 p.m. (EST). The Time Differential Factor differs because one time involved
+                                          daylight saving time; the other standard time.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Punctuation</strong> - Period that usually precedes a Cutter number is omitted in subfield $c.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>Indicator 2 - Type of event</em><br>In 1989, the second indicator was given its present definition. Records created prior
+                        to this change may contain a # meaning <em>undefined</em>.
+         <div><em>$p - Place of event [NEW, 2010]</em></div>
+         <div><em>$0 - Record control number [NEW, 2010]</em></div>
+         <div><em>$2 - Source of term [NEW, 2010]</em></div>
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  							&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>033</strong></div> (03/05/2010) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

@@ -1,0 +1,1296 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 246: Varying Form of Title (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the varying form of title (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a> &gt;&gt; <strong>246</strong></div>
+      <hr><a name="skip_menu"></a><h1>246 - Varying Form of Title (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">February 1999</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Note/added entry controller</em><br>0 - Note, no added entry <br>1 - Note, added entry <br>2 - No note, no added entry <br>3 - No note, added entry <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Type of title</em><br># - No type specified <br>0 - Portion of title <br>1 - Parallel title <br>2 - Distinctive title <br>3 - Other title <br>4 - Cover title <br>5 - Added title page title <br>6 - Caption title <br>7 - Running title <br>8 - Spine title <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Title proper/short title (NR) <br>$b - Remainder of title (NR) <br>$f - Date or sequential designation (NR) <br>$g - Miscellaneous information (NR) <br>$h - Medium (NR) <br>$i - Display text (NR) <br></td>
+            <td colspan="1">$n - Number of part/section of a work (R) <br>$p - Name of part/section of a work (R) <br>$5 - Institution to which field applies (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Varying forms of the title appearing on different parts of an item or a portion of the
+         title proper, or an alternative form of the title when the form differs substantially
+         from the title statement in field 245 and if they contribute to the further
+                     identification of the item.
+      </p>
+      <p>For items including several works but lacking a collective title, field 246 is used only
+                     for titles related to the title selected as the title proper, usually the first work
+                     named in the chief source of information. Titles related to other works are recorded in
+                     field 740 (Added Entry-Uncontrolled Related/Analytical Title) or one of the other 7XX
+                     (Added Entry) fields.
+      </p>
+      <p>When displayed/printed as a note, varying forms of titles are usually preceded by an
+                     introductory term or phrase that is generated as a display constant based on the second
+                     indicator value.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Note/added entry controller</strong> <div class="description">Whether a note and/or an added entry is generated from the field.
+            <div class="indicatorvalue"><strong>0 - Note, no added entry</strong> <div class="description">Note but no title added entry is generated from the field.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$i</strong>Added title page title on some issues:<strong>$a</strong>Annual report
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Note, added entry</strong> <div class="description">Both a note and a title added entry are generated from the field.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>13</strong><strong>$a</strong>California State Assembly file
+                                                      analysis
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - No note, no added entry</strong> <div class="description">No note and no title added entry is generated from the field.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aALA bulletin.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>American Library Association
+                                                      bulletin
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>3 - No note, added entry</strong> <div class="description">No note but a title added entry is generated from the field.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aJournal
+                            for general philosophy of science =$bZeitschrift
+                            f&uuml;r allgemeine
+                                                      Wissenschaftstheorie
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>31</strong><strong>$a</strong>Zeitschrift f&uuml;r allgemeine
+                                                      Wissenschaftstheorie
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Type of title</strong> <div class="description">Type of title recorded in field 246. Used to generate a display constant that
+                              generally precedes titles when notes are generated from this field, i.e., when the
+                              first indicator is set to value 0 or 1.
+            <div class="indicatorvalue"><strong># - No type specified</strong> <div class="description">No information is provided in the indicator as to the type of title.
+                                       Information may be provided in subfield $i (Display text) when a
+                                       special display is needed, or the value is used for titles not handled by the
+                                       other values.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$a4 corners power review.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Four corners power review
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$i</strong>Panel title:<strong>$a</strong>Welcome to big Wyoming
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">10$aComputerized engineering index.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$i</strong>Also known as:<strong>$a</strong>COMPENDEX
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">10$aDevelopment of laser velocimeter system for flame
+                                                         studies.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$i</strong>Augmented title:<strong>$a</strong>Development of electro-optical laser velocimeter
+                                                         system for flame studies
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aAfrican semminar [sic] series.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$a</strong>African seminar series
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Portion of title</strong> <div class="description">Added entry may be generated by first indicator value 1. No note is
+                                    generated.Title given in field 246 is a portion of a title for which access or an added
+                                       entry is desired, but which does not require that a note be generated from this
+                                       field. Examples for which value 0 is used are the following.Portions of the title in field 245 such as part or section titles (subfield
+                                       $p); alternative titles (subfield $a); and portions of
+                                       the title proper/short title for which access is desirable
+                                       (subfield$a). The portion of the title is transcribed as it
+                                    appears.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aFresenius' Zeitschrift f&uuml;r analytische
+                                                      Chemie.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>30</strong><strong>$a</strong>Zeitschrift f&uuml;r analytische Chemie
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aAmerican Council on Education studies.$nSeries III,$pFinancial advisory services</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>30</strong><strong>$a</strong>Financial advisory services
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">04$aThe Berkley book of modern writing.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>30</strong><strong>$a</strong>Modern writing<br><em>[Title given prominence by typography.]</em></td>
+                        </tr>
+                     </table>
+                  </div>Other title information when field 245 subfield $b consists of an
+                                       initialism or full form of title rejected as title proper.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aLibrary resources market place :$bLRMP.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>LRMP
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Parallel title</strong> <div class="description">Parallel title that is contained in subfield $b of field 245. No
+                                       note is generated.Parallel title is a title in another language for which access or an added
+                                       entry is desired. When one or more parallel titles have been recorded in field
+                                       245, each parallel title is also recorded in a separate field 246.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aJapan report =$bNihon.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>11</strong><strong>$a</strong>Nihon
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aModern problems of pharmacopsychiatry =$bModerne Probleme der Pharmakopsychiatrie = Probl&egrave;mes
+                                                         actuels de pharmacopsychiatrie.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>31</strong><strong>$a</strong>Moderne Probleme der
+                                                      Pharmakopsychiatrie
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>31</strong><strong>$a</strong>Probl&egrave;mes actuels de
+                                                      pharmacopsychiatrie
+                           </td>
+                        </tr>
+                     </table>
+                  </div><em>Note:</em> When recording parallel titles, subfields $n and
+                                       $p are used when appropriate even though the parallel title in field
+                                       245 is not separately subfield coded.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>31</strong><strong>$a</strong>Archives for meteorology, geophysics, and
+                                                         bioclimatology.<strong>$n</strong>Serie A,<strong>$p</strong>Meteorology and geophysics
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Distinctive title</strong> <div class="description">Special title that appears in addition to the regular title on individual
+                                       issues of an item and by which the issue may be known. <em>Distinctive
+                                          title:</em> may be generated with the note for display. Distinctive titles are most commonly found on such items as annual reports,
+                                       yearbooks, or conference proceedings when an issue is dedicated to a particular
+                                       topic or theme. Distinctive titles should not be confused with individual
+                                       titles (e.g., analytics) within a series. The distinctive titles are recorded
+                                       in field 246 if the individual volume is likely to be known by the special
+                                       title. Subfield $f is always used with a distinctive title. 
+                                          <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aAnnual report /$cEconomic Development Administration.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>12</strong><strong>$a</strong>Creating jobs<strong>$f</strong>1980
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aCommodity year book.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>12</strong><strong>$a</strong>Commodities in industry<strong>$f</strong>1940
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>12</strong><strong>$a</strong>Commodity statistics<strong>$f</strong>1942
+                           </td>
+                        </tr>
+                     </table>
+                  </div><em>Note:</em> If many or all of the issues have distinctive titles, a field
+                                       500 (General Note) may be used instead of a 246 field for each title.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">500</td>
+                           <td vAlign="top" colspan="9" align="left">##$aSome issues have also distinctive
+                                                      title.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>3 - Other title</strong> <div class="description">Another title that appears on the piece that is not more appropriately
+                                       indicated by one of the other values. <em>Other title:</em> may be generated
+                                       with the note for display. Used when subfield $i is not being used to give specific text. Other
+                                       titles include masthead title, half-titles, binder's titles, colophon titles,
+                                       parallel titles not recorded in field 245, cover titles found in an inverted
+                                       format at the back of the publication, spelled out titles, etc. The display
+                                       constant
+                                       <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aAssembly file analysis$h[microform].</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>13</strong><strong>$a</strong>California State Assembly file
+                                                      analysis
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>13</strong><strong>$a</strong>California Legislature State Assembly
+                                                      analysis
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">10$aVier letzte Lieder$h[sound recording] ;$bDie heiligen drei K&ouml;nige aus Morgenland; Capriccio ;
+                                                         Mondscheinmusik ; Monolog der Gr&auml;fin /$cRichard Strauss.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$a</strong>4 letzte Lieder
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>30</strong><strong>$a</strong>Letzte Lieder
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">740</td>
+                           <td vAlign="top" colspan="9" align="left">02$aHeiligen drei K&ouml;nige aus Morgenland</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">740</td>
+                           <td vAlign="top" colspan="9" align="left">02$aCapriccio</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">740</td>
+                           <td vAlign="top" colspan="9" align="left">02$aMondscheinmusik</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">740</td>
+                           <td vAlign="top" colspan="9" align="left">02$aMonolog der Gr&auml;fin<br><em>[Field 740 used for titles of works other than the first]</em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>4 - Cover title</strong> <div class="description">Cover title that is printed on the original cover of a publication or lettered
+                                       or stamped on the publisher's binding. Used only when the cover is not the
+                                       chief source of the bibliographic description. <em>Cover title:</em> may be
+                                       generated with the note for display. Do not confuse with the <em>Title from cover</em> note which is used when the
+                                       cover substitutes as the chief source of information.
+                                       <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aMonthly checklist of state publications /$cthe Library of Congress, Processing Department,
+                                                         Exchange and Gift Division.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>State publications monthly checklist<strong>$f</strong>July 1976-
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aReport and financial accounts for the fifteen months
+                                                         ended 31st March ... /$cQantas Empire Airways Limited.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>Qantas annual report
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>5 - Added title page title</strong> <div class="description">Added title page title, usually a title in another language found on a title
+                                       page preceding or following the title page used as the chief source, or on an
+                                       inverted title page at the end of the publication. <em>Added title page
+                                          title:</em> may be generated with the note for display.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aSudan guide.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>15</strong><strong>$a</strong>Murshid al-Sudan<strong>$f</strong>1982-1983
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>6 - Caption title</strong> <div class="description">Caption title, printed at the head of the first page of text. <em>Caption
+                                             title:</em> may be generated with the note for display.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">10$aNewspaper geog. list$h[microform] /$cCarleton University.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>16</strong><strong>$a</strong>Newspaper index<strong>$f</strong>Jan. 1982-
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>7 - Running title</strong> <div class="description">Running title, printed on the top or bottom margin of each page of a
+                                       publication. <em>Running title:</em> may be generated with the note for
+                                       display.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aBangladesh Education Extension Centre
+                                                      bulletin.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$a</strong>BEEC bulletin
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>17</strong><strong>$a</strong>B.E.E.C. bulletin
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>8 - Spine title</strong> <div class="description">Publisher's title found on the spine of a publication. <em>Spine title:</em>
+                                       may be generated with the note for display.Title must be a publisher's title and not a library binder's title.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">10$aChartbook of federal programs on aging /$cIrma Schechter.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>18</strong><strong>$a</strong>Chartbook on aging
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="description">Detailed descriptions of subfields $a, $b, $h,
+                        $n, and $p including examples and most input conventions are
+                        given in the <em><a href="bd245.html">245 Title Statement</a></em> section. Other subfields are described
+                        below.
+      </div>
+      <div class="subfield"><strong>$f - Date or sequential designation</strong> <div class="description">Dates or volume and issue numbers that relate the variant title to the record when
+                              a note is generated from the field.
+         </div>
+         <div class="description2">
+            <div class="description">Subfield $f is <strong>not</strong> used when the second indicator
+                                 position contains value 0 or 1.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>State publications monthly checklist<strong>$f</strong>July 1976-
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$g - Miscellaneous information</strong> <div class="description">Miscellaneous information that is not more appropriately recorded in another
+                              subfield. Used for information such as the phrase <em>varies slightly</em>,
+                              enclosed in parentheses.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>04</strong><strong>$a</strong>&lt;variant title&gt;<strong>$g</strong>(varies slightly)
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$i - Display text</strong> <div class="description">Text to be displayed when none of the display constants associated with second
+                              indicator values 2-8 is adequate. When this subfield is present, the second
+                              indicator contains value # (No information provided). Subfield $i
+                              precedes subfield $a at the beginning of the field.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">00$aBulletin of atomic scientists.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$i</strong>At head of title:<strong>$a</strong>Science and public affairs<strong>$f</strong>Jan. 1970-Apr. 1974
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$i</strong>Title on container:<strong>$a</strong>New Brunswick royal gazette
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$i</strong>Alternate issues published with title:<strong>$a</strong>Chicago daily telegraph
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$5 - Institution to which field applies</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">00$a&lt;title of the original
+                                          issue&gt;
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">500</td>
+                  <td vAlign="top" colspan="9" align="left">##$aReissued as: &lt;title of reissue&gt;; LC has
+                                             reissue copies.$5DLC
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$a</strong>&lt;title of reissue&gt;;<strong>$5</strong>DLC<br><em>[In this example, field 500 contains the variant title note as the
+                                             information cannot easily be handled using subfields $i and
+                                             $a in field 246.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+   <div class="description2"><strong>Punctuation</strong> - Field 246 does not end with a mark of final punctuation unless the last word in the
+                     field is an abbreviation, initial/letter, or data that ends with a mark of punctuation.
+                     No punctuation precedes subfield $f unless the item preceding subfield
+                     $f is an abbreviation, initial/letter, or data that ends with a mark of
+                     punctuation.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>Weather bureau technical paper<strong>$f</strong>no. 3-
+                  </td>
+               </tr>
+            </table>
+         </div><br>See also subfield descriptions in the <em><a href="bd245.html">245 Title Statement</a></em> section for
+                     punctuation information.      </div>
+      <div class="description2"><strong>Initial Articles</strong> - Initial articles (e.g., The, La) are generally not recorded in field 246 unless the
+                     intent is to file on the article.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Los Angeles Police Department crime report
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Incomplete Dates/Volume Designations</strong> - When only the ending date/volume designation is recorded, space is left between the
+                     subfield code and the dash. The amount of space may be determined by the cataloging
+                     agency but is generally one to three blanks.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>05</strong><strong>$a</strong>Liste de publication<strong>$f</strong>-Oct. 1977
+                  </td>
+               </tr>
+            </table>
+         </div><br>Incomplete dates/volume designations may include only part of the beginning data and/or
+                     ending data. In this case space is left between the two.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>Rentabilidad<strong>$f</strong>19 -1976<br><em>[Spaces left to represent the missing digits of the beginning year.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Multiple Fields</strong> - Order of input of multiple 246 fields is customarily determined in part by the value in
+                     the second indicator position. Multiple Varying Form of Title fields are recorded in the
+                     following order:
+        <ul>
+            <li class="nobullet">246 fields with second indicator value 0</li>
+            <li class="nobullet">246 fields with second indicator value 1</li>
+            <li class="nobullet">Remaining 246 fields in the order in which notes are to be made</li>
+        </ul>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">00$aEducational &amp; industrial
+                                       television.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$a</strong>Educational and industrial television
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$a</strong>EITV
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>13</strong><strong>$a</strong>E-ITV<strong>$f</strong>Jan. 1981-May 1983
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>246</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>17</strong><strong>$a</strong>E&amp;ITV<strong>$f</strong>Jan. 1980-Apr. 1981
+                  </td>
+               </tr>
+            </table>
+         </div>
+   </div>
+      <div class="description2"><strong>Display Constants</strong> - Introductory terms and phrases such as cover title, etc. that are used with notes
+                     generated from this field are not carried in the MARC record. They may be generated as a
+                     display constant associated with the second indicator value.
+         <div class="table">
+            <table>
+               <tr>
+                  <td width="135" align="left" valign="top"><u>Second indicator</u></td>
+                  <td width="263" align="left" valign="top"><u>Display constant</u></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">#</td>
+                  <td valign="top" align="left"><em>[no display constant]</em></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">0</td>
+                  <td valign="top" align="left"><em>[no note generated]</em></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">1</td>
+                  <td valign="top" align="left"><em>[no note generated]</em></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">2</td>
+                  <td valign="top" align="left">Distinctive title:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">3</td>
+                  <td valign="top" align="left">Other title:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">4</td>
+                  <td valign="top" align="left">Cover title:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">5</td>
+                  <td valign="top" align="left">Added title page title:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">6</td>
+                  <td valign="top" align="left">Caption title:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">7</td>
+                  <td valign="top" align="left">Running title:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">8</td>
+                  <td valign="top" align="left">Spine title:</td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>$c - Remainder of title page transcription [OBSOLETE, 1991] [CAN/MARC only]</em><br>
+      <em>$d - Designation of section/part/series (SE) [OBSOLETE, 1979]</em><br><em>$e - Name of section/part/series (SE) [OBSOLETE, 1979]</em><br>Prior to the redefinition in 1979 of subfields $n and $p for
+                           <strong>numbered</strong> and <strong>named</strong> parts/sections/series of a
+                        work in other fields, these data were contained in subfields $d and
+                        $e in field 246.<br><em>$h - Medium (SE)</em><br>Prior to the definition of $g (Miscellaneous information) in 1979,
+                        subfield $h was defined for miscellaneous information.
+   </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a> &gt;&gt; <strong>246</strong></div> (02/22/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

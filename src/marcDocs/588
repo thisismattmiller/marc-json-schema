@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 588: Source of
+  Description Note (Network Development and MARC Standards
+  Office, Library of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link href="update10-stylesheet.css" rel="stylesheet" type=
+  "text/css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a>
+    &gt;&gt; <strong>588</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>588 - Source of Description Note (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Undefined</em><br>
+      # - Undefined<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Undefined</em><br>
+      # - Undefined<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Source of description note (NR)<br>
+      $5 - Institution to which field applies (NR)<br></td>
+
+      <td colspan="1">$6 - Linkage (NR)<br>
+      $8 - Field link and sequence number (R)<br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>Information used for tracking and controlling the metadata
+  contained in the record. It includes general and specific
+  source of description notes that are especially of interest to
+  other catalogers.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <ul>
+    <li>Both indicator positions are undefined; each contains a
+    blank (#).</li>
+  </ul>
+
+  <h4><span class="box">â </span> SUBFIELD CODES</h4>
+
+  <div class="subfield">
+    <strong>$a - Source of description note</strong>
+
+    <div class="description">
+      Note containing administrative information about the
+      record, such as source of description or latest issue
+      consulted.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>588</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>Cannot determine
+          the relationship to Bowling illustrated, also published
+          in New York, 1952-58.<strong>$5</strong>DLC</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>588</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>Publication to be
+          resumed by F&amp;W Publications, Inc.in Oct.
+          2009.<strong>$5</strong>EZB</td>
+        </tr>
+        
+        <tr>
+          <td vAlign="top" colspan="1" align="left">
+          <strong>588</strong></td>
+          
+          <td vAlign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>Description based on: Vol. 2, no. 2 (Feb. 1984); title from cover.
+          </td>
+        </tr>
+        
+        <tr>
+          <td vAlign="top" colspan="1" align="left">
+           <strong>588</strong></td>
+          
+          <td vAlign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>Latest issue consulted: 2001.
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$5 - Institution to which field applies</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A: <a href=
+      "http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+      Subfields</a>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$6 - Linkage</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A: <a href=
+      "http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+      Subfields</a>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$8 - Field link and sequence number</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A: <a href=
+      "http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+      Subfields</a>.
+    </div>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a>
+          &gt;&gt; <strong>588</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

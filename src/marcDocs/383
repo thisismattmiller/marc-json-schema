@@ -1,0 +1,297 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 383:
+         Numeric Designation of Musical Work (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt;
+               <strong>383</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>383</span> - <span>Numeric Designation of Musical Work</span> (R)
+      </h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2011</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Serial number (R)</li>
+                  <li>$b - Opus number (R)</li>
+                  <li>$c - Thematic index number (R)</li>
+                  <li>$d - Thematic index code (NR)</li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$e - Publisher associated with opus number (NR)</li>
+                  <li>$2 - Source (NR)</li>
+                  <li>$6 - Linkage (NR)</li>
+                  <li>$8 - Field link and sequence number (R)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>A serial number, opus number, or thematic index number assigned to a musical
+               				work by the composer, publisher, or a musicologist.  May be used to differentiate
+               				a musical work from another with the same title.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p></p>
+         </div>
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <ul>
+               <li>Both indicator positions are undefined; each contains a blank (#).</li>
+            </ul>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Serial number</strong> 
+                  </p>
+                  <div>
+                     <p>A number used if works with the same title and the same medium 
+                        						of performance are consecutively numbered in music reference sources.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>100</td>
+                           <td colspan="9">1#$aBeethoven, Ludwig van,$d1770-1827.</td>
+                        </tr>
+                        <tr>
+                           <td>240</td>
+                           <td colspan="9">10$aSonatas,$mpiano,$nno. 14, op. 27, no. 2,$rC# minor</td>
+                        </tr>
+                        <tr>
+                           <td>382</td>
+                           <td colspan="9">##$apiano</td>
+                        </tr>
+                        <tr>
+                           <td><strong>383</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>no. 14,<strong>$b</strong>op. 27, no. 2
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>384</td>
+                           <td colspan="9">##$aC# minor</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Opus number</strong> 
+                  </p>
+                  <div>
+                     <p>An identifying number of a musical composition sometimes followed 
+                        						by a number within the opus.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$c - Thematic index number</strong> 
+                  </p>
+                  <div>
+                     <p>A number assigned to a work in a recognized thematic index in the
+                        						case of certain composers.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>100</td>
+                           <td colspan="9">1#$aBach, Johann Sebastian,$d1685-1750.</td>
+                        </tr>
+                        <tr>
+                           <td>240</td>
+                           <td colspan="9">10$bKaffee-Kantate</td>
+                        </tr>
+                        <tr>
+                           <td><strong>383</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$c</strong>BWV 211
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$d - Thematic index code</strong> 
+                  </p>
+                  <div>
+                     <p>Code identifying thematic index represented by the number recorded in subfield $c.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>100</td>
+                           <td colspan="9">1#$aVivaldi, Antonio,$d1678-1741.$tCimento dell'armonia e dell'inventione.$nN. 1-4</td>
+                        </tr>
+                        <tr>
+                           <td><strong>383</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>op. 8, no. 1-4
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>383</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$c</strong>RV 269<strong>$c</strong>RV 315<strong>$c</strong>RV 293<strong>$c</strong>RV 297<strong>$d</strong>Ryom<strong>$2</strong>mlati
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>383</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$c</strong>F. I, 22-25<strong>$d</strong>Fanna<strong>$2</strong>mlati
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$e - Publisher associated with opus number</strong> 
+                  </p>
+                  <div>
+                     <p>Brief identification of publisher associated with number recorded in $b. 
+						Used only where different publishers assigned different opus numbers to the same 
+						work, or when different publishers assign the same opus number to different works.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>100</td>
+                           <td colspan="9">1#$aGyrowetz, Adalbert,$d1763-1850.$tSerenades,$mclarinets (2), horns (2), bassoon,$nop. 3 (AndrÃ©)</td>
+                        </tr>
+                        <tr>
+                           <td>400</td>
+                           <td colspan="9">1#$aGyrowetz, Adalbert,$d1763-1850.$tSerenades,$mclarinets (2), horns (2), bassoon,$nop. 5 (Hummel)</td>
+                        </tr>
+                        <tr>
+                           <td><strong>383</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>op. 3<strong>$e</strong>AndrÃ©
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>383</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>op. 5<strong>$e</strong>Hummel
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Source</strong> 
+                  </p>
+                  <div>
+                     <p>Specifies the source of the code  cited in 
+						subfield $d.</p>
+                  </div>
+                  <div>
+                     <p>Code from: <em><a href="http://www.loc.gov/standards/sourcelist/thematic-index.html">Thematic Index Code
+                              						Source Codes</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="historySubfield">
+            <div><em>$d - Thematic index code [NEW, 2011]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$e - Publisher associated with serial or opus number [NEW, 2011]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$2 - Source [NEW, 2011]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt;
+               <strong>383</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/01/2011)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

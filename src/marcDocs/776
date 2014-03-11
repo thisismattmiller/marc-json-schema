@@ -1,0 +1,431 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 776: Additional
+  Physical Form Entry (Network Development and MARC Standards
+  Office, Library of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the additional physical form entry (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link href="http://www.loc.gov/marc/marc-generic.css" rel=
+  "stylesheet" type="text/css">
+<style type="text/css">
+                                        body {margin-left: 2em; margin-right: 2em;} 
+                                        h1 {font-family:Arial, Helvetica, sans-serif;}
+                                        h3 {text-align:left;}
+                                        h4 {margin-top:.5em; margin-bottom:.5em;}
+                                        p {text-align:justify; margin-left:2em; margin-right:2em;}
+                                        .formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+                                        .datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+                                        .font_small {font-size:9pt;}
+                                        .fieldtoc {margin-left:2em;}
+                                        .box {font-family:ZapfDingbats;}
+                                        .description {text-align:justify; margin-left:2em;}
+                                        .description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+                                        .description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+                                        .indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .subfieldvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+                                        .charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+                                        .example {margin-left:4em;}
+                                        .changed {color: #FF0000;}
+                                        .captiontext {font-style:italic;}
+                                        .displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+                                        .displaycontent {text-align:left;}
+                                        .table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+                                        .summary {margin-left:2em;}
+                                        .summarytable {margin-left:4em;}
+</style>
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a>
+    &gt;&gt; <strong>776</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>776 - Additional Physical Form Entry (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Note controller</em><br>
+      0 - Display note<br>
+      1 - Do not display note<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Display constant controller</em><br>
+      # - Available in another form<br>
+      8 - No display constant generated<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Main entry heading (NR)<br>
+      $b - Edition (NR)<br>
+      $c - Qualifying information (NR)<br>
+      $d - Place, publisher, and date of publication (NR)<br>
+      $g - Related parts (R)<br>
+      $h - Physical description (NR)<br>
+      $i - Relationship information (R)<br>
+      $k - Series data for related item (R)<br>
+      $m - Material-specific details (NR)<br>
+      $n - Note (R)<br>
+      $o - Other item identifier (R)<br>
+      $r - Report number (R)<br>
+      $s - Uniform title (NR)<br></td>
+
+      <td colspan="1">$t - Title (NR)<br>
+      $u - Standard Technical Report Number (NR)<br>
+      $w - Record control number (R)<br>
+      $x - International Standard Serial Number (NR)<br>
+      $y - CODEN designation (NR)<br>
+      $z - International Standard Book Number (R)<br>
+      $4 - Relationship code (R)<br>
+      $6 - Linkage (NR)<br>
+      $7 - Control subfield (NR)<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/0 - Type of main entry heading<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/1 - Form of name<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/2 - Type of record<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/3 - Bibliographic level<br>
+      $8 - Field link and sequence number (R)<br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>Information concerning another available physical form of
+  the target item (horizontal relationship). When a note is
+  generated from this field, the introductory phrase
+  <em>Available in other form:</em> may be generated based on the
+  field tag for display.</p>
+
+  <p>Used to link multiple physical format records for the same
+  title.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <p>Description of the first indicator position and all subfield
+  codes, as well as input conventions except for display
+  constants, for field 776 are given in the <em><a href=
+  "bd76x78x.html">76X-78X Linking Entries-General
+  Information</a></em> section.</p>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <div class="indicator">
+    <strong>Second Indicator - Display constant
+    controller</strong>
+
+    <div class="description">
+      Controls the generation of a display constant preceding the
+      data in the linking entry field.
+
+      <div class="indicatorvalue">
+        <strong># - Available in another form</strong>
+
+        <div class="description">
+          Used to generate the display constant <em>Available in
+          other form:</em> (for non-serials) or <em>Issued in
+          other form:</em> (for serials).
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>8 - No display constant generated</strong>
+
+        <div class="description">
+          Information may be provided in subfield $i
+          (Relationship information)
+          when special introductory text is needed.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h4><span class="box">â </span> EXAMPLES</h4>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">245</td>
+
+        <td valign="top" colspan="9" align="left">00$aCollege
+        English.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">530</td>
+
+        <td valign="top" colspan="9" align="left">##$aAlso
+        available on microfilm from University Microfilms.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>776</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$t</strong>College
+        English<strong>$x</strong>0010-0994<strong>$w</strong>(DLC)sc#84007753#
+        <strong>$w</strong>(OCoLC)3546316</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>776</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$t</strong>College
+        English<strong>$x</strong>0010-0994<strong>$w</strong>(DLC)sc#84007753#
+        <strong>$w</strong>(OCoLC)3546316</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">245</td>
+
+        <td valign="top" colspan="9" align="left">00$aCollege
+        English$h[microform].</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>776</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$t</strong>College
+        English<strong>$x</strong>0010-0994<strong>$w</strong>(DLC)###41006180#
+        <strong>$w</strong>(OCoLC)1564053</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>776</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$t</strong>College
+        English<strong>$x</strong>0010-0994<strong>$w</strong>(DLC)###41006180#
+        <strong>$w</strong>(OCoLC)1564053</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">245</td>
+
+        <td valign="top" colspan="9" align="left">04$aThe
+        Americas.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">530</td>
+
+        <td valign="top" colspan="9" align="left">##$aAlso
+        available on microfilm from University Microfilms.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>776</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$t</strong>Americas<strong>$x</strong>0003-1615
+        <strong>$w</strong>(OCoLC)8370205</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>776</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$t</strong>Americas<strong>$x</strong>0003-1615
+        <strong>$w</strong>(OCoLC)8370205</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>776</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$c</strong>Original<strong>$w</strong>(DLC)###24020326#<br>
+
+        <em>[The item in hand is a reproduction. Field 776 gives
+        information as to the original record.]</em></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>776</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$c</strong>Original<strong>$w</strong>(DLC)###24020326#</td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a>
+          &gt;&gt; <strong>776</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

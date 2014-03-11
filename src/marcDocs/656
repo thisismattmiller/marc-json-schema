@@ -1,0 +1,314 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>MARC 21 Format for Bibliographic Data: 656: Index Term-Occupation (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the index term-occupation (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a> &gt;&gt; <strong>656</strong></div>
+      <hr><a name="skip_menu"></a><h1>656 - Index Term-Occupation (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2007</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Source of term</em><br>7 - Source specified in subfield $2 <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Occupation (NR) <br>$k - Form (NR) <br>$v - Form subdivision (R) <br>$x - General subdivision (R) <br>$y - Chronological subdivision (R) <br>$z - Geographic subdivision (R) <br></td>
+            <td colspan="1">
+              $0 - Authority record control number (R)<br>
+              $2 - Source of term (NR) <br>$3 - Materials specified (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Index term that is descriptive of the occupation (including avocation) reflected in the
+            contents of the described materials.
+      </p>
+      <p><strong>Not</strong> used to list the occupations of the creators of the described
+         materials, unless those occupations are significantly reflected in the materials
+         themselves or bear some relationship to the materials. Standard published lists are used
+                     for the occupational terms and the list is identified in subfield $2 (Source
+                     of term).      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
+            </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Source of term</strong> <div class="description">Contains value 7 which indicates that the source of the index term is contained in
+                              subfield $2.
+            </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Occupation</strong> <div class="description">Term specifying the occupation reflected in the contents of the described
+                              material.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>656</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Anthropologists.<strong>$2</strong>[thesaurus code]
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>656</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Educators.<strong>$2</strong>[thesaurus code]
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$k - Form</strong> <div class="description">Specific kinds of materials are distinguished by an examination of their physical
+                              character, subject of their intellectual content, or the order of information
+                              within them (e.g., daybooks, diaries, directories, journals, memoranda, etc.).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>656</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Migrant laborers.<strong>$k</strong>School district case files.<strong>$2</strong>[thesaurus code]
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$v - Form subdivision</strong> <div class="description">Form subdivision that designates a specific kind or genre of material as defined
+                              by the thesaurus being used. Subfield $v is appropriate only when a
+                              form subject subdivision is added to an index term for occupation.
+         </div>
+      </div>
+      <div class="subfield"><strong>$x - General subdivision</strong> <div class="description">Subject subdivision that is not more appropriately contained in subfield
+                              $v (Form subdivision), subfield $y (Chronological
+                              subdivision), or $z (Geographic subdivision). Subfield $x is
+                              appropriate only when a general topical subject subdivision is added to a
+                           term.
+         </div>
+      </div>
+      <div class="subfield"><strong>$y - Chronological subdivision</strong> <div class="description">Subject subdivision that represents a period of time. Subfield $y is
+                              appropriate only when a chronological subject subdivision is added to a term.
+         </div>
+      </div>
+      <div class="subfield"><strong>$z - Geographic subdivision</strong> <div class="description">Geographic subject subdivision. Subfield $z is appropriate only when a
+                              geographic subject subdivision is added to a term.
+         </div>
+      </div>
+      
+         <div class="subfield"><strong>$0 - Authority record control number</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                          Subfields</a></em>.
+            </div>
+         </div>
+      
+      <div class="subfield"><strong>$2 - Source of term</strong> <div class="description">MARC code that identifies the source list from which the index term was assigned.
+                              It is used only when the second indicator position contains value 7 (Source
+                              specified in subfield $2). Code from: <em><a href="http://www.loc.gov/standards/sourcelist/occupation.html">Occupation Term Source Codes</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$3 - Materials specified</strong> <div class="description">Part of the described materials to which the field applies.</div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Subfield preceding subfield $2 in field 656 ends with a mark of punctuation
+                     or a closing parenthesis.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>656</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Dentists.<strong>$2</strong> [thesaurus code] 
+                  </td>
+               </tr>
+            </table>
+         </div><br>Index term followed by a subject subdivision does not end with a mark of punctuation
+                     unless the preceding term ends with an abbreviation, initial/letter, open date, or other
+                     data that end with a mark of punctuation.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>656</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Chauffeurs<strong>$z</strong>France.<strong>$2</strong> [thesaurus code] 
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Spacing</strong> - No spaces are used 
+      in initialisms, acronyms, or abbreviations. 
+      </div>
+      <div class="description2"><strong>Display Constant</strong>
+        <div class="table">
+            <table width="690">
+               <tr>
+                  <td width="39" align="left" valign="top">-</td>
+                  <td width="639" align="left" valign="top"><em>[dash associated with the content of subfield $v,
+                                                      $x, $y, and $z]</em></td>
+               </tr>
+          </table>
+        </div>Dash ( - ) that precedes a subdivision in an extended subject heading is not carried in
+                     the MARC record. It may be system generated as a display constant associated with the
+                     content of subfield $v, $x, $y, and $z.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td width="100%">
+                     <div class="captiontext">Content designated field :</div>
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>656</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#7</strong><strong>$a</strong>Plastic surgeons<strong>$z</strong>Los Angeles (Calif.)<strong>$2</strong>[thesaurus code]
+              <tr>
+                        <td></td>
+                        <td>
+                           <div class="displaytext">Display example:&nbsp;</div>
+                        </td>
+              </tr>
+                     <tr>
+                        <td></td>
+                        <td>
+                           <div class="displaycontent">Plastic surgeons-Los Angeles (Calif.) </div>
+                        </td>
+                     
+               </tr>
+            </table>
+         </div>
+   </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small">
+         <em>$0 - Authority record control number [NEW, 2007]</em></div>
+               
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a> &gt;&gt; <strong>656</strong></div> (02/26/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

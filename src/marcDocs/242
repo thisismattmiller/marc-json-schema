@@ -1,0 +1,293 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 242: Translation of Title by Cataloging Agency (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the translation of title by cataloging agency (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a> &gt;&gt; <strong>242</strong></div>
+      <hr><a name="skip_menu"></a><h1>242 - Translation of Title by Cataloging Agency (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2004</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Title added entry</em><br>0 - No added entry <br>1 - Added entry <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Nonfiling characters</em><br>0 - No nonfiling characters <br>1-9 - Number of nonfiling characters <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Title (NR) <br>$b - Remainder of title (NR) <br>$c - Statement of responsibility, etc. (NR) <br>$h - Medium (NR) <br>$n - Number of part/section of a work (R)</td>
+            <td colspan="1">$p - Name of part/section of a work (R) <br>$y - Language code of translated title (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Translation of the title proper that is made by the cataloging agency when the
+         translated title does not appear as a parallel title on the item. For a note, the
+                     introductory phrase <em>Title translated:</em> may be generated based on the field tag
+                     for display.
+      </p>
+      <p>Translated titles which appear on the piece as a parallel title would be recorded in
+                     field 245 (Title Statement).      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Title added entry</strong> <div class="description">Whether an added entry is to be generated for the title.
+            <div class="indicatorvalue"><strong>0 - No added entry</strong> <div class="description">No title added entry is to be generated.</div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Added entry</strong> <div class="description">Title added entry is to be generated.</div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Nonfiling characters</strong> <div class="description">Number of character positions associated with a definite or indefinite article
+                              (e.g., Le, An) at the beginning of a title that are disregarded in sorting and
+                              filing processes.
+            <div class="indicatorvalue"><strong>0 - No nonfiling characters</strong> <div class="description">No initial article character positions are disregarded.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>242</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>World of art.<strong>$y</strong>eng
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>242</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Woman.<strong>$y</strong>eng
+                           </td>
+                        </tr>
+                     </table>
+                  </div>Diacritical marks or special characters at the beginning of a uniform title
+                                       field that does not begin with an initial article are not counted as nonfiling
+                                       characters.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1-9 - Number of nonfiling characters</strong> <div class="description">Title begins with a definite or indefinite article that is disregarded in
+                                       sorting and filing processes. Any diacritical mark, space or mark of
+                                       punctuation associated with the article and any space or mark of punctuation
+                                       preceding the first filing character after the article is included in the count
+                                       of nonfiling characters. Any diacritic, however, associated with the first
+                                       filing character is <u>not</u> included in the count of nonfiling
+                                    characters.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>242</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>04</strong><strong>$a</strong>The Arab East.<strong>$y</strong>eng
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="description">Descriptions of subfields $a, $b, $c, $h,
+                        $n, and $p are given in the description of <a href="bd245.html">field 245</a> (Title
+                        Statement).
+      </div>
+      <div class="subfield"><strong>$y - Language code of translated title</strong> <div class="description">Three-character MARC code for the language of the translated title.</div>
+         <div class="description2">
+            <div class="description">Code from: <em><a href="http://www.loc.gov/marc/languages/langhome.html">MARC Code List for
+                                             Languages</a></em>.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>242</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Land surveying and agriculture equipment.<strong>$y</strong>eng
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">00$aGeodezja i urzadzenia roline.</td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>242</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Annals of chemistry<strong>$n</strong>Series C,<strong>$p</strong>Organic chemistry and biochemistry.<strong>$y</strong>eng
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">00$aAnales de qu&iacute;mica.$nSerie C,$pQu&iacute;mica org&aacute;nica y bioqu&iacute;mica :$bpublicaci&oacute;n de la Real Sociedad Espanola de
+                                          Qu&iacute;mica.
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>242</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>The Mirror.<strong>$y</strong>eng
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">04$aDer Spiegel.</td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Last subfield preceding subfield $y in field 242 ends with a period. See also
+                     subfield descriptions in the <em><a href="bdx30.html">X30 Uniform Title-General Information</a></em> section for
+                     punctuation information.
+      </div>
+      <div class="description2"><strong>Display Constant</strong>
+        <div class="table">
+            <table>
+               <tr>
+                  <td valign="top" align="left"><em>Title translated:</em></td>
+               </tr>
+            </table>
+         </div>Legend <em>Title translated:</em> that customarily precedes the translation of the title
+                     is not carried in the MARC record. It may be system generated as a display constant
+                     associated with the field tag.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>$d - Designation of section (BK, AM, MP, MU, VM, SE) [OBSOLETE, 1979]</em><br><em>$e - Name of part/section (BK, AM, MP, MU, VM, SE) [OBSOLETE, 1979]</em><br>Prior to the redefinitions of subfields $n and $p for
+                           <strong>numbered</strong> and <strong>named</strong> parts/sections of a work in
+                        other fields in 1979, these data were contained in subfields $d and
+                        $e in field 242.
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a> &gt;&gt; <strong>242</strong></div> (02/22/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

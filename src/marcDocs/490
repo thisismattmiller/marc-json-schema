@@ -1,0 +1,1303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy, see www.w3.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 490: Series
+  Statement (Network Development and MARC Standards Office,
+  Library of Congress)</title>
+  <meta content="text/html; charset=utf-8" http-equiv=
+  "Content-Type">
+  <meta content=
+  "This field contains the (Network Development and MARC Standards Office, Library of Congress)"
+  name="description">
+  <meta content="marc, marc21, marc standards" name="keywords">
+  <meta content=
+  "Library of Congress Network Development and MARC Standards Office"
+  name="author">
+  <link type="text/css" rel="stylesheet" href=
+  "update10-stylesheet.css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd4xx.html">4XX</a>
+    &gt;&gt; <strong>490</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>490 - Series Statement (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Series tracing policy</em><br>
+      0 - Series not traced<br>
+      1 - Series traced<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Undefined</em><br>
+      # - Undefined<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td align="left" width="50%" valign="top"></td>
+
+      <td align="left" width="50%" valign="top"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Series statement (R)<br>
+      $l - Library of Congress call number (NR)<br>
+      $v - Volume/sequential designation (R)<br></td>
+
+      <td colspan="1">$x - International Standard Serial Number (R)<br>
+      $3 - Materials specified (NR)<br>
+      $6 - Linkage (NR)<br>
+      $8 - Field link and sequence number (R)<br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>Series statement for a series title.</p>
+
+  <p>Field 490 does not serve as a series added entry. When field
+  490 is used and a series added entry is desired, both the
+  series statement (field 490) and a corresponding series added
+  entry (fields 800-830) are recorded in the bibliographic
+  record.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <div class="indicator">
+    <strong>First Indicator - Series tracing policy</strong>
+
+    <div class="description">
+      Whether the series has no corresponding added entry (not
+      traced) or has a corresponding 800-830 series added entry
+      field.
+
+        <div class="indicatorvalue">
+        <strong>0 - Series not traced</strong>
+
+        <div class="description">
+          No series added entry is desired for the series.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td align="left" width="5%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="15%" valign="top"></td>
+              </tr>
+
+              <tr>
+                <td align="left" colspan="1" valign="top">
+                <strong>490</strong></td>
+
+                <td align="left" colspan="9" valign="top">
+                <strong>0#</strong><strong>$a</strong>Pelican
+                books<br>
+                <em>[No 800-830 field in record.]</em></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>1 - Series traced</strong>
+
+        <div class="description">
+          When value 1 is used, the appropriate field 800-830 is
+          included in the bibliographic record to provide the
+          series added entry.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td align="left" width="5%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="15%" valign="top"></td>
+              </tr>
+
+              <tr>
+                <td align="left" colspan="1" valign="top">
+                <strong>490</strong></td>
+
+                <td align="left" colspan="9" valign="top">
+                <strong>1#</strong><strong>$a</strong>Uniform
+                crime reports</td>
+              </tr>
+
+              <tr>
+                <td align="left" colspan="1" valign="top">
+                830</td>
+
+                <td align="left" colspan="9" valign="top">
+                #0$aUniform crime reports (Washington, D.C.)<br>
+                <em>[The established form of entry for the series
+                includes a parenthetical qualifier.]</em></td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td align="left" width="5%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="15%" valign="top"></td>
+              </tr>
+
+              <tr>
+                <td align="left" colspan="1" valign="top">
+                <strong>490</strong></td>
+
+                <td align="left" colspan="9" valign="top">
+                <strong>1#</strong><strong>$a</strong>Department
+                of the Army pamphlet
+                ;<strong>$v</strong>27-50</td>
+              </tr>
+
+              <tr>
+                <td align="left" colspan="1" valign="top">
+                830</td>
+
+                <td align="left" colspan="9" valign="top">#0$aDA
+                pam ;$v27-50.<br>
+                <em>[The established form of the series is
+                different from the series statement appearing on
+                the item.]</em></td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td align="left" width="5%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="15%" valign="top"></td>
+              </tr>
+
+              <tr>
+                <td align="left" colspan="1" valign="top">
+                <strong>490</strong></td>
+
+                <td align="left" colspan="9" valign="top">
+                <strong>1#</strong><strong>$3</strong>&lt;1981-&gt;:<strong>
+                $a</strong>Reference works</td>
+              </tr>
+
+              <tr>
+                <td align="left" colspan="1" valign="top">
+                830</td>
+
+                <td align="left" colspan="9" valign="top">
+                #0$aReference works.<br>
+                <em>[The series statement includes information
+                that is not included in the added
+                entry.]</em></td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td align="left" width="5%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="15%" valign="top"></td>
+              </tr>
+
+              <tr>
+                <td align="left" colspan="1" valign="top">
+                <strong>490</strong></td>
+
+                <td align="left" colspan="9" valign="top">
+                <strong>1#</strong><strong>$a</strong>Department
+                of State publication
+                ;<strong>$v</strong>7846.<strong>$a</strong>Department
+                and Foreign Service series
+                ;<strong>$v</strong>128</td>
+              </tr>
+
+              <tr>
+                <td align="left" colspan="1" valign="top">
+                830</td>
+
+                <td align="left" colspan="9" valign="top">
+                #0$aDepartment of State publication ;$v7846.</td>
+              </tr>
+
+              <tr>
+                <td align="left" colspan="1" valign="top">
+                830</td>
+
+                <td align="left" colspan="9" valign="top">
+                #0$aDepartment of State publication.$pDepartment
+                and Foreign Service series ;$v128.<br>
+                <em>[The series statement contains a numbered
+                series and a subseries, and both are to be traced
+                separately.]</em></td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td align="left" width="5%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="10%" valign="top"></td>
+
+                <td align="left" width="15%" valign="top"></td>
+              </tr>
+
+              <tr>
+                <td align="left" colspan="1" valign="top">
+                <strong>490</strong></td>
+
+                <td align="left" colspan="9" valign="top">
+                <strong>1#</strong><strong>$a</strong>Pediatric
+                clinics of North America ;<strong>$v</strong>v.
+                2, no. 4</td>
+              </tr>
+
+              <tr>
+                <td align="left" colspan="1" valign="top">
+                830</td>
+
+                <td align="left" colspan="9" valign="top">
+                #0$aPediatric clinics of North America ;$vv. 2,
+                no. 4.</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="indicator">
+    <strong>Second Indicator - Undefined</strong>
+
+    <div class="description">
+      Undefined and contains a blank (#).
+    </div>
+  </div>
+
+  <h4><span class="box">â </span> SUBFIELD CODES</h4>
+
+  <div class="subfield">
+    <strong>$a - Series statement</strong>
+
+    <div class="description">
+      Series title that may also contain a statement of
+      responsibility or other title information.
+    </div>
+
+    <div class="description2 description">
+      Note that in field 490 the names and numbers of parts and
+      sections of a title are not separately subfield coded.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>Bulletin / U.S.
+          Department of Labor, Bureau of Labor Statistics</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">830</td>
+
+          <td align="left" colspan="9" valign="top">#0$aBulletin
+          (United States. Bureau of Labor Statistics)</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$3</strong>v.
+          9-&lt;10&gt;:<strong>$a</strong>MPCHT art and
+          anthropological monographs ;<strong>$v</strong>no.
+          35</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>Detroit area
+          study, 1971 : social problems and social change in
+          Detroit ;<strong>$v</strong>no. 19</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>Policy series /
+          CES ;<strong>$v</strong>1</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$3</strong>1972/73-1975-76:<strong>
+          $a</strong>Research report / National Education
+          Association Research</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="description2 description">
+      Repeatable when a subseries is separated from the main
+      series by the numbering of the main series in subfield $v
+      or by the ISSN in subfield $x, or when a series has a
+      parallel title.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>Department of
+          State publication
+          ;<strong>$v</strong>7846.<strong>$a</strong>Department
+          and Foreign Service series ;<strong>$v</strong>128</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>Annual census of
+          manufactures =<strong>$a</strong>Recensement des
+          manufactures,<strong>$x</strong>0315-5587</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>Papers and
+          documents of the I.C.I. Series C, Bibliographies
+          ;<strong>$v</strong>no. 3 =<strong>$a</strong>Travaux
+          et documents de l'I.C.I. SÃ©rie C, Bibliographies
+          ;<strong>$v</strong>no 3</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$l - Library of Congress call number</strong>
+
+    <div class="description">
+      LC series call number when it is given as part of the
+      series statement.
+    </div>
+
+    <div class="description2 description">
+      Occurs when an item is issued as part of a series during a
+      period of time and has been classified under the Library of
+      Congress call number of that series for that period. The
+      call number is assigned using the <em>Library of Congress
+      Classification</em> or <em>LC Classification-Additions and
+      Change</em>; two publications that are maintained by the
+      Library of Congress.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$3</strong>1973-
+          :<strong>$a</strong>NEA research
+          memo<strong>$l</strong>(LB2842.N18)</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>Bulletin /
+          Engineering Experiment Station ;<strong>$v</strong>no.
+          50<strong>$l</strong>(TA7.O74)</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$v - Volume/sequential designation</strong>
+
+    <div class="description">
+      Volume number or other sequential designation used in a
+      series statement. Alternate numbering systems, preceded by
+      an equal sign (=), are not placed in separate subfields.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>Map / Geological
+          Survey of Alabama ;<strong>$v</strong>158, plate 3</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>West Virginia
+          University bulletin ;<strong>$v</strong>ser. 74, no.
+          11-3.<strong>$a</strong>Bulletin / Experiment Station,
+          West Virginia University ;<strong>$v</strong>111</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>0#</strong><strong>$a</strong>Forschungen zur
+          Geschichte Vorarlbergs ;<strong>$v</strong>6. Bd. = der
+          ganzen Reihe 13 Bd.</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$x - International Standard Serial Number</strong>
+
+    <div class="description">
+      International Standard Serial Number (ISSN) for a series
+      title given in a series statement. The ISSN is an
+      authoritative-agency data element. ISSNs are assigned to
+      serial publications (including series) by national centers
+      under the auspices of the ISSN Network.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>0#</strong><strong>$a</strong>Life series
+          <strong>$x</strong>0023-6721</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>MÃ©moire du
+          BRGM,<strong>$x</strong>0071-8246
+          ;<strong>$v</strong>no 123</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="description2 description">
+      Repeatable when the ISSNs for both the series and the
+      subseries are recorded.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>Lund studies in
+          geography,<strong>$x</strong>1400-1144
+          ;<strong>$v</strong>101<strong>$a</strong>Ser. B, Human
+          geography,<strong>$x</strong>0076-1478
+          ;<strong>$v</strong>48</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">830</td>
+
+          <td align="left" colspan="9" valign="top">#0$aLund
+          studies in geography,$nSer. B.$pHuman
+          geography,$x0076-1478 ;$v5</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">830</td>
+
+          <td align="left" colspan="9" valign="top">#0$aLund
+          studies in geography,$x1400-1144 ;$v101</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="description2 description">
+      <em>Note:</em> When a record contains an ISSN for the
+      series but lacks a series statement, the ISSN is recorded
+      in a 500 General Note field.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">500</td>
+
+          <td align="left" colspan="9" valign="top">##$a"ISSN
+          0399-3388."</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$3 - Materials specified</strong>
+
+    <div class="description">
+      Part of the described materials to which the field applies.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$3</strong>&lt;1981-&gt;:
+          <strong>$a</strong>Reference works</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">830</td>
+
+          <td align="left" colspan="9" valign="top">#0$aReference
+          works.</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$6 - Linkage</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$8 - Field link and sequence number</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+  <hr>
+
+  <h3>INPUT CONVENTIONS</h3>
+
+  <div class="description2">
+    <strong>Punctuation</strong> - Punctuation of subelements of
+    a series statement field is generally dictated by descriptive
+    cataloging rules. Field 490 does not end with a mark of
+    punctuation unless the field ends with an abbreviation, an
+    initial/letter, or data that ends with a mark of punctuation.
+  </div>
+
+  <div class="description2">
+    <strong>Spacing</strong> - No spaces are used in initialisms
+    or personal name initials/letters that appear as part of the
+    series title.
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>0#</strong><strong>$a</strong>Education U.S.A.
+          special report</td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>MÃ©moire du
+          BRGM,<strong>$x</strong>0071-8246
+          ;<strong>$v</strong>no 123</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="description2">
+    <strong>Temporary Data</strong> - When an item has been
+    issued within a series during part of its lifetime or has
+    been issued in different series during different periods, or
+    in a series whose title has changed and the exact beginning
+    and/or ending data is unknown, angle brackets (&lt;...&gt;)
+    are customarily used in subfield $a to record the date or
+    volume information which is subject to change.
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$3</strong>&lt;1984-&gt;:<strong>
+          $a</strong>Miscellaneous publication / United States
+          Department of Agriculture</td>
+        </tr>
+      </table>
+    </div>If any portion of the volume/sequential (subfield $v)
+    information is subject to change (e.g., in a record for a
+    multipart item), angle brackets are customarily used to
+    record that part of the volume/sequential designation
+    information which is subject to change. As parts are added,
+    the information is updated.
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>Collection
+          analyses ;<strong>$v</strong>vol. 1, &lt;3,
+          5-7&gt;</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="description2">
+    <strong>Display Constants</strong> - Parentheses that
+    customarily enclose the series statement are not carried in
+    the machine-readable record. They may be system generated as
+    a display constant associated with the field tag.
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td></td>
+
+          <td width="100%">
+            <div class="captiontext">
+              Content designated field:
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>Teachings of the
+          feathered serpent ;<strong>$v</strong>bk. 1</td>
+        </tr>
+
+        <tr>
+          <td></td>
+
+          <td>
+            <div class="displaytext">
+              <em>Display example:</em>&nbsp;
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+
+          <td>
+            <div class="displaycontent">
+              (Teachings of the feathered serpent ; bk. 1)
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>Initialism <em>ISSN</em> that precedes the
+    International Standard Serial Number in subfield $x is not
+    carried in the MARC record. It may be system generated in a
+    series statement as a display constant associated with the
+    content of subfield $x.
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td align="left" width="5%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="10%" valign="top"></td>
+
+          <td align="left" width="15%" valign="top"></td>
+        </tr>
+
+        <tr>
+          <td></td>
+
+          <td width="100%">
+            <div class="captiontext">
+              Content designated field:
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left" colspan="1" valign="top">
+          <strong>490</strong></td>
+
+          <td align="left" colspan="9" valign="top">
+          <strong>1#</strong><strong>$a</strong>Bibliographies of
+          modern authors,<strong>$x</strong>0749-470X
+          ;<strong>$v</strong>no. 27</td>
+        </tr>
+
+        <tr>
+          <td></td>
+
+          <td>
+            <div class="displaytext">
+              <em>Display example:</em>&nbsp;
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+
+          <td>
+            <div class="displaycontent">
+              (Bibliographies of modern authors, ISSN: 0749-407X
+              ; no. 27)
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <hr>
+
+  <h3>CONTENT DESIGNATOR HISTORY</h3>
+
+  <div class="font_small">
+    <em>Indicator 1 - Series tracing policy</em><br>
+    <em>1 - Series traced [REDEFINED, 2008]</em><br>
+    Prior to 2009, series for which the transcribed form and the
+    traced form were the same were in field 440, and field 490
+    was not used. If the transcribed form and the traced form
+    were different, the transcribed form was in field 490 and
+    Indicator 1 had value "1" (Series traced differently) The
+    traced form was in an 8XX field. Beginning in 2009, field 440
+    is not used and the transcribed form of the series name is in
+    field 490 with the traced form in 8XX, even if the names are
+    the same.<br>
+    <em>$v - Volume/sequential designation [NEW, 1980]</em><br>
+    Prior to 1980, volume numbers or sequential designations were
+    not separately subfield coded.<br>
+
+    <div>
+      <em>$x - ISSN [CHANGED, 2009]</em><br>
+      In 2009, subfield was made repeatable.
+    </div><em>$3 - Materials specified [NEW, 2008]</em><br>
+    Prior to 2008, designations for part of the resource were not
+    separately subfield coded.
+  </div>
+  <hr>
+
+  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd4xx.html">4XX</a>
+          &gt;&gt; <strong>490</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

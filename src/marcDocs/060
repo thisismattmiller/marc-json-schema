@@ -1,0 +1,472 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 060: National Library of Medicine Call Number (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the National Library of Medicine call number (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>060</strong></div>
+      <hr><a name="skip_menu"></a><h1>060 - National Library of Medicine Call Number (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2002</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Existence in NLM collection</em><br># - No information provided <br>0 - Item is in NLM <br>1 - Item is not in NLM <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Source of call number</em><br>0 - Assigned by NLM <br>4 - Assigned by agency other than NLM <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Classification number (R<br>$b - Item number (NR)<br></td>
+            <td colspan="1">$8 - Field link and sequence number (R)<br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Either a complete National Library of Medicine (NLM) call number or classification
+         number assigned by either the National Library of Medicine or by other agencies using
+                     the <em>National Library of Medicine Classification</em>. The second indicator values
+                     distinguish between content actually assigned by the National Library of Medicine and
+                     content assigned by an organization other than NLM.
+      </p>
+      <p>Classification or call number is taken from <em>National Library of Medicine
+                           Classification</em> schedules QS-QZ and W or from <em>Library of Congress
+                           Classification</em> schedules as used by NLM for peripheral and related topics.
+      </p>
+      <p>It is NLM practice to assign accession numbers to print monographs that receive limited
+                     cataloging, and since January 1994 to most print monographs receiving full-level
+                     cataloging.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Existence in NLM collection</strong> <div class="description">Whether or not the item is contained in the NLM collection.
+            <div class="indicatorvalue"><strong># - No information provided</strong> <div class="description">Used for call numbers assigned by an organization other than NLM.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>#4</strong><strong>$a</strong>W1<strong>$b</strong>JO706M
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Item is in NLM</strong> </div>
+            <div class="indicatorvalue"><strong>1 - Item is not in NLM</strong> <div class="description">Item is not in the NLM collection, or it is not shelved under that number.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>WA 540 AA1<strong>$b</strong>B8p 1972
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>14</strong><strong>$a</strong>WF 102<strong>$b</strong>N972a 1969
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Source of call number</strong> <div class="description">Whether the source of the call number is the National Library of Medicine or
+                              another agency.
+            <div class="indicatorvalue"><strong>0 - Assigned by NLM</strong> </div>
+            <div class="indicatorvalue"><strong>4 - Assigned by agency other than NLM</strong> </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Classification number</strong> <div class="description">Either the classification number portion of the call number or an accession
+                              number. Source of the classification number is <em>National Library of Medicine
+                                    Classification</em>.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>W 22 DC2.1<strong>$b</strong>B8M
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Z 675.M4<strong>$b</strong>H477
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="description2">
+            <div class="description">Current practice is to record alternative call numbers in separate occurrences of
+                                 field 060.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>W1<strong>$b</strong>BE357 Bd. 1 1978
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>WW 166<strong>$b</strong>M43k 1973
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>W3<strong>$b</strong>NU36 no. 28 1993
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>TP 248.65.P76<strong>$b</strong>M618a 1993
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>1993 A0148
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>W 84 AA1<strong>$b</strong>I4827a 1993
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="description2">
+            <div class="description">In older records, subfield $a was repeated when alternate call numbers
+                                 were recorded. In this case, the alternate class number was recorded following the
+                                 last subfield of the call number. If the alternate class number also included an
+                                 item number, the item number was included in the same subfield $a as
+                                 the alternate class number; it was not separately subfielded.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#4</strong><strong>$a</strong>W1<strong>$b</strong>DE111AL v.4 pt.A 1990<strong>$a</strong>TP 248.2 D293b 1990
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>KK1110<strong>$a</strong>WD 320
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Item number</strong> <div class="description">Item number portion of the NLM call number.</div>
+         <div class="description2">
+            <div class="description">NLM uses the <em>Cutter-Sanborn Three-Figure Author Table</em> to create item
+                                 numbers and a special numbering scheme in classes W1 and W3 to create item
+                                 numbers.
+            </div>
+         </div>
+         <div class="description2">
+            <div class="description">Special scheme of numbering used in classes W1 and W3 is described in the
+                                    <em>National Library of Medicine Classification</em>. This subfield may also
+                                 contain a copy number.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>W1<strong>$b</strong>RI217
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="description2">
+            <div class="description">Accession numbers do not contain a separate item portion, thus subfield
+                                 $b is not used. The alternative numbers assigned to items receiving
+                                 less-than-full cataloging also lack an item number.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>EE7766
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>QV 350
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Field 060 does not end with a period unless the period is part of the data in the final
+                     subfield.
+      </div>
+      <div class="description2"><strong>Spacing</strong> - Spaces that are desired in the call number must be input.
+      </div>
+      <div class="description2"><strong>Display Constants</strong>
+        <div class="table">
+            <table>
+               <tr>
+                  <td valign="top" align="left"><em>[DNLM: ... ]</em></td>
+               </tr>
+            </table>
+        </div>
+         <div class="table">
+            <table>
+               <tr>
+                  <td valign="top" align="left">/</td>
+                  <td valign="top" align="left"><em>[space-slash-space]</em></td>
+               </tr>
+            </table>
+         </div>Display constant <em>DNLM:</em> and the Arabic numeral that precede an NLM call number,
+                     and the brackets that surround the entire statement are not carried in the MARC record.
+                     They may be system generated as a display constant associated with the field tag.<br><br>Space-slash-space that is used to separate alternate NLM call numbers when they are
+                     recorded in the same field (applies to older records) is not carried in the
+                     machine-readable record. It may be system generated as a display constant associated
+                     with the presence of repeated $a subfields.
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td width="100%">
+                     <div class="captiontext">Content designated field:</div>
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>060</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>W1<strong>$b</strong>BE 357 Bd. 1 1973<strong>$a</strong>WW 166 M43k 1973
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>
+                     <div class="displaytext">Display example:&nbsp;</div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>
+                     <div class="displaycontent">1. [DNLM: W1 BE 357 Bd. 1 1973 / WW 166 M43k
+                                          1973] 
+                     </div>
+                  </td>
+               </tr>
+            </table>
+         </div>
+   </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>Indicator 2 - Series call number (SE) [OBSOLETE]</em><br>In the serials specifications, the use of the second indicator position to indicate
+                        the type of series was made obsolete in 1976. The values were: 0 (No series
+                        involved), 1 (Main series), 2 (Subseries), 3 (Sub-subseries).         <em><br>
+                        Indicator 2 - Source of call number</em><br>
+         <em># - No information provided [OBSOLETE]</em><br>Second indicator was defined in 1982. Prior to that change, 060 was an
+                        agency-assigned field and contained only call numbers assigned by the National
+                        Library of Medicine. NLM records created before the definition of this indicator may
+                        contain a blank (#) meaning <em>undefined</em> in the second indicator position.<br>
+                        <br><em>$a - Classification number</em><br>Prior to January 1994, subfield $a was repeated to record alternative call
+                        numbers. Beginning in 1994, alternative call numbers should be recorded in separate
+                        occurrences of field 060.
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>060</strong></div> (02/20/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

@@ -1,0 +1,397 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 022: International Standard Serial Number 
+         					 (Network Development and MARC Standards Office, Library of
+         					Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the International Standard Serial Number (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> 
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt;  <strong>022</strong></div>
+      <hr><a name="skip_menu"></a><h1>022 - International Standard Serial Number (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2007</div>
+      <hr>
+	  <a href="http://www.loc.gov/global/disclaim.html"><img src="http://www.loc.gov/images/disclaimer.gif" alt="Link disclaimer" width="91" height="16" border="0" align="right"></a>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Level of international interest</em><br># - No level specified <br>0 - Continuing resource of international interest <br>1 - Continuing resource not of international interest <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - International Standard Serial Number (NR) <br>
+            $l - ISSN-L (NR) <br>
+              $m - Canceled ISSN-L (R) <br>
+              $y - Incorrect ISSN (R) <br></td>
+            <td colspan="1">$z - Canceled ISSN (R) <br>$2 - Source (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>International Standard Serial Number (ISSN), a unique identification number assigned to
+         a continuing resource, and/or any incorrect or canceled ISSN.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Level of international interest</strong> <div class="description">Value that specifies whether the continuing resource is of international interest
+                              or of local or ephemeral interest only.
+            <div class="indicatorvalue"><strong># - No level specified</strong> <div class="description">Level of international interest is unknown or not specified. Used by all
+                                       institutions other than the ISSN Centers when recording the ISSN from an issue
+                                       or from a bibliography.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Continuing resource of international interest</strong> <div class="description">Of international interest, thus a full record has been registered with the ISSN
+                                       Network. Used for all continuing resources for which individual ISSN Centers
+                                       receive ISSN requests from abstracting and indexing services or other ISSN
+                                       Network centers. Also used for all other continuing resources that are not
+                                       within the scope defined for value 1. This value may be input only by the ISSN
+                                       Centers.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Continuing resource not of international interest</strong> <div class="description">Not of international interest, thus an abbreviated record has been registered
+                                       with the ISSN Network. Used for continuing resources judged to be of local or
+                                       ephemeral interest. ISSN Centers have defined publications of local or
+                                       ephemeral interest as those in which interest is likely to be limited to a
+                                       certain geographic area, e.g., local newspapers, or certain span of time, e.g.,
+                                       calendars of events. In case of doubt, value 0 is used. This value may only be
+                                       input by the ISSN Centers.
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
+           
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - International Standard Serial Number</strong> <div class="description">Valid ISSN for the continuing resource. <em>ISSN</em> may be generated for
+                              display.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>022</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>0376-4583
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      
+         <div class="subfield"><strong>$l - ISSN-L</strong> <div class="description">ISSN that links together various media versions of a continuing resource.  <em>ISSN-L</em> may be generated for
+                                 display.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>022</strong></td>
+                     <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>1234-1231<strong>$l</strong>1234-1231
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      
+         <div class="subfield"><strong>$m - Canceled ISSN-L</strong> <div class="description">Canceled ISSN-L that has been associated with the resource. Each canceled ISSN-L
+                                 is contained in a separate subfield $m.  <em>ISSN-L (canceled)</em> may be generated for display.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>022</strong></td>
+                     <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>1560-1560<strong>$l</strong>1234-1231<strong>$m</strong>1560-1560
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      
+      <div class="subfield"><strong>$y - Incorrect ISSN</strong> <div class="description">Incorrect ISSN that has been associated with the continuing resource.  Each
+                              incorrect ISSN is contained in a separate subfield $y.  A canceled ISSN
+                              is contained in subfield $z.
+         </div>
+         <div class="description2">
+            <div class="description"><em>ISSN (incorrect)</em> may be generated for display.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>022</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>0046-225X<strong>$y</strong>0046-2254
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$z - Canceled ISSN</strong> <div class="description">Canceled ISSN that is associated with the continuing resource. Each canceled ISSN
+                              is contained in a separate subfield $z.
+         </div>
+         <div class="description2">
+            <div class="description"><em>ISSN (canceled)</em> may be generated for display.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>022</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>0145-0808<strong>$z</strong>0361-7106
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>022</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$z</strong>0027-3473
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$2 - Source</strong> <div class="description">ISSN Center responsible for assigning and maintaining ISSNs and related data.</div>
+         <div class="description2">
+            <div class="description">Code from: <em><em>ISSN National Centres</em> code list online at: <a href="http://www.issn.org">www.issn.org</a>, National Centres.</em></div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>ISSN Structure</strong> - ISSN is an agency-assigned data element. ISSNs are assigned to continuing resource
+                     publications by national centers under the auspices of the ISSN Network. An ISSN
+                     consists of eight digits comprising two groups of four digits each, separated by a
+                     hyphen. The eighth digit is a check digit used as a computer validity check; it consists
+                     of a number between 0 and 9 or an uppercase X (for the arabic numeral 10). A description
+                     of the ISSN structure and the procedure for validation of the ISSN by calculating the
+                     check digit is in <em>International Standard Serial Numbering (ISSN) (ISO
+                     3297)</em>.
+      </div>
+      <div class="description2"><strong>Punctuation</strong> - Field 022 does not end with a period.
+      </div>
+      <div class="description2"><strong>Display Constants</strong>
+        <div class="table">
+            <table>
+               <tr>
+                  <td width="162" align="left" valign="top">ISSN</td>
+                  <td width="500" align="left" valign="top"><em>[associated with the content of subfield $a]</em></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">ISSN-L</td>
+                  <td valign="top" align="left"><em>[associated with the content of subfield $l]</em></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">ISSN-L (canceled)</td>
+                  <td valign="top" align="left"><em>[associated with the content of subfield $m]</em></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">ISSN (incorrect)</td>
+                  <td valign="top" align="left"><em>[associated with the content of subfield $y]</em></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">ISSN (canceled)</td>
+                  <td valign="top" align="left"><em>[associated with the content of subfield $z]</em></td>
+               </tr>
+            </table>
+        </div>ISSN usually appears on an item with the prefix ISSN and as two groups of four digits
+                     separated by a hyphen. The hyphen separating the two groups of digits is carried in the
+                     MARC record. The initialisms <em>ISSN</em> and <em>ISSN-L</em> and the phrases
+                        <em>ISSN-L (canceled)</em>, <em>ISSN (incorrect)</em> and <em>ISSN (canceled)</em>
+                     are not input. They may be system generated as display constants associated with the
+                     content of subfields $a, $l, $m, $y, and
+                     $z, respectively.
+   </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td></td>
+               <td width="100%">
+                  <div class="captiontext">Content designated field:</div>
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>022</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>0018-5817<strong>$y</strong>0018-5811
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>
+                  <div class="displaytext">Display example:&nbsp;</div>
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>
+                  <div class="displaycontent">ISSN 0018-5817 ISSN (incorrect)
+                                 0018-5811
+                  </div>
+               </td>
+            </tr>
+         </table>
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>$b - Form of issue [OBSOLETE] [CAN/MARC only]</em><br><em>$c - Price [OBSOLETE] [CAN/MARC only]</em>
+      <br>
+      <em>$l - ISSN-L [NEW, 2007]</em>
+         <br><em>$m - Canceled ISSN-L [NEW, 2007]</em>
+         <br><em>$y - Incorrect ISSN [NEW, 1978]</em><br><em>$z - Canceled ISSN [REDEFINED, 1978]</em><br>Subfield $z was redefined to include only ISSN assignment cancellations
+                        when subfield $y was defined. Prior to that time, subfield $z
+                        contained both incorrect and canceled ISSNs.<br><em>$2 - Source [NEW, 2003]</em></div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>022</strong></div> (02/16/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

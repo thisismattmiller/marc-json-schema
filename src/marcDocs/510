@@ -1,0 +1,606 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 510:
+         Citation/References Note (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a> &gt;&gt;
+               <strong>510</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>510</span> - <span>Citation/References Note</span> (R)
+      </h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">October 2009</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Coverage/location in source</em><br /><span>0 - Coverage unknown</span><br /><span>1 - Coverage complete</span><br /><span>2 - Coverage is selective</span><br /><span>3 - Location in source not given</span><br /><span>4 - Location in source given</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Name of source (NR)</li>
+                  <li>$b - Coverage of source (NR)</li>
+                  <li>$c - Location within source (NR)</li>
+                  <li>$u - Uniform Resource Identifier (R)</li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$x - International Standard Serial Number (NR)</li>
+                  <li>$3 - Materials specified (NR)</li>
+                  <li>$6 - Linkage (NR)</li>
+                  <li>$8 - Field link and sequence number (R)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Citations or references to published bibliographic descriptions, reviews, abstracts, or
+               indexes of the content of the described item.
+            </p>
+         </div>
+         <div>
+            <p>Used to specify where an item has been cited or reviewed. Citations or references may be
+               given in a brief form (i.e., using generally recognizable abbreviations, etc.). The
+               actual text of a published description is not recorded in field 510 but rather in field
+               520 (Summary, Etc. Note).
+            </p>
+            <p>For <strong>books</strong> and <strong>music</strong>, this field contains references to
+               published descriptions of the item (e.g., descriptions of rare materials recorded in a
+               brief, standardized format) or reviews (e.g., reviews in professional literature).
+            </p>
+            <p>For <strong>continuing resources</strong>, this field is used to specify publications in
+               which a continuing resource has been indexed and/or abstracted and the dates of
+               coverage, if known. The indexing and abstracting services referenced are primarily those
+               issued as continuing resources. Certain monographic titles, particularly those that are
+               standard reference tools in a subject area or that cover periods of time not included in
+               continuing publications, may also be given in this field.
+            </p>
+            <p>For unpublished <strong>visual materials</strong> or graphic items collectively
+               controlled, this field contains references to published descriptions of the work or
+               collection. Citations to reviews of projected <strong>visual materials</strong> are also
+               recorded in this field.
+            </p>
+            <p>For <strong>mixed materials</strong>, this field contains references to publications in
+               which abstracts, citations, descriptions, or indexes of the described materials have
+               appeared.
+            </p>
+            <p>Note that field 510 is used when the indexing and/or review is external to the item
+               represented by the bibliographic record. Field 555 (Cumulative Index/Finding Aids Note)
+               is used when an index is an integral part of the item. When the title of the source of
+               the index, abstract, review, etc. changes, a separate field 510 is used for each title.
+               When coverage changes, thus requiring a different value in the first indicator, a new
+               field 510 with appropriate dates is added to the record.
+            </p>
+            <p>Field 510 is repeatable for multiple source citations.</p>
+            <p>Citation/references notes are usually displayed and/or printed with an introductory term
+               or phrase that is generated as a display constant based on the first indicator
+               value.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>First Indicator - Coverage/location in source</strong></p>
+                  <div>
+                     <p>Whether or not the field contains the specific location in the source cited. For
+                        <strong>continuing resources</strong>, indicates the type of coverage given the
+                        item by the abstracting and indexing service. The value also controls the
+                        generation of a display constant preceding the note.
+                     </p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Coverage unknown</span><div>
+                           <p>Abstracting and indexing coverage is not specified. <em>Indexed by:</em> may be
+                              generated for display.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Coverage complete</span><div>
+                           <p>Abstracting and indexing coverage includes references to all articles in a
+                              journal and/or all issues within each volume and is considered to provide
+                              complete coverage. <em>Indexed in its entirety by:</em> may be generated for
+                              display.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>510</strong></td>
+                                 <td colspan="9"><strong>1#</strong><strong>$a</strong>Education index,<strong>$x</strong>0013-1385,<strong>$b</strong>1966-<em><span><br /><span>[A serial that is indexed in its entirety.] </span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - Coverage is selective</span><div>
+                           <p>Abstracting and indexing service does not include references to all articles in
+                              the periodical. <em>Indexed selectively by:</em> may be generated for
+                              display.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>510</strong></td>
+                                 <td colspan="9"><strong>2#</strong><strong>$a</strong>Moving picture world,<strong>$b</strong>1975-
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">3 - Location in source not given</span><div>
+                           <p>Specific location (e.g., volume, page number) of a citation within the source
+                              is not given. <em>References:</em> may be generated for display.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>510</strong></td>
+                                 <td colspan="9"><strong>3#</strong><strong>$a</strong>LC Civil War maps
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">4 - Location in source given</span><div>
+                           <p>Specific location (e.g., volume, page number) of a citation within the source
+                              is given in field 510. <em>References:</em> may be generated for display.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>510</strong></td>
+                                 <td colspan="9"><strong>4#</strong><strong>$a</strong>Algae abstracts,<strong>$c</strong>v. 3, W73-11952
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>510</strong></td>
+                                 <td colspan="9"><strong>4#</strong><strong>$a</strong>Case, A.E. Poetical miscellanies,<strong>$c</strong>440, 1b, 2c, 3b, 4-6<em><span><br /><span>[A rare serial that has been cited in a bibliography.] </span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Undefined</strong></p>
+                  <div>
+                     <p>Undefined and contains a blank (#).</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Name of source</strong> 
+                  </p>
+                  <div>
+                     <p>Name of the source in which the reference or citation appears. The name of the
+                        source may be given in either full cataloging form or as a conventionalized
+                        abbreviation, for example <em>Evans</em> for <em>Evans, Charles. American
+                           bibliography</em>.
+                     </p>
+                     <p>Established forms of citations for bibliographies and catalogs used in cataloging
+                        rare materials are found in <em>Standard Citation Forms for Published
+                           Bibliographies and Catalogs Used in Rare Book Cataloging</em>.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>3#</strong><strong>$a</strong>Bibliographie cartographique
+                              internationale
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>3#</strong><strong>$a</strong>Hiler, H. Bibl. of costume
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>4#</strong><strong>$a</strong>TV guide (Philadelphia),<strong>$c</strong>112181, p. 48
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>Title of a source (e.g., <em>Index Medicus)</em> but not the name of an
+                        organization or company (e.g., National Library of Medicine). The key title is
+                        used when available. If there is no print publication, the commonly used form of
+                        name for the online database is used. In cases where both a print publication and
+                        an online database exist, the name from the print form of the publication is
+                        preferred.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>Industrial arts index
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>3#</strong><strong>$a</strong>School library journal, June 1994<em><span><br /><span>[Reference to a review of a bibliographic item] </span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Coverage of source</strong> 
+                  </p>
+                  <div>
+                     <p>Dates and/or volume designations of the serial with which the service began and
+                        ended coverage.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>Nexis,<strong>$b</strong>Jan. 13, 1975-
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>Index Medicus,<strong>$x</strong>0019-3879,<strong>$b</strong>v1n1, 1984-
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$c - Location within source</strong> 
+                  </p>
+                  <div>
+                     <p>Specific location of the citation or reference within the source (e.g., page
+                  number, item number, etc.). Note that the first indicator position contains value
+                  4 (Location in source given) when subfield $c is present.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>4#</strong><strong>$a</strong>Goff,<strong>$c</strong>A-970
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>4#</strong><strong>$a</strong>BM XV cent.,<strong>$c</strong>II, p. 346 (IB.5874)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>4#</strong><strong>$a</strong>Schramm,<strong>$c</strong>v. 4, p. 10, 50, and iii
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>4#</strong><strong>$a</strong>LC Treasure maps (2nd ed.),<strong>$c</strong>13
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$u - Uniform Resource Identifier</strong> 
+                  </p>
+                  <div>
+                     <p>Uniform Resource Identifier (URI) that 
+            provides electronic access data in a standard syntax to an electronic
+            bibliography cited or to the citation within an electronic bibliography.  If
+            the former, subfield $u follows subfield $a (Name of source);
+            if the latter, $u follows subfield $c (Location within source).</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">03$aAn abstract of the remarkable passages in the life 
+                              		     of a private gentleman.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>4#</strong><strong>$a</strong>Evans<strong>$u</strong>http://lccn.loc.gov/67004309<strong>$c</strong>5375<em><span><br /><span>[The 510 $u contains the URI for the record 
+		  describing Charles Evansâs <span class="cite">American bibliography</span>.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>100</td>
+                           <td colspan="9">0#$aAbraham a Sancta Clara,$d1644-1709.</td>
+                        </tr>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">13$aJudas der  Ertz-Schelm, fÃ¼r ehrliche 
+                              		     Leuth, ...
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>4#</strong><strong>$a</strong>VD 17<strong>$c</strong>12:196157F<strong>$u</strong>http://gso.gbv.de/DB=1.28/SET=5/TTL=11/COLMODE=1/CMD?ACT=SRCHA&amp;IKT=8002&amp;SRT=YOP&amp;TRM=12%3A196157F&amp;REC=*<em><span><br /><span>[The 510 $u contains a persistent URL to the record for Abraham's 
+		  <span class="cite">Judas der Ertz-Schelm</span> in the <span class="cite">Verzeichnis der 
+                                          		  im deutschen Sprachraum erschienenen Drucke des 17. Jahrhunderts 
+                                          		  (VD 17)</span> database.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">00$aJAMA :$bthe journal of the American Medical Association.</td>
+                        </tr>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>PubMed<strong>$u</strong>http://www.ncbi.nlm.nih.gov/pubmed<strong>$b</strong>v187n13,Mar.28, 1964-<em><span><br /><span>[The 510 $u contains the URL for the bibliographic information
+	             where the serial is cited.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$x - International Standard Serial Number</strong> 
+                  </p>
+                  <div>
+                     <p></p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>2#</strong><strong>$a</strong>Chemical abstracts,<strong>$x</strong>0009-2258
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$3 - Materials specified</strong> 
+                  </p>
+                  <div>
+                     <p>Part of the described material to which the field applies.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>510</strong></td>
+                           <td colspan="9"><strong>4#</strong><strong>$3</strong>31911 Arctic field notebook<strong>$a</strong>Day, Harold. "Statistical Methods for Population
+                              Transport Estimation," Journal of Ecological Studies,<strong>$c</strong>vol. 7, 1974, p. 187
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Punctuation - </strong>A comma is placed usually at the end of subfield $a, $b,
+            $c, and/or $x if another subfield follows. Field 510 ends with a
+            hyphen if one is present at the end of subfield $b; otherwise the field does
+            not end with a mark of punctuation, unless the field ends with an abbreviation,
+            initial/letter, or other data that ends with a mark of punctuation. The system may
+            supply a period at the end of the field if desired. When multiple 510 fields occur with
+            the same indicator value the data may be reformatted into one note with semicolons as
+            separators for display.
+            </p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td width="5%"></td>
+                     <td colspan="9">
+                        <div class="captiontext">Content designated fields:</div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>510</strong></td>
+                     <td colspan="9"><strong>4#</strong><strong>$a</strong>Copinger,<strong>$c</strong>5747
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>510</strong></td>
+                     <td colspan="9"><strong>4#</strong><strong>$a</strong>Goff,<strong>$c</strong>T-90
+                     </td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td colspan="9">
+                        <div class="displaytext">Display example:</div>References: Copinger, 5747; Goff, T-90. 
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <p>When the reference note consists of a name/title citation, a period and space follow the
+               author's name.
+            </p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>510</strong></td>
+                     <td colspan="9"><strong>4#</strong><strong>$a</strong>Streeter, T.W. Texas,<strong>$c</strong>997
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div>
+            <p><strong>Initial Articles - </strong>Initial articles are generally omitted in the title and author/title citations.
+            </p>
+         </div>
+         <div>
+            <p><strong>Display Constants - </strong>Introductory terms or phrases such as <em>References:</em>, <em>Indexed by:</em>, etc.
+               are not carried in the MARC record. They may be system generated as display constants
+               associated with the first indicator value.
+            </p>
+            <div class="table">
+               <table>
+                  <tr>
+                     <th><u>First indicator</u></th>
+                     <th><u>Display constant</u></th>
+                  </tr>
+                  <tr>
+                     <td>0</td>
+                     <td>Indexed by:</td>
+                  </tr>
+                  <tr>
+                     <td>1</td>
+                     <td>Indexed in its entirety by:</td>
+                  </tr>
+                  <tr>
+                     <td>2</td>
+                     <td>Indexed selectively by:</td>
+                  </tr>
+                  <tr>
+                     <td>3</td>
+                     <td>References:</td>
+                  </tr>
+                  <tr>
+                     <td>4</td>
+                     <td>References:</td>
+                  </tr>
+               </table>
+            </div>
+            <p>The initialism <em>ISSN</em> followed by a space may also be system generated as a
+            display constant associated with the presence of subfield $x.
+            </p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td width="5%"></td>
+                     <td colspan="9">
+                        <div class="captiontext">Content designated field:</div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>510</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Education index,<strong>$x</strong>0013-1385
+                     </td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td colspan="9">
+                        <div class="displaytext">Display example:</div><strong><b>Indexed in its entirety by</b></strong>: Education index, ISSN
+                        0013-1385 
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="historySubfield">
+            <div><em>$u - Uniform Resource Identifier [NEW, 2009]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a> &gt;&gt;
+               <strong>510</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(11/12/2009)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

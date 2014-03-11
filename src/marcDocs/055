@@ -1,0 +1,439 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 055:  Classification Numbers Assigned in Canada (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the classification numbers assigned in Canada (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>055</strong></div>
+      <hr><a name="skip_menu"></a><h1>055 - Classification Numbers Assigned in Canada (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2004</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="42%"><strong>First Indicator</strong><br>
+           <em>Existence in LAC collection</em><br># - Information not provided <br>0 - Work held by LAC <br>1 - Work not held by LAC <br><br></td>
+            <td width="58%"><strong>Second Indicator</strong><br>
+           <em>Type, completeness, source of class/call number</em><br>0 - LC-based call number assigned by LAC <br>1 - Complete LC class number assigned by LAC <br>2 - Incomplete LC class number assigned by LAC <br>3 - LC-based call number assigned by the contributing library <br>4 - Complete LC class number assigned by the contributing library <br>5 - Incomplete LC class number assigned by the contributing library <br>6 - Other call number assigned by LAC <br>7 - Other class number assigned by LAC <br>8 - Other call number assigned by the contributing library <br>9 - Other class number assigned by the contributing library <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Classification number (NR) <br>$b - Item number (NR)<br>$2 - Source of call/class number (NR)<br></td>
+            <td colspan="1">$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Complete call number or a classification number assigned by Library and Archives Canada
+                     (LAC) or a library contributing to LAC.
+      </p>
+      <p>Excludes those numbers assigned from the National Library of Medicine classification
+         system, the Universal Decimal Classification, and the Dewey Decimal Classification.
+         These latter numbers are input in fields 060 (National Library of Medicine Call Number),
+         080 (Universal Decimal Classification Number), and 082 (Dewey Decimal Classification
+         Number), respectively. Note that call numbers/class numbers to be recorded in field 055
+         include those assigned from the Library of Congress classification schedules, including
+                     those from schedules specially developed by Library and Archives Canada for Canadian
+                     history and literature.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Existence in LAC collection</strong> <div class="description">Whether or not the item is contained in the Library and Archives Canada collection.
+            <div class="indicatorvalue"><strong># - Information not provided</strong> <div class="description">Used in any record input by an institution other than LAC.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>#5</strong><strong>$a</strong>HT154
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Work held by LAC</strong> </div>
+            <div class="indicatorvalue"><strong>1 - Work not held by LAC</strong> </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Type, completeness, source of class/call number</strong> <div class="description">Type of number involved (whether it is an LC class number, an LC-based call
+                              number, or a class/call number assigned from some other classification scheme),
+                              the completeness of the class number (for LC class numbers only), and whether the
+                              number was assigned by Library and Archives Canada or a contributing library
+            <div class="description2">LC class number (second indicator value 1, 2, 4, or 5) is one that has been
+                                 assigned using the <em>Library of Congress Classification</em> or <em>LC
+                                       Classification-Additions and Changes</em>. An "incomplete" class number (value
+                                 2 or 5) lacks a subject Cutter number required by <em>Library of Congress
+                                       Classification</em>.
+            </div>
+            <div class="description2">"LC-based" call number (second indicator value 0 or 3) is one that has been
+                                 assigned using the <em>Library of Congress Classification</em> or <em>LC
+                                       Classification-Additions and Changes</em> and, in addition, the schedules for
+                                 Canadian history (FC schedule), Canadian literature (PS 8000-8999), and Canadian
+                                 law developed by Library and Archives Canada. The term does not include numbers
+                                 from locally modified or expanded LC schedules.
+            </div>
+            <div class="description2">For non-LC, non-LC-based call/class numbers (second indicator value 6, 7, 8, or
+                                 9), the source list or scheme used to assign the number may be identified by a
+                                 code in subfield $2 (Source of call/class number).
+            </div>
+            <div class="indicatorvalue"><strong>0 - LC-based call number assigned by LAC</strong> </div>
+            <div class="indicatorvalue"><strong>1 - Complete LC class number assigned by LAC</strong> </div>
+            <div class="indicatorvalue"><strong>2 - Incomplete LC class number assigned by LAC</strong> <div class="description">Number is followed by an asterisk (*).
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>12</strong><strong>$a</strong>PS8575*<br><em>[Number lacks an author subdivision.]</em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>3 - LC-based call number assigned by the contributing library</strong> </div>
+            <div class="indicatorvalue"><strong>4 - Complete LC class number assigned by the contributing library</strong> </div>
+            <div class="indicatorvalue"><strong>5 - Incomplete LC class number assigned by the contributing library</strong> <div class="description">Number is followed by an asterisk (*).
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>#5</strong><strong>$a</strong>HT154G*
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>6 - Other call number assigned by LAC</strong> <div class="description">Call number (other than an LC, NLM, Universal Decimal, or Dewey) which has been
+                                       assigned by LAC.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>06</strong><strong>$a</strong>K347.9444<strong>$b</strong>C5164
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>7 - Other class number assigned by LAC</strong> <div class="description">Class number (other than an LC, NLM, Universal Decimal, or Dewey) which has
+                                       been assigned by LAC. This value is not used.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>8 - Other call number assigned by the contributing library</strong> <div class="description">Call number (other than an LC, NLM, Universal Decimal, or Dewey) assigned by
+                                       the contributing library.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>18</strong><strong>$a</strong>KF385 ZB5<strong>$b</strong>C6<strong>$2</strong>kfmod
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>9 - Other class number assigned by the contributing library</strong> <div class="description">Class number (other than an LC, NLM, Universal Decimal, or Dewey) assigned by
+                                       the contributing library.
+               </div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Classification number</strong> <div class="description">Classification number portion of the call number. Alternate call numbers are
+                              recorded in separate 055 fields.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>01</strong><strong>$a</strong>FC3099
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>02</strong><strong>$a</strong>FC2949*
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>01</strong><strong>$a</strong>HB31
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>HB31<strong>$b</strong>S54fol.<br><em>[Multiple 055 fields; LC class number, and NLC call number.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Item number</strong> <div class="description">Item number portion of the call number.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>F5050 .2<strong>$b</strong>T5
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>02</strong><strong>$a</strong>FC2949*
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>F5449 W4<strong>$b</strong>A28fol. Ref.<br><em>[Multiple 055 fields; Incomplete LC class number and NLC call
+                                          number.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$2 - Source of call/class number</strong> <div class="description">Source list or scheme from which the call/class number was assigned. Used only
+                              when the second indicator contains value 6 (Other call number assigned by LAC), 7
+                              (Other class number assigned by LAC), 8 (Other call number assigned by the
+                              contributing library), or 9 (Other class number assigned by the contributing
+                              library).
+         </div>
+         <div class="description2">
+            <div class="description">MARC code that identifies the classification scheme used to assign the call/class
+                                 number when the second indicator position contains value 6, 7, 8, or 9.
+            </div>
+         </div>
+         <div class="description2">
+            <div class="description">Code from: <em><a href="http://www.loc.gov/standards/sourcelist/classification.html">Classification Scheme Source Codes</a></em>.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>055</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>18</strong><strong>$a</strong>KF385 ZA2<strong>$b</strong>.T34 1989<strong>$2</strong>kfmod<br><em>[Call number assigned from KF Classification, Modified for Use in Canadian
+                                             Law Libraries.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Field 055 does not end with a period.
+      </div>
+      <div class="description2"><strong>Spacing</strong> - Any spaces that are desired as part of the call number must be input.
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>055</strong></div> (02/20/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

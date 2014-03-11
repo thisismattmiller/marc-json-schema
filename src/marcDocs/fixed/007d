@@ -1,0 +1,575 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy, see www.w3.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 007: Globe
+  (Network Development and MARC Standards Office, Library of
+  Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link href="update10-stylesheet.css" rel="stylesheet" type=
+  "text/css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd007.html">007</a>
+    &gt;&gt; <strong>007 (Globe)</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>007 - Globe (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+  <strong>Indicators and Subfield Codes</strong>
+
+  <div class="description">
+    Field has no indicators or subfield codes; the data elements
+    are positionally defined.
+  </div>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>Character Positions</strong><br>
+      <strong>00 - Category of material</strong><br>
+      d - Globe<br>
+      <br>
+      <strong>01 - Specific material designation</strong><br>
+      a - Celestial globe<br>
+      b - Planetary or lunar globe<br>
+      c - Terrestrial globe<br>
+      e - Earth moon globe<br>
+      u - Unspecified<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>02 - Undefined</strong><br>
+      # - Undefined<br>
+      <br>
+      <strong>03 - Color</strong><br>
+      a - One color<br>
+      c - Multicolored<br>
+      | - No attempt to code</td>
+
+      <td width="45%"><strong>04 - Physical medium</strong><br>
+      a - Paper<br>
+      b - Wood<br>
+      c - Stone<br>
+      d - Metal<br>
+      e - Synthetic<br>
+      f - Skin<br>
+      g - Textile<br>
+      i - Plastic<br>
+      l - Vinyl<br>
+      n - Vellum<br>
+      p - Plaster<br>
+      u - Unknown<br>
+      v - Leather<br>
+      w - Parchment<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>05 - Type of reproduction</strong><br>
+      f - Facsimile<br>
+      n - Not applicable<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>When field 007/00 contains code d, it contains special coded
+  information about the physical characteristics of a globe.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> CHARACTER POSITIONS</h4>
+
+  <div class="characterposition">
+    <strong>00 - Category of material</strong>
+
+    <div class="charactervalue">
+      <strong>d - Globe</strong>
+
+      <div class="description">
+        One-character alphabetic code that indicates the category
+        of material to which the item belongs is
+        <strong>globe</strong>, which is defined as the model of
+        a celestial body, usually the Earth or the celestial
+        sphere, depicted on the surface of a sphere. Code d is
+        used when 008/25 (Type of cartographic material) contains
+        code d. A fill character (|) is not allowed in this
+        position.
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>01 - Specific material designation</strong>
+
+    <div class="description">
+      Special class of material (usually the class of physical
+      object) to which an item belongs, e.g., a celestial globe.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Celestial globe</strong>
+
+      <div class="description">
+        Model relating to the sky of visible heavens (sun, stars,
+        etc.) depicted on the surface of a sphere.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Planetary or lunar globe</strong>
+
+      <div class="description">
+        Lunar globe (other than Earth) or a moon depicted on the
+        surface of a sphere.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Terrestrial globe</strong>
+
+      <div class="description">
+        Model of the Earth depicted on the surface of a sphere.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Earth moon globe</strong>
+
+      <div class="description">
+        Model of the Earth's moon depicted on the surface of a
+        sphere.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unspecified</strong>
+
+      <div class="description">
+        Special class of globe is unspecified.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>02 - Undefined</strong>
+
+    <div class="description">
+      Contains blank (#) or a fill character (|).
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>03 - Color</strong>
+
+    <div class="description">
+      Whether the globe is in one color or multicolored.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - One color</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Multicolored</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>04 - Physical medium</strong>
+
+    <div class="description">
+      Material out of which the globe is made.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Paper</strong>
+
+      <div class="description">
+        Any kind of cellulose-based paper.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Wood</strong>
+
+      <div class="description">
+        Material is wood. A material that is based on wood
+        particles or fibers may or may not be considered wood.
+        Consider particle board <em>wood</em>.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Stone</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Metal</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Synthetic</strong>
+
+      <div class="description">
+        Man-made substances other than
+        textiles, plastic, and vinyl.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Skin</strong>
+
+      <div class="description">
+        Excludes leather, parchment, and
+        vellum.
+      </div>
+
+      <div class="description2 description">
+        Synthetic materials that are made to resemble animal skin
+        are coded as <em>synthetic</em>.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - Textile</strong>
+
+      <div class="description">
+        Used for all fabrics, whether made from natural or
+        synthetic fibers.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>i - Plastic</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>l - Vinyl</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Vellum</strong>
+
+      <div class="description">
+        Fine-grained unsplit lambskin, kidskin, or calfskin
+        prepared especially for writing or drawing on.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>p - Plaster</strong>
+
+      <div class="description">
+        Mixtures of ground solids and plaster are also coded as
+        plaster.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Physical medium of which the globe is made is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>v - Leather</strong>
+
+      <div class="description">
+        Animal skin dressed for use.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>w - Parchment</strong>
+
+      <div class="description">
+        Skin of a sheep or goat prepared for writing on.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>05 - Type of reproduction</strong>
+
+    <div class="description">
+      Whether the globe is a facsimile or other type of
+      reproduction.
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Facsimile</strong>
+
+      <div class="description">
+        Facsimile which resembles the original in all aspects
+        possible, but it is not the original.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Not a reproduction.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Type of reproduction is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other defined codes are appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <h4><span class="box">â </span> EXAMPLES</h4>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-05</strong></td>
+
+        <td valign="top" colspan="8" align="left">dc#cen<br>
+        <em>[Item is a globe (007/00) which is terrestrial (01),
+        in color (03), made of plastic (04).]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-05</strong></td>
+
+        <td valign="top" colspan="8" align="left">db#cen<br>
+        <em>[Item is globe (007/00) of the moon (01); in color
+        (03), made of plastic (04).]</em></td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+
+  <h3>INPUT CONVENTIONS</h3>
+
+  <div class="description2">
+    <strong>Field length</strong> - For the category of material
+    <strong>globe</strong>, field 007 should consist of six
+    character positions.
+  </div>
+  <hr>
+
+  <h3>CONTENT DESIGNATOR HISTORY</h3>
+
+  <div class="font_small">
+    <br>
+    <em>007/01 - Specific material designation</em>
+
+    <div class="charactervaluehistory">
+      <em>d - Satellite globe (of our solar system), excluding
+      the earth moon [OBSOLETE, 1997] [CAN/MARC only]</em>
+    </div><br>
+    <em>007/02 - Original versus reproduction aspect [OBSOLETE,
+    1997] [USMARC only]</em>
+
+    <div class="description">
+      Defined codes were: f (Facsimile), o (Original), r
+      (Reproduction), and u (Unknown).
+    </div><br>
+    <em>007/03 - Color</em>
+
+    <div class="charactervaluehistory">
+      <em>b - Multicolored [OBSOLETE, 1982]</em>
+    </div><br>
+    <em>007/04 - Physical
+    medium</em>
+
+<!-- 
+    <div class="charactervaluehistory">
+      <em>e - Synthetic [REDEFINED,
+      2009]</em><br>
+      Prior to 2010 this code included plastic and vinyl in its
+      definition.
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>f - Skin [REDEFINED,
+      2009]</em><br>
+      Prior to 2010 this code included parchment, vellum, and
+      leather in its definition.
+    </div> -->
+
+    <div class="charactervaluehistory">
+      <em>i - Plastic [NEW, 2009]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>l - Vinyl [NEW, 2009]</em></span>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>n - Vellum [NEW, 2009]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>v - Leather [NEW, 2009]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>w - Parchment [NEW, 2009]</em>
+    </div>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd007.html">007</a>
+          &gt;&gt; <strong>007 (Globe)</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

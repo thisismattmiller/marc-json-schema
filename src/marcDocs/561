@@ -1,0 +1,290 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 561:
+         Ownership and Custodial History (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a> &gt;&gt;
+               <strong>561</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1>561 - Ownership and Custodial History (R)</h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">October 2010</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Privacy</em><br /><span># - No information provided</span><br /><span>0 - Private</span><br /><span>1 - Not private</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - History (NR)</li>
+                  <li>$u - Uniform Resource Identifier (R)</li>
+                  <li>$3 - Materials specified (NR)</li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$5 - Institution to which field applies (NR)</li>
+                  <li>$6 - Linkage (NR)</li>
+                  <li>$8 - Field link and sequence number (R)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Copy-specific field that contains information concerning the ownership and custodial history
+               				of the described materials from the time of their creation to the time of their accessioning,
+               				including the time at which individual items or groups of items were first brought together in
+               				their current arrangement or collation.
+            </p>
+         </div>
+         <div>
+            <p>The immediate source of acquisition is recorded in field 541 (Immediate Source of Acquisition
+               				Note).
+            </p>
+            <p>This field can also be used to record: 1) the owner's name and address when an item is located
+               				other than at the owner's address (the current location of an item is recorded in field 852
+               				(Location)); 2) the original site of a work when it was originally commissioned/installed at one
+               				site but was subsequently moved to another location (the current site is recorded in field 851);
+               				or 3) the last known owner/location when the work being described has been stolen or
+               				destroyed.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <p><strong>First Indicator - Privacy</strong></p>
+               <div>
+                  <p>Whether the contents of the field are private or not. The state of being private includes
+                     						information that institutions do not want to display to the public because it is sensitive or
+                     						restricted.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - No information provided</span><div>
+                        <p>No information is provided as to the privacy of the field contents.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>561</strong></td>
+                              <td colspan="9"><strong>##</strong><strong>$a</strong>Originally collected by Paul Jones and maintained by his nephew,
+                                 									John Smith after Jones' death. Purchased in 1878 by Henry Green, who added prints and
+                                 									drawings purchased at auctions in New York and Paris, 1878- 1893.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">0 - Private</span><div>
+                        <p>Field contains private information.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>561</strong></td>
+                              <td colspan="9"><strong>0#</strong><strong>$a</strong>From the collection of L. McGarry, 1948-1957.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">1 - Not private</span><div>
+                        <p>No private information in the field.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>561</strong></td>
+                              <td colspan="9"><strong>1#</strong><strong>$a</strong>Collated: 1845-1847.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <p><strong>Second Indicator - Undefined</strong></p>
+               <div>
+                  <p>Contains a blank (#).</p>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <p><strong>$a - History</strong> 
+               </p>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>561</strong></td>
+                        <td colspan="9"><strong>0#</strong><strong>$a</strong>From the collection of L. McGarry, 1948-1957.
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><strong>561</strong></td>
+                        <td colspan="9"><strong>##</strong><strong>$a</strong>On permanent loan from the collection of Paul Mellon.
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><strong>561</strong></td>
+                        <td colspan="9"><strong>##</strong><strong>$a</strong>The journal was discovered in a cellar in Nantes in 1837 and was
+                           								removed to the Abbey of St. Pierre, where it remained until 1887, when it was given to Gehan
+                           								Tourel...
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><strong>561</strong></td>
+                        <td colspan="9"><strong>1#</strong><strong>$a</strong>Collated: 1845-1847.
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><strong>561</strong></td>
+                        <td colspan="9"><strong>##</strong><strong>$a</strong>A. Brolemann (with his bookplate), Mme. Etienne Mallet (see item 2 in
+                           								the Society catalog of the Mallet sale, May 4-5, 1926), William Permain, W.R.
+                           								Hearst.
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            <div class="subfield">
+               <p><strong>$u - Uniform Resource Identifier</strong> 
+               </p>
+               <div>
+                  <p>Uniform Resource Identifier (URI), for example a URL or URN, which provides electronic
+                     						access data in a standard syntax. The data that is accessed by the URI contains additional
+                     						information about ownership and custodial history.
+                  </p>
+               </div>
+            </div>
+            <div class="subfield">
+               <p><strong>$3 - Materials specified</strong> 
+               </p>
+               <div>
+                  <p>Part of the described materials to which the field applies.</p>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>561</strong></td>
+                        <td colspan="9"><strong>##</strong><strong>$3</strong>Family correspondence<strong>$a</strong>Originally collected by Henry Fitzhugh, willed to his wife Sarah
+                           								Jackson Fitzhugh and given by her to her grandson Jonathan Irving Jackson, who collected
+                           								some further information about his grandmother and the papers of their relatives and
+                           								Cellarsville neighbors, the Arnold Fitzhugh's, before donating the materials along with his
+                           								own papers as mayor of Cellarsville to the Historical Society.
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+            <div class="subfield">
+               <p><strong>$5 - Institution to which field applies</strong> 
+               </p>
+               <div>
+                  <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                  </p>
+               </div>
+            </div>
+            <div class="subfield">
+               <p><strong>$6 - Linkage</strong> 
+               </p>
+               <div>
+                  <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                  </p>
+               </div>
+            </div>
+            <div class="subfield">
+               <p><strong>$8 - Field link and sequence number</strong> 
+               </p>
+               <div>
+                  <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Punctuation - </strong>Field 561 ends with a period unless another mark of punctuation is present. If the final
+				subfield is subfield $5, the mark of punctuation precedes that subfield.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div>
+            <p>This field was defined in 1983 when the scope of field 541 was restricted to information about
+               				the immediate source of acquisition. Field 541 in records created prior to 1984 may contain
+               				provenance data.
+            </p>
+         </div>
+         <div class="indicatorHistory"><em>Indicator 1 - Privacy [NEW, 2004]</em></div>
+         <div class="historySubfield">
+            <div><em>$b - Time of collation (NR) [OBSOLETE, 1997]</em><span><br /><span>Until subfield $a (History) was redefined in 1997 to include all details of
+					ownership and custodial history, the date of described materials were brought together in their
+					present form was recorded in subfield $b.</span></span></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$u - Uniform Resource Identifier (R) [NEW, 2010]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a> &gt;&gt;
+               <strong>561</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(05/31/2011)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

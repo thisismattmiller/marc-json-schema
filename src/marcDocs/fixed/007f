@@ -1,0 +1,397 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 007: Tactile Material 
+         					 (Network Development and MARC Standards Office, Library of
+         					Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the 007 for tactile material(Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-left:6em; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {margin-left:4em;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> 
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd007.html">007</a> &gt;&gt; <strong>007 (Tactile Material) </strong></div>
+      <hr><a name="skip_menu"></a><h1>007 - Tactile Material (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2001</div>
+      <hr><strong>Indicators and Subfield Codes</strong><div class="description">Field has no indicators or subfield codes; the data elements are positionally
+                  defined.
+      </div>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>Character Positions</strong><br>
+              <strong>00 - Category of material </strong><br>
+              f - Tactile material <br><br>
+              <strong>01 - Specific material designation </strong><br>
+              a - Moon <br>b - Braille <br>c - Combination <br>d - Tactile, with no writing system <br>u - Unspecified <br>z - Other <br>| - No attempt to code <br><br>
+              <strong>02 - Undefined </strong><br>
+              # - Undefined <br>
+              <br>
+              <strong>03-04 - Class of braille writing </strong><br>
+              # - No specified class of braille writing <br>a - Literary braille <br>b - Format code braille <br>c - Mathematics and scientific braille <br>d - Computer braille <br>e - Music braille <br>m - Multiple braille types <br>n - Not applicable <br>u - Unknown <br>z - Other <br>|| - No attempt to code <br><br>
+              <strong>05 - Level of contraction </strong><br>
+              a - Uncontracted <br>b - Contracted <br>m - Combination <br>n - Not applicable <br>u - Unknown <br>z - Other <br>| - No attempt to code</td>
+            <td width="45%"><br>
+              <strong>06-08 - Braille music format </strong><br>
+              # - No specified braille music format <br>a - Bar over bar <br>b - Bar by bar <br>c - Line over line <br>d - Paragraph <br>e - Single line <br>f - Section by section <br>g - Line by line <br>h - Open score <br>i - Spanner short form scoring <br>j - Short form scoring <br>k - Outline <br>l - Vertical score <br>n - Not applicable <br>u - Unknown <br>z - Other <br>||| - No attempt to code <br><br>
+              <strong>09 - Special physical characteristics </strong><br>
+              a - Print/braille <br>b - Jumbo or enlarged braille <br>n - Not applicable <br>u - Unknown <br>z - Other <br>| - No attempt to code <br><br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>When field 007/00 contains code f, it contains special coded information about the
+                     physical aspects of material that is intended to be read by touch.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> CHARACTER POSITIONS
+      </h4>
+      <div class="characterposition"><strong>00 - Category of material  </strong><div class="charactervalue"><strong>f - Tactile material</strong> <div class="description">One-character alphabetic code that indicates the category of material to which
+                                    the item belongs is <strong>tactile material</strong>. Used for material
+                                    intended to be read by touch. A fill character (|) is not allowed in this
+                                    position.
+            </div>
+         </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>01 - Specific material designation  </strong><div class="description">Special class of tactile materialspecific material to which the item belongs.</div>
+         <div class="charactervalue"><strong>a - Moon</strong> <div class="description">Tactile material is moon, which is an abstraction of the print.</div>
+         </div>
+         <div class="charactervalue"><strong>b - Braille</strong> <div class="description">Tactile material is in braille, which is a system of writing for the blind in
+                                    which letters, numerals, and punctuation are made of raised dots
+                                    distinguishable by the fingers.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Combination</strong> <div class="description">Item is a combination of two or more of the other defined types.</div>
+         </div>
+         <div class="charactervalue"><strong>d - Tactile, with no writing system</strong> <div class="description">Tactile material has no text and is only communicated as graphic, i.e. a raised
+                                    line diagram or drawing.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unspecified</strong> <div class="description">Special material designation for the tactile material is not specified.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other defined codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>02 - Undefined  </strong>
+         <div class="description">Contains blank (#) or a fill character (|).</div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>03-04 - Class of braille writing  </strong><div class="description">Family of braille to which the item belongs. This is not the particular braille
+                              code, but the type of braille code used, representing different types of written
+                              symbols. Up to two braille types may be indicated, or the cataloging agency can
+                              choose to encode only the predominate type. Multiple codes are coded in order of
+                              predominance, if any. If fewer than two codes are assigned, the codes are left
+                              justified and unused positions contain blanks (#).
+         </div>
+         <div class="description2">
+            <div class="description">Also coded to identify the class of braille writing used for the text labels of
+                                 cartographic or graphic items.
+            </div>
+         </div>
+         <div class="charactervalue"><strong># - No specified class of braille writing</strong> <div class="description">Item consists of fewer than two specified classes of braille writing.</div>
+         </div>
+         <div class="charactervalue"><strong>a - Literary braille</strong> <div class="description">Item consists of braille representation for the alphabet, numbers, and
+                                    punctuation marks commonly used in general writing.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - Format code braille</strong> <div class="description">Item consists of braille formatting rules for textbooks and related
+                                 materials.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Mathematics and scientific braille</strong> <div class="description">Item consists of braille representations for symbols employed in mathematics
+                                    and scientific writing.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>d - Computer braille</strong> <div class="description">Item consists of braille representations for symbols used in computer programs,
+                                    texts, and other computer related materials.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>e - Music braille</strong> <div class="description">Item consists of braille representations for symbols used in notated music.</div>
+         </div>
+         <div class="charactervalue"><strong>m - Multiple braille types</strong> <div class="description">Multiple types and no one type predominates.</div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Code n in both positions 03-04 indicates that this position is not used because
+                                    the item is not braille. Code # is also used for braille items in unused
+                                    positions.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Class of braille writing is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>|| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>05 - Level of contraction  </strong><div class="description">Whether contractions are used.</div>
+         <div class="description2">
+            <div class="description">Contractions are abbreviations consisting of one or more braille or Moon
+                                 characters to represent common letter combinations.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>a - Uncontracted</strong> <div class="description">Includes grade 1 braille.</div>
+         </div>
+         <div class="charactervalue"><strong>b - Contracted</strong> <div class="description">Includes Standard English braille, the code for contracted braille of the
+                                    Braille Authority of the United Kingdom and English Braille, American ed., the
+                                    code for contracted braille of the Braille Authority of North America.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>m - Combination</strong> <div class="description">Item is a combination of contracted and uncontracted.</div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Item is not braille or Moon.</div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Level of contraction is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>06-08 - Braille music format  </strong><div class="description">Three-character code that indicates the braille music format of the item. The
+                              music formats are the way measures, sections, parts, and related information, such
+                              as words, are presented in relation to each other. Up to three formats may be
+                              indicated, left justified in order of predominance. If fewer than three codes are
+                              assigned, the codes are left justified and unused positions contain blanks (#).
+                           
+         </div>
+         <div class="description2">
+            <div class="description">For example, the music format defines how the music for the right and left hand
+                                 are sequenced and related to each other in braille. Multiple formats are sometimes
+                                 employed in the same piece of music. For example, a vocal part and text are in one
+                                 format and the accompaniment is in another. 
+            </div>
+         </div>
+         <div class="charactervalue"><strong># - No specified braille music format</strong> <div class="description">Item uses fewer than three specified braille writing formats.</div>
+         </div>
+         <div class="charactervalue"><strong>a - Bar over bar</strong> <div class="description">Measures are displayed in units called parallels and that the beginning of each
+                                    part&#8217;s measure is vertically aligned with the beginning of the same measure for
+                                    the other part(s). This code is used chiefly for keyboard music.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>b - Bar by bar</strong> <div class="description">Music is displayed in indented paragraphs with all of the parts for each
+                                    measure written consecutively.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>c - Line over line</strong> <div class="description">Measures are displayed in parallels, but the measures are not necessarily
+                                    aligned.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>d - Paragraph</strong> <div class="description">Braille music is displayed in paragraphs with one part per paragraph.</div>
+         </div>
+         <div class="charactervalue"><strong>e - Single line</strong> <div class="description">Music is presented in segments of two to five lines, the initial line
+                                    displaying a measure number or rehearsal designation. This code is used for
+                                    single instrumental parts or solos. It is also called solo instrumental
+                                 format.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>f - Section by section</strong> <div class="description">Hand or part signs are prominent in the left margin.</div>
+         </div>
+         <div class="charactervalue"><strong>g - Line by line</strong> <div class="description">Lines of text alternate with lines of music for the preceding text.</div>
+         </div>
+         <div class="charactervalue"><strong>h - Open score</strong> <div class="description">Music is presented in parallels. Open score is similar to bar over bar, but
+                                    used for ensemble scores.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>i - Spanner short form scoring</strong> <div class="description">Chord symbols and melody are presented in paragraphs. It is used chiefly for
+                                    popular and folk music, but music braille is used for the chord symbols. Also
+                                    used to indicate that the music is in the Canadian melody chord system.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>j - Short form scoring</strong> <div class="description">Words, chord symbols, and melody are presented in parallels, and literary
+                                    braille is used for the chord symbols. It is used chiefly for popular and folk
+                                    music. This format is also referred to as the American or BANA short form
+                                    scoring format.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>k - Outline</strong> <div class="description">Music is in the outline format.</div>
+         </div>
+         <div class="charactervalue"><strong>l - Vertical score</strong> <div class="description">Parts are combined and written as chords.</div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Code n in all three positions 06-08 indicates that the item is not braille
+                                    music. Code # is also used for braille music items in unused positions.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Braille music format is not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other defined codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>||| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <div class="characterposition"><strong>09 - Special physical characteristics  </strong><div class="description">Other special physical characteristics about the braille.</div>
+         <div class="charactervalue"><strong>a - Print/braille</strong> <div class="description">Item is eye-readable print with braille interleaved or embossed.</div>
+         </div>
+         <div class="charactervalue"><strong>b - Jumbo or enlarged braille</strong> <div class="description">Item is jumbo or enlarged braille, which is used for braille students and
+                                    braille readers with reduced tactile sensitivity.
+            </div>
+         </div>
+         <div class="charactervalue"><strong>n - Not applicable</strong> <div class="description">Item is not braille.</div>
+         </div>
+         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Special physical characteristics are not known.</div>
+         </div>
+         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other codes is appropriate.</div>
+         </div>
+         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
+      </div>
+      <hr>
+      <h4><span class="box">&#9632;</span>EXAMPLES
+      </h4>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>007</strong></td>
+               <td vAlign="top" colspan="8" align="left">fb|a#bnnnu<br><em>[A monograph in English braille, American ed.]</em></td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>007</strong></td>
+               <td vAlign="top" colspan="8" align="left">fc|a#bnnnz<br><em>[A raised line map with Standard English braille labels.]</em></td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>007</strong></td>
+               <td vAlign="top" colspan="8" align="left">fb|eabac#z<br><em>[A braille score with piano part in bar over bar and vocal part in line by line
+                                       with text in English braille, American edition.]</em></td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>007</strong></td>
+               <td vAlign="top" colspan="8" align="left">fb|a#bnnna<br><em>[A print/braille (combined ink print and braille) book in English braille,
+                                       American ed. ]</em></td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>007</strong></td>
+               <td vAlign="top" colspan="8" align="left">fb|a#annnz<br><em>[A novel in grade 1 (uncontracted) braille.]</em></td>
+            </tr>
+         </table>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Field length</strong> - For the category of material <strong>tactile material</strong>, field 007 should consist
+                     of ten character positions.
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd007.html">007</a> &gt;&gt; <strong>007 (Tactile Material) </strong></div> 
+               (02/12/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 222:
+         						Key Title (Network Development and MARC Standards
+         					Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the key title (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a> &gt;&gt; <strong>222</strong></div>
+      <hr><a name="skip_menu"></a><h1>222 - Key Title (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2003</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Nonfiling characters</em><br>0 - No nonfiling characters <br>1-9 - Number of nonfiling characters <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Key title (NR) <br>$b - Qualifying information (NR)</td>
+            <td colspan="1">$6 - Linkage (NR) <br>$8 - Field link and sequence number (R)</td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Unique title for a continuing resource that is assigned in conjunction with an ISSN
+         recorded in field 022 by national centers under the auspices of the ISSN Network.
+      </p>
+      <p>A note formatted as <em>ISSN [number] = [Key Title]</em> may be generated from data in
+                     field 022 (International Standard Serial Number) and field 222.
+      </p>
+      <p>Formed from title information transcribed from a piece of the continuing resource and is
+                     constructed with qualifiers to make it unique when necessary.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
+            </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Nonfiling characters</strong> <div class="description">Number of character positions associated with a definite or indefinite article
+                              (e.g., Le, An) at the beginning of a title that are disregarded in sorting and
+                              filing processes.
+            <div class="indicatorvalue"><strong>0 - No nonfiling characters</strong> <div class="description">No initial article character positions are disregarded.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>222</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Viva<strong>$b</strong>(New York)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>222</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Causes of death
+                           </td>
+                        </tr>
+                     </table>
+                  </div>Diacritical marks or special characters at the beginning of a key title field
+                                       that does not begin with an initial article are not counted as nonfiling
+                                       characters.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>222</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>&Ouml;sterreich in Geschichte und
+                                                      Literatur
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1-9 - Number of nonfiling characters</strong> <div class="description">Title begins with a definite or indefinite article that is disregarded in
+                                       sorting and filing processes. Any diacritical mark, space or mark of
+                                       punctuation associated with the article and any space or mark of punctuation
+                                       preceding the first filing character is included in the count of nonfiling
+                                       characters. Any diacritic, however, associated with the first filing character
+                                       is <u>not</u> included in the count of nonfiling characters.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>222</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>#4</strong><strong>$a</strong>The Sourdough
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>222</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>#4</strong><strong>$a</strong>Der &Ouml;ffentliche Dienst<strong>$b</strong>(K&ouml;ln)
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Key title</strong> <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>222</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>101 gardening and outdoor ideas
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">00$aWoman's day 101 gardening and outdoor
+                                          ideas.
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>222</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Journal of polymer science. Part B. Polymer
+                                          letters
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">00$aJournal of polymer science.$nPart B,$pPolymer letters.</td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>222</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#4</strong><strong>$a</strong>The Worldwide art catalogue bulletin. American library
+                                             edition
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">04$aThe Worldwide art catalogue bulletin.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">250</td>
+                  <td vAlign="top" colspan="9" align="left">##$aAmerican library edition</td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Qualifying information</strong> <div class="description">Parenthetical information that that qualifies the title to make it unique.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>222</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Economic education bulletin<strong>$b</strong>(Great Barrington)
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">00$aEconomic education bulletin.</td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>222</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>#0</strong><strong>$a</strong>Russian history<strong>$b</strong>(Pittsburgh)
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">245</td>
+                  <td vAlign="top" colspan="9" align="left">00$aRussian history.</td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Field 222 does not end with a mark of punctuation unless the last word in the field is
+                     an abbreviation or closing parenthesis. See also subfield descriptions for punctuation
+                     information.
+      </div>
+      <div class="description2"><strong>Display Constant</strong>
+        <div class="table">
+            <table>
+               <tr>
+                  <td valign="top" align="left">ISSN <em>[number]</em> = <em>[Key Title]</em></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left"><em>or</em></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">Key title: <em>[title]</em>, ISSN <em>[number]</em></td>
+               </tr>
+            </table>
+         </div>Formatted note combining the key title with the ISSN and an indication of the cataloging
+                     rules is not carried in the MARC record as such. It may be system generated as a display
+                     constant from data in field 022 (International Standard Serial Number), field 222, and
+                     the value in Leader/18 (Descriptive cataloging form).
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>Indicator 1 - Specifies whether variant title and/or added entry is required (CF, SE) [OBSOLETE, 1990]</em><br>First indicator was originally defined to specify whether the key title was the same
+                        or a variant of the title proper in field 245 and was used by LC to generate or
+                        suppress the 245 title in records sent to the International ISSN Center: 0 (Key title
+                        is same as field 245), 1 (Key title is not the same as field 245). In 1977 this
+                        indicator was redefined to indicate whether an added entry was needed in addition to
+                        whether the title was a variant, and values 2 and 3 were defined. The four values
+                        were: 0 (No key title added entry; title proper same), 1 (Key title added entry;
+                        title proper different), 2 (Key title added entry; title proper same), 3 (No key
+                        title added entry; title proper different). In 1990 the first indicator was made
+                        obsolete.
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a> &gt;&gt; <strong>222</strong></div> (02/21/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

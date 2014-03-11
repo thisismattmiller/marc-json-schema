@@ -1,0 +1,315 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 052: Geographic Classification (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the geographic classification (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>052</strong></div>
+      <hr><a name="skip_menu"></a><h1>052 - Geographic Classification (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2002</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Code source</em><br># - Library of Congress Classification <br>1 - U.S. Dept. of Defense Classification <br>7 - Source specified in subfield $2 <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Geographic classification area code (NR) <br>$b - Geographic classification subarea code (R) <br>$d - Populated place name (R) <br></td>
+            <td colspan="1">$2 - Code source (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Geographic classification code that represents the geographic area and, if applicable,
+         the geographic subarea and populated place name covered by an item.
+      </p>
+      <p>Code can provide more precise geographic access than the codes contained in field 043
+         (Geographic Area Code). Each main geographic area code and any related subarea codes
+                     associated with the item are contained in a separate 052 field. Subfield $d
+                     (Populated Place Name) may contain the name of the geographic area.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Code source</strong> <div class="description">Code source in subfield $a and information in the other subfields.
+            <div class="indicatorvalue"><strong># - Library of Congress Classification</strong> <div class="description">Geographic classification code is derived from the <em>Library of Congress
+                                             Classification-Class G</em> and expanded Cutter number lists for place
+                                       names. The geographic classification code contains a four to six-character
+                                       numeric code that consists of the appropriate classification number from the
+                                       range G3190-G9980 by dropping the letter G. Cutter numbers for place names in
+                                       the United States are also published in <em>Geographic Cutters</em>. The
+                                       Library of Congress maintains the <em>Library of Congress Classification,
+                                             Geographic Cutters</em>, and the Cutter number lists.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - U.S. Dept. of Defense Classification</strong> <div class="description">Code is from the U.S. Department of Defense Classification system.</div>
+            </div>
+            <div class="indicatorvalue"><strong>7 - Source specified in subfield $2</strong> <div class="description">Number is taken from a classification system other than that specified by one
+                                       of the other defined indicator values and for which an identifying source code
+                                       is given in subfield $2.
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
+            </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Geographic classification area code</strong> <div class="description">Numeric or alphanumeric code that represents the main geographic area covered by an item.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aNew York (State)$vMaps.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aNew Jersey$vMaps.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>052</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>3800
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>052</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>3810
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aBosnia and Hercegovina$vMaps.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>052</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>BK
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Geographic classification subarea code</strong> <div class="description">Geographic subarea code related to the geographic area coded in subfield $a. </div>
+         <div class="description2">
+            <div class="description">Each geographic subarea code is contained in a separate subfield $b.
+                                 Subfield $b may be repeated for subareas falling within a main area
+                                 with the same code.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aRichmond (Tex.)$vMaps.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aRosenberg (Tex.)$vMaps.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aFort Bend County (Tex.)$vMaps.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>052</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>4034<strong>$b</strong>R4<strong>$b</strong>R8
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>052</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>4033<strong>$b</strong>F65
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aVirginia$xMaps.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>052</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>US<strong>$b</strong>51
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$d - Populated place name</strong> <div class="description">Approved form of name for a populated place.</div>
+         <div class="description2">
+            <div class="description">In the case of a name established by the U.S. Board on Geographic Names, if a
+                                 short form of the name has been approved, that form is used in preference to the
+                                 full form of name.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">651</td>
+                  <td vAlign="top" colspan="9" align="left">#0$aMostar (Bosnia and Hercegovina)$vMaps.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>052</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>BK<strong>$d</strong>Mostar
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$2 - Code source</strong> <div class="description">MARC code for the source of the geographic classification. Code from: <em><a href="http://www.loc.gov/standards/sourcelist/classification.html">Classification Scheme Source Codes</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Period that usually precedes a Cutter number is omitted in subfield $b. Field
+                     052 does not end with a period.
+      </div>
+      <div class="description2"><strong>Capitalization</strong> - Alphabetic characters are recorded in uppercase.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>Indicator 1 - Code source [NEW, 2000]</em><br>Records created prior to 2000 may contain a code # meaning <em>undefined.</em><em><br>
+      0 - U.S. Dept. of Defense Classification [OBSOLETE, 2002]</em><br>
+      First indicator value 0 (U.S. Dept. of Defense Classification) was made obsolete.
+                        Value 1 was defined as U.S. Dept. of Defense Classification to replace it.<br>
+                        <br><em>$c - Subject (MP) [OBSOLETE]</em><br>Subfield $c was made obsolete in the maps specifications in 1980. Subject
+                        content descriptors are contained in the 6XX fields.
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>052</strong></div> (02/20/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

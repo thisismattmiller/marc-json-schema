@@ -1,0 +1,2379 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 008:
+         All Materials (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt;
+               <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
+               <strong>008 (All Materials)</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>008</span> - <span>All Materials</span> (NR)
+      </h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2011</div>
+      <hr />
+      <h4>Indicators and Subfield Codes</h4>
+      <div class="wildcard">
+         <div>
+            <p>This field has no indicators or subfield codes; the data elements are positionally
+               defined.
+            </p>
+         </div>
+      </div>
+      <table width="100%" class="characterPositions">
+         <tr>
+            <td width="45%"><strong>Character Positions</strong></td>
+            <td width="45%"></td>
+         </tr>
+         <tr>
+            <td colspan="2"><span><strong>00-05 - Date entered on file</strong></span></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>06 - Type of date/Publication status</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>b - No dates given; B.C. date involved</dd>
+                  <dd>c - Continuing resource currently published</dd>
+                  <dd>d - Continuing resource ceased publication</dd>
+                  <dd>e - Detailed date</dd>
+                  <dd>i - Inclusive dates of collection</dd>
+                  <dd>k - Range of years of bulk of collection</dd>
+                  <dd>m - Multiple dates</dd>
+                  <dd>n - Dates unknown</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>p - Date of distribution/release/issue and production/recording session when
+                     different
+                  </dd>
+                  <dd>q - Questionable date</dd>
+                  <dd>r - Reprint/reissue date and original date</dd>
+                  <dd>s - Single known date/probable date</dd>
+                  <dd>t - Publication date and copyright date</dd>
+                  <dd>u - Continuing resource status unknown</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>07-10 - Date 1</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>1-9 - Date digit</dd>
+                  <dd># - Date element is not applicable</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>u - Date element is totally or partially unknown</dd>
+                  <dd>|||| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>11-14 - Date 2</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>1-9 - Date digit</dd>
+                  <dd># - Date element is not applicable</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>u - Date element is totally or partially unknown</dd>
+                  <dd>|||| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>15-17 - Place of publication, production, or execution</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>xx# - No place, unknown, or undetermined</dd>
+                  <dd>vp# - Various places</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>[aaa] - Three-character alphabetic code</dd>
+                  <dd>[aa#] - Two-character alphabetic code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>18-34 - Material specific coded elements</strong></span></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>35-37 - Language</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>### - No information provided</dd>
+                  <dd>zxx - No linguistic content</dd>
+                  <dd>mul - Multiple languages</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>sgn - Sign languages</dd>
+                  <dd>und - Undetermined</dd>
+                  <dd>[aaa] - Three-character alphabetic code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>38 - Modified record</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Not modified</dd>
+                  <dd>d - Dashed-on information omitted</dd>
+                  <dd>o - Completely romanized/printed cards romanized</dd>
+                  <dd>r - Completely romanized/printed cards in script</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>s - Shortened</dd>
+                  <dd>x - Missing characters</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>39 - Cataloging source</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - National bibliographic agency</dd>
+                  <dd>c - Cooperative cataloging program</dd>
+                  <dd>d - Other</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>u - Unknown</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Field 008 character positions 00-17 and 35-39 are defined the same for field 008 in the
+               MARC 21 bibliographic format, regardless of record type. The definition of field 008
+               character positions 18-34 varies according to the Type of record code in Leader/06 and
+               Bibliographic level code in Leader/07. Certain data elements are defined the same in
+               more than one 008 field configuration. When similar data elements are defined for
+               inclusion in a field 008 for different record types/bibliographic level, they generally
+               occupy the same field 008 character positions.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> CHARACTER POSITIONS
+         </h4>
+         <div class="characterPositions">
+            <div><strong>00-05 - Date entered on file</strong><div></div>
+               <div>
+                  <p>Computer-generated, six-character numeric string that indicates the date the MARC
+                     record was created. Recorded in the pattern <em>yymmdd</em>.
+                  </p>
+               </div>
+               <div>
+                  <p>Pattern <em>yymmdd</em> is <em>yy</em> for the year, <em>mm</em> for the month,
+                     and <em>dd</em> for the day. The date entered on file in 008/00-05 is never
+                     changed. The date and time of latest transaction information in field 005 changes
+                     each time a transaction is made to the record. The latest transaction information
+                     enables an organization handling more than one version of a record to identify the
+                     most current version. The fill character (|) is not allowed in any of these
+                     positions. Field 008/00-05 is usually system generated.
+                  </p>
+               </div>
+            </div>
+            <hr />
+            <div><strong>06 - Type of date/Publication status</strong><div>
+                  <p>One-character alphabetic code that indicates the type of dates
+                     given in 008/07-10 (Date 1) and 008/11-14 (Date 2). For continuing resources, the
+                     code in 008/06 also indicates the publication status.
+                  </p>
+                  <p>The choice of code for 008/06 is made concurrently with a determination of the
+                     appropriate dates for 008/07-14. For most records data is derived from information
+                     in field 260 (Publication, Distribution, etc. (Imprint)), field 264 (Production, Publication, 
+                     Distribution, Manufacture, and Copyright Notice), field 362 (Dates of Publication and/or 
+                     Sequential Designation), or from note fields.
+                  </p>
+               </div>
+               <div>
+                  <p>Dates are represented by four digits. Missing digits in the date are represented
+                     by the character <em>u</em>.
+                  </p>
+                  <p>For continuing resources, 008/07-10 contain the beginning date of publication
+                     (chronological designation) and 008/11-14 contain the ending date. For reprints of
+                     serials and for reproductions of serials being described in the body of the entry,
+                     the beginning and ending dates of the original are input in these character
+                     positions.
+                  </p>
+                  <p><strong>Precedence of codes (monographic items)</strong> - When more than one code
+                     applies to a bibliographic item, use the table below to determine the appropriate
+                     code to use. The codes listed first take precedence over codes listed
+                     subsequently. The left column covers single part items and multipart items
+                     completed in one year. The right column covers multipart items for which a span of
+                     dates is required.
+                  </p>
+                  <div class="table">
+                     <table>
+                        <tr>
+                           <th><strong>Single part/multipart items<br /> complete in one year</strong></th>
+                           <th><strong>Collections/multipart items complete <br />in more than one yearÂ </strong></th>
+                        </tr>
+                        <tr>
+                           <td>
+                              <ul class="nomark">
+                                 <li>b - B.C. date</li>
+                                 <li>r - Reprint/original date</li>
+                                 <li>e - Detailed date</li>
+                                 <li>s - Single date</li>
+                                 <li>p - Distribution/production date</li>
+                                 <li>t - Publication date and copyright date</li>
+                                 <li>q - Questionable date</li>
+                                 <li>n - Unknown date</li>
+                              </ul>
+                           </td>
+                           <td>
+                              <ul class="nomark">
+                                 <li>b - B.C. date</li>
+                                 <li>i - Inclusive date</li>
+                                 <li>k - Range of dates</li>
+                                 <li>r - Reprint/original date</li>
+                                 <li>m - Initial/terminal date</li>
+                                 <li>t - Publication date and copyright date</li>
+                                 <li>n - Unknown date</li>
+                              </ul>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <p><strong>Legal characters</strong> - Date 1 and Date 2 each usually consist of four
+                     digits (e.g., 1963). When part of the date is unknown, missing digits are
+                     represented by the character <em>u</em> (e.g., "19??" would be recorded as
+                     <em>19uu</em>). If the date is totally unknown, the millennium may be inferred
+                     (e.g., <em>1uuu</em>). For Common Era (C.E.) dates of the first millennium, the
+                     year is right justified and unused positions contain zeros (e.g., "946 A.D." would
+                     be recorded as <em>0946</em>). When Date 1 or Date 2 is not applicable, such as
+                     when Before Common Era (B.C.) dates are involved, blanks are used (e.g.,
+                     <em>####</em>). For active serials (i.e., when the serial has not ceased
+                     publication) and incomplete multipart nonserial items, the date in 008/11-14 is
+                     represented by <em>9999</em> to indicate that the year is not yet available. The
+                     fill character (|) may also be used in 008/06-14 when no attempt has been made to
+                     code dates, but its use in 008/07-10 is discouraged. Many MARC-based systems rely
+                     on non-fill characters in 008/07-10 for retrieval and duplicate detection. When
+                     fill is used in either 008/07-10 or 008/11-14, it should be used in all four
+                     character positions, thus a combination of fills and any other character in either
+                     of these positions should never occur.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - No dates given; B.C. date involved</span><div>
+                        <p>One or more dates associated with the item are Before Common Era (B.C.) dates.
+                           B.C. date information can be specifically coded in field 046 (Special Coded
+                           Dates).
+                        </p>
+                     </div>
+                     <div>
+                        <p>Each character position in fields 008/07-10 and 008/11-14 contains a blank.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">b</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">####</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">####</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$c[150-100 B.C.]</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Continuing resource currently published</span><div>
+                        <p>Currently published is defined as an item for which an issue has been received
+                           within the last three years.
+                        </p>
+                     </div>
+                     <div>
+                        <p>008/07-10 contain the beginning date of publication; 008/11-14 contain the
+                           characters <em>9999</em>.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1984</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">9999</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aNew York :$bXerox Films,$c1984-</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1953</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">9999</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aChicago :$bUniversity of Chicago Press,</td>
+                           </tr>
+                           <tr>
+                              <td>362</td>
+                              <td colspan="9">1#$aBegan with vol. for 1953.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">195u</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">9999</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aDescription based on: Vol. 2, no. 2 (Feb.
+                                 1956).<em><span><br /><span>[Date of first issue is unknown.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">19uu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">9999</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aNew York :$bWiley Interscience,</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aDescription based on: 1981.<em><span><br /><span>[Date of first issue is unknown but can be estimated.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1uuu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">9999</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aNew York :$bDoubleday,</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aDescription based on: 1901.<em><span><br /><span>[Date of first issue is unknown and cannot be estimated.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Continuing resource ceased publication</span><div>
+                        <p>New issues of a continuing resource have ceased to be published or that a
+                           change in author or title has caused a successive entry record to be created.
+                           When a new title supersedes a previously existing one, the earlier title is
+                           considered <em>dead</em> and coded d in field 008/06. An item is considered to
+                           have ceased publication only when there is clear evidence that it has.
+                           Generally, a period of more than three years during which no new issue of a
+                           continuing resource has been published is considered evidence that it has
+                           ceased publication.
+                        </p>
+                     </div>
+                     <div>
+                        <p>008/07-10 contain the beginning date of publication; 008/11-14 contain the date
+                           the item ceased to be published.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">d</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1928</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1941</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aBerlin :$bVZG,$c1928-1941.</td>
+                           </tr>
+                           <tr>
+                              <td>362</td>
+                              <td colspan="9">0#$aVol. 1, no. 1 (Feb. 1928)-v. 14, no. 2 (Feb.
+                                 1941).
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">d</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1uuu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1958</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aNew York :$bAmerican Statistical Association,$c -1959.</td>
+                           </tr>
+                           <tr>
+                              <td>362</td>
+                              <td colspan="9">0#$a -1958.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">d</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">19uu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1929</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aBoston :$bThe Society,$c -1929.<em><span><br /><span>[Beginning date is unknown but can be estimated.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">d</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1945</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">19uu</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aChicago :$bThe Association,$c1945-</td>
+                           </tr>
+                           <tr>
+                              <td>515</td>
+                              <td colspan="9">##$aNo more published?<em><span><br /><span>[Ending date is unknown but can be estimated.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">e - Detailed date</span><div>
+                        <p>Detailed date which contains the month (and possibly the day) in addition to
+                           the year is present.
+                        </p>
+                     </div>
+                     <div>
+                        <p>008/07-10 contain the year and 008/11-14 contain the month and day formatted
+                           <em>mmdd</em>.
+                        </p>
+                     </div>
+                     <div>
+                        <p>If the day is unknown, <em>uu</em> is used; if the detail on the item indicates
+                           only the month, blanks are used. For <strong>visual materials</strong>, this
+                           code may be used with televised material to give the date of the original
+                           broadcast.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">e</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1983</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">0615</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aWashington, D.C. :$bDept. of Commerce,$cJune 15, 1983.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">e</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1977</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">05##</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$cMay 1977.<em><span><br /><span>[Day is not applicable because the publication is identified by month
+                                          only.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">e</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1976</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">11uu</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aU.S. :$bTriangle Film Corp.,$cNov. 1976.<em><span><br /><span>[Day of month is unknown.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">i - Inclusive dates of collection</span><div>
+                        <p>008/07-10 and 008/11-14 contain the inclusive dates applicable to a collection.
+                           If the inclusive dates are represented by a single year, that date is given in
+                           both places. A collection, whether or not it consists of individually published
+                           items, is not considered to exist in a published form. Multipart items are not
+                           treated as a collection (see code m).
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">i</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1765</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1770</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$c1765-1770.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">i</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">18uu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1890</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$c18--?-1890.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">i</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1988</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1988</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$c1988.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">k - Range of years of bulk of collection</span><div>
+                        <p>008/07-10 and 008/11-14 contain the range of years applicable to most of the
+                           material in a collection. If the bulk dates are represented by only a single
+                           year, that date is given in both places. A collection, whether or not it
+                           consists of individually published items, is not considered to exist in a
+                           published form. Multipart items are not treated as a collection (see code
+                           m).
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">k</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1796</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1896</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$c1796-1896.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">k</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1854</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1854</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$c1854.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">m - Multiple dates</span><div>
+                        <p>008/07-10 and 008/11-14 contain the range of years of publication of a
+                           multipart item. If both dates for a multipart item are represented by a single
+                           year, then code s is used. The code is also used for a single part unpublished
+                           item that has been executed over a period of time, such as a painting.
+                        </p>
+                     </div>
+                     <div>
+                        <p>008/07-10 usually contain the initial (or beginning) date and 008/11-14 the
+                           terminal (or ending) date.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">m</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1972</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1975</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aParis :$bÃditions du Cerf,$c1972-1975.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">m</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">uuuu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1981</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aBoston :$bMacmillan,$c -[1981]<em><span><br /><span>[Multipart item for which the earliest volume is not held.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">m</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">197u</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1987</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aParis :$bHachette,$c[197-]-1987.<em><span><br /><span>[Multipart item for which the publication date of the first volume is
+                                          uncertain.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">m</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1943</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">197u</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aNew York :$bDover,$c1943-[197-?]<em><span><br /><span>[Multipart item for which the publication date of the last volume is
+                                          uncertain.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">m</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1943</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1945</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aLondon :$bGollancz,$c1943-1945.<em><span><br /><span>[Single part item for which the publication date spans more than one
+                                          year.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">m</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1998</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">9999</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aBrescia : $bLa scuola,$c&lt;c1998- &gt;<em><span><br /><span>[Multipart item for which the publication date is ongoing.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">n - Dates unknown</span><div>
+                        <p>Dates appropriate for 008/07-10 and 008/11-14 are unknown, (e.g., when no dates
+                           are given in field 260).
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">n</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">uuuu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">uuuu</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$a[Spain]</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">n</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">uuuu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">uuuu<em><span><br /><span>[Naturally occurring object; field 260 is not present in the record.]
+                                          </span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">p - Date of distribution/release/issue and production/recording session when
+                        different</span><div>
+                        <p>Both a date of distribution/release/issue (008/07-10) and a date of
+                           production/recording (008/11-14) are present because there is a difference
+                           between the two dates. For <strong>computer files</strong>, code p is used when
+                           there is a difference between the date the file first became operational for
+                           analysis and processing in machine-readable form (i.e., production date) and
+                           the date the file became available to the public, usually through an
+                           established agency (i.e., distribution date). For moving images, if a work with
+                           identical content but in a different medium has a later release date than the
+                           original work, code p is used (e.g., a videorecording released in 1978 that was
+                           originally produced as a motion picture in 1965).
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">p</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1982</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1967</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aWashington :$bU.S. Navy Dept.,$c1967 :$bDistributed by National Audiovisual Center,$c1982.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">q - Questionable date</span><div>
+                        <p>Exact date for a single date item is not known but a range of years for the
+                           date can be specified (e.g., between 1824 and 1846).
+                        </p>
+                     </div>
+                     <div>
+                        <p>Earliest possible date is given in 008/07-10; latest possible date in
+                           008/11-14.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">q</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1963</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1966</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aNew York :$bHippocrene Books,$c[between 1963 and 1966]</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">q</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">18uu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">19uu</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aAmsterdam :$bElsevier,$c[19th and early 20th century]<em><span><br /><span>[Decade is unknown for both earliest and latest date.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">r - Reprint/reissue date and original date</span><div>
+                        <p>008/07-10 contain the date of reproduction or reissue; 008/11-14 contain the
+                           date of the original, if known. 008/11-14 contain code u ("uuuu"), if
+                           unknown.
+                        </p>
+                     </div>
+                     <div>
+                        <p>If multiple dates are available for the original publication, 008/11-14 contain
+                           the earlier date. With original photographic material, the work being described
+                           would be a later photoprint made from an earlier created photonegative. With
+                           original prints, the work being described would be a restrike made from the
+                           (usually deceased) artist's earlier-created plate or block.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">r</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1983</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1857</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aBoston :$b[s.n.,$c1983?]</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aOriginal version: Pittsburg, Pa. : W'm Schuchman
+                                 &amp; Bro. Lith., [1857].
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">r</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1966</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">uuuu</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aReprinted from Green Howard's
+                                 Gazette.<em><span><br /><span>[Original date of publication is unknown.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">r</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">uuuu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1963</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aNew York :$b[s.n.,$cn.d.]</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aPreviously published in 1963.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">s - Single known date/probable date</span><div>
+                        <p>Date consists of one known single date of distribution, publication, release,
+                           production, execution, writing, or a probable date that can be represented by
+                           four digits. The single date associated with the item may be actual,
+                           approximate, or conjectural (e.g., if the single date is uncertain). Code s is
+                           also used for a single unpublished item such as an original or historical
+                           graphic when there is a single date associated with the execution of the
+                           item.
+                        </p>
+                     </div>
+                     <div>
+                        <p>008/07-10 contain the date; 008/11-14 contain blanks (####).</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">s</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1977</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">####</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aWashington :$bDept. of State,$c1977.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">s</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1981</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">####</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$a[Darmstadt] :$bTetzlaff,$c1980 [i.e. 1981]</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">s</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1969</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">####</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aLondon :$bHarcourt, World &amp; Brace,$c[1969?]</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">s</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1983</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">####</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$a[Yerushalayim :$bE. Fisher,$c744 i.e. 1983 or 1984]<em><span><br /><span>[Non-Gregorian dates with no single Gregorian equivalent.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">s</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1946</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">####</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aBerlin :$b[s.n.,$cca. 1946]</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">s</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">198u</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">####</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aNew York :$bHaworth,$c[198-]</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">s</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">19uu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">####</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aNew York :$bS.R.A.,$c[19--]</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div>
+                        <p>Span of dates associated with a single item of uncertain date is coded as
+                           questionable (code q). Multiple certain dates needed for a single item are
+                           coded as multiple dates (code m). Single or multiple dates associated with a
+                           collection are coded as either bulk dates (code k) or inclusive dates (code
+                           i).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">t - Publication date and copyright date</span><div>
+                        <p>Date of publication/release/production/execution is present in 008/07-10 and a
+                           copyright notice date or phonogram copyright notice date is present in 008/11-14. 
+                           Deposit dates (i.e., those preceded by "D.L." (<em>DÃ©pot lÃ©gal</em>), etc.) may be
+                           treated as copyright dates.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">t</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1982</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1949</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aLondon :$bMacmillan,$c1982, c1949.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">t</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">2002</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">2001</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aNew York :$bEpic,$c2002, p2001.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">t</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">198u</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">1979</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aRio de Janeiro :$bDelta,$c[198-?], c1979.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Continuing resource status unknown</span><div>
+                        <p>Used for continuing resources when there is no clear indication that
+                           publication of the item has ceased.
+                        </p>
+                     </div>
+                     <div>
+                        <p>008/07-10 contain a beginning date of publication; 008/11-14 contain the
+                           characters <em>uuuu</em> since no ending date is known.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">u</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1948</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">uuuu</td>
+                           </tr>
+                           <tr>
+                              <td>362</td>
+                              <td colspan="9">0#$a1948-</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">u</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">19uu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">uuuu</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aDescription based on: 1983.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/06</strong></td>
+                              <td colspan="9">u</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/07-10</strong></td>
+                              <td colspan="9">1uuu</td>
+                           </tr>
+                           <tr>
+                              <td><strong>008/11-14</strong></td>
+                              <td colspan="9">uuuu<em><span><br /><span>[No information is contained in the source record.] </span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>07-10 - Date 1</strong><div>
+                  <p>A date specified by the code in 008/06 (Type of date/Publication status).</p>
+               </div>
+               <div>
+                  <p>Determination of dates for 008/07-10 is made concurrently with the choice of code
+                     for 008/06. See the section above on 008/06 for examples and input conventions
+                     related to coded date information. The use of fill characters in 008/07-10,
+                     although possible, is discouraged since the data in Date 1 is used for retrieval
+                     and duplicate detection in many systems. When fill is used in 008/07-10, all four
+                     positions must contain the fill character.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">1-9 - Date digit</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Date element is not applicable</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Date element is totally or partially unknown</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">|||| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>11-14 - Date 2</strong><div>
+                  <p>A date specified by the code in 008/06 (Type of date/Publication status).</p>
+               </div>
+               <div>
+                  <p>Determination of dates for 008/11-14 is made concurrently with the choice of code
+                     for 008/06. See the section above on 008/06 for examples and input conventions
+                     related to coded date information. Four fill characters (||||) are used when no
+                     attempt has been made to code these character positions.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">1-9 - Date digit</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Date element is not applicable</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Date element is totally or partially unknown</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">|||| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>15-17 - Place of publication, production, or execution</strong><div>
+                  <p>Two- or three-character alphabetic code that indicates the place of publication,
+                     production, or execution. Place code is an authoritative-agency data element. Code
+                     from: <em><a href="http://www.loc.gov/marc/countries/">MARC Code List for Countries</a></em>. Choice of a MARC code is generally related to information in field 260
+                  (Publication, Distribution, etc. (Imprint)). The code recorded in 008/15-17 is
+                  used in conjunction with field 044 (Country of Producer Code) when more than one
+                  code is appropriate to an item. The first code in subfield $a of field
+                  044 is recorded in 008/15-17. Three fill characters (|||) may be used in place of
+                  a valid code, but their use in 008/15-17 is discouraged. The data in this field
+                  008 data element is used for retrieval and duplicate detection in many systems.
+                  When fill is used in 008/15-17, all three positions must contain the fill
+                  character.
+                  </p>
+               </div>
+               <div>
+                  <p>Two-character codes are left justified and the unused position contains a blank
+                     (#). For items reprinted in the original print size, the code is based on the
+                     jurisdiction where the reprint was published and not on the jurisdiction
+                     associated with the original place of publication. 
+                  </p>
+                  <p>For <strong>sound recordings</strong>, the code represents the place where the
+                     recording company is located. For <strong>still images</strong> that are original
+                     or historical graphics, if geographic information can be deduced (as with some
+                     photographs), a place code is recorded in this character position. For
+                     <strong>archival moving images</strong>, the code represents the country of
+                     producing entity from field 257. For mass-produced
+                     <strong>videorecordings</strong>, the code represents the place of publication in
+                     field 260 (Publication, Distribution, etc. (Imprint)).
+                  </p>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>008/15-17</strong></td>
+                        <td colspan="9">cau</td>
+                     </tr>
+                     <tr>
+                        <td>044</td>
+                        <td colspan="9">##$acau$afr$asp$agw</td>
+                     </tr>
+                     <tr>
+                        <td>260</td>
+                        <td colspan="9">##$aBurbank, Calif. :$bColumbia Tristar Home Video,$cc1996.<em><span><br /><span>[Video published in California of a film co-produced in France, Spain and Germany]</span></span></em></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>008/15-17</strong></td>
+                        <td colspan="9">nyu</td>
+                     </tr>
+                     <tr>
+                        <td>260</td>
+                        <td colspan="9">##$a[New York ] :$bGardner &amp; Co.,$cc1899.</td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>008/15-17</strong></td>
+                        <td colspan="9">nyu</td>
+                     </tr>
+                     <tr>
+                        <td>245</td>
+                        <td colspan="9">00$a[Portrait of Cyrus Patten] /$cAnson, New York.</td>
+                     </tr>
+                     <tr>
+                        <td>260</td>
+                        <td colspan="9">##$c1852.<em><span><br /><span>[A single unpublished graphic item.] </span></span></em></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>008/15-17</strong></td>
+                        <td colspan="9">xx#</td>
+                     </tr>
+                     <tr>
+                        <td>245</td>
+                        <td colspan="9">00$aVanity Fair /$cF. Depero.</td>
+                     </tr>
+                     <tr>
+                        <td>260</td>
+                        <td colspan="9">##$c1930.<em><span><br /><span>[An unpublished graphic item where geographic information cannot be
+                                    deduced.]</span></span></em></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>008/15-17</strong></td>
+                        <td colspan="9">ja#</td>
+                     </tr>
+                     <tr>
+                        <td>260</td>
+                        <td colspan="9">##$aTokyo :$cShobido &amp; Co.,$c1919.<em><span><br /><span>[A collection consisting wholly of published items.]</span></span></em></td>
+                     </tr>
+                  </table>
+               </div>
+               <div>
+                  <p>When the place of publication/production/execution is totally unknown, code
+                     <em>xx#</em> is used.
+                  </p>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>008/15-17</strong></td>
+                        <td colspan="9">xx#</td>
+                     </tr>
+                     <tr>
+                        <td>260</td>
+                        <td colspan="9">##$aS. l. :$bs.n.,$c1983.<em><span><br /><span>[Place is completely unknown]</span></span></em></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>008/15-17</strong></td>
+                        <td colspan="9">xx#</td>
+                     </tr>
+                     <tr>
+                        <td>245</td>
+                        <td colspan="9">00$a[Hope diamond]$h[realia].<em><span><br /><span>[Field 260 is not present in the record]</span></span></em></td>
+                     </tr>
+                  </table>
+               </div>
+               <div>
+                  <p>When more than one place is involved, the first-named jurisdiction is coded in
+                     008/15-17. The code for the first jurisdiction is repeated in field 044 (Country
+                     of producer code), followed by the codes for the other jurisdictions.
+                  </p>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>008/15-17</strong></td>
+                        <td colspan="9">enk</td>
+                     </tr>
+                     <tr>
+                        <td>260</td>
+                        <td colspan="9">##$aLondon ;$aNew York :$bAcademic Press,$c1979.</td>
+                     </tr>
+                     <tr>
+                        <td>044</td>
+                        <td colspan="9">##$aenk$anyu</td>
+                     </tr>
+                  </table>
+               </div>
+               <div>
+                  <p>For <strong>visual materials</strong> and <strong>music</strong>, if the work is a
+                     multi-country production, the code for the first country is recorded in 008/15-17.
+                     The code for the first country is repeated in field 044 (Country of Producer
+                     Code), followed by the codes for countries of other bodies involved in the
+                     production. For <strong>serials</strong> and <strong>integrating
+                        resources</strong>, the country code reflects the place of publication of the
+                     latest issue, part or iteration. If the record is updated at a later time and the
+                     place has changed, the place of publication code is updated. For <strong>mixed
+                        materials</strong>, the code represents the repository where the material is
+                     assembled.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">xx# - No place, unknown, or undetermined</span><div>
+                        <p>No place of publication, production, etc. can be provided; the place is
+                           unknown, or it is undetermined. Examples of such items are: 1) naturally
+                           occurring objects; 2) ancient manuscripts.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">vp# - Various places</span><div>
+                        <p>Various places are associated with different parts of items, generally a
+                           collection.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">[aaa] - Three-character alphabetic code</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">[aa#] - Two-character alphabetic code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>18-34 - Material specific coded elements</strong><div>
+                  <p><em>See one of the material specific 008/18-34 sections</em></p>
+               </div>
+            </div>
+            <hr />
+            <div><strong>35-37 - Language</strong><div>
+                  <p>Three-character alphabetic code that indicates the language of the item. Code
+                     from: <em><a href="http://www.loc.gov/marc/languages/">MARC Code List for Languages</a></em>. Choice of a MARC code is based on the predominant language of the item.
+                     Three fill characters (|||) may also be used if no attempt is made to code the
+                     language or if non-MARC language coding is preferred (and coded in field 041
+                     (Language code)).
+                  </p>
+               </div>
+               <div>
+                  <p>For <strong>language material</strong> (i.e., books and continuing resources), the
+                     language code is based on the text of the item. The term <em>text</em> refers to
+                     the principle work(s) included within the publication, excluding the preface,
+                     introduction, foreword, appendices, etc. For <strong>computer files</strong>, the
+                     language associated with the <em>data</em> and/or the <em>user interface</em>
+                     (e.g., textual displays, audible output in a language) determines the code used in
+                     008/35-37, not the programming language. (Accompanying documentation in a language
+                     other than that of the data and/or user interface is coded in field 041.) For
+                     <strong>maps</strong>, the language of names and text associated with the map
+                     or globe determines the code used. For <strong>music</strong>, the predominant
+                     language of the sung or spoken text associated with the score or sound recording
+                     is recorded in 008/35-37. For <strong>visual materials</strong>, coding depends 
+                        on the type of material. For moving image materials, the language content is defined
+                        as the sound track, the accompanying sound, or sign language. For moving image materials
+                        with no sound or sign language content or, if with sound, no narration, use zxx (no 
+                        linguistic content). For filmstrips and slides, code for the text on the film, the 
+                        accompanying sound or the accompanying printed script (for works with no sound or, 
+                        if with sound, no narration).  For all other still images, including original or 
+                        historical graphic material and opaque and non-opaque graphic material, and 
+                        three-dimensional materials, the language content is that associated with the 
+                        material, i.e., captions or other text associated with the item or collection that
+                        are part of the chief source of information. For <strong>mixed materials</strong> 
+                     the language code is based on the predominant language of an item or materials in a collection.
+                  </p>
+                  <p>When only one language is associated with an item, the code for that language is
+                     recorded.
+                  </p>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>008/35-37</strong></td>
+                        <td colspan="9">spa</td>
+                     </tr>
+                     <tr>
+                        <td>245</td>
+                        <td colspan="9">00$aRentabilidad bruta del inversionista en bolsa.$pBonos del tesoro.</td>
+                     </tr>
+                  </table>
+               </div>
+               <div>
+                  <p>If more than one language code is applicable, the code for the predominant
+                  language is recorded in 008/35-37, and the codes for all of the languages,
+                  including the predominant language, are recorded in field 041 (Language Code). The
+                  code recorded in 008/35-37 is always the same as the language code recorded in the
+                  first occurrence of subfields $a or $d (for sound
+                  recordings).</p>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>008/35-37</strong></td>
+                        <td colspan="9">rus</td>
+                     </tr>
+                     <tr>
+                        <td>041</td>
+                        <td colspan="9">0#$arus$aeng</td>
+                     </tr>
+                     <tr>
+                        <td>500</td>
+                        <td colspan="9">##$aChiefly in Russian; with some contributions in
+                           English.
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+               <div>
+                  <p>If there is no predominant language, the language codes are recorded in English
+                     alphabetical order in field 041 and the first one is recorded in 008/35-37.
+                  </p>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>008/35-37</strong></td>
+                        <td colspan="9">eng</td>
+                     </tr>
+                     <tr>
+                        <td>041</td>
+                        <td colspan="9">0#$aeng$aspa</td>
+                     </tr>
+                     <tr>
+                        <td>546</td>
+                        <td colspan="9">##$aText in English and Spanish.</td>
+                     </tr>
+                  </table>
+               </div>
+               <div>
+                  <p>When formulating a bibliographic record for a <strong>translation</strong>, the
+                  code for the language of the translation, not the language of the original, is
+                  given in 008/35-37. (The code for the language of the original is recorded in
+                  subfield $h of field 041.)
+                  </p>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td><strong>008/35-37</strong></td>
+                        <td colspan="9">eng</td>
+                     </tr>
+                     <tr>
+                        <td>041</td>
+                        <td colspan="9">1#$aeng$hger<em><span><br /><span>[English translation of a German title] </span></span></em></td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">### - No information provided</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">zxx - No linguistic content</span><div>
+                        <p>Item has no sung, spoken, or written textual content. Examples
+                           of such items are: 1) instrumental or electronic music; 2) sound
+                           recordings consisting of nonverbal sounds; 3) moving image materials
+                           with no sound or sign language content, or if sound, no narration; 4) visual 
+                           materials other than moving images with no printed titles, captions, etc.; 5) computer files that consist of no more than the machine language 
+                     (e.g., COBOL) or character codes (e.g., ASCII) used in source
+                     programs.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">mul - Multiple languages</span><div>
+                        <p>Item is multilingual with no predominant language and the cataloging
+                           institution has chosen not to specify a language in 008/35-37.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">sgn - Sign languages</span><div>
+                        <p>Primary medium of communication is a sign language, e.g., a book containing
+                           pictures of the handshape of each letter of a particular sign system, or a
+                           videorecording that is signed. The particular sign language system is stated in
+                           field 546 (Language Note), e.g., American Sign Language. The codes for
+                           secondary and related languages may be indicated in field 041 (Language
+                           Code).
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/35-37</strong></td>
+                              <td colspan="9">sgn</td>
+                           </tr>
+                           <tr>
+                              <td>041</td>
+                              <td colspan="9">0#$asgn$aeng</td>
+                           </tr>
+                           <tr>
+                              <td>546</td>
+                              <td colspan="9">##$aAmerican Sign Language, with some text in
+                                 English.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">und - Undetermined</span><div>
+                        <p>Language of the item cannot be determined. Also used for works having content
+                           consisting of arbitrary syllables, humming, or other human-produced sounds for
+                           which a language cannot be specified.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">[aaa] - Three-character alphabetic code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>38 - Modified record</strong><div>
+                  <p>One-character code that indicates whether any data in a bibliographic record is a
+                     modification of information that appeared on the item being cataloged or that was
+                     intended to be included in the MARC record.
+                  </p>
+               </div>
+               <div>
+                  <p>Such modifications include: the romanization of data that originally appeared in a
+                     non-roman script; substitution of characters available for those characters that
+                     could not be converted to machine-readable form (e.g., special symbols, "Â¤");
+                     shortening of records because the amount of data exceeded a system imposed maximum
+                     allowable length. A record is not considered to be modified when romanizing fields
+                     in the record that are not transcriptions of data from the item (e.g., headings,
+                     complete nonquoted fields, subscription address, etc.). MARC equivalents for
+                     certain letters used in lesser known languages using the Roman alphabet are also
+                     not considered to be modified.
+                  </p>
+                  <p><strong>Precedence of codes</strong> - When more than one code applies to a
+                     bibliographic item, use the following table to determine the appropriate code to
+                     use. The codes are listed in precedence order, with codes listed first taking
+                     precedence over codes listed subsequently. Code # is the highest priority.
+                  </p>
+                  <div class="table">
+                     <table>
+                        <tr>
+                           <td>#</td>
+                           <td>Not modified</td>
+                        </tr>
+                        <tr>
+                           <td>s</td>
+                           <td>Shortened</td>
+                        </tr>
+                        <tr>
+                           <td>d</td>
+                           <td>Dashed-on information omitted</td>
+                        </tr>
+                        <tr>
+                           <td>x</td>
+                           <td>Missing characters</td>
+                        </tr>
+                        <tr>
+                           <td>r</td>
+                           <td>Completely romanized/printed cards in script</td>
+                        </tr>
+                        <tr>
+                           <td>o</td>
+                           <td>Completely romanized/printed cards romanized</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+               <div>
+                  <p>Codes are assigned a priority (recorded in the order of the following list) that
+                     determines which code is input when more than one code applies to the item.
+                  </p>
+               </div>
+               <div>
+                  <p>Default recommended:</p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Not modified</span><div>
+                        <p>Record has not been modified in any way (e.g., it is not shortened and it
+                           contains no characters that could not be converted to machine-readable
+                           form).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Dashed-on information omitted</span><div>
+                        <p>MARC record does not contain "dashed-on" information found on the corresponding
+                           manual copy, either because the dashed-on information was input as a separate
+                           record, recorded in field 500 (General Note), or because it was omitted.
+                           "Dashed-on" information is generally the brief description of material related
+                           to a main item being cataloged that is not considered important enough to
+                           catalog separately. The "dashed-on" technique has not been used heavily since
+                           the introduction of machine-readable bibliographic records.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">o - Completely romanized/printed cards romanized</span><div>
+                        <p>Bibliographic data in the MARC record is completely romanized and any printed
+                           cards produced are also in romanized form.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">r - Completely romanized/printed cards in script</span><div>
+                        <p>Bibliographic data in the MARC record is completely romanized but the printed
+                           cards are available in the original (vernacular) script.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">s - Shortened</span><div>
+                        <p>Some of the data was omitted because the data exceeded the maximum length
+                           allowed by the system used to create or process it.
+                        </p>
+                     </div>
+                     <div>
+                        <p>In systems where the length of data is restricted, it is usually at the field
+                           or record level. MARC bibliographic records have a maximum length of 99,999
+                           characters. (For further information, see <em>MARC 21 Specifications for Record
+                              Structure, Character Sets, and Exchange Media</em>.) Code s is rarely used
+                           in current records.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">x - Missing characters</span><div>
+                        <p>Record contained characters that could not be converted to machine-readable
+                           form (e.g., incidental nonroman characters on predominantly roman alphabet
+                           records, mathematical symbols, etc.).
+                        </p>
+                     </div>
+                     <div>
+                        <p><em>Note:</em> Many institutions choose to simply romanize any nonroman
+                           characters encountered in bibliographic data. The technique of representing
+                           special symbols by a descriptive word or phrase is often used as an alternative
+                           to omitting the special symbol completely (e.g., "[tree]" included in data to
+                           represent the picture of a tree that was meant to be an integral part of the
+                           title). It is unlikely that code x will be used in current records.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>39 - Cataloging source</strong><div>
+                  <p>One-character code that indicates the original cataloging source of the record. If
+                  the cataloging source is known, it is identified in subfield $a of
+                  field 040 (Cataloging Source).</p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - National bibliographic agency</span><div>
+                        <p>Creator of the original cataloging data is a national bibliographic agency
+                           (e.g., U.S. Library of Congress or Library and Archives Canada).
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/39</strong></td>
+                              <td colspan="9">#</td>
+                           </tr>
+                           <tr>
+                              <td>040</td>
+                              <td colspan="9">##$aDLC$cDLC<em><span><br /><span>[Record was created and transcribed by the U.S. Library of Congress.]
+                                          </span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/39</strong></td>
+                              <td colspan="9">#</td>
+                           </tr>
+                           <tr>
+                              <td>040</td>
+                              <td colspan="9">##$aDLC$cWvU$dWvU$dCU$dCStRLIN<em><span><br /><span>[Record was created by the Library of Congress, transcribed by West
+                                          Virginia University, and modified by West Virginia University, University of
+                                          California, and RLIN.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/39</strong></td>
+                              <td colspan="9">#</td>
+                           </tr>
+                           <tr>
+                              <td>040</td>
+                              <td colspan="9">##$aCaOONL$beng$cCaOONL<em><span><br /><span>[Record was created and transcribed by National Library of
+                                          Canada.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Cooperative cataloging program</span><div>
+                        <p>Creator of the cataloging data is a participant (other than a national
+                           bibliographic agency) in a cooperative cataloging program.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/39</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td>040</td>
+                              <td colspan="9">##$aMH$cMH<em><span><br /><span>[Harvard University Library cataloging input online as part of the
+                                          Program for Cooperative Cataloging.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/39</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td>040</td>
+                              <td colspan="9">##$aCaBVAU$cCaOONL<em><span><br /><span>[Record created by the Univ. of British Columbia and transcribed by
+                                          NLC.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Other</span><div>
+                        <p>Source of the cataloging data is an organization that is other than a national
+                           bibliographic agency or a participant in a cooperative cataloging program.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/39</strong></td>
+                              <td colspan="9">d</td>
+                           </tr>
+                           <tr>
+                              <td>040</td>
+                              <td colspan="9">##$aWyU$cWyU<em><span><br /><span>[Record was created and transcribed by the University of Wyoming.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/39</strong></td>
+                              <td colspan="9">d</td>
+                           </tr>
+                           <tr>
+                              <td>040</td>
+                              <td colspan="9">##$aIEN$dCStRLIN$dMiU<em><span><br /><span>[Record was created by Northwestern University and modified by RLIN and
+                                          the University of Michigan.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Unknown</span><div>
+                        <p>Creator of the cataloging data is unknown. Used when an organization
+                     transcribes manual cataloging data from an unknown source. In this case, field
+                     040 lacks a subfield $a and subfield $c contains the MARC
+                     code for the transcribing organization.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/39</strong></td>
+                              <td colspan="9">u</td>
+                           </tr>
+                           <tr>
+                              <td>040</td>
+                              <td colspan="9">##$cWMUW<em><span><br /><span>[The University of Wisconsin--Milwaukee is responsible for the content
+                                          designation and transcription of cataloging from an unknown source.]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Capitalization - </strong>Alphabetic codes are input in lowercase.
+            </p>
+         </div>
+         <div>
+            <p><strong>Field length - </strong>Field 008 should always consist of forty (40) character positions.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="characterPositionHistory">
+            <div><em>008/06 - Type of date/Publication status</em><div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">b - No dates given; B.C. date involved [NEW, 1987]</div>
+                     <div>
+                        <p>Prior to the definition of this code and field 046 (Special Coded Dates), data
+                           elements for coded information about B.C. dates were not provided in MARC.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">c - Actual date and copyright date (BK, CF, MP, MU, VM) [OBSOLETE]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">c - Serial item currently published [REDEFINED, 1995]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">t - Publication date and copyright date [NEW, 1995]</div>
+                     <div>
+                        <p>Prior to its redefinition, code c had a different definition for books, computer
+                           files, maps, music, and visual materials than it did for serials. The difference
+                           was eliminated by the definition of a new code t (Publication date and copyright
+                           date) which is used in place of the obsolete nonserial code c. The definition of
+                           the serial code c was retained.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">d - Detailed date (BK, VM) [OBSOLETE]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">d - Serial item ceased publication [REDEFINED, 1995]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">e - Detailed date [NEW, 1995]</div>
+                     <div>
+                        <p>Prior to its redefinition, code d had a different definition for books and visual
+                           materials than it did for serials. The difference was eliminated by the definition
+                           of a new code e (Detailed date) which is used in place of the obsolete nonserial
+                           code d. The definition of the serial code d was retained.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">i - Date of distribution/release/issue and production/recording session when different (MU) [OBSOLETE, 1978]</div>
+                     <div>
+                        <p>Prior to the definition of code p (Date of distribution/release/issue and
+                           production/recording session when different) for music in 1978, this type of date
+                           was identified by code i. The current definition of code i (Inclusive dates of
+                           collection) was approved in 1983.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">i - Inclusive dates of collection [NEW, 1983]</div>
+                     <div>
+                        <p>Prior to the definition of code p (Date of distribution/release/issue and
+                           production/recording session when different) for music in 1978, this type of date
+                           was identified by code i.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">n - Dates unknown</div>
+                     <div>
+                        <p>Prior to the introduction of AACR 2, code n was used with all forms of material
+                  when subfield $c (Date of publication, distribution, etc.) in field 260
+                  (Publication, Distribution, etc. (Imprint)) contained the statement "n.d." for "no
+                  date". In cataloging formulated according to AACR 2, code n is used only 1) in
+                  records for mixed materials when there is no date in field 260 or in field 245,
+                  and 2) in visual material records for naturally occurring objects and artifacts
+                  when subfield $g (Date of manufacture) is not present in field 260 .
+                  Prior to 1995, zeros or blanks were used for unknown portions of Date 1 and Date 2
+                  for some forms of material.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/15-17 - Place of publication, production, or execution</em><div class="characterPositionHistoryDsc">
+                  <p>Technique for indicating a questionable place by modifying the MARC country code was
+                     made obsolete in 1972. Prior to that time, the letter <em>q</em> was added to a
+                     two-character place code (e.g., Paris? was coded as <em>frq</em>) or the letters
+                     <em>d, l, s</em>, or <em>v</em> were used instead of the letters <em>c, k, r,</em>
+                     or <em>u</em> as the third character in the three-character codes for jurisdictions
+                     within Canada, the Soviet Union, the United Kingdom, and the United States (e.g,
+                     Chicago? was coded as <em>ilv</em> instead of <em>ilu</em>). Prior to 1980, place
+                     codes were limited to two character positions (positions 15-16) in the visual
+                     materials specifications. The three-character codes for Canada, the U.K., the U.S.,
+                     and the U.S.S.R. were not used (e.g., London was coded uk).
+                  </p>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">??q - Questionable place coding [OBSOLETE, 1972]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/35-37 - Language</em><div class="characterPositionHistoryDsc">
+                  <p>Prior to 2006, three blanks were used to indicate that the item has no sung, spoken
+                     or written text. Code zxx (No linguistic content) was added at that time to indicate
+                     this situation and three blanks were redefined as no information provided.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/38 - Modified record</em><div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">u - Unknown [OBSOLETE] [CAN/MARC only]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/39 - Cataloging source</em><div class="characterPositionHistoryDsc">
+                  <p>Code n was made obsolete following the cessation of publication of <em>New serial
+                        titles</em>.
+                  </p>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel"># - Library of Congress [REDEFINED, 1997]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">a - National Agricultural Library [OBSOLETE, 1997] [USMARC only]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">b - National Library of Medicine [OBSOLETE, 1997] [USMARC only]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">d - Another national library cataloguing [REDEFINED, 1997] [CAN/MARC only]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">l - Library of Congress cataloguing [OBSOLETE, 1997] [CAN/MARC only]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">o - Other institution cataloguing [OBSOLETE, 1997] [CAN/MARC only]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">n - Report to New serials titles [OBSOLETE, 1997] [USMARC only]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">r - Reporting library [OBSOLETE, 1997] [CAN/MARC only]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt;
+               <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
+               <strong>008 (All Materials)</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/01/2011)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

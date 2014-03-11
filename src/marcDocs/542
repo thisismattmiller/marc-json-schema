@@ -1,0 +1,1069 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 542: Information
+  Relating to Copyright Status (Network Development and MARC
+  Standards Office, Library of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains information relating to copyright status (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office"> <link type="text/css" rel="stylesheet" href=
+  "update10-stylesheet.css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a>
+    &gt;&gt; <strong>542</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>542 - Information Relating to Copyright Status (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2008
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Privacy</em><br>
+      # - No information provided<br>
+      0 - Private<br>
+      1 - Not private<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Undefined</em><br>
+      # - Undefined<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Personal creator (NR)<br>
+      $b - Personal creator death date (NR)<br>
+      $c - Corporate creator (NR)<br>
+      $d - Copyright holder (R)<br>
+      $e - Copyright holder contact information (R)<br>
+      $f - Copyright statement (R)<br>
+      $g - Copyright date (NR)<br>
+      $h - Copyright renewal date (R)<br>
+      $i - Publication date (NR)<br>
+      $j - Creation date (NR)<br>
+      $k - Publisher (R)</td>
+
+      <td colspan="1">$l - Copyright status (NR)<br>
+      $m - Publication status (NR)<br>
+      $n - Note (R)<br>
+      $o - Research date (NR)<br>
+      $p - Country of publication or creation (R)<br>
+      $q - Supplying agency (NR)<br>
+      $r - Jurisdiction of copyright assessment (NR)<br>
+      $s - Source of information (NR)<br>
+      $u - Uniform Resource Identifier (R)<br>
+      $3 - Materials specified (NR)<br>
+      $6 - Linkage (NR)<br>
+      $8 - Field link and sequence number (R)</td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>Information known about the item that may be used to
+  determine copyright status.</p>
+
+  <p>The entire field may be repeated if a non-repeatable
+  subfield needs to be repeated (e.g., Personal creator, Research
+  date) or if additional information is added at a later
+  date.</p>
+
+  <p>Although field 540 (Terms governing use and reproduction
+  note) may include some data about copyright information, this
+  field has more detailed information and specific subfield
+  coding that allow for manipulation of the data.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <div class="indicator">
+    <strong>First Indicator - Privacy</strong>
+
+    <div class="description">
+      Whether the contents of the field are private or not. The
+      state of being private includes information that
+      institutions do not want to display to the public because
+      it is sensitive or restricted.
+
+      <div class="indicatorvalue">
+        <strong># - No information provided</strong>
+
+        <div class="description">
+          No information is provided as to the privacy of the
+          field contents.
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>0 - Private</strong>
+
+        <div class="description">
+          Field contains private information.
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>1 - Not private</strong>
+
+        <div class="description">
+          No private information in the field.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="indicator">
+    <strong>Second Indicator - Undefined</strong>
+
+    <div class="description">
+      Undefined and contains a blank (#).
+    </div>
+  </div>
+
+  <h4><span class="box">â </span> SUBFIELD CODES</h4>
+
+  <div class="subfield">
+    <strong>$a - Personal creator</strong>
+
+    <div class="description">
+      Name of the person responsible for creation of the
+      resource. The data may or may not be in an authoritative
+      form. "Undetermined" may be used if research was done but
+      no copyright holder was found.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>1#</strong><strong>$a</strong>Martin, Henri
+          Jean<strong>$d</strong>University of Chicago
+          Press<strong>$f</strong>Copyright 1994 by the
+          University of
+          Chicago<strong>$g</strong>1994<strong>$o</strong>20071103<strong>
+          $r</strong>US</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$b - Personal creator death date</strong>
+
+    <div class="description">
+      If applicable, death date of the person responsible for the
+      creation of the resource named in subfield â¡a (Personal
+      creator).
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$c - Corporate creator</strong>
+
+    <div class="description">
+      Name of an organization responsible for creation of the
+      resource. The data may or may not in an authoritative form.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$c</strong>Literary Classics
+          of the United States<strong>$f</strong>Chronology, Note
+          on the Text, and Notes copyright 1983 by Literary
+          Classics of the United States, Inc., New York,
+          N.Y.<strong>$g</strong>1983<strong>$o</strong>20070526<strong>
+          $p</strong>US<strong>$r</strong>US<strong>$3</strong>Chronology,
+          Note on the Text, Notes</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$d - Copyright holder</strong>
+
+    <div class="description">
+      If known, the name of the copyright holder of the resource
+      from an authoritative source of information. The data may
+      or may not be in an authoritative form. "Undetermined" may
+      be used if research was done but no copyright holder was
+      found.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>Burgess, Thornton
+          W. (Illustrated by Harrison
+          Cady)<strong>$d</strong>Louis W. Doherty &amp; Third
+          National Bank of Hampden County (E of Thornton W.
+          Burgess)<strong>$g</strong>1945<strong>$h</strong>1972<strong>
+          $s</strong>Copyright Renewal Database</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$e - Copyright holder contact information</strong>
+
+    <div class="description">
+      May be useful for further information. This may include
+      address, e-mail, phone numbers, etc.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$f - Copyright statement</strong>
+
+    <div class="description">
+      Copyright statement as it is presented on the resource.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>0#</strong><strong>$f</strong>Copyright
+          1895<strong>$g</strong>1895<strong>$k</strong>London,
+          Macmillan<strong>$l</strong>Public
+          domain<strong>$o</strong>20061201175546<strong>$p</strong>GB<strong>
+          $q</strong>Internet Archive,
+          California<strong>$r</strong>US<strong>$s</strong>Evidence
+          reported by scanner-scott-cairns for item
+          lettersofmaththew01arnouoft; visible notice of
+          copyright; stated date is 1895</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$g - Copyright date</strong>
+
+    <div class="description">
+      For items under copyright, the initial year of copyright.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$f</strong>Copyright 1948
+          SEPS<strong>$g</strong>1948<strong>$o</strong>20070202<strong>
+          $r</strong>US</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$h - Copyright renewal date</strong>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>California
+          District Courts of Appeal (J.O. Tucker,
+          editor)<strong>$d</strong>Bancroft-Whitney Co.
+          (PWH)<strong>$g</strong>1944<strong>$h</strong>1972<strong>
+          $s</strong>Copyright Renewal Database</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$i - Publication date</strong>
+
+    <div class="description">
+      Year of publication if it is a formally published resource.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>Goldie,
+          James<strong>$d</strong>Goldie,
+          James<strong>$d</strong>Goldie,
+          Ruth<strong>$f</strong>Copyright 1927 by James and Ruth
+          Goldie<strong>$g</strong>1927<strong>$i</strong>1927<strong>
+          $n</strong>Copyright not
+          renewed<strong>$o</strong>20071204<strong>$q</strong>DLC<strong>
+          $r</strong>US<strong>$s</strong>US Copyright Office
+          records</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$j - Creation date</strong>
+
+    <div class="description">
+      Year of creation for an unpublished resource.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$k - Publisher</strong>
+
+    <div class="description">
+      Name and optionally place of the publisher. "Undetermined"
+      may be used if research was done but no publisher is found.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$c</strong>Decca<strong>$d</strong>Decca<strong>
+          $g</strong>2000<strong>$k</strong>undetermined<strong>$l</strong>undetermined<strong>
+          $o</strong>20061213<strong>$r</strong>US<strong>$3</strong>Performance</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$l - Copyright status</strong>
+
+    <div class="description">
+      Determined status of the item. This is only recorded if it
+      is known with certainty. "Undetermined" may be used if
+      research was done but no status is found.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>1#</strong><strong>$a</strong>undetermined<strong>
+          $d</strong>undetermined<strong>$g</strong>1905?<strong>$l</strong>undetermined<strong>
+          $m</strong>undetermined<strong>$o</strong>20071210<strong>
+          <br>
+          $q</strong>[supplying agency]<strong>$r</strong>US</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$m - Publication status</strong>
+
+    <div class="description">
+      Whether the item is published or unpublished, using the
+      definition of published in copyright law of the
+      jurisdiction, or that expressed in the Berne Convention's
+      specifications if other definitions are not available.
+      "Undetermined" may be used if research was done but no
+      status is found.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>1#</strong><strong>$a</strong>undetermined<strong>
+          $d</strong>undetermined<strong>$g</strong>1905?<strong>$l</strong>undetermined<strong>
+          $m</strong>undetermined<strong>$o</strong>20071210<strong>
+          <br>
+          $q</strong>[supplying agency]<strong>$r</strong>US</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$n - Note</strong>
+
+    <div class="description">
+      Any additional information about copyright.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>Goldie,
+          James<strong>$b</strong>1945<strong>$d</strong>Goldie,
+          James<strong>$d</strong>Goldie,
+          Ruth<strong>$f</strong>Copyright 1927 by James and Ruth
+          Goldie<strong>$g</strong>1927<strong>$i</strong>1927<strong>
+          $n</strong>Copyright not
+          renewed<strong>$r</strong>US</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$o - Research date</strong>
+
+    <div class="description">
+      Date that the copyright data was determined based on
+      research. A structured form of date is recommended.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>1#</strong><strong>$c</strong>Warner Bros.
+          Pictures,
+          Inc.<strong>$d</strong>undetermined<strong>$f</strong>Copyright:
+          Warner Bros. Pictures, Inc.; 23Dec37;
+          LP7892<strong>$g</strong>1937<strong>$l</strong>undetermined<strong>
+          $o</strong>20071129<strong>$r</strong>US</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$p - Country of publication or creation (R)</strong>
+
+    <div class="description">
+      Country in which the resource was published or, in the case
+      of unpublished materials, the country in which the resource
+      was created.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>1#</strong><strong>$f</strong>Copyright 1895
+          <strong>$g</strong>1895<strong>$k</strong>London,
+          Macmillan <strong>$l</strong>Public
+          domain<strong>$o</strong>20061201175546<strong>$p</strong>GB<strong>
+          $q</strong>Internet Archive, California
+          <strong>$s</strong>Evidence reported by
+          scanner-scott-cairns for item
+          lettersofmaththew01arnouoft; visible notice of
+          copyright; stated date is 1895</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$q - Supplying agency</strong>
+
+    <div class="description">
+      Code or name of agency supplying the information.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>0#</strong><strong>$f</strong>Copyright
+          1895<strong>$g</strong>1895<strong>$k</strong>London,
+          Macmillan<strong>$l</strong>Public
+          domain<strong>$o</strong>20061201175546<strong>$p</strong>GB<strong>
+          $q</strong>Internet Archive,
+          California<strong>$r</strong>US<strong>$s</strong>Evidence
+          reported by scanner-scott-cairns for item
+          lettersofmaththew01arnouoft; visible notice of
+          copyright; stated date is 1895</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$r - Jurisdiction of copyright assessment</strong>
+
+    <div class="description">
+      Jurisdiction within which the copyright status assessment
+      is being made. The law of the country within which the
+      resource is used is the relevant one for copyright
+      purposes. It is within the context of this information that
+      a copyright status may be determined. The subfield is only
+      used if a copyright status is recorded in subfield $l.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>1#</strong><strong>$a</strong>Martin, Henri
+          Jean<strong>$d</strong>University of Chicago
+          Press<strong>$f</strong>Copyright 1994 by the
+          University of
+          Chicago<strong>$g</strong>1994<strong>$o</strong>20071103<strong>
+          $r</strong>US</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$s - Source of information</strong>
+
+    <div class="description">
+      Source of the copyright information, whether from the piece
+      or from other sources.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>California
+          District Courts of Appeal (J.O. Tucker,
+          editor)<strong>$d</strong>Bancroft-Whitney Co.
+          (PWH)<strong>$g</strong>1944<strong>$h</strong>1972<strong>
+          $s</strong>Copyright Renewal Database</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$u - Uniform Resource Identifier</strong>
+
+    <div class="description">
+      Uniform Resource Identifier (URI), for example a URL or
+      URN, which provides electronic access data in a standard
+      syntax. The data may be a more detailed statement about
+      information relating to copyright status.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$3 - Materials specified</strong>
+
+    <div class="description">
+      Part of the described material to which the field applies.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>542</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$c</strong>Decca<strong>$d</strong>Decca<strong>
+          $g</strong>2000<strong>$k</strong>undetermined<strong>$l</strong>undetermined<strong>
+          $o</strong>20061213<strong>$r</strong>US<strong>$3</strong>Performance</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$6 - Linkage</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$8 - Field link and sequence number</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a>
+          &gt;&gt; <strong>542</strong>
+        </div>(09/01/2008)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

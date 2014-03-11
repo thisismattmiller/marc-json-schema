@@ -1,0 +1,1997 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 008:
+         Music (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>Â  
+               
+               &gt;&gt;
+               <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
+               <strong>008 (Music)</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>008</span> - <span>Music</span><span> (NR)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">April 2013</div>
+      <hr />
+      <h4>Indicators and Subfield Codes</h4>
+      <div class="wildcard">
+         <div>
+            <p>Field has no indicators or subfield codes; the data elements are positionally defined.</p>
+         </div>
+      </div>
+      <table width="100%" class="characterPositions">
+         <tr>
+            <td width="45%"><strong>Character Positions</strong></td>
+            <td width="45%"></td>
+         </tr>
+         <tr>
+            <td colspan="2"><span><strong>18-19 - Form of composition (006/01-02)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>an - Anthems</dd>
+                  <dd>bd - Ballads</dd>
+                  <dd>bg - Bluegrass music</dd>
+                  <dd>bl - Blues</dd>
+                  <dd>bt - Ballets</dd>
+                  <dd>ca - Chaconnes</dd>
+                  <dd>cb - Chants, Other religions</dd>
+                  <dd>cc - Chant, Christian</dd>
+                  <dd>cg - Concerti grossi</dd>
+                  <dd>ch - Chorales</dd>
+                  <dd>cl - Chorale preludes</dd>
+                  <dd>cn - Canons and rounds</dd>
+                  <dd>co - Concertos</dd>
+                  <dd>cp - Chansons, polyphonic</dd>
+                  <dd>cr - Carols</dd>
+                  <dd>cs - Chance compositions</dd>
+                  <dd>ct - Cantatas</dd>
+                  <dd>cy - Country music</dd>
+                  <dd>cz - Canzonas</dd>
+                  <dd>df - Dance forms</dd>
+                  <dd>dv - Divertimentos, serenades, cassations, divertissements, and notturni</dd>
+                  <dd>fg - Fugues</dd>
+                  <dd>fl - Flamenco</dd>
+                  <dd>fm - Folk music</dd>
+                  <dd>ft - Fantasias</dd>
+                  <dd>gm - Gospel music</dd>
+                  <dd>hy - Hymns</dd>
+                  <dd>jz - Jazz</dd>
+                  <dd>mc - Musical revues and comedies</dd>
+                  <dd>md - Madrigals</dd>
+                  <dd>mi - Minuets</dd>
+                  <dd>mo - Motets</dd>
+                  <dd>mp - Motion picture music</dd>
+                  <dd>mr - Marches</dd>
+                  <dd>ms - Masses</dd>
+                  <dd>mu - Multiple forms</dd>
+                  <dd>mz - Mazurkas</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>nc - Nocturnes</dd>
+                  <dd>nn - Not applicable</dd>
+                  <dd>op - Operas</dd>
+                  <dd>or - Oratorios</dd>
+                  <dd>ov - Overtures</dd>
+                  <dd>pg - Program music</dd>
+                  <dd>pm - Passion music</dd>
+                  <dd>po - Polonaises</dd>
+                  <dd>pp - Popular music</dd>
+                  <dd>pr - Preludes</dd>
+                  <dd>ps - Passacaglias</dd>
+                  <dd>pt - Part-songs</dd>
+                  <dd>pv - Pavans</dd>
+                  <dd>rc - Rock music</dd>
+                  <dd>rd - Rondos</dd>
+                  <dd>rg - Ragtime music</dd>
+                  <dd>ri - Ricercars</dd>
+                  <dd>rp - Rhapsodies</dd>
+                  <dd>rq - Requiems</dd>
+                  <dd>sd - Square dance music</dd>
+                  <dd>sg - Songs</dd>
+                  <dd>sn - Sonatas</dd>
+                  <dd>sp - Symphonic poems</dd>
+                  <dd>st - Studies and exercises</dd>
+                  <dd>su - Suites</dd>
+                  <dd>sy - Symphonies</dd>
+                  <dd>tc - Toccatas</dd>
+                  <dd>tl - Teatro lirico</dd>
+                  <dd>ts - Trio-sonatas</dd>
+                  <dd>uu - Unknown</dd>
+                  <dd>vi - Villancicos</dd>
+                  <dd>vr - Variations</dd>
+                  <dd>wz - Waltzes</dd>
+                  <dd>za - Zarzuelas</dd>
+                  <dd>zz - Other</dd>
+                  <dd>|| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>20 - Format of music (006/03)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>a - Full score</dd>
+                  <dd>b - Full score, miniature or study size</dd>
+                  <dd>c - Accompaniment reduced for keyboard</dd>
+                  <dd>d - Voice score with accompaniment omitted</dd>
+                  <dd>e - Condensed score or piano-conductor score</dd>
+                  <dd>g - Close score</dd>
+                  <dd>h - Chorus score</dd>
+                  <dd>i - Condensed score</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>j - Performer-conductor part</dd>
+                  <dd>k - Vocal score</dd>
+                  <dd>l - Score</dd>
+                  <dd>m - Multiple score formats</dd>
+                  <dd>n - Not applicable</dd>
+                  <dd>u - Unknown</dd>
+                  <dd>z - Other</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>21 - Music parts (006/04)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - No parts in hand or not specified</dd>
+                  <dd>d - Instrumental and vocal parts</dd>
+                  <dd>e - Instrumental parts</dd>
+                  <dd>f - Vocal parts</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>n - Not applicable</dd>
+                  <dd>u - Unknown</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>22 - Target audience (006/05)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Unknown or unspecified</dd>
+                  <dd>a - Preschool</dd>
+                  <dd>b - Primary</dd>
+                  <dd>c - Pre-adolescent</dd>
+                  <dd>d - Adolescent</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>e - Adult</dd>
+                  <dd>f - Specialized</dd>
+                  <dd>g - General</dd>
+                  <dd>j - Juvenile</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>23 - Form of item (006/06)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - None of the following</dd>
+                  <dd>a - Microfilm</dd>
+                  <dd>b - Microfiche</dd>
+                  <dd>c - Microopaque</dd>
+                  <dd>d - Large print</dd>
+                  <dd>f - Braille</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>o - Online</dd>
+                  <dd>q - Direct electronic</dd>
+                  <dd>r - Regular print reproduction</dd>
+                  <dd>s - Electronic</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>24-29 - Accompanying matter (006/07-12)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - No accompanying matter</dd>
+                  <dd>a - Discography</dd>
+                  <dd>b - Bibliography</dd>
+                  <dd>c - Thematic index</dd>
+                  <dd>d - Libretto or text</dd>
+                  <dd>e - Biography of composer or author</dd>
+                  <dd>f - Biography of performer or history of ensemble</dd>
+                  <dd>g - Technical and/or historical information on instruments</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>h - Technical information on music</dd>
+                  <dd>i - Historical information</dd>
+                  <dd>k - Ethnological information</dd>
+                  <dd>r - Instructional materials</dd>
+                  <dd>s - Music</dd>
+                  <dd>z - Other</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>30-31 - Literary text for sound recordings (006/13-14)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Item is a music sound recording</dd>
+                  <dd>a - Autobiography</dd>
+                  <dd>b - Biography</dd>
+                  <dd>c - Conference proceedings</dd>
+                  <dd>d - Drama</dd>
+                  <dd>e - Essays</dd>
+                  <dd>f - Fiction</dd>
+                  <dd>g - Reporting</dd>
+                  <dd>h - History</dd>
+                  <dd>i - Instruction</dd>
+                  <dd>j - Language instruction</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>k - Comedy</dd>
+                  <dd>l - Lectures, speeches</dd>
+                  <dd>m - Memoirs</dd>
+                  <dd>n - Not applicable</dd>
+                  <dd>o - Folktales</dd>
+                  <dd>p - Poetry</dd>
+                  <dd>r - Rehearsals</dd>
+                  <dd>s - Sounds</dd>
+                  <dd>t - Interviews</dd>
+                  <dd>z - Other</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>32 - Undefined (006/15)</strong></span></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>33 - Transposition and arrangement (006/16)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Not arrangement or transposition or not specified</dd>
+                  <dd>a - Transposition</dd>
+                  <dd>b - Arrangement</dd>
+                  <dd>c - Both transposed and arranged</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>n - Not applicable</dd>
+                  <dd>u - Unknown</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>34 - Undefined (006/17)</strong></span></td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p><strong>Music</strong> definition of field 008/18-34 is used when Leader/06 (Type of
+               				record) contains code c (Notated music), d (Manuscript notated music), i (Nonmusical sound
+               				recording), or j (Musical sound recording). Field 008 positions 01-17 and 35-39 are defined
+               				the same in all 008 fields and are described in the <em>008-All materials</em> section.
+            </p>
+            <p>Field 008/18-34 correspond to equivalent positionally defined data elements in field
+               				006/01-17 when field 006/00 (Form of material) contains code c (Notated music), d
+               				(Manuscript notated music), i (Nonmusical sound recording), or j (Musical sound recording).
+               				Details about specific codes defined for the equivalent character positions in field 006 and
+               				008 for <strong>music</strong> are provided in the <em>Guidelines for Applying Content
+                  					Designators</em> of <em>008-Music</em> section only.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> CHARACTER POSITIONS
+         </h4>
+         <div class="characterPositions">
+            <div><strong>18-19 - Form of composition (006/01-02)</strong><div>
+                  <p>Two-character alphabetic code that indicates the form of composition. Codes are based
+                     						on Library of Congress subject headings. If more than one code is appropriate, the code
+                     							<em>mu</em> (Multiple forms) is used in 008/18-19 and all appropriate specific codes
+                     						are given in field 047 (Form of Composition). Code <em>mu</em> (Multiple forms) may also
+                     						signify that field 047 (Form of Composition) contains non-MARC composition codes.
+                  </p>
+               </div>
+               <div>
+                  <p>Form of composition code is based on the terminology in the work itself and is intended
+                     						to provide a coded approach to the content of the work. In addition to codes for forms,
+                     						the list also includes codes for musical genres (e.g., Ragtime music). Codes should be
+                     						assigned when they apply to the item as a whole (e.g., if the item is a symphony and one
+                     						of the movements is in sonata form, only the code for symphonies is recorded). Codes for
+                     						which special information is needed for proper application are described below. Other
+                     						codes are described in music reference sources. Non music sound recordings do not have a
+                     						form of composition and are coded nn (Not applicable).
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">an - Anthems</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bd - Ballads</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bg - Bluegrass music</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bl - Blues</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bt - Ballets</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ca - Chaconnes</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cb - Chants, Other religions</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cc - Chant, Christian</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cg - Concerti grossi</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ch - Chorales</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cl - Chorale preludes</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cn - Canons and rounds</span><div>
+                        <p>Used for canons and rounds (i.e., compositions employing strict imitation
+                           							throughout).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">co - Concertos</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cp - Chansons, polyphonic</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cr - Carols</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cs - Chance compositions</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ct - Cantatas</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cy - Country music</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cz - Canzonas</span><div>
+                        <p>Used for instrumental music that is designated as a <em>canzona</em>.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">df - Dance forms</span><div>
+                        <p>Includes music for individual dances except for mazurkas, minuets, pavans,
+                           							polonaises, and waltzes, which have separate codes.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">dv - Divertimentos, serenades, cassations, divertissements, and notturni</span><div>
+                        <p>Used for instrumental music designated as a <em>divertimento, serenade, cassation,
+                              								divertissement,</em> or a <em>notturno</em>.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">fg - Fugues</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">fl - Flamenco</span><div>
+                        <p>Generic term which refers to all the Flamenco styles, or "palos", and 
+                           							to other forms of song and dance coming from the folkloric tradition 
+                           							of Spanish gypsies.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">fm - Folk music</span><div>
+                        <p>Used for folk music and includes folk songs, etc.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ft - Fantasias</span><div>
+                        <p>Includes instrumental music designated as <em>fantasia, fancies, fantasies</em>,
+                           						etc.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">gm - Gospel music</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">hy - Hymns</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">jz - Jazz</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">mc - Musical revues and comedies</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">md - Madrigals</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">mi - Minuets</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">mo - Motets</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">mp - Motion picture music</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">mr - Marches</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ms - Masses</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">mu - Multiple forms</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">mz - Mazurkas</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">nc - Nocturnes</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">nn - Not applicable</span><div>
+                        <p>Form of composition is not applicable to the item. Used for any item that is a
+                           							non-music sound recording.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">op - Operas</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">or - Oratorios</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ov - Overtures</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">pg - Program music</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">pm - Passion music</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">po - Polonaises</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">pp - Popular music</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">pr - Preludes</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ps - Passacaglias</span><div>
+                        <p>Includes all types of ostinato basses.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">pt - Part-songs</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">pv - Pavans</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">rc - Rock music</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">rd - Rondos</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">rg - Ragtime music</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ri - Ricercars</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">rp - Rhapsodies</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">rq - Requiems</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">sd - Square dance music</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">sg - Songs</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">sn - Sonatas</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">sp - Symphonic poems</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">st - Studies and exercises</span><div>
+                        <p>Used only when the work is intended for teaching purposes (usually entitled
+                           								<em>Studies, Etudes</em>, etc.).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">su - Suites</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">sy - Symphonies</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">tc - Toccatas</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">tl - Teatro lirico</span><div>
+                        <p>Used for a large number of more specific terms which describe 
+                           							Spanish and Spanish American theatre music: "tonadilla escÃ©nica", 
+                           							"fiestas de mÃºsica", 
+                           							"sainetes lÃ­ricos", "entremeses 
+                           							cÃ³mico-lÃ­rico," etc.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ts - Trio-sonatas</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">uu - Unknown</span><div>
+                        <p>Used when the only indication given is the number of instruments and the medium of
+                           							performance. No structure or genre is given, although they may be implied or
+                           							understood.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">vi - Villancicos</span><div>
+                        <p>Characteristic form of Spanish polyphony, religious or secular, 
+                           							from the 16th to 18th centuries. Religious villancicos were usually 
+                           							sung in important ceremonies (including Christmas, when these 
+                           							songs were sometimes called âpastoradasâ).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">vr - Variations</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">wz - Waltzes</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">za - Zarzuelas</span><div>
+                        <p>Term applicable to all musical plays taking that name, from the 
+                           							âfiestas de zarzuelaâ of the 17th/18th-centuries to the so-called 
+                           							âzarzuela modernaâ (âmodern zarzuelaâ) from the mid 19th to 
+                           							the mid 20th-century.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">zz - Other</span><div>
+                        <p>None of the other defined codes are appropriate (e.g., incidental music,
+                           							electronic music, etc.).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">|| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>20 - Format of music (006/03)</strong><div>
+                  <p>One-character code that indicates the format of a musical composition (e.g.,
+                     					  piano-conductor score). Unless otherwise indicated, the
+                        					  values apply to music written using graphic, symbolic (e.g., staff), or 
+                        					  word-based notation.</p>
+               </div>
+               <div>
+                  <p>Information for this data element is generally derived from terms appearing in field
+                     						300 (Physical Description). If the item being cataloged consists of one or more scores
+                     						along with other materials (e.g., one or more parts), consider only the score or scores
+                     						in coding this character position. Used for notated music; for sound recordings, use
+                     						code n (Not applicable).
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Full score</span><div>
+                        <p>Staff notation representing the sounds of all the parts of an 
+                              					    ensemble (instrumental and/or vocal), arranged so that they can be read simultaneously.
+                              					    Note: code l (Score) may be used for works recorded with graphic, symbolic (e.g., staff),
+                              					    or word-based notation representing the sounds of all the parts of an ensemble, arranged
+                              					    so that they can be read simultaneously, or a work for solo performer or electronic media.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/20</strong></td>
+                              <td colspan="9">a</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a1 score (11 p.) ...</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Full score, miniature or study size</span><div>
+                        <p>Miniature score that is usually smaller in size and not intended to be used in
+                           							performances.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/20</strong></td>
+                              <td colspan="9">b</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a1 miniature score ...</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Accompaniment reduced for keyboard</span><div>
+                        <p> Score with instrumental accompaniment reduced for keyboard(s). For
+                           						  chorus scores and vocal scores prefer codes <em>h</em>
+                           						(Chorus score) and <em>k</em> (Vocal score).
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/20</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a1 score (36 p.) + 1 part ...<em><span><br /><span>[Accompaniment reduced for keyboard]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Voice score with accompaniment omitted</span><div>
+                        <p>Score for solo and/or choral voice(s) with the accompaniment omitted. 
+                           					    Vocal works originally unaccompanied are assigned other codes as appropriate. 
+                           					    For chorus scores and vocal scores, prefer codes <em>h</em> (Chorus score) and
+                           					    <em>k</em> (Vocal score).
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/20</strong></td>
+                              <td colspan="9">d</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a1 vocal score ...<em><span><br /><span>[Accompaniment omitted]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">e - Condensed score or piano-conductor score</span><div>
+                        <p>Orchestral or band music that has been reduced. It may be part of an
+                           							ensemble work for a particular instrument, with cues for other instruments. Such a
+                           							score is used by an individual playing the instrument for which the score was written
+                           							or for the conductor. Prefer code <em>i</em> (Condensed score) or
+                           					    code <em>j</em> (Performer-conductor part) if the two types of scores can be distinguished.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/20</strong></td>
+                              <td colspan="9">e</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a1 condensed score ...</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">g - Close score</span><div>
+                        <p>Score (e.g., a hymnal) that has separate parts transcribed in condensed form.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/20</strong></td>
+                              <td colspan="9">g</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a1 close score ...</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">h - Chorus score</span><div>
+                        <p>Score of a work for solo voices and chorus showing only the parts for chorus, with the instrumental 
+                           							accompaniment either arranged for keyboard(s) or other chordal instrument(s)
+                           							 or omitted. Note: see code <em>k</em> (Vocal score) for scores that
+                           							  include solo voices as well as chorus parts.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">i - Condensed score</span><div>
+                        <p> Score that has been reduced, generally organized by instrumental 
+                           							sections, and often with cues for individual parts. An example would
+                           							be reduction to two or a few staves, for scores presented in staff notation.  
+                           							Sometimes called: Reduced score, Short score. Recorded with musical notation.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">j - Performer-conductor part</span><div>
+                        <p>A performance part for a single instrument in an ensemble, with cues for the other instruments that enable the performer of that part also to conduct.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">k - Vocal score</span><div>
+                        <p>Score showing all vocal parts, solo and/or choral, with the instrumental
+                           			        accompaniment either arranged for keyboard(s) or other chordal instrument(s) 
+                           			        or omitted. Note: See code <em>h</em> (Chorus score) for scores of works for
+                           			        solo voices and chorus that include only chorus parts.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">l - Score</span><div>
+                        <p>Graphical, symbolic (e.g., staff), or word-based musical notation representing
+                           			        the sounds of all the parts of an ensemble, arranged so that they can be read 
+                           			        simultaneously, or a work for solo performer or electronic media. Do not confuse with Part.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">m - Multiple score formats</span><div>
+                        <p>Several types of scores are issued together, as is frequently the case with band
+                           							music.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/20</strong></td>
+                              <td colspan="9">m</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a1 score (23 p.) :$bill. ;$c30 cm. +$a1 piano conductor part (8 p.)</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">n - Not applicable</span><div>
+                        <p>Item is a sound recording.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/20</strong></td>
+                              <td colspan="9">n</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a1 sound disc ...</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Unknown</span><div>
+                        <p>Format of the item is unknown.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">z - Other</span><div>
+                        <p>None of the other defined codes are appropriate. Usually it signifies that the item
+                           						  is not a score. Choir books, table books, and sets of parts are
+                              						  examples in which code z is appropriate.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/20</strong></td>
+                              <td colspan="9">z</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a42 p. of music ...</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/20</strong></td>
+                              <td colspan="9">z</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$aFor voice ...</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/20</strong></td>
+                              <td colspan="9">z</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a4 parts ...</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>21 - Music parts (006/04)</strong><div>
+                  <p>One character code that indicates whether the item being cataloged is, or contains parts. This
+                     						position is not used to indicate that parts may exist elsewhere.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - No parts in hand or not specified</span><div>
+                        <p>No parts in hand or the musical parts are not specified.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Instrumental and vocal parts</span><div>
+                        <p>Both instrumental and vocal parts are present.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">e - Instrumental parts</span><div>
+                        <p>Instrumental parts are present.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Vocal parts</span><div>
+                        <p>Vocal parts are present.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">n - Not applicable</span><div>
+                        <p>Item is not notated music.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Unknown</span><div>
+                        <p>Unknown whether the item being cataloged contains parts. May be used for records
+                           							created without examining the item, such as retrospective conversion from a printed
+                           							card.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>22 - Target audience (006/05)</strong><div>
+                  <p>One-character alphabetic code that describes the intellectual level of the target
+                     						audience for which the material is intended
+                  </p>
+               </div>
+               <div>
+                  <p>Used primarily to identify music to be used or performed by a specific target audience.
+                     						When items are considered appropriate for more than one target audience, the code is
+                     						recorded for the primary target audience. For juvenile material, either code j
+                     						(Juvenile) or the more specific codes a (Preschool), b (Primary), or c (Pre-adolescent)
+                     						are used. An item considered juvenile material often includes the word <em>juvenile</em>
+                     						in its subject heading(s).
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Unknown or unspecified</span><div>
+                        <p>Target audience for item is not specified or is unknown.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/22</strong></td>
+                              <td colspan="9">#</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">14$aDas MÃ¼nchner Kammerorchester spielt Werke
+                                 								...
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>650</td>
+                              <td colspan="9">#0$aString-orchestra music.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Preschool</span><div>
+                        <p>Intended for children, approximate ages 0-5 years.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Primary</span><div>
+                        <p>Intended for children, approximate ages 6-8 years.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Pre-adolescent</span><div>
+                        <p>Intended for young people, approximate ages 9-13.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Adolescent</span><div>
+                        <p>Intended for young people, approximate ages 14-17.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">e - Adult</span><div>
+                        <p>Intended for adults.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/22</strong></td>
+                              <td colspan="9">e</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">12$aA little night music$h[sound recording].</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Specialized</span><div>
+                        <p>Aimed at a particular audience and the nature of the presentation would make the item
+                           							of little interest to other audiences. Examples of items which are coded f included:
+                           							1) technical sound recordings geared to a specialized audience and 2) items which
+                           							address a limited audience.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">g - General</span><div>
+                        <p>Of general interest and not aimed at a particular target audience. Used for items
+                           							that are not covered more appropriately by one of the other codes.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">j - Juvenile</span><div>
+                        <p>Intended for use by children and young people, approximate ages 0-15. Used when a
+                           							more specific code for the juvenile target audience is not desired.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/22</strong></td>
+                              <td colspan="9">j</td>
+                           </tr>
+                           <tr>
+                              <td>650</td>
+                              <td colspan="9">#0$aVioloncello and piano music$xJuvenile$vScores and parts.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>23 - Form of item (006/06)</strong><div>
+                  <p>One-character alphabetic code that specifies the form of material for the item being
+                     						described.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - None of the following</span><div>
+                        <p>Not specified by one of the other codes.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Microfilm</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Microfiche</span><div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/23</strong></td>
+                              <td colspan="9">b</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a14 microfiche ;$c10 x 15 cm.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Microopaque</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Large print</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Braille</span><div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/23</strong></td>
+                              <td colspan="9">f</td>
+                           </tr>
+                           <tr>
+                              <td>250</td>
+                              <td colspan="9">0#$aBraille score ed.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">o - Online</span><div>
+                        <p>The resource is accessed by means of hardware 
+                           							and software connections to a communications
+                           							network.  If a distinction between types of electronic
+                           							resources is not necessary, code s can be used
+                           							as a generic code for any form of electronic resource.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">q - Direct electronic</span><div>
+                        <p>Storage on a directly accessible tangible recording
+                           							medium, e.g. disc, tape, playaway device, flashdrive, 
+                           							portable hard drive, etc.  If a distinction between types
+                           							of electronic resources is not necessary, code s can be
+                           							used as a generic code for any form of electronic resource.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">r - Regular print reproduction</span><div>
+                        <p>Eye-readable print, such as a photocopy.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/23</strong></td>
+                              <td colspan="9">r</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aPhotocopy of the original score composed in
+                                 								1877.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">s - Electronic</span><div>
+                        <p>Intended for manipulation by a computer. The item may reside in a carrier accessed
+                           							either directly or remotely, in some cases requiring the use of peripheral devices
+                           							attached to the computer (e.g., a CD-ROM player). Not used for items that do not
+                           							require the use of a computer (e.g., music compact discs, videodiscs). 
+                           							This code can be used as a generic code for any form of electronic resource.  Codes o and q
+                           							may be used if there is a need to separately identify online and direct electronic 
+                           							resources.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>24-29 - Accompanying matter (006/07-12)</strong><div>
+                  <p>Up to six one-character alphabetic codes (recorded in alphabetical order) that indicate
+                     						the contents of program notes and other accompanying material for sound recording, music
+                     						manuscripts, or notated music. If fewer than six codes are assigned, the codes are left
+                     						justified and each unused position contains a blank (#).
+                  </p>
+               </div>
+               <div>
+                  <p>Generally, a specific code is used only if a significant part of the accompanying
+                     						material is the type of material represented by the code. If more than six codes are
+                     						appropriate to an item, only the six most important are recorded.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - No accompanying matter</span><div>
+                        <p>No accompanying matter or no indication of accompanying matter appears on the item.
+                           							When # is used it is followed by five other blanks.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/24-29</strong></td>
+                              <td colspan="9">######<em><span><br /><span>[No accompanying matter indicated] </span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Discography</span><div>
+                        <p>Accompanying matter contains a discography or other bibliography of recorded
+                           						sound.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Bibliography</span><div>
+                        <p>Accompanying matter contains a bibliography.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/24-29</strong></td>
+                              <td colspan="9">b#####</td>
+                           </tr>
+                           <tr>
+                              <td>504</td>
+                              <td colspan="9">##$aBibliography: p. 303-304.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Thematic index</span><div>
+                        <p>Accompanying matter contains a thematic index.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Libretto or text</span><div>
+                        <p>Accompanying matter contains a printed transcription of the libretto or other text
+                           							(e.g., a transcript of verbal contents of a sound recording).
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/24-29</strong></td>
+                              <td colspan="9">dz####</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aWords of the songs and poster inserted in
+                                 								container.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">e - Biography of composer or author</span><div>
+                        <p>Accompanying matter contains significant biographical information on a composer or
+                           							author.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Biography of performer or history of ensemble</span><div>
+                        <p>Accompanying matter contains significant biographical information on a performer or a
+                           							history of an ensemble.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/24-29</strong></td>
+                              <td colspan="9">f#####</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aProgram notes by John W. Barker and biographical notes on
+                                 									the pianist on container.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">g - Technical and/or historical information on instruments</span><div>
+                        <p>Accompanying matter contains technical and/or historical information on
+                           						instruments.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/24-29</strong></td>
+                              <td colspan="9">fgz###</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aProgram notes and notes on the horn by R.D. Dattell and
+                                 									biographical notes on the soloist on container.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">h - Technical information on music</span><div>
+                        <p>Accompanying matter contains significant technical information, including
+                           							instructions for performance.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/24-29</strong></td>
+                              <td colspan="9">h#####</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aIncludes instructions for performance.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">i - Historical information</span><div>
+                        <p>Accompanying matter contains significant historical information.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/24-29</strong></td>
+                              <td colspan="9">i#####</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aProgram notes by Kurt Hoffman in German, English, and French
+                                 									on container. [principally historical information] 
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">k - Ethnological information</span><div>
+                        <p>Accompanying matter contains significant ethnological information that relates to the
+                           							musical part of the item.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">r - Instructional materials</span><div>
+                        <p>Accompanying matter contains instructional materials.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/24-29</strong></td>
+                              <td colspan="9">r#####</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a ... +$e1 teacher's guide.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">s - Music</span><div>
+                        <p>Accompanying matter contains a score or other music format than that of the main
+                           							item.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">z - Other</span><div>
+                        <p>Accompanying matter for which none of the other defined codes are appropriate.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/24-29</strong></td>
+                              <td colspan="9">dfz###</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aProgram notes by Uwe Kraemer, biographical notes on the
+                                 									performers, notes on the recording process, synopsis, and libretto with English
+                                 									translation ([24] p. ill.) laid in container.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>30-31 - Literary text for sound recordings (006/13-14)</strong><div>
+                  <p>Up to two one-character codes (recorded in the order of the following list) that
+                     						indicate the type of literary text contained in a nonmusical sound recording. If only
+                     						one code is assigned, it is left justified and the unused position contains a blank
+                     					(#).
+                  </p>
+               </div>
+               <div>
+                  <p>If more than two codes for types of literary text are appropriate to an item, only the
+                     						two most important are recorded.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Item is a music sound recording</span><div>
+                        <p>When # is used it is followed by another blank (##).</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/30-31</strong></td>
+                              <td colspan="9">##</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">10$aBolero$h[sound recording] /$cMaurice Ravel.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Autobiography</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Biography</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Conference proceedings</span><div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/30-31</strong></td>
+                              <td colspan="9">lc</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">00$aModern real estate transactions.</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aPanel discussions, lectures, and questions and
+                                 								answers.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Drama</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">e - Essays</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Fiction</span><div>
+                        <p>Fiction includes novels, short stories, etc.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">g - Reporting</span><div>
+                        <p>Reports of newsworthy events and informative messages are included in this
+                           						category.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">h - History</span><div>
+                        <p>History includes historical narration, etc. that may also be covered by one of the
+                           							other codes (e.g., historical poetry).
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/30-31</strong></td>
+                              <td colspan="9">ht</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">00$aInside the Onaway command post$h[sound recording] /$cwith...</td>
+                           </tr>
+                           <tr>
+                              <td>520</td>
+                              <td colspan="9">##$aSummary: An oral history.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">i - Instruction</span><div>
+                        <p>Includes instructions on how to accomplish a task, learn an art, etc. (e.g., how to
+                           							replace a light switch). <em>Note:</em> Language instruction text is assigned code
+                           						j.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">j - Language instruction</span><div>
+                        <p>May include passages that fall under the definition for one of the other codes (e.g.,
+                           							language text that includes poetry).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">k - Comedy</span><div>
+                        <p>Spoken comedy.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">l - Lectures, speeches</span><div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/30-31</strong></td>
+                              <td colspan="9">l#</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aLectures.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">m - Memoirs</span><div>
+                        <p>Memoirs are usually autobiographical.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">n - Not applicable</span><div>
+                        <p>Not a sound recording (e.g., printed or manuscript music).</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">o - Folktales</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">p - Poetry</span><div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/30-31</strong></td>
+                              <td colspan="9">pf</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">00$aPoÃ©sies et prose franÃ§aises ...</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">r - Rehearsals</span><div>
+                        <p>Rehearsals are performances of any of a variety of nonmusical productions.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">s - Sounds</span><div>
+                        <p>Includes nonmusical utterances and vocalizations that may or may not convey
+                           						meaning.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">t - Interviews</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">z - Other</span><div>
+                        <p>None of the other defined codes are appropriate.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>32 - Undefined (006/15)</strong><div>
+                  <p>Undefined; contains a blank (#) or a fill character (|).</p>
+               </div>
+            </div>
+            <hr />
+            <div><strong>33 - Transposition and arrangement (006/16)</strong><div>
+                  <p>Whether all or part of the item being cataloged is a transposition and/or arrangement
+                     						of another work.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Not arrangement or transposition or not specified</span><div>
+                        <p>Not arrangements or the transposition of the item is not specified.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Transposition</span><div>
+                        <p>Item has been transposed to a different pitch from the original.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Arrangement</span><div>
+                        <p>Item has been adapted as regards medium and/or texture.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Both transposed and arranged</span><div>
+                        <p>Item has been both transposed to a different pitch from the original and has been
+                           							adapted as regards medium and/or texture.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">n - Not applicable</span><div>
+                        <p>Item is not notated music.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Unknown</span><div>
+                        <p>Unknown whether the item is a transposition or arrangement.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>34 - Undefined (006/17)</strong><div>
+                  <p>Undefined; contains a blank (#) or a fill character (|).</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Capitalization - </strong>Alphabetic codes are input in lowercase.
+            </p>
+         </div>
+         <div>
+            <p><strong>Field length - </strong>Field 008 should always consist of forty (40) character positions.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="characterPositionHistory">
+            <div><em>008/18-19 - Form of composition [USMARC only]</em><div class="characterPositionHistoryDsc">
+                  <p>Prior to the definition of code bd (Ballads) in 1997, ballads were identified with code
+                     					fm (Folk music).
+                  </p>
+               </div>
+               <div class="characterPositionHistoryDsc">
+                  <p>In 2006, code mu was redefined to signify that either multiple MARC codes or non-MARC
+                     					codes are contained in field 047 (Form of Composition).
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/18-19 - Form of composition</em><div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">fl - Flamenco [NEW, 2009]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">tl - Teatro lirico [NEW, 2009]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">vi - Villancicos [NEW, 2009]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">za - Zarzuelas [NEW, 2009]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">zz - Other [REDEFINED, 2009]</div>
+                     <div>
+                        <p>Redefined to remove term villancicos, which was defined in 2009.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/20 - Format of music</em><div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">a - Full score [REDESCRIBED, 2013]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">c - Accompaniment reduced for keyboard [REDESCRIBED, 2012]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">d - Voice score [RENAMED, 2012]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">d - Voice score with accompaniment [REDESCRIBED, 2012]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">h - Chorus score [NEW, 2009]</div>
+                     <div>
+                        <p>Prior to 2010 chorus scores were included in code <em>c</em> (Accompaniment
+                           						reduced for keyboard) and code <em>d</em> (Voice score).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">h - Chorus score [REDESCRIBED, 2012]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">i - Condensed score [NEW, 2009]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">j - Performer-conductor part [NEW, 2009]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">k - Vocal score [NEW, 2012]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">l - Score [NEW, 2013]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">z - Other [REDESCRIBED, 2013]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/21 - Existence of parts [OBSOLETE, 1988]</em><div class="characterPositionHistoryDsc">
+                  <p>Defined codes were: # (No parts exist), a (Parts exist), n (Not applicable), u
+                     				(Unknown).
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/21 - Music parts [NEW, 2002]</em></div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/22 - Target audience</em><div class="characterPositionHistoryDsc">
+                  <p>Prior to the definition of codes a through g in 1995, only code # and j were used in
+                     					USMARC.
+                  </p>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">c - Elementary and junior high [RENAMED, 2002]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">d - Secondary (senior high) [RENAMED, 2002]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">u - School material at first level [OBSOLETE] [CAN/MARC only]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">v - School material at second level [OBSOLETE] [CAN/MARC only]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/23 - Form of item</em><div class="characterPositionHistoryDsc">
+                  <p>Code # (Not a reproduction) was redefined when the focus of 008/23 was changed. Codes g,
+                     					h, and i were made obsolete when the coding of 008/23 (Forms of reproduction code) was
+                     					redefined as information about the medium of the item in hand rather than about
+                     					bibliographic reproductions. Prior to 1977, other forms of reproduction were identified by
+                     					code x.
+                  </p>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel"># - None of the following [REDEFINED, 1987]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">g - Punched paper tape [OBSOLETE, 1987]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">h - Magnetic tape [OBSOLETE, 1987]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">i - Multimedia [OBSOLETE, 1987]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">o - Online [NEW, 2010]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">q - Direct electronic [NEW, 2010]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">x - Other form of reproduction [OBSOLETE] [USMARC only]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">z - Other form of reproduction [OBSOLETE]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/24-29 - Accompanying matter [USMARC only]</em><div class="characterPositionHistoryDsc">
+                  <p>Code n was made obsolete because the codes defined for these character positions apply to
+                     					both sound recordings and music scores. Code j was made obsolete when code i was redefined
+                     					to include any historical information.
+                  </p>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">n - Not applicable [OBSOLETE, 1980]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">j - Historical information other than music [OBSOLETE, 1980]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/24-27 - Accompanying matter [REDEFINED, 1997] [CAN/MARC only]</em><div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">j - Historical information other than music [OBSOLETE, 1997]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">l - Biography of arranger or transcriber [OBSOLETE, 1997]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/28 - Government publication [REDEFINED, 1997] [CAN/MARC only]</em><div class="characterPositionHistoryDsc">
+                  <p>Defined codes were: # (Not a government publication); a (Autonomous or semi-autonomous
+                     					components of sovereign federations; c (Multilocal); f (Federal/national); i
+                     					(International intergovernmental bodies); l (Local jurisdictions); m (Multistate); o
+                     					(Government publication-level undetermined); s (State, provincial, territorial, dependant,
+                     					etc. jurisdiction); u (Unknown if item is a government publication); z (Other type of
+                     					government publication)
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/29 - Undefined [OBSOLETE] [CAN/MARC only]</em></div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/32 - Main entry in body of entry [OBSOLETE, 1990]</em><div class="characterPositionHistoryDsc">
+                  <p>Defined codes were: 0 (Main entry not in body of entry), 1 (Main entry in body of
+                     				entry).
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/33 - Transposition and arrangement [NEW, 2002]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>Â  
+               
+               &gt;&gt;
+               <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
+               <strong>008 (Music)</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(04/29/2013)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

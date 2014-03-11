@@ -1,0 +1,686 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy, see www.w3.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 700: Added
+  Entry-Personal Name (Network Development and MARC Standards
+  Office, Library of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the added entry-personal name (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link type="text/css" rel="stylesheet" href=
+  "update10-stylesheet.css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a>
+    &gt;&gt; <strong>700</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>700 - Added Entry-Personal Name (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Type of personal name entry element</em><br>
+      0 - Forename<br>
+      1 - Surname<br>
+      3 - Family name<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Type of added entry</em><br>
+      # - No information provided<br>
+      2 - Analytical entry<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Personal name (NR)<br>
+      $b - Numeration (NR)<br>
+      $c - Titles and other words associated with a name (R)<br>
+      $d - Dates associated with a name (NR)<br>
+      $e - Relator term (R)<br>
+      $f - Date of a work (NR)<br>
+      $g - Miscellaneous information (NR)<br>
+      $h - Medium (NR)<br>
+      $i - Relationship information (R)<br>
+      $j - Attribution qualifier (R)<br>
+      $k - Form subheading (R)<br>
+      $l - Language of a work (NR)<br>
+      $m - Medium of performance for music (R)<br>
+      $n - Number of part/section of a work (R)<br>
+      $o - Arranged statement for music (NR)<br></td>
+
+      <td colspan="1">$p - Name of part/section of a work (R)<br>
+      $q - Fuller form of name (NR)<br>
+      $r - Key for music (NR)<br>
+      $s - Version (NR)<br>
+      $t - Title of a work (NR)<br>
+      $u - Affiliation (NR)<br>
+      $x - International Standard Serial Number (NR)<br>
+      $0 - Authority record control number (R)<br>
+      $3 - Materials specified (NR)<br>
+      $4 - Relator code (R)<br>
+      $5 - Institution to which field applies (NR)<br>
+      $6 - Linkage (NR)<br>
+      $8 - Field link and sequence number (R)<br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>Added entry in which the entry element is a personal
+  name.</p>
+
+  <p>Added entries are assigned according to various cataloging
+  rules to give access to the bibliographic record from personal
+  name headings which may not be more appropriately assigned as
+  600 (Subject Added Entry-Personal Name) or 800 (Series Added
+  Entry-Personal Name) fields.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <p>Description of the first indicator position and all subfield
+  codes, as well as input conventions for the 700 field are given
+  in the <em><a href="bdx00.html">X00 Personal Names-General
+  Information</a></em> section. Because the second indicator is
+  different for various fields, it is not described in the
+  general information section, but is described below.</p>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <div class="indicator">
+    <strong>Second Indicator - Type of added entry</strong>
+
+    <div class="description">
+      Distinguishes between an analytical entry and no
+      information provided.
+
+      <div class="indicatorvalue">
+        <strong># - No information provided</strong>
+
+        <div class="description">
+          Used when the added entry is not for an analytic or
+          when no information is provided as to whether the added
+          entry is for an analytic.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                100</td>
+
+                <td valign="top" colspan="9" align="left">
+                1#$aShlapentokh, Vladimir.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                245</td>
+
+                <td valign="top" colspan="9" align="left">
+                10$aSoviet ideologies in the period of glasnot
+                :$bresponses to Brezhnev's stagnation /$cVladimir
+                Shlapentokh with the participation of Dmitry
+                Shlapentokh.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>700</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>1#</strong><strong>$a</strong>Shlapentokh,
+                Dmitry.</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                245</td>
+
+                <td valign="top" colspan="9" align="left">
+                00$aLorser Feitelson and Helen Lundeberg:$ba
+                retrospective exhibition.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>700</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>1#</strong><strong>$a</strong>Feitelson,
+                Lorser,<strong>$d</strong>1898-</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>700</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>1#</strong><strong>$a</strong>Lundeberg,
+                Helen,<strong>$d</strong>1908-</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                100</td>
+
+                <td valign="top" colspan="9" align="left">
+                10$aGershkoff, Ira.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                245</td>
+
+                <td valign="top" colspan="9" align="left">14$aThe
+                Boston driver's handbook :$bthe big dig edition
+                /$cIra Gershkoff and Richard Trachtman.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                500</td>
+
+                <td valign="top" colspan="9" align="left">
+                ##$aRev. ed. of: Wild in the streets, c1982.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>700</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>1#</strong><strong>$a</strong>Gershkoff,
+                Ira.<strong>$t</strong>Wild in the streets.</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>2 - Analytical entry</strong>
+
+        <div class="description">
+          Item in hand contains the work that is represented by
+          the added entry.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                100</td>
+
+                <td valign="top" colspan="9" align="left">
+                1#$aBouma, Jelle.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                245</td>
+
+                <td valign="top" colspan="9" align="left">
+                10$aMarcus Iunius Nypsus :$bFluminis varatio,
+                Limitis repositio : introduction, text,
+                translation, and commentary /$cJelle Bouma.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>700</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>12</strong><strong>$a</strong>Nypsus,
+                Marcus Iunius.<strong>$t</strong>Fluminis
+                varatio.<strong>$f</strong>1993.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>700</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>12</strong><strong>$a</strong>Nypsus,
+                Marcus Iunius.<strong>$t</strong>Limitis
+                repositio.<strong>$f</strong>1993.</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h4><span class="box">â </span> EXAMPLES</h4>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Jung, C.
+        G.<strong>$q</strong>(Carl
+        Gustav),<strong>$d</strong>1875-1961.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Walter,
+        Johannes.<strong>$4</strong>prf</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Jefferson,
+        Thomas,<strong>$d</strong>1743-1826,<strong>$e</strong>former
+        owner.<strong>$5</strong>MH</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Weber,
+        Lucas.<strong>$4</strong>egr</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>12</strong><strong>$a</strong>Hills,
+        John,<strong>$c</strong>surveyor.<strong>$t</strong>Sketch
+        of Allens town, June 1778.<strong>$f</strong>1976.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>12</strong><strong>$a</strong>Rossini,
+        Gioacchino,<strong>$d</strong>1792-1868.<strong>$t</strong>MosÃ¨
+        in Egitto.<strong>$p</strong>Dal tuo stellato
+        soglio.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>12</strong><strong>$a</strong>Mendelssohn-Bartholdy,
+        Felix,<strong>$d</strong>1809-1847.<strong>$t</strong>Lieder
+        ohne
+        Worte,<strong>$m</strong>piano,<strong>$n</strong>op.62.<strong>
+        $n</strong>No.
+        6.<strong>$p</strong>FrÃ¼hlingslied.<strong>$f</strong>1970.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Bizet,
+        Georges,<strong>$d</strong>1869-1951.<strong>$t</strong>Carmen.<strong>
+        $k</strong>Selections.<strong>$f</strong>1983.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Ford,
+        John,<strong>$d</strong>1894-1973,<strong>$e</strong>direction.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Beethoven, Ludwig
+        van,<strong>$d</strong>1770-1827.<strong>$t</strong>Sonatas,<strong>
+        $m</strong>piano.<strong>$k</strong>Selections.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>12</strong><strong>$a</strong>Debussy,
+        Claude,<strong>$d</strong>1862-1918.<strong>$t</strong>Sonatas,<strong>
+        $m</strong>flute, viola,
+        harp.<strong>$f</strong>1986.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Ries,
+        Ferdinand,<strong>$d</strong>1784-1838.<strong>$t</strong>Octets,<strong>
+        $m</strong>piano, winds, strings,<strong>$n</strong>op.
+        128,<strong>$r</strong>A â­ major.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$a</strong>Father Divine.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$a</strong>R. M. B.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Verez Peraza,
+        Elena,<strong>$d</strong>1919-</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Salamin C., Marcel
+        A.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Ibn al-Mu`tazz,
+        `Abd Allah,<strong>$d</strong>861-908.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$a</strong>Spagna<strong>$c</strong>(Artist),<strong>
+        $d</strong>ca. 1450-1528.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>0#</strong><strong>$a</strong>Charles
+        Edward,<strong>$c</strong>Prince, grandson of James II,
+        King of England,<strong>$d</strong>1720-1788.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Hecht,
+        Ben,<strong>$d</strong>1893-1964,<strong>$e</strong>writing,<strong>
+        $e</strong>direction,<strong>$e</strong>production.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>E.,
+        Sheila<strong>$q</strong>(Escovedo),<strong>$d</strong>1959-<strong>
+        $t</strong>Dawn, the beginning.<strong>$h</strong>Sound
+        recording.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>12</strong><strong>$a</strong>Shakespeare,
+        William,<strong>$d</strong>1564-1616.<strong>$t</strong>Selections.<strong>
+        $l</strong>German.<strong>$f</strong>1982.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Harrison, Tinsley
+        Randolph,<strong>$d</strong>1900-<strong>$t</strong>Principles
+        of internal medicine.<strong>$s</strong>9th ed.</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Herrman,
+        Egbert.<strong>$4</strong>org</td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>700</strong></td>
+
+        <td valign="top" colspan="9" align="left">
+        <strong>1#</strong><strong>$a</strong>Galway,
+        James.<strong>$4</strong>prf<strong>$4</strong>cnd</td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a>
+          &gt;&gt; <strong>700</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

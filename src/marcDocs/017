@@ -1,0 +1,763 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 017: Copyright or
+  Legal Deposit Number (Network Development and MARC Standards
+  Office, Library of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the copyright or legal deposit number (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office"> <link type="text/css" rel="stylesheet" href=
+  "update10-stylesheet.css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>
+    &gt;&gt; <strong>017</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>017 - Copyright or Legal Deposit Number (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2008
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Undefined</em><br>
+      # - Undefined<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Display constant controller</em><br>
+      # - Copyright or legal deposit number<br>
+      8 - No display constant generated<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Copyright or legal deposit number
+      (R)<br>
+      $b - Assigning agency (NR)<br>
+      $d - Date (NR)<br>
+      $i - Display text (NR)</td>
+
+      <td colspan="1">$z - Canceled/invalid copyright or legal
+      deposit number (R)<br>
+      $2 - Source (NR)<br>
+      $6 - Linkage (NR)<br>
+      $8 - Field link and sequence number (R)</td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>Copyright registration or legal deposit number for an item
+  that was acquired by copyright or legal deposit.</p>
+
+  <p>Agency assigning the number is always given with the
+  copyright or legal deposit number.</p>
+
+  <p>Field is repeated when more than one agency has assigned a
+  copyright or legal deposit number.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <div class="indicator">
+    <strong>First Indicator - Undefined</strong>
+
+    <div class="description">
+      Undefined and contains a blank (#).
+    </div>
+  </div>
+
+  <div class="indicator">
+    <strong>Second Indicator - Display constant
+    controller</strong>
+
+    <div class="description">
+      Controls the generation of a display constant preceding the
+      note.
+
+      <div class="indicatorvalue">
+        <strong># - Copyright or legal deposit number</strong>
+
+        <div class="description">
+          Used to generate the display constant <em>Copyright or
+          deposit number</em>:.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>017</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>##</strong><strong>$a</strong>PA
+                1-060-815<strong>$b</strong>U.S. Copyright
+                Office</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>8 - No display constant generated</strong>
+      </div>
+
+      <div class="example">
+        <table width="100%">
+          <tr>
+            <td valign="top" width="5%" align="left"></td>
+
+            <td valign="top" width="10%" align="left"></td>
+
+            <td valign="top" width="10%" align="left"></td>
+
+            <td valign="top" width="10%" align="left"></td>
+
+            <td valign="top" width="10%" align="left"></td>
+
+            <td valign="top" width="10%" align="left"></td>
+
+            <td valign="top" width="10%" align="left"></td>
+
+            <td valign="top" width="10%" align="left"></td>
+
+            <td valign="top" width="10%" align="left"></td>
+
+            <td valign="top" width="15%" align="left"></td>
+          </tr>
+
+          <tr>
+            <td valign="top" colspan="1" align="left">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>
+            017</strong></td>
+
+            <td valign="top" colspan="9" align="left">
+            &nbsp;&nbsp;&nbsp;&nbsp;<strong>#8</strong><strong>$a</strong>PA
+            1-030-023<strong>$b</strong>U.S. Copyright
+            Office</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <h4><span class="box">â </span> SUBFIELD CODES</h4>
+
+  <div class="subfield">
+    <strong>$a - Copyright or legal deposit number</strong>
+
+    <div class="description">
+      Copyright registration number or the legal deposit number.
+      In the United States, the U.S. copyright number is composed
+      of one or more alphabetic characters indicating the class
+      under which the registration is made (second and third
+      letters may be added for statistical analysis), and a
+      sequentially assigned number.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>EU781596<strong>$b</strong>U.S.
+          Copyright Office</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>DL
+          80-0-1524<strong>$b</strong>BibliothÃ¨que nationale du
+          QuÃ©bec</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>PA1116341<strong>$b</strong>U.S.
+          Copyright Office<strong>$d</strong>20020703<br>
+          <em>[Display: Copyright or deposit number:
+          PA1116341]</em></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="description2 description">
+      Multiple numbers assigned by the same agency are each
+      recorded in a separate subfield $a, followed by a single
+      subfield $b.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>PA52-758 (English
+          subtitled version)<strong>$a</strong>PA52-759 (English
+          language dubbed version)<strong>$b</strong>U.S.
+          Copyright Office</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>VA65-843<strong>$a</strong>VA65-845<strong>
+          $a</strong>VA65-849<strong>$b</strong>U.S. Copyright
+          Office</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="description2 description">
+      Multiple numbers assigned by different agencies are each
+      recorded in a separate field 017.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>F31401<strong>$a</strong>F31405<strong>
+          $b</strong>U.S. Copyright Office</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>DL1377-1984<strong>
+          $b</strong>BibliothÃ¨que nationale de France<br>
+          <em>[Item was registered for copyright in the U.S. and
+          France.]</em></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$b - Assigning agency</strong>
+
+    <div class="description">
+      Name of the agency assigning the number. Subfield $b must
+      always be present whenever field 017 is used.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>A68778<strong>$b</strong>U.S.
+          Copyright Office</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="description2 description">
+      For fields containing more than one subfield $a, subfield
+      $b is recorded only once after the last subfield $a.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>VA26037<strong>$a</strong>VA26038<strong>
+          $a</strong>VA26039<strong>$a</strong>VA26040<strong>$a</strong>VA26041<strong>
+          $a</strong>VA26042<strong>$a</strong>VA26043<strong>$b</strong>U.S.
+          Copyright Office</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$d - Date</strong>
+
+    <div class="description">
+      Date on which the copyright registration number was
+      assigned. Formatted according to ISO 8601
+      <em>(yyyymmdd</em>).
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>PA111636<strong>$b</strong>U.S.
+          Copyright Office<strong>$d</strong>19990828</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$i - Display text</strong>
+
+    <div class="description">
+      Text to be displayed when the display constant associated
+      with second indicator value # is inadequate. When this
+      subfield is present, the second indicator contains value 8
+      (No display constant generated). Subfield $i precedes
+      subfield $a at the beginning of the field.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#8</strong><strong>$i</strong>Suppl.
+          reg.:<strong>$a</strong>PA001116455<strong>$b</strong>U.S.
+          Copyright Office<strong>$d</strong>20020725<br>
+          <em>[Display: Suppl reg.: PA001116455]</em></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#8</strong><strong>$i</strong>Orig.
+          reg.<strong>$a</strong>JP732<strong>$b</strong>U.S.
+          Copyright Office<strong>$d</strong>19510504<br>
+          <em>[Display: Orig. reg.: JP732]</em></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$z - Canceled/invalid copyright or legal deposit
+    number</strong>
+
+    <div class="description">
+      Each canceled/invalid number is contained in a separate
+      occurrence of subfield $z. If no valid number exists,
+      subfield $z may be used alone in the record.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>M44120-2006<strong>
+          $z</strong>M444120-2006<br>
+          <em>[Resource has both correct and invalid deposit
+          numbers]</em></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$2 - Source</strong>
+
+    <div class="description">
+      Code that identifies the source of the copyright
+      registration (or legal deposit) number in subfield $a.
+    </div>
+
+    <div class="description2 description">
+      Code from: <em><a href=
+      "http://www.loc.gov/standards/sourcelist/copyright-legal-deposit.html">Copyright and Legal Deposit Number Source Codes</a></em>.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>99-263<strong>$b</strong>BwMiBKP<strong>
+          $2</strong>[code for the registration list of the
+          Belorussian Book Chamber]</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>017</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>##</strong><strong>$a</strong>99-7356<strong>$b</strong>RuMoRKP<strong>
+          $2</strong>[code for the registration list of the
+          Russian Book Chamber]</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$6 - Linkage</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$8 - Field link and sequence number</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+  <hr>
+
+  <h3>INPUT CONVENTIONS</h3>
+
+  <div class="description2">
+    <strong>Punctuation</strong> - Field 017 does not end with a
+    mark of punctuation unless the field ends with an
+    abbreviation, an initialism, or data that ends with a mark of
+    punctuation.
+  </div>
+  <hr>
+
+  <h3>CONTENT DESIGNATOR HISTORY</h3>
+
+  <div class="font_small">
+    <em>Indicator 1 - Government jurisdiction (BK, MP, MU, VM)
+    [OBSOLETE]</em><br>
+    <em>0 - United States [OBSOLETE]</em><br>
+    <em>1 - Canada [OBSOLETE]</em><br>
+    <em>2 - France [OBSOLETE] [CAN/MARC only]</em><br>
+    Prior to 1979, this field was limited to U.S. copyright
+    registration numbers. In 1979 the first indicator was defined
+    with values 0 (United States), 1 (Canada), and 2-9 (Reserved)
+    to include numbers from other government jurisdictions. This
+    first indicator definition was made obsolete when subfield $b
+    was defined in 1980 for USMARC and in 1984 for CAN/MARC.
+    <em><br>
+    Indicator 2 - Undefined [REDEFINED, 2004]</em><br>
+    <br>
+    <em>$a - Copyright registration number [RENAMED,
+    2004]</em><br>
+    <em>$b - Source [RENAMED, 2001]</em><br>
+    Subfield $b was renamed to differentiate it from subfield $2
+    (Source).<br>
+    <em>$d - Date [NEW, 2004]</em><br>
+    <em>$i - Display text [NEW, 2004]</em><br>
+    <em>$z - Canceled/invalid Copyright or legal deposit number
+    [NEW, 2008]</em> <em>$2 - Source [NEW, 2001]</em>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>
+          &gt;&gt; <strong>017</strong>
+        </div>(09/01/2008)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

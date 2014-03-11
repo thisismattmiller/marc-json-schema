@@ -1,0 +1,317 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 100: Main Entry-Personal Name (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the main entry-personal name (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd1xx.html">1XX</a> &gt;&gt; <strong>100</strong></div>
+      <hr><a name="skip_menu"></a><h1>100 - Main Entry-Personal Name (NR)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2007</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Type of personal name entry element</em><br>0 - Forename <br>1 - Surname <br>3 - Family name <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Personal name (NR) <br>$b - Numeration (NR) <br>$c - Titles and words associated with a name (R) <br>$d - Dates associated with a name (NR) <br>$e - Relator term (R) <br>$f - Date of a work (NR) <br>$g - Miscellaneous information (NR) <br>$j - Attribution qualifier (R) <br>$k - Form subheading (R) <br>$l - Language of a work (NR)</td>
+            <td colspan="1"> $n - Number of part/section of a work (R) <br>
+           $p - Name of part/section of a work (R) <br>$q - Fuller form of name (NR) <br>$t - Title of a work (NR) <br>$u - Affiliation (NR) <br>
+           $0 - Authority record control number (R)<br>
+           $4 - Relator code (R) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R)</td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Personal name used as a main entry in a bibliographic record.</p>
+      <p>Main entry is assigned according to various cataloging rules, usually to the person
+                     chiefly responsible for the work.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <p>Descriptions of the first indicator position and all subfield codes, as well as input
+                     conventions for the 100 field, are given in the <em><a href="bdx00.html">X00 Personal Names-General
+                           Information</a></em> section. Because the second indicator is different for various X00
+                     fields, it is not described in the general information section, but is described
+                  below.
+      </p>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>Second Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
+            </div>
+      </div>
+      <h4><span class="box">&#9632;</span> EXAMPLES
+      </h4>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Adams, Henry,<strong>$d</strong>1838-1918.               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Ria&ntilde;o, Juan Facundo,<strong>$d</strong>1828-1901.               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Fowler, T. M.<strong>$q</strong>(Thaddeus Mortimer),<strong>$d</strong>1842-1922.               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#$a</strong>Bach, Johann Sebastian.<strong>$4</strong>aut<strong>$0</strong>(DE-101c)310008891
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$a</strong>Farquhar family.               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Morgan, John Pierpont,<strong>$d</strong>1837-1913,<strong>$e</strong>collector.               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Fitzgerald-Jones, Sandra,<strong>$d</strong>1938-<strong>$e</strong>interviewer.               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>V&eacute;rez-Peraza, Elena,<strong>$d</strong>1919-               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>McIntosh, Paula.               </td>
+            </tr>
+       
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>John,<strong>$c</strong>the Baptist, Saint.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>John<strong>$b</strong>II Comnenus,<strong>$c</strong>Emperor of the East,<strong>$d</strong>1088-1143.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>110908.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Dr. X.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Author of The diary of a physician,<strong>$d</strong>1807-1877.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Claude,<strong>$c</strong>d'Abbeville, pere,<strong>$d</strong>d. 1632.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Howard.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Fitzgerald, David.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Chiang, Kai-shek,<strong>$d</strong>1887-1975.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Watson,<strong>$c</strong>Rev.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Q., Mike.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Blackbeard, Author of,<strong>$d</strong>1777-1852.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Le Conte, John Eatton,<strong>$d</strong>1784-1860.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>El-Abiad, Ahmed H.,<strong>$d</strong>1926-
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>John Paul<strong>$b</strong>II,<strong>$c</strong>Pope,<strong>$d</strong>1920-
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Seuss,<strong>$c</strong>Dr.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Churchill, Winston,<strong>$c</strong>Sir,<strong>$d</strong>1874-1965.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Ward, Humphrey,<strong>$c</strong>Mrs.,<strong>$d</strong>1851-1920.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Walle-Lissnijder,<strong>$c</strong>vande.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Thomas,<strong>$c</strong>Aquinas, Saint,<strong>$d</strong>1225?-1274.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Black Foot,<strong>$c</strong>Chief,<strong>$d</strong>d. 1877<strong>$c</strong>(Spirit)
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Levi, James,<strong>$d</strong>fl. 1706-1739.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Joannes Aegidius, Zamorensis,<strong>$d</strong>1240 or 41-ca. 1316.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>H. D.<strong>$q</strong>(Hilda Doolittle),<strong>$d</strong>1886-1961.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Gresham, G. A.<strong>$q</strong>(Geoffrey Austin)
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Smith, Elizabeth<strong>$q</strong>(Ann Elizabeth)
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Beeton,<strong>$c</strong>Mrs.<strong>$q</strong>(Isabella Mary),<strong>$d</strong>1836-1865.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>`Atthawimonbandit (To),<strong>$c</strong>Phra,<strong>$d</strong>1883-1973.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Brown, B. F.<strong>$u</strong>Chemistry Dept., American University.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>E.S.,<strong>$c</strong>Meister,<strong>$d</strong>15th cent.,<strong>$j</strong>Follower of
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>100</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Reynolds, Joshua,<strong>$c</strong>Sir,<strong>$d</strong>1723-1792,<strong>$j</strong>Pupil of
+               </td>
+            </tr>
+         </table>
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd1xx.html">1XX</a> &gt;&gt; <strong>100</strong></div> 
+               (04/14/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

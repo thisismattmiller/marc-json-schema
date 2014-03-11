@@ -1,0 +1,261 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>MARC 21 Format for Bibliographic Data: 243: Collective Uniform Title (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the collective uniform title  (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a> &gt;&gt; <strong>243</strong></div>
+      <hr><a name="skip_menu"></a><h1>243 - Collective Uniform Title (NR)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">February 1999</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Uniform title printed or displayed</em><br>0 - Not printed or displayed <br>1 - Printed or displayed <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Nonfiling characters</em><br>0-9 - Number of nonfiling characters<br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Uniform title (NR) <br>$d - Date of treaty signing (R) <br>$f - Date of a work (NR) <br>$g - Miscellaneous information (NR) <br>$h - Medium (NR) <br>$k - Form subheading (R) <br>$l - Language of a work (NR) <br>$m - Medium of performance for music (R) <br></td>
+            <td colspan="1">$n - Number of part/section of a work (R) <br>$o - Arranged statement for music (NR) <br>$p - Name of part/section of a work (R) <br>$r - Key for music (NR) <br>$s - Version (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Generic title that is constructed by the cataloger to collect works by a prolific
+         author. Brackets that customarily enclose a collective uniform title are not carried in
+         the MARC record. They may be generated based on the field tag.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Uniform title printed or displayed</strong> <div class="description">Whether or not the uniform title is printed or displayed.
+            <div class="indicatorvalue"><strong>0 - Not printed or displayed</strong> <div class="description">Uniform title is not printed or displayed.</div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Printed or displayed</strong> <div class="description">Uniform title is printed or displayed.</div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Nonfiling characters</strong> <div class="description">Description of this indicator is given in the <em><a href="bdx30.html">X30 Uniform Title-General Information</a></em> section.
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="description">Descriptions of all subfield codes used in field 243 are given in the <em><a href="bdx30.html">X30 Uniform Title-General Information</a></em> section.
+      </div>
+      <hr>
+      <h4><span class="box">&#9632;</span> EXAMPLES
+      </h4>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left">100</td>
+               <td vAlign="top" colspan="9" align="left">1#$aShakespeare, William,$d1564-1616.</td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>243</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Works.<strong>$f</strong>1983
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left">245</td>
+               <td vAlign="top" colspan="9" align="left">14$aThe Globe illustrated Shakespeare.</td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left">100</td>
+               <td vAlign="top" colspan="9" align="left">1#$aTour&eacute;, Ahmed S&eacute;kou,$d1922-</td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>243</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Speeches
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left">245</td>
+               <td vAlign="top" colspan="9" align="left">10$aDiscours du pr&eacute;sident S&eacute;kou.</td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left">110</td>
+               <td vAlign="top" colspan="9" align="left">1#$aArgentina.</td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>243</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Laws, etc.
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left">245</td>
+               <td vAlign="top" colspan="9" align="left">10$aRecopilaci&oacute;n de leyes, decretos y resoluciones
+                                    ...
+               </td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left">100</td>
+               <td vAlign="top" colspan="9" align="left">1#$aStrauss, Johann,$d1804-1849.</td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>243</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Orchestra music.<strong>$k</strong>Selections
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left">245</td>
+               <td vAlign="top" colspan="9" align="left">10$aRosen aus dem S&uuml;den.</td>
+            </tr>
+         </table>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Field 243 does not end with a mark of punctuation unless the last word in the field is
+                     an abbreviation, initial/letter, or data that ends with a mark of punctuation. See also
+                     subfield descriptions in the <em><a href="bdx30.html">X30 Uniform Title-General Information</a></em> section for
+                     punctuation information.
+      </div>
+      <div class="description2"><strong>Display Constant</strong>
+        <div class="table">
+            <table>
+               <tr>
+                  <td valign="top" align="left">[ ... ]</td>
+                  <td valign="top" align="left"><em>[brackets]</em></td>
+               </tr>
+            </table>
+        </div>Brackets that customarily enclose a uniform title are not carried in the MARC record.
+                     They may be system generated as a display constant associated with the field tag.
+   </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>Indicator 1 - Uniform title printed or displayed [USMARC only]</em><br><em>2 - Not printed on card, title added entry (MU) [OBSOLETE, 1993]</em><br><em>3 - Printed on card, title added entry (MU) [OBSOLETE, 1993]</em><br>In 1993, the first indicator was redefined from indicating whether the uniform title
+                        is printed on a card (and, for music, whether an added entry is to be made) to
+                        indicate for all forms of material whether the uniform title is to be printed or
+                        displayed. Consequently, first indicator values 0 and 1 were redefined.
+         <br>
+         <em>Indicator 1 -  [CAN/MARC only]</em><br>
+         <em>2 - Selections (extracts) [OBSOLETE]</em><br><em>3 - Other collective titles [OBSOLETE]</em><br><br><em>$d - Date of treaty signing [NEW, 1980]</em><br>Date of signing of a treaty was not separately subfield coded prior to the definition
+                        of subfield $d.<br><em>$n - Number of part/section of a work [REDEFINED, 1979]</em><br><em>$p - Name of part/section of a work [REDEFINED, 1979]</em><br>Prior to 1979, subfield $n carried only serial, opus, or thematic catalog
+                        numbers that occur with music items, and both the number and name of a part were
+                        included in one subfield $p. Subfield $p (Part) was redefined
+                        to include only the <strong>name</strong> of a named part/section and subfield
+                        $n was expanded to include the <strong>number</strong> of any numbered
+                        part/section.
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a> &gt;&gt; <strong>243</strong></div> (02/22/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

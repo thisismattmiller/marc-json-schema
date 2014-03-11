@@ -1,0 +1,867 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>MARC 21 Format for Bibliographic Data: 583: Action Note (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the action note (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a> &gt;&gt; <strong>583</strong></div>
+      <hr><a name="skip_menu"></a><h1>583 - Action Note (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2005</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Privacy</em><br># - No information provided <br>0 - Private <br>1 - Not private <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Action (NR) <br>$b - Action identification (R) <br>$c - Time/date of action (R) <br>$d - Action interval (R) <br>$e - Contingency for action (R) <br>$f - Authorization (R) <br>$h - Jurisdiction (R) <br>$i - Method of action (R) <br>$j - Site of action (R) <br>$k - Action agent (R) <br>$l - Status (R) <br></td>
+            <td colspan="1">$n - Extent (R) <br>$o - Type of unit (R) <br>$u - Uniform Resource Identifier (R) <br>$x - Nonpublic note (R) <br>$z - Public note (R) <br>$2 - Source of term (NR) <br>$3 - Materials specified (NR) <br>$5 - Institution to which field applies (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Information about processing, reference, and preservation actions.</p>
+      <p>Reference actions may include a brief statement about solicitation to acquire material,
+         whether the solicitation is active or inactive, and the date of the last item of
+                     correspondence.
+      </p>
+      <p>Preservation actions may include a review of condition, queuing for preservation, and
+                     completion of preservation.
+      </p>
+      <p>Field 583 is repeatable to record information about different actions.</p>
+      <p>Standard Terminology may be used and the authority for the terminology may be indicated
+                     in subfield $2.
+      </p>
+      <p>Identical to field 583 (Action Note) defined in the <em><a href="http://www.loc.gov/marc/holdings/">MARC 21 Format for Holdings
+                        Data</a></em>.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Privacy</strong> <div class="description">Whether the contents of the field are private or not. The state of being private
+                              includes information that institutions do not want to display to the public.
+            <div class="indicatorvalue"><strong># - No information provided</strong> <div class="description">No information is provided as to the privacy of the field contents.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>filmed<strong>$f</strong>NEH project (SCH)<strong>$c</strong>2001
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Private</strong> <div class="description">Field contains private information.</div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Not private</strong> <div class="description">No private information in the field.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>preserve<strong>$b</strong>PA-061<strong>$c</strong>19831204
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
+            </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Action</strong> <div class="description">Standardized terminology descriptive of the action.</div>
+         <div class="description2">
+            <div class="description">Refers to any action taken with respect to the described materials (e.g.,
+                                 accession, appraise, authenticate, classify, copy, describe, exhibit, lend,
+                                 organize, microfilm, preserve, reference, schedule, solicit, survey, transfer,
+                                 etc.). For preservation activities, this subfield contains a description of the
+                                 action (e.g., condition reviewed, queued for preservation, preservation interim
+                                 treatment, preservation completed).
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>condition reviewed<strong>$c</strong>19980207<strong>$l</strong>pages missing<strong>$2</strong>stmsrf
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>downgraded<strong>$c</strong>19910110<strong>$h</strong>Joe Smith<strong>$o</strong>title<strong>$x</strong>from secret FRD to confidential NSI
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>declassified<strong>$c</strong>19890428<strong>$f</strong>special re-review<strong>$h</strong>Joe Smith<strong>$o</strong>document<strong>$x</strong>from confidential NSI to unclassified official use
+                                             only, exemption 2: circumvention of statute
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>reviewed<strong>$c</strong>19950601<strong>$h</strong>Classification Department<strong>$o</strong>title<strong>$x</strong>determined to be unclassified<br><em>[Field used for actions concerning downgrading, classifying, etc. of
+                                             material.] </em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Action identification</strong> <div class="description">Code or designation assigned to identify a specific action or to identify it in
+                              conjunction with time of action (e.g., an accession number or project code).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$3</strong>8 record center cartons<strong>$n</strong>8<strong>$o</strong>cu. ft.<strong>$a</strong>accession<strong>$b</strong>82-14<strong>$c</strong>19820606
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>microfilmed<strong>$b</strong>2004-J292<strong>$c</strong>20041103<strong>$z</strong>for ordering information contact the Preservation
+                                             Department<strong>$2</strong>pda<strong>$5</strong>ICU
+                  </td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>upgraded<strong>$c</strong>20010422<strong>$h</strong>U.S. Department of Energy<strong>$o</strong>document<strong>$x</strong>from Confidential RD to Secret RD
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>retained<strong>$b</strong>classification<strong>$c</strong>19950713<strong>$f</strong>Declassification Review Project<strong>$h</strong>John Keeton<strong>$o</strong>document<strong>$x</strong>requires other agency review
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>changed<strong>$b</strong>caveat<strong>$x</strong>Sigma 1 added<strong>$x</strong>critical nuclear weapon data information (CNWDI) added<strong>$b</strong>distribution limitation<strong>$x</strong>Internal Distribution Only removed<strong>$c</strong>19980306<strong>$h</strong>Mary Brown<strong>$o</strong>document<br><em>[Field used for actions concerning downgrading, classifying, etc. of
+                                             material.] </em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - Time/date of action</strong> <div class="description">Concrete time or date of a future or past action.</div>
+         <div class="description2">
+            <div class="description">In conjunction with the appropriate action this may indicate date of accessioning,
+                                 acquisition, classification, transfer, or description. The date and time are
+                                 recorded according to <em>Representations of Dates and Times</em> (ISO 8601). The
+                                 date requires 8 numeric characters in the pattern <em>yyyymmdd</em> (4 for the
+                                 year, 2 for the month, and 2 for the day). The time requires 8 numeric characters
+                                 in the pattern <em>hhmmss.f</em> (2 for the hour, 2 for the minute, 2 for the
+                                 second, and 2 for a decimal fraction of the second, including the decimal point).
+                                 The 24-hour clock (00-23) is used.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$3</strong>plates<strong>$a</strong>condition reviewed<strong>$c</strong>20040915<strong>$l</strong>mutilated<strong>$2</strong>pda<strong>$5</strong>DLC
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>will microfilm<strong>$c</strong>2004<strong>$2</strong>pda<strong>$5</strong>ICU
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$d - Action interval</strong> <div class="description">Time period which cannot be expressed as a specific date (e.g., at end of academic
+                              term or every six months).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>appraise<strong>$b</strong>OPR 80/144<strong>$d</strong>quinquennial
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$e - Contingency for action</strong> <div class="description">Time or time period expressed in terms of an unpredictable event (e.g., at
+                              conclusion of court case, after death of daughter, or upon receipt).
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>transfer<strong>$e</strong>at conclusion of court case
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$f - Authorization</strong> <div class="description">Text of, or citation to, a statute, action order, report, rationale, or rule
+                              governing a particular action.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>queued for preservation<strong>$c</strong>19861010<strong>$e</strong>priority<strong>$f</strong>Title IIC project<strong>$5</strong>DLC
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$h - Jurisdiction</strong> <div class="description">Name of a person, an institution, or a position or function within an institution,
+                              in whom or in which responsibility for an action is vested.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>transfer<strong>$c</strong>19770613<strong>$h</strong>university archives
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$i - Method of action</strong> <div class="description">Means or technique by which an action was performed.</div>
+         <div class="description2">
+            <div class="description">Examples of means include: by mail, in person, by phone for reference services.
+                                 Examples of technique include: scrap, incinerate, shred for disposition.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$3</strong>text<strong>$a</strong>transformed digitally<strong>$c</strong>2003<strong>$i</strong>text markup<strong>$2</strong>pda<strong>$5</strong>VA
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$3</strong>reformatted<strong>$c</strong>19871211<strong>$i</strong>microfilm<strong>$2</strong>stmanf
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$j - Site of action</strong> <div class="description">Location at which the described materials are acted upon, including the site at
+                              which they are consulted by users.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>exhibit<strong>$c</strong>19840512 through 19841230<strong>$e</strong>pending results of conservation test<strong>$j</strong>Museum of Fine Arts<strong>$k</strong>AFD
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$k - Action agent</strong> <div class="description">Person or organization which performs the action.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$3</strong>scrapbooks (10 volumes)<strong>$n</strong>1<strong>$o</strong>cu. ft.<strong>$a</strong>microfilm<strong>$c</strong>198303<strong>$e</strong>at completion of arrangement<strong>$f</strong>1983 master film schedule<strong>$k</strong>Thomas Swing
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>appraised<strong>$c</strong>197508<strong>$l</strong>$25,000<strong>$k</strong>Karl Schach
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$l - Status</strong> <div class="description">Condition or state of the described materials</div>
+         <div class="description2">
+            <div class="description">Condition is sometimes but not always resulting from an action (e.g., physical
+                                 condition, insurance value, or description status). For preservation activities,
+                                 this subfield may contain information about the condition of the item when the
+                                 action is, for example, <em>condition reviewed</em>. This subfield may also
+                                 contain information about the status of the item that caused preservation to be
+                                 rejected (e.g., action is <em>preservation rejected</em>) or information about the
+                                 disposition of the original item (e.g., action is <em>reformatted</em>).
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$3</strong>patent case files<strong>$n</strong>12<strong>$o</strong>reels of microfilm<strong>$l</strong>filmed<strong>$c</strong>19811017<strong>$j</strong>Central Services
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$3</strong>plates<strong>$a</strong>condition reviewed<strong>$c</strong>20040915<strong>$l</strong>mutilated<strong>$2</strong>pda<strong>$5</strong>DLC
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Solicit;<strong>$l</strong>Previously offered;<strong>$c</strong>19841015
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$n - Extent</strong> <div class="description">Number of items involved.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$3</strong>student case files (9 file drawers)<strong>$n</strong>18<strong>$o</strong>linear ft.<strong>$a</strong>weed<strong>$d</strong>end of academic year<strong>$h</strong>Student Affairs Office<strong>$j</strong>Bldg. 174, Rm. 436
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$o - Type of unit</strong> <div class="description">Name of the unit of measurement.</div>
+         <div class="description2">
+            <div class="description">If subfields $n and $o are repeated in one 583 field, each
+                                 subfield $o follows its associated subfield $n.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>fumigate<strong>$n</strong>37<strong>$o</strong>archives boxes;<strong>$n</strong>14<strong>$o</strong>bound vol.<strong>$b</strong>79-54<strong>$c</strong>197906<strong>$k</strong>JJI
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>describe<strong>$n</strong>5<strong>$o</strong>reels of videotape<strong>$n</strong>2<strong>$o</strong>reels of audiotape<strong>$n</strong>49<strong>$o</strong>broadsides<strong>$n</strong>12<strong>$o</strong>phonograph records<strong>$e</strong>after phonograph records are reformatted<strong>$k</strong>FRG
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$u - Uniform Resource Identifier</strong> <div class="description">Uniform Resource Identifier (URI), for example a URL or URN, which provides
+                              electronic access data in a standard syntax. This data can be used for automated
+                              access to an electronic item using one of the Internet protocols.
+         </div>
+         <div class="description2">
+            <div class="description">In field 583, subfield $u is used to record the location of external or
+                                 supplemental information accessible electronically.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>conserved<strong>$c</strong>2004<strong>$u</strong>http://www.uflib.ufl.edu/pres/repro/db/r=aaa0123<strong>$2</strong>pda<strong>$5</strong>FU
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>condition reviewed<strong>$b</strong>aaa0123<strong>$c</strong>20041011<strong>$u</strong>http://www.uflib.ufl.edu/pres/repro/db<strong>$2</strong>pda<strong>$5</strong>FU
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>deacidify<strong>$c</strong>19860501<strong>$u</strong>http://128.227.54.151/cgi-bin/conserve/rara.pl
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>house<strong>$c</strong>19841221<strong>$u</strong>http://karamelik.eastlib.ufl.edu/cgi-bin/conserve/rara.pl
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$x - Nonpublic note</strong> <div class="description">Note pertaining to an action on an item that is not displayed to the public.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>condition reviewed<strong>$c</strong>2004<strong>$l</strong>defaced<strong>$x</strong>faces in illustrations are blacked out<strong>$2</strong>pda<strong>$5</strong>NIC
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>will digitize<strong>$c</strong>2004<strong>$x</strong>NEH funding requested for Latin American collections<strong>$2</strong>pda<strong>$5</strong>FU
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$z - Public note</strong> <div class="description">Note pertaining to an action on an item that is displayed to the public.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>digitized<strong>$b</strong>2004-074<strong>$c</strong>20041104<strong>$z</strong>Institute for Museum and Library Services grant<strong>$2</strong>pda<strong>$5</strong>DLC
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>acquired surrogate<strong>$b</strong>2004-J292<strong>$c</strong>20041103<strong>$z</strong>for further informationcontact the Preservation
+                                             Department <strong>$2</strong>pda<strong>$5</strong>ICU
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$2 - Source of term</strong> <div class="description">MARC code that identifies the source of the term used to record the action
+                              information.   Code from: <em><a href="http://www.loc.gov/standards/sourcelist/resource-action.html">Resource Action Term Source Codes</a></em>.
+         </div>
+         <div class="description2">
+            <div class="description">If more than one source needs to be recorded, the field is repeated.</div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>will transform digitally<strong>$c</strong>20031104<strong>$i</strong>OCR<strong>$z</strong>queued for digitization, Nov. 4, 2003<strong>$2</strong>pda<strong>$5</strong>NIC
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$3 - Materials specified</strong> <div class="description">Part of the described material to which the field applies. When separate holdings
+                              records are made for the parts of a bibliographic item, each record may contain a
+                              field 583 that contains a subfield $3 to specify the part to which the
+                              note applies. When holdings for all of the parts of a bibliographic item are
+                              contained in one holdings record (and there is no 863-865 Enumeration and
+                              Chronology field), subfield $3 may be used whenever a data element in
+                              field 583 differs for a specified part of the item. It may also be used to relate
+                              the 583 Action note to information in an 876-878 Item Information field, when it
+                              is necessary to provide action information for item level data.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$3</strong>v.5<strong>$a</strong>acquired surrogate<strong>$c</strong>20040915<strong>$i</strong>microfilm use copy<strong>$2</strong>pda<strong>$5</strong>CSt
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$3</strong>plates<strong>$a</strong>mass deacidified<strong>$c</strong>20040915<strong>$i</strong>DEZ<strong>$2</strong>pda<strong>$5</strong>MiEM
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$5 - Institution to which field applies</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$3</strong>plates<strong>$a</strong>conserved<strong>$c</strong>20050915<strong>$2</strong>pda<strong>$5</strong>MUM
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>queued for preservation<strong>$c</strong>19861010<strong>$e</strong>priority<strong>$f</strong>Title IIC project<strong>$5</strong>DLC
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>583</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$8</strong>1.2<strong>$a</strong>exhibit<strong>$c</strong>1982/12/01 through 1982/03/01<strong>$j</strong>Museum of Fine Arts
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">876</td>
+                  <td vAlign="top" colspan="9" align="left">##$81.2$aXAX1222-1$pA1234567</td>
+               </tr>
+            </table>
+         </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> - Field 583 does not end with a mark of punctuation unless the field ends with an
+                     abbreviation, initial/letter, or other data that ends with a mark of punctuation.
+      </div>
+      <div class="description2"><strong>Past Actions</strong> - Action note created for a past action may be retained or deleted according to the policy
+                     of the creating organization. Information from a deleted action note may be retained in
+                     subfield $x (Nonpublic note) or $z (Public Note) of the remaining
+                     field 583.
+      </div>
+      <div class="description2"><strong>Linking to Item Information fields</strong> - In cases where it is necessary to provide action information for item level data,
+                     subfield $3 (Materials specified) or subfield $8 (Field link and
+                     sequence number) may be used. If fields 863-865 are used for holdings data, subfield
+                     $8 in field 583 matches that in the appropriate 863-865 field to which the
+                     action note applies; if fields 866-868 are used for holdings data, the data in subfield
+                     $3 in 583 matches with that in field 866-868.
+      </div>
+      <div class="description2"><strong>Embedded Holdings Information</strong> - When holdings information is embedded in a MARC bibliographic record, no additional 583
+                     field is input.
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+   <div class="font_small"><em>Indicator 1 - Privacy [NEW, 2004]</em></div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a> &gt;&gt; <strong>583</strong></div> (02/26/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

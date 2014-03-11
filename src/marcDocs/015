@@ -1,0 +1,323 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 015:
+         National Bibliography Number (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+               
+               &gt;&gt;
+               <strong>015</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>015</span> - <span>National Bibliography Number</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2013</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - National bibliography number<span> (R)</span></li>
+                  <li class="changed">$q - Qualifying information<span> (R)</span></li>
+                  <li>$z - Canceled/invalid national bibliography number<span> (R)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$2 - Source<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Bibliography entry number(s) for cataloging information that is derived from a national
+               bibliography.
+            </p>
+         </div>
+         <div>
+            <p>When cataloging information is derived from an entry in a national bibliography,
+               the number of the entry is given in the record. A work may have more than one number
+               from a single national bibliography or may have numbers from more than one national
+               bibliography. <span class="changed">Multiple numbers are recorded in repeating 015 fields.</span></p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <ul>
+               <li>Both indicator positions are undefined; each contains a blank (#).</li>
+            </ul>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - National bibliography number</strong> 
+                  </p>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>015</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>B67-25185
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>015</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>F84-3117
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>015</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>B67-20987
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>015</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>B67-20988<strong>$q</strong>pbk
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>015</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>GFR67-A14-54
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>015</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Au67-6
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div class="changed">
+                  <p class="label"><strong>$q - Qualifying information</strong> 
+                  </p>
+                  <div>
+                     <p>Volume numbers or other data that qualify a national bibliography number being recorded in subfield $a or subfield $z.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr class="changed">
+                           <td><strong>015</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>F67-835<strong>$q</strong>v. 1
+                           </td>
+                        </tr>
+                        <tr class="changed">
+                           <td><strong>015</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>F67-9455<strong>$q</strong>v. 2
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$z - Canceled/invalid national bibliography number</strong> 
+                  </p>
+                  <div>
+                     <p>Canceled or invalid (structurally or application) national bibliography
+                        number.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>015</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>06,A29,1122<strong>$z</strong>05,N51,1204<strong>$2</strong>dnb<em><span><br /><span>[code "dnb" is for Deutsche Nationalbibliographie]</span></span></em></td>
+                        </tr>
+                        <tr>
+                           <td><strong>015</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>06,A29,0382<strong>$z</strong>05,A21,0597<strong>$z</strong>04,N48,0463<strong>$2</strong>dnb<em><span><br /><span>[code "dnb" is for Deutsche Nationalbibliographie]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Source</strong> 
+                  </p>
+                  <div>
+                     <p>Code that identifies the source of the National Bibliography Number. Code from: <em><a href="http://www.loc.gov/standards/sourcelist/national-bibliography.html">National
+                              Bibliography Number Source Codes.</a></em>.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>015</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>84-3117<strong>$2</strong>bnf<em><span><br /><span>[code "bnf" is for Bibliographie nationale franÃ§aise]</span></span></em></td>
+                        </tr>
+                        <tr>
+                           <td><strong>015</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>67-A14-54<strong>$2</strong>dnb<em><span><br /><span>[code "dnb" is for Deutsche Nationalbibliographie]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Punctuation - </strong>Field 015 does not end with a mark of punctuation unless the field ends with an
+               abbreviation, an initialism, or data that ends with a mark of punctuation.
+            </p>
+         </div>
+         <div>
+            <p><strong>Spacing - </strong>Spaces are omitted between the alpha and numeric portions of the number.
+            </p>
+         </div>
+         <div>
+            <p><strong>Capitalization - </strong>Alphabetic characters preceding the national bibliography number may be upper or
+               lowercase.
+            </p>
+         </div>
+         <div>
+            <p><strong>Display Constants</strong></p>
+            <div class="table">
+               <table>
+                  <tr>
+                     <td>( ... )</td>
+                     <td><em>[parentheses]</em></td>
+                  </tr>
+               </table>
+            </div>
+            <p>Parentheses that customarily enclose the national bibliography number are not carried in
+               the machine-readable record. They may be system generated as a display constant
+               associated with the field tag.
+            </p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td width="5%">Â </td>
+                     <td colspan="9">
+                        <div class="captiontext">Content designated field:</div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>015</strong></td>
+                     <td colspan="9"><strong>##</strong><strong>$a</strong>F84-1004
+                     </td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td colspan="9">
+                        <div class="captiontext">Display example:</div>(F84-1004)
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div>
+            <p>In 2001, the field was changed from Not repeatable (NR) to Repeatable (R) to allow for
+               multiple bibliography numbers.
+            </p>
+         </div>
+         <div class="historySubfield">
+            <div class="changed"><em>$q - Qualifying information [NEW, 2013]</em><div class="subfieldHistoryDsc">
+                  <p>Prior to the definition of subfield $q in 2013, qualifying information was
+           contained in subfield $a (National bibliography number).</p>
+               </div>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$z - Canceled/invalid national bibliography number [NEW, 2007]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$2 - Source [NEW, 2001]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+               
+               &gt;&gt;
+               <strong>015</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/24/2013)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

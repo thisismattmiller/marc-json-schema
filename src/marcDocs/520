@@ -1,0 +1,584 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>MARC 21 Format for Bibliographic Data: 520: Summary, Etc. (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the summary, etc. note (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				   </style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a> &gt;&gt; <strong>520</strong></div>
+      <hr><a name="skip_menu"></a><h1>520 - Summary, Etc. (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2007</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Display constant controller</em><br># - Summary <br>0 - Subject <br>1 - Review <br>2 - Scope and content <br>3 - Abstract <br>
+              4 - Content advice<br>
+              8 - No display constant generated <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Summary, etc. (NR) <br>$b - Expansion of summary note (NR) <br>
+              $c - Assigning source (NR)<br>
+              $u - Uniform Resource Identifier (R) <br></td>
+            <td colspan="1">$2 - Source (NR)<br>
+           $3 - Materials specified (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Unformatted information that describes the scope and general contents of the
+                  materials.
+      </p>
+      <p>This could be a summary, abstract, annotation, review, or only a phrase describing the
+                     material.
+      </p>
+      <p>The level of detail appropriate in a summary may vary depending on the audience for a
+                     particular product. When a distinction between levels of detail is required, a brief
+                     summary is given in subfield $a and a fuller annotation is given in subfield
+                     $b.
+      </p>
+      <p>The text is sometimes displayed and/or printed with an introductory term that is
+                     generated as a display constant based on the first indicator value.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Display constant controller</strong> <div class="description">Controls the generation of a display constant preceding the information.
+            <div class="indicatorvalue"><strong># - Summary</strong> <div class="description">Used to generate the display constant <em>Summary:.</em><div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>An illustrated collection of nursery rhymes set to
+                                                         music.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Subject</strong> <div class="description">Used to generate the display constant <em>Subject:</em>.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Two head-and-shoulder portraits in separate
+                                                         ornamental oval frames, one frame held by eagle.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Review</strong> <div class="description">Used to generate the display constant <em>Review:</em>.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>"Combines the most frequently asked questions
+                                                         regarding AIDS with the most prominent US physician, former Surgeon
+                                                         General C. Everett Koop, resulting in an informative 38-minute
+                                                         production"--Video rating guide for libraries, winter
+                                                      1990.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Scope and content</strong> <div class="description">Used to generate the display constant <em>Scope and content:</em>.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>Series consists of minutes of meetings of the Board
+                                                         together with correspondence and other documents referred to in the
+                                                         minutes. The records reflect...
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>3 - Abstract</strong> <div class="description">Used to generate the display constant <em>Abstract:</em>.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$a</strong>The study examines the fertility history of American
+                                                         couples in metropolitan America and the motivational connections between
+                                                         the environment and fertility decisions and behavior.<strong>$b</strong>Phase I looks at the social and psychological
+                                                         factors thought to relate to differences in fertility. Phase II focuses
+                                                         on why some couples stopped at two children while others had a third or
+                                                         fourth child during the first and second phase. Phase III examines how
+                                                         well attitudes and events of the early marriage determined the record of
+                                                         the later years of child bearing.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>4 - Content advice</strong> <div class="description">Used to generate the display constant <em>Content advice:</em>.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>4#$a</strong>Contains violence<strong>$c</strong>[Revealweb organization code]                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>8 - No display constant generated</strong> </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
+            </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Summary, etc.</strong> <div class="description">Text of the summary, abstract, review, etc. When no distinction between levels of
+                              detail in the text is required, subfield $a contains all the text. When
+                              a distinction is appropriate, subfield $a contains a brief statement,
+                              with additional information being provided in subfield $b.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Describes associations made between different animal
+                                             species for temporary gain or convenience as well as more permanent
+                                             alliances formed for mutual survival.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Kate and Ben follow their rabbit into a haunted house
+                                             and discover the source of the house's ghostly sound.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>A data base consisting of deflator information
+                                             applicable to the energy supply and planning model data base produced by the
+                                             Bechtel Corporation.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Letter books and ledgers of Alexander Gusdorf and his
+                                             brother, Gerson Gusdorf, who ran a general store in Taos,
+                                          N.M.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Papers "originally commissioned as course material for
+                                             a series of continuing legal education seminars"-- Pref., v.
+                                          1.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>Fonds consists of minutes of meetings, research files
+                                             relating to the delivery of health case services in Nova Scotia,
+                                          recorded...
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Miscellaneous cartographic records with an emphasis on
+                                             biogeography of the United States and Alaska, 1872-1941.<strong>$b</strong>Includes published and photoprocessed maps of Alaska
+                                             and coastal waters, 1888-90, many of which were compiled from surveys made
+                                             on the "Albatross";-maps, 1908-19, annotated by the Alaskan Fisheries
+                                             Division...
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Records the events, people, and places that made news
+                                             in 1973 and updates the information from the encyclopedia's first
+                                          year.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>"Combines the most frequently asked questions regarding
+                                             AIDS with the most prominent US physician, former Surgeon General C. Everett
+                                             Koop, resulting in an informative 38-minute production"--Cf. Video rating
+                                             guide for libraries, winter 1990.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Expansion of summary note</strong> <div class="description">Expansion of the brief summary recorded in subfield $a.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Public release motion pictures, 1915-37.<strong>$b</strong>Includes films on control of rats, prairie dogs and
+                                             porcupines; fish culture in the United States and pearl culture in Japan;
+                                             inspection trip to Alaska by Service officials; life in a Boy Scout camp and
+                                             Air Service bombing techniques in 1921.
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Letters, primarily to Angelica Schuyler Church
+                                             (1756-1815), wife of John Barker Church and daughter of Philip John
+                                             Schuyler, or to members of her family.<strong>$b</strong>Correspondents include Alexander Hamilton (her
+                                             brother-in-law), Thomas Jefferson, the Marquis de Lafayette, Philip John
+                                             Schuyler and George Washington. Also included is one order, one deed, and
+                                             two cut autographs.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      
+         <div class="subfield"><strong>$c - Assigning source</strong> <div class="description">Organization code or name of the agency or other source (e.g., journal or
+                                 newspaper) that supplied the data (summary, review, abstract, content advice
+                                 statement, etc.) recorded in subfield $a.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                     <td vAlign="top" colspan="9" align="left"><strong>4#</strong><strong>$a</strong>Contains swear words, sex scenes and violence<strong>$c</strong>[Revealweb organization code]
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                     <td vAlign="top" colspan="9" align="left"><strong>4#</strong><strong>$a</strong>"Happy Feet" may be too much for many kids younger than
+                                                7 and some younger than 8. (Know how well your child separates animated
+                                                fantasy from reality.)<strong>$c</strong>Family Filmgoer.<strong>$u</strong>http://www.washingtonpost.com/wp-dyn/content/article/2006/11/16/AR2006111600269.html
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      
+      <div class="subfield"><strong>$u - Uniform Resource Identifier</strong> <div class="description">Uniform Resource Identifier (URI), for example a URL or URN, which provides
+                              electronic access data in a standard syntax. This data can be used for automated
+                              access to an electronic item using one of the Internet protocols.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="4%" align="left"></td>
+                  <td valign="top" width="54%" align="left"></td>
+                  <td valign="top" width="1%" align="left"></td>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="11%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$u</strong>http://www.ojp.usdoj.gov/bjs/abstract/cchrie98.htm
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td width="100%">
+                     <div class="displaytext">Display example:&nbsp;</div>
+                 </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td width="100%">
+                     <div class="displaycontent">Abstract:
+                                             http://www.ojp.usdoj.gov/bjs/abstract/cchrie98.htm 
+                     </div>
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      
+         <div class="subfield"><strong>$2 - Source</strong> <div class="description">Source code for the particular classification system used (for example, the MPAA
+                                 (USA) and BBFC (UK) film classification systems) to construct the content advice
+                                 statement recorded in subfield $a. Code from: <em><a href="http://www.loc.gov/standards/sourcelist/content-advice.html">Content Advice Classification Source Codes </a></em>.
+            </div>
+            <div class="example">
+               <table width="100%">
+                  <tr>
+                     <td valign="top" width="5%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="10%" align="left"></td>
+                     <td valign="top" width="15%" align="left"></td>
+                  </tr>
+                  <tr>
+                     <td vAlign="top" colspan="1" align="left"><strong>520</strong></td>
+                     <td vAlign="top" colspan="9" align="left"><strong>4#</strong><strong>$a</strong>Contains strong sexual theme and fetish scenes<strong>$c</strong>Central County Library<strong>$2</strong>[Source code for the content advice classification
+                                                system used]
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      
+      <div class="subfield"><strong>$3 - Materials specified</strong> <div class="description">Part of the described materials to which the field applies.</div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
+        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+        </div>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Punctuation</strong> -  This field ends with a period unless another mark of punctuation is present. If the
+                     final subfield is subfield $u, the mark of punctuation precedes that
+                     subfield.
+      </div>
+      <div class="description2"><strong>Display Constants</strong> - Introductory terms such as <em>Summary:</em> or <em>Subject:</em> are not carried in the
+                     MARC record. They may be system generated as display constants associated with the first
+                     indicator value.
+         <div class="table">
+            <table>
+               <tr>
+                  <td width="126" align="left" valign="top"><u>First indicator</u></td>
+                  <td width="340" align="left" valign="top"><u>Display constant</u></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">#</td>
+                  <td valign="top" align="left">Summary:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">0</td>
+                  <td valign="top" align="left">Subject:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">1</td>
+                  <td valign="top" align="left">Review:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">2</td>
+                  <td valign="top" align="left">Scope and content:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">3</td>
+                  <td valign="top" align="left">Abstract:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">4</td>
+                  <td valign="top" align="left">Content advice:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">8</td>
+                  <td valign="top" align="left"><em>[no display constant]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small">
+      <em>Indicator 1 - Display constant controller</em><br>
+          <em>4 - Content advice [NEW, 2007]</em><br>
+      <br>
+      <em>$c - Assigning source [NEW, 2007]</em>
+        <br><em>$u - Uniform Resource Identifier [NEW, 2000]</em><br><em>$z - Source of note information (BK, AM, CF, SE) [OBSOLETE, 1990]</em><br>Source information is included as part of the summary note in subfield $a
+                       or the expansion of the summary note in subfield $b.<br><em>$2 - Source [NEW, 2007]</em>
+      
+   </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a> &gt;&gt; <strong>520</strong></div> (02/23/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

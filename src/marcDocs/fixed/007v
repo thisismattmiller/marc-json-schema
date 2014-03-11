@@ -1,0 +1,1236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 007:
+  Videorecording (Network Development and MARC Standards Office,
+  Library of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the 007 field for videorecording (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office"> <link type="text/css" rel="stylesheet" href=
+  "update10-stylesheet.css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd007.html">007</a>
+    &gt;&gt; <strong>007 (Videorecording)</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>007 - Videorecording (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2008
+  </div>
+  <hr>
+
+  <p><strong>Indicators and Subfield Codes</strong></p>
+
+  <div class="description">
+    <p>Field has no indicators or subfield codes; the data
+    elements are positionally defined.</p>
+  </div>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>Character Positions</strong><br>
+      <strong>00 - Category of material</strong><br>
+      v - Videorecording<br>
+      <br>
+      <strong>01 - Specific material designation</strong><br>
+      c - Videocartridge<br>
+      d - Videodisc<br>
+      f - Videocassette<br>
+      r - Videoreel<br>
+      u - Unspecified<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>02 - Undefined</strong><br>
+      # - Undefined<br>
+      <br>
+      <strong>03 - Color</strong><br>
+      a - One color<br>
+      b - Black-and-white<br>
+      c - Multicolored<br>
+      m - Mixed<br>
+      n - Not applicable<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>04 - Videorecording format</strong><br>
+      a - Beta (1/2 in., videocassette)<br>
+      b - VHS (1/2 in., videocassette)<br>
+      c - U-matic (3/4 in., videocasstte)<br>
+      d - EIAJ (1/2 in., reel)<br>
+      e - Type C (1 in., reel)<br>
+      f - Quadruplex (1 in. or 2 in., reel)<br>
+      g - Laserdisc<br>
+      h - CED (Capacitance Electronic Disc) videodisc<br>
+      i - Betacam (1/2 in., videocassette)<br>
+      j - Betacam SP (1/2 in., videocassette)<br>
+      k - Super-VHS (1/2 in., videocassette)<br>
+      m - M-II (1/2 in., videocassette)<br>
+      o - D-2 (3/4 in., videocassette)<br>
+      p - 8 mm.<br>
+      q - Hi-8 mm.<br>
+      s - Blu-ray disc<br>
+      u - Unknown<br>
+      v - DVD<br>
+      z - Other<br>
+      | - No attempt to code</td>
+
+      <td width="45%"><strong><br>
+      05 - Sound on medium or separate</strong><br>
+      # - No sound (silent)<br>
+      a - Sound on medium<br>
+      b - Sound separate from medium<br>
+      u - Unknown<br>
+      | - No attempt to code<br>
+      <strong><br>
+      06 - Medium for sound</strong><br>
+      # - No sound (silent)<br>
+      a - Optical sound track on motion picture film<br>
+      b - Magnetic sound track on motion picture film<br>
+      c - Magnetic audio tape in cartridge<br>
+      d - Sound disc<br>
+      e - Magnetic audio tape on reel<br>
+      f - Magnetic audio tape in cassette<br>
+      g - Optical and magnetic sound track on motion picture
+      film<br>
+      h - Videotape<br>
+      i - Videodisc<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>07 - Dimensions</strong><br>
+      a - 8 mm.<br>
+      m - 1/4 in.<br>
+      o - 1/2 in.<br>
+      p - 1 in.<br>
+      q - 2 in.<br>
+      r - 3/4 in.<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <strong><br>
+      08 - Configuration of playback channels</strong><br>
+      k - Mixed<br>
+      m - Monaural<br>
+      n - Not applicable<br>
+      q - Quadraphonic, multichannel, or surround<br>
+      s - Stereophonic<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code</td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>When field 007/00 contains code v, it contains special coded
+  information about the physical characteristics of a
+  <strong>videorecording</strong>.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> CHARACTER POSITIONS</h4>
+
+  <div class="characterposition">
+    <strong>00 - Category of material</strong>
+
+    <div class="charactervalue">
+      <strong>v - Videorecording</strong>
+
+      <div class="description">
+        One-character alphabetic code that indicates the category
+        of material to which the item belongs is
+        <strong>videorecording</strong>, which is defined as a
+        recording on which visual images, usually in motion and
+        accompanied by sound, have been registered. It is
+        designed for playback on a television receiver, or video
+        monitor. A fill character (|) is not allowed in this
+        position.
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>01 - Specific material designation</strong>
+
+    <div class="description">
+      Special class of videorecording to which an item belongs.
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Videocartridge</strong>
+
+      <div class="description">
+        Videorecording on tape encased in a cartridge and which
+        has the ends joined together to form a continuous loop.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Videodisc</strong>
+
+      <div class="description">
+        Flat disc of plastic or other material on which video
+        signals, with or without sound, are recorded. Various
+        videodisc systems have been developed (e.g.,
+        laser-optical, capacitance, magnetic, etc.).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Videocassette</strong>
+
+      <div class="description">
+        Videorecording on tape encased in a cassette which runs
+        reel-to-reel.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>r - Videoreel</strong>
+
+      <div class="description">
+        Videorecording on a spool of tape mounted on a reel and
+        designed to play from reel-to-reel across a playback
+        pick-up device.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unspecified</strong>
+
+      <div class="description">
+        Special material designation for the videorecording is
+        not specified.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>02 - Undefined</strong>
+
+    <div class="description">
+      Contains blank (#) or a fill character (|).
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>03 - Color</strong>
+
+    <div class="description">
+      Color characteristics of a videorecording.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - One color</strong>
+
+      <div class="description">
+        Not used with videorecordings.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Black-and-white</strong>
+
+      <div class="description">
+        Videorecording is executed in black-and-white.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Multicolored</strong>
+
+      <div class="description">
+        Videorecording is executed in more than one color.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed</strong>
+
+      <div class="description">
+        Work or collection is a combination of black-and-white,
+        colored, and/or other images.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Item has no images, e.g., a videorecording with sound
+        only.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Color characteristics of an item are not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate (e.g.,
+        videorecording is toned, stained, tinted, etc.).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>04 - Videorecording format</strong>
+
+    <div class="description">
+      Videotape or videodisc recording format.
+    </div>
+
+    <div class="description2 description">
+      If a bibliographic record for a videorecording describes
+      various available formats, e.g., Beta and VHS
+      videocassettes, then a separate 007 field is input for
+      each.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Beta (1/2 in., videocassette)</strong>
+
+      <div class="description">
+        Used for the home video system introduced in 1975 by Sony
+        for home videorecording and playback on 1/2 inch
+        videotape. It is distinguished by the size of the
+        cassette, its <em>U-load</em> tape threading, and
+        technical capabilities. This format is also known as
+        <em>Betamax</em>.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - VHS (1/2 in., videocassette)</strong>
+
+      <div class="description">
+        Used for the home video system introduced in 1977 by
+        Japan Victor Corporation (JVC) for home videorecording
+        and playback on 1/2 inch videotape. It is distinguished
+        by the size of the cassette, its <em>M-load</em> tape
+        threading, and technical capabilities. VHS stands for
+        "Video Home System."
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - U-matic (3/4 in., videocasstte)</strong>
+
+      <div class="description">
+        Used for a video format using Sony's trademark name which
+        refers to its tape threading path in a U-shape. It is the
+        worldwide standard for 3/4 inch videotape and is used
+        extensively in industrial and broadcast production. Like
+        the two 1/2 in. home video formats, it uses a helical
+        scan recording system. It is also known as <em>U type
+        standard</em>.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - EIAJ (1/2 in., reel)</strong>
+
+      <div class="description">
+        Used for the standard 1/2 inch reel-to-reel helical scan
+        videotape system named for the Electronics Industries
+        Association of Japan which set the standards for 1/2 in.
+        video tape recorders manufactured since 1969. Referred to
+        as "the old trailblazer."
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Type C (1 in., reel)</strong>
+
+      <div class="description">
+        Used for the 1 inch videotape recording system utilizing
+        one video head and tape runs at 9.61 inches per second.
+        Type B system uses 2 heads and runs at 9.65 ips; Type A
+        is an obsolete early system. Type B is still used in the
+        U.S. and overseas (as of 1982), but Type C is the 1 inch
+        format most widely employed as the broadcasting standard
+        in the U.S. and overseas. Type C equipment and technology
+        are made by Sony, RCA, and others.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Quadruplex (1 in. or 2 in., reel)</strong>
+
+      <div class="description">
+        As opposed to the helical scan system, which uses one
+        head, the Quadruplex videorecording system uses four
+        videorecording heads. Often referred to as Quad, it was
+        developed by Ampex in the mid-1950's. It provided higher
+        quality resolution and color than did helical scanning.
+        Quadruplex was the broadcast standard until recently,
+        when less expensive helical scan systems have begun to
+        overtake it. When describing a 2 inch videoreel that is
+        not Quadruplex, use the code z (Other).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - Laserdisc</strong>
+
+      <div class="description">
+        Laser optical (reflective) videorecording system that
+        uses an analog technique called PWM (Pulse Width
+        Modulation) to represent video information on a
+        grooveless, smooth, round plastic disc. The disc is read
+        (played back) by a weak laser beam that registers data
+        appearing on the disc as tiny pits or depressions of
+        varying lengths. Laserdiscs exist in three standard
+        commercially produced sizes: 12, 8, and 4 3/4 inch. The
+        12 inch disc is the most common size and is typically
+        used for movies; the disc or its packaging usually bears
+        an LD trademark (the phrase "LASER DISC" or "Laser
+        Vision" usually appears as the lower part of that LD
+        trademark); alternatively, LASER VIDEODISC, DiscoVision,
+        LaserDisc, LaserVision, or a similar phrase may appear
+        instead of the LD trademark. The 8 and 4 3/4 inch discs
+        are uncommon and typically used for music videos or other
+        short video programs; the disc or its packaging usually
+        bears one of these terms or trademarks: CDV (CD VIDEO),
+        VSD (VIDEO SINGLE DISC), or LD (LASER DISC). This system
+        started commercial use in 1978, but production declined
+        rapidly after 1998 due to the success of the DVD format.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>h - CED (Capacitance Electronic Disc)
+      videodisc</strong>
+
+      <div class="description">
+        CED videorecording system based on a plastic disc,
+        usually 12 in. in diameter, on which visual information
+        is recorded as deep pits in the bottom of the grooves.
+        This visual information is read by a needle-in-the-groove
+        type of electronic stylus that translates variance in
+        capacitance into a video and audio signal. The CED disc
+        is characteristically housed in a protective jacket. In
+        1984, the manufacturer of CED players, RCA, announced its
+        decision to cease production of the "RCA Selectavision"
+        players.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>i - Betacam (1/2 in., videocassette)</strong>
+
+      <div class="description">
+        Betacam videorecording format, a professional analog
+        format using component coding recorded on 1/2 inch oxide
+        tape, housed in a cassette.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>j - Betacam SP (1/2 in., videocassette)</strong>
+
+      <div class="description">
+        Betacam SP videorecording format, a professional analog
+        format using component coding recorded on 1/2 inch metal
+        tape, housed in a cassette. It is designed to yield a
+        higher grade recording than the regular Betacam format,
+        providing improved video quality and a better audio
+        signal-to-noise ratio. There are two analog video tracks
+        plus two FM (CD quality) audio tracks.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>k - Super-VHS (1/2 in., videocassette)</strong>
+
+      <div class="description">
+        Super-VHS format, which was originally designed for the
+        consumer market to encode analog signals using a helical
+        scan on 1/2 inch ferric-oxide tape, housed in a standard
+        cassette. It has gained acceptance professionally in the
+        broadcast industry and is now considered a professional
+        format. Super-VHS format machines encode 400 lines of
+        horizontal resolution and can play back videotapes
+        recorded on regular VHS machines. Super-VHS requires
+        high-grade tape and a high-resolution monitor equipped
+        with separate Y/C (Luminance/Chrominance) video inputs.
+        Super-VHS-C is the same video format but uses a special
+        compact mini-cassette (often used with hand-held video
+        cameras). These mini-cassettes can be used with standard
+        VHS recorders by means of a special adapter cassette into
+        which the mini-cassette is inserted.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - M-II (1/2 in., videocassette)</strong>
+
+      <div class="description">
+        M-II videorecording format, a professional analog format
+        using 1/2 inch metallic tape, housed in a cassette. It
+        was developed by Panasonic as an alternative to the
+        Betacam format developed by Sony.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>o - D-2 (3/4 in., videocassette)</strong>
+
+      <div class="description">
+        D-2 videorecording format, a professional digital
+        videorecording format using composite coding on 3/4 inch
+        metal particle tape, housed in a cassette. The digital
+        encoding allows for multi-generation signal transfer
+        (copying or dubbing) without signal degradation.
+        Duplicate recordings are effectively identical to the
+        original master. There are four independently editable
+        PCM audio channels, offering a dynamic range of more than
+        90 db (decibels). Additionally, it has separate tracks
+        for an analog audio cue and time code.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>p - 8 mm.</strong>
+
+      <div class="description">
+        8 mm. format designed for small consumer-market
+        camera/recorders (camcorders) using 8 mm. metal particle
+        tape, housed in a mini-cassette. The video quality is
+        comparable to standard VHS. The audio quality is superior
+        to similar mini formats.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>q - Hi-8 mm.</strong>
+
+      <div class="description">
+        8 mm. format designed for higher resolution than standard
+        8mm. tape. It is a consumer-market format that uses 8 mm.
+        metal particle or evaportated metal tape, housed in a
+        mini-cassette.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>s - Blu-ray disc</strong>
+
+      <div class="description">
+        Optical disc format designed for high-definition video
+        and data storage developed by Sony/Phillips. Blu-ray uses
+        a blue-violet laser with a shorter wave length to allow
+        for greater data storage in a smaller space. Requires a
+        special player to view the disc.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Videorecording format is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>v - DVD</strong>
+
+      <div class="description">
+        Laser optical (reflective) videorecording system that
+        uses a digital technique called PCM (Pulse Code
+        Modulation) to represent video information on a
+        grooveless, smooth, round plastic disc. The disc is read
+        (played back) by a weak laser beam that registers data
+        appearing on the disc as tiny pits or depressions of
+        uniform length. DVDs are usually 4 3/4 inch in diameter
+        (but a smaller 3 inch diameter disc may be produced
+        commercially in some cases) and the disc or its packaging
+        usually bear the term or trademark: DVD, DVD VIDEO, or
+        VIDEO CD (in this case, the trademark is the standard one
+        for COMPACT DISC, but with the added phrase DIGITAL VIDEO
+        below it). This system has been in use commercially since
+        late 1996.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>05 - Sound on medium or separate</strong>
+
+    <div class="description">
+      Whether the sound is on the item or separate from the item
+      (i.e., on the accompanying material).
+    </div>
+
+    <div class="charactervalue">
+      <strong># - No sound (silent)</strong>
+
+      <div class="description">
+        Sound is not present (i.e., the item is intended to be
+        silent).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Sound on medium</strong>
+
+      <div class="description">
+        Sound is on the item, whether or not visual images are
+        included.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Sound separate from medium</strong>
+
+      <div class="description">
+        Sound is on a separate medium, designed to accompany the
+        images.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Presence or absence of sound on the item is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>06 - Medium for sound</strong>
+
+    <div class="description">
+      Specific medium used to carry the sound of an item, whether
+      that sound is carried on the videorecording or is separate,
+      and the type of sound playback required for the item.
+    </div>
+
+    <div class="description2 description">
+      Used in conjunction with the information coded in 007/05
+      (Sound on medium or separate) and 007/07 (Dimensions).
+      Typically, the carriers of sound are: 1) magnetic track
+      encased in a cassette or cartridge; 2) audio or video tape
+      which may be on reel or encased in a cassette or cartridge;
+      and 3) sound or video disc.
+    </div>
+
+    <div class="charactervalue">
+      <strong># - No sound (silent)</strong>
+
+      <div class="description">
+        Sound is not present (i.e., the item is intended to be
+        silent).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Optical sound track on motion picture
+      film</strong>
+
+      <div class="description">
+        Sound to accompany a videorecording is carried on an
+        optical track that is part of a motion picture film. It
+        would be rare for this to occur.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Magnetic sound track on motion picture
+      film</strong>
+
+      <div class="description">
+        Sound to accompany a videorecording is carried on a
+        magnetic track that is part of a motion picture film. It
+        would be rare for this to occur.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Magnetic audio tape in cartridge</strong>
+
+      <div class="description">
+        Sound to accompany a videorecording is carried on a
+        magnetic audio tape cartridge.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Sound disc</strong>
+
+      <div class="description">
+        Sound to accompany a videorecording is carried on a sound
+        disc. Sound discs include 7, 10, and 12 in. vinyl
+        phonograph records and 4 3/4 in. compact discs.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Magnetic audio tape on reel</strong>
+
+      <div class="description">
+        Sound to accompany a videorecording is carried on a reel
+        of magnetic audio tape.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Magnetic audio tape in cassette</strong>
+
+      <div class="description">
+        Sound to accompany a videorecording is carried on a
+        cassette of magnetic audio tape.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - Optical and magnetic sound track on motion
+      picture film</strong>
+
+      <div class="description">
+        Sound to accompany a videorecording is carried on both an
+        optical and magnetic track on a motion picture film. It
+        would be rare for this to occur.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>h - Videotape</strong>
+
+      <div class="description">
+        Sound to accompany a videorecording is included as part
+        of the videotape. Videotape is not ordinarily used to
+        record only sound.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>i - Videodisc</strong>
+
+      <div class="description">
+        Sound to accompany a videorecording is included as part
+        of the videodisc. Videodiscs are not ordinarily used to
+        record only sound. A distinction must be made between
+        videodiscs (e.g., 12 in. laser optical videodiscs that
+        include video information) and compact discs that are
+        used to record sound only (e.g., 4 3/4 in. audio compact
+        discs). The technology to physically record video or
+        audio information on digital disc systems is the same.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Medium for sound is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>07 - Dimensions</strong>
+
+    <div class="description">
+      Width of the videorecording.
+    </div>
+
+    <div class="description2 description">
+      For videorecordings, only codes that exactly match the
+      measurements of the item as given in the physical
+      description should be used. If no code exactly matches,
+      code z is used.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - 8 mm.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - 1/4 in.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>o - 1/2 in.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>p - 1 in.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>q - 2 in.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>r - 3/4 in.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Width is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate. Used for
+        videodisc dimensions since standard code values for
+        videodiscs do not yet exist.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>08 - Configuration of playback channels</strong>
+
+    <div class="description">
+      Configuration of intended playback channels for the sound
+      portion of a videorecording.
+    </div>
+
+    <div class="description2 description">
+      Should be coded based on a clear indication of intended
+      playback. These codes do not refer to the configuration of
+      channels originally recorded unless those channels are all
+      intended to be available on playback.
+    </div>
+
+    <div class="charactervalue">
+      <strong>k - Mixed</strong>
+
+      <div class="description">
+        More than one configuration of playback channels for the
+        sound portion is available on a single videorecording.
+      </div>
+
+      <div class="description2 description">
+        An example would be a tape with both monaural and
+        stereophonic sound tracks.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Monaural</strong>
+
+      <div class="description">
+        Configured to be played back on one channel.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Videorecording has no sound or sound is on separate
+        medium.
+      </div>
+
+      <div class="description2 description">
+        When describing an item with separate sound (007/05
+        contains b), the configuration of playback channels for
+        the separate sound track would be described in another
+        007 representing the sound recording on accompanying
+        material (e.g., sound on cassette).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>q - Quadraphonic, multichannel, or
+      surround</strong>
+
+      <div class="description">
+        Configured to be played back on more than two channels.
+        Use this code for Dolby surround sound tracks and other
+        multichannel techniques.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>s - Stereophonic</strong>
+
+      <div class="description">
+        Configured to be played back on two separate channels.
+        Use code s when the medium is not monaural and it is not
+        possible to ascertain that multiple playback sources are
+        available or intended.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Configuration of playback channels for the sound portion
+        of a videorecording is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+
+  <h4><span class="box">â </span> EXAMPLES</h4>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="12%" align="left"></td>
+
+        <td valign="top" width="3%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-08</strong></td>
+
+        <td valign="top" colspan="8" align="left">vf#caahos<br>
+        <em>[Item is a videorecording (007/00); in a cassette
+        (/01); in color (/03); in the Beta format (/04); has
+        sound on medium (/05); on videotape (/06); tape width is
+        1/2 in. (/07); with stereophonic sound (/08).]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="12%" align="left"></td>
+
+        <td valign="top" width="3%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-08</strong></td>
+
+        <td valign="top" colspan="8" align="left">vf#ccahrm<br>
+        <em>[Item is a videorecording (007/00); in a cassette
+        (/01); in color (/03); in U-matic format (/04); has sound
+        on medium (/05); on videotape (/06); tape width is 3/4
+        in. (/07); with monaural sound (/08).]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="12%" align="left"></td>
+
+        <td valign="top" width="3%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-08</strong></td>
+
+        <td valign="top" colspan="8" align="left">vd#cgaizs<br>
+        <em>[Item is a videorecording (007/00); on videodisc
+        (/01); in color (/03); laserdisc (/04); sound on medium
+        (/05); on videodisc (/06); other width or dimension than
+        those given for videotape (/07); with stereophonic sound
+        (/08).]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="12%" align="left"></td>
+
+        <td valign="top" width="3%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-08</strong></td>
+
+        <td valign="top" colspan="8" align="left">vd#cvaizm<br>
+        <em>[Item is a videorecording (007/00); on videodisc
+        (/01); in color (/03); DVD (/04); sound on medium (/05);
+        on videodisc (/06); other width or dimension than those
+        given for videotape (/07); with monaural sound
+        (/08).]</em></td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+
+  <h3>INPUT CONVENTIONS</h3>
+
+  <div class="description2">
+    <strong>Field length</strong> - Field 007 for the category of
+    material <strong>videorecording</strong> currently has nine
+    character positions defined for it.
+  </div>
+  <hr>
+
+  <h3>CONTENT DESIGNATOR HISTORY</h3>
+
+  <div class="font_small">
+    <em>007/01 - Specific material designation</em>
+
+    <div class="charactervaluehistory">
+      <em># - Not applicable or no attempt to code [OBSOLETE,
+      1980]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>n - Not applicable [OBSOLETE, 1981]</em>
+    </div><br>
+    <em>007/02 - Original versus reproduction aspect [OBSOLETE,
+    1997]</em>
+
+    <div class="description">
+      Defined codes were: f (Facsimile), o (Original), r
+      (Reproduction), and u (Unknown).
+    </div><br>
+    <em>007/04 - Videorecording format</em>
+
+    <div class="charactervaluehistory">
+      <em># - Not applicable or no attempt to code [OBSOLETE,
+      1980]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>g - Laser optical (Reflective) videodisc [REDEFINED,
+      2001]</em>
+
+      <div class="description">
+        Code g was redefined as Laserdisc to differentiate it
+        from code v (DVD)
+      </div>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>n - Not applicable [OBSOLETE, 1981]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>s - Blu-ray disc [NEW, 2008]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>v - DVD [NEW, 2001]</em>
+    </div><br>
+    <em>007/06 - Medium for sound</em>
+
+    <div class="charactervaluehistory">
+      <em>g - Other [OBSOLETE, 1980]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>g - Optical and magnetic sound track on motion picture
+      film [NEW, 1985]</em>
+    </div><br>
+    <em>007/07 - Dimensions</em>
+
+    <div class="charactervaluehistory">
+      <em>n - 1/4 in. [OBSOLETE, 1981]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>m - 1/4 in. [NEW, 1981]</em>
+    </div>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt;<a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd007.html">007</a>
+          &gt;&gt; <strong>007 (Videorecording)</strong>
+        </div>(09/01/2008)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

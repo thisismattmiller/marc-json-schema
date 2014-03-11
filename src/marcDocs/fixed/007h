@@ -1,0 +1,1228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy, see www.w3.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 007: Microform
+  (Network Development and MARC Standards Office, Library of
+  Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link href="update10-stylesheet.css" rel="stylesheet" type=
+  "text/css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd007.html">007</a>
+    &gt;&gt; <strong>007 (Microform)</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>007 - Microform (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+  <strong>Indicators and Subfield Codes</strong>
+
+  <div class="description">
+    Field has no indicators or subfield codes; the data elements
+    are positionally defined.
+  </div>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>Character Positions</strong><br>
+      <strong>00 - Category of material</strong><br>
+      h - Microform<br>
+      <br>
+      <strong>01 - Specific material designation</strong><br>
+      a - Aperture card<br>
+      b - Microfilm cartridge<br>
+      c - Microfilm cassette<br>
+      d - Microfilm reel<br>
+      e - Microfiche<br>
+      f - Microfiche cassette<br>
+      g - Microopaque<br>
+      h - Microfilm slip<br>
+      j - Microfilm roll<br>
+      u - Unspecified<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>02 - Undefined</strong><br>
+      # - Undefined<br>
+      <br>
+      <strong>03 - Positive/negative aspect</strong><br>
+      a - Positive<br>
+      b - Negative<br>
+      m - Mixed polarity<br>
+      u - Unknown<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>04 - Dimensions</strong><br>
+      <em>Microfilm</em><br>
+      a - 8 mm.<br>
+      d - 16 mm.<br>
+      f - 35 mm.<br>
+      g - 70 mm.<br>
+      h - 105 mm.<br>
+      <br>
+      <em>Microfiche, Microopaque, etc.</em><br>
+      l - 3x5 in. or 8x13 cm.<br>
+      m - 4x6 in. or 11x15 cm.<br>
+      o - 6x9 in. or 16x23 cm.<br>
+      <br>
+      <em>Aperture Card</em><br>
+      p - 3 1/4 x 7 3/8 in. or 9x19 cm.<br>
+      <br>
+      <em>Other</em><br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br></td>
+
+      <td width="45%"><br>
+      <strong>05 - Reduction ratio range</strong><br>
+      a - Low reduction ratio<br>
+      b - Normal reduction<br>
+      c - High reduction<br>
+      d - Very high reduction<br>
+      e - Ultra high reduction<br>
+      u - Unknown<br>
+      v - Reduction rate varies<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>06-08 - Reduction ratio</strong><br>
+      <br>
+      <strong>09 - Color</strong><br>
+      b - Black-and-white<br>
+      c - Multicolored<br>
+      m - Mixed<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>10 - Emulsion on film</strong><br>
+      a - Silver halide<br>
+      b - Diazo<br>
+      c - Vesicular<br>
+      m - Mixed emulsion<br>
+      n - Not applicable<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>11 - Generation</strong><br>
+      a - First generation (master)<br>
+      b - Printing master<br>
+      c - Service copy<br>
+      m - Mixed generation<br>
+      u - Unknown<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>12 - Base of film</strong><br>
+      a - Safety base, undetermined<br>
+      c - Safety base, acetate undetermined<br>
+      d - Safety base, diacetate<br>
+      i - Nitrate base<br>
+      m - Mixed base (nitrate and safety)<br>
+      n - Not applicable<br>
+      p - Safety base, polyester<br>
+      r - Safety base, mixed<br>
+      t - Safety base, triacetate<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code</td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>When field 007/00 contains code h, it contains special coded
+  information about the physical characteristics of microform
+  material.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> CHARACTER POSITIONS</h4>
+
+  <div class="characterposition">
+    <strong>00 - Category of material</strong>
+
+    <div class="charactervalue">
+      <strong>h - Microform</strong>
+
+      <div class="description">
+        One-character alphabetic code that indicates the category
+        of material to which the item belongs is
+        <strong>microform</strong>. Microform is a generic term
+        for any medium, transparent or opaque, bearing
+        microimages. A <em>microimage</em> is a unit (e.g., a
+        page) of textual, graphic, or computer-generated material
+        that is contained on aperture cards, microfiche,
+        microfilm, microopaques, or other microformats and that
+        is too small to be read without magnification. Microforms
+        may be reproductions of existing textual or graphic
+        materials or they may be original publications. A fill
+        character (|) is not allowed in this position.
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>01 - Specific material designation</strong>
+
+    <div class="description">
+      Special class of microform to which the item belongs.
+      (e.g., a microopaque).
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Aperture card</strong>
+
+      <div class="description">
+        Card with one or more rectangular opening(s), or
+        aperture(s), specifically prepared for the mounting or
+        insertion of a piece of photographic film containing one
+        or more microimage(s). The cards are usually EAM
+        (Electrical Accounting Machine) punched cards, commonly
+        known as IBM cards, that are standardized for use in
+        card-handling machines. Such cards contain only one
+        aperture and most frequently have only one microimage.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Microfilm cartridge</strong>
+
+      <div class="description">
+        Consists of a strip of photographic film wound onto a
+        single core (or hub), housed in a protective container.
+        Microfilm cartridges require reading equipment (readers
+        and reader-printers) that is specifically adapted for
+        their use. Normally, the end of the film is left free for
+        threading into such equipment. Common film lengths,
+        widths, and reduction ratios are the same as those of
+        microfilm reels.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Microfilm cassette</strong>
+
+      <div class="description">
+        Analogous to the sound tape cassette. Consists of a strip
+        of photographic film wound onto a double core, housed in
+        a protective container. Microfilm cassettes require
+        reading equipment (readers and reader-printers) that is
+        specifically adapted for their use. Because they are
+        double-cored, they are not threaded when used in such
+        readers and reader-printers. Usual film lengths are 100
+        ft (approximately 30 m.) or less. Common film width is 16
+        mm. and usual reduction ratios are those of microfilm
+        reels and cartridges.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Microfilm reel</strong>
+
+      <div class="description">
+        Consists of a strip of photographic film wound onto an
+        unenclosed flanged holder (or reel). Microfilm reels
+        require manual threading when used in readers and
+        reader-printers and require equipment that is adapted for
+        their use. Film lengths are usually 100 ft.
+        (approximately 30 m.) or less. For microimages produced
+        by filming textual and graphic materials, the most common
+        film widths are 35 mm. and 16 mm. and reduction ratios
+        commonly range from about 10:1 to about 20:1. Sixteen
+        millimeter film with effective ratios of either 24:1 or
+        48:1 is most often used for COM
+        (Computer-Output-Microfilm) microimages.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Microfiche</strong>
+
+      <div class="description">
+        Transparent sheet of photographic film containing
+        microimages arranged in a grid pattern (a two-dimensional
+        array) and having a heading that contains identifying
+        information in text that is large enough to be read
+        without magnification. Grid patterns vary with reduction
+        ratios.
+      </div>
+
+      <div class="description3">
+        Microfiches are grouped in five ranges of reduction
+        ratios: low reduction (ratios up to and including 15:1),
+        normal reduction (ratios greater than 15:1 up to and
+        including 30:1), high reduction (ratios greater than 30:1
+        up to and including 60:1), very high reduction (ratios
+        greater than 60:1 up to and including 90:1) and ultrahigh
+        reduction (ratios greater than 90:1).
+      </div>
+
+      <div class="description3">
+        The most common microfiche are made by filming textual or
+        graphic material at a reduction ratio of approximately
+        24:1. Such microfiche are 105 mm. high and 148 mm. wide
+        (approximately 4x6 in.) and have a grid pattern that
+        accommodates 98 microimages made from documents that are
+        no more than 11 in. high and 8 1/2 in. wide. The heading
+        area is the width of one row and is found directly above
+        the first row of microimages.
+      </div>
+
+      <div class="description3">
+        The most common COM (Computer-Output-Microfilm)
+        microfiche are made by recording computer-generated data
+        at an effective reduction ratio of 48:1 on a 105 mm. x
+        148 mm. sheet of film. Such microfiche have a grid
+        pattern of 15 rows and 18 columns, comprising 270
+        microimages. The heading area is the width of one row and
+        is found directly above the first row of microimages.
+      </div>
+
+      <div class="description3">
+        Microfiche made at ultrahigh ratios are commonly called
+        ultrafiche. Ratios and grid patterns have not been
+        standardized for these microfiche and differ according to
+        application and method for production.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Microfiche cassette</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - Microopaque</strong>
+
+      <div class="description">
+        Sheet of opaque material bearing a number of microimages
+        arranged in a two-dimensional array. Microopaques
+        resemble microfiche. Common dimensions are 3x5 in. and
+        6x9 in. Common reduction ratios are approximately 24:1 or
+        20:1. Microopaques usually have identifying information
+        in text that is large enough to read without
+        magnification.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>h - Microfilm slip</strong>
+
+      <div class="description">
+        A short strip of microfilm cut from a roll.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>j - Microfilm roll</strong>
+
+      <div class="description">
+        A wound length of microfilm not on a reel, cartridge,
+        etc.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unspecified</strong>
+
+      <div class="description">
+        Special material designation for the microform is not
+        specified.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate. Some microform
+        types that use code z include:
+      </div>
+
+      <ul>
+        <li class="nobullet"><strong>microchip</strong> - A sheet
+        of photographic film of very small dimensions,</li>
+
+        <li class="nobullet"><strong>microdot</strong> - A
+        minuscule piece of photgraphic film with ultrahigh
+        reduction ration,</li>
+
+        <li class="nobullet"><strong>microform scroll</strong> -
+        A roll of unusually wide photographic film.</li>
+      </ul>
+
+      <div class="description">
+        Includes microforms such as microchips, microdots, and
+        microform scrolls.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>02 - Undefined</strong>
+
+    <div class="description">
+      Contains blank (#) or a fill character (|).
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>03 - Positive/negative aspect</strong>
+
+    <div class="description">
+      Positive/negative polarity of the microform.
+    </div>
+
+    <div class="description2 description">
+      This characteristic is also referred to as the polarity.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Positive</strong>
+
+      <div class="description">
+        Lines and characters appear dark against a light
+        background.
+      </div>
+
+      <div class="description2">
+        Microopaques are always recorded as code a.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Negative</strong>
+
+      <div class="description">
+        Lines and characters appear light against a dark
+        background.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed polarity</strong>
+
+      <div class="description">
+        Mixture of positive and negative images.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Polarity of the microform is not known. (Some colored
+        negatives may appear to be positive if the colors of the
+        original are not known.)
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>04 - Dimensions</strong>
+
+    <div class="description">
+      Dimensions of the microform; does <em>not</em> indicate the
+      dimensions of the image.
+    </div>
+
+    <div class="description2 description">
+      For example, 16 mm. images on 35 mm. microfilm are coded f
+      (35 mm.). Only the most common dimensions are indicated.
+      Only codes that exactly match the measurement of the item
+      as given in the physical description should be used. If no
+      code exactly matches, code z is used.
+    </div>
+
+    <div class="description2 description">
+      The width of a microfilm is indicated in millimeters.
+    </div>
+
+    <div class="description2 description">
+      The height and width of a microfiche, microopaque, etc. are
+      indicated in inches or centimeters. The first dimension is
+      the height, the second is the width. The standard
+      microfiche (105 mm. x 148 mm.) is coded m.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - 8 mm.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - 16 mm.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - 35 mm.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - 70 mm.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>h - 105 mm.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>l - 3x5 in. or 8x13 cm.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - 4x6 in. or 11x15 cm.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>o - 6x9 in. or 16x23 cm.</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>p - 3 1/4 x 7 3/8 in. or 9x19 cm.</strong>
+
+      <div class="description">
+        Height and width of an aperture card in inches or
+        centimeters.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Dimensions are not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>05 - Reduction ratio range</strong>
+
+    <div class="description">
+      Reduction ratio range for a microform. The specific
+      reduction ratio is recorded in 007/06-08 (Reduction ratio).
+    </div>
+
+    <div class="description2 description">
+      For microfilm created by other than COM
+      (Computer-Output-Microfilm) processes and for microopaque
+      microprints, codes a and b are most likely to be used. For
+      COM microfiche or microfilm, the reduction ratio is
+      actually an expansion ratio and refers to the ratio of
+      expansion required to produce a legible image. Most COM is
+      created at 024-048 reduction ratios (codes b and c), though
+      some COM fiche is at higher ratios (e.g., 072). Codes b-e
+      are used with other types of microforms (e.g., microfiche,
+      ultrafiche, etc.). The most commonly encountered microfiche
+      are normal reduction (code b).
+    </div>
+
+    <div class="description2 description">
+      The reduction ratio is usually given on the microform
+      itself. If it is not present, one must know the dimensions
+      of the original item and the size of the image on the
+      microform in order to code the information needed in
+      007/05.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Low reduction ratio</strong>
+
+      <div class="description">
+        Less than 16:1 ratio (less than 016).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Normal reduction</strong>
+
+      <div class="description">
+        Between 16:1 and 30:1 (016-030).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - High reduction</strong>
+
+      <div class="description">
+        Between 31:1 and 60:1 (031-060).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Very high reduction</strong>
+
+      <div class="description">
+        Between 61:1 and 90:1 (061-090).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Ultra high reduction</strong>
+
+      <div class="description">
+        Over 90:1 (over 090).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Reduction ratio is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>v - Reduction rate varies</strong>
+
+      <div class="description">
+        Not all parts of the microform have the same reduction
+        ratio (e.g., the contents of two books may be microfilmed
+        onto one piece of film; the type face on the books may
+        differ, so that one of the books may be filmed at a 14:1
+        ratio and the other at a 18:1 ratio).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>06-08 - Reduction ratio</strong>
+
+    <div class="description">
+      Number specifying the reduction ratio for a microform,
+      recorded as three digits. The number is right justified and
+      each unused position contains a zero (e.g., 015, 048). A
+      hyphen is used for any unknown portion of the reduction
+      ratio (e.g., 03-, 1--, or ---).
+    </div>
+
+    <div class="description2 description">
+      A code indicating the <em>reduction ratio range</em> is
+      recorded in 007/05. Generally, the specific reduction ratio
+      is recorded when it is ultra high (code e in 007/05). If
+      the ratio is not ultra high, recording the specific ratio
+      is less essential. Three fill character (|||) are used when
+      no attempt has been made to code this data element.
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>09 - Color</strong>
+
+    <div class="description">
+      Color of the image for microforms.
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Black-and-white</strong>
+
+      <div class="description">
+        Image is in black-and-white (usually
+        black-and-transparent).
+      </div>
+
+      <div class="description2">
+        Includes only one color or hue other than black, for
+        example, blue-and-white (blue-and-transparent). Always
+        used for microopaques.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Multicolored</strong>
+
+      <div class="description">
+        Has more than one color.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed</strong>
+
+      <div class="description">
+        Combination of one-color and multicolored images.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Color of the microform is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>10 - Emulsion on film</strong>
+
+    <div class="description">
+      Type of light-sensitive material on the film.
+    </div>
+
+    <div class="description2 description">
+      Proper storage and use of microforms requires
+      identification of the emulsion they contain.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Silver halide</strong>
+
+      <div class="description">
+        Emulsion is a compound of silver and halogens. Silver
+        halide microforms always appear black-and-white
+        (black-and-transparent).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Diazo</strong>
+
+      <div class="description">
+        Emulsion consists of sensitized layers composed of
+        diazonium salts that react with couplers to form dye
+        images. The color of the image is determined by the
+        composition of the diazonium compound as well as the
+        couplers used in the process and may be black, violet, or
+        another color.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Vesicular</strong>
+
+      <div class="description">
+        Light-sensitive component is suspended in a plastic
+        layer. On exposure, the component creates optical
+        vesicules (bubbles) in the layers. These bubbles form the
+        latent image. The latent image becomes visible and fixed
+        by heating the plastic layer and then allowing it to
+        cool. Vesicular films are commonly blue or beige in
+        color. They do not appear to have much contrast (very
+        high density) until projected in a microform reader.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed emulsion</strong>
+
+      <div class="description">
+        For example, a microfilm may have slices of film with one
+        type of emulsion and other slices with another type of
+        emulsion.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Item does not have emulsion on film.
+      </div>
+
+      <div class="description2 description">
+        Used for microopaques.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Emulsion on the film is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>11 - Generation</strong>
+
+    <div class="description">
+      Generation aspect of a microform.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - First generation (master)</strong>
+
+      <div class="description">
+        Camera master or COM recorder master.
+      </div>
+
+      <div class="description2 description">
+        Used for all master films that are made on archival stock
+        in accordance with archival productions standards and
+        that are given archival storage under relevant ISO
+        standards.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Printing master</strong>
+
+      <div class="description">
+        Any generation employed mainly for the production of
+        other microforms.
+      </div>
+
+      <div class="description2 description">
+        Used for all masters that are not manufactured, produced,
+        and stored in accordance with archival standards.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Service copy</strong>
+
+      <div class="description">
+        Microform made from another microform that is intended
+        primarily for use rather than for production of other
+        microforms. Always used for microopaques.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed generation</strong>
+
+      <div class="description">
+        Made up of a combination of generations of film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Generation aspect is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>12 - Base of film</strong>
+
+    <div class="description">
+      Base of the film.
+    </div>
+
+    <div class="description2 description">
+      Safety base film is a comparatively nonflammable film base
+      that meets the standard requirements for a safety base. On
+      some film, the phrase <em>safety base</em> or a small
+      equilateral triangle appears on the edge of microforms.
+      Some microfilm produced overseas has similar notations in
+      foreign languages. Vesicular and diazo microforms are
+      always a safety base, as are silver halide microforms
+      manufactured in the United States since approximately 1951.
+      Nitrate film base is a highly flammable film base that does
+      not meet the requirements for safety base film.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Safety base, undetermined</strong>
+
+      <div class="description">
+        Type has not been identified.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Safety base, acetate undetermined</strong>
+
+      <div class="description">
+        Acetate safety base film whose exact type cannot be
+        determined, i.e., where it is unknown if the type is
+        diacetate or triacetate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Safety base, diacetate</strong>
+
+      <div class="description">
+        Cellulose diacetate film base. Introduced before World
+        War I for home movies, diacetate base was more expensive
+        and unpredictable than nitrate base and so failed to gain
+        acceptance in professional 35 mm. film production.
+        Diacetate film base was at times used for microfilming of
+        documents.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>i - Nitrate base</strong>
+
+      <div class="description">
+        Cellulose nitrate film. Cellulose nitrate support or base
+        was used in the manufacture of 35 mm. film (and some 17.5
+        mm. film) until 1951. Nitrate base film is no longer
+        manufactured. Nitrate film base was at times used for
+        microfilming of documents.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed base (nitrate and safety)</strong>
+
+      <div class="description">
+        Combination of nitrate base and safety base film. The use
+        of mixed bases, spliced together, can be found in
+        microforms from the early 1950s.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Microform on a reflective rather than a transparent base.
+      </div>
+
+      <div class="description2 description">
+        Microopaques (which can be termed microcard or
+        microprint) are an example of a microform not produced on
+        a film base and are coded n.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>p - Safety base, polyester</strong>
+
+      <div class="description">
+        Film base is made of a synthetic resin (e.g., estar).
+        During the 1980s, it became the most widely used base for
+        microfilming of source documents.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>r - Safety base, mixed</strong>
+
+      <div class="description">
+        Mixed safety base films are spliced together; no nitrate
+        film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>t - Safety base, triacetate</strong>
+
+      <div class="description">
+        Cellulose triacetate film base. Cellulose triacetate is a
+        high acetal compound with very low flammability and slow
+        burning characteristics. From 1951, triacetate has been
+        used for professional as well as for amateur produced
+        moving image film. It has also been used at times for
+        microfilming of documents.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Base of film of the microform is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        Bone of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <h4><span class="box">â </span>EXAMPLES</h4>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007</strong></td>
+
+        <td valign="top" colspan="8" align="left">
+        hd#bgc---cuuu<br>
+        <em>[Item is a microform (007/00); released as a
+        microfilm reel (01); it has negative polarity (03); is 70
+        mm. (04); has a high reduction ratio (05); and is in
+        color (09). Its emulsion (10), generation (11), and film
+        base (12) are unknown.]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007</strong></td>
+
+        <td valign="top" colspan="8" align="left">
+        he#bmb024baca<br>
+        <em>[Item is a microform (007/00) (originally a printed
+        work that has been filmed for reproduction in the
+        microfiche format); released as a microfiche (01); has
+        negative polarity (03); is approximately 4x6 in. (04);
+        has a normal reduction ratio (05) of 24:1 (06-08); is
+        monochromatic (09); has an emulsion of silver halide
+        (10); is a service copy (11); and is on safety base film
+        (12).]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007</strong></td>
+
+        <td valign="top" colspan="8" align="left">
+        hd#afa014bcaa<br>
+        <em>[Item is a microform (007/00) (a newspaper, filmed
+        for reproduction); released as a microfilm reel (01); has
+        positive polarity (03); is 35 mm. (04); has a low
+        reduction ratio (05) of 14:1 (bytes 6-8); is
+        monochromatic (09); has vesicular emulsion (10); is a
+        service copy (11); and is on safety base film
+        (12).]</em></td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+
+  <h3>INPUT CONVENTIONS</h3>
+
+  <div class="description">
+    <strong>Field length</strong> - Field 007 for the category of
+    material <strong>microform</strong> currently has thirteen
+    character positions defined for it.
+  </div>
+  <hr>
+
+  <h3>CONTENT DESIGNATOR HISTORY</h3>
+
+  <div class="font_small">
+    <em>007/01 - Specific material
+    designation</em>
+
+    <div class="charactervaluehistory">
+      <em>h - Microfilm slip [NEW,
+      2009]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>j - Microfilm roll [NEW, 2009]</em>
+    </div><br>
+    <em>007/02 - Original versus reproduction aspect [OBSOLETE,
+    1997] [USMARC only]</em>
+
+    <div class="description">
+      Defined codes were: f (Facsimile), o (Original), r
+      (Reproduction), and u (Unknown).
+    </div><br>
+    <em>007/12 - Base of film</em>
+
+    <div class="charactervaluehistory">
+      <em>b - Not safety base [OBSOLETE, 1991]</em>
+    </div>
+
+    <div class="description">
+      Code b was made obsolete when 007/12 for microforms was
+      made consistent with the 007/12 (Base of film) for motion
+      pictures and code i (Nitrate base) was defined.
+    </div>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd007.html">007</a>
+          &gt;&gt; <strong>007 (MIcroform)</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

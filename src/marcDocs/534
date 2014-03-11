@@ -1,0 +1,713 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="generator" content="HTML Tidy, see www.w3.org">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=UTF-8">
+<title>MARC 21 Format for Bibliographic Data: 534: Original
+Version Note (Network Development and MARC Standards Office,
+Library of Congress)</title>
+<meta http-equiv="Content-Type" content=
+"text/html; charset=iso-8859-1">
+<meta name="description" content=
+"This field contains the (Network Development and MARC Standards Office, Library of Congress)">
+<meta name="keywords" content="marc, marc21, marc standards">
+<meta name="author" content=
+"Library of Congress Network Development and MARC Standards Office">
+<link href="update10-stylesheet.css" rel="stylesheet" type=
+"text/css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+<body>
+<div class="head-nav"><a href="http://www.loc.gov/">Library of
+Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+&gt;&gt; <a href=
+"http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+&gt;&gt; <a href=
+"http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a>
+&gt;&gt; <strong>534</strong></div>
+
+<hr>
+<a name="skip_menu"></a>
+<h1>534 - Original Version Note (R)</h1>
+
+<hr>
+<div class="formatname">MARC 21 Bibliographic - Full</div>
+
+<div class="datename">October 2009</div>
+
+<hr>
+<table width="100%">
+<tr valign="top">
+<td width="45%"><strong>First Indicator</strong><br>
+<em>Undefined</em><br>
+# - Undefined<br>
+<br>
+</td>
+<td width="45%"><strong>Second Indicator</strong><br>
+<em>Undefined</em><br>
+# - Undefined<br>
+<br>
+</td>
+</tr>
+</table>
+
+<hr>
+<table width="100%">
+<tr valign="top">
+<td valign="top" width="50%" align="left"></td>
+<td valign="top" width="50%" align="left"></td>
+</tr>
+
+<tr valign="top">
+<td colspan="2"><strong>Subfield Codes</strong><br>
+</td>
+</tr>
+
+<tr valign="top">
+<td colspan="1">$a - Main entry of original (NR)<br>
+$b - Edition statement of original (NR)<br>
+$c - Publication, distribution, etc. of original (NR)<br>
+$e - Physical description, etc. of original (NR)<br>
+$f - Series statement of original (R)<br>
+$k - Key title of original (R)<br>
+$l - Location of original (NR)<br>
+$m - Material specific details (NR)<br>
+</td>
+<td colspan="1">$n - Note about original (R)<br>
+$o - Other resource identifier (R)<br>
+$p - Introductory phrase (NR)<br>
+$t - Title statement of original (NR)<br>
+$x - International Standard Serial Number (R)<br>
+$z - International Standard Book Number (R)<br>
+$3 - Materials specified (NR)<br>
+$6 - Linkage (NR)<br>
+$8 - Field link and sequence number (R)<br>
+</td>
+</tr>
+</table>
+
+<hr>
+<h3>FIELD DEFINITION AND SCOPE</h3>
+
+<p>Descriptive data for an original item when the main portion of
+the bibliographic record describes a reproduction of that item
+and the data differ. Details relevant to the original are given
+in field 534.</p>
+
+<p>The resource being cataloged may either be a reproduction
+(e.g., scanned image, or PDF), or an edition that is similar
+enough that it could serve as a surrogate for the original (e.g.,
+HTML).</p>
+
+<hr>
+<h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+<p>Elements within subfields of field 534 may be separated by
+ISBD punctuation (e.g., series statement is enclosed in
+parentheses), but such punctuation is not necessarily needed at
+subfield boundaries.</p>
+
+<h4><span class="box">&#9632;</span> INDICATORS</h4>
+
+<ul>
+<li>Both indicators are undefined; each contains a blank
+(#).</li>
+</ul>
+
+<h4><span class="box">&#9632;</span> SUBFIELD CODES</h4>
+
+<div class="subfield"><strong>$a - Main entry of
+original</strong> 
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Originally
+issued:<strong>$a</strong>Frederick,
+John.<strong>$t</strong>Luck.<strong>$n</strong>Published in:
+Argosy, 1919.</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$b - Edition statement of
+original</strong> 
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Originally
+published:<strong>$c</strong>New York : Harper &amp; Row,
+1972,<strong>$b</strong>1st ed.</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$c - Publication, distribution,
+etc. of original</strong> 
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Originally
+published:<strong>$c</strong>Englewood Cliffs, N.J. : Prentice
+Hall, 1974.</td>
+</tr>
+</table>
+</div>
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Original
+version:<strong>$c</strong>Morrisville, Pa.? : T.M. Fowler, 1886
+(s.l. : A.E. Downs, lith.).</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$e - Physical description, etc. of
+original</strong> 
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Reproduction
+of:<strong>$t</strong>Femme nue en plein
+air,<strong>$c</strong>1876.<strong>$e</strong>1 art original :
+oil, col. ; 79 x 64 cm.<strong>$l</strong>In Louvre Museum,
+Paris.</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$f - Series statement of
+original</strong> 
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Reprint. Originally
+published:<strong>$c</strong>Oxford ; New York : Pergamon Press,
+1963.<strong>$f</strong>(International series of monographs on
+electromagnetic waves ; v. 4).</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$k - Key title of original</strong>
+
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Originally published in
+serial form beginning 1981:<strong>$k</strong>American journal of
+theology &amp; philosophy,<strong>$x</strong>0194-3448.</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$l - Location of original</strong> 
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Original:<strong>$n</strong>Watercolor
+in the<strong>$l</strong>Picture Division, Public Archives of
+Canada, Ottawa,<strong>$e</strong>measures 29.344 x 32.5 cm.
+(sheet).</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$m - Material specific
+details</strong> 
+
+<div class="description">Material specific data such as frequency
+or date/chronological designations. For <strong>maps</strong>,
+subfield $m contains the mathematical data information for
+the original.</div>
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Originally
+issued:<strong>$c</strong>London, 1920,<strong>$m</strong>at
+scale 1:50,000.</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$n - Note about original</strong> 
+
+<div class="description">If more than one note is needed,
+subfield $n is repeated.</div>
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Original
+version:<strong>$t</strong>A map of Virginia and
+Maryland.<strong>$c</strong>[London] : Sold by Thomas Basset in
+Fleetstreet and Richard Criswell in St. Pauls Church yard,
+[1676?].<strong>$n</strong>F. Lamb
+Sculp.<strong>$n</strong>Appears in John Speed's atlas: The
+theatre of the Empire of Great Britain.</td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Original
+version:<strong>$n</strong>Printed by "Vincent Brooks, Day &amp;
+Son, Lith. London, W.C."<strong>$n</strong>Issued in
+"Geographical Fun: being Humorous Outlines from Various
+Countries, by Aleph. London, 1869."</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$o - Other resource
+identifier</strong> 
+
+<div class="description">Numbers, codes, etc. used to identify an
+item when these identifiers are not appropriate in more specific
+subfields (e.g., subfield $x (ISSN) or subfield $z
+(ISBN).</div>
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$c</strong>p1987<strong>$o</strong>Finlandia
+Records FACD357.</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$p - Introductory phrase</strong> 
+
+<div class="description">Introductory phrase that introduces the
+citation of the original version.</div>
+
+<div class="description2">
+<div class="description">This subfield should always be
+present.</div>
+</div>
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Originally
+published:<strong>$c</strong>New York : Garland, 1987.</td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Original
+version:<strong>$c</strong>[S.l. : s.n., 1832?] (New York :
+Mesier's Lith.).</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$t - Title statement of
+original</strong> 
+
+<div class="description">Entire title statement of the
+original.</div>
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Originally
+published:<strong>$c</strong>Berlin :Eulenspiegel,
+c1978,<strong>$t</strong>Lieder zu St&uuml;cken.</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$x - International Standard Serial
+Number</strong> 
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Originally published as a
+section
+of:<strong>$k</strong>Neology,<strong>$x</strong>0228-913X.</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div class="subfield"><strong>$z - International Standard Book
+Number</strong> 
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$p</strong>Originally published in
+English:<strong>$c</strong>Garden City, N.Y. : Anchor Books,
+1974-1978,<strong>$n</strong>under
+title:<strong>$t</strong>Anchor atlas of world
+history.<strong>$z</strong>0385061781 (v.
+1)<strong>$z</strong>0385133553 (v. 2).</td>
+</tr>
+</table>
+</div>
+</div>
+
+<div>
+<div class="subfield"><strong>$3 - Materials specified</strong> 
+
+<div class="description">Part of the described material to which the
+ field applies.</div>
+
+<div class="example">
+<table width="100%">
+<tr>
+<td valign="top" width="5%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="10%" align="left"></td>
+<td valign="top" width="15%" align="left"></td>
+</tr>
+
+<tr>
+<td valign="top" colspan="1" align="left">
+<strong>534</strong></td>
+<td valign="top" colspan="9" align="left">
+<strong>##</strong><strong>$3</strong>vol.
+2<strong>$p</strong>Reproducci&oacute;n de la edici&oacute;n de:
+<strong>$c</strong>Madrid : Casa Editorial Hernando, 1924.</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+<div class="subfield"><strong>$6 - Linkage</strong> 
+
+<div class="description">See description of this subfield in
+Appendix A: <em><a href=
+"http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+Subfields</a></em>.</div>
+</div>
+
+<div class="subfield"><strong>$8 - Field link and sequence
+number</strong> 
+
+<div class="description">See description of this subfield in
+Appendix A: <em><a href=
+"http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+Subfields</a></em>.</div>
+</div>
+
+<hr>
+<h3>INPUT CONVENTIONS</h3>
+
+<div class="description2"><strong>Punctuation</strong> - Field
+534 ends with a period unless another mark of punctuation is
+present.</div>
+
+<hr>
+<h3>CONTENT DESIGNATOR HISTORY</h3>
+
+<div class="font_small"><em>Indicator 1 - Specifies presence of
+series statement on original (BK, MP, MU, VM, SE) [OBSOLETE,
+1984]</em><br>
+This first indicator definition was made obsolete when AACR 2
+changes no longer required a separate series of the original note
+for reproductions. The defined values were: 0 (Note exclude
+series of original); 1 (Note includes series of original).
+Records created since that change contain a # meaning
+<em>undefined</em> in this position.<br>
+<div><em>$o - Other resource identifier [NEW, 2008]</em><br>   
+<div><em>$3 - Materials specified [NEW,
+2009]</em></div>
+</div>
+
+<hr>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr valign="bottom">
+<td>
+<div class="head-nav"><a href="http://www.loc.gov/">Library of
+Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+&gt;&gt; <a href=
+"http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+&gt;&gt; <a href=
+"http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a>
+&gt;&gt; <strong>534</strong></div>
+
+(11/12/2009)</td>
+<td align="right"><a href="mailto:ndmso@loc.gov">Contact
+Us</a></td>
+</tr>
+</table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>
+
+

@@ -1,0 +1,722 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 034:
+         Coded Cartographic Mathematical Data (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt;
+               <strong>034</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>034</span> - <span>Coded Cartographic Mathematical Data</span> (R)
+      </h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2011</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Type of scale</em><br /><span>0 - Scale indeterminable/No scale recorded</span><br /><span>1 - Single scale</span><br /><span>3 - Range of scales</span><br /><br /></td>
+            <td><em>Type of ring</em><br /><span># - Not applicable</span><br /><span>0 - Outer ring</span><br /><span>1 - Exclusion ring</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Category of scale (NR)</li>
+                  <li>$b - Constant ratio linear horizontal scale (R)</li>
+                  <li>$c - Constant ratio linear vertical scale (R)</li>
+                  <li>$d - Coordinates - westernmost longitude (NR)</li>
+                  <li>$e - Coordinates - easternmost longitude (NR)</li>
+                  <li>$f - Coordinates - northernmost latitude (NR)</li>
+                  <li>$g - Coordinates - southernmost latitude (NR)</li>
+                  <li>$h - Angular scale (R)</li>
+                  <li>$j - Declination - northern limit (NR)</li>
+                  <li>$k - Declination - southern limit (NR)</li>
+                  <li>$m - Right ascension - eastern limit (NR)</li>
+                  <li>$n - Right ascension - western limit (NR)</li>
+                  <li>$p - Equinox (NR)</li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$r - Distance from earth (NR)</li>
+                  <li>$s - G-ring latitude (R)</li>
+                  <li>$t - G-ring longitude (R)</li>
+                  <li>$x - Beginning date (NR)</li>
+                  <li>$y - Ending date (NR)</li>
+                  <li>$z - Name of extraterrestrial body (NR)</li>
+                  <li>$0 - Authority record control number or standard number (R)</li>
+                  <li>$2 - Source (NR)</li>
+                  <li>$3 - Materials specified (NR)</li>
+                  <li>$6 - Linkage (NR)</li>
+                  <li>$8 - Field link and sequence number (R)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Contains cartographic mathematical data, including scale, projection, and/or coordinates
+               in coded form. For digital items, the coordinates can represent a bounding rectangle,
+               the outline of the area covered and/or the outline of an interior area not covered. For
+               celestial charts, it may also contain zone, declination data, and/or right ascension
+               data, and/or equinox. There should be an 034 field corresponding to each 255 field in a
+               record.
+            </p>
+            <p>For <strong>relief models</strong> and <strong>other three-dimensional items</strong>,
+            if a single set of scales is used in field 255 (i.e., one horizontal and one vertical
+            scale), the first indicator position in field 034 contains value 1, the denominator of
+            the representative fraction for the horizontal scale is recorded in subfield
+            $b, and the denominator of the representative fraction for the vertical scale
+            is recorded in subfield $c. If multiple or varying sets of scales are
+            recorded as a range, the smaller and larger denominators for the horizontal scales are
+            recorded in the first and second subfield $b respectively, the smaller and
+            larger denominators for the vertical scales are recorded in the first and second
+            subfield $c, respectively, and the first indicator position contains value 3.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>First Indicator - Type of scale</strong></p>
+                  <div>
+                     <p>Specifies the type of scale information given.</p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Scale indeterminable/No scale recorded</span><div>
+                           <p>Used when no representative fraction is given in field 255.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Single scale</span><div>
+                           <p>Single horizontal scale.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">3 - Range of scales</span><div>
+                           <p>Scale consists of a range of scales.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Type of ring</strong></p>
+                  <div>
+                     <p>Type of ring for digital cartographic items.</p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - Not applicable</span><div>
+                           <p>Type of ring is not applicable.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Outer ring</span><div>
+                           <p>Coordinate information represents the closed non-intersecting boundary of the
+                              area covered.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Exclusion ring</span><div>
+                           <p>Coordinate information represents the closed non-intersecting boundary of an
+                              area within the G-polygon outer ring that is excluded.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Category of scale</strong> 
+                  </p>
+                  <div>
+                     <p>One-character alphabetic code indicating the type of scale of the item.</p>
+                  </div>
+                  <div>
+                     <p>Used even when a specific scale is not recorded (first indicator position contains
+                  value 0). The codes used in subfield $a are:</p>
+                  </div>
+                  <div class="characterPositions">
+                     <div class="value">
+                        <div class="value">
+                           <div><span class="valueLabel">a - Linear scale</span><div class="example"><br /><table>
+                                    <tr>
+                                       <td><strong>034</strong></td>
+                                       <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$b</strong>100000
+                                       </td>
+                                    </tr>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="value">
+                           <div><span class="valueLabel">b - Angular scale</span><div>
+                                 <p>Used for celestial charts.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="value">
+                           <div><span class="valueLabel">z - Other type of scale</span><div>
+                                 <p>Any other type of scale, for example, a time scale, quantitative statistical
+                                    scale, etc.
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                     <p>If the scale statement is the only subfield given in field 255 and if the scale
+                  statement does not contain a representative fraction, field 034 will contain only
+                  subfield $a.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>a
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Constant ratio linear horizontal scale</strong> 
+                  </p>
+                  <div>
+                     <p>Denominator of the representative fraction for the horizontal scale.</p>
+                  </div>
+                  <div>
+                     <p>The larger scale (smaller number) is generally given first.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$b</strong>1000000
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>3#</strong><strong>$a</strong>a<strong>$b</strong>18000<strong>$b</strong>28000
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$c - Constant ratio linear vertical scale</strong> 
+                  </p>
+                  <div>
+                     <p>Denominator of the representative fraction for the vertical scale of relief models
+                        and other three-dimensional items.
+                     </p>
+                  </div>
+                  <div>
+                     <p>The larger scale (smaller number) is generally given first.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$b</strong>744000<strong>$c</strong>96000
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$d - Coordinates - westernmost longitude</strong> 
+                  </p>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$e - Coordinates - easternmost longitude</strong> 
+                  </p>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$f - Coordinates - northernmost latitude</strong> 
+                  </p>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$g - Coordinates - southernmost latitude</strong> 
+                  </p>
+                  <div>
+                     <p>Subfields $d, $e, $f, and $g
+                  individually identify the four coordinates of the item. Subfield $d
+                  represents the westernmost extent of the item; subfield $e, the
+                  easternmost extent; subfield $f, the northernmost extent; and subfield
+                  $g, the southernmost extent. The abbreviations for the hemispheres are:
+                     <em>N = North, S = South, E = East, W = West</em>.
+                     </p>
+                  </div>
+                  <div>
+                     <p>Subfields $d, $e, $f, and $g always
+                  appear together. The coordinates may be recorded in the form <em>hdddmmss</em>
+                        (hemisphere-degrees-minutes-seconds), however, other forms are also allowed, such
+                        as decimal degrees. The subelements are each right justified and unused positions
+                        contain zeros.
+                     </p>
+                  </div>
+                  <div>
+                     <p>Examples in <strong>degrees/minutes/seconds</strong>: <em>hdddmmss</em>
+                        (hemisphere-degrees-minutes-seconds):
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$b</strong>22000000<strong>$d</strong>W1800000<strong>$e</strong>E1800000<strong>$f</strong>N0840000<strong>$g</strong>S0700000
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$b</strong>253440<strong>$d</strong>E0790000<strong>$e</strong>E0860000<strong>$f</strong>N0200000<strong>$g</strong>N0120000<em><span><br /><span>[The above two examples illustrate records for flat maps or flat maps in
+                                       atlases.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>Example in <strong>decimal degrees</strong>: <em>hddd.dddddd</em>
+                        (hemisphere-degrees.decimal degrees):
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$d</strong>E079.533265<strong>$e</strong>E086.216635<strong>$f</strong>S012.583377<strong>$g</strong>S020.419532
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>Example in <strong>decimal degrees</strong>: <em>+-ddd.dddddd</em>
+                        (hemisphere[+/-]-degrees.decimal degrees) (â+â for N and E, â-â for S and W; the
+                        plus sign is optional):
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$d</strong>+079.533265<strong>$e</strong>+086.216635<strong>$f</strong>-012.583377<strong>$g</strong>-020.419532
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>Example without the optional plus sign:</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$d</strong>079.533265<strong>$e</strong>086.216635<strong>$f</strong>-012.583377<strong>$g</strong>-020.419532
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>Example in <strong>decimal minutes</strong>: <em>hdddmm.mmmm</em>
+                        (hemisphere-degrees-minutes.decimal minutes):
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$d</strong>E07932.5332<strong>$e</strong>E08607.4478<strong>$f</strong>S01235.5421<strong>$g</strong>S02028.9704
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>Example in <strong>decimal seconds</strong>: <em>hdddmmss.sss</em>
+                        (hemisphere-degrees-minutes-seconds.decimal seconds):
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$d</strong>E0793235.575<strong>$e</strong>E0860727.350<strong>$f</strong>S0123536.895<strong>$g</strong>S0202858.125
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>If the coordinates for a map or plan are given in terms of a center point rather
+                  than outside limits, the longitude and latitude which form the central axis are
+                  recorded twice (in subfields $d and $e and in $f
+                  and $g, respectively).</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$b</strong>75000<strong>$d</strong>W0950500<strong>$e</strong>W0950500<strong>$f</strong>N0303000<strong>$g</strong>N0303000
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$d</strong>W119.697222<strong>$e</strong>W119.697222<strong>$f</strong>N034.420833<strong>$g</strong>N034.420833
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$d</strong>-119.697222<strong>$e</strong>-119.697222<strong>$f</strong>+034.420833<strong>$g</strong>+034.420833
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>a<strong>$d</strong>W11941.833333<strong>$e</strong>W11941.833333<strong>$f</strong>N03425.250000<strong>$g</strong>N03425.250000
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$h - Angular scale</strong> 
+                  </p>
+                  <div>
+                     <p>Scale, if known, for celestial charts.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$j - Declination - northern limit</strong> 
+                  </p>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$k - Declination - southern limit</strong> 
+                  </p>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$m - Right ascension - eastern limit</strong> 
+                  </p>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$n - Right ascension - western limit</strong> 
+                  </p>
+                  <div>
+                     <p>Subfields $j, $k, $m, and $n are used
+                  with celestial charts or celestial charts in atlases and contain the limits of the
+                  declination and the right ascension.</p>
+                  </div>
+                  <div>
+                     <p>Subfields $j and $k are each eight characters in length and
+                  record the declination in the form <em>hdddmmss</em>
+                        (hemisphere-degrees-minutes-seconds). The degree, minute and second elements are
+                        each right justified and the unused positions contain zeros. (If declination of
+                        center is known, it is repeated in both subfields).
+                     </p>
+                  </div>
+                  <div>
+                     <p>Subfields $m and $n are each six characters in length and
+                  record the right ascension in the form <em>hhmmss</em> (hour-minute-seconds). The
+                        hour, minute and second elements are each right justified and the unused positions
+                        contain zeros. (If the right ascension of center is known, it is repeated in both
+                        subfields).
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>b<strong>$j</strong>N0300000<strong>$k</strong>N0300000<strong>$m</strong>021800<strong>$n</strong>021800
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$p - Equinox</strong> 
+                  </p>
+                  <div>
+                     <p>Equinox or epoch for a celestial chart. Usually recorded in the form <em>yyyy</em>
+                        (year) according to the Gregorian calendar, but may include a decimal including
+                        the month in the form <em>yyyy.mm</em> (year-month).
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>b<strong>$p</strong>1950
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$r - Distance from earth</strong> 
+                  </p>
+                  <div>
+                     <p>Distance of celestial bodies, such as planets or stars, from the Earth in
+                        light-years in star atlases.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$s - G-ring latitude</strong> 
+                  </p>
+                  <div>
+                     <p>Latitude of a point of the g-ring.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$t - G-ring longitude</strong> 
+                  </p>
+                  <div>
+                     <p>Longitude of a point of the g-ring.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$x - Beginning date</strong> 
+                  </p>
+                  <div>
+                     <p>Beginning of the time frame specific to the coordinates. The
+                        date is structured in the form of <em>yyyymmdd</em>. When no date is recorded, it
+                        is assumed that the coordinate information is current.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$y - Ending date</strong> 
+                  </p>
+                  <div>
+                     <p>Ending of the time frame specific to the coordinates. The date
+                        is structured in the form of <em>yyyymmdd</em>. When no date is recorded, it is
+                        assumed that the coordinate information is current.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$d</strong>E0110000<strong>$e</strong>E0320000<strong>$f</strong>N0690000<strong>$g</strong>N0550000<strong>$x</strong>17210000<strong>$y</strong>19171200
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$d</strong>E0110000<strong>$e</strong>E0240000<strong>$f</strong>N0690000<strong>$g</strong>N0550000<strong>$x</strong>19171200
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$z - Name of extraterrestrial body</strong> 
+                  </p>
+                  <div>
+                     <p>Name of a planet or other extraterrestrial body specified when the coordinate data
+                  recorded in subfields $d, $e, $f and
+                  $g do not describe an entity on Earth.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>034</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$d</strong>W2450000<strong>$e</strong>E2570000<strong>$f</strong>N0160000<strong>$g</strong>N0190000<strong>$z</strong>Mars<strong>$2</strong>gpn
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$0 - Authority record control number or standard number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Source</strong> 
+                  </p>
+                  <div>
+                     <p>MARC code that identifies the source of the data recorded in field 034. If
+                        different sources are recorded, separate fields should be used. Code from: <em><a href="http://www.loc.gov/standards/sourcelist/cartographic-data.html">Cartographic Data Source Codes</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$3 - Materials specified</strong> 
+                  </p>
+                  <div>
+                     <p>Information that specifies the part of the entity to which the field applies.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Punctuation - </strong>Field 034 does not end with a mark of punctuation.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="indicatorHistory"><em>Indicator 1 - Type of scale</em><div class="valuehistory">
+               <div><em>2 - Two or more scales (BK, MP, SE) [OBSOLETE]</em></div>
+            </div>
+            <div>
+               <p>Value 2 was made obsolete when field 034 was made repeatable in 1982.</p>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$a - Category of scale</em><div class="subfieldHistoryDsc">
+                  <p>Code c (Other type of scale) was made obsolete in 1997. <em>[CAN/MARC only]</em></p>
+               </div>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$r - Distance from earth [NEW, 2006]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$x - Beginning date [NEW, 2006]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$y - Ending date [NEW, 2006]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$z - Name of extraterrestrial body [NEW, 2006]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$0 - Authority record control number or standard number [NEW, 2011]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$2 - Source [NEW, 2006]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$3 - Materials specified [NEW, 2010]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt;
+               <strong>034</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/01/2011)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

@@ -1,0 +1,945 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy, see www.w3.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 785: Succeeding
+  Entry (Network Development and MARC Standards Office, Library
+  of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the succeeding entry (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link href="http://www.loc.gov/marc/marc-generic.css" rel=
+  "stylesheet" type="text/css">
+<style type="text/css">
+                                        body {margin-left: 2em; margin-right: 2em;} 
+                                        h1 {font-family:Arial, Helvetica, sans-serif;}
+                                        h3 {text-align:left;}
+                                        h4 {margin-top:.5em; margin-bottom:.5em;}
+                                        p {text-align:justify; margin-left:2em; margin-right:2em;}
+                                        .formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+                                        .datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+                                        .font_small {font-size:9pt;}
+                                        .fieldtoc {margin-left:2em;}
+                                        .box {font-family:ZapfDingbats;}
+                                        .description {text-align:justify; margin-left:2em;}
+                                        .description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+                                        .description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+                                        .indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .subfieldvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+                                        .charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+                                        .charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+                                        .example {margin-left:4em;}
+                                        .changed {color: #FF0000;}
+                                        .captiontext {font-style:italic;}
+                                        .displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+                                        .displaycontent {text-align:left;}
+                                        .table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+                                        .head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+                                        .summary {margin-left:2em;}
+                                        .summarytable {margin-left:4em;}
+</style>
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a>
+    &gt;&gt; <strong>785</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>785 - Succeeding Entry (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Note controller</em><br>
+      0 - Display note<br>
+      1 - Do not display note<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Type of relationship</em><br>
+      0 - Continued by<br>
+      1 - Continued in part by<br>
+      2 - Superseded by<br>
+      3 - Superseded in part by<br>
+      4 - Absorbed by<br>
+      5 - Absorbed in part by<br>
+      6 - Split into ... and ...<br>
+      7 - Merged with ... to form ...<br>
+      8 - Changed back to<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Main entry heading (NR)<br>
+      $b - Edition (NR)<br>
+      $c - Qualifying information (NR)<br>
+      $d - Place, publisher, and date of publication (NR)<br>
+      $g - Related parts (R)<br>
+      $h - Physical description (NR)<br>
+      $i - Relationship information
+      (R)<br>
+      $k - Series data for related item (R)<br>
+      $m - Material-specific details (NR)<br>
+      $n - Note (R)<br>
+      $o - Other item identifier (R)<br>
+      $r - Report number (R)<br>
+      $s - Uniform title (NR)<br></td>
+
+      <td colspan="1">$t - Title (NR)<br>
+      $u - Standard Technical Report Number (NR)<br>
+      $w - Record control number (R)<br>
+      $x - International Standard Serial Number (NR)<br>
+      $y - CODEN designation (NR)<br>
+      $z - International Standard Book Number (R)<br>
+      $4 - Relationship code (R)<br>
+      $6 - Linkage (NR)<br>
+      $7 - Control subfield (NR)<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/0 - Type of main entry heading<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/1 - Form of name<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/2 - Type of record<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;/3 - Bibliographic level<br>
+      $8 - Field link and sequence number (R)<br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>Information concerning the immediate successor to the target
+  item (chronological relationship). When a note is generated
+  from this field, the introductory phrase may be generated based
+  on the value in the second indicator position for display.</p>
+
+  <p>Repeated for more than one succeeding entry.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <p>Description of the first indicator position and all subfield
+  codes, as well as input conventions except for display
+  constants, for field 785 are given in the <em><a href=
+  "bd76x78x.html">76X-78X Linking Entries-General
+  Information</a></em> section.</p>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <div class="indicator">
+    <strong>Second Indicator - Type of relationship</strong>
+
+    <div class="description">
+      Relationship between the target item and the succeeding
+      entry. The values in this indicator position may also be
+      used to generate a display constant for a note.
+
+      <div class="indicatorvalue">
+        <strong>0 - Continued by</strong>
+
+        <div class="description">
+          Target item is <em>continued by</em> the succeeding
+          entry.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                245</td>
+
+                <td valign="top" colspan="9" align="left">
+                00$aPreliminary seismological bulletin.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>785</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>00</strong><strong>$t</strong>TEIC
+                quarterly seismological
+                bulletin<strong>$x</strong>0741-1898<strong>$w</strong>(DLC)sc#83007721#</td>
+              </tr>
+
+              <tr>
+                <td></td>
+
+                <td colspan="9">
+                  <div class="displaytext">
+                    Displays as:&nbsp;
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td></td>
+
+                <td colspan="9">
+                  <div class="displaycontent">
+                    Continued by: TEIC quarterly seismological
+                    bulletin.
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>If the date of change is included (subfield $g),
+          a field 580 note is required.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                130</td>
+
+                <td valign="top" colspan="9" align="left">
+                0#$aInside education (Albany, N.Y.)</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                580</td>
+
+                <td valign="top" colspan="9" align="left">
+                ##$aContinued in 1983 by: Learning in New York
+                (University of the State of New York).</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>785</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>10</strong><strong>$t</strong>Learning in
+                New York (University of the State of New
+                York)<strong>$g</strong>1983<strong>$w</strong>(OCoLC)10120612<br>
+
+                <em>[Note is displayed from 580 field.]</em></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>1 - Continued in part by</strong>
+
+        <div class="description">
+          Target item is <em>continued in part by</em> the
+          succeeding entry.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                245</td>
+
+                <td valign="top" colspan="9" align="left">04$aThe
+                Southeastern college art review and
+                newsletter.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>785</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>01</strong><strong>$a</strong>Southeastern
+                College Art Conference.<strong>$t</strong>SECAC
+                newsletter<strong>$w</strong>(OCoLC)4973820</td>
+              </tr>
+
+              <tr>
+                <td></td>
+
+                <td colspan="9">
+                  <div class="displaytext">
+                    Displays as:&nbsp;
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td></td>
+
+                <td colspan="9">
+                  <div class="displaycontent">
+                    Continued in part by: Southeastern College
+                    Art Conference. SECAC newsletter.
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>2 - Superseded by</strong>
+
+        <div class="description">
+          Target item is <em>superseded by</em> the succeeding
+          entry.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                245</td>
+
+                <td valign="top" colspan="9" align="left">
+                00$aBulletin of the Vancouver Medical
+                Association.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>785</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>02</strong><strong>$t</strong>British
+                Columbia medical
+                journal.<strong>$x</strong>0007-0556</td>
+              </tr>
+
+              <tr>
+                <td></td>
+
+                <td colspan="9">
+                  <div class="displaytext">
+                    Displays as:&nbsp;
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td></td>
+
+                <td colspan="9">
+                  <div class="displaycontent">
+                    Superseded by: British Columbia medical
+                    journal. ISSN 0007-0556.
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>3 - Superseded in part by</strong>
+
+        <div class="description">
+          Target item is <em>superseded in part by</em> the
+          succeeding entry.
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>4 - Absorbed by</strong>
+
+        <div class="description">
+          Target item has been <em>absorbed by</em> the
+          succeeding entry.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                245</td>
+
+                <td valign="top" colspan="9" align="left">04$aThe
+                Annalist :$ba magazine of finance, commerce, and
+                economics.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>785</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>04</strong><strong>$t</strong>Business
+                week<strong>$g</strong>Oct.
+                1940<strong>$x</strong>0007-7135<strong>$w</strong>(DLC)###31006225#</td>
+              </tr>
+
+              <tr>
+                <td></td>
+
+                <td colspan="9">
+                  <div class="displaytext">
+                    Displays as:&nbsp;
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td></td>
+
+                <td colspan="9">
+                  <div class="displaycontent">
+                    Absorbed by: Business week, Oct. 1940.
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>5 - Absorbed in part by</strong>
+
+        <div class="description">
+          Target item has been <em>absorbed in part by</em> the
+          succeeding entry.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                245</td>
+
+                <td valign="top" colspan="9" align="left">04$aThe
+                Metal worker, plumber, and steam fitter.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>785</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>05</strong><strong>$t</strong>Sheet metal
+                worker<strong>$x</strong>0096-9249<strong>$w</strong>(OCoLC)2054610</td>
+              </tr>
+
+              <tr>
+                <td></td>
+
+                <td colspan="9">
+                  <div class="displaytext">
+                    Displays as:&nbsp;
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td></td>
+
+                <td colspan="9">
+                  <div class="displaycontent">
+                    Absorbed in part by: Sheet metal worker.
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>6 - Split into ... and ...</strong>
+
+        <div class="description">
+          Target item has <em>split</em> into two or more
+          succeeding entries.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                245</td>
+
+                <td valign="top" colspan="9" align="left">
+                00$aHospital practice.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                580</td>
+
+                <td valign="top" colspan="9" align="left">
+                ##$aSplit into: Hospital practice (Hospital ed.)
+                and: Hospital practice (Office ed.).</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>785</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>16</strong><strong>$t</strong>Hospital
+                practice (Hospital
+                ed.)<strong>$x</strong>8755-4542<strong>$w</strong>(DLC)sn#84001694#</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>785</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>16</strong><strong>$t</strong>Hospital
+                practice (Office
+                ed.)<strong>$x</strong>8750-2836<strong>$w</strong>(OCoLC)10716242<br>
+
+                <em>[Note is displayed from 580 field.]</em></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>7 - Merged with ... to form ...</strong>
+
+        <div class="description">
+          Target item has <em>merged</em> with another title to
+          form the succeeding entry.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                245</td>
+
+                <td valign="top" colspan="9" align="left">
+                10$aCorrectional services in Canada.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                580</td>
+
+                <td valign="top" colspan="9" align="left">
+                ##$aMerged with Services correctionnels au
+                Canada. ISSN 0711-6810 to become Adult
+                correctional services in Canada. ISSN
+                0715-2973.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>785</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>17</strong><strong>$t</strong>Services
+                correctionnels au
+                Canada.<strong>$x</strong>0711-6810</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>785</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>17</strong><strong>$t</strong>Adult
+                correctional services in
+                Canada.<strong>$x</strong>0715-2973<br>
+                <em>[Note is displayed from 580 field.]</em></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>8 - Changed back to</strong>
+
+        <div class="description">
+          Target item has <em>changed back to</em> an earlier
+          form of entry (i.e., the succeeding entry form is the
+          same as a preceding entry form).
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                245</td>
+
+                <td valign="top" colspan="9" align="left">
+                10$aAnnual report /$cDepartment of City Planning,
+                City of Los Angeles.</td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>785</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>08</strong><strong>$a</strong>Los Angeles
+                (Calif.). Dept. of City
+                Planning.<strong>$t</strong>Annual report of the
+                Department of City Planning
+                (1966)<strong>$w</strong>(DLC)sn#86032686#</td>
+              </tr>
+
+              <tr>
+                <td></td>
+
+                <td colspan="9">
+                  <div class="displaytext">
+                    Displays as:&nbsp;
+                  </div>
+                </td>
+              </tr>
+
+              <tr>
+                <td></td>
+
+                <td colspan="9">
+                  <div class="displaycontent">
+                    Changed back to: Los Angeles (Calif.). Dept.
+                    of City Planning. Annual report of the
+                    Department of City Planning (1966).
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <h3>INPUT CONVENTIONS</h3>
+
+  <div class="description2">
+    <strong>Display constant</strong> - Introductory terms or
+    phrases such as <em>Absorbed in part by:</em> that are
+    displayed in notes with the data recorded in field 785 are
+    not carried in the MARC record. They may be system generated
+    as display constants associated with the second indicator
+    value.
+
+    <div class="table">
+      <table>
+        <tr>
+          <td width="166" align="left" valign="top"><u>Second
+          indicator</u></td>
+
+          <td width="382" align="left" valign="top"><u>Display
+          constant</u></td>
+        </tr>
+
+        <tr>
+          <td valign="top" align="left">0</td>
+
+          <td valign="top" align="left">Continued by:</td>
+        </tr>
+
+        <tr>
+          <td valign="top" align="left">1</td>
+
+          <td valign="top" align="left">Continued in part
+          by:</td>
+        </tr>
+
+        <tr>
+          <td valign="top" align="left">2</td>
+
+          <td valign="top" align="left">Superseded by:</td>
+        </tr>
+
+        <tr>
+          <td valign="top" align="left">3</td>
+
+          <td valign="top" align="left">Superseded in part
+          by:</td>
+        </tr>
+
+        <tr>
+          <td valign="top" align="left">4</td>
+
+          <td valign="top" align="left">Absorbed by:</td>
+        </tr>
+
+        <tr>
+          <td valign="top" align="left">5</td>
+
+          <td valign="top" align="left">Absorbed in part by:</td>
+        </tr>
+
+        <tr>
+          <td valign="top" align="left">6</td>
+
+          <td valign="top" align="left">Split into: ... and
+          ...</td>
+        </tr>
+
+        <tr>
+          <td valign="top" align="left">7</td>
+
+          <td valign="top" align="left">Merged with: ... to form
+          ...</td>
+        </tr>
+
+        <tr>
+          <td valign="top" align="left">8</td>
+
+          <td valign="top" align="left">Changed back to:</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a>
+          &gt;&gt; <strong>785</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

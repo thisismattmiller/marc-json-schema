@@ -1,0 +1,294 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 381:
+         						Other Distinguishing Characteristics of Work or Expression (Network Development and MARC Standards
+         					Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="update11-stylesheet.css" rel="stylesheet" type="text/css">
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;
+         						<a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>381</strong></div>
+      <hr><a name="skip_menu"></a><h1>381 - Other Distinguishing Characteristics of Work or Expression (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">
+         					February 2010
+         				
+      </div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Undefined</em><br># - Undefined <em></em><br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <em></em><br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Other distinguishing characteristic (R)<br>$u - Uniform Resource Identifier (R)<br>$v - Source of information (R)<br>$0 - Record control number (R)<br></td>
+            <td colspan="1">$2 - Source of term (NR)<br>$6 - Linkage (NR)<br>$8 - Field link and sequence number (R)<br></td>
+         </tr>
+      </table>
+      <p></p>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Any characteristic that is not accommodated in a special field that serves 
+         				to characterize a work or expression. Examples are an
+         				issuing body, arranged statement of music, version, or a
+         				geographic term.  May be used to differentiate a work 
+         				from another work with the same title.
+      </p>
+       <p>Multiple characteristics from the same source vocabulary may be recorded in the 
+            same field in separate occurrences of subfield $a (Other distinguishing
+            characteristic).  Terms from different source vocabularies are recorded in separate
+            occurrences of the field.</p>
+      <p></p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <p></p>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <ul>
+         <li>Both indicator positions are undefined; each contains a blank (#).</li>
+      </ul>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Other distinguishing characteristic</strong> <em></em><div class="description">A term that specifies a characteristic that differentiates a 
+            						work or expression from another one.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">130</td>
+                  <td vAlign="top" colspan="9" align="left">0#$aResearch paper (South African Law Commission)</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>381</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>South African Law Commission<br><em>[Attributes of a work]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">130</td>
+                  <td vAlign="top" colspan="9" align="left">0#$aHarlow (Motion picture : 1965 : Douglas)</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>381</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Douglas
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">380</td>
+                  <td vAlign="top" colspan="9" align="left">##$aMotion picture</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">046</td>
+                  <td vAlign="top" colspan="9" align="left">##$k1965<br><em>[Attributes of a work]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">130</td>
+                  <td vAlign="top" colspan="9" align="left">0#$a1 + 1 = 3 (Choreographic work : D'Amboise)</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>381</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>D'Amboise
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">380</td>
+                  <td vAlign="top" colspan="9" align="left">##$aChoreographic work<br><em>[Attributes of an expression]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">130</td>
+                  <td vAlign="top" colspan="9" align="left">0#$aBible.$lEnglish.$sAuthorized.$f2004</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>381</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Authorized
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">046</td>
+                  <td vAlign="top" colspan="9" align="left">##$k2004<br><em>[Attributes of an expression]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">100</td>
+                  <td vAlign="top" colspan="9" align="left">1#$aDebussy, Claude,$d1862-1918.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">240</td>
+                  <td vAlign="top" colspan="9" align="left">10$aChansons de Bilitis (Songs).$pChevelure;$oarranged</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">380</td>
+                  <td vAlign="top" colspan="9" align="left">##$aSongs</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>381</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>arranged<br>
+                   <em>[Attributes of an expression]</em></td>
+               </tr>
+            </table>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">100</td>
+                  <td vAlign="top" colspan="9" align="left">1#$aGibbon, Edward,$d1737-1794.</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left">240</td>
+                  <td vAlign="top" colspan="9" align="left">10$aHistory of the decline and fall of the Roman Empire.$kSelections</td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>381</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Selections<br><em>[Attributes of an expression]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$u - Uniform Resource Identifier</strong> <em></em><div class="description">Uniform Resource Identifier (URI), for example a URL or URN, which provides electronic
+            						access data in a standard syntax. This data can be used for automated access to an
+            						electronic item using one of the Internet protocols.
+         </div>
+         <div class="description2">
+            <div class="description">In field 381, subfield $u is used to record the location of electronically accessible
+               						source information.
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$v - Source of information</strong> <em></em><div class="description">Source where the information recorded in field 381 was found if not through a URI.</div>
+      </div>
+      <div class="subfield"><strong>$0 - Record control number</strong> <em></em><div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$2 - Source of term</strong> <em></em><div class="description">MARC code that identifies the source of the term in subfield $a when it is from a controlled list.
+         </div>
+         <div class="description2">
+            <div class="description">Code from: <em><a href="http://www.loc.gov/standards/sourcelist/subject.html">Subject Heading and Term Source Codes</a></em>.
+               					
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <em></em><div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> <em></em><div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+         </div>
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  							&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>381</strong></div> (03/05/2010) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

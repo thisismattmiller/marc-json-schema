@@ -1,0 +1,360 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 013: Patent Control Information 
+         					 (Network Development and MARC Standards Office, Library of
+         					Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the patent control information (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-left:6em; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {margin-left:4em;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> 
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt;  <strong>013</strong></div>
+      <hr><a name="skip_menu"></a><h1>013 - Patent Control Information (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">February 1999</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Number (NR) <br>$b - Country (NR) <br>$c - Type of number (NR) <br>$d - Date (R) <br></td>
+            <td colspan="1">$e - Status (R) <br>$f - Party to document (R) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Information used to control patent documents. In addition to information about patents,
+         this field may contain information relating to inventors' certificates, utility
+         certificates, utility models, patents or certificates of addition, inventors'
+         certificates of addition, utility certificates of addition, and published applications
+                     for any of these.
+      </p>
+      <p>Patent documents are assigned numbers and dates relative to the process of applying for
+                     and being granted legal rights to benefit from an invention or discovery. This field
+                     also includes information identifying the status of the patent document and country of
+                     source.
+      </p>
+      <p>Field is repeated when more than one number is associated with a patent document.</p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <ul>
+         <li class="nobullet">Both indicator positions are undefined; each contains a blank (#)</li>
+      </ul>
+      
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Number</strong> <div class="description">Patent document number, i.e., the number assigned by a competent authority
+                              (typically a patent office). The number is recorded according to <em>Recording,
+                                    Use, and Display of Patent Application Data</em> (ANSI Z39.61). The number is
+                              recorded in a <em>YY-AANNNNN</em> pattern where <em>YY</em> represents the last
+                              two digits of the calendar year, <em>AA</em> represents letters (when required),
+                              and <em>NNNNN</em> represents the variable-length numeric portion of the
+                              application number.
+         </div>
+		 <div class="description">
+         <div class="description2">For application numbers containing the year or a part thereof as an integral part
+                              of the number, the last two digits of the year are taken from the application
+                              number itself. For application numbers that do not contain the year, the last two
+                              digits of the year are taken from the application date. For application numbers
+                              that use the Japanese year of the emperor, the year of the emperor is converted to
+                              the Gregorian calendar. <em>Note:</em> An additional two positions may be added to
+                              record the complete calendar year where confusion may arise from omission of the
+                              century.
+         </div>
+		 </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>013</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>67-SC41534<strong>$b</strong>gw#<strong>$c</strong>C1<strong>$d</strong>19671108
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>013</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>70-121204<strong>$b</strong>xxu<strong>$c</strong>patent<strong>$d</strong>19700822
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Country</strong> <div class="description">Code representing the country or jurisdiction associated with the patent document.
+                              Code from: <em><a href="http://www.loc.gov/marc/countries/">MARC Code List for Countries</a></em>.
+         </div>
+         <div class="description2">
+            <div class="description">When an entity other than a country is associated with the patent document, the
+                                 code is recorded in subfield $f (Party to document). The country in which the
+                                 patent document was published or produced is represented in coded form in field
+                                 008 (Fixed-Length Data Elements), positions 15-17 (Country code). This is not
+                                 always the country as coded in field 013 $b. If the same patent document number
+                                 has been used in more than one country, field 013 must be repeated for each.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>013</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>73-19001<strong>$b</strong>it<strong>$c</strong>B<strong>$d</strong>19730102
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>013</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>82-365442<strong>$b</strong>xxu<strong>$c</strong>patent<strong>$d</strong>19820405
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td width="100%">
+                     <div class="captiontext">but</div>
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>013</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>82-US1336<strong>$c</strong>A<strong>$d</strong>19820928<strong>$f</strong>SzGeWIPO<br><em>[entity other than a country]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - Type of number</strong> <div class="description">Type of patent document identifier</div>
+         <div class="description2">
+            <div class="description">Identifier is usually a number. Subfield $c may contain a term or a code
+                                 identifying the type. The source of the code is <em>Standard Code for
+                                       Identification of Different Kinds of Patent Documents</em> (WIPO ST.16) that is
+                                 maintained by the World Intellectual Property Organization. The code is a one- or
+                                 two-character code. Plain language terms are recorded as they appear on the item.
+                                 Field 013 is repeated if there is more than one number to be recorded for an
+                              item.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>013</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>91-13005<strong>$b</strong>xxu<strong>$c</strong>patent<strong>$d</strong>19920217
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>013</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>67-SC41534<strong>$b</strong>gw#<strong>$c</strong>C1<strong>$d</strong>19671108
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$d - Date</strong> <div class="description">Date a patent or certificate was granted, or the date of acceptance of an
+                              application. The date requires 8 numeric characters in the pattern
+                              <em>yyyymmdd</em> (4 for the year, 2 for the month, and 2 for the day).
+         </div>
+         <div class="description2">
+            <div class="description">Date is usually assigned by a competent authority (typically a patent office). The
+                                 date of an application is typically the date of receipt by the agency. Other
+                                 dates, such as effective dates, exhibitions dates, etc. are also recorded in this
+                                 subfield. Multiple dates are recorded in separate occurrences of subfield $d if
+                                 they all relate to the same patent document. Qualifying information is recorded in
+                                 subfield $e. The date is recorded according to <em>Data elements and interchange
+                                       formats-Information interchange-Representation of dates and times</em> (ISO
+                                 8601).
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>013</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>84-948<strong>$b</strong>nl#<strong>$c</strong>oktrooi<strong>$d</strong>19840326
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>013</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>70-123456<strong>$b</strong>xxu<strong>$c</strong>statutory invention registration<strong>$d</strong>19700414<strong>$e</strong>granted<strong>$d</strong>19710419<strong>$e</strong>effective
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$e - Status</strong> <div class="description">Text that explains or clarifies the status of the patent document identified by
+                              the number in the field.
+         </div>
+         <div class="description2">
+            <div class="description">Status usually relates to the examination of an application or the
+                                 granting/publishing of a patent.
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>013</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>93-10077<strong>$b</strong>xxu<strong>$c</strong>patent<strong>$d</strong>19930322<strong>$e</strong>continuation
+                  </td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>013</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>74-2202467<strong>$b</strong>xxu<strong>$c</strong>patent<strong>$d</strong>19740305<strong>$e</strong>published
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$f - Party to document</strong> <div class="description">Information that identifies the country or agency that is party to the document,
+                              usually an application for patent or related document. Codes from: <em><a href="http://www.loc.gov/marc/countries/">MARC Code List for Countries</a></em> and <em><a href="http://www.loc.gov/marc/organizations/orgshome.html">MARC Code List
+                                          for Organizations</a></em>. 
+         </div>
+         <div class="description2">
+            <div class="description">May contain a code identifying, when appropriate, an organization (generally an
+                                 international one).
+            </div>
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>013</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>82-57623<strong>$c</strong>priority application<strong>$d</strong>19820213<strong>$f</strong>CmYaOAPI<br><em>[Code "CmYaOAPI" identifies the Organisation africaine de propri&eacute;t&eacute;
+                                             intellectuelle (Africa Intellectual Property Organization), in Yaound&eacute;,
+                                             Cameroon.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>013</strong></div> (02/16/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

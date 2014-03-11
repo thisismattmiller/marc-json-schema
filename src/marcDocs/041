@@ -1,0 +1,1123 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 041:
+         Language Code (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+               
+               &gt;&gt;
+               <strong>041</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>041</span> - <span>Language Code</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2012</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Translation indication</em><br /><span># - No information provided</span><br /><span>0 - Item not a translation/does not include a
+                  						translation</span><br /><span>1 - Item is or includes a translation</span><br /><br /></td>
+            <td><em>Source of code</em><br /><span># - MARC language code</span><br /><span>7 - Source specified in subfield $2</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Language code of text/sound track or separate
+                     					title<span> (R)</span></li>
+                  <li>$b - Language code of summary or abstract<span> (R)</span></li>
+                  <li>$d - Language code of sung or spoken text<span> (R)</span></li>
+                  <li>$e - Language code of librettos<span> (R)</span></li>
+                  <li>$f - Language code of table of contents<span> (R)</span></li>
+                  <li>$g - Language code of accompanying material other
+                     					than librettos<span> (R)</span></li>
+                  <li>$h - Language code of original<span> (R)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$j - Language code of subtitles or captions<span> (R)</span></li>
+                  <li>$k - Language code of intermediate translations<span> (R)</span></li>
+                  <li>$m - Language code of original accompanying materials other than librettos<span> (R)</span></li>
+                  <li>$n - Language code of original libretto<span> (R)</span></li>
+                  <li>$2 - Source of code<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Codes for languages associated with an item when
+               				the language code in field 008/35-37 of the record
+               				is insufficient to convey full information. Includes
+               				records for multilingual items, items that involve
+               				translation, and items where the medium of
+               				communication is a sign language. Sources of the
+               				codes are: <em><a href="http://www.loc.gov/marc/languages/">MARC
+                     						Code List for Languages</a></em> or other code lists such as ISO 639-1 (<em>Codes
+                  					for the representation of names of languages
+                  					- Part 1 : alpha-2 code</em>).
+            </p>
+         </div>
+         <div>
+            <p>Languages may also be recorded in textual form in
+               				field 546 (Language Note).
+            </p>
+            <p>Used in conjunction with 008/35-37 (Language). If
+				there is a code in 008/35-37, it is recorded as the
+				first code in subfields $a or
+				$d (for sound recordings) of field 041.
+				If 008/35-37 contains all blanks (No information
+				provided) or the code "zxx" (No linguistic content)
+				and field 041 is being used, e.g., to record the
+				language code(s) of accompanying material, no
+				subfield $a or $d is present.
+				If only a non-MARC code is used to express the
+				predominant language in an item, field 008/35-37 is
+				coded with three fill characters (| | |).</p>
+            <p>Used when one or more of the following conditions
+               				exist:
+            </p>
+            <ul>
+               <li>The item contains more than one language one
+                  					of which may be a sign language
+               </li>
+               <li>The item is or includes a translation</li>
+               <li>The language of the summaries, abstracts, or
+                  					accompanying material differs from the language of
+                  					the main item
+               </li>
+               <li>The language of a table of contents differs
+                  					from the language of the main item
+               </li>
+            </ul>
+            <p>Field 041 may also be used to express the
+               		  original language of the work.
+            </p>
+            <p>For <strong>computer files</strong>, field 041 is
+               				used to record codes for languages associated with
+               				the data and/or user interface (e.g., screen
+               				displays). This field is not used to code for
+               				machine languages (e.g., COBOL) or character codes,
+               				(e.g., ASCII). Information about machine-languages
+               				is recorded in field 538 (System Details Note).
+            </p>
+            <p>For <strong>audiovisual materials</strong>, field
+               				041 is used with motion pictures, filmstrips,
+               				slides, transparencies, and videorecordings when one
+               				or more of the following conditions exist:
+            </p>
+            <ul>
+               <li>The sound track has different language
+                  					versions
+               </li>
+               <li>The accompanying sound (discs, tapes, etc.)
+                  					has different language versions
+               </li>
+               <li>The overprinted titles (subtitles) or separate
+                  					titles for silent films are in different languages
+               </li>
+               <li>The sound accompanying a work is in one
+                  					language and the same text is printed on the work
+                  					in the form of overprinted titles in another
+                  					language
+               </li>
+               <li>The accompanying printed script for works with
+                  					no sound or, if with sound, no narration, is in
+                  					different languages
+               </li>
+               <li>The medium of communication includes sign
+                  					language.
+               </li>
+            </ul>
+            <p>Field 041 may also be used to record additional 
+               		  language-related information about written or original 
+               		  languages on motion pictures and videorecordings.
+            </p>
+            <p>For <strong>original or historical projectable
+                  					graphic material, opaque graphic
+                  				material,</strong> and <strong>three-dimensional
+                  					material</strong>, this field is used when one or
+               				more of the following conditions exist:
+            </p>
+            <ul>
+               <li>The language associated with the material,
+                  					that is, captions or other text associated with
+                  					the item or collection that are part of the chief
+                  					source of information, is multilingual
+               </li>
+               <li>The language of the accompanying material
+                  					differs from the language associated with the item
+                  					or collection.
+               </li>
+            </ul>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>First Indicator - Translation indication</strong></p>
+                  <div>
+                     <p>Whether the work is or includes a translation.
+                        						The first indicator value is assigned from the
+                        						content of the item itself; accompanying
+                        						material is not considered when determining if
+                        						an item is a translation. <em>Exception:</em>
+                        						When printed <strong>music</strong> contains a
+                        						translation of a vocal text printed as text, the
+                        						item is considered a translation and value 1 is
+                        						used.
+                     </p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - No information provided</span><div>
+                           <p>No information is provided as to whether 
+                              							the item is or includes a translation.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>041</strong></td>
+                                 <td colspan="9"><strong>##</strong><strong>$a</strong>eng<strong>$a</strong>fre<strong>$a</strong>swe<em><span><br /><span>The item includes text in English,
+                                             								French and Swedish. </span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>041</strong></td>
+                                 <td colspan="9"><strong>##</strong><strong>$a</strong>dut<strong>$a</strong>fre<strong>$a</strong>ger<strong>$a</strong>ita<strong>$a</strong>spa<strong>$b</strong>eng<em><span><br /><span>The item includes text in Dutch, French,
+                                             								German, Italian and Spanish. Its summary is
+                                             								in English. </span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Item not a translation/does not include a
+                           						translation</span><div class="example"><br /><table>
+                              <tr>
+                                 <td><strong>041</strong></td>
+                                 <td colspan="9"><strong>0#</strong><strong>$a</strong>eng<strong>$a</strong>fre
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Item is or includes a translation</span><div>
+                           <p>Used regardless of whether the work in the
+                              							original language has been published or not.
+                              							If, however, the translated work is not
+                              							entered under the main entry for the original,
+                              							for example, because the translation also
+                              							involved adaptation, then the item is not
+                              							considered a translation and the first
+                              							indicator position contains value 0.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>041</strong></td>
+                                 <td colspan="9"><strong>1#</strong><strong>$a</strong>eng<strong>$h</strong>rus
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Source of code</strong></p>
+                  <div>
+                     <p>Source of the language code used in the
+                        					field.
+                     </p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - MARC language code</span><div>
+                           <p>Code from: <em><a href="http://www.loc.gov/marc/languages/">MARC Code List for Languages</a></em>.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>041</strong></td>
+                                 <td colspan="9"><strong>1#</strong><strong>$a</strong>eng<strong>$h</strong>ger<strong>$h</strong>swe
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">7 - Source specified in subfield $2</span><div>
+                           <p>Source of the language code is indicated by a
+							code in subfield $2.</p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td>008/35-37</td>
+                                 <td colspan="9">|||</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>041</strong></td>
+                                 <td colspan="9"><strong>07</strong><strong>$a</strong>en<strong>$a</strong>fr<strong>$a</strong>it<strong>$2</strong>iso639-1
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Language code of text/sound track or separate
+                        					title</strong> 
+                  </p>
+                  <div>
+                     <p>Language code in the first occurrence of
+						subfield $a is also recorded in
+						008/35-37 (Language) unless 008/35-37 contains
+						blanks (###) or the code "zxx" (No linguistic
+						content).</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>eng<strong>$a</strong>fre<strong>$a</strong>ger<em><span><br /><span>[Text is in English, French and
+                                       						German.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>For works in multiple languages, the codes for
+						the languages of the text are recorded in the
+						order of their predominance in the text. If no
+						language is predominant, the codes are recorded
+						in English alphabetical order. If the cataloging
+						institution has chosen to code mul (Multiple
+						languages) in 008/35-37, the code for the title
+						(or the first title, if there are more than one)
+						and the code mul are recorded. Alternatively,
+						any number of specific language codes may be
+						recorded in repeating occurrences of subfield
+						$a.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">rus</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>rus<strong>$a</strong>eng<em><span><br /><span>[Item is in Russian (the predominant
+                                       							language) and English.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>eng<strong>$a</strong>fre<strong>$a</strong>ger<strong>$a</strong>hun<strong>$a</strong>por<strong>$a</strong>rus
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">cze</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>cze<strong>$a</strong>eng<strong>$a</strong>ger<em><span><br /><span>[Map with legend in Czech, English, and
+                                       							German.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">sgn</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>sgn<strong>$a</strong>eng<em><span><br /><span>[Item contains representations of the
+                                       							alphabet in sign language with minimal English
+                                       							text on title page.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">mul</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>mul<strong>$a</strong>rus<em><span><br /><span>[Item is multilingual with no predominant
+                                       							language and the cataloging institution has
+                                       							chosen not to specify a language in field
+                                       							008/35-37. The title is in Russian.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>For <strong>continuing resources</strong>, when
+                        						the language of the text changes over a period
+                        						of time, codes for all languages are recorded.
+                     </p>
+                     <p>For <strong>computer files</strong>, the
+						language(s) associated with the data and/or user
+						interface (e.g., screen displays) is recorded in
+						subfield $a.
+                     </p>
+                     <p>For <strong>musical works</strong>, the
+						language(s) of the textual content is recorded
+						in subfield $a only when the work is
+						printed or manuscript music. If the work is a
+						sound recording, the language code(s) is
+						recorded in subfield $d.
+                     </p>
+                     <p>For <strong>moving image resources</strong>, subfield
+						$a contains the code(s) of spoken or sung languages associated
+						with the item, as well as sign language and any language code(s) of the
+						languages of accompanying sound.
+                     </p>
+                     <p>For <strong>projected still images</strong> such as filmstrips and slides, subfield 
+						$a contains the code(s) of languages associated with the item, 
+						as well as any language code(s) of the languages of accompanying printed
+						script or accompanying sound. For all <strong>other still images</strong>, including original
+                        						or historical graphic material and opaque and non-opaque graphic material, 
+                        						and for <strong>three-dimensional artifacts</strong>, subfield $a contains the code(s) of
+						languages associated with the material, i.e., captions or other text associated
+						with the item or collection that are part of the chief source of information.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>eng<strong>$a</strong>fre<strong>$a</strong>ger<strong>$a</strong>ita<em><span><br /><span>[Audiovisual item with sound track or
+                                       							separate titles in English, French, German,
+                                       							Italian.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng<em><span><br /><span>[no field 041] </span></span></em><em><span><br /><span>[Sound track or separate titles in English
+                                       							only.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>When a work is a translation or includes a
+						translation, the code for the language of the
+						translation is recorded in subfield
+						$a. The code(s) for the language(s)
+						of the original work are recorded in
+						subfield $h. The code(s) for the language(s) 
+						of intermediate translations are recorded in 
+						subfield $k.  If an item is the
+						original with an accompanying translation, repetative
+						subfield $a contains the code(s) for
+						the language(s) of the translation and the
+						original(s). The code(s) for the original is
+						also recorded in subfield $h.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>eng<strong>$h</strong>fre<em><span><br /><span>[Text is in English, translated from
+                                       							French.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>eng<strong>$k</strong>ger<strong>$h</strong>swe<em><span><br /><span>[Text is an English translation of a
+                                       							German text which was originally published in
+                                       							Swedish.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>eng<strong>$a</strong>grc<strong>$h</strong>grc<em><span><br /><span>[Text in original Greek and in English
+                                       							translation.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>eng<strong>$h</strong>und<em><span><br /><span>[Text is an English translation; the
+                                       							original language undetermined.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">fre</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>fre<strong>$h</strong>ger<strong>$h</strong>rus<em><span><br /><span>[Text is in French and contains three
+                                       							works, the first translated from German and
+                                       							two from Russian.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>eng<strong>$h</strong>mul<em><span><br /><span>[Item is an anthology of Indic poems
+                                       							translated into English from multiple Indic
+                                       							languages.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Language code of summary or abstract</strong> 
+                  </p>
+                  <div>
+                     <p>Language(s) are recorded in English
+                        						alphabetical order.
+                     </p>
+                     <p>For <strong>textual resources</strong>, record
+						the language of the summary regardless if it is
+						the same or different from the language recorded
+						in subfield $a.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>eng<strong>$b</strong>fre<strong>$b</strong>ger<strong>$b</strong>spa<em><span><br /><span>[Text is in English with summaries in
+                                       							French, German, and Spanish.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div>
+                     <p>For <strong>music</strong>, subfield
+						$b contains the language code(s) of
+						material accompanying sound recordings if the
+						accompanying material contains summaries of the
+						contents of a nonmusic sound recording or
+						summaries of songs or other vocal works (not
+						translations of the text(s)) contained on a
+						music sound recording.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$d - Language code of sung or spoken text</strong> 
+                  </p>
+                  <div>
+                     <p>Language code(s) for the audible portion of an
+						item, usually the sung or spoken content of a
+						sound recording or computer file. The language
+						code in the first occurrence of subfield
+						$d, if there is no subfield
+						$a, may also be recorded in field
+						008/35-37.</p>
+                  </div>
+                  <div>
+                     <p><em>Note:</em> The language code(s) for the
+						textual portion of an item is entered in
+						subfield $a. 
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$d</strong>eng<strong>$e</strong>eng<strong>$e</strong>fre<strong>$e</strong>ger<em><span><br /><span>[Recording in English with accompanying
+                                       							libretto in English, French, and
+                                       						German.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$e - Language code of librettos</strong> 
+                  </p>
+                  <div>
+                     <p>For <strong>music</strong>, the language
+                        						code(s) of the printed text of the vocal/textual
+                        						content of the work.
+                     </p>
+                  </div>
+                  <div>
+                     <p>Used whether accompanying material or printed
+                        						with the item. <em>Note:</em> Despite its name,
+						this subfield is not restricted to librettos.
+						However, it is not used for items covered by
+						subfield $g.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">fre</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>fre<strong>$e</strong>fre<strong>$e</strong>ger<strong>$e</strong>ita
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$f - Language code of table of contents</strong> 
+                  </p>
+                  <div>
+                     <p>Language code(s) of the table of contents when
+                        						it differs from the language of the text.
+                     </p>
+                  </div>
+                  <div>
+                     <p>Code(s) are recorded in English alphabetical
+                        						order.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">rum</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>rum<strong>$f</strong>fre<strong>$f</strong>ger<strong>$f</strong>rus<em><span><br /><span>[Text in Romanian, with tables of contents
+                                       							in French, German, and Russian.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$g - Language code of accompanying material other
+                        					than librettos</strong> 
+                  </p>
+                  <div>
+                     <p>Language code(s) of significant accompanying
+						material other than summaries (subfield
+						$b) or librettos (subfield
+						$e).</p>
+                  </div>
+                  <div>
+                     <p>Includes such items as program notes, prefaces,
+                        						commentaries, manuals, codebooks, user
+                        						instructions, etc. For <strong>visual
+                           						materials</strong>, subfield $g is
+						used for all accompanying material, except for
+						accompanying printed script or accompanying
+						sound (which are recorded in subfield
+						$a).
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">ger</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>ger<strong>$g</strong>eng<em><span><br /><span>[The photograph collection has captions in
+                                       							German and accompanying material in
+                                       						English.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">zxx</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$g</strong>fre<em><span><br /><span>[The item is a print having accompanying
+                                       							material in French. There are no captions or
+                                       							other text associated with the item.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">###</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$g</strong>eng
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">00$aFlorida bird songs$h[sound
+                              							recording].<em><span><br /><span>[A sound recording with program notes on
+                                       							container.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$h - Language code of original</strong> 
+                  </p>
+                  <div>
+                     <p>Language code(s) for original language. Original language
+                        					    may be recorded regardless of whether the first indicator
+                        					    indicates a translation (i.e. value 1).  The language code
+                        					    is for the original language of the primary content of the
+                        					    item and it is not required to use it if the item is not a
+                        					    translation.
+                     </p>
+                  </div>
+                  <div>
+                     <p>When indicating the original language of subsidiary materials
+						(e.g. other liner notes, etc.) subfield $m is used.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$d</strong>eng<strong>$h</strong>fre<strong>$h</strong>ger<strong>$h</strong>ita<em><span><br /><span>[Sound recording of works sung in English,
+                                       							originally in French, German, and
+                                       						Italian.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">fre</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>fre<strong>$e</strong>fre<strong>$e</strong>ger<strong>$h</strong>fre<em><span><br /><span>[French words printed also as text with
+                                       							German translation.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$j - Language code of subtitles or captions</strong> 
+                  </p>
+                  <div>
+                     <p>Language codes for written languages
+						providing access to moving image materials, 
+						such as intertitles (silent films), subtitles, 
+						or captions (open or closed, intended for users
+						with hearing disabilities). It does not include
+						the languages of the credits, packaging, or 
+						accompanying material. If needed, the language of
+						credits is recorded in field 546 (Language Note) and
+						the language of packaging or accompanying material 
+						is recorded in 041 subfield $g (Language code of 
+						accompanying material other than librettos).</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>eng<strong>$b</strong>ger<strong>$j</strong>ger<em><span><br /><span>[An English language video contains a
+                                       							German language summary on its package and
+                                       							German subtitles.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$k - Language code of intermediate translations</strong> 
+                  </p>
+                  <div>
+                     <p>Language code(s) for an intermediate language between
+                        					    the original and the current translation, where the
+                        					    resource was translated from an intermediate language
+                        					    other than the original.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>eng<strong>$k</strong>chi<strong>$h</strong>san<em><span><br /><span>[Book in English translated from the Chinese 
+                                       							version of a text originally in Sanskrit]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$m - Language code of original accompanying materials other than librettos</strong> 
+                  </p>
+                  <div>
+                     <p>Language code of original language(s) of subsidiary
+					    materials other than librettos.  The subfield follows
+					    the related subfield $b or $g.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$d</strong>fre<strong>$h</strong>ita<strong>$e</strong>eng<strong>$e</strong>fre<strong>$e</strong>ger<strong>$e</strong>ita<strong>$g</strong>eng<strong>$g</strong>fre<strong>$g</strong>ger<strong>$g</strong>ita<strong>$m</strong>ger<em><span><br /><span>[Sound recording of an opera sung in French, original 
+                                       							       opera in Italian; libretto in English, French, German, and 
+                                       							       Italian; liner notes in English, French, German, and Italian 
+                                       							       but liner notes known to be originally written in German.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$n - Language code of original libretto</strong> 
+                  </p>
+                  <div>
+                     <p>Language code of original language(s) of the printed 
+					       text of the vocal/textual content of the work.  The subfield
+				  	       follows the related subfield $e.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$d</strong>eng<strong>$h</strong>rus<strong>$e</strong>eng<strong>$n</strong>rus<strong>$g</strong>eng<strong>$g</strong>fre<strong>$g</strong>ger<em><span><br /><span>[Sound recording sung in English, translated  from the original Russian; 
+                                       						  	       libretto in English translated from original Russian; program notes in
+                                       						  	       English with French and German translations.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Source of code</strong> 
+                  </p>
+                  <div>
+                     <p>Source of the language code scheme used in the
+                        						field. Code from: <em><a href="http://www.loc.gov/standards/sourcelist/language.html">Language Code and Term Source Codes</a></em>.
+                     </p>
+                  </div>
+                  <div>
+                     <p>If a non-MARC code is used to express the
+                        						predominant language in an item, field 008/35-37
+                        						is coded with three fill characters (| | |).
+                     </p>
+                     <p>If more than one code scheme is used in a
+                        						record, repeat the field.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">|||</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>07</strong><strong>$a</strong>en<strong>$a</strong>fr<strong>$a</strong>it<strong>$2</strong>iso639-1
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>008/35-37</td>
+                           <td colspan="9">eng</td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>0#</strong><strong>$a</strong>eng<strong>$a</strong>fre
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>041</strong></td>
+                           <td colspan="9"><strong>07</strong><strong>$a</strong>en<strong>$a</strong>fr<strong>$2</strong>iso639-1<em><span><br /><span>[Two language code schemes are used and
+                                       							field 041 is repeated.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>. 
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>. 
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Capitalization - </strong>All language codes are recorded in lowercase
+               				alphabetic characters.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div>
+            <p>In 2001: the practice of placing multiple language
+				codes in one subfield, e.g., $aengfreger,
+				was made obsolete and subfields $a,
+				$b, $d, $e,
+				$f and $g were changed from
+				Not-repeatable (NR) to Repeatable (R). The field was
+				also changed from Not-repeatable (NR) to Repeatable
+				(R) to accommodate non-MARC language codes.</p>
+         </div>
+         <div class="indicatorHistory"><em>Indicator 1 - Translation indication</em><div class="valuehistory">
+               <div><em># - Undefined (AM, MP, VM) [OBSOLETE, 1993]</em></div>
+            </div>
+            <div>
+               <p>In 1993 the first indicator (with values 0 and 1)
+                  					was defined in the archival and manuscripts
+                  					control, maps, and visual materials
+                  					specifications and first indicator value #
+                  					(Undefined) was made obsolete.
+               </p>
+            </div>
+            <div class="valuehistory">
+               <div><em># - No information provided [NEW, 2008]</em></div>
+            </div>
+         </div>
+         <div class="indicatorHistory"><em>Indicator 2 - Source of code [NEW, 2001]</em><div>
+               <p>Prior to 2001, indicator 2 was undefined, but the
+                  					field was specified to contain a MARC language
+                  					code. Thus, value # prior to 2001 can be
+                  					interpreted as the current # value: MARC language
+                  					code.
+               </p>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$a - Language code of text/soundtrack or separate
+                  				title [REDEFINED, 1980]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$b - Language code for summary, abstract, or
+                  				subtitles [RENAMED, 2005]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$b - Language code of summary or abstract [RENAMED, 2007]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$c - Languages of separate titles (VM) [OBSOLETE, 1972]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$c - Languages of available translation (SE) [OBSOLETE, 1977]</em><div class="subfieldHistoryDsc">
+                  <p>In the specifications for books, music, serials,
+					and mixed materials, subfield $a was
+					redefined to exclude languages of the original
+					and/or intermediate translations of text when
+					subfield $h was defined for this
+					information in 1980. For example, prior to 1980
+					for an item having text in English, translated
+					from French, subfield $a was coded
+					"engfre" (first indicator value 1).</p>
+                  <p>In the visual materials specifications, subfield
+					$c was made obsolete in this field when
+					subfield $a was redefined to include
+					languages of separate titles in 1972. Prior to
+					that time, subfield $a was used only
+					for languages on a soundtrack.</p>
+                  <p>In the serials specifications, subfield
+					$c was made obsolete in 1977. The
+					language code of a related work is contained in
+					subfield $e of field 775 (Other Edition
+					Entry).</p>
+               </div>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$h - Language code of original and/or intermediate translations of text [REDEFINED, 2011]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$j - Language code of subtitles or captions [NEW, 2007]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$k - Language code of intermediate translations [NEW, 2011]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$m - Language code of original accompanying materials [NEW, 2011]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$n - Language code of original libretto [NEW, 2011]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$2 - Source of code [NEW, 2001]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+               
+               &gt;&gt;
+               <strong>041</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/19/2012)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

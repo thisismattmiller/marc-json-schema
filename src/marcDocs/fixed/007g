@@ -1,0 +1,1103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta name="generator" content="HTML Tidy, see www.w3.org">
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Data: 007: Projected
+  Graphic (Network Development and MARC Standards Office, Library
+  of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office">
+  <link href="update10-stylesheet.css" rel="stylesheet" type=
+  "text/css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
+    &gt;&gt;<a href=
+    "http://www.loc.gov/marc/bibliographic/bd007.html">007</a>
+    &gt;&gt; <strong>007 (Projected Graphic)</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>007 - Projected Graphic (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2009
+  </div>
+  <hr>
+  <strong>Indicators and Subfield Codes</strong>
+
+  <div class="description">
+    Field has no indicators or subfield codes; the data elements
+    are positionally defined.
+  </div>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>Character Positions</strong><br>
+      <strong>00 - Category of material</strong><br>
+      g - Projected graphic<br>
+      <br>
+      <strong>01 - Specific material designation</strong><br>
+      c - Filmstrip cartridge<br>
+      d - Filmslip<br>
+      f - Filmstrip, type unspecified<br>
+      o - Filmstrip roll<br>
+      s - Slide<br>
+      t - Transparency<br>
+      u - Unspecified<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>02 - Undefined</strong><br>
+      # - Undefined<br>
+      <br>
+      <strong>03 - Color</strong><br>
+      a - One color<br>
+      b - Black-and-white<br>
+      c - Multicolored<br>
+      h - Hand colored<br>
+      m - Mixed<br>
+      n - Not applicable<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>04 - Base of emulsion</strong><br>
+      d - Glass<br>
+      e - Synthetic<br>
+      j - Safety film<br>
+      k - Film base, other than safety film<br>
+      m - Mixed collection<br>
+      o - Paper<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>05 - Sound on medium or separate</strong><br>
+      # - No sound (silent)<br>
+      a - Sound on medium<br>
+      b - Sound separate from medium<br>
+      u - Unknown<br>
+      | - No attempt to code</td>
+
+      <td width="45%"><strong>06 - Medium for sound</strong><br>
+      # - No sound (silent)<br>
+      a - Optical sound track on motion picture film<br>
+      b - Magnetic sound track on motion picture film<br>
+      c - Magnetic audio tape in cartridge<br>
+      d - Sound disc<br>
+      e - Magnetic audio tape on reel<br>
+      f - Magnetic audio tape in cassette<br>
+      g - Optical and magnetic sound track on motion picture
+      film<br>
+      h - Videotape<br>
+      i - Videodisc<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>07 - Dimensions</strong><br>
+      a - Standard 8 mm. film width<br>
+      b - Super 8 mm./single 8 mm. film width<br>
+      c - 9.5 mm. film width<br>
+      d - 16 mm. film width<br>
+      e - 28 mm. film width<br>
+      f - 35 mm. film width<br>
+      g - 70 mm. film width<br>
+      j - 2x2 in. or 5x5 cm. slide<br>
+      k - 2 1/4 x 2 1/4 in. or 6x6 cm. slide<br>
+      s - 4x5 in. or 10x13 cm. transparency<br>
+      t - 5x7 in. or 13x18 cm. transparency<br>
+      v - 8x10 in. or 21x26 cm. transparency<br>
+      w - 9x9 in. or 23x23 cm. transparency<br>
+      x - 10x10 in. or 26x26 cm. transparency<br>
+      y - 7x7 in. or 18x18 cm. transparency<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br>
+      <strong>08 - Secondary support material</strong><br>
+      # - No secondary support<br>
+      c - Cardboard<br>
+      d - Glass<br>
+      e - Synthetic<br>
+      h - Metal<br>
+      j - Metal and glass<br>
+      k - Synthetic and glass<br>
+      m - Mixed collection<br>
+      u - Unknown<br>
+      z - Other<br>
+      | - No attempt to code<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>When field 007/00 contains code g, it contains special coded
+  information about the physical characteristics of projected
+  graphic material.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> CHARACTER POSITIONS</h4>
+
+  <div class="characterposition">
+    <strong>00 - Category of material</strong>
+
+    <div class="description">
+      One-character alphabetic code that indicates the category
+      of material to which the item belongs is <strong>projected
+      graphic</strong> which is defined as a two-dimensional
+      representation intended to be projected without motion by
+      means of an optical device, for example, a filmstrip,
+      slide, or transparency. A fill character (|) is not allowed
+      in this position.
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - Projected graphic</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>01 - Specific material designation</strong>
+
+    <div class="description">
+      Special class of projected graphic to which the item
+      belongs, e.g., a slide.
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Filmstrip cartridge</strong>
+
+      <div class="description">
+        Item is a filmstrip which is encased in a cartridge and
+        which has the ends joined to form a loop. A
+        <em>cartridge</em> denotes a permanently encased single
+        reel of film or tape that has the ends joined together to
+        form a loop that provides playback without rewinding.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Filmslip</strong>
+
+      <div class="description">
+        Item is a short filmstrip not in a roll.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Filmstrip, type unspecified</strong>
+
+      <div class="description">
+        Item is a filmstrip other than a filmstrip cartridge,
+        filmslip or filmstrip roll or is an unspecified type of
+        filmstrip.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>o - Filmstrip roll</strong>
+
+      <div class="description">
+        Item is a filmstrip roll, a roll of film on which still
+        images are recorded, presenting an integrated
+        communication. It is intended for projection frame by
+        frame.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>s - Slide</strong>
+
+      <div class="description">
+        Slides are transparent material on which there is a
+        two-dimensional image, usually held in a mount, and
+        designed for use in a projector or viewer.
+      </div>
+
+      <div class="description2 description">
+        Includes modern stereographs, e.g., Viewmaster reels.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>t - Transparency</strong>
+
+      <div class="description">
+        Transparencies are made of transparent material on which
+        an image is recorded. They are designed for use with a
+        projector or a light box. X-rays are included here.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unspecified</strong>
+
+      <div class="description">
+        Special material designation for the projected graphic is
+        unspecified.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>02 - Undefined</strong>
+
+    <div class="description">
+      Contains blank (#) or a fill character (|).
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>03 - Color</strong>
+
+    <div class="description">
+      Color characteristics of a projected graphic.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - One color</strong>
+
+      <div class="description">
+        Image is printed or executed in a single color (i.e.,
+        monochromatic). In projected graphic materials, it is
+        used only for transparency sets.
+      </div>
+
+      <div class="description2">
+        Does not include black.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Black-and-white</strong>
+
+      <div class="description">
+        Image is printed or executed in black-and-white. Refers
+        to monochrome photographic materials (including film) and
+        videorecordings, or to overhead transparencies executed
+        in black-and-white.
+      </div>
+
+      <div class="description2 description">
+        Does not include tinted, toned, or stained items.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Multicolored</strong>
+
+      <div class="description">
+        Image is printed or executed in more than one color. The
+        color is a result of a number of processes, either
+        photographic or electronic, capable of reproducing a
+        reasonable range of hues, or of original application of
+        color materials, for example, paint. Code c is used for
+        color photographic processes (motion pictures,
+        filmstrips, transparencies, and slides), color
+        videorecordings, or multicolored overhead transparencies.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>h - Hand colored</strong>
+
+      <div class="description">
+        Image, produced by a printing or photographic process, is
+        hand colored. Code h is rarely used with commercial
+        audiovisual materials since these are not typically
+        issued with hand coloring.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed</strong>
+
+      <div class="description">
+        Work or collection is a combination of one color, black
+        and white, colored, hand colored, and/or other images.
+        Information for this data element is based on one of the
+        following phrases: <em>some col., some b&amp;w, 25 gold
+        toned, col. with b&amp;w sequences</em>, etc. which
+        usually appears in other parts of the MARC record.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>n - Not applicable</strong>
+
+      <div class="description">
+        Item has no images. Used, for example, when the item in
+        hand is sound track film intended to accompany visual
+        images not actually present.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Color characteristics of the projected graphic are not
+        known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+
+      <div class="description2 description">
+        Includes tinted, toned (e.g., sepia toned photographic
+        items), or stained items.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>04 - Base of emulsion</strong>
+
+    <div class="description">
+      Type of material for the base of the emulsion of a
+      photonegative, filmstrip, slide, or transparency.
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Glass</strong>
+
+      <div class="description">
+        Primary support/base of the emulsion material is glass.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Synthetic</strong>
+
+      <div class="description">
+        Primary support/base of the emulsion material is
+        synthetic (e.g., plastics, vinyl, etc.). Most
+        commercially issued overhead transparency sets have a
+        synthetic primary support material, unless known to be
+        otherwise.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>j - Safety film</strong>
+
+      <div class="description">
+        Primary support/base of the emulsion material is safety
+        (i.e., not nitrate) film. For all commercially issued
+        filmstrips and slide sets, assume that the base of the
+        emulsion is safety film unless known to be otherwise.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>k - Film base, other than safety film</strong>
+
+      <div class="description">
+        Primary support/base of the emulsion material is not
+        safety film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed collection</strong>
+
+      <div class="description">
+        Primary support/base of the emulsion material varies for
+        different items in a collection.
+      </div>
+
+      <div class="description2">
+        Typically this would be used for groups of projected
+        graphics on various bases.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>o - Paper</strong>
+
+      <div class="description">
+        Primary base of the emulsion is any kind of
+        cellulose-based paper.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Primary support/base of the emulsion material for the
+        projected graphic is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>05 - Sound on medium or separate</strong>
+
+    <div class="description">
+      Whether the sound is on or is separate from the projected
+      graphic (i.e., on the accompanying material).
+    </div>
+
+    <div class="charactervalue">
+      <strong># - No sound (silent)</strong>
+
+      <div class="description">
+        For <strong>filmstrips</strong>, <strong>slides</strong>,
+        and <strong>transparencies</strong>, code # is used when
+        there is no information about sound in subfield â¡b or â¡e
+        of field 300. For <strong>kits</strong> containing any of
+        the above items, the abbreviation <em>si</em>. or the
+        fact that there is no statement pertaining to sound in
+        field 500 (General Note) justifies use of code #.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Sound on medium</strong>
+
+      <div class="description">
+        Sound is present and is on the item.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Sound separate from medium</strong>
+
+      <div class="description">
+        Sound is on an accompanying item.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Presence of sound on the item is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>06 - Medium for sound</strong>
+
+    <div class="description">
+      Specific medium used to carry the sound of an item (whether
+      the sound is on the projected graphic or separate) and the
+      type of sound playback required for the item.
+    </div>
+
+    <div class="description2 description">
+      Used in conjunction with the information coded in 007/05
+      (Sound on medium or separate) and 007/07 (Dimensions).
+      Typically, the carriers of sound are: 1) optical and/or
+      magnetic track on a film reel or encased in a cassette or
+      cartridge; 2) audio or video tape which may be on a reel or
+      encased in a cassette or cartridge; and 3) sound or video
+      disc.
+    </div>
+
+    <div class="charactervalue">
+      <strong># - No sound (silent)</strong>
+
+      <div class="description">
+        Sound is not present.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Optical sound track on motion picture
+      film</strong>
+
+      <div class="description">
+        Sound to accompany a projected graphic is carried on an
+        optical track that is part of a film. In coding 16 and 35
+        mm. films, it is usually assumed that sound is carried on
+        an optical track.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Magnetic sound track on motion picture
+      film</strong>
+
+      <div class="description">
+        Sound to accompany a projected graphic is carried on a
+        magnetic track that is part of the film. 70 mm. motion
+        picture films often include magnetic sound tracks.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Magnetic audio tape in cartridge</strong>
+
+      <div class="description">
+        Sound to accompany an item is carried on a magnetic audio
+        tape cartridge.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Sound disc</strong>
+
+      <div class="description">
+        Sound to accompany an item is carried on a sound disc.
+        This method of providing for sound is typically used with
+        filmstrips. Sound discs include 7, 10, and 12 in. vinyl
+        phonograph records (identified as <em>analog</em> sound
+        discs in subfield $b of field 300) and 4 3/4 in. compact
+        discs (identified as <em>digital</em> sound discs in
+        subfield $b of field 300)
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Magnetic audio tape on reel</strong>
+
+      <div class="description">
+        Sound to accompany an item is carried on a reel of
+        magnetic audio tape.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - Magnetic audio tape in cassette</strong>
+
+      <div class="description">
+        Sound to accompany an item is carried on a cassette of
+        magnetic audio tape.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - Optical and magnetic sound track on motion
+      picture film</strong>
+
+      <div class="description">
+        Sound to accompany a projected graphic is carried on both
+        an optical and magnetic track.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>h - Videotape</strong>
+
+      <div class="description">
+        Sound to accompany an item is included as part of a
+        videotape. Videotape is not ordinarily used to record
+        only sound.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>i - Videodisc</strong>
+
+      <div class="description">
+        Sound to accompany an item is included as part of a
+        videodisc. Videodiscs are not ordinarily used to record
+        only sound. A distinction must be made between videodiscs
+        (e.g., 12 in. laser-scan videodiscs that include video
+        information) and compact discs that are used to record
+        sound only (e.g., 4 3/4 in. audio compact discs). The
+        technology to physically record video or audio
+        information on digital disc systems is the same.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Medium for sound is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>07 - Dimensions</strong>
+
+    <div class="description">
+      Width or dimensions of the projected graphic item.
+    </div>
+
+    <div class="description">
+      Width is given for filmstrips. Height and width are given
+      for slides and transparencies. Only the most common
+      dimensions are indicated. For film and slides, only codes
+      that <em>exactly</em> match the measurements of the item as
+      given in the physical description should be used. If no
+      code exactly matches, code z is used. For transparencies,
+      the code that most closely <em>approximates</em> the
+      dimensions as stated in the physical description is used.
+      The dimensions for slides and transparencies include the
+      size of the mount for the item.
+    </div>
+
+    <div class="charactervalue">
+      <strong>a - Standard 8 mm. film width</strong>
+
+      <div class="description">
+        Width of the film is standard 8 mm. Film termed <em>Mauer
+        8 mm.</em> is recorded as code a.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>b - Super 8 mm./single 8 mm. film width</strong>
+
+      <div class="description">
+        Width of the film is super 8 mm. Single 8 mm. film is a
+        Japanese equivalent of super 8 mm. film.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - 9.5 mm. film width</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - 16 mm. film width</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - 28 mm. film width</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>f - 35 mm. film width</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>g - 70 mm. film width</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>j - 2x2 in. or 5x5 cm. slide</strong>
+
+      <div class="description">
+        Dimensions of the slide in its mounting are either 2x2
+        in. or 5x5 cm.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>k - 2 1/4 x 2 1/4 in. or 6x6 cm. slide</strong>
+
+      <div class="description">
+        Dimensions of the slide in its mounting are either 2 1/4
+        x 2 1/4 in. or 6x6 cm.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>s - 4x5 in. or 10x13 cm. transparency</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>t - 5x7 in. or 13x18 cm. transparency</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>v - 8x10 in. or 21x26 cm. transparency</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>w - 9x9 in. or 23x23 cm. transparency</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>x - 10x10 in. or 26x26 cm. transparency</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>y - 7x7 in. or 18x18 cm. transparency</strong>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Dimensions are not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <div class="characterposition">
+    <strong>08 - Secondary support material</strong>
+
+    <div class="description">
+      Type of material of the mount of a slide or transparency
+      for a projected graphic.
+    </div>
+
+    <div class="charactervalue">
+      <strong># - No secondary support</strong>
+
+      <div class="description">
+        Filmstrips are always coded #.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>c - Cardboard</strong>
+
+      <div class="description">
+        Cardboard mount. Slides and transparencies cataloged from
+        data sheets are assumed to have cardboard mounts unless
+        otherwise known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>d - Glass</strong>
+
+      <div class="description">
+        Glass mount that usually covers the film base but should
+        not be the primary support for the film emulsion.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>e - Synthetic</strong>
+
+      <div class="description">
+        Secondary support material is synthetic (e.g. plastics,
+        vinyl, etc.).
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>h - Metal</strong>
+
+      <div class="description">
+        Metal is usually used to frame larger projected graphics
+        which need better support.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>j - Metal and glass</strong>
+
+      <div class="description">
+        Metal portion is usually a frame that holds one or two
+        pieces of glass to support the film base. Glass should
+        not be the primary support for the film emulsion.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>k - Synthetic and glass</strong>
+
+      <div class="description">
+        Synthetic material, e.g., plastics, vinyl, etc., is
+        usually used as a frame to hold one or two pieces of
+        glass to support the film base. Glass should not be the
+        primary support for the film emulsion.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>m - Mixed collection</strong>
+
+      <div class="description">
+        Secondary support material varies for different items in
+        a collection.
+      </div>
+
+      <div class="description2 description">
+        Typically this is used for groups of projected graphics
+        on various secondary support materials.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>u - Unknown</strong>
+
+      <div class="description">
+        Secondary support material is not known.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>z - Other</strong>
+
+      <div class="description">
+        None of the other codes is appropriate.
+      </div>
+    </div>
+
+    <div class="charactervalue">
+      <strong>| - No attempt to code</strong>
+    </div>
+  </div>
+  <hr>
+
+  <h4><span class="box">â </span> EXAMPLES</h4>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-08</strong></td>
+
+        <td valign="top" colspan="8" align="left">go#cjbff#<br>
+        <em>[Item is projected graphic material (007/00); a
+        filmstrip (01); in color (03); on safety film (04); the
+        sound is separate from the medium (05) on magnetic tape
+        in a cassette (06); and the filmstrip is 35 mm.
+        (07).]</em></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="example">
+    <table width="100%">
+      <tr>
+        <td valign="top" width="5%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="10%" align="left"></td>
+
+        <td valign="top" width="15%" align="left"></td>
+      </tr>
+
+      <tr>
+        <td valign="top" colspan="1" align="left">
+        <strong>007/00-08</strong></td>
+
+        <td valign="top" colspan="8" align="left">gs#cj##jd<br>
+        <em>[Item is projected graphic material (007/00); a slide
+        (01); in color (03) on safety film (04); without sound
+        (05-06); 2x2 in. (07) and in a glass mounting
+        (08).]</em></td>
+      </tr>
+    </table>
+  </div>
+  <hr>
+
+  <h3>INPUT CONVENTIONS</h3>
+
+  <div class="description2">
+    <strong>Field length</strong> - For the category of material
+    <strong>projected graphic</strong>, field 007 should consist
+    of nine character positions.
+  </div>
+  <hr>
+
+  <h3>CONTENT DESIGNATOR HISTORY</h3>
+
+  <div class="font_small">
+    <em>007/01 - Specific material designation</em>
+
+    <div class="charactervaluehistory">
+      <em># - Not applicable or no attempt to code [OBSOLETE,
+      1980]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>f - Other type of filmstrip [RENAMED, 2009]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>n - Not applicable [OBSOLETE, 1981] [USMARC only]</em>
+    </div><br>
+    <em>007/02 - Original versus reproduction aspect [OBSOLETE,
+    1997] [USMARC only]</em>
+
+    <div class="description">
+      Defined codes were: f (Facsimile), o (Original), r
+      (Reproduction), and u (Unknown).
+    </div><br>
+    <em>007/04 - Base of emulsion</em>
+
+    <div class="charactervaluehistory">
+      <em># - Not applicable or no attempt to code [OBSOLETE,
+      1980]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>n - Not applicable [OBSOLETE, 1981]</em>
+    </div>
+
+    <div class="description">
+      007/04 was renamed in 1983 when distinct codes for
+      projected graphics were defined.
+    </div><br>
+    <em>007/06 - Medium for sound</em>
+
+    <div class="charactervaluehistory">
+      <em>g - Other [OBSOLETE, 1981]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>g - Optical and magnetic sound track on motion picture
+      film [NEW, 1985]</em>
+    </div><br>
+    <em>007/07 - Dimensions</em>
+
+    <div class="charactervaluehistory">
+      <em>u - 7x7 in. or 18x18 cm. [OBSOLETE, 1980]</em>
+    </div>
+
+    <div class="charactervaluehistory">
+      <em>y - Unknown [OBSOLETE, 1980]</em>
+    </div><br>
+    <em>007/08 - Secondary support material [NEW, 1983]</em>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
+          &gt;&gt;<a href=
+          "http://www.loc.gov/marc/bibliographic/bd007.html">007</a>
+          &gt;&gt; <strong>007 (Projected Graphic)</strong>
+        </div>(11/12/2009)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

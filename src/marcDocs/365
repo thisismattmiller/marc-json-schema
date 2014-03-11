@@ -1,0 +1,254 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>MARC 21 Format for Bibliographic Data: 365: Trade Price (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the trade price (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>365</strong></div>
+      <hr><a name="skip_menu"></a><h1>365 - Trade Price (R)</h1>
+      <hr>
+	  
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2003</div>
+      <hr>
+	  <a href="http://www.loc.gov/global/disclaim.html"><img src="http://www.loc.gov/images/disclaimer.gif" alt="Link disclaimer" width="91" height="16" border="0" align="right"></a>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Price type code (NR) <br>$b - Price amount (NR) <br>$c - Currency code (NR) <br>$d - Unit of pricing (NR) <br>$e - Price note (NR) <br>$f - Price effective from (NR) <br>$g - Price effective until (NR) <br>$h - Tax rate 1 (NR) <br></td>
+            <td colspan="1">$i - Tax rate 2 (NR) <br>$j - ISO country code (NR) <br>$k - MARC country code (NR) <br>$m - Identification of pricing entity (NR) <br>$2 - Source of price type code (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Current price of an item or the special export price of an item in any currency.</p>
+      <p>Intended primarily for use by the book trade to record the current price of an item.</p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <ul>
+         <li>Both indicators are undefined; each contains a blank (#).</li>
+      </ul>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Price type code</strong> <div class="description">Type of price recorded in subfield $b. The source of the code is
+                              recorded in subfield $2.
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Price amount</strong> <div class="description">Numeric price.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>365</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>01<strong>$b</strong>45.00<strong>$c</strong>USD<strong>$d</strong>00<strong>$2</strong>onix-pt<br><em>[An item priced at $US 45.00]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - Currency code</strong> <div class="description">Code for the currency of the price recorded in subfield $b. It is
+                              recorded according to ISO 4217, <em>Codes for the Representation of Currencies and
+                                    Funds</em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$d - Unit of pricing</strong> <div class="description">Code for the unit of the product to which the price recorded in subfield
+                              $b applies. The codes are as follows:
+         </div>
+         <ul>
+            <li class="nobullet">00 - Per copy of whole product<em> [default value]</em></li>
+            <li class="nobullet">01 - Per page for printed loose-leaf content only</li>
+         </ul>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>365</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>01<strong>$b</strong>49.95<strong>$c</strong>USD<strong>$d</strong>00<strong>$e</strong>Export<strong>$j</strong>US<strong>$2</strong>onix-pt<br><em>[An item with an export price of $US 49.95, applicable in the USA]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$e - Price note</strong> <div class="description">Free text note.</div>
+      </div>
+      <div class="subfield"><strong>$f - Price effective from</strong> <div class="description">Date from which a price recorded in subfield $b becomes effective. It
+                              is recorded in the format yyyymmdd in accordance with ISO 8601, <em>Representation
+                                    of Dates and Times</em>. Subfield $f is used when subfield
+                              $a indicates a special sale price or prepublication price.
+         </div>
+      </div>
+      <div class="subfield"><strong>$g - Price effective until</strong> <div class="description">Date until which the price recorded in subfield $b remains effective.
+                              It is recorded in the format yyyymmdd in accordance with ISO 8601,
+                                 <em>Representation of Dates and Times</em>. Subfield $g is used when
+                              subfield $a indicates a special sale price or prepublication price.
+         </div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>365</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>22<strong>$b</strong>10.99<strong>$c</strong>GBP<strong>$d</strong>00<strong>$f</strong>20011201<strong>$g</strong>20021231<strong>$m</strong>EAN 5012340098745 Littlehampton Book Services +44 20
+                                             8843 8607<strong>$j</strong>GB<strong>$h</strong>Z 0 10.99 0<strong>$2</strong>onix-pt<br><em>[An item available from Littlehampton Book Services, with a prepublication
+                                             discounted price including tax of 10.99. The discounted price is available
+                                             between December 1, 2001 and January 31, 2002.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$h - Tax rate 1</strong> <div class="description">First value added tax.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>365</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>02<strong>$b</strong>0.59<strong>$c</strong>GBP<strong>$d</strong>01<strong>$j</strong>GB<strong>$h</strong>S 0.50 17.5 0.59 .09<strong>$2</strong>onix-pt<br><em>[An item which is priced at 59 pence per page in the United Kingdom,
+                                             including VAT. The base price is 50 pence per page, the Value Added Tax is
+                                             17.5%, thus the VAT is 9 pence per page.]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$i - Tax rate 2</strong> <div class="description">Second value added tax.</div>
+      </div>
+      <div class="subfield"><strong>$j - ISO country code</strong> <div class="description">Code for the country to which the price recorded in subfield $b
+                              applies.
+         </div>
+         <div class="description2">
+            <div class="description">Code from: <a href="http://www.iso.org/iso/country_codes/iso_3166_code_lists/country_names_and_code_elements">ISO 3166-1</a>, <em>Codes for the Representation of Names of
+                                    Countries</em>.
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$k - MARC country code</strong> <div class="description">Code for the country to which the price recorded in subfield $b
+                              applies.
+         </div>
+         <div class="description2">
+            <div class="description">Code from: <em><a href="http://www.loc.gov/marc/countries/">MARC Code List for Countries</a></em>.
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$m - Identification of pricing entity</strong> <div class="description">Identification of the company or agency establishing and offering the prices.</div>
+      </div>
+      <div class="subfield"><strong>$2 - Source of price type code</strong> <div class="description">Source of the price type code recorded in subfield $a.</div>
+         <div class="description2">
+            <div class="description">Code from: <em><a href="http://www.loc.gov/standards/sourcelist/price-type.html">Price Type Code Source Codes</a></em>.
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>365</strong></div> (02/23/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

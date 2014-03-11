@@ -1,0 +1,924 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+
+  <title>MARC 21 Format for Bibliographic Information Data: 440:
+  Series Statement/Added Entry-Title (Network Development and
+  MARC Standards Office, Library of Congress)</title>
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=utf-8">
+  <meta name="description" content=
+  "This field contains the (Network Development and MARC Standards Office, Library of Congress)">
+  <meta name="keywords" content="marc, marc21, marc standards">
+  <meta name="author" content=
+  "Library of Congress Network Development and MARC Standards Office"> <link type="text/css" rel="stylesheet" href=
+  "update10-stylesheet.css">
+<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+
+<body>
+  <div class="head-nav">
+    <a href="http://www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href=
+    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    &gt;&gt; <a href=
+    "http://www.loc.gov/marc/bibliographic/bdapndxh.html">Appendix
+    H</a> &gt;&gt; <strong>440</strong>
+  </div>
+  <hr>
+  <a name="skip_menu" id="skip_menu"></a>
+
+  <h1>440 - Series Statement/Added Entry-Title (R)</h1>
+  <hr>
+
+  <div class="formatname">
+    MARC 21 Bibliographic - Full
+  </div>
+
+  <div class="datename">
+    October 2008
+  </div>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td width="45%"><strong>First Indicator</strong><br>
+      <em>Undefined</em><br>
+      # - Undefined<br>
+      <br></td>
+
+      <td width="45%"><strong>Second Indicator</strong><br>
+      <em>Nonfiling characters</em><br>
+      0 - No nonfiling characters<br>
+      1-9 - Number of nonfiling characters<br>
+      <br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <table width="100%">
+    <tr valign="top">
+      <td valign="top" width="50%" align="left"></td>
+
+      <td valign="top" width="50%" align="left"></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="2"><strong>Subfield Codes</strong><br></td>
+    </tr>
+
+    <tr valign="top">
+      <td colspan="1">$a - Title (NR)<br>
+      $n - Number of part/section of a work (R)<br>
+      $p - Name of part/section of a work (R)<br>
+      $v - Volume/sequential designation (NR)<br></td>
+
+      <td colspan="1">$w - Bibliographic record control number
+      (R)<br>
+      $x - International Standard Serial Number (NR)<br>
+      $0 - Authority record control number (R)<br>
+      $6 - Linkage (NR)<br>
+      $8 - Field link and sequence number (R)<br></td>
+    </tr>
+  </table>
+  <hr>
+
+  <h3>FIELD DEFINITION AND SCOPE</h3>
+
+  <p>This field was made obsolete in 2008 to
+  simplify the series area so that all title series
+  <em>statements</em> would be entered in the 490 field and all
+  title series added entries in the 830.</p>
+
+  <p>Series statement consisting of a series title alone.</p>
+
+  <p>Used when the series statement and the controlled added
+  entry form of the series title are the same. Field 440 is both
+  a series statement and a series added entry. When a 440 field
+  is present, a corresponding 830 field is not used since it
+  would duplicate the 440 field.</p>
+
+  <p>Since series statements do not include medium designators
+  (subfield â¡h), when a series added entry requires a medium
+  designator, field 490 is used for the series statement with a
+  corresponding 8XX field for the series added entry.</p>
+  <hr>
+
+  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+
+  <h4><span class="box">â </span> INDICATORS</h4>
+
+  <div class="indicator">
+    <strong>First Indicator - Undefined</strong>
+
+    <div class="description">
+      Undefined and contains a blank (#).
+
+      <div class="indicatorvalue">
+        <strong># - Undefined</strong>
+      </div>
+    </div>
+  </div>
+
+  <div class="indicator">
+    <strong>Second Indicator - Nonfiling characters</strong>
+
+    <div class="description">
+      Number of character positions associated with a definite or
+      indefinite article (e.g., The, An) at the beginning of a
+      title that are disregarded in sorting and filing processes.
+
+      <div class="indicatorvalue">
+        <strong>0 - No nonfiling characters</strong>
+
+        <div class="description">
+          Initial article character positions are disregarded.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>440</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>#0</strong><strong>$a</strong>Collection
+                africaine</td>
+              </tr>
+            </table>
+          </div>Diacritical marks or special characters at the
+          beginning of a series statement field that does not
+          begin with an initial article are not counted as
+          nonfiling characters.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>440</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>#0</strong><strong>$a</strong>Ãkonomische
+                Studien ;<strong>$v</strong>Bd. 22</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="indicatorvalue">
+        <strong>1-9 - Number of nonfiling characters</strong>
+
+        <div class="description">
+          Title begins with a definite or indefinite article that
+          is disregarded in sorting and filing processes. Any
+          diacritical mark, space or mark of punctuation
+          associated with the article and any space or mark of
+          punctuation preceding the first filing character after
+          the article is included in the count of nonfiling
+          characters. Any diacritic, however, associated with the
+          first filing character is <u>not</u> included in the
+          count of nonfiling characters.
+
+          <div class="example">
+            <table width="100%">
+              <tr>
+                <td valign="top" width="5%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="10%" align="left"></td>
+
+                <td valign="top" width="15%" align="left"></td>
+              </tr>
+
+              <tr>
+                <td valign="top" colspan="1" align="left">
+                <strong>440</strong></td>
+
+                <td valign="top" colspan="9" align="left">
+                <strong>#4</strong><strong>$a</strong>The
+                Pediatric clinics of North America
+                ;<strong>$v</strong>v. 2, no. 4</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h4><span class="box">â </span> SUBFIELD CODES</h4>
+
+  <div class="subfield">
+    <strong>$a - Title</strong>
+
+    <div class="description">
+      Title portion of the series.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>Gems of American
+          life</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>Folger
+          Shakespeare Library slide set ;<strong>$v</strong>no.
+          2</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>Bahrain surface
+          materials resources survey 1:50,000
+          ;<strong>$v</strong>map 5</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$n - Number of part/section of a work</strong>
+
+    <div class="description">
+      <em>Number</em> designation for a part/section of a series
+      title.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>Journal of
+          polymer science.<strong>$n</strong>Part
+          C,<strong>$p</strong>Polymer symposia
+          ;<strong>$v</strong>no. 39</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#4</strong><strong>$a</strong>The Rare book
+          tapes.<strong>$n</strong>Series 1
+          ;<strong>$v</strong>5</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$p - Name of part/section of a work</strong>
+
+    <div class="description">
+      <em>Name</em> designation of a part/section of a series
+      title.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>Acta
+          Universitatis
+          Stockholmiensis.<strong>$p</strong>Stockholm economic
+          studies ;<strong>$v</strong>new ser., 7</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>Janua
+          linguarum.<strong>$p</strong>Series
+          maior,<strong>$x</strong>0075-3114
+          ;<strong>$v</strong>100</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$v - Volume/sequential designation</strong>
+
+    <div class="description">
+      Volume number or other sequential designation that
+      identifies the particular item in a series.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>Environmental
+          science research ;<strong>$v</strong>v. 4</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>Russian titles
+          for the specialist,<strong>$x</strong>0305-3741
+          ;<strong>$v</strong>no. 78</td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>Romanica
+          Gothoburgensia,<strong>$x</strong>0080-3863
+          ;<strong>$v</strong>12, 16</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$w - Bibliographic record control number</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$x - International Standard Serial Number</strong>
+
+    <div class="description">
+      International Standard Serial Number (ISSN) for a series
+      title. The ISSN is an authoritative-agency data element.
+      ISSNs are assigned to serial publications (including
+      series) by national centers under the auspices of the ISSN
+      Network.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>Centre of Asian
+          Studies occasional papers and
+          monographs,<strong>$x</strong>0378-2689
+          ;<strong>$v</strong>no. 57</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="description2 description">
+      <em>Note:</em> When an item contains an ISSN for the series
+      but lacks a series title, the ISSN is recorded in a 500
+      General Note field.
+    </div>
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">500</td>
+
+          <td valign="top" colspan="9" align="left">##$a"ISSN
+          0399-3388."</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$0 - Authority record control number</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$6 - Linkage</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+
+  <div class="subfield">
+    <strong>$8 - Field link and sequence number</strong>
+
+    <div class="description">
+      See description of this subfield in Appendix A:
+      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      Control Subfields</a></em>.
+    </div>
+  </div>
+  <hr>
+
+  <h3>INPUT CONVENTIONS</h3>
+
+  <div class="description2">
+    <strong>Punctuation</strong> - Punctuation of subelements of
+    a series statement field is generally dictated by descriptive
+    cataloging rules. Field 440 does not end with a mark of
+    punctuation unless the field ends with an abbreviation, an
+    initial/letter, or other data that ends with a mark of
+    punctuation.
+  </div>
+
+  <div class="description2">
+    <strong>Spacing</strong> - No spaces are used in initialisms
+    or personal name initials/letters that appear as part of the
+    series title.
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>NATO advanced
+          study institutes series.<strong>$n</strong>Series
+          E,<strong>$p</strong>Applied sciences
+          ;<strong>$v</strong>v. 66</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="description2">
+    <strong>Temporary Data</strong> - If any portion of the
+    volume number/sequential designation (subfield â¡v)
+    information is subject to change (e.g., when the record for a
+    multipart item is not yet complete), angle brackets
+    (&lt;...&gt;) are customarily used to record that part of the
+    volume number/sequential designation information which is
+    subject to change. As parts are added, the information is
+    updated.
+
+    <div class="example">
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>Pollution
+          monitoring series ;<strong>$v</strong>&lt;3&gt;-5</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="description2">
+    <strong>Display Constants</strong> -
+
+    <div class="table">
+      <table>
+        <tr>
+          <td valign="top" align="left">( ... )</td>
+
+          <td valign="top" align="left">
+          <em>[parentheses]</em></td>
+        </tr>
+
+        <tr>
+          <td valign="top" align="left">ISSN</td>
+
+          <td valign="top" align="left"><em>[ISSN
+          legend]</em></td>
+        </tr>
+      </table>
+    </div>Parentheses that enclose the series statement in some
+    displays are not carried in the MARC record. They may be
+    system generated as a display constant associated with the
+    field tag.
+
+    <p><em>Content designated field:</em></p>
+
+    <div class="example">
+      <div class="displaytext">
+        <strong>Display example:</strong> - (The Rare book tapes.
+        Series 1 ; 5)
+      </div>
+
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#4</strong><strong>$a</strong>The Rare book
+          tapes.<strong>$n</strong>Series 1
+          ;<strong>$v</strong>5</td>
+        </tr>
+      </table>
+    </div><br>
+    <br>
+    Initialism <em>ISSN</em> that precedes the International
+    Standard Serial Number in subfield â¡x is not carried in the
+    MARC record. It may be system generated in a series statement
+    as a display constant associated with the content of subfield
+    â¡x.
+
+    <p><em>Content designated field:</em></p>
+
+    <div class="example">
+      <div class="displaytext">
+        <strong>Display example:</strong> - (Western Canada
+        series report, ISSN 0317-3127)
+      </div>
+
+      <table width="100%">
+        <tr>
+          <td valign="top" width="5%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="10%" align="left"></td>
+
+          <td valign="top" width="15%" align="left"></td>
+        </tr>
+
+        <tr>
+          <td valign="top" colspan="1" align="left">
+          <strong>440</strong></td>
+
+          <td valign="top" colspan="9" align="left">
+          <strong>#0</strong><strong>$a</strong>Western Canada
+          series report,<strong>$x</strong>0317-3127</td>
+        </tr>
+      </table>
+    </div><br>
+    <br>
+    Tracing <em>Series.</em>, preceded by a roman numeral, may be
+    system generated as a display constant associated with the
+    tag. It indicates that an added entry for the series is to be
+    made, exclusive of the ISSN. The tracing is not carried in
+    the machine-readable record.
+  </div>
+
+  <div class="description2">
+    <strong>Initial Articles</strong> - Initial articles (e.g.,
+    La) occurring at the beginning of the title in a 440 field
+    are input and the appropriate second indicator value is
+    recorded to specify the nonfiling characters.
+  </div>
+  <hr>
+
+  <h3>CONVERSION TO CURRENT FIELDS</h3>
+
+  <p>To construct field 490 (Series Statement),
+  set 490 indicator 1 to 1; set 490 indicator 2 to blank;
+  concatenate field 440 subfields $a, $n and $p and place the new
+  string into 490 subfield $a; and copy the content of 440
+  subfields $v, $x, $6, and $8 into the same subfields in field
+  490. Any additional subfields in field 440 do not convert to
+  490 but do convert to field 830.</p>
+
+  <p>To construct field 830 (Series Added Entry -
+  Uniform Title), all 440 indicators and subfields convert to
+  field 830 with the same indicator values and same
+  subfields.</p>
+  <hr>
+
+  <h3>CONTENT DESIGNATOR HISTORY</h3>
+
+  <div class="font_small">
+    <em>$h - General material designation [OBSOLETE, 1997]
+    [CAN/MARC only]</em><br>
+    <em>$n - Number of part/section of a work [NEW,
+    1980]</em><br>
+    Prior to 1980, numbered parts were not separately subfield
+    coded.<br>
+    <em>$p - Name of part/section of a work [NEW, 1980]</em><br>
+    Prior to 1980, named parts were not separately subfield
+    coded.<br>
+    <em>$w - Bibliographic record control number [NEW,
+    2007]</em><br>
+    <em>$0 - Authority record control number [NEW, 2007]</em>
+  </div>
+  <hr>
+
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr valign="bottom">
+      <td>
+        <div class="head-nav">
+          <a href="http://www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          &gt;&gt; <a href=
+          "http://www.loc.gov/marc/community/">Community
+          Information</a> &gt;&gt; <a href=
+          "http://www.loc.gov/marc/community/ci01x08x.html">01X-08X</a>
+          &gt;&gt; <strong>440</strong>
+        </div>(10/31/2008)
+      </td>
+
+      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      Us</a></td>
+    </tr>
+  </table>
+<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

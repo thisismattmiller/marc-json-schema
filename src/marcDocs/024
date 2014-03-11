@@ -1,0 +1,659 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 024:
+         Other Standard Identifier (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+               
+               &gt;&gt;
+               <strong>024</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>024</span> - <span>Other Standard Identifier</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2013</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Type of standard number or code</em><br /><span>0 - International Standard Recording Code</span><br /><span>1 - Universal Product Code</span><br /><span>2 - International Standard Music Number</span><br /><span>3 - International Article Number</span><br /><span>4 - Serial Item and Contribution Identifier</span><br /><span>7 - Source specified in subfield $2</span><br /><span>8 - Unspecified type of standard number or code</span><br /><br /></td>
+            <td><em>Difference indicator</em><br /><span># - No information provided</span><br /><span>0 - No difference</span><br /><span>1 - Difference</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Standard number or code<span> (NR)</span></li>
+                  <li>$c - Terms of availability<span> (NR)</span></li>
+                  <li>$d - Additional codes following the standard number or code<span> (NR)</span></li>
+                  <li class="changed">$q - Qualifying information<span> (R)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$z - Canceled/invalid standard number or code<span> (R)</span></li>
+                  <li>$2 - Source of number or code<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Standard number or code published on an item which cannot be accommodated in another
+               field (e.g., field 020 (International Standard Book Number), 022 (International Standard
+               Serial Number) , and 027 (Standard Technical Report Number)). The type of standard
+               number or code is identified in the first indicator position or in subfield $2 (Source
+               of number or code).
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>First Indicator - Type of standard number or code</strong></p>
+                  <div>
+                     <p>Type of standard code in the field.</p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - International Standard Recording Code</span></div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Universal Product Code</span></div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - International Standard Music Number</span></div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">3 - International Article Number</span></div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">4 - Serial Item and Contribution Identifier</span></div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">7 - Source specified in subfield $2</span><div>
+                           <p>Source of the number or code is specified in subfield $2 (Source of number or
+                              code).
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">8 - Unspecified type of standard number or code</span><div>
+                           <p>Type of standard number or code is unspecified.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Difference indicator</strong></p>
+                  <div>
+                     <p>Whether there is a difference between a scanned number or code and the same number
+                        or code in eye-readable form.
+                     </p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - No information provided</span><div>
+                           <p>No information is provided as to whether the number or code in the field
+                              appears in the same form in both scanned and eye-readable form. It is also used
+                              when the eye-readable number or code does not appear in a form adequate for
+                              scanning, thus the aspect of difference does not apply.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - No difference</span><div>
+                           <p>Scanned number or code is the same as the number or code in eye-readable
+                              form.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Difference</span><div>
+                           <p>Scanned and eye-readable versions of a number or code differ.</p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>024</strong></td>
+                                 <td colspan="9"><strong>41</strong><strong>$a</strong>8756-2324(198603/04)65:21.4QTP;1-E<em><span><br /><span>[Eye-readable SICI for the article "Quality: Theory and Practice."
+                                             AT&amp;T Technical Journal, v. 65, issue 2, (Mar.-Apr. 1986), p.
+                                             4.]</span></span></em></td>
+                              </tr>
+                              <tr>
+                                 <td><strong>024</strong></td>
+                                 <td colspan="9"><strong>41</strong><strong>$a</strong>875623247541986340134QTP1<em><span><br /><span>[Scanned SICI for the same article. Both the eye-readable and the scanned
+                                             SICIs appear in the same record.]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Standard number or code</strong> 
+                  </p>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>024</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>7822183031
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>024</strong></td>
+                           <td colspan="9"><strong>2#</strong><strong>$a</strong>M011234564
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$c - Terms of availability</strong> 
+                  </p>
+                  <div>
+                     <p>Price or a brief statement of availability and any paranthetical qualifying information
+                        <span class="changed">about availability</span>. Information is only recorded in this subfield
+                 when a number is present in subfield $a.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>024</strong></td>
+                           <td colspan="9"><strong>2#</strong><strong>$a</strong>M571100511<strong>$c</strong>$20.00
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$d - Additional codes following the standard number or code</strong> 
+                  </p>
+                  <div>
+                     <p>Any optional digits carried to the right of the number or code, such as digits
+                        provided to identify price, title, or issue information.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>024</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>6428759268<strong>$d</strong>093
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>024</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>2777802000<strong>$d</strong>90620
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>024</strong></td>
+                           <td colspan="9"><strong>3#</strong><strong>$a</strong>9780449906200<strong>$d</strong>51000
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div class="changed">
+                  <p class="label"><strong>$q - Qualifying information</strong> 
+                  </p>
+                  <div>
+                     <p>A brief statement of qualifying information concerning the
+              item associated with a number being recorded in subfield $a or subfield $z.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr class="changed">
+                           <td><strong>024</strong></td>
+                           <td colspan="9"><strong>2#</strong><strong>$a</strong>M570406203<strong>$q</strong>score<strong>$q</strong>sewn<strong>$c</strong>EUR28.50
+                           </td>
+                        </tr>
+                        <tr class="changed">
+                           <td><strong>024</strong></td>
+                           <td colspan="9"><strong>2#</strong><strong>$a</strong>M570406210<strong>$q</strong>parts<strong>$q</strong>sewn
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$z - Canceled/invalid standard number or code</strong> 
+                  </p>
+                  <div>
+                     <p>Any canceled and/or invalid standard numbers or codes. If a valid number or code
+                        of the same type is not known, subfield $z may appear alone in field 024.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>024</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$z</strong>5539143515
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Source of number or code</strong> 
+                  </p>
+                  <div>
+                     <p>MARC code that identifies the source of the number or code. Used only when the
+                        first indicator contains value 7 (Source specified in subfield $2).
+                     </p>
+                  </div>
+                  <div>
+                     <p>Code from: <em><a href="http://www.loc.gov/standards/sourcelist/standard-identifier.html">Standard Identifier Source Codes</a></em>.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>024</strong></td>
+                           <td colspan="9"><strong>7#</strong><strong>$a</strong>0A3200912B4A1057<strong>$2</strong>istc
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Punctuation - </strong>Field 024 does not end with a mark of punctuation.
+            </p>
+         </div>
+         <div>
+            <h4>ISRC Structure and Display Constants</h4>
+            <div>
+               <p><strong>Structure - </strong>ISRC usually appears on an item preceded by the letters <em>ISRC</em>. It consists of
+                  twelve alphanumeric characters structured as four elements separated by hyphens: 1)
+                  country; 2) first owner; 3) year of recording; and 4) recording. The country codes
+                  consists of two letters as specified in <em>Codes for the Representation of Names of
+                     Countries</em> (ISO 3166). The first owner code is alphanumeric and consists of three
+                  characters. The year of recording code consists of the last two digits of the year
+                  (e.g., 82 for 1982). The recording code consists of five digits and is assigned
+                  sequentially by the first owner.
+               </p>
+            </div>
+            <div>
+               <p><strong>Display Constants - </strong>Initialism <em>ISRC</em>, the phrase <em>ISRC (invalid)</em>, and the internal hyphens
+                  are not carried in the MARC record. They may be system generated as display constants
+                  associated with first indicator value 0 and the content of subfields $a and $z,
+                  respectively.
+               </p>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td width="5%">Â </td>
+                        <td colspan="9">
+                           <div class="captiontext">Content designated field:</div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><strong>024</strong></td>
+                        <td colspan="9"><strong>0#</strong><strong>$a</strong>NLC018413261<strong>$z</strong>NLC018403261
+                        </td>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td colspan="9">
+                           <div class="captiontext">Display example:</div>ISRC NL-C01-84-13261 ISRC (invalid)
+                           NL-C01-84-03261
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div>
+            <h4>UPC Structure and Display Constants</h4>
+            <div>
+               <p><strong>Structure - </strong>UPC appears as a bar-code symbol with 12 digits printed below it. Hyphens or spaces
+                  susually separate the elements of the number on the item. The code has three basic
+                  parts. 1) The first digit is the Number System Character (NSC) which appears on the left
+                  side of the symbol outside of the bars. 2) The next ten digits encoded in the symbol are
+                  shown below the bars. 3) The twelfth digit is a check digit and usually appears at the
+                  bottom right of the symbol. All digits as found on the piece are input into MARC.
+               </p>
+               <p>For audio and video products, the ten digits of part 2), printed below the parallel
+                  bars, consist of three elements: a five-digit manufacturer designation to designate the
+                  manufacturer assigned by the Uniform Code Council; a five-digit selection number; and a
+                  single-digit configuration number. The fifth digit of the first element serves as both
+                  the last digit of the manufacturer designation and the first digit of the selection
+                  number. The tenth digit (configuration number) indicates the format of the product.
+               </p>
+               <p>For serials, the five digits after the NSC identify the publisher or distributor. The
+                  next five digits encode a BIPAD title identification number which uniquely identifies
+                  each publication. A two-character supplemental symbol designating a specific issue may
+                  follow the number.
+               </p>
+               <p>For paperback books, there are two bar-coding structures. The ten digits of part 2) may
+                  consist of a five digit identifier for the publisher and the next five digits contain
+                  the title portion of the International Standard Book Number (ISBN). For the other, the
+                  first five digits of part 2) identify the publisher or the bookline, the next five
+                  digits represent a cover price or a price category. Five add-on digits may follow part
+                  3); they are derived from the title portion of the ISBN.
+               </p>
+            </div>
+            <div>
+               <p><strong>Display Constants - </strong>UPC is carried in the MARC record without the internal hyphens or spaces. Hyphens,
+                  spaces and introductory words may be system generated as display constants associated
+                  with first indicator value 1 and the content of subfields $a, $d, and $z.
+               </p>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td width="5%">Â </td>
+                        <td colspan="9">
+                           <div class="captiontext">Content designated field:</div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><strong>024</strong></td>
+                        <td colspan="9"><strong>10</strong><strong>$a</strong>070993005955<strong>$d</strong>35740<em><span><br /><span>[UPC for a paperback book]</span></span></em></td>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td colspan="9">
+                           <div class="captiontext">Display example:</div>UPC 0 70993 00595 5 35740
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div>
+            <h4>ISMN Structure and Display Constants</h4>
+            <div>
+               <p><strong>Structure - </strong>ISMN is an agency-assigned data element. ISMNs are assigned
+                  to music publications by designated agencies in each country participating in 
+                  the program.
+               </p>
+               <p>An ISMN consists of ten or thirteen digits. The 10-digit ISMN, used before 2008,
+                  is comprised of the letter M followed by 8 digits (variable length publisher number
+                  plus item number) plus a single character check digit.  The check digit applies to
+                  the previous 8 digits.
+               </p>
+               <p>The 13-digit ISMN, used since 2008, has the prefix 979 and a 0 to replace the M, 
+                  then 8 digits plus the final check digit.  The check digit applies to the previous 
+                  12 digits.  A 13 digit ISMN is identical to the EAN-13 number encoded in the bar code.  
+                  The structure is specified in ISO 10957.
+               </p>
+               <p>An ISMN usually appears on an item preceded by the initialism ISMN and with functional
+                  parts separated by a hyphen or space.
+               </p>
+            </div>
+            <div>
+               <p><strong>Display Constants - </strong>Initialism <em>ISMN</em>, the phrase ISMN (invalid), and the embedded hyphens or spaces
+                  are not carried in the MARC record. They may be system generated as display constants
+                  associated with first indicator value 2 and the content of subfields $a and $z,
+                  respectively.
+               </p>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td width="5%">Â </td>
+                        <td colspan="9">
+                           <div class="captiontext">Content designated field:</div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><strong>024</strong></td>
+                        <td colspan="9"><strong>2#</strong><strong>$a</strong>M571100511
+                        </td>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td colspan="9">
+                           <div class="captiontext">Display example:</div>ISMN M571100511
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td width="5%">Â </td>
+                        <td colspan="9">
+                           <div class="captiontext">Content designated field:</div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><strong>024</strong></td>
+                        <td colspan="9"><strong>2#</strong><strong>$a</strong>M692006282
+                        </td>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td colspan="9">
+                           <div class="captiontext">Display example:</div>ISMN M69200-628-2
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td width="5%">Â </td>
+                        <td colspan="9">
+                           <div class="captiontext">Content designated field:</div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><strong>024</strong></td>
+                        <td colspan="9"><strong>2#</strong><strong>$a</strong>9790692006282
+                        </td>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td colspan="9">
+                           <div class="captiontext">Display example:</div>ISMN 979-0-69200-628-2
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div>
+            <h4>EAN Structure and Display Constants</h4>
+            <div>
+               <p><strong>Structure - </strong>EAN has 13 digits. For serials, a three-digit prefix (977) is used in combination with
+                  the eight-digit International Standard Serial Number (ISSN) or with a nationally
+                  administered title number such as the BIPAD number in North America. A two- or
+                  five-digit add-on symbology to designate issues may be present.
+               </p>
+               <p>For paperback books, a three-digit prefix (978) is followed by the first nine characters
+                  of the International Standard Book Number (ISBN), omitting the final ISBN check
+                  character. An all-numeric Modulus-10 check digit is the 13th character of the EAN. A
+                  five-digit supplement may be used to code additional data, e.g., price.
+               </p>
+            </div>
+            <div>
+               <p><strong>Display Constants - </strong>EAN is carried in the MARC record without the internal hyphens or spaces. Hyphens,
+                  spaces, and introductory words may be system generated as display constants associated
+                  with first indicator value 3 and the content of subfields $a, $d, and $z.
+               </p>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td width="5%">Â </td>
+                        <td colspan="9">
+                           <div class="captiontext">Content designated field:</div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><strong>024</strong></td>
+                        <td colspan="9"><strong>3#</strong><strong>$a</strong>9780838934326<strong>$d</strong>90000
+                        </td>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td colspan="9">
+                           <div class="captiontext">Display example:</div>EAN 9 780838 934326 90000 
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div>
+            <h4>SICI Structure and Display Constants</h4>
+            <div>
+               <p><strong>Structure - </strong>Serial Item and Contribution Identifier (SICI) is a variable length code that provides
+                  unique identification of serial issues (SII) and serial contributions (SCI). The SII
+                  consists of the ISSN, issue date, issue numbering, SICI standard version number, and a
+                  check character. The SCI adds the contribution location and a title code (if more that
+                  one title begins on a page) between the issue numbering and the SICI version number. The
+                  barcode version of the number on an item will differ from the eye-readable version.
+               </p>
+            </div>
+            <div>
+               <p><strong>Display Constants - </strong>SICI contains punctuation separating the sections of the identifier and they are
+                  recorded in the MARC record. Introductory words may be system generated as display
+                  constants associated with first indicator value 3 and the content of subfields $a and
+                  $z.
+               </p>
+               <div class="example">
+                  <table>
+                     <tr>
+                        <td width="5%">Â </td>
+                        <td colspan="9">
+                           <div class="captiontext">Content designated field:</div>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><strong>024</strong></td>
+                        <td colspan="9"><strong>4#</strong><strong>$a</strong>8756-2324(198603/04)65:2L.4:QTP:1-P
+                        </td>
+                     </tr>
+                     <tr>
+                        <td></td>
+                        <td colspan="9">
+                           <div class="captiontext">Display example:</div>SICI
+                           8756-2324(198603/04)65:2L.4:QTP:1-P
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="indicatorHistory"><em>Indicator 2 - Difference Indicator [NEW, 1993]</em><div>
+               <p>In 1993, the second indicator was given its present definition. Records created prior
+                  to this change may contain a code # meaning <em>undefined</em>.
+               </p>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$b - Additional codes following the standard number [OBSOLETE]</em><div class="subfieldHistoryDsc">
+                  <p>Prior to 1984, this data element was identified by subfield $b; currently subfield $d
+                     is used.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div class="changed"><em>$q - Qualifying information [NEW, 2013]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+               
+               &gt;&gt;
+               <strong>024</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/24/2013)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

@@ -1,0 +1,453 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 382:
+         Medium of Performance (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt;
+               <strong>382</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>382</span> - <span>Medium of Performance</span> (R)
+      </h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">April 2012</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Display constant controller</em><br /># - No information provided<br />0 - Medium of performance<br />1 - Partial medium of performance<br /><br /></td>
+            <td><em>Access control</em><br /># - No information provided<br />0 - Not intended for access<br />1 - Intended for access<br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Medium of performance (R)</li>
+                  <li>$b - Soloist (R)</li>
+                  <li>$d - Doubling instrument (R)</li>
+                  <li>$n - Number of performers of the same medium (R)</li>
+                  <li>$p - Alternative medium of performance (R)</li>
+                  <li>$s - Total number of performers (R)</li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$v - Note (R)</li>
+                  <li>$0 - Authority record control number or standard number (R)</li>
+                  <li>$2 - Source of term (NR)</li>
+                  <li>$6 - Linkage (NR)</li>
+                  <li>$8 - Field link and sequence number (R)</li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p><em>For manifestations:</em> the instrumental, vocal, and/or other medium of performance
+               	      embodied in the manifestation.
+            </p>
+         </div>
+         <div>
+            <p><em>For works and expressions:</em> the instrumental, vocal, and/or other medium of performance for which a musical
+               				work was originally conceived or for which a musical expression is written or performed.  
+               				May be used to differentiate a musical work or expression from another with the same title.
+            </p>
+         </div>
+         <div>
+            <p>Multiple mediums from the same source vocabulary may be recorded in the 
+				same field in separate occurrences of subfield $a (Medium of 
+				performance), $b (Soloist), $d (Doubling instrument), or $p 
+				(Alternative medium of performance).  Multiple mediums from the same source vocabulary may
+				also be recorded in separate occurrences of the field if each medium is controlled by an Authority
+				record control number or standard number in subfield $0. Terms from different source
+               			  vocabularies are recorded in separate occurrences of the field.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p></p>
+         </div>
+         <h4><span class="box">â </span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>First Indicator - Display constant controller</span></strong></p>
+                  <div>
+                     <p></p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - No information provided</span><div>
+                           <p></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Medium of performance</span><div>
+                           <p>The complete medium of performance of the musical work/expression.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Partial medium of performance</span><div>
+                           <p>Incomplete medium of performance of the musical work/expression. To be
+                              	            used when certain instruments or voices are prominent but the complete 
+                              	            instrumentation is unknown to the cataloger.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>382</strong></td>
+                                 <td colspan="9"><strong>11</strong><strong>$a</strong>didjeridu<strong>$n</strong>1<em><span><br /><span>[A sound recording of didjeridu music, in which the 
+                                             	              didjeridu is prominent, but other instruments are not identified.]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Access control</strong></p>
+                  <div>
+                     <p></p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - No information provided</span></div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Not intended for access</span><div>
+                           <p>The field will not be indexed.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Intended for access</span><div>
+                           <p>The field will be indexed.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">â </span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Medium of performance</strong> 
+                  </p>
+                  <div>
+                     <p>A term that indicates the instrumental, vocal, and/or other medium of performance.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>100</td>
+                           <td colspan="9">1#$aStravinsky, Igor,$d1882-1971.</td>
+                        </tr>
+                        <tr>
+                           <td>240</td>
+                           <td colspan="9">10$aSymphonie de Psaumes</td>
+                        </tr>
+                        <tr>
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>mixed voices<strong>$a</strong>orchestra
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>100</td>
+                           <td colspan="9">1#$aBeethoven, Ludwig van,$d1770-1827.</td>
+                        </tr>
+                        <tr>
+                           <td>240</td>
+                           <td colspan="9">10$aSonatas,$mpiano,$nno. 14, op. 27, no. 2,$rC# minor</td>
+                        </tr>
+                        <tr>
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>piano
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>383</td>
+                           <td colspan="9">##$ano. 14,$bop. 27, no. 2</td>
+                        </tr>
+                        <tr>
+                           <td>384</td>
+                           <td colspan="9">##$aC# minor</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Soloist</strong> 
+                  </p>
+                  <div>
+                     <p>Medium of performance term for a soloist (a featured instrument or voice accompanied by an ensemble).</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>01</strong><strong>$b</strong>flute<strong>$a</strong>orchestra<em><span><br /><span>[A work for flute accompanied by orchestra.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$d - Doubling instrument</strong> 
+                  </p>
+                  <div>
+                     <p>Medium of performance term for the instrument(s)/voice(s) a performer in a musical work/expression
+		        plays in addition to the primary instrument/voice. Multiple doubling instruments may be recorded in
+		        separate occurrences of subfield $d. They may also be recorded in separate occurrences of the field
+		        if each medium is controlled by an Authority record control number or standard number in subfield $0.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>01</strong><strong>$a</strong>flute<strong>$n</strong>1<strong>$d</strong>piccolo<strong>$n</strong>1<strong>$d</strong>alto flute<strong>$n</strong>1<strong>$d</strong>bass flute<strong>$n</strong>1<strong>$s</strong>1<em><span><br /><span>[A work for solo flute, doubling piccolo, doubling alto flute, and doubling bass flute.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$n - Number of performers of the same medium</strong> 
+                  </p>
+                  <div>
+                     <p>Number of performers of the medium named in the preceding subfield.  Use after 
+		        subfield $a (Medium of performance), $b (Soloist), $d (Doubling
+		        instrument), or $p (Alternative medium of performance). Subfield $n may
+		        be omitted if the number equals 1.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>01</strong><strong>$a</strong>trumpet<strong>$n</strong>2<strong>$a</strong>trombone<strong>$n</strong>2<strong>$s</strong>4<em><span><br /><span>[A work for two trumpets and two trombones.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$p - Alternative medium of performance</strong> 
+                  </p>
+                  <div>
+                     <p>Medium of performance term for an alternative instrument, vocal, and/or other medium of performance, given
+		        as an alternative to its primary medium of performance in preceding subfield $a, $b, or $d.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>01</strong><strong>$p</strong>clarinet<strong>$v</strong>alternative for violin<strong>$2</strong>gnd
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$s - Total number of performers</strong> 
+                  </p>
+                  <div>
+                     <p>Total number of performers needed to perform in the musical work/expression.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>01</strong><strong>$a</strong>soprano<strong>$n</strong>2<strong>$a</strong>mezzo-soprano<strong>$n</strong>1<strong>$a</strong>tenor saxophone<strong>$n</strong>1<strong>$d</strong>bass clarinet<strong>$n</strong>1<strong>$a</strong>trumpet<strong>$n</strong>1<strong>$a</strong>piano<strong>$n</strong>1<strong>$a</strong>violin<strong>$n</strong>1<strong>$d</strong>viola<strong>$n</strong>1<strong>$a</strong>double bass<strong>$n</strong>1<strong>$s</strong>8<em><span><br />
+                                 <span>[A work for 2 sopranos, one mezzo-soprano, tenor saxophone
+                                       		          (doubling bass clarinet), C trumpet, piano, violin (doubling viola), and
+                                       		          double bass--8 total performers).]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$v - Note</strong> 
+                  </p>
+                  <div>
+                     <p>Note for information that is not kept otherwise in the subfields of the field.  May contain a description 
+                        		      of the relationship between an alternative medium of performance and its primary medium of performance, or other
+                        		      textual information.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>didjeridu<strong>$v</strong>didjeridu is prominent, but other instruments are not identified<strong>$2</strong>gnd
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$0 - Authority record control number or standard number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Source of term</strong> 
+                  </p>
+                  <div>
+                     <p>MARC code that identifies the source of the term in subfield $a when
+						it is from a controlled list.</p>
+                  </div>
+                  <div>
+                     <p>Code from: <em><a href="http://www.loc.gov/standards/sourcelist/musical-instrumentation.html">Musical Instrumentation
+                              						and Voice Code Source Codes</a></em>.
+                        					
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="indicatorHistory"><em>Indicator 1 - Type of edition [NEW, 2012]</em><div class="valuehistory">
+               <div><em># - No information provided [NEW, 2012]</em></div>
+            </div>
+            <div>
+               <p></p>
+            </div>
+            <div class="valuehistory">
+               <div><em>0 - Medium of performance [NEW, 2012]</em></div>
+            </div>
+            <div>
+               <p></p>
+            </div>
+            <div class="valuehistory">
+               <div><em>1 - Partial medium of performance [NEW, 2012]</em></div>
+            </div>
+            <div>
+               <p>Prior to 2012 Indicator 1 was undefined</p>
+            </div>
+         </div>
+         <div class="indicatorHistory"><em>Indicator 2 - Access control [NEW, 2012]</em><div class="valuehistory">
+               <div><em># - No information provided [NEW, 2012]</em></div>
+            </div>
+            <div class="valuehistory">
+               <div><em>0 - Not intended for access [NEW, 2012]</em></div>
+            </div>
+            <div class="valuehistory">
+               <div><em>1 - Intended for access [NEW, 2012]</em></div>
+            </div>
+            <div>
+               <p>Prior to 2012 Indicator 2 was undefined</p>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$b - Soloist [NEW, 2012]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$d - Doubling instrument [NEW, 2012]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$p - Alternative medium of performance [NEW, 2012]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$n - Number of performers of the same medium [NEW, 2012]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$s - Total number of performers [NEW, 2012]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$v - Note [NEW, 2012]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt;
+               <strong>382</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(04/16/2012)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

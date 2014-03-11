@@ -1,0 +1,1147 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: lead:
+         Leader (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><strong>leader</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1>Leader (NR)</h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">October 2010</div>
+      <hr />
+      <h4>Indicators and Subfield Codes</h4>
+      <div class="wildcard">
+         <div>
+            <p>Has no indicators or subfield codes; the data elements are positionally defined.</p>
+         </div>
+      </div>
+      <table class="characterPositions">
+         <tr>
+            <td width="45%"><strong>Character Positions</strong></td>
+            <td width="45%"></td>
+         </tr>
+         <tr>
+            <td colspan="2"><span><strong>00-04 - Record length</strong></span></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>05 - Record status</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>a - Increase in encoding level</dd>
+                  <dd>c - Corrected or revised</dd>
+                  <dd>d - Deleted</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>n - New</dd>
+                  <dd>p - Increase in encoding level from prepublication</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>06 - Type of record</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>a - Language material</dd>
+                  <dd>c - Notated music</dd>
+                  <dd>d - Manuscript notated music</dd>
+                  <dd>e - Cartographic material</dd>
+                  <dd>f - Manuscript cartographic material</dd>
+                  <dd>g - Projected medium</dd>
+                  <dd>i - Nonmusical sound recording</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>j - Musical sound recording</dd>
+                  <dd>k - Two-dimensional nonprojectable graphic</dd>
+                  <dd>m - Computer file</dd>
+                  <dd>o - Kit</dd>
+                  <dd>p - Mixed materials</dd>
+                  <dd>r - Three-dimensional artifact or naturally occurring object</dd>
+                  <dd>t - Manuscript language material</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>07 - Bibliographic level</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>a - Monographic component part</dd>
+                  <dd>b - Serial component part</dd>
+                  <dd>c - Collection</dd>
+                  <dd>d - Subunit</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>i - Integrating resource</dd>
+                  <dd>m - Monograph/Item</dd>
+                  <dd>s - Serial</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>08 - Type of control</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - No specified type</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>a - Archival</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>09 - Character coding scheme</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - MARC-8</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>a - UCS/Unicode</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>10 - Indicator count</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>2 - Number of character positions used for indicators</dd>
+               </dl>
+            </td>
+            <td></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>11 - Subfield code count</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>2 - Number of character positions used for a subfield code</dd>
+               </dl>
+            </td>
+            <td></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>12-16 - Base address of data</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>[number] - Length of Leader and Directory</dd>
+               </dl>
+            </td>
+            <td></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>17 - Encoding level</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Full level</dd>
+                  <dd>1 - Full level, material not examined</dd>
+                  <dd>2 - Less-than-full level, material not examined</dd>
+                  <dd>3 - Abbreviated level</dd>
+                  <dd>4 - Core level</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>5 - Partial (preliminary) level</dd>
+                  <dd>7 - Minimal level</dd>
+                  <dd>8 - Prepublication level</dd>
+                  <dd>u - Unknown</dd>
+                  <dd>z - Not applicable</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>18 - Descriptive cataloging form</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Non-ISBD</dd>
+                  <dd>a - AACR 2</dd>
+                  <dd>c - ISBD punctuation omitted</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>i - ISBD punctuation included</dd>
+                  <dd>u - Unknown</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>19 - Multipart resource record level</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Not specified or not applicable</dd>
+                  <dd>a - Set</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>b - Part with independent title</dd>
+                  <dd>c - Part with dependent title</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>20 - Length of the length-of-field portion</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>4 - Number of characters in the length-of-field portion of a Directory entry</dd>
+               </dl>
+            </td>
+            <td></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>21 - Length of the starting-character-position portion</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>5 - Number of characters in the starting-character-position portion of a Directory
+                     entry
+                  </dd>
+               </dl>
+            </td>
+            <td></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>22 - Length of the implementation-defined portion</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>0 - Number of characters in the implementation-defined portion of a Directory entry</dd>
+               </dl>
+            </td>
+            <td></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>23 - Undefined</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>0 - Undefined</dd>
+               </dl>
+            </td>
+            <td></td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Fixed field that comprises the first 24 character positions (00-23) of each
+               bibliographic record and consists of data elements that contain numbers or coded values
+               that define the parameters for the processing of the record.
+            </p>
+         </div>
+         <div>
+            <p>Character positions 20-23 comprise the Entry map for the Directory. They contain four
+               one-character numbers that specify the structure of the entries in the Directory. More
+               detailed information about the structure of the Leader is contained in <em><a href="http://www.loc.gov/marc/specifications/">MARC 21 Specifications for Record
+                     Structure, Character Sets, and Exchange Media</a></em>.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">â </span> CHARACTER POSITIONS
+         </h4>
+         <div class="characterPositions">
+            <div><strong>00-04 - Record length</strong><div>
+                  <p>Computer-generated, five-character number equal to the length of the entire
+                     record, including itself and the record terminator. The number is right justified
+                     and unused positions contain zeros.
+                  </p>
+               </div>
+            </div>
+            <hr />
+            <div><strong>05 - Record status</strong><div>
+                  <p>One-character alphabetic code that indicates the relationship of the record to a
+                     file for file maintenance purposes.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Increase in encoding level</span><div>
+                        <p>Encoding level (Leader/17) of the record has been changed to a higher encoding
+                           level.
+                        </p>
+                     </div>
+                     <div>
+                        <p>Indicates an increase in the level of cataloging (e.g., code a is used when a
+                           preliminary cataloging record (code 5 in Leader/17) is raised to full
+                           cataloging level (code # in Leader/17)).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Corrected or revised</span><div>
+                        <p>Addition/change other than in the Encoding level code has been made to the
+                           record.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Deleted</span><div>
+                        <p>Record has been deleted.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">n - New</span><div>
+                        <p>Record is newly input.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">p - Increase in encoding level from prepublication</span><div>
+                        <p>Prepublication record has had a change in cataloging level resulting from the
+                           availability of the published item.
+                        </p>
+                     </div>
+                     <div>
+                        <p>Example: a CIP record (code 8 in Leader/17)) upgraded to a full record (code #
+                           or 1 in Leader/17.)
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>06 - Type of record</strong><div>
+                  <p>One-character alphabetic code used to define the characteristics and components of
+                     the record.
+                  </p>
+               </div>
+               <div>
+                  <p>Used to differentiate MARC records created for various types of content and
+                     material and to determine the appropriateness and validity of certain data
+                     elements in the record.
+                  </p>
+                  <p>Microforms, whether original or reproductions, are not identified by a distinctive
+                     Type of record code. The type of content characteristics described by the codes
+                     take precedence over the microform characteristics of the item. Computer files are
+                     identified by a distinctive Type of record code only if they belong to certain
+                     categories of electronic resources as specified below; in all other cases the type
+                     of content characteristics described by the other codes take precedence over the
+                     computer file characteristics of the item.
+                  </p>
+                  <p>Determination of the code for a multi-item bibliographic entity (types of material
+                     are those specified by values a through t below):
+                  </p>
+                  <p><u>Items are multiple forms of material</u></p>
+                  <ul>
+                     <li>o (Kit) - entity is issued as a single unit; no type of material
+                        predominates
+                     </li>
+                     <li>p (Mixed materials) - entity is a made-up collection; no type of material
+                        predominates
+                     </li>
+                     <li>other codes - entity is a made-up collection; one type of material
+                        predominates
+                     </li>
+                  </ul>
+                  <p><u>Items are all one form of material</u></p>
+                  <ul>
+                     <li>any except o or p - all cases</li>
+                  </ul>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Language material</span><div>
+                        <p>Used for non-manuscript language material. Manuscript language material uses
+                           code t.
+                        </p>
+                     </div>
+                     <div>
+                        <p>Includes microforms and electronic resources that are basically textual in
+                           nature, whether they are reproductions from print or originally produced.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Notated music</span><div>
+                        <p>Used for printed, microform, or electronic notated music.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Manuscript notated music</span><div>
+                        <p>Used for manuscript notated music or a microform of manuscript music.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">e - Cartographic material</span><div>
+                        <p>Used for non-manuscript cartographic material or a microform of non-manuscript
+                           cartographic material.
+                        </p>
+                     </div>
+                     <div>
+                        <p>Includes maps, atlases, globes, digital maps, and other cartographic items.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Manuscript cartographic material</span><div>
+                        <p>Used for manuscript cartographic material or a microform of manuscript
+                           cartographic material.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">g - Projected medium</span><div>
+                        <p>Used for motion pictures, videorecordings (including digital video),
+                           filmstrips, slide, transparencies or material specifically designed for
+                           projection.
+                        </p>
+                     </div>
+                     <div>
+                        <p>Material specifically designed for overhead projection is also included in this
+                           type of record category.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">i - Nonmusical sound recording</span><div>
+                        <p>Used for a recording of nonmusical sounds (e.g., speech).</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">j - Musical sound recording</span><div>
+                        <p>Used for a musical sound recording (e.g., phonodiscs, compact discs, or
+                           cassette tapes.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">k - Two-dimensional nonprojectable graphic</span><div>
+                        <p>Used for two-dimensional nonprojectable graphics such as, activity cards,
+                           charts, collages, computer graphics, digital pictures, drawings, duplication
+                           masters, flash cards, paintings, photo CDs, photomechanical reproductions,
+                           photonegatives, photoprints, pictures, postcards, posters, prints, spirit
+                           masters, study prints, technical drawings, transparency masters, and
+                           reproductions of any of these.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">m - Computer file</span><div>
+                        <p>Used for the following classes of electronic resources: computer software
+                           (including programs, games, fonts), numeric data, computer-oriented multimedia,
+                           online systems or services. For these classes of materials, if there is a
+                           significant aspect that causes it to fall into another Leader/06 category, the
+                           code for that significant aspect is used instead of code m (e.g., vector data
+                           that is cartographic is not coded as numeric but as cartographic). Other
+                           classes of electronic resources are coded for their most significant aspect
+                           (e.g. language material, graphic, cartographic material, sound, music, moving
+                           image). In case of doubt or if the most significant aspect cannot be
+                           determined, consider the item a computer file.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">o - Kit</span><div>
+                        <p>Used for a mixture of various components issued as a unit and intended
+                           primarily for instructional purposes where no one item is the predominant
+                           component of the kit.
+                        </p>
+                     </div>
+                     <div>
+                        <p>Examples are packages of assorted materials, such as a set of school social
+                           studies curriculum material (books, workbooks, guides, activities, etc.), or
+                           packages of educational test materials (tests, answer sheets, scoring guides,
+                           score charts, interpretative manuals, etc.).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">p - Mixed materials</span><div>
+                        <p>Used when there are significant materials in two or more forms that are usually
+                           related by virtue of their having been accumulated by or about a person or
+                           body. Includes archival fonds and manuscript collections of mixed forms of
+                           materials, such as text, photographs, and sound recordings.
+                        </p>
+                     </div>
+                     <div>
+                        <p>Intended primary purpose is other than for instructional purposes (i.e., other
+                           than the purpose of those materials coded as o (Kit)).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">r - Three-dimensional artifact or naturally occurring object</span><div>
+                        <p>Includes man-made objects such as models, dioramas, games, puzzles,
+                           simulations, sculptures and other three-dimensional art works, exhibits,
+                           machines, clothing, toys, and stitchery. Also includes naturally occurring
+                           objects such as, microscope specimens (or representations of them) and other
+                           specimens mounted for viewing.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">t - Manuscript language material</span><div>
+                        <p>Used for manuscript language material or a microform of manuscript language
+                           material. This category is applied to items for language material in
+                           handwriting, typescript, or computer printout including printed materials
+                           completed by hand or by keyboard. At the time it is created, this material is
+                           usually intended, either implicitly or explicitly, to exist as a single
+                           instance. Examples include marked or corrected galley and page proofs,
+                           manuscript books, legal papers, and unpublished theses and dissertations.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>07 - Bibliographic level</strong><div>
+                  <p>One-character alphabetic code indicating the bibliographic level of the
+                     record.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Monographic component part</span><div>
+                        <p>Monographic bibliographic unit that is physically attached to or contained in
+                           another unit such that the retrieval of the component part is dependent on the
+                           identification and location of the host item or container. Contains fields that
+                           describe the component part and data that identify the host, field 773 (Host
+                           Item Entry).
+                        </p>
+                     </div>
+                     <div>
+                        <p>Examples of monographic component parts with corresponding host items include
+                           an article in a single issue of a periodical, a chapter in a book, a band on a
+                           phonodisc, and a map on a single sheet that contains several maps. 
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Serial component part</span><div>
+                        <p>Serial bibliographic unit that is physically attached to or contained in
+                           another unit such that the retrieval of the component part is dependent on the
+                           identification and location of the host item or container. Contains fields that
+                           describe the component part and data that identify the host, field 773 (Host
+                           Item Entry).
+                        </p>
+                     </div>
+                     <div>
+                        <p> Example of a serial component part with corresponding host item is a regularly
+                           appearing column or feature in a periodical. 
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Collection</span><div>
+                        <p>Made-up multipart group of items that were not originally published,
+                           distributed, or produced together. The record describes units defined by common
+                           provenance or administrative convenience for which the record is intended as
+                           the most comprehensive in the system.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Subunit</span><div>
+                        <p>Part of collection, especially an archival unit described collectively
+                           elsewhere in the system. Contains fields that describe the subunit and data
+                           that identify the host item.
+                        </p>
+                     </div>
+                     <div>
+                        <p>Subunits may be items, folders, boxes, archival series, subgroups, or
+                           subcollections. 
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">i - Integrating resource</span><div>
+                        <p>Bibliographic resource that is added to or changed by means of updates that do
+                           not remain discrete and are integrated into the whole. Examples include
+                           updating loose-leafs and updating Web sites.
+                        </p>
+                     </div>
+                     <div>
+                        <p>Integrating resources may be finite or continuing.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">m - Monograph/Item</span><div>
+                        <p>Item either complete in one part (e.g., a single monograph, a single map, a
+                           single manuscript, etc.) or intended to be completed, in a finite number of
+                           separate parts (e.g., a multivolume monograph, a sound recording with multiple
+                           tracks, etc.).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">s - Serial</span><div>
+                        <p>Bibliographic item issued in successive parts bearing numerical or
+                           chronological designations and intended to be continued indefinitely. Includes
+                           periodicals; newspapers; annuals (reports, yearbooks, etc.); the journals,
+                           memoirs, proceedings, transactions, etc., of societies; and numbered
+                           monographic series, etc.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>08 - Type of control</strong><div class="value">
+                  <div><span class="valueLabel"># - No specified type</span><div>
+                        <p>No type applies to the item being described.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Archival</span><div>
+                        <p>Material is described according to archival descriptive rules, which focus on
+                     the contextual relationships between items and on their provenance rather than
+                     on bibliographic detail. The specific set of rules for description may be found
+                     in field 040, subfield $e. All forms of material can be controlled
+                     archivally.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>09 - Character coding scheme</strong><div>
+                  <p> Identifies the character coding scheme used in the record.</p>
+               </div>
+               <div>
+                  <p>Coding scheme used affects the number of octets needed per character, the
+                     placement of non-spacing characters, and the use of escape sequences and may
+                     affect the character repertoire. Detailed information on the character sets used
+                     in MARC 21 records is contained in <em><a href="http://www.loc.gov/marc/specifications/">MARC 21 Specifications for
+                           Record Structure, Character Sets, and Exchange Media</a></em>.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - MARC-8</span><div>
+                        <p>Character coding in the record uses the 8-bit character sets described in <em><a href="http://www.loc.gov/marc/specifications/">MARC 21 Specifications for
+                                 Record Structure, Character Sets, and Exchange Media</a></em>. Non-default character sets used are identified in field 066.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - UCS/Unicode</span><div>
+                        <p>Character coding in the record makes use of characters from the Universal Coded
+                           Character Set (UCS) (ISO 10646), or Unicodeâ¢, an industry subset.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>10 - Indicator count</strong><div>
+                  <p>Computer-generated number 2 that indicates the number of character positions used
+                     for indicators in a variable data field.
+                  </p>
+               </div>
+               <div>
+                  <p>An indicator character position contains a code which conveys information that
+                     interprets or supplements the data found in the field. In MARC 21, two character
+                     positions at the beginning of each variable data field are reserved for
+                     indicators; therefore, the Indicator count is always 2.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">2 - Number of character positions used for indicators</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>11 - Subfield code count</strong><div>
+                  <p>Computer-generated number 2 that indicates the number of character positions used
+                     for each subfield code in a variable data field.
+                  </p>
+               </div>
+               <div>
+                  <p>Each data element in a variable data field is identified by a subfield code. In
+                  MARC 21, a subfield code consists of a delimiter ($) and a lowercase
+                  alphabetic or numeric data element identifier; therefore, the Subfield code count
+                  is always 2.</p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">2 - Number of character positions used for a subfield code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>12-16 - Base address of data</strong><div>
+                  <p>Computer-generated, five-character numeric string that indicates the first
+                     character position of the first variable control field in a record. The number is
+                     right justified and each unused position contains a zero.
+                  </p>
+               </div>
+               <div>
+                  <p>The number is the base from which the starting character position of all the other
+                     fields in the record is addressed in the Directory. (The starting character
+                     position in the Directory entry for each field of the record is relative to the
+                     first character of the first variable control field rather than the beginning of
+                     the record.) The Base address of data is equal to the sum of the lengths of the
+                     Leader and the Directory, including the field terminator character at the end of
+                     the Directory.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">[number] - Length of Leader and Directory</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>17 - Encoding level</strong><div>
+                  <p>One-character alphanumeric code that indicates the fullness of the bibliographic
+                     information and/or content designation of the MARC record.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Full level</span><div>
+                        <p>Most complete MARC record created from information derived from an inspection
+                           of the physical item.
+                        </p>
+                     </div>
+                     <div>
+                        <p>For serials, at least one issue of the serial is inspected.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">1 - Full level, material not examined</span><div>
+                        <p>Next most complete MARC record after the full level created from information
+                           derived from an extant description of the item (e.g., a printed catalog card or
+                           a description in an institutional guide) without reinspection of the physical
+                           item. Used primarily in the retrospective conversion of records when all of the
+                           information on the extant description is transcribed. Certain control field
+                           coding and other data (e.g., field 043 (Geographic Area Code)) are based only
+                           on explicit information in the description.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">2 - Less-than-full level, material not examined</span><div>
+                        <p>Less-than-full level record (i.e., a record that falls between minimal level
+                           and full) created from an extant description of the material (e.g., a printed
+                           catalog card) without reinspection of the physical item. Used primarily in the
+                           retrospective conversion of records when all of the descriptive access points
+                           but only a specified subset of other data elements are transcribed.
+                           Authoritative headings may not be current.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">3 - Abbreviated level</span><div>
+                        <p>Brief record that does not meet minimal level cataloging specifications.
+                           Headings in the records may reflect established forms to the extent that such
+                           forms were available at the time the record was created.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">4 - Core level</span><div>
+                        <p>Less-than-full but greater-than-minimal level cataloging record that meets core
+                           record standards for completeness.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">5 - Partial (preliminary) level</span><div>
+                        <p>Preliminary cataloging level record that is not considered final by the
+                           creating agency (e.g., the headings may not reflect established forms; the
+                           record may not meet national-level cataloging specifications).
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">7 - Minimal level</span><div>
+                        <p>Record that meets the U.S. National Level Bibliographic Record minimal level
+                           cataloging specifications and is considered final by the creating agency.
+                           Headings have been checked against an authority file and reflect established
+                           forms to the extent that such forms were available at the time the minimal
+                           level record was created. The U.S. requirements for minimal-level records can
+                           be found in <em><a href="http://www.loc.gov/marc/bibliographic/nlr/">National Level and Minimal
+                                 Level Record Requirements</a></em></p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">8 - Prepublication level</span><div>
+                        <p>Prepublication level record. Includes records created in cataloging in
+                           publication programs.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Unknown</span><div>
+                        <p>Used by an agency receiving or sending data with a local code in Leader/17
+                           cannot adequately determine the appropriate encoding level of the record. Code
+                           u thus replaces the local code. Not used in newly input or updated records.
+                        </p>
+                     </div>
+                     <div>
+                        <p>For example, code u is used in Dublin Core originated records.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">z - Not applicable</span><div>
+                        <p>Concept of encoding level does not apply to the record.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>18 - Descriptive cataloging form</strong><div>
+                  <p>One-character alphanumeric code that indicates characteristics of the descriptive
+                  data in the record through reference to cataloging norms. Subfield $e
+                  (Description conventions) of field 040 (Cataloging Source) also contains
+                  information on the cataloging conventions used.</p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Non-ISBD</span><div>
+                        <p>Descriptive portion of the record does not follow <em>International Standard
+                              Bibliographic Description</em> (ISBD) cataloging and punctuation
+                           provisions.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - AACR 2</span><div>
+                        <p>Descriptive portion of the record is formulated according to the description and 
+                           	punctuation provisions as incorporated into the <em>Anglo-American Cataloging Rules</em>, 
+                           2nd Edition (AACR 2) and its manuals.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - ISBD punctuation omitted</span><div>
+                        <p>Descriptive portion of the record contains the punctuation provisions of ISBD, 
+                           				       except ISBD punctuation is <em>not</em> present at the end of a subfield.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">i - ISBD punctuation included</span><div>
+                        <p>Descriptive portion of the record contains the punctuation provisions of ISBD.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Unknown</span><div>
+                        <p>Institution receiving or sending data in Leader/18 cannot adequately determine
+                           the appropriate descriptive cataloging form used in the record. May be used in
+                           records converted from another metadata format.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>19 - Multipart resource record level</strong><div>
+                  <p>Record level to which a resource pertains and any record dependencies. This
+                     information will facilitate processing the record in different situations. For
+                     example, the record may describe a set of items, or it may describe a part of a
+                     set. The part may only have a dependent title to be used for identification
+                     purposes thus requiring use of additional information to understand its
+                     context.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Not specified or not applicable</span><div>
+                        <p>The distinction between record levels is not specified or not applicable for
+                           the type of resource. 
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Set</span><div>
+                        <p>Record is for a set consisting of multiple items.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Part with independent title</span><div>
+                        <p>The record is for a resource which is part of a set and has a title that allows it
+                           to be independent of the set record. 
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Part with dependent title</span><div>
+                        <p>The record is for a resource which is part of a set but has a title that makes it
+                           dependent on the set record to understand its context.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>20 - Length of the length-of-field portion</strong><div>
+                  <p>Always contains a 4.</p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">4 - Number of characters in the length-of-field portion of a Directory entry</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>21 - Length of the starting-character-position portion</strong><div>
+                  <p>Always contains a 5.</p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">5 - Number of characters in the starting-character-position portion of a Directory
+                        entry</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>22 - Length of the implementation-defined portion</strong><div>
+                  <p>Always contains a 0.</p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">0 - Number of characters in the implementation-defined portion of a Directory entry</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>23 - Undefined</strong><div>
+                  <p>Always contains a 0.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>System-Generated Elements - </strong>Following Leader elements are usually system generated:
+            </p>
+            <div class="table">
+               <table>
+                  <tr>
+                     <td>00-04</td>
+                     <td>Logical record length</td>
+                  </tr>
+                  <tr>
+                     <td>05</td>
+                     <td>Record status</td>
+                  </tr>
+                  <tr>
+                     <td>09</td>
+                     <td>Character coding scheme</td>
+                  </tr>
+                  <tr>
+                     <td>10</td>
+                     <td>Indicator count</td>
+                  </tr>
+                  <tr>
+                     <td>11</td>
+                     <td>Subfield code count</td>
+                  </tr>
+                  <tr>
+                     <td>12-16</td>
+                     <td>Base address of data</td>
+                  </tr>
+                  <tr>
+                     <td>19</td>
+                     <td>Linked record requirement</td>
+                  </tr>
+                  <tr>
+                     <td>20-23</td>
+                     <td>Entry map</td>
+                  </tr>
+               </table>
+            </div>
+            <p>It is common for default values in other Leader elements to be generated automatically
+               as well.
+            </p>
+         </div>
+         <div>
+            <p><strong>Dependencies</strong></p>
+            <div class="table">
+               <table>
+                  <tr>
+                     <td><em>Field 008/18-34 Configuration</em></td>
+                  </tr>
+                  <tr>
+                     <td>If Leader/06 = a and Leader/07 = a, c, d, or m: Books</td>
+                  </tr>
+                  <tr>
+                     <td>If Leader/06 = a and Leader/07 = b, i, or s: Continuing Resources</td>
+                  </tr>
+                  <tr>
+                     <td>If Leader/06 = t: Books</td>
+                  </tr>
+                  <tr>
+                     <td>If Leader/06 = c, d, i, or j: Music</td>
+                  </tr>
+                  <tr>
+                     <td>If Leader/06 = e, or f: Maps</td>
+                  </tr>
+                  <tr>
+                     <td>If Leader/06 = g, k, o, or r: Visual Materials</td>
+                  </tr>
+                  <tr>
+                     <td>If Leader/06 = m: Computer Files</td>
+                  </tr>
+                  <tr>
+                     <td>If Leader/06 = p: Mixed Materials</td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+         <div>
+            <p><strong>Capitalization - </strong>Alphabetic codes are input as lowercase letters.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="characterPositionHistory">
+            <div><em>06 - Type of record</em><div class="charactervaluehistory">
+                  <div>b - Archival and manuscripts control [OBSOLETE, 1995]<br /></div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>h - Microform publications [OBSOLETE, 1972] [USMARC only]<br /></div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>n - Special instructional material [OBSOLETE, 1983]<br /></div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>07 - Bibliographic level</em><div class="charactervaluehistory">
+                  <div>p - Pamphlet [OBSOLETE, 1988] [CAN/MARC only]<br /></div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>i - Integrating resource [NEW, 2001]<br /></div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>08 - Type of control [NEW, 1995]</em></div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>17 - Encoding level</em><div class="charactervaluehistory">
+                  <div>0 - Full level with item [OBSOLETE, 1997] [CAN/MARC only]<br /></div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>6 - Minimal level [OBSOLETE, 1997] [CAN/MARC only]<br /></div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>18 - Descriptive cataloging form</em><div class="charactervaluehistory">
+                  <div>c - ISBD punctuation omitted [NEW, 2010]<br /></div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>i - ISBD [REDEFINED, 2010]<br /></div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>p - Record is in partial ISBD form [OBSOLETE, 1987]<br /></div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>r - Record is in provisional form [OBSOLETE, 1981]<br /></div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>19 - Linked-record code [REDEFINED, 2007]</em><div class="charactervaluehistory">
+                  <div># - Related record not required [REDEFINED, 2007]<br /></div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>a - Set [NEW, 2007]<br /></div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>b - Part with independent title [NEW, 2007]<br /></div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>c - Part with dependent title [NEW, 2007]<br /></div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>r - Linked record requirement [OBSOLETE, 2007]<br /></div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>2 - Open entry for a collection [OBSOLETE, 1984] [CAN/MARC only]<br /></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><strong>leader</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(05/31/2011)</span></div>
+      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>

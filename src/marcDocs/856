@@ -1,0 +1,922 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>MARC 21 Format for Bibliographic Data: 856: Electronic Location and Access (Network Development and MARC Standards Office, Library of Congress)
+      </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="description" content="This field contains the electronic location and access  (Network Development and MARC Standards Office, Library of Congress)">
+      <meta name="keywords" content="marc, marc21, marc standards">
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
+      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+					body {margin-left: 2em; margin-right: 2em;} 
+					h1 {font-family:Arial, Helvetica, sans-serif;}
+					h3 {text-align:left;}
+					h4 {margin-top:.5em; margin-bottom:.5em;}
+					p {text-align:justify; margin-left:2em; margin-right:2em;}
+					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
+					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
+					.font_small {font-size:9pt;}
+					.fieldtoc {margin-left:2em;}
+					.box {font-family:ZapfDingbats;}
+					.description {text-align:justify; margin-left:2em;}
+					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
+					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
+					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfieldvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
+					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
+					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
+					.example {margin-left:4em;}
+					.changed {color: #FF0000;}
+					.captiontext {font-style:italic;}
+					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
+					.displaycontent {text-align:left;}
+					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
+					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
+					.summary {margin-left:2em;}
+					.summarytable {margin-left:4em;}
+				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   <body>
+      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd84188x.html">841-88X</a> &gt;&gt; <strong>856</strong></div>
+      <hr><a name="skip_menu"></a><h1>856 - Electronic Location and Access (R)</h1>
+      <hr>
+      <div class="formatname">MARC 21 Bibliographic - Full</div>
+      <div class="datename">October 2003</div>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td width="45%"><strong>First Indicator</strong><br><em>Access method</em><br># - No information provided <br>0 - Email <br>1 - FTP <br>2 - Remote login (Telnet) <br>3 - Dial-up <br>4 - HTTP <br>7 - Method specified in subfield $2 <br><br></td>
+            <td width="45%"><strong>Second Indicator</strong><br><em>Relationship</em><br># - No information provided <br>0 - Resource <br>1 - Version of resource <br>2 - Related resource <br>8 - No display constant generated <br><br></td>
+         </tr>
+      </table>
+      <hr>
+      <table width="100%">
+         <tr vAlign="top">
+            <td valign="top" width="50%" align="left"></td>
+            <td valign="top" width="50%" align="left"></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         </tr>
+         <tr vAlign="top">
+            <td colspan="1">$a - Host name (R) <br>$b - Access number (R) <br>$c - Compression information (R) <br>$d - Path (R) <br>$f - Electronic name (R) <br>$h - Processor of request (NR) <br>$i - Instruction (R) <br>$j - Bits per second (NR) <br>$k - Password (NR) <br>$l - Logon (NR) <br>$m - Contact for access assistance (R) <br>$n - Name of location of host (NR) <br>$o - Operating system (NR) <br>$p - Port (NR) <br></td>
+            <td colspan="1">$q - Electronic format type (NR) <br>$r - Settings (NR) <br>$s - File size (R) <br>$t - Terminal emulation (R) <br>$u - Uniform Resource Identifier (R) <br>$v - Hours access method available (R) <br>$w - Record control number (R) <br>$x - Nonpublic note (R) <br>$y - Link text (R) <br>$z - Public note (R) <br>$2 - Access method (NR) <br>$3 - Materials specified (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         </tr>
+   </table>
+      <hr>
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <p>Information needed to locate and access an electronic resource. The field may be used in
+         a bibliographic record for a resource when that resource or a subset of it is available
+         electronically. In addition, it may be used to locate and access an electronic version
+         of a non-electronic resource described in the bibliographic record or a related
+                     electronic resource.
+      </p>
+      <p>See the <em><a href="http://www.loc.gov/marc/856guide.html">Guidelines for the Use of Field
+                              856</a></em> for a more thorough discussion on the use of field 856.
+      </p>
+      <p>Field 856 is repeated when the location data elements vary (the URL in subfield
+                     $u or subfields $a, $b, $d, when used). It
+                     is also repeated when more than one access method is used, different portions of the
+                     item are available electronically, mirror sites are recorded, different
+                     formats/resolutions with different URLs are indicated, and related items are
+                  recorded.      </p>
+      <hr>
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <h4><span class="box">&#9632;</span> INDICATORS
+      </h4>
+      <div class="indicator"><strong>First Indicator - Access method</strong> <div class="description">Access method to the electronic resource. If the resource is available by more
+                              than one access method, the field is repeated with data appropriate to each
+                              method. The methods defined are the main TCP/IP (Transmission Control
+                              Protocol/Internet Protocol) protocols. When recording a URL in subfield
+                              $u, the value corresponds to the access method (URL scheme), which is
+                              also the first element in the string.
+            <div class="indicatorvalue"><strong># - No information provided</strong> </div>
+            <div class="indicatorvalue"><strong>0 - Email</strong> <div class="description">Access to the electronic resource is through electronic mail (email). Access
+                                       includes subscribing to an electronic journal or electronic forum through
+                                       software intended to be used by an email system.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$u</strong>mailto:ejap@phil.indiana.edu<strong>$i</strong>ejap subscription
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - FTP</strong> <div class="description">Access to the electronic resource is through the File Transfer Protocol
+                                    (FTP).
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$u</strong>ftp://path.net/pub/docs/urn2urc.ps
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Remote login (Telnet)</strong> <div class="description">Access to the electronic resource is through remote login (Telnet).
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$u</strong>telnet://pucc.princeton.edu<strong>$n</strong>Princeton University, Princeton,
+                                                      N.J.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>3 - Dial-up</strong> <div class="description">Access to the electronic resource is through a conventional telephone line
+                                       (dial-up). Additional information in subfields of the record may enable the
+                                       user to connect to the resource.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$a</strong>locis.loc.gov<strong>$b</strong>140.147.254.3<strong>$m</strong>lconline@loc.gov<strong>$t</strong>3270<strong>$t</strong>line mode (e.g., vt100)<strong>$v</strong>M-F 6:00-21:30 USA EST, Sat. 8:30-17:00 USA EST,
+                                                         Sun. 13:00-17:00 USA EST
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>4 - HTTP</strong> <div class="description">Access to the electronic resource is through the Hypertext Transfer Protocol
+                                       (HTTP).
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>40</strong><strong>$u</strong>http://jefferson.village.virginia.edu/pmc/contents.all.html
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$u</strong>http://jefferson.village.virginia.edu/pmc/contents.all.html
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>4#</strong><strong>$u</strong>http://hdl.handle.net/loc.test/gotthome<strong>$g</strong>urn:hdl.loc.test/gotthome
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>7 - Method specified in subfield $2</strong> <div class="description">Access to the electronic resource is through a method other than the defined
+                                       values and for which an identifying code is given in subfield $2
+                                       (Source of access).
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>7#</strong><strong>$3</strong>b&amp;w film copy neg.<strong>$d</strong>dag<strong>$f</strong>3d01926<strong>$2</strong>file
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="indicator"><strong>Second Indicator - Relationship</strong> <div class="description">Relationship between the electronic resource at the location identified in field
+                              856 and the item described in the record as a whole.
+            <div class="description2">Subfield $3 is used to provide further information about the
+                                 relationship if it is not a one-to-one relationship.
+            </div>
+            <div class="indicatorvalue"><strong># - No information provided</strong> <div class="description">No information is provided about the relationship of the electronic resource to
+                                       the bibliographic item described by the record.
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>0 - Resource</strong> <div class="description">Electronic location in field 856 is for the same resource described by the
+                                       record as a whole. In this case, the item represented by the bibliographic
+                                       record is an electronic resource. If the data in field 856 relates to a
+                                       constituent unit of the resource represented by the record, subfield
+                                       $3 is used to specify the portion(s) to which the field applies.Display constant <em>Electronic resource:</em> may be generated.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">10$aProceedings of the Seminar on Cataloging Digital
+                                                         Documents, October 12-14, 1994$h[electronic resource] /$cUniversity of Virginia Library, Charlottesville, and
+                                                         the Library of Congress.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>40</strong><strong>$u</strong>http://www.loc.gov/catdir/semdigdocs/seminar.html
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>1 - Version of resource</strong> <div class="description">Location in field 856 is for an electronic version of the resource described by
+                                       the record. In this case, the item represented by the bibliographic record is
+                                       not electronic but an electronic version is available. If the data in field 856
+                                       relates to a constituent unit of the resource represented by the record,
+                                       subfield $3 is used to specify the portion(s) to which the field
+                                       applies.Display constant <em>Electronic version:</em> may be generated.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aAmerican quarterly.</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>41</strong><strong>$u</strong>http://muse.jhu.edu/journals/american%5Fquarterly/
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$aAnalyzing qualitative data /$cedited by Alan Bryman and Robert G.
+                                                      Burgess
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>41</strong><strong>$3</strong>Table of contents<strong>$u</strong>http://www.loc.gov/catdir/toc/93-3471.html
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>2 - Related resource</strong> <div class="description">Location in field 856 is for an electronic resource that is related to the
+                                       bibliographic item described by the record. In this case, the item represented
+                                       by the bibliographic record is not the electronic resource itself. Subfield
+                                       $3 can be used to further characterize the relationship between the
+                                       electronic item identified in field 856 and the item represented by the
+                                       bibliographic record as a whole.Display constant <em>Related electronic resource:</em> may be generated.
+                  <div class="example">
+                     <table width="100%">
+                        <tr>
+                           <td valign="top" width="5%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="10%" align="left"></td>
+                           <td valign="top" width="15%" align="left"></td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left">245</td>
+                           <td vAlign="top" colspan="9" align="left">00$kPapers,$f1932-1970$g(bulk 1932-1965)</td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>42</strong><strong>$3</strong>Finding aid<strong>$u</strong>http://www.loc.gov/ammem/ead/jackson.sgm
+                           </td>
+                        </tr>
+                        <tr>
+                           <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                           <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$u</strong>http://www.loc.gov/ammem/ead/jackson.sgm
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="indicatorvalue"><strong>8 - No display constant generated</strong> </div>
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> SUBFIELD CODES
+      </h4>
+      <div class="subfield"><strong>$a - Host name</strong> <div class="description">Fully qualified domain (host name) of the electronic location. It contains a
+                              network address which is repeated if there is more than one address for the same
+                              host.
+         </div>
+      </div>
+      <div class="subfield"><strong>$b - Access number</strong> <div class="description">Access number associated with a host. It can contain the Internet Protocol (IP)
+                              numeric address if the item is an Internet resource, or a telephone number if
+                              dial-up access is provided through a telephone line. This data may change
+                              frequently and may be generated by the system, rather than statically stored.
+         </div>
+         <div class="description2">
+            <div class="description">May be repeated if all the other information in the field applies.</div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$c - Compression information</strong> <div class="description">Information about the compression of a file, in particular, whether a specific
+                              program is required to decompress the file.
+         </div>
+         <div class="description2">
+            <div class="description">May be repeated if two compression programs are used, noting the latest
+                                 compression first.
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$d - Path</strong> <div class="description"><em>Path</em>, which is the series of logical directory and subdirectory names
+                              that indicate where a file is stored. The filename itself is recorded in subfield
+                              $f. This may be a surrogate path leading the user to the host where
+                              complete and current access information is stored in a locator table.
+         </div>
+      </div>
+      <div class="subfield"><strong>$f - Electronic name</strong> <div class="description">Electronic name of a file as it exists in the directory/subdirectory indicated in
+                              subfield $d on the host identified in subfield $a. Subfield
+                              $f may be repeated if a single logical file has been divided into parts
+                              and stored under different names. In this case, the separate parts should
+                              constitute a single bibliographic item. In all other cases, a file that may be
+                              retrieved under different filenames contains multiple occurrences of field 856,
+                              each with its corresponding electronic name in subfield $f. A filename
+                              may include wildcard characters (e.g., * or ?) if applicable. Use subfield
+                              $z to explain how files are named, if needed.
+         </div>
+      </div>
+      <div class="subfield"><strong>$h - Processor of request</strong> <div class="description">Username, or processor of the request; generally the data which precedes the
+                                 <em>at</em> sign (@) in the host address.
+         </div>
+      </div>
+      <div class="subfield"><strong>$i - Instruction</strong> <div class="description">Instruction or command needed for the remote host to process a request.</div>
+      </div>
+      <div class="subfield"><strong>$j - Bits per second</strong> <div class="description">Lowest and highest number of <em>bits</em> (binary units) of data that can be
+                              transmitted per second when connected to a host. The syntax for recording the
+                              number of bits per second (BPS) should be: &lt;Lowest
+                              BPS&gt;-&lt;Highest BPS&gt;. If only lowest given: &lt;Lowest
+                              BPS&gt;- ; If only highest given: -&lt;Highest BPS&gt;.
+         </div>
+      </div>
+      <div class="subfield"><strong>$k - Password</strong> <div class="description">Password required to access the electronic resource. An FTP site may require the
+                              user to enter an Internet Protocol address or may require a specific password.
+                              Electronically accessed catalogs may also require a password. If a system that
+                              requires a password will accept anything entered as valid, this subfield can be
+                              omitted from field 856. This subfield is used to record general-use passwords, and
+                              should not contain passwords requiring security. Textual instructions about
+                              passwords are contained in subfield $z (Public note).
+         </div>
+      </div>
+      <div class="subfield"><strong>$l - Logon</strong> <div class="description">Characters needed to connect (i.e., <em>logon</em>, <em>login</em>, etc.) to an
+                              electronic resource or FTP site. Used to record general-use logon strings which do
+                              not require special security.
+         </div>
+         <div class="description2">
+            <div class="description">An account number required for login may also be indicated. For many general-use
+                                 File Transfer Protocol servers, access is gained by entering the string anonymous.
+                              
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$m - Contact for access assistance</strong> <div class="description">Name of a contact for assistance in accessing a resource at the host specified in
+                              subfield $a. For addresses relating to the content of the resource
+                              itself (i.e. the item represented by the title recorded in field 245) rather than
+                              access assistance, field 270 is used. If the address data is the same, use field
+                              270.
+         </div>
+      </div>
+      <div class="subfield"><strong>$n - Name of location of host</strong> <div class="description">Conventional name of the location of the host in subfield $a, including
+                              its physical (geographic) location.
+         </div>
+      </div>
+      <div class="subfield"><strong>$o - Operating system</strong> <div class="description">For informational purposes, the operating system used by the host specified in
+                              subfield $a may be indicated here. Conventions for the path and
+                              filenames may be dependent on the operating system of the host. For the operating
+                              system of the resource itself (i.e., the item represented by the title recorded in
+                              field 245), rather than the operating system of the host making it available,
+                              field 753 (Technical Details Access to Computer Files), subfield $c
+                              (Operating system) is used.
+         </div>
+      </div>
+      <div class="subfield"><strong>$p - Port</strong> <div class="description">Portion of the address that identifies a process or service in the host.</div>
+      </div>
+      <div class="subfield"><strong>$q - Electronic format type</strong> <div class="description">Identification of the electronic format type, which is the data representation of
+                              the resource, such as text/HTML, ASCII, Postscript file, executable application,
+                              or JPEG image. Electronic format type may be taken from enumerated lists such as
+                              registered Internet Media Types (MIME types).
+         </div>
+         <div class="description2">
+            <div class="description">Intent of specifying this element is to provide information necessary to allow
+                                 people or machines to make decisions about the usability of the encoded data (what
+                                 hardware and software might be required to display or execute it, for example).
+                                 The electronic format type also determines the file transfer mode, or how data are
+                                 transferred through a network. (Usually, a text file can be transferred as
+                                 character data which generally restricts the text to characters in the ASCII
+                                    (<em>American National Standard Code for Information Interchange</em> (ANSI
+                                 X3.4)) character set (i.e., the basic Latin alphabet, digits 0-9, a few special
+                                 characters, and most punctuation marks) and text files with characters outside of
+                                 the ASCII set, or non-textual data (e.g., computer programs, image data) must be
+                                 transferred using another binary mode.)
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$r - Settings</strong> <div class="description">Settings used for transferring data. Included in settings are: 1) Number Data Bits
+                              (the number of bits per character); 2) Number Stop Bits (the number of bits to
+                              signal the end of a byte); and 3) Parity (the parity checking technique used). The
+                              syntax of these elements is:
+         </div>
+		 <div class="description">
+         <div class="description2">&lt;Parity&gt;-&lt;Number Data Bits&gt;-&lt;Number Stop
+                              Bits&gt;
+         </div></div>
+		 <div class="description">
+         <div class="description2">If only the parity is given, the other elements of settings and their related
+                              hyphens are omitted (i.e., &lt;Parity&gt;). If one of the other two
+                              elements is given, the hyphen for the missing element is recorded in its proper
+                              position (i.e., &lt;Parity&gt;--&lt;Number Stop Bits&gt; or
+                              &lt;Parity&gt;-&lt;Number Data Bits&gt;- ). The values for parity
+                              are: O (Odd), E (Even), N (None), S (Space), and M (Mark).
+         </div></div>
+      </div>
+      <div class="subfield"><strong>$s - File size</strong> <div class="description">Size of the file as stored under the filename indicated in subfield $f.
+                              It is generally expressed in terms of 8-bit bytes (octets). It may be repeated in
+                              cases where the filename is repeated and directly follows the subfield
+                              $f to which it applies. This information is not given for journals,
+                              since field 856 relates to the entire title, not to particular issues.
+         </div>
+      </div>
+      <div class="subfield"><strong>$t - Terminal emulation</strong> <div class="description">Terminal emulation is usually specified for remote login (first indicator contains
+                              value 2 (Remote login (Telnet))).
+         </div>
+      </div>
+      <div class="subfield"><strong>$u - Uniform Resource Identifier</strong> <div class="description">Uniform Resource Identifier (URI), which provides standard syntax for locating an
+                              object using existing Internet protocols. Field 856 is structured to allow for the
+                              creation of a URL from the concatenation of other separate 856 subfields. Subfield
+                              $u may be used instead of those separate subfields or in addition to
+                              them.
+         </div>
+		 <div class="description">
+         <div class="description2">Subfield $u may be repeated only if both a URN or a URL or more than
+                              one URN are recorded.
+         </div></div>
+         <div class="description2">
+            <div class="description">Used for automated access to an electronic item using one of the Internet
+                                 protocols or by resolution of a URN. Subfield $u may be repeated only
+                                 if both a URN and a URL or more than one URN are recorded. Field 856 is repeated
+                                 if more than one URL needs to be recorded.
+            </div>
+         </div>
+      </div>
+      <div class="subfield"><strong>$v - Hours access method available</strong> <div class="description">Hours that access to an electronic resource is available at the location indicated
+                              in this field. If the record is for a system or service, the hours of availability
+                              are recorded in field 307 (Hours, etc.). This subfield is only used to record
+                              hours of availability of the specific location indicated in field 856.
+         </div>
+      </div>
+      <div class="subfield"><strong>$w - Record control number</strong> <div class="description">System control number of the related record preceded by the MARC code, enclosed in
+                              parentheses, for the agency to which the control number applies. The data in the
+                              subfield links field 856 to the MARC record having the same data in a control
+                              number field. See: <em><a href="http://www.loc.gov/marc/organizations/">MARC Code List for Organizations</a></em> for a listing of sources used in MARC 21 records.
+         </div>
+      </div>
+      <div class="subfield"><strong>$x - Nonpublic note</strong> <div class="description">Note relating to the electronic location of the source identified in the field.
+                              The note is written in a form that is not adequate or intended for public display.
+                              It may also contain processing information about the file at the location
+                              specified.
+         </div>
+      </div>
+      <div class="subfield"><strong>$y - Link text</strong> <div class="description">Used for display in place of the URL in subfield $u. When subfield
+                              $y is present, applications should use the contents of subfield
+                              $y as the link instead of the content of subfield $u when
+                              linking to the destination in subfield $u. The use of the link text is
+                              independent of any decision concerning the second indicator value.
+         </div>
+      </div>
+      <div class="subfield"><strong>$z - Public note</strong> <div class="description">Note relating to the electronic location of the source identified in the field.
+                              The note is written in a form that is adequate or intended for public display.
+         </div>
+      </div>
+      <div class="subfield"><strong>$2 - Access method</strong> <div class="description">Access method when the first indicator position contains value 7. Code from: <em><a href="http://www.loc.gov/standards/valuelist/electronaccess.html">Electronic Access Methods Code List</a></em>.</div>
+        </div>
+      <div class="subfield"><strong>$3 - Materials specified</strong> <div class="description">Part of the described material to which the field applies.</div>
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>42</strong><strong>$3</strong>Finding aid<strong>$u</strong>http://www.loc.gov/ammem/ead/jackson.sgm
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                                       Subfields</a></em>.
+         </div>
+      </div>
+      <h4><span class="box">&#9632;</span> EXAMPLES
+      </h4>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>41</strong><strong>$u</strong>http://www.jstor.org/journals/0277903x.html
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$u</strong>http://www.jstor.org/journals/0277903x.html
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>40</strong><strong>$u</strong>http://www.cdc.gov/ncidod/EID/eid.htm<strong>$q</strong>text/html
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$u</strong>http://www.cdc.gov/ncidod/EID/eid.htm
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>41</strong><strong>$u</strong>http://purl.oclc.org/OCLC/OLUC/34907403/1<strong>$x</strong>http://export.uswest.com/
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$u</strong>ftp://harvarda.harvard.edu<strong>$k</strong>guest
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>42</strong><strong>$3</strong>French version<strong>$u</strong>http://www.cgiar.org/ifpri/reports/0297rpt/0297-ft.htm
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$u</strong>http://www.cgiar.org/ifpri/reports/0297rpt/0297-ft.htm
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>42</strong><strong>$3</strong>Essays from annual reports<strong>$u</strong>http://woodrow.mpls.frb.fed.us/pubs/ar/index.html
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$u</strong>http://woodrow.mpls.frb.fed.us/publs/ar/index.html
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$u</strong>ftp://wuarchive.wustl.edu/mirrors/info-mac/util/color-system-icons.hqx<strong>$s</strong>16874 bytes
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$u</strong>telnet://maine.maine.edu<strong>$n</strong>University of Maine<strong>$t</strong>3270
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$u</strong>ftp://wuarchive.wustl.edu/mirrors2/win3/games/atmoids.zip<strong>$c</strong>decompress with PKUNZIP.exe<strong>$x</strong>cannot verify because of transfer
+                                    difficulty
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>4#</strong><strong>$z</strong>Part of the Ovid Mental Health Collection (MHC). Follow
+                                       instructions on MedMenu page for Ovid login.<strong>$u</strong>http://info.med.yale.edu/medmenu/info%5Fcbc.html
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$z</strong>Part of the Ovid Mental Health Collection (MHC). Follow
+                                       instructions on MedMenu page for Ovid login.<strong>$u</strong>http://info.med.yale.edu/medmenu/info%5Fcbc.html
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>40</strong><strong>$u</strong>http://www.ref.oclc.org:2000<strong>$z</strong>Address for accessing the journal using authorization
+                                       number and password through OCLC FirstSearch Electronic Collections Online.
+                                       Subscription to online journal required for access to abstracts and full
+                                    text
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$u</strong>http://www.ref.oclc.org:2000<strong>$z</strong>Address for accessing the journal using authorization
+                                       number and password through OCLC FirstSearch Electronic Collections Online.
+                                       Subscription to online journal required for access to abstracts and full
+                                    text
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>4#</strong><strong>$u</strong>http://susdl.fcla.edu/cgi-bin/cgiwrap/~fdl/fdlcgi?FA00000011%2Fjpg<strong>$y</strong>Electronic resource (JPEG)
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>4#</strong><strong>$u</strong>http://susdl.fcla.edu/cgi-bin/cgiwrap/~fdl/fdlcgi?FA00000011%2Fpdf<strong>$y</strong>Electronic resource (PDF)
+               </td>
+            </tr>
+         </table>
+      </div>
+      <div class="example">
+         <table width="100%">
+            <tr>
+               <td valign="top" width="5%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="10%" align="left"></td>
+               <td valign="top" width="15%" align="left"></td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>anthrax.micro.umn.edu<strong>$b</strong>128.101.95.23
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>maine.maine.edu<strong>$c</strong>Must be decompressed with PKUNZIP<strong>$f</strong>resource.zip
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>kentvm.bitnet<strong>$f</strong>acadlist file1<strong>$f</strong>acadlist file2<strong>$f</strong>acadlist file3
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>uicvm.bitnet<strong>$f</strong>AN2<strong>$h</strong>Listserv
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>madlab.sprl.umich.edu<strong>$n</strong>University of Michigan Weather Underground<strong>$p</strong>3000
+               </td>
+            </tr>
+            <tr>
+               <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+               <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$z</strong>FTP access to PostScript version includes groups of
+                                       article files with .pdf extension<strong>$a</strong>ftp.cdc.gov<strong>$d</strong>/pub/EIS/vol*no*/adobe<strong>$f</strong>*.pdf<strong>$l</strong>anonymous<strong>$q</strong>application/pdf
+               </td>
+            </tr>
+         </table>
+   </div>
+      <hr>
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="description2"><strong>Embedded Holdings Information</strong> - When holdings information is embedded in a MARC bibliographic record, multiple
+                     occurrences of field 856 may be used if the information does not include other holdings
+                     information fields that must be linked to a specific field 856 for intelligibility.
+                     Subfield $3 may be used to specify the parts of an item to which information
+                     in field 856 applies.
+      </div>
+      <div class="description2"><strong>Display Constants</strong> - Introductory terms or phrases such as <em>Electronic resource:</em>, <em>Electronic
+                           version:</em>, etc. are not carried in the MARC record. They may be system generated
+                     as display constants associated with the second indicator value.
+         <div class="table">
+            <table>
+               <tr>
+                  <td width="151" align="left" valign="top"><u>Second indicator</u></td>
+                  <td width="466" align="left" valign="top"><u>Display constant</u></td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">#</td>
+                  <td valign="top" align="left">Electronic resource:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">0</td>
+                  <td valign="top" align="left">Electronic resource:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">1</td>
+                  <td valign="top" align="left">Electronic version:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">2</td>
+                  <td valign="top" align="left">Related electronic resource:</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">8</td>
+                  <td valign="top" align="left"><em>[no display constant generated]</em></td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Spacing underscore and tilde in URLs</strong> - In February 1994, additional characters in the MARC character set were defined to both
+                     accommodate existing bibliographic needs and to align it with the ASCII and ANSEL
+                     character sets. Both the spacing underscore and the spacing tilde were added at the time
+                     because of the need in directory and file names for electronic resources.<br><br>Many systems have implemented these characters, however, for systems that have not
+                     implemented the spacing underscore and tilde, the following alternative characters may
+                     be used:
+         <div class="table">
+            <table>
+               <tr>
+                  <td valign="top" align="left">%5F for spacing underscore</td>
+               </tr>
+               <tr>
+                  <td valign="top" align="left">%7E for spacing tilde</td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <div class="description2"><strong>Style for Recording Telephone, Numbers</strong> - In subfield $b, periods, spaces, and parentheses used to divide the portions
+                     of a number are replaced with hyphens. Numbers are recorded as follows:
+         <div class="table">
+            <table>
+               <tr>
+                  <td valign="top" align="left">&lt;country code&gt;-&lt;area/city
+                                                code&gt;-&lt;exchange/line number&gt;
+                  </td>
+               </tr>
+            </table>
+         </div>Exchange/line number portion often includes internal separators which are replaced by
+                     hyphens. If an extension is also given, it is appended to the telephone number preceded
+                     by a space and " <em>x</em>".
+         <div class="example">
+            <table width="100%">
+               <tr>
+                  <td valign="top" width="5%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="10%" align="left"></td>
+                  <td valign="top" width="15%" align="left"></td>
+               </tr>
+               <tr>
+                  <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$b</strong>1-202-7072316<strong>$j</strong>2400/9600<strong>$n</strong>Library of Congress, Washington, DC<strong>$o</strong>UNIX<strong>$r</strong>E-7-1<strong>$t</strong>vt100<strong>$z</strong>Requires logon and password
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+      <hr>
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="font_small"><em>$q - File transfer mode [REDEFINED, 1997]</em><br>Subfield $q was defined to contain an indication of whether the file was
+                        transferred as binary or ASCII. It was redefined to contain type of electronic
+                        format.<br><em>$g - Electronic name - End of range [REDEFINED, 1997]</em><br><em>$g - Uniform Resource Name [OBSOLETE, 2000]</em><br>Because subfield $g (Electronic name - End of range) was rarely if ever
+                        used, it was redefined as Uniform Resource Name in 1997. It was subsequently made
+                        obsolete in favor of recording the URN in subfield $u.<br><em>$u - Uniform Resource Identifier [RENAMED, 2000]</em><br>Prior to 1999, subfield $u was defined as repeatable. It was changed to
+                        not repeatable in favor of repeating the field due to ambiguity in determining when
+                        the subfield could be repeatable. Subfield $u was changed back to
+                        repeatable and renamed in 2000 to record URNs after subfield $g was made
+                        obsolete.<br><em>$y - Link text [NEW, 2000]</em></div>
+      <hr>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="bottom">
+            <td>
+               <div class="head-nav"><a href="http://www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd84188x.html">841-88X</a> &gt;&gt; <strong>856</strong></div> 
+               (03/24/2008) 
+            </td>
+            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+         </tr>
+      </table>
+   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+</html>
