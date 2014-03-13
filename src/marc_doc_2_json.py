@@ -35,10 +35,6 @@ class marcDoc2Json:
 			self.processHTMLFixed(html)
 
 
-		with open("marc21_biblo_schema.json",'w') as aFile:
-			aFile.write(json.dumps(self.schema, sort_keys=True, indent=4, separators=(',', ': ')))	
-
-
 		self.files = [ f for f in listdir(self.dataDirectory) if isfile(join(self.dataDirectory,f)) ]
 
 		for f in self.files:
@@ -234,7 +230,20 @@ class marcDoc2Json:
 						allPositions.append(groups[x])
 
 
-		if len(allPositions) == 0:
+		if len(allPositions) == 0 and self.processing != '001' and self.processing != '003' and self.processing != '005':
+
+
+			allPositions = {}
+
+			titleMap006 = {
+				"Books" : "008b",
+				"Computer files/Electronic resources" : "008c",
+				"Music" : "008m",
+				"Continuing resources" : "008s",
+				"Visual materials" : "000v",
+				"Maps" : "008p",
+				"Mixed materials" : "008x"
+			}
 
 
 			if len(soup.find_all('td', {'width': '45%'})) > 1:
@@ -250,8 +259,9 @@ class marcDoc2Json:
 
 						if line.find("</em>") > -1:
 							line = line.replace("</em>",'').replace("<em>",'')							
-							activeCat = line
-							groups[activeCat] = []						
+							activeCat = titleMap006[line]
+							
+							groups[activeCat] = []			
 
 						if line.find(" - ") > -1:
 							pos, name = line.strip().split(' - ')
@@ -266,9 +276,12 @@ class marcDoc2Json:
 								groups[activeCat].append({"name": name, "start": int(start), "stop": int(stop)})
 
 					if activeCat != "":
+						
 						for x in groups:
-							allPositions.append(groups[x])
-				
+							allPositions[x] =groups[x].copy()
+							print (x)
+						
+						#allPositions = groups.copy()
 
 
 
@@ -388,7 +401,8 @@ class marcDoc2Json:
 			for aSubfield in subfields:
 
 
-				aSubfield = str(aSubfield).replace('<td colspan="1">','').replace('</td>','').replace('</br>','').replace("<br/>","").replace("\n",'').replace("\t",'').replace("&nbsp;",'')
+				aSubfield = str(aSubfield).replace('<td colspan="1">','').replace('</td>','').replace('</br>','').replace("<br/>","").replace("\n",'').replace("\t",'').replace("&nbsp;",'').replace("<em>",'').replace("</em>",'')
+
 				aSubfield = ' '.join(aSubfield.split())
 				fields = aSubfield.split("<br>")
 				
@@ -615,7 +629,7 @@ class marcDoc2Json:
 					continue
 
 				if x.find(" - ") > -1:
-					indicatorContentsValues[x.split(" - ")[0].strip()] = x.split(" - ")[1].strip()
+					indicatorContentsValues[x.split(" - ")[0].strip()] = x.split(" - ")[1].strip().replace("<em>",'').replace("</em>",'')
 
 			bothIndicators[count] = {'name' : indicatorContentsTitle, 'values': indicatorContentsValues}
 
