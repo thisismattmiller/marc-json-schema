@@ -21,10 +21,6 @@ class marcDoc2Json:
 
 		#self.downloadHTML()
 
-
-
-
-
 		self.files = [ f for f in listdir(self.dataDirectoryFixed) if isfile(join(self.dataDirectoryFixed,f)) ]
 
 		for f in self.files:
@@ -240,7 +236,7 @@ class marcDoc2Json:
 				"Computer files/Electronic resources" : "008c",
 				"Music" : "008m",
 				"Continuing resources" : "008s",
-				"Visual materials" : "000v",
+				"Visual materials" : "008v",
 				"Maps" : "008p",
 				"Mixed materials" : "008x"
 			}
