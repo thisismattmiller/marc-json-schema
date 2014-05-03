@@ -21,58 +21,6 @@
         "fixed": true,
         "name": "Fixed-Length Data Elements-Additional Material Characteristics",
         "positions": {
-            "000v": [
-                {
-                    "name": "Form of material",
-                    "start": 0,
-                    "stop": 0
-                },
-                {
-                    "name": "Running time",
-                    "start": 1,
-                    "stop": 3
-                },
-                {
-                    "name": "Undefined",
-                    "start": 4,
-                    "stop": 4
-                },
-                {
-                    "name": "Target audience",
-                    "start": 5,
-                    "stop": 5
-                },
-                {
-                    "name": "Undefined",
-                    "start": 6,
-                    "stop": 10
-                },
-                {
-                    "name": "Government publication",
-                    "start": 11,
-                    "stop": 11
-                },
-                {
-                    "name": "Form of item",
-                    "start": 12,
-                    "stop": 12
-                },
-                {
-                    "name": "Undefined",
-                    "start": 13,
-                    "stop": 15
-                },
-                {
-                    "name": "Type of visual material",
-                    "start": 16,
-                    "stop": 16
-                },
-                {
-                    "name": "Technique",
-                    "start": 17,
-                    "stop": 17
-                }
-            ],
             "008b": [
                 {
                     "name": "Form of material",
@@ -373,6 +321,58 @@
                     "stop": 17
                 }
             ],
+            "008v": [
+                {
+                    "name": "Form of material",
+                    "start": 0,
+                    "stop": 0
+                },
+                {
+                    "name": "Running time",
+                    "start": 1,
+                    "stop": 3
+                },
+                {
+                    "name": "Undefined",
+                    "start": 4,
+                    "stop": 4
+                },
+                {
+                    "name": "Target audience",
+                    "start": 5,
+                    "stop": 5
+                },
+                {
+                    "name": "Undefined",
+                    "start": 6,
+                    "stop": 10
+                },
+                {
+                    "name": "Government publication",
+                    "start": 11,
+                    "stop": 11
+                },
+                {
+                    "name": "Form of item",
+                    "start": 12,
+                    "stop": 12
+                },
+                {
+                    "name": "Undefined",
+                    "start": 13,
+                    "stop": 15
+                },
+                {
+                    "name": "Type of visual material",
+                    "start": 16,
+                    "stop": 16
+                },
+                {
+                    "name": "Technique",
+                    "start": 17,
+                    "stop": 17
+                }
+            ],
             "008x": [
                 {
                     "name": "Form of material",
@@ -432,13 +432,11 @@
                 }
             },
             {
-                "name": "Color",
-                "start": 3,
-                "stop": 3,
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
                 "values": {
-                    "a": "One color",
-                    "c": "Multicolored",
-                    "|": "No attempt to code"
+                    "a": "Map"
                 }
             },
             {
@@ -460,56 +458,6 @@
                 }
             },
             {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "a": "Map"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "d": "Atlas",
-                    "g": "Diagram",
-                    "j": "Map",
-                    "k": "Profile",
-                    "q": "Model",
-                    "r": "Remote-sensing image",
-                    "s": "Section",
-                    "u": "Unspecified",
-                    "y": "View",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "a": "Map"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
                 "name": "Color",
                 "start": 3,
                 "stop": 3,
@@ -520,15 +468,11 @@
                 }
             },
             {
-                "name": "Positive/negative aspect",
-                "start": 7,
-                "stop": 7,
+                "name": "Undefined",
+                "start": 2,
+                "stop": 2,
                 "values": {
-                    "a": "Positive",
-                    "b": "Negative",
-                    "m": "Mixed polarity",
-                    "n": "Not applicable",
-                    "|": "No attempt to code"
+                    "#": "Undefined"
                 }
             },
             {
@@ -546,31 +490,14 @@
                 }
             },
             {
-                "name": "Physical medium",
-                "start": 4,
-                "stop": 4,
+                "name": "Positive/negative aspect",
+                "start": 7,
+                "stop": 7,
                 "values": {
-                    "a": "Paper",
-                    "b": "Wood",
-                    "c": "Stone",
-                    "d": "Metal",
-                    "e": "Synthetic",
-                    "f": "Skin",
-                    "g": "Textiles",
-                    "i": "Plastic",
-                    "j": "Glass",
-                    "l": "Vinyl",
-                    "n": "Vellum",
-                    "p": "Plaster",
-                    "q": "Flexible base photographic, positive",
-                    "r": "Flexible base photographic, negative",
-                    "s": "Non-flexible base photographic, positive",
-                    "t": "Non-flexible base photographic, negative",
-                    "u": "Unknown",
-                    "v": "Leather",
-                    "w": "Parchment",
-                    "y": "Other photographic medium",
-                    "z": "Other",
+                    "a": "Positive",
+                    "b": "Negative",
+                    "m": "Mixed polarity",
+                    "n": "Not applicable",
                     "|": "No attempt to code"
                 }
             },
@@ -594,23 +521,19 @@
         "name": "Electronic Resource",
         "positions": [
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
+                "name": "Dimensions",
+                "start": 4,
+                "stop": 4,
                 "values": {
-                    "a": "Tape cartridge",
-                    "b": "Chip cartridge",
-                    "c": "Computer optical disc cartridge",
-                    "d": "Computer disc, type unspecified",
-                    "e": "Computer disc cartridge, type unspecified",
-                    "f": "Tape cassette",
-                    "h": "Tape reel",
-                    "j": "Magnetic disk",
-                    "k": "Computer card",
-                    "m": "Magneto-optical disc",
-                    "o": "Optical disc",
-                    "r": "Remote",
-                    "u": "Unspecified",
+                    "a": "3 1/2 in.",
+                    "e": "12 in.",
+                    "g": "4 3/4 in. or 12 cm.",
+                    "i": "1 1/8 x 2 3/8 in.",
+                    "j": "3 7/8 x 2 1/2 in.",
+                    "n": "Not applicable",
+                    "o": "5 1/4 in.",
+                    "u": "Unknown",
+                    "v": "8 in.",
                     "z": "Other",
                     "|": "No attempt to code"
                 }
@@ -621,6 +544,17 @@
                 "stop": 0,
                 "values": {
                     "c": "Electronic resource"
+                }
+            },
+            {
+                "name": "Sound",
+                "start": 5,
+                "stop": 5,
+                "values": {
+                    "#": "No sound (silent)",
+                    "a": "Sound",
+                    "u": "Unknown",
+                    "|": "No attempt to code"
                 }
             },
             {
@@ -629,141 +563,6 @@
                 "stop": 2,
                 "values": {
                     "#": "Undefined"
-                }
-            },
-            {
-                "name": "Color",
-                "start": 3,
-                "stop": 3,
-                "values": {
-                    "a": "One color",
-                    "b": "Black-and-white",
-                    "c": "Multicolored",
-                    "g": "Gray scale",
-                    "m": "Mixed",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Dimensions",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "a": "3 1/2 in.",
-                    "e": "12 in.",
-                    "g": "4 3/4 in. or 12 cm.",
-                    "i": "1 1/8 x 2 3/8 in.",
-                    "j": "3 7/8 x 2 1/2 in.",
-                    "n": "Not applicable",
-                    "o": "5 1/4 in.",
-                    "u": "Unknown",
-                    "v": "8 in.",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Sound",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "#": "No sound (silent)",
-                    "a": "Sound",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Quality assurance target(s)",
-                "start": 10,
-                "stop": 10,
-                "values": {
-                    "a": "Absent",
-                    "n": "Not applicable",
-                    "p": "Present",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Reformatting Quality",
-                "start": 13,
-                "stop": 13,
-                "values": {
-                    "a": "Access",
-                    "n": "Not applicable",
-                    "p": "Preservation",
-                    "r": "Replacement",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "c": "Electronic resource"
-                }
-            },
-            {
-                "name": "Antecedent/Source",
-                "start": 11,
-                "stop": 11,
-                "values": {
-                    "a": "File reproduced from original",
-                    "b": "File reproduced from microform",
-                    "c": "File reproduced from an electronic resource",
-                    "d": "File reproduced from an intermediate (not microform)",
-                    "m": "Mixed",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Level of compression",
-                "start": 12,
-                "stop": 12,
-                "values": {
-                    "a": "Uncompressed",
-                    "b": "Lossless",
-                    "d": "Lossy",
-                    "m": "Mixed",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Dimensions",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "a": "3 1/2 in.",
-                    "e": "12 in.",
-                    "g": "4 3/4 in. or 12 cm.",
-                    "i": "1 1/8 x 2 3/8 in.",
-                    "j": "3 7/8 x 2 1/2 in.",
-                    "n": "Not applicable",
-                    "o": "5 1/4 in.",
-                    "u": "Unknown",
-                    "v": "8 in.",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Sound",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "#": "No sound (silent)",
-                    "a": "Sound",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
                 }
             },
             {
@@ -786,26 +585,6 @@
                     "u": "Unspecified",
                     "z": "Other",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Image bit depth",
-                "start": 6,
-                "stop": 8,
-                "values": {
-                    "---": "Unknown",
-                    "001-999": "Exact bit depth",
-                    "mmm": "Multiple",
-                    "nnn": "Not applicable",
-                    "|||": "No attempt to code"
                 }
             },
             {
@@ -834,6 +613,71 @@
                     "u": "Unknown",
                     "|": "No attempt to code"
                 }
+            },
+            {
+                "name": "Level of compression",
+                "start": 12,
+                "stop": 12,
+                "values": {
+                    "a": "Uncompressed",
+                    "b": "Lossless",
+                    "d": "Lossy",
+                    "m": "Mixed",
+                    "u": "Unknown",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Image bit depth",
+                "start": 6,
+                "stop": 8,
+                "values": {
+                    "---": "Unknown",
+                    "001-999": "Exact bit depth",
+                    "mmm": "Multiple",
+                    "nnn": "Not applicable",
+                    "|||": "No attempt to code"
+                }
+            },
+            {
+                "name": "Quality assurance target(s)",
+                "start": 10,
+                "stop": 10,
+                "values": {
+                    "a": "Absent",
+                    "n": "Not applicable",
+                    "p": "Present",
+                    "u": "Unknown",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Antecedent/Source",
+                "start": 11,
+                "stop": 11,
+                "values": {
+                    "a": "File reproduced from original",
+                    "b": "File reproduced from microform",
+                    "c": "File reproduced from an electronic resource",
+                    "d": "File reproduced from an intermediate (not microform)",
+                    "m": "Mixed",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Reformatting Quality",
+                "start": 13,
+                "stop": 13,
+                "values": {
+                    "a": "Access",
+                    "n": "Not applicable",
+                    "p": "Preservation",
+                    "r": "Replacement",
+                    "u": "Unknown",
+                    "|": "No attempt to code"
+                }
             }
         ],
         "repeatable": true
@@ -843,13 +687,11 @@
         "name": "Globe",
         "positions": [
             {
-                "name": "Color",
-                "start": 3,
-                "stop": 3,
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
                 "values": {
-                    "a": "One color",
-                    "c": "Multicolored",
-                    "|": "No attempt to code"
+                    "d": "Globe"
                 }
             },
             {
@@ -867,52 +709,6 @@
                 }
             },
             {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "d": "Globe"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "a": "Celestial globe",
-                    "b": "Planetary or lunar globe",
-                    "c": "Terrestrial globe",
-                    "e": "Earth moon globe",
-                    "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "d": "Globe"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
                 "name": "Color",
                 "start": 3,
                 "stop": 3,
@@ -920,6 +716,14 @@
                     "a": "One color",
                     "c": "Multicolored",
                     "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined",
+                "start": 2,
+                "stop": 2,
+                "values": {
+                    "#": "Undefined"
                 }
             },
             {
@@ -997,46 +801,11 @@
                 }
             },
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "a": "Moon",
-                    "b": "Braille",
-                    "c": "Combination",
-                    "d": "Tactile, with no writing system",
-                    "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Category of material",
                 "start": 0,
                 "stop": 0,
                 "values": {
                     "f": "Tactile material"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Special physical characteristics",
-                "start": 9,
-                "stop": 9,
-                "values": {
-                    "a": "Print/braille",
-                    "b": "Jumbo or enlarged braille",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
                 }
             },
             {
@@ -1054,51 +823,11 @@
                 }
             },
             {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "f": "Tactile material"
-                }
-            },
-            {
                 "name": "Undefined",
                 "start": 2,
                 "stop": 2,
                 "values": {
                     "#": "Undefined"
-                }
-            },
-            {
-                "name": "Class of braille writing",
-                "start": 3,
-                "stop": 4,
-                "values": {
-                    "#": "No specified class of braille writing",
-                    "a": "Literary braille",
-                    "b": "Format code braille",
-                    "c": "Mathematics and scientific braille",
-                    "d": "Computer braille",
-                    "e": "Music braille",
-                    "m": "Multiple braille types",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "||": "No attempt to code"
-                }
-            },
-            {
-                "name": "Level of contraction",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "a": "Uncontracted",
-                    "b": "Contracted",
-                    "m": "Combination",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
                 }
             },
             {
@@ -1124,6 +853,19 @@
                     "z": "Other",
                     "|||": "No attempt to code"
                 }
+            },
+            {
+                "name": "Special physical characteristics",
+                "start": 9,
+                "stop": 9,
+                "values": {
+                    "a": "Print/braille",
+                    "b": "Jumbo or enlarged braille",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
             }
         ],
         "repeatable": true
@@ -1133,6 +875,14 @@
         "name": "Projected Graphic",
         "positions": [
             {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "g": "Projected graphic"
+                }
+            },
+            {
                 "name": "Sound on medium or separate",
                 "start": 5,
                 "stop": 5,
@@ -1142,30 +892,6 @@
                     "b": "Sound separate from medium",
                     "u": "Unknown",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "c": "Filmstrip cartridge",
-                    "d": "Filmslip",
-                    "f": "Filmstrip, type unspecified",
-                    "o": "Filmstrip roll",
-                    "s": "Slide",
-                    "t": "Transparency",
-                    "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "g": "Projected graphic"
                 }
             },
             {
@@ -1193,72 +919,6 @@
                 }
             },
             {
-                "name": "Color",
-                "start": 3,
-                "stop": 3,
-                "values": {
-                    "a": "One color",
-                    "b": "Black-and-white",
-                    "c": "Multicolored",
-                    "h": "Hand colored",
-                    "m": "Mixed",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Medium for sound",
-                "start": 6,
-                "stop": 6,
-                "values": {
-                    "#": "No sound (silent)",
-                    "a": "Optical sound track on motion picture film",
-                    "b": "Magnetic sound track on motion picture film",
-                    "c": "Magnetic audio tape in cartridge",
-                    "d": "Sound disc",
-                    "e": "Magnetic audio tape on reel",
-                    "f": "Magnetic audio tape in cassette",
-                    "g": "Optical and magnetic sound track on motion picture film",
-                    "h": "Videotape",
-                    "i": "Videodisc",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Sound on medium or separate",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "#": "No sound (silent)",
-                    "a": "Sound on medium",
-                    "b": "Sound separate from medium",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Secondary support material",
-                "start": 8,
-                "stop": 8,
-                "values": {
-                    "#": "No secondary support",
-                    "c": "Cardboard",
-                    "d": "Glass",
-                    "e": "Synthetic",
-                    "h": "Metal",
-                    "j": "Metal and glass",
-                    "k": "Synthetic and glass",
-                    "m": "Mixed collection",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Specific material designation",
                 "start": 1,
                 "stop": 1,
@@ -1270,38 +930,6 @@
                     "s": "Slide",
                     "t": "Transparency",
                     "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "g": "Projected graphic"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Base of emulsion",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "d": "Glass",
-                    "e": "Synthetic",
-                    "j": "Safety film",
-                    "k": "Film base, other than safety film",
-                    "m": "Mixed collection",
-                    "o": "Paper",
-                    "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
                 }
@@ -1346,6 +974,44 @@
                     "z": "Other",
                     "|": "No attempt to code"
                 }
+            },
+            {
+                "name": "Secondary support material",
+                "start": 8,
+                "stop": 8,
+                "values": {
+                    "#": "No secondary support",
+                    "c": "Cardboard",
+                    "d": "Glass",
+                    "e": "Synthetic",
+                    "h": "Metal",
+                    "j": "Metal and glass",
+                    "k": "Synthetic and glass",
+                    "m": "Mixed collection",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Medium for sound",
+                "start": 6,
+                "stop": 6,
+                "values": {
+                    "#": "No sound (silent)",
+                    "a": "Optical sound track on motion picture film",
+                    "b": "Magnetic sound track on motion picture film",
+                    "c": "Magnetic audio tape in cartridge",
+                    "d": "Sound disc",
+                    "e": "Magnetic audio tape on reel",
+                    "f": "Magnetic audio tape in cassette",
+                    "g": "Optical and magnetic sound track on motion picture film",
+                    "h": "Videotape",
+                    "i": "Videodisc",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
             }
         ],
         "repeatable": true
@@ -1374,6 +1040,14 @@
                 }
             },
             {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "h": "Microform"
+                }
+            },
+            {
                 "name": "Positive/negative aspect",
                 "start": 3,
                 "stop": 3,
@@ -1405,102 +1079,12 @@
                 }
             },
             {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "h": "Microform"
-                }
-            },
-            {
                 "name": "Undefined",
                 "start": 2,
                 "stop": 2,
                 "values": {
                     "#": "Undefined"
                 }
-            },
-            {
-                "name": "Generation",
-                "start": 11,
-                "stop": 11,
-                "values": {
-                    "a": "First generation (master)",
-                    "b": "Printing master",
-                    "c": "Service copy",
-                    "m": "Mixed generation",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Emulsion on film",
-                "start": 10,
-                "stop": 10,
-                "values": {
-                    "a": "Silver halide",
-                    "b": "Diazo",
-                    "c": "Vesicular",
-                    "m": "Mixed emulsion",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "a": "Aperture card",
-                    "b": "Microfilm cartridge",
-                    "c": "Microfilm cassette",
-                    "d": "Microfilm reel",
-                    "e": "Microfiche",
-                    "f": "Microfiche cassette",
-                    "g": "Microopaque",
-                    "h": "Microfilm slip",
-                    "j": "Microfilm roll",
-                    "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "h": "Microform"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Color",
-                "start": 9,
-                "stop": 9,
-                "values": {
-                    "b": "Black-and-white",
-                    "c": "Multicolored",
-                    "m": "Mixed",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Reduction ratio",
-                "start": 6,
-                "stop": 8,
-                "values": {}
             },
             {
                 "name": "Base of film",
@@ -1522,25 +1106,6 @@
                 }
             },
             {
-                "name": "Dimensions",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "a": "8 mm.",
-                    "d": "16 mm.",
-                    "f": "35 mm.",
-                    "g": "70 mm.",
-                    "h": "105 mm.",
-                    "l": "3x5 in. or 8x13 cm.",
-                    "m": "4x6 in. or 11x15 cm.",
-                    "o": "6x9 in. or 16x23 cm.",
-                    "p": "3 1/4 x 7 3/8 in. or 9x19 cm.",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Reduction ratio range",
                 "start": 5,
                 "stop": 5,
@@ -1556,14 +1121,49 @@
                 }
             },
             {
-                "name": "Positive/negative aspect",
-                "start": 3,
-                "stop": 3,
+                "name": "Reduction ratio",
+                "start": 6,
+                "stop": 8,
+                "values": {}
+            },
+            {
+                "name": "Generation",
+                "start": 11,
+                "stop": 11,
                 "values": {
-                    "a": "Positive",
-                    "b": "Negative",
-                    "m": "Mixed polarity",
+                    "a": "First generation (master)",
+                    "b": "Printing master",
+                    "c": "Service copy",
+                    "m": "Mixed generation",
                     "u": "Unknown",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Color",
+                "start": 9,
+                "stop": 9,
+                "values": {
+                    "b": "Black-and-white",
+                    "c": "Multicolored",
+                    "m": "Mixed",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Emulsion on film",
+                "start": 10,
+                "stop": 10,
+                "values": {
+                    "a": "Silver halide",
+                    "b": "Diazo",
+                    "c": "Vesicular",
+                    "m": "Mixed emulsion",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
                     "|": "No attempt to code"
                 }
             }
@@ -1574,6 +1174,42 @@
         "fixed": true,
         "name": "Nonprojected Graphic",
         "positions": [
+            {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "k": "Nonprojected graphic"
+                }
+            },
+            {
+                "name": "Specific material designation",
+                "start": 1,
+                "stop": 1,
+                "values": {
+                    "a": "Activity card",
+                    "c": "Collage",
+                    "d": "Drawing",
+                    "e": "Painting",
+                    "f": "Photomechanical print",
+                    "g": "Photonegative",
+                    "h": "Photoprint",
+                    "i": "Picture",
+                    "j": "Print",
+                    "k": "Poster",
+                    "l": "Technical drawing",
+                    "n": "Chart",
+                    "o": "Flash card",
+                    "p": "Postcard",
+                    "q": "Icon",
+                    "r": "Radiograph&gt;",
+                    "s": "Study print",
+                    "u": "Unspecified",
+                    "v": "Photograph, type unspecified",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
             {
                 "name": "Color",
                 "start": 3,
@@ -1590,42 +1226,6 @@
                 }
             },
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "a": "Activity card",
-                    "c": "Collage",
-                    "d": "Drawing",
-                    "e": "Painting",
-                    "f": "Photomechanical print",
-                    "g": "Photonegative",
-                    "h": "Photoprint",
-                    "i": "Picture",
-                    "j": "Print",
-                    "k": "Poster",
-                    "l": "Technical drawing",
-                    "n": "Chart",
-                    "o": "Flash card",
-                    "p": "Postcard",
-                    "q": "Icon",
-                    "r": "Radiograph&gt;",
-                    "s": "Study print",
-                    "u": "Unspecified",
-                    "v": "Photograph, type unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "k": "Nonprojected graphic"
-                }
-            },
-            {
                 "name": "Undefined",
                 "start": 2,
                 "stop": 2,
@@ -1634,55 +1234,10 @@
                 }
             },
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
+                "name": "Primary support material",
+                "start": 4,
+                "stop": 4,
                 "values": {
-                    "a": "Activity card",
-                    "c": "Collage",
-                    "d": "Drawing",
-                    "e": "Painting",
-                    "f": "Photomechanical print",
-                    "g": "Photonegative",
-                    "h": "Photoprint",
-                    "i": "Picture",
-                    "j": "Print",
-                    "k": "Poster",
-                    "l": "Technical drawing",
-                    "n": "Chart",
-                    "o": "Flash card",
-                    "p": "Postcard",
-                    "q": "Icon",
-                    "r": "Radiograph&gt;",
-                    "s": "Study print",
-                    "u": "Unspecified",
-                    "v": "Photograph, type unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "k": "Nonprojected graphic"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Secondary support material",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "#": "No secondary support",
                     "a": "Canvas",
                     "b": "Bristol board",
                     "c": "Cardboard/illustration board",
@@ -1709,25 +1264,11 @@
                 }
             },
             {
-                "name": "Color",
-                "start": 3,
-                "stop": 3,
+                "name": "Secondary support material",
+                "start": 5,
+                "stop": 5,
                 "values": {
-                    "a": "One color",
-                    "b": "Black-and-white",
-                    "c": "Multicolored",
-                    "h": "Hand colored",
-                    "m": "Mixed",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Primary support material",
-                "start": 4,
-                "stop": 4,
-                "values": {
+                    "#": "No secondary support",
                     "a": "Canvas",
                     "b": "Bristol board",
                     "c": "Cardboard/illustration board",
@@ -1781,6 +1322,14 @@
                 }
             },
             {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "m": "Motion picture"
+                }
+            },
+            {
                 "name": "Sound on medium or separate",
                 "start": 5,
                 "stop": 5,
@@ -1790,84 +1339,6 @@
                     "b": "Sound separate from medium",
                     "u": "Unknown",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "c": "Film cartridge",
-                    "f": "Film cassette",
-                    "o": "Film roll",
-                    "r": "Film reel",
-                    "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "m": "Motion picture"
-                }
-            },
-            {
-                "name": "Motion picture presentation format",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "a": "Standard sound aperture (reduced frame)",
-                    "b": "Nonanamorphic (wide-screen)",
-                    "c": "3D",
-                    "d": "Anamorphic (wide-screen)",
-                    "e": "Other wide-screen format",
-                    "f": "Standard silent aperture (full frame)",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Production elements",
-                "start": 9,
-                "stop": 9,
-                "values": {
-                    "a": "Workprint",
-                    "b": "Trims",
-                    "c": "Outtakes",
-                    "d": "Rushes",
-                    "e": "Mixing tracks",
-                    "f": "Title bands/inter-title rolls",
-                    "g": "Production rolls",
-                    "n": "Not applicable",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Color",
-                "start": 3,
-                "stop": 3,
-                "values": {
-                    "b": "Black-and-white",
-                    "c": "Multicolored",
-                    "h": "Hand colored",
-                    "m": "Mixed",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
                 }
             },
             {
@@ -1888,6 +1359,31 @@
                 }
             },
             {
+                "name": "Undefined",
+                "start": 2,
+                "stop": 2,
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            {
+                "name": "Production elements",
+                "start": 9,
+                "stop": 9,
+                "values": {
+                    "a": "Workprint",
+                    "b": "Trims",
+                    "c": "Outtakes",
+                    "d": "Rushes",
+                    "e": "Mixing tracks",
+                    "f": "Title bands/inter-title rolls",
+                    "g": "Production rolls",
+                    "n": "Not applicable",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
                 "name": "Configuration of playback channels",
                 "start": 8,
                 "stop": 8,
@@ -1903,26 +1399,97 @@
                 }
             },
             {
+                "name": "Specific material designation",
+                "start": 1,
+                "stop": 1,
+                "values": {
+                    "c": "Film cartridge",
+                    "f": "Film cassette",
+                    "o": "Film roll",
+                    "r": "Film reel",
+                    "u": "Unspecified",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Color",
+                "start": 3,
+                "stop": 3,
+                "values": {
+                    "b": "Black-and-white",
+                    "c": "Multicolored",
+                    "h": "Hand colored",
+                    "m": "Mixed",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Motion picture presentation format",
+                "start": 4,
+                "stop": 4,
+                "values": {
+                    "a": "Standard sound aperture (reduced frame)",
+                    "b": "Nonanamorphic (wide-screen)",
+                    "c": "3D",
+                    "d": "Anamorphic (wide-screen)",
+                    "e": "Other wide-screen format",
+                    "f": "Standard silent aperture (full frame)",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Base of film",
+                "start": 12,
+                "stop": 12,
+                "values": {
+                    "a": "Safety base, undetermined",
+                    "c": "Safety base, acetate undetermined",
+                    "d": "Safety base, diacetate",
+                    "i": "Nitrate base",
+                    "m": "Mixed base (nitrate and safety)",
+                    "n": "Not applicable",
+                    "p": "Safety base, polyester",
+                    "r": "Safety base, mixed",
+                    "t": "Safety base, triacetate",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
                 "name": "Film inspection date",
                 "start": 17,
                 "stop": 22,
                 "values": {}
             },
             {
-                "name": "Medium for sound",
-                "start": 6,
-                "stop": 6,
+                "name": "Positive/negative aspect",
+                "start": 10,
+                "stop": 10,
                 "values": {
-                    "#": "No sound (silent)",
-                    "a": "Optical sound track on motion picture film",
-                    "b": "Magnetic sound track on motion picture film",
-                    "c": "Magnetic audio tape in cartridge",
-                    "d": "Sound disc",
-                    "e": "Magnetic audio tape on reel",
-                    "f": "Magnetic audio tape in cassette",
-                    "g": "Optical and magnetic sound track on motion picture film",
-                    "h": "Videotape",
-                    "i": "Videodisc",
+                    "a": "Positive",
+                    "b": "Negative",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Generation",
+                "start": 11,
+                "stop": 11,
+                "values": {
+                    "d": "Duplicate",
+                    "e": "Master",
+                    "o": "Original",
+                    "r": "Reference print/viewing copy",
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
@@ -1978,11 +1545,15 @@
                 }
             },
             {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
+                "name": "Completeness",
+                "start": 16,
+                "stop": 16,
                 "values": {
-                    "m": "Motion picture"
+                    "c": "Complete",
+                    "i": "Incomplete",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "|": "No attempt to code"
                 }
             },
             {
@@ -1999,178 +1570,6 @@
                     "z": "Other",
                     "|": "No attempt to code"
                 }
-            },
-            {
-                "name": "Production elements",
-                "start": 9,
-                "stop": 9,
-                "values": {
-                    "a": "Workprint",
-                    "b": "Trims",
-                    "c": "Outtakes",
-                    "d": "Rushes",
-                    "e": "Mixing tracks",
-                    "f": "Title bands/inter-title rolls",
-                    "g": "Production rolls",
-                    "n": "Not applicable",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Color",
-                "start": 3,
-                "stop": 3,
-                "values": {
-                    "b": "Black-and-white",
-                    "c": "Multicolored",
-                    "h": "Hand colored",
-                    "m": "Mixed",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Dimensions",
-                "start": 7,
-                "stop": 7,
-                "values": {
-                    "a": "Standard 8 mm.",
-                    "b": "Super 8 mm./single 8 mm.",
-                    "c": "9.5 mm.",
-                    "d": "16 mm.",
-                    "e": "28 mm.",
-                    "f": "35 mm.",
-                    "g": "70 mm.",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Positive/negative aspect",
-                "start": 10,
-                "stop": 10,
-                "values": {
-                    "a": "Positive",
-                    "b": "Negative",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Generation",
-                "start": 11,
-                "stop": 11,
-                "values": {
-                    "d": "Duplicate",
-                    "e": "Master",
-                    "o": "Original",
-                    "r": "Reference print/viewing copy",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Completeness",
-                "start": 16,
-                "stop": 16,
-                "values": {
-                    "c": "Complete",
-                    "i": "Incomplete",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Sound on medium or separate",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "#": "No sound (silent)",
-                    "a": "Sound on medium",
-                    "b": "Sound separate from medium",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "c": "Film cartridge",
-                    "f": "Film cassette",
-                    "o": "Film roll",
-                    "r": "Film reel",
-                    "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Motion picture presentation format",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "a": "Standard sound aperture (reduced frame)",
-                    "b": "Nonanamorphic (wide-screen)",
-                    "c": "3D",
-                    "d": "Anamorphic (wide-screen)",
-                    "e": "Other wide-screen format",
-                    "f": "Standard silent aperture (full frame)",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Configuration of playback channels",
-                "start": 8,
-                "stop": 8,
-                "values": {
-                    "k": "Mixed",
-                    "m": "Monaural",
-                    "n": "Not applicable",
-                    "q": "Quadraphonic, multichannel, or surround",
-                    "s": "Stereophonic",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Base of film",
-                "start": 12,
-                "stop": 12,
-                "values": {
-                    "a": "Safety base, undetermined",
-                    "c": "Safety base, acetate undetermined",
-                    "d": "Safety base, diacetate",
-                    "i": "Nitrate base",
-                    "m": "Mixed base (nitrate and safety)",
-                    "n": "Not applicable",
-                    "p": "Safety base, polyester",
-                    "r": "Safety base, mixed",
-                    "t": "Safety base, triacetate",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
             }
         ],
         "repeatable": true
@@ -2180,15 +1579,6 @@
         "name": "Kit",
         "positions": [
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "u": "Unspecified",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Category of material",
                 "start": 0,
                 "stop": 0,
@@ -2203,14 +1593,6 @@
                 "values": {
                     "u": "Unspecified",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "o": "Kit"
                 }
             }
         ],
@@ -2221,15 +1603,6 @@
         "name": "Notated Music",
         "positions": [
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "u": "Unspecified",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Category of material",
                 "start": 0,
                 "stop": 0,
@@ -2244,14 +1617,6 @@
                 "values": {
                     "u": "Unspecified",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "q": "Notated music"
                 }
             }
         ],
@@ -2262,41 +1627,11 @@
         "name": "Remote-Sensing Image",
         "positions": [
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "u": "Unspecified",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Category of material",
                 "start": 0,
                 "stop": 0,
                 "values": {
                     "r": "Remote-sensing image"
-                }
-            },
-            {
-                "name": "Attitude of sensor",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "a": "Low oblique",
-                    "b": "High oblique",
-                    "c": "Vertical",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
                 }
             },
             {
@@ -2340,6 +1675,36 @@
                 }
             },
             {
+                "name": "Attitude of sensor",
+                "start": 4,
+                "stop": 4,
+                "values": {
+                    "a": "Low oblique",
+                    "b": "High oblique",
+                    "c": "Vertical",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined",
+                "start": 2,
+                "stop": 2,
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            {
+                "name": "Specific material designation",
+                "start": 1,
+                "stop": 1,
+                "values": {
+                    "u": "Unspecified",
+                    "|": "No attempt to code"
+                }
+            },
+            {
                 "name": "Altitude of sensor",
                 "start": 3,
                 "stop": 3,
@@ -2363,6 +1728,18 @@
                     "c": "Space observing",
                     "m": "Mixed uses",
                     "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Sensor type",
+                "start": 8,
+                "stop": 8,
+                "values": {
+                    "a": "Active",
+                    "b": "Passive",
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
@@ -2416,110 +1793,6 @@
                     "zz": "Other",
                     "||": "No attempt to code"
                 }
-            },
-            {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "u": "Unspecified",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "r": "Remote-sensing image"
-                }
-            },
-            {
-                "name": "Attitude of sensor",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "a": "Low oblique",
-                    "b": "High oblique",
-                    "c": "Vertical",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Sensor type",
-                "start": 8,
-                "stop": 8,
-                "values": {
-                    "a": "Active",
-                    "b": "Passive",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Cloud cover",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "0": "0-9%",
-                    "1": "10-19%",
-                    "2": "20-29%",
-                    "3": "30-39%",
-                    "4": "40-49%",
-                    "5": "50-59%",
-                    "6": "60-69%",
-                    "7": "70-79%",
-                    "8": "80-89%",
-                    "9": "90-100%",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Platform construction type",
-                "start": 6,
-                "stop": 6,
-                "values": {
-                    "a": "Balloon",
-                    "b": "Aircraft--low altitude",
-                    "c": "Aircraft--medium altitude",
-                    "d": "Aircraft--high altitude",
-                    "e": "Manned spacecraft",
-                    "f": "Unmanned spacecraft",
-                    "g": "Land-based remote-sensing device",
-                    "h": "Water surface-based remote-sensing device",
-                    "i": "Submersible remote-sensing device",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Altitude of sensor",
-                "start": 3,
-                "stop": 3,
-                "values": {
-                    "a": "Surface",
-                    "b": "Airborne",
-                    "c": "Spaceborne",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
             }
         ],
         "repeatable": true
@@ -2528,6 +1801,50 @@
         "fixed": true,
         "name": "Sound Recording",
         "positions": [
+            {
+                "name": "Dimensions",
+                "start": 6,
+                "stop": 6,
+                "values": {
+                    "a": "3 in. diameter",
+                    "b": "5 in. diameter",
+                    "c": "7 in. diameter",
+                    "d": "10 in. diameter",
+                    "e": "12 in. diameter",
+                    "f": "16 in. diameter",
+                    "g": "4 3/4 in. or 12 cm. diameter",
+                    "j": "3 7/8 x 2 1/2 in.",
+                    "n": "Not applicable",
+                    "o": "5 1/4 x 3 7/8 in.",
+                    "s": "2 3/4 x 4 in.",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "s": "Sound recording"
+                }
+            },
+            {
+                "name": "Tape width",
+                "start": 7,
+                "stop": 7,
+                "values": {
+                    "l": "1/8 in.",
+                    "m": "1/4 in.",
+                    "n": "Not applicable",
+                    "o": "1/2 in.",
+                    "p": "1 in.",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
             {
                 "name": "Speed",
                 "start": 3,
@@ -2547,6 +1864,40 @@
                     "o": "7 1/2 ips (tapes)",
                     "p": "15 ips (tapes)",
                     "r": "30 ips (tape)",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined",
+                "start": 2,
+                "stop": 2,
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            {
+                "name": "Groove width/groove pitch",
+                "start": 5,
+                "stop": 5,
+                "values": {
+                    "m": "Microgroove/fine",
+                    "n": "Not applicable",
+                    "s": "Coarse/standard",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Configuration of playback channels",
+                "start": 4,
+                "stop": 4,
+                "values": {
+                    "m": "Monaural",
+                    "q": "Quadraphonic",
+                    "s": "Stereophonic",
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
@@ -2571,104 +1922,14 @@
                 }
             },
             {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
+                "name": "Kind of cutting",
+                "start": 11,
+                "stop": 11,
                 "values": {
-                    "s": "Sound recording"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Configuration of playback channels",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "m": "Monaural",
-                    "q": "Quadraphonic",
-                    "s": "Stereophonic",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Groove width/groove pitch",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "m": "Microgroove/fine",
+                    "h": "Hill-and-dale cutting",
+                    "l": "Lateral or combined cutting",
                     "n": "Not applicable",
-                    "s": "Coarse/standard",
                     "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Tape width",
-                "start": 7,
-                "stop": 7,
-                "values": {
-                    "l": "1/8 in.",
-                    "m": "1/4 in.",
-                    "n": "Not applicable",
-                    "o": "1/2 in.",
-                    "p": "1 in.",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Dimensions",
-                "start": 6,
-                "stop": 6,
-                "values": {
-                    "a": "3 in. diameter",
-                    "b": "5 in. diameter",
-                    "c": "7 in. diameter",
-                    "d": "10 in. diameter",
-                    "e": "12 in. diameter",
-                    "f": "16 in. diameter",
-                    "g": "4 3/4 in. or 12 cm. diameter",
-                    "j": "3 7/8 x 2 1/2 in.",
-                    "n": "Not applicable",
-                    "o": "5 1/4 x 3 7/8 in.",
-                    "s": "2 3/4 x 4 in.",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Speed",
-                "start": 3,
-                "stop": 3,
-                "values": {
-                    "a": "16 rpm (discs)",
-                    "b": "33 1/3 rpm (discs)",
-                    "c": "45 rpm (discs)",
-                    "d": "78 rpm (discs)",
-                    "e": "8 rpm (discs)",
-                    "f": "1.4 m. per second (discs)",
-                    "h": "120 rpm (cylinders)",
-                    "i": "160 rpm (cylinders)",
-                    "k": "15/16 ips (tapes)",
-                    "l": "1 7/8 ips (tapes)",
-                    "m": "3 3/4 ips (tapes)",
-                    "o": "7 1/2 ips (tapes)",
-                    "p": "15 ips (tapes)",
-                    "r": "30 ips (tape)",
-                    "u": "Unknown",
-                    "z": "Other",
                     "|": "No attempt to code"
                 }
             },
@@ -2692,44 +1953,6 @@
                 }
             },
             {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "s": "Sound recording"
-                }
-            },
-            {
-                "name": "Tape Configuration",
-                "start": 8,
-                "stop": 8,
-                "values": {
-                    "a": "Full (1) track",
-                    "b": "Half (2) track",
-                    "c": "Quarter (4) track",
-                    "d": "Eight track",
-                    "e": "Twelve track",
-                    "f": "Sixteen track",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Groove width/groove pitch",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "m": "Microgroove/fine",
-                    "n": "Not applicable",
-                    "s": "Coarse/standard",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Capture and storage technique",
                 "start": 13,
                 "stop": 13,
@@ -2744,21 +1967,19 @@
                 }
             },
             {
-                "name": "Dimensions",
-                "start": 6,
-                "stop": 6,
+                "name": "Special playback characteristics",
+                "start": 12,
+                "stop": 12,
                 "values": {
-                    "a": "3 in. diameter",
-                    "b": "5 in. diameter",
-                    "c": "7 in. diameter",
-                    "d": "10 in. diameter",
-                    "e": "12 in. diameter",
-                    "f": "16 in. diameter",
-                    "g": "4 3/4 in. or 12 cm. diameter",
-                    "j": "3 7/8 x 2 1/2 in.",
+                    "a": "NAB standard",
+                    "b": "CCIR standard",
+                    "c": "Dolby-B encoded",
+                    "d": "dbx encoded",
+                    "e": "Digital recording",
+                    "f": "Dolby-A encoded",
+                    "g": "Dolby-C encoded",
+                    "h": "CX encoded",
                     "n": "Not applicable",
-                    "o": "5 1/4 x 3 7/8 in.",
-                    "s": "2 3/4 x 4 in.",
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
@@ -2786,85 +2007,17 @@
                 }
             },
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
+                "name": "Tape Configuration",
+                "start": 8,
+                "stop": 8,
                 "values": {
-                    "d": "Sound disc",
-                    "e": "Cylinder",
-                    "g": "Sound cartridge",
-                    "i": "Sound-track film",
-                    "q": "Roll",
-                    "s": "Sound cassette",
-                    "t": "Sound-tape reel",
-                    "u": "Unspecified",
-                    "w": "Wire recording",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Kind of cutting",
-                "start": 11,
-                "stop": 11,
-                "values": {
-                    "h": "Hill-and-dale cutting",
-                    "l": "Lateral or combined cutting",
+                    "a": "Full (1) track",
+                    "b": "Half (2) track",
+                    "c": "Quarter (4) track",
+                    "d": "Eight track",
+                    "e": "Twelve track",
+                    "f": "Sixteen track",
                     "n": "Not applicable",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Configuration of playback channels",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "m": "Monaural",
-                    "q": "Quadraphonic",
-                    "s": "Stereophonic",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Special playback characteristics",
-                "start": 12,
-                "stop": 12,
-                "values": {
-                    "a": "NAB standard",
-                    "b": "CCIR standard",
-                    "c": "Dolby-B encoded",
-                    "d": "dbx encoded",
-                    "e": "Digital recording",
-                    "f": "Dolby-A encoded",
-                    "g": "Dolby-C encoded",
-                    "h": "CX encoded",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Tape width",
-                "start": 7,
-                "stop": 7,
-                "values": {
-                    "l": "1/8 in.",
-                    "m": "1/4 in.",
-                    "n": "Not applicable",
-                    "o": "1/2 in.",
-                    "p": "1 in.",
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
@@ -2878,20 +2031,6 @@
         "name": "Text",
         "positions": [
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "a": "Regular print",
-                    "b": "Large print",
-                    "c": "Braille",
-                    "d": "Loose-leaf",
-                    "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Category of material",
                 "start": 0,
                 "stop": 0,
@@ -2911,14 +2050,6 @@
                     "u": "Unspecified",
                     "z": "Other",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "t": "Text"
                 }
             }
         ],
@@ -2928,21 +2059,6 @@
         "fixed": true,
         "name": "Videorecording",
         "positions": [
-            {
-                "name": "Color",
-                "start": 3,
-                "stop": 3,
-                "values": {
-                    "a": "One color",
-                    "b": "Black-and-white",
-                    "c": "Multicolored",
-                    "m": "Mixed",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
             {
                 "name": "Videorecording format",
                 "start": 4,
@@ -2971,6 +2087,14 @@
                 }
             },
             {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "v": "Videorecording"
+                }
+            },
+            {
                 "name": "Specific material designation",
                 "start": 1,
                 "stop": 1,
@@ -2985,11 +2109,18 @@
                 }
             },
             {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
+                "name": "Color",
+                "start": 3,
+                "stop": 3,
                 "values": {
-                    "v": "Videorecording"
+                    "a": "One color",
+                    "b": "Black-and-white",
+                    "c": "Multicolored",
+                    "m": "Mixed",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
                 }
             },
             {
@@ -2998,6 +2129,49 @@
                 "stop": 2,
                 "values": {
                     "#": "Undefined"
+                }
+            },
+            {
+                "name": "Dimensions",
+                "start": 7,
+                "stop": 7,
+                "values": {
+                    "a": "8 mm.",
+                    "m": "1/4 in.",
+                    "o": "1/2 in.",
+                    "p": "1 in.",
+                    "q": "2 in.",
+                    "r": "3/4 in.",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Sound on medium or separate",
+                "start": 5,
+                "stop": 5,
+                "values": {
+                    "#": "No sound (silent)",
+                    "a": "Sound on medium",
+                    "b": "Sound separate from medium",
+                    "u": "Unknown",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Configuration of playback channels",
+                "start": 8,
+                "stop": 8,
+                "values": {
+                    "k": "Mixed",
+                    "m": "Monaural",
+                    "n": "Not applicable",
+                    "q": "Quadraphonic, multichannel, or surround",
+                    "s": "Stereophonic",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
                 }
             },
             {
@@ -3019,121 +2193,6 @@
                     "z": "Other",
                     "|": "No attempt to code"
                 }
-            },
-            {
-                "name": "Sound on medium or separate",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "#": "No sound (silent)",
-                    "a": "Sound on medium",
-                    "b": "Sound separate from medium",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "c": "Videocartridge",
-                    "d": "Videodisc",
-                    "f": "Videocassette",
-                    "r": "Videoreel",
-                    "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "v": "Videorecording"
-                }
-            },
-            {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Color",
-                "start": 3,
-                "stop": 3,
-                "values": {
-                    "a": "One color",
-                    "b": "Black-and-white",
-                    "c": "Multicolored",
-                    "m": "Mixed",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Videorecording format",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "a": "Beta (1/2 in., videocassette)",
-                    "b": "VHS (1/2 in., videocassette)",
-                    "c": "U-matic (3/4 in., videocasstte)",
-                    "d": "EIAJ (1/2 in., reel)",
-                    "e": "Type C (1 in., reel)",
-                    "f": "Quadruplex (1 in. or 2 in., reel)",
-                    "g": "Laserdisc",
-                    "h": "CED (Capacitance Electronic Disc) videodisc",
-                    "i": "Betacam (1/2 in., videocassette)",
-                    "j": "Betacam SP (1/2 in., videocassette)",
-                    "k": "Super-VHS (1/2 in., videocassette)",
-                    "m": "M-II (1/2 in., videocassette)",
-                    "o": "D-2 (3/4 in., videocassette)",
-                    "p": "8 mm.",
-                    "q": "Hi-8 mm.",
-                    "s": "Blu-ray disc",
-                    "u": "Unknown",
-                    "v": "DVD",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Dimensions",
-                "start": 7,
-                "stop": 7,
-                "values": {
-                    "a": "8 mm.",
-                    "m": "1/4 in.",
-                    "o": "1/2 in.",
-                    "p": "1 in.",
-                    "q": "2 in.",
-                    "r": "3/4 in.",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Configuration of playback channels",
-                "start": 8,
-                "stop": 8,
-                "values": {
-                    "k": "Mixed",
-                    "m": "Monaural",
-                    "n": "Not applicable",
-                    "q": "Quadraphonic, multichannel, or surround",
-                    "s": "Stereophonic",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
             }
         ],
         "repeatable": true
@@ -3143,17 +2202,6 @@
         "name": "Unspecified",
         "positions": [
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "m": "Multiple physical forms",
-                    "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Category of material",
                 "start": 0,
                 "stop": 0,
@@ -3170,14 +2218,6 @@
                     "u": "Unspecified",
                     "z": "Other",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "z": "Unspecified"
                 }
             }
         ],
@@ -3301,6 +2341,23 @@
         "name": "Books",
         "positions": [
             {
+                "name": "Target audience (006/05)",
+                "start": 22,
+                "stop": 22,
+                "values": {
+                    "#": "Unknown or not specified",
+                    "a": "Preschool",
+                    "b": "Primary",
+                    "c": "Pre-adolescent",
+                    "d": "Adolescent",
+                    "e": "Adult",
+                    "f": "Specialized",
+                    "g": "General",
+                    "j": "Juvenile",
+                    "|": "No attempt to code"
+                }
+            },
+            {
                 "name": "Illustrations (006/01-04)",
                 "start": 18,
                 "stop": 21,
@@ -3321,23 +2378,6 @@
                     "m": "Phonodisc, phonowire, etc.",
                     "o": "Photographs",
                     "p": "Illuminations",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Target audience (006/05)",
-                "start": 22,
-                "stop": 22,
-                "values": {
-                    "#": "Unknown or not specified",
-                    "a": "Preschool",
-                    "b": "Primary",
-                    "c": "Pre-adolescent",
-                    "d": "Adolescent",
-                    "e": "Adult",
-                    "f": "Specialized",
-                    "g": "General",
-                    "j": "Juvenile",
                     "|": "No attempt to code"
                 }
             },
@@ -3392,47 +2432,6 @@
                     "w": "Law reports and digests",
                     "y": "Yearbooks",
                     "z": "Treaties",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Illustrations (006/01-04)",
-                "start": 18,
-                "stop": 21,
-                "values": {
-                    "#": "No illustrations",
-                    "a": "Illustrations",
-                    "b": "Maps",
-                    "c": "Portraits",
-                    "d": "Charts",
-                    "e": "Plans",
-                    "f": "Plates",
-                    "g": "Music",
-                    "h": "Facsimiles",
-                    "i": "Coats of arms",
-                    "j": "Genealogical tables",
-                    "k": "Forms",
-                    "l": "Samples",
-                    "m": "Phonodisc, phonowire, etc.",
-                    "o": "Photographs",
-                    "p": "Illuminations",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Target audience (006/05)",
-                "start": 22,
-                "stop": 22,
-                "values": {
-                    "#": "Unknown or not specified",
-                    "a": "Preschool",
-                    "b": "Primary",
-                    "c": "Pre-adolescent",
-                    "d": "Adolescent",
-                    "e": "Adult",
-                    "f": "Specialized",
-                    "g": "General",
-                    "j": "Juvenile",
                     "|": "No attempt to code"
                 }
             },
@@ -3447,75 +2446,25 @@
                 }
             },
             {
-                "name": "Form of item (006/06)",
-                "start": 23,
-                "stop": 23,
+                "name": "Biography (006/17)",
+                "start": 34,
+                "stop": 34,
                 "values": {
-                    "#": "None of the following",
-                    "a": "Microfilm",
-                    "b": "Microfiche",
-                    "c": "Microopaque",
-                    "d": "Large print",
-                    "f": "Braille",
-                    "o": "Online",
-                    "q": "Direct electronic",
-                    "r": "Regular print reproduction",
-                    "s": "Electronic",
+                    "#": "No biographical material",
+                    "a": "Autobiography",
+                    "b": "Individual biography",
+                    "c": "Collective biography",
+                    "d": "Contains biographical information",
                     "|": "No attempt to code"
                 }
             },
             {
-                "name": "Nature of contents (006/07-10)",
-                "start": 24,
-                "stop": 27,
+                "name": "Index (006/14)",
+                "start": 31,
+                "stop": 31,
                 "values": {
-                    "#": "No specified nature of contents",
-                    "2": "Offprints",
-                    "5": "Calendars",
-                    "6": "Comics/graphic novels",
-                    "a": "Abstracts/summaries",
-                    "b": "Bibliographies",
-                    "c": "Catalogs",
-                    "d": "Dictionaries",
-                    "e": "Encyclopedias",
-                    "f": "Handbooks",
-                    "g": "Legal articles",
-                    "i": "Indexes",
-                    "j": "Patent document",
-                    "k": "Discographies",
-                    "l": "Legislation",
-                    "m": "Theses",
-                    "n": "Surveys of literature in a subject area",
-                    "o": "Reviews",
-                    "p": "Programmed texts",
-                    "q": "Filmographies",
-                    "r": "Directories",
-                    "s": "Statistics",
-                    "t": "Technical reports",
-                    "u": "Standards/specifications",
-                    "v": "Legal cases and case notes",
-                    "w": "Law reports and digests",
-                    "y": "Yearbooks",
-                    "z": "Treaties",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Government publication (006/11)",
-                "start": 28,
-                "stop": 28,
-                "values": {
-                    "#": "Not a government publication",
-                    "a": "Autonomous or semi-autonomous component",
-                    "c": "Multilocal",
-                    "f": "Federal/national",
-                    "i": "International intergovernmental",
-                    "l": "Local",
-                    "m": "Multistate",
-                    "o": "Government publication-level undetermined",
-                    "s": "State, provincial, territorial, dependent, etc.",
-                    "u": "Unknown if item is government publication",
-                    "z": "Other",
+                    "0": "No index",
+                    "1": "Index present",
                     "|": "No attempt to code"
                 }
             },
@@ -3540,25 +2489,21 @@
                 }
             },
             {
-                "name": "Biography (006/17)",
-                "start": 34,
-                "stop": 34,
+                "name": "Government publication (006/11)",
+                "start": 28,
+                "stop": 28,
                 "values": {
-                    "#": "No biographical material",
-                    "a": "Autobiography",
-                    "b": "Individual biography",
-                    "c": "Collective biography",
-                    "d": "Contains biographical information",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Index (006/14)",
-                "start": 31,
-                "stop": 31,
-                "values": {
-                    "0": "No index",
-                    "1": "Index present",
+                    "#": "Not a government publication",
+                    "a": "Autonomous or semi-autonomous component",
+                    "c": "Multilocal",
+                    "f": "Federal/national",
+                    "i": "International intergovernmental",
+                    "l": "Local",
+                    "m": "Multistate",
+                    "o": "Government publication-level undetermined",
+                    "s": "State, provincial, territorial, dependent, etc.",
+                    "u": "Unknown if item is government publication",
+                    "z": "Other",
                     "|": "No attempt to code"
                 }
             },
@@ -3589,6 +2534,36 @@
         "name": "Computer Files",
         "positions": [
             {
+                "name": "Undefined (006/01-04)",
+                "start": 18,
+                "stop": 21,
+                "values": {
+                    "#": "Undefined",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Type of computer file (006/09)",
+                "start": 26,
+                "stop": 26,
+                "values": {
+                    "a": "Numeric data",
+                    "b": "Computer program",
+                    "c": "Representational",
+                    "d": "Document",
+                    "e": "Bibliographic data",
+                    "f": "Font",
+                    "g": "Game",
+                    "h": "Sound",
+                    "i": "Interactive multimedia",
+                    "j": "Online system or service",
+                    "m": "Combination",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
                 "name": "Target audience (006/05)",
                 "start": 22,
                 "stop": 22,
@@ -3602,6 +2577,17 @@
                     "f": "Specialized",
                     "g": "General",
                     "j": "Juvenile",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Form of item (006/06)",
+                "start": 23,
+                "stop": 23,
+                "values": {
+                    "#": "Unknown or not specified",
+                    "o": "Online",
+                    "q": "Direct electronic",
                     "|": "No attempt to code"
                 }
             },
@@ -3615,92 +2601,11 @@
                 }
             },
             {
-                "name": "Type of computer file (006/09)",
-                "start": 26,
-                "stop": 26,
-                "values": {
-                    "a": "Numeric data",
-                    "b": "Computer program",
-                    "c": "Representational",
-                    "d": "Document",
-                    "e": "Bibliographic data",
-                    "f": "Font",
-                    "g": "Game",
-                    "h": "Sound",
-                    "i": "Interactive multimedia",
-                    "j": "Online system or service",
-                    "m": "Combination",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined (006/01-04)",
-                "start": 18,
-                "stop": 21,
+                "name": "Undefined (006/10)",
+                "start": 27,
+                "stop": 27,
                 "values": {
                     "#": "Undefined",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Form of item (006/06)",
-                "start": 23,
-                "stop": 23,
-                "values": {
-                    "#": "Unknown or not specified",
-                    "o": "Online",
-                    "q": "Direct electronic",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Target audience (006/05)",
-                "start": 22,
-                "stop": 22,
-                "values": {
-                    "#": "Unknown or not specified",
-                    "a": "Preschool",
-                    "b": "Primary",
-                    "c": "Pre-adolescent",
-                    "d": "Adolescent",
-                    "e": "Adult",
-                    "f": "Specialized",
-                    "g": "General",
-                    "j": "Juvenile",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Form of item (006/06)",
-                "start": 23,
-                "stop": 23,
-                "values": {
-                    "#": "Unknown or not specified",
-                    "o": "Online",
-                    "q": "Direct electronic",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Type of computer file (006/09)",
-                "start": 26,
-                "stop": 26,
-                "values": {
-                    "a": "Numeric data",
-                    "b": "Computer program",
-                    "c": "Representational",
-                    "d": "Document",
-                    "e": "Bibliographic data",
-                    "f": "Font",
-                    "g": "Game",
-                    "h": "Sound",
-                    "i": "Interactive multimedia",
-                    "j": "Online system or service",
-                    "m": "Combination",
-                    "u": "Unknown",
-                    "z": "Other",
                     "|": "No attempt to code"
                 }
             },
@@ -3727,33 +2632,6 @@
                 "name": "Undefined (006/12-17)",
                 "start": 29,
                 "stop": 34,
-                "values": {
-                    "#": "Undefined",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined (006/07-08)",
-                "start": 24,
-                "stop": 25,
-                "values": {
-                    "#": "Undefined",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined (006/01-04)",
-                "start": 18,
-                "stop": 21,
-                "values": {
-                    "#": "Undefined",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined (006/10)",
-                "start": 27,
-                "stop": 27,
                 "values": {
                     "#": "Undefined",
                     "|": "No attempt to code"
@@ -4087,40 +2965,6 @@
                 }
             },
             {
-                "name": "Undefined (006/13)",
-                "start": 30,
-                "stop": 30,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Form of item (006/12)",
-                "start": 29,
-                "stop": 29,
-                "values": {
-                    "#": "None of the following",
-                    "a": "Microfilm",
-                    "b": "Microfiche",
-                    "c": "Microopaque",
-                    "d": "Large print",
-                    "f": "Braille",
-                    "o": "Online",
-                    "q": "Direct electronic",
-                    "r": "Regular print reproduction",
-                    "s": "Electronic",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined (006/15)",
-                "start": 32,
-                "stop": 32,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
                 "name": "Special format characteristics (006/16-17)",
                 "start": 33,
                 "stop": 34,
@@ -4147,88 +2991,45 @@
                 }
             },
             {
-                "name": "Projection (006/05-06)",
-                "start": 22,
-                "stop": 23,
+                "name": "Undefined (006/13)",
+                "start": 30,
+                "stop": 30,
                 "values": {
-                    "##": "Projection not specified",
-                    "aa": "Aitoff",
-                    "ab": "Gnomic",
-                    "ac": "Lambert's azimuthal equal area",
-                    "ad": "Orthographic",
-                    "ae": "Azimuthal equidistant",
-                    "af": "Stereographic",
-                    "ag": "General vertical near-sided",
-                    "am": "Modified stereographic for Alaska",
-                    "an": "Chamberlin trimetric",
-                    "ap": "Polar stereographic",
-                    "au": "Azimuthal, specific type unknown",
-                    "az": "Azimuthal, other",
-                    "ba": "Gall",
-                    "bb": "Goode's homolographic",
-                    "bc": "Lambert's cylindrical equal area",
-                    "bd": "Mercator",
-                    "be": "Miller",
-                    "bf": "Mollweide",
-                    "bg": "Sinusoidal",
-                    "bh": "Transverse Mercator",
-                    "bi": "Gauss-Kruger",
-                    "bj": "Equirectangular",
-                    "bk": "Krovak",
-                    "bl": "Cassini-Soldner",
-                    "bo": "Oblique Mercator",
-                    "br": "Robinson",
-                    "bs": "Space oblique Mercator",
-                    "bu": "Cylindrical, specific type unknown",
-                    "bz": "Cylindrical, other",
-                    "ca": "Albers equal area",
-                    "cb": "Bonne",
-                    "cc": "Lambert's conformal conic",
-                    "ce": "Equidistant conic",
-                    "cp": "Polyconic",
-                    "cu": "Conic, specific type unknown",
-                    "cz": "Conic, other",
-                    "da": "Armadillo",
-                    "db": "Butterfly",
-                    "dc": "Eckert",
-                    "dd": "Goode's homolosine",
-                    "de": "Miller's bipolar oblique conformal conic",
-                    "df": "Van Der Grinten",
-                    "dg": "Dimaxion",
-                    "dh": "Cordiform",
-                    "dl": "Lambert conformal",
-                    "zz": "Other",
-                    "||": "No attempt to code"
+                    "#": "Undefined"
                 }
             },
             {
-                "name": "Relief (006/01-04)",
-                "start": 18,
-                "stop": 21,
+                "name": "Type of cartographic material (006/08)",
+                "start": 25,
+                "stop": 25,
                 "values": {
-                    "#": "No relief shown",
-                    "a": "Contours",
-                    "b": "Shading",
-                    "c": "Gradient and bathymetric tints",
-                    "d": "Hachures",
-                    "e": "Bathymetry/soundings",
-                    "f": "Form lines",
-                    "g": "Spot heights",
-                    "i": "Pictorially",
-                    "j": "Land forms",
-                    "k": "Bathymetry/isolines",
-                    "m": "Rock drawings",
+                    "a": "Single map",
+                    "b": "Map series",
+                    "c": "Map serial",
+                    "d": "Globe",
+                    "e": "Atlas",
+                    "f": "Separate supplement to another work",
+                    "g": "Bound as part of another work",
+                    "u": "Unknown",
                     "z": "Other",
-                    "||||": "No attempt to code"
+                    "|": "No attempt to code"
                 }
             },
             {
-                "name": "Index (006/14)",
-                "start": 31,
-                "stop": 31,
+                "name": "Form of item (006/12)",
+                "start": 29,
+                "stop": 29,
                 "values": {
-                    "0": "No index",
-                    "1": "Index present",
+                    "#": "None of the following",
+                    "a": "Microfilm",
+                    "b": "Microfiche",
+                    "c": "Microopaque",
+                    "d": "Large print",
+                    "f": "Braille",
+                    "o": "Online",
+                    "q": "Direct electronic",
+                    "r": "Regular print reproduction",
+                    "s": "Electronic",
                     "|": "No attempt to code"
                 }
             },
@@ -4252,20 +3053,21 @@
                 }
             },
             {
-                "name": "Type of cartographic material (006/08)",
-                "start": 25,
-                "stop": 25,
+                "name": "Index (006/14)",
+                "start": 31,
+                "stop": 31,
                 "values": {
-                    "a": "Single map",
-                    "b": "Map series",
-                    "c": "Map serial",
-                    "d": "Globe",
-                    "e": "Atlas",
-                    "f": "Separate supplement to another work",
-                    "g": "Bound as part of another work",
-                    "u": "Unknown",
-                    "z": "Other",
+                    "0": "No index",
+                    "1": "Index present",
                     "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined (006/15)",
+                "start": 32,
+                "stop": 32,
+                "values": {
+                    "#": "Undefined"
                 }
             }
         ],
@@ -4276,35 +3078,59 @@
         "name": "Continuing Resources",
         "positions": [
             {
-                "name": "Form of item (006/06)",
-                "start": 23,
-                "stop": 23,
+                "name": "Regularity (006/02)",
+                "start": 19,
+                "stop": 19,
+                "values": {
+                    "n": "Normalized irregular",
+                    "r": "Regular",
+                    "u": "Unknown",
+                    "x": "Completely irregular",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Frequency (006/01)",
+                "start": 18,
+                "stop": 18,
+                "values": {
+                    "#": "No determinable frequency",
+                    "a": "Annual",
+                    "b": "Bimonthly",
+                    "c": "Semiweekly",
+                    "d": "Daily",
+                    "e": "Biweekly",
+                    "f": "Semiannual",
+                    "g": "Biennial",
+                    "h": "Triennial",
+                    "i": "Three times a week",
+                    "j": "Three times a month",
+                    "k": "Continuously updated",
+                    "m": "Monthly",
+                    "q": "Quarterly",
+                    "s": "Semimonthly",
+                    "t": "Three times a year",
+                    "u": "Unknown",
+                    "w": "Weekly",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Form of original item (006/05)",
+                "start": 22,
+                "stop": 22,
                 "values": {
                     "#": "None of the following",
                     "a": "Microfilm",
                     "b": "Microfiche",
                     "c": "Microopaque",
                     "d": "Large print",
+                    "e": "Newspaper format",
                     "f": "Braille",
                     "o": "Online",
                     "q": "Direct electronic",
-                    "r": "Regular print reproduction",
                     "s": "Electronic",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Type of continuing resource (006/04)",
-                "start": 21,
-                "stop": 21,
-                "values": {
-                    "#": "None of the following",
-                    "d": "Updating database",
-                    "l": "Updating loose-leaf",
-                    "m": "Monographic series",
-                    "n": "Newspaper",
-                    "p": "Periodical",
-                    "w": "Updating Web site",
                     "|": "No attempt to code"
                 }
             },
@@ -4344,14 +3170,35 @@
                 }
             },
             {
-                "name": "Regularity (006/02)",
-                "start": 19,
-                "stop": 19,
+                "name": "Form of item (006/06)",
+                "start": 23,
+                "stop": 23,
                 "values": {
-                    "n": "Normalized irregular",
-                    "r": "Regular",
-                    "u": "Unknown",
-                    "x": "Completely irregular",
+                    "#": "None of the following",
+                    "a": "Microfilm",
+                    "b": "Microfiche",
+                    "c": "Microopaque",
+                    "d": "Large print",
+                    "f": "Braille",
+                    "o": "Online",
+                    "q": "Direct electronic",
+                    "r": "Regular print reproduction",
+                    "s": "Electronic",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Type of continuing resource (006/04)",
+                "start": 21,
+                "stop": 21,
+                "values": {
+                    "#": "None of the following",
+                    "d": "Updating database",
+                    "l": "Updating loose-leaf",
+                    "m": "Monographic series",
+                    "n": "Newspaper",
+                    "p": "Periodical",
+                    "w": "Updating Web site",
                     "|": "No attempt to code"
                 }
             },
@@ -4361,51 +3208,6 @@
                 "stop": 20,
                 "values": {
                     "#": "Undefined"
-                }
-            },
-            {
-                "name": "Form of original item (006/05)",
-                "start": 22,
-                "stop": 22,
-                "values": {
-                    "#": "None of the following",
-                    "a": "Microfilm",
-                    "b": "Microfiche",
-                    "c": "Microopaque",
-                    "d": "Large print",
-                    "e": "Newspaper format",
-                    "f": "Braille",
-                    "o": "Online",
-                    "q": "Direct electronic",
-                    "s": "Electronic",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Frequency (006/01)",
-                "start": 18,
-                "stop": 18,
-                "values": {
-                    "#": "No determinable frequency",
-                    "a": "Annual",
-                    "b": "Bimonthly",
-                    "c": "Semiweekly",
-                    "d": "Daily",
-                    "e": "Biweekly",
-                    "f": "Semiannual",
-                    "g": "Biennial",
-                    "h": "Triennial",
-                    "i": "Three times a week",
-                    "j": "Three times a month",
-                    "k": "Continuously updated",
-                    "m": "Monthly",
-                    "q": "Quarterly",
-                    "s": "Semimonthly",
-                    "t": "Three times a year",
-                    "u": "Unknown",
-                    "w": "Weekly",
-                    "z": "Other",
-                    "|": "No attempt to code"
                 }
             },
             {
@@ -4429,175 +3231,6 @@
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Form of item (006/06)",
-                "start": 23,
-                "stop": 23,
-                "values": {
-                    "#": "None of the following",
-                    "a": "Microfilm",
-                    "b": "Microfiche",
-                    "c": "Microopaque",
-                    "d": "Large print",
-                    "f": "Braille",
-                    "o": "Online",
-                    "q": "Direct electronic",
-                    "r": "Regular print reproduction",
-                    "s": "Electronic",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined (006/13-15)",
-                "start": 30,
-                "stop": 32,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Nature of entire work (006/07)",
-                "start": 24,
-                "stop": 24,
-                "values": {
-                    "#": "Not specified",
-                    "5": "Calendars",
-                    "6": "Comics/graphic novels",
-                    "a": "Abstracts/summaries",
-                    "b": "Bibliographies",
-                    "c": "Catalogs",
-                    "d": "Dictionaries",
-                    "e": "Encyclopedias",
-                    "f": "Handbooks",
-                    "g": "Legal articles",
-                    "h": "Biography",
-                    "i": "Indexes",
-                    "k": "Discographies",
-                    "l": "Legislation",
-                    "m": "Theses",
-                    "n": "Surveys of literature in a subject area",
-                    "o": "Reviews",
-                    "p": "Programmed texts",
-                    "q": "Filmographies",
-                    "r": "Directories",
-                    "s": "Statistics",
-                    "t": "Technical reports",
-                    "u": "Standards/specifications",
-                    "v": "Legal cases and case notes",
-                    "w": "Law reports and digests",
-                    "y": "Yearbooks",
-                    "z": "Treaties",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Form of original item (006/05)",
-                "start": 22,
-                "stop": 22,
-                "values": {
-                    "#": "None of the following",
-                    "a": "Microfilm",
-                    "b": "Microfiche",
-                    "c": "Microopaque",
-                    "d": "Large print",
-                    "e": "Newspaper format",
-                    "f": "Braille",
-                    "o": "Online",
-                    "q": "Direct electronic",
-                    "s": "Electronic",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Frequency (006/01)",
-                "start": 18,
-                "stop": 18,
-                "values": {
-                    "#": "No determinable frequency",
-                    "a": "Annual",
-                    "b": "Bimonthly",
-                    "c": "Semiweekly",
-                    "d": "Daily",
-                    "e": "Biweekly",
-                    "f": "Semiannual",
-                    "g": "Biennial",
-                    "h": "Triennial",
-                    "i": "Three times a week",
-                    "j": "Three times a month",
-                    "k": "Continuously updated",
-                    "m": "Monthly",
-                    "q": "Quarterly",
-                    "s": "Semimonthly",
-                    "t": "Three times a year",
-                    "u": "Unknown",
-                    "w": "Weekly",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Entry convention (006/17)",
-                "start": 34,
-                "stop": 34,
-                "values": {
-                    "0": "Successive entry",
-                    "1": "Latest entry",
-                    "2": "Integrated entry",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Conference publication (006/12)",
-                "start": 29,
-                "stop": 29,
-                "values": {
-                    "0": "Not a conference publication",
-                    "1": "Conference publication",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Type of continuing resource (006/04)",
-                "start": 21,
-                "stop": 21,
-                "values": {
-                    "#": "None of the following",
-                    "d": "Updating database",
-                    "l": "Updating loose-leaf",
-                    "m": "Monographic series",
-                    "n": "Newspaper",
-                    "p": "Periodical",
-                    "w": "Updating Web site",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Government publication (006/11)",
-                "start": 28,
-                "stop": 28,
-                "values": {
-                    "#": "Not a government publication",
-                    "a": "Autonomous or semi-autonomous component",
-                    "c": "Multilocal",
-                    "f": "Federal/national",
-                    "i": "International intergovernmental",
-                    "l": "Local",
-                    "m": "Multistate",
-                    "o": "Government publication-level undetermined",
-                    "s": "State, provincial, territorial, dependent, etc.",
-                    "u": "Unknown if item is government publication",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined (006/03)",
-                "start": 20,
-                "stop": 20,
-                "values": {
-                    "#": "Undefined"
                 }
             },
             {
@@ -4636,38 +3269,13 @@
                 }
             },
             {
-                "name": "Regularity (006/02)",
-                "start": 19,
-                "stop": 19,
+                "name": "Entry convention (006/17)",
+                "start": 34,
+                "stop": 34,
                 "values": {
-                    "n": "Normalized irregular",
-                    "r": "Regular",
-                    "u": "Unknown",
-                    "x": "Completely irregular",
-                    "|": "No attempt to code"
-                }
-            }
-        ],
-        "repeatable": false
-    },
-    "008v": {
-        "fixed": true,
-        "name": "Visual Materials",
-        "positions": [
-            {
-                "name": "Target audience (006/05)",
-                "start": 22,
-                "stop": 22,
-                "values": {
-                    "#": "Unknown or not specified",
-                    "a": "Preschool",
-                    "b": "Primary",
-                    "c": "Pre-adolescent",
-                    "d": "Adolescent",
-                    "e": "Adult",
-                    "f": "Specialized",
-                    "g": "General",
-                    "j": "Juvenile",
+                    "0": "Successive entry",
+                    "1": "Latest entry",
+                    "2": "Integrated entry",
                     "|": "No attempt to code"
                 }
             },
@@ -4691,32 +3299,46 @@
                 }
             },
             {
-                "name": "Running time for motion pictures and videorecordings (006/01-03)",
-                "start": 18,
-                "stop": 20,
-                "values": {
-                    "---": "Unknown",
-                    "000": "Running time exceeds three characters",
-                    "001-999": "Running time",
-                    "nnn": "Not applicable",
-                    "|||": "No attempt to code"
-                }
-            },
-            {
-                "name": "Form of item (006/12)",
+                "name": "Conference publication (006/12)",
                 "start": 29,
                 "stop": 29,
                 "values": {
-                    "#": "None of the following",
-                    "a": "Microfilm",
-                    "b": "Microfiche",
-                    "c": "Microopaque",
-                    "d": "Large print",
-                    "f": "Braille",
-                    "o": "Online",
-                    "q": "Direct electronic",
-                    "r": "Regular print reproduction",
-                    "s": "Electronic",
+                    "0": "Not a conference publication",
+                    "1": "Conference publication",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined (006/13-15)",
+                "start": 30,
+                "stop": 32,
+                "values": {
+                    "#": "Undefined"
+                }
+            }
+        ],
+        "repeatable": false
+    },
+    "008v": {
+        "fixed": true,
+        "name": "Visual Materials",
+        "positions": [
+            {
+                "name": "Government publication (006/11)",
+                "start": 28,
+                "stop": 28,
+                "values": {
+                    "#": "Not a government publication",
+                    "a": "Autonomous or semi-autonomous component",
+                    "c": "Multilocal",
+                    "f": "Federal/national",
+                    "i": "International intergovernmental",
+                    "l": "Local",
+                    "m": "Multistate",
+                    "o": "Government publication-level undetermined",
+                    "s": "State, provincial, territorial, dependent, etc.",
+                    "u": "Unknown if item is government publication",
+                    "z": "Other",
                     "|": "No attempt to code"
                 }
             },
@@ -4754,37 +3376,6 @@
                 }
             },
             {
-                "name": "Government publication (006/11)",
-                "start": 28,
-                "stop": 28,
-                "values": {
-                    "#": "Not a government publication",
-                    "a": "Autonomous or semi-autonomous component",
-                    "c": "Multilocal",
-                    "f": "Federal/national",
-                    "i": "International intergovernmental",
-                    "l": "Local",
-                    "m": "Multistate",
-                    "o": "Government publication-level undetermined",
-                    "s": "State, provincial, territorial, dependent, etc.",
-                    "u": "Unknown if item is government publication",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Running time for motion pictures and videorecordings (006/01-03)",
-                "start": 18,
-                "stop": 20,
-                "values": {
-                    "---": "Unknown",
-                    "000": "Running time exceeds three characters",
-                    "001-999": "Running time",
-                    "nnn": "Not applicable",
-                    "|||": "No attempt to code"
-                }
-            },
-            {
                 "name": "Form of item (006/12)",
                 "start": 29,
                 "stop": 29,
@@ -4803,19 +3394,29 @@
                 }
             },
             {
-                "name": "Undefined (006/13-15)",
-                "start": 30,
-                "stop": 32,
+                "name": "Running time for motion pictures and videorecordings (006/01-03)",
+                "start": 18,
+                "stop": 20,
                 "values": {
-                    "#": "Undefined"
+                    "---": "Unknown",
+                    "000": "Running time exceeds three characters",
+                    "001-999": "Running time",
+                    "nnn": "Not applicable",
+                    "|||": "No attempt to code"
                 }
             },
             {
-                "name": "Undefined (006/04)",
-                "start": 21,
-                "stop": 21,
+                "name": "Technique (006/17)",
+                "start": 34,
+                "stop": 34,
                 "values": {
-                    "#": "Undefined"
+                    "a": "Animation",
+                    "c": "Animation and live action",
+                    "l": "Live action",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
                 }
             },
             {
@@ -4847,23 +3448,9 @@
                 }
             },
             {
-                "name": "Technique (006/17)",
-                "start": 34,
-                "stop": 34,
-                "values": {
-                    "a": "Animation",
-                    "c": "Animation and live action",
-                    "l": "Live action",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined (006/06-10)",
-                "start": 23,
-                "stop": 27,
+                "name": "Undefined (006/13-15)",
+                "start": 30,
+                "stop": 32,
                 "values": {
                     "#": "Undefined"
                 }
@@ -4875,40 +3462,6 @@
         "fixed": true,
         "name": "Mixed Materials",
         "positions": [
-            {
-                "name": "Undefined (006/01-05)",
-                "start": 18,
-                "stop": 22,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Form of item (006/06)",
-                "start": 23,
-                "stop": 23,
-                "values": {
-                    "#": "None of the following",
-                    "a": "Microfilm",
-                    "b": "Microfiche",
-                    "c": "Microopaque",
-                    "d": "Large print",
-                    "f": "Braille",
-                    "o": "Online",
-                    "q": "Direct electronic",
-                    "r": "Regular print reproduction",
-                    "s": "Electronic",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined (006/07-17)",
-                "start": 24,
-                "stop": 34,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
             {
                 "name": "Undefined (006/01-05)",
                 "start": 18,

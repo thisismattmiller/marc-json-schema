@@ -223,7 +223,8 @@ class marcDoc2Json:
 
 					
 					for x in groups:
-						allPositions.append(groups[x])
+						if groups[x] not in allPositions:
+							allPositions.append(groups[x])
 
 
 		if len(allPositions) == 0 and self.processing != '001' and self.processing != '003' and self.processing != '005':
@@ -272,7 +273,7 @@ class marcDoc2Json:
 								groups[activeCat].append({"name": name, "start": int(start), "stop": int(stop)})
 
 					if activeCat != "":
-						
+
 						for x in groups:
 							allPositions[x] =groups[x].copy()
 							print (x)
