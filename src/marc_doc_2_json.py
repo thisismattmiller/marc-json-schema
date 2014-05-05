@@ -282,11 +282,15 @@ class marcDoc2Json:
 
 
 
-		print (fieldNumber, fieldTitle)
+
 
 		if fieldNumber == "008" or fieldNumber == "007" or fieldNumber == 'Lea':
 			fieldNumber = self.processing
 
+
+		if fieldNumber == "008a":
+			fieldNumber = "008"
+			fieldTitle = "Fixed-Length Data Elements"
 
 		self.schema[fieldNumber] = { "repeatable" :  fieldRepeatable, "name" : fieldTitle, "fixed" : True, "positions" : allPositions}
 
@@ -445,6 +449,9 @@ class marcDoc2Json:
 
 			#print (foundFields)
 
+
+
+
 		else:
 
 			foundSubfields = False
@@ -521,10 +528,55 @@ class marcDoc2Json:
 								foundFields[lastCode]['static'] = True
 								foundFields[lastCode]['staticValues'][code] = {"name": desc, "value":code}
 
+
 			else:
 
 				foundSubfields = False
 
+
+
+		#double check
+		if len(foundFields) == 0:
+
+			#try another layout
+			subfields = soup('tr',{'valign':'top'})
+
+			foundFields = {}
+			lastCode = ""
+
+			subfields = str(subfields).replace('</br>',"<br>").replace('<br/>',"<br>")
+
+			lines = subfields.split("<br>")
+			for l in lines:
+
+
+				if l.find("$") > -1 and l.find(" - ") > -1 and (l.find("(R)") > -1 or l.find("(NR)") > -1):
+
+					l = l.strip()
+
+
+					if len(l.split(" - ")) > 2:
+						code = l.split(" - ")[0]
+						desc = " ".join(l.split(" - ")[1:])
+					else:
+						code, desc = l.split(" - ")
+
+					code = code.replace("$","")
+
+					if desc.find("(NR)") > -1:
+						repeatable = False
+					else:
+						repeatable = True
+
+					desc = desc.replace("(NR)","").replace("(R)","").replace("</br>","").replace("<br/>","").replace("\n",'').replace("\t",'').replace("&nbsp;",'').strip()
+					foundFields[code]  = { "name" : desc, "repeatable" : repeatable, "static": False}
+					lastCode = code
+
+
+
+		#double check
+		if len(foundFields) == 0:
+			print ("No subfields for this field")
 
 
 		if not foundFieldName: 
