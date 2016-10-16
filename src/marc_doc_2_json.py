@@ -41,7 +41,7 @@ class marcDoc2Json:
 			
 			self.processHTML(html)
 
-		with open("../marc21_biblo_schema.json",'w') as aFile:
+		with open("../marc21_json_schema.json",'w') as aFile:
 			aFile.write(json.dumps(self.schema, sort_keys=True, indent=4, separators=(',', ': ')))		
 
 
@@ -591,7 +591,7 @@ class marcDoc2Json:
 
 
 		if not foundIndicators: 
-			print (fieldNumber, fieldTitle, "Has no indicators")
+			print (fieldNumber, fieldTitle, "Has no idicators")
 			
 
 		if not foundSubfields: 
