@@ -362,8 +362,13 @@ class marcDoc2Json:
 			indicators = soup('table',{'class':'indicators'})
 			if len(indicators) == 1:
 				subSoup = BeautifulSoup(str(indicators))
-				indicators = [subSoup.find_all("td")[0], subSoup.find_all("td")[1]]
-				bothIndicators = self.processIndicators(indicators)
+				cells = subSoup.find_all("td")
+				if len(cells) > 2:
+					indicators = [subSoup.find_all("td")[0], subSoup.find_all("td")[1]]
+					bothIndicators = self.processIndicators(indicators)
+				else:
+					bothIndicators = {}
+					foundIndicators = False
 			else:
 				foundIndicators = False
 
