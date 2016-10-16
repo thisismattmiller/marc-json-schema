@@ -17,16 +17,16 @@
   <meta name="author" content=
   "Library of Congress Network Development and MARC Standards Office"> <link type="text/css" rel="stylesheet" href=
   "update10-stylesheet.css">
-<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+</head>
 
 <body>
   <div class="head-nav">
-    <a href="http://www.loc.gov/">Library of Congress</a>
-    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href="//www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt;
     <a href=
-    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    "//www.loc.gov/marc/bibliographic/">Bibliographic</a>
     &gt;&gt; <a href=
-    "http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>
+    "//www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>
     &gt;&gt; <strong>017</strong>
   </div>
   <hr>
@@ -101,7 +101,7 @@
 
   <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
 
-  <h4><span class="box">â </span> INDICATORS</h4>
+  <h4><span class="box">■</span> INDICATORS</h4>
 
   <div class="indicator">
     <strong>First Indicator - Undefined</strong>
@@ -207,7 +207,7 @@
     </div>
   </div>
 
-  <h4><span class="box">â </span> SUBFIELD CODES</h4>
+  <h4><span class="box">■</span> SUBFIELD CODES</h4>
 
   <div class="subfield">
     <strong>$a - Copyright or legal deposit number</strong>
@@ -260,8 +260,8 @@
 
           <td valign="top" colspan="9" align="left">
           <strong>##</strong><strong>$a</strong>DL
-          80-0-1524<strong>$b</strong>BibliothÃ¨que nationale du
-          QuÃ©bec</td>
+          80-0-1524<strong>$b</strong>Bibliothèque nationale du
+          Québec</td>
         </tr>
 
         <tr>
@@ -374,7 +374,7 @@
 
           <td valign="top" colspan="9" align="left">
           <strong>##</strong><strong>$a</strong>DL1377-1984<strong>
-          $b</strong>BibliothÃ¨que nationale de France<br>
+          $b</strong>Bibliothèque nationale de France<br>
           <em>[Item was registered for copyright in the U.S. and
           France.]</em></td>
         </tr>
@@ -631,7 +631,7 @@
 
     <div class="description2 description">
       Code from: <em><a href=
-      "http://www.loc.gov/standards/sourcelist/copyright-legal-deposit.html">Copyright and Legal Deposit Number Source Codes</a></em>.
+      "//www.loc.gov/standards/sourcelist/copyright-legal-deposit.html">Copyright and Legal Deposit Number Source Codes</a></em>.
     </div>
 
     <div class="example">
@@ -686,7 +686,7 @@
 
     <div class="description">
       See description of this subfield in Appendix A:
-      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">
       Control Subfields</a></em>.
     </div>
   </div>
@@ -696,7 +696,7 @@
 
     <div class="description">
       See description of this subfield in Appendix A:
-      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">
       Control Subfields</a></em>.
     </div>
   </div>
@@ -745,19 +745,19 @@
     <tr valign="bottom">
       <td>
         <div class="head-nav">
-          <a href="http://www.loc.gov/">Library of Congress</a>
-          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          <a href="//www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a>
           &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          "//www.loc.gov/marc/bibliographic/">Bibliographic</a>
           &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>
+          "//www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>
           &gt;&gt; <strong>017</strong>
         </div>(09/01/2008)
       </td>
 
-      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      <td align="right"><a href="/cdn-cgi/l/email-protection#4f212b223c200f23202c61282039">Contact
       Us</a></td>
     </tr>
   </table>
-<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+<script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

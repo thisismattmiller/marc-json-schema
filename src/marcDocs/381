@@ -14,10 +14,10 @@
       <meta name="keywords" content="marc, marc21, marc standards">
       <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
       <link href="update11-stylesheet.css" rel="stylesheet" type="text/css">
-   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   </head>
    <body>
-      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;
-         						<a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>381</strong></div>
+      <div class="head-nav"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt;
+         						<a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>381</strong></div>
       <hr><a name="skip_menu"></a><h1>381 - Other Distinguishing Characteristics of Work or Expression (R)</h1>
       <hr>
       <div class="formatname">MARC 21 Bibliographic - Full</div>
@@ -237,15 +237,15 @@
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left">100</td>
-                  <td vAlign="top" colspan="9" align="left">1#$aGibbon, Edward,$d1737-1794.</td>
+                  <td vAlign="top" colspan="9" align="left">1#$aLangland, William,$d1330?-1400?</td>
                </tr>
-               <tr>
+                <tr>
                   <td vAlign="top" colspan="1" align="left">240</td>
-                  <td vAlign="top" colspan="9" align="left">10$aHistory of the decline and fall of the Roman Empire.$kSelections</td>
+                  <td vAlign="top" colspan="9" align="left">10$aPiers Plowman.$s(A-text)</td>
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>381</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Selections<br><em>[Attributes of an expression]</em></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>A-text<br><em>[Attributes of an expression]</em></td>
                </tr>
             </table>
          </div>
@@ -262,33 +262,33 @@
       </div>
       <div class="subfield"><strong>$v - Source of information</strong> <em></em><div class="description">Source where the information recorded in field 381 was found if not through a URI.</div>
       </div>
-      <div class="subfield"><strong>$0 - Record control number</strong> <em></em><div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+      <div class="subfield"><strong>$0 - Record control number</strong> <em></em><div class="description">See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
          </div>
       </div>
       <div class="subfield"><strong>$2 - Source of term</strong> <em></em><div class="description">MARC code that identifies the source of the term in subfield $a when it is from a controlled list.
          </div>
          <div class="description2">
-            <div class="description">Code from: <em><a href="http://www.loc.gov/standards/sourcelist/subject.html">Subject Heading and Term Source Codes</a></em>.
+            <div class="description">Code from: <em><a href="//www.loc.gov/standards/sourcelist/subject.html">Subject Heading and Term Source Codes</a></em>.
                					
             </div>
          </div>
       </div>
-      <div class="subfield"><strong>$6 - Linkage</strong> <em></em><div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+      <div class="subfield"><strong>$6 - Linkage</strong> <em></em><div class="description">See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
          </div>
       </div>
-      <div class="subfield"><strong>$8 - Field link and sequence number</strong> <em></em><div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> <em></em><div class="description">See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
          </div>
       </div>
       <hr>
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
          <tr valign="bottom">
             <td>
-               <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a>
-                  								&gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-                  							&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>381</strong></div> (03/05/2010) 
+               <div class="head-nav"><a href="//www.loc.gov/">Library of Congress</a>
+                  								&gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  							&gt;&gt; <a href="//www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>381</strong></div> (03/05/2010) 
             </td>
-            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+            <td align="right"><a href="/cdn-cgi/l/email-protection#254b4148564a65494a460b424a53">Contact Us</a></td>
          </tr>
       </table>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

@@ -9,7 +9,7 @@
       <meta name="description" content="This field contains the electronic location and access  (Network Development and MARC Standards Office, Library of Congress)">
       <meta name="keywords" content="marc, marc21, marc standards">
       <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
-      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+      <link href="//www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
 					body {margin-left: 2em; margin-right: 2em;} 
 					h1 {font-family:Arial, Helvetica, sans-serif;}
 					h3 {text-align:left;}
@@ -40,10 +40,10 @@
 					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
 					.summary {margin-left:2em;}
 					.summarytable {margin-left:4em;}
-				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+				</style></head>
    <body>
-      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd84188x.html">841-88X</a> &gt;&gt; <strong>856</strong></div>
+      <div class="head-nav"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="//www.loc.gov/marc/bibliographic/bd84188x.html">841-88X</a> &gt;&gt; <strong>856</strong></div>
       <hr><a name="skip_menu"></a><h1>856 - Electronic Location and Access (R)</h1>
       <hr>
       <div class="formatname">MARC 21 Bibliographic - Full</div>
@@ -77,7 +77,7 @@
          of a non-electronic resource described in the bibliographic record or a related
                      electronic resource.
       </p>
-      <p>See the <em><a href="http://www.loc.gov/marc/856guide.html">Guidelines for the Use of Field
+      <p>See the <em><a href="//www.loc.gov/marc/856guide.html">Guidelines for the Use of Field
                               856</a></em> for a more thorough discussion on the use of field 856.
       </p>
       <p>Field 856 is repeated when the location data elements vary (the URL in subfield
@@ -116,7 +116,7 @@
                         </tr>
                         <tr>
                            <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
-                           <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$u</strong>mailto:ejap@phil.indiana.edu<strong>$i</strong>ejap subscription
+                           <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$u</strong>mailto:<a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="0e6b646f7e4e7e6667622067606a676f606f206b6a7b">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script><strong>$i</strong>ejap subscription
                            </td>
                         </tr>
                      </table>
@@ -192,7 +192,7 @@
                         </tr>
                         <tr>
                            <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
-                           <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$a</strong>locis.loc.gov<strong>$b</strong>140.147.254.3<strong>$m</strong>lconline@loc.gov<strong>$t</strong>3270<strong>$t</strong>line mode (e.g., vt100)<strong>$v</strong>M-F 6:00-21:30 USA EST, Sat. 8:30-17:00 USA EST,
+                           <td vAlign="top" colspan="9" align="left"><strong>3#</strong><strong>$a</strong>locis.loc.gov<strong>$b</strong>140.147.254.3<strong>$m</strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="f29e919d9c9e9b9c97b29e9d91dc959d84">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script><strong>$t</strong>3270<strong>$t</strong>line mode (e.g., vt100)<strong>$v</strong>M-F 6:00-21:30 USA EST, Sat. 8:30-17:00 USA EST,
                                                          Sun. 13:00-17:00 USA EST
                            </td>
                         </tr>
@@ -228,7 +228,7 @@
                         </tr>
                         <tr>
                            <td vAlign="top" colspan="1" align="left"><strong>856</strong></td>
-                           <td vAlign="top" colspan="9" align="left"><strong>4#</strong><strong>$u</strong>http://hdl.handle.net/loc.test/gotthome<strong>$g</strong>urn:hdl.loc.test/gotthome
+                           <td vAlign="top" colspan="9" align="left"><strong>4#</strong><strong>$u</strong>http://hdl.handle.net/loc.test/gotthome<strong>$u</strong>urn:hdl.loc.test/gotthome
                            </td>
                         </tr>
                      </table>
@@ -581,7 +581,7 @@
       <div class="subfield"><strong>$w - Record control number</strong> <div class="description">System control number of the related record preceded by the MARC code, enclosed in
                               parentheses, for the agency to which the control number applies. The data in the
                               subfield links field 856 to the MARC record having the same data in a control
-                              number field. See: <em><a href="http://www.loc.gov/marc/organizations/">MARC Code List for Organizations</a></em> for a listing of sources used in MARC 21 records.
+                              number field. See: <em><a href="//www.loc.gov/marc/organizations/">MARC Code List for Organizations</a></em> for a listing of sources used in MARC 21 records.
          </div>
       </div>
       <div class="subfield"><strong>$x - Nonpublic note</strong> <div class="description">Note relating to the electronic location of the source identified in the field.
@@ -601,7 +601,7 @@
                               The note is written in a form that is adequate or intended for public display.
          </div>
       </div>
-      <div class="subfield"><strong>$2 - Access method</strong> <div class="description">Access method when the first indicator position contains value 7. Code from: <em><a href="http://www.loc.gov/standards/valuelist/electronaccess.html">Electronic Access Methods Code List</a></em>.</div>
+      <div class="subfield"><strong>$2 - Access method</strong> <div class="description">Access method when the first indicator position contains value 7. Code from: <em><a href="//www.loc.gov/standards/valuelist/electronaccess.html">Electronic Access Methods Code List</a></em>.</div>
         </div>
       <div class="subfield"><strong>$3 - Materials specified</strong> <div class="description">Part of the described material to which the field applies.</div>
          <div class="example">
@@ -626,11 +626,11 @@
             </table>
          </div>
       </div>
-      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                                        Subfields</a></em>.
          </div>
       </div>
-      <div class="subfield"><strong>$8 - Field link and sequence number</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                                        Subfields</a></em>.
          </div>
       </div>
@@ -910,13 +910,13 @@
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
          <tr valign="bottom">
             <td>
-               <div class="head-nav"><a href="http://www.loc.gov/">Library of
-                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd84188x.html">841-88X</a> &gt;&gt; <strong>856</strong></div> 
+               <div class="head-nav"><a href="//www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="//www.loc.gov/marc/bibliographic/bd84188x.html">841-88X</a> &gt;&gt; <strong>856</strong></div> 
                (03/24/2008) 
             </td>
-            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+            <td align="right"><a href="/cdn-cgi/l/email-protection#bdd3d9d0ced2fdd1d2de93dad2cb">Contact Us</a></td>
          </tr>
       </table>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

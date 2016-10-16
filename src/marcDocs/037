@@ -1,410 +1,555 @@
 <!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
-<html>
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <title>MARC 21 Format for Bibliographic Data: 037:
-         						Source of Acquisition (Network Development and MARC Standards
-         					Office, Library of Congress)
+         Source of Acquisition (Network Development and MARC Standards
+         Office, Library of Congress)
       </title>
-      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-      <meta name="description" content="This field contains the source of acquisition (Network Development and MARC Standards Office, Library of Congress)">
-      <meta name="keywords" content="marc, marc21, marc standards">
-      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
-      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
-					body {margin-left: 2em; margin-right: 2em;} 
-					h1 {font-family:Arial, Helvetica, sans-serif;}
-					h3 {text-align:left;}
-					h4 {margin-top:.5em; margin-bottom:.5em;}
-					p {text-align:justify; margin-left:2em; margin-right:2em;}
-					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
-					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
-					.font_small {font-size:9pt;}
-					.fieldtoc {margin-left:2em;}
-					.box {font-family:ZapfDingbats;}
-					.description {text-align:justify; margin-left:2em;}
-					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
-					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
-					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
-					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
-					.example {margin-left:4em;}
-					.changed {color: #FF0000;}
-					.captiontext {font-style:italic;}
-					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
-					.displaycontent {text-align:left;}
-					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
-					.summary {margin-left:2em;}
-					.summarytable {margin-left:4em;}
-				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
-   <body>
-      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>037</strong></div>
-      <hr><a name="skip_menu"></a><h1>037 - Source of Acquisition (R)</h1>
-      <hr>
-      <div class="formatname">MARC 21 Bibliographic - Full</div>
-      <div class="datename">February 1999</div>
-      <hr>
-      <table width="100%">
-         <tr vAlign="top">
-            <td width="45%"><strong>First Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
-            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+      <meta name="description" content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>  
+               
+               &gt;&gt;
+               <strong>037</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>037</span> - <span>Source of Acquisition</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">April 2015</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Source of acquisition sequence</em><br /># - Not applicable/No information provided/Earliest<br />2 - Intervening<br />3 - Current/Latest<br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
          </tr>
       </table>
-      <hr>
-      <table width="100%">
-         <tr vAlign="top">
-            <td valign="top" width="50%" align="left"></td>
-            <td valign="top" width="50%" align="left"></td>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
          </tr>
-         <tr vAlign="top">
-            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
          </tr>
-         <tr vAlign="top">
-            <td colspan="1">$a - Stock number (NR) <br>$b - Source of stock number/acquisition (NR) <br>$c - Terms of availability (R) <br>$f - Form of issue (R) <br></td>
-            <td colspan="1">$g - Additional format characteristics (R) <br>$n - Note (R) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
-         </tr>
-   </table>
-      <hr>
-      <h3>FIELD DEFINITION AND SCOPE</h3>
-      <p>Source of acquisition information for the item or its reproduction.</p>
-      <p>If a stock number is present (subfield $a), source of stock number/acquisition
-                     information (subfield $b) is required.
-      </p>
-      <p>Government agency assigned numbers that can be used for classification purposes are not
-         carried in this field; they are contained in field 086 (Government Document
-         Classification Number). The ISBN, ISSN, and publisher's numbers for sound recordings,
-         printed music, videorecordings, and other music-related material are not carried in this field; they are contained in
-         fields 020 (International Standard Book Number), 022 (International Standard Serial
-                     Number), and 028 (Publisher Number), respectively. In addition, other standard numbers
-                     or codes published on an item are not accommodated in this field; they are contained in
-                     field 024 (Other Standard Identifier).
-      </p>
-      <p>Archival identification or order numbers assigned by a distributor for computer files
-                     are recorded in this field. The original study number assigned by the producer is
-                     recorded in field 036 (Original Study Number for Computer Data Files).
-      </p>
-      <p>Different and unrelated U.S. Government Printing Office stock numbers assigned by GPO to
-                     each issue of a serial are not carried in this field.
-      </p>
-      <p>Repeated when there are multiple stock numbers and/or sources of stock
-                     number/acquisition associated with the item.      </p>
-      <hr>
-      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
-      <h4><span class="box">&#9632;</span> INDICATORS
-      </h4>
-      <ul>
-         <li class="nobullet">Both indicator positions are undefined; each contains a blank (#).</li>
-      </ul>
-    
-      <h4><span class="box">&#9632;</span> SUBFIELD CODES
-      </h4>
-      <div class="subfield"><strong>$a - Stock number</strong> <div class="description">Numbers such as distributor, publisher, or vendor numbers are also recorded in
-                              this subfield.
-         </div>
-         <div class="example">
-            <table width="100%">
-               <tr>
-                  <td valign="top" width="5%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="15%" align="left"></td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>240-951/147<strong>$b</strong>GPO
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>001689 E<strong>$b</strong>Vienna Tourist Board
-                  </td>
-               </tr>
-            </table>
-         </div>
-      </div>
-      <div class="subfield"><strong>$b - Source of stock number/acquisition</strong> <div class="description">Name or abbreviation of the publisher, distributor, or vendor. Can contain full
-                              information relating to the name and address of the publisher, distributor, or
-                              vendor, including information that may also be found elsewhere in the record
-                              (e.g., in the imprint).
-         </div>
-         <div class="example">
-            <table width="100%">
-               <tr>
-                  <td valign="top" width="5%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="15%" align="left"></td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>C CPS 68 003<strong>$b</strong>U.S. Bureau of the Census
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>IUCPSR 7559<strong>$b</strong>Inter-University Consortium for Political and Social
-                                             Research, Ann Arbor, Mich.
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$b</strong>Ruth Duarte, P.O. Box 74, Napa, CA<strong>$c</strong>$25.00
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$b</strong>U.S. Geological Survey, Reston, Va.
-                                          22091
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$b</strong>U.S. Geological Survey, Denver, Colo.
-                                          80255
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>149866<strong>$b</strong>GAO (202) 512-6000 (Voice); (301) 258-4066
-                                          (Fax)
-                  </td>
-               </tr>
-            </table>
-         </div>
-      </div>
-      <div class="subfield"><strong>$c - Terms of availability</strong> <div class="description">Usually a price (and qualifying information such as time period or market) that is
-                              related to the other information in the field. Can contain information used to
-                              specify the price, such as the terms <em>gratis</em>, <em>free</em>, or
-                              <em>N.T.</em> (nontrade). For reproductions, the qualifying information may
-                              indicate the form of the item from which the reprocuction will be made when it is
-                              a major determinant of the price.
-         </div>
-		 <div class="description">
-         <div class="description2">For serially-issued items, the current annual subscription price is usually
-                              recorded. If the term has two or more prices covering different lengths of time,
-                              only the price applicable to a one-year subscription is included. A single issue
-                              price is recorded when it is the only price given. If each issue/volume of the
-                              serial has a separate price, the information is not recorded. (A single issue
-                              price for an annual publication is considered a one-year subscription price.) The
-                              price is qualified when 1) the price is not the one-year price; 2) the
-                              subscription to the serial in hand also includes a subscription to another
-                              publication; and 3) multiple subscription prices are recorded. Qualifying terms
-                              are enclosed in parentheses and are not separately subfield coded.
-         </div></div>
-		 <div class="description">
-         <div class="description2">For non-serially issued items, if price information is associated with an ISBN or
-                              other standard number, then subfield $c (Terms of availability) of field 020
-                              (International Standard Book Number) or subfield $c (Terms of availability) of
-                              field 024 (Other Standard Identifier), respectively, are preferred.
-         </div>
-		 </div>
-         <div class="example">
-            <table width="100%">
-               <tr>
-                  <td valign="top" width="5%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="15%" align="left"></td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>FSWEC-77/0420<strong>$b</strong>National Technical Information Service, Springfield, VA
-                                             22161<strong>$f</strong>Magnetic tape<strong>$c</strong>$175.00
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>PB-363547<strong>$b</strong>NTIS<strong>$f</strong>paper copy<strong>$c</strong>$4.00<strong>$f</strong>microfiche<strong>$c</strong>$3.00
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$b</strong>American Institute of Physics, 335 E. 45th St., New
-                                             York, N.Y. 10017<strong>$c</strong>$24.00 (institution, U.S.)<strong>$c</strong>$26.00 (institution, foreign)<strong>$c</strong>$14.00 (individual, U.S.)<strong>$c</strong>$16.00 (individual, foreign)
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>LC-USZ62-94085<strong>$b</strong>DLC<strong>$c</strong>(b&amp;w film copy neg., after
-                                          preservation)
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>LC-USZC2-1362<strong>$b</strong>DLC<strong>$c</strong>(color film copy slide, after
-                                          preservation)
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>LC-USZC4-1097<strong>$b</strong>DLC<strong>$c</strong>(color film copy transparency)<br><em>[A reproduction can be made from three different reproduction sources, which
-                                             determines the price; prices are not given in field 037 since they
-                                          fluctuate.]</em></td>
-               </tr>
-            </table>
-         </div>
-      </div>
-      <div class="subfield"><strong>$f - Form of issue</strong> <div class="description">Terms describing binding or format of the item available for order. Does not
-                              include statements of coverage or type of subscriber; such information is included
-                              as qualifiers in subfield $c. The subfield is commonly used when more than one
-                              physical form is recorded, each with a separate price.
-         </div>
-         <div class="example">
-            <table width="100%">
-               <tr>
-                  <td valign="top" width="5%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="15%" align="left"></td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$b</strong>Gordon and Breach Science Publishers Ltd., 42 William
-                                             IV St., London, W.C.2, England<strong>$f</strong>hard bound<strong>$c</strong>$25.00<strong>$f</strong>paperbound<strong>$c</strong>$12.50
-                  </td>
-               </tr>
-            </table>
-         </div>
-      </div>
-      <div class="subfield"><strong>$g - Additional format characteristics</strong> <div class="description">Name of the format, the format version number, and/or format version date in which
-                              the data is available for transfer. May be repeated to record compression
-                              technique (information on algorithms or processes applied to the data set in its
-                              transfer format to reduce the size of the file); transfer size (size in megabytes
-                              of the file when transferred); and recording information (information about the
-                              options available or methods used to write the data set to the medium, the density
-                              in which the data set can be transferred, and the units of measure for the
-                              recording density).
-         </div>
-         <div class="example">
-            <table width="100%">
-               <tr>
-                  <td valign="top" width="5%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="15%" align="left"></td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$g</strong>ARCE
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$b</strong>EROS Data Center<strong>$f</strong>9-track tape;<strong>$g</strong>DEM;<strong>$c</strong>$40 (per file)<strong>$c</strong>$20 (per file in groups of 2 to 6)<strong>$c</strong>$90 base fee plus $7 per file (in groups of 7 or more).<strong>$g</strong>ASCII recording mode; available with no internal labels
-                                             or with ANSI standard labels; logical record length is 1024 bytes; block
-                                             size is a multiple of 1024 up to 31744 bytes; 1600 or 6250 characters per
-                                             inch.
-                  </td>
-               </tr>
-            </table>
-         </div>
-      </div>
-      <div class="subfield"><strong>$n - Note</strong> <div class="description">Textual note pertaining to the acquisition of the item.</div>
-         <div class="example">
-            <table width="100%">
-               <tr>
-                  <td valign="top" width="5%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="15%" align="left"></td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>037</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$b</strong>University Microfilms<strong>$f</strong>microfiche<strong>$c</strong>$15.95<strong>$n</strong>Available only without color
-                  </td>
-               </tr>
-            </table>
-         </div>
-      </div>
-      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
-                                       Subfields</a></em>.
-         </div>
-      </div>
-      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
-        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
-                                       Subfields</a></em>.
-        </div>
-   </div>
-      <hr>
-      <h3>INPUT CONVENTIONS</h3>
-      <div class="description2"><strong>Order of Subfields</strong> - Each subfield $f (Form of issue) precedes its corresponding price in subfield $c (Terms
-                     of availability).
-      </div>
-      <div class="description2"><strong>Punctuation</strong> - Field 037 does not end with a period unless the last word in the field is an
-                     abbreviation, initial/letter, or other data that ends with a mark of punctuation.
-                     Subfields do not end with a mark of punctuation unless the last word in the subfield
-                     ends with one. Qualifiers to price in subfield $c are given in parentheses, even when
-                     the price is absent.
-      </div>
-      <div class="description2"><strong>Subfield $b Considerations</strong> - Any name of a person or institution precedes the address. Standard abbreviations are
-                     customarily used wherever possible (e.g., St. for street, Bldg. for Building). When
-                     recording the abbreviation for a state, the U.S. Postal Service abbreviation is
-                     preferred, or, the appropriate AACR 2 abbreviation. When a subscription address is given
-                     on the item both in English and in the language of the country of publication, the
-                     address in the language of the country of publication is recorded.
-      </div>
-      <hr>
-      <h3>CONTENT DESIGNATOR HISTORY</h3>
-      <div class="font_small"><br>In 1993, the scope of the field was redefined from "Stock Number" to "Source of
-                     Acquisition." Subfield $b was redefined from "Source of stock number" to "Source of
-                     stock number/acquisition" so as to include source of acquisition data previously
-                     recorded in obsolete field 265 (Source for Acquisition/Subscription Address). Also, as
-                     part of the redefinition of field 037, price and form of issue data previously recorded
-                     in obsolete field 350 (Price) is to be recorded in field 037.<br></div>
-      <hr>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-         <tr valign="bottom">
+         <tr>
             <td>
-               <div class="head-nav"><a href="http://www.loc.gov/">Library of
-                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>037</strong></div> 
-               (06/23/2008) 
+               <ul class="nomark">
+                  <li>$a - Stock number<span> (NR)</span></li>
+                  <li>$b - Source of stock number/acquisition<span> (NR)</span></li>
+                  <li>$c - Terms of availability<span> (R)</span></li>
+                  <li>$f - Form of issue<span> (R)</span></li>
+                  <li>$g - Additional format characteristics<span> (R)</span></li>
+               </ul>
             </td>
-            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+            <td>
+               <ul class="nomark">
+                  <li>$n - Note<span> (R)</span></li>
+                  <li>$3 - Materials specified<span> (NR)</span></li>
+                  <li>$5 - Institution to which field applies<span> (R)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
          </tr>
       </table>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Source of acquisition information for the item or its reproduction.</p>
+         </div>
+         <div>
+            <p>If a stock number is present (subfield $a), source of stock number/acquisition
+               information (subfield $b) is required.
+            </p>
+            <p>Government agency assigned numbers that can be used for classification purposes are
+               not
+               carried in this field; they are contained in field 086 (Government Document
+               Classification Number). The ISBN, ISSN, and publisher's numbers for sound recordings,
+               printed music, videorecordings and other music-related material are not carried in
+               this field; they are contained in
+               fields 020 (International Standard Book Number), 022 (International Standard Serial
+               Number), and 028 (Publisher Number), respectively. In addition, other standard numbers
+               or codes published on an item are not accommodated in this field; they are contained
+               in
+               field 024 (Other Standard Identifier).
+            </p>
+            <p>Archival identification or order numbers assigned by a distributor for computer files
+               are recorded in this field. The original study number assigned by the producer is
+               recorded in field 036 (Original Study Number for Computer Data Files).
+            </p>
+            <p>Different and unrelated U.S. Government Printing Office stock numbers assigned by
+               GPO to
+               each issue of a serial are not carried in this field.
+            </p>
+            <p>Repeated when there are multiple stock numbers and/or sources of stock
+               number/acquisition associated with the item.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">■</span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>First Indicator - Source of acquisition sequence</strong></p>
+                  <div>
+                     <p>Enables the generation of a display constant preceding the note text.</p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - Not applicable/No information provided/Earliest</span><div>
+                           <p>Used when a resource is first cataloged. Information given in value # is not changed
+                              (unless incorrect or earlier issues of a serial are later available with differing
+                              source
+                              of acquisition information).
+                           </p>
+                           <p>Defined as “No information provided” for monographic works that are complete as first
+                              issued.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>037</strong></td>
+                                 <td colspan="9"><strong>##</strong><strong>$a</strong>1351129<strong>$b</strong>QBI<em><span><br />
+                                 <span>[Source of acquisition information for the distributor of a monograph.]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - Intervening</span><div>
+                           <p>Used when source of acquisition information changes. Additional source of acquisition
+                              information between the earliest and latest may also be recorded with first indicator
+                              value 2.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">3 - Current/Latest</span><div>
+                           <p>Used when source of acquisition information changes. The current information may
+                              be added with first indicator value 3. Data given regarding subsequent source of
+                              acquisition information can be changed to reflect the current information when only
+                              the earliest and most current data is needed.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td><strong>037</strong></td>
+                                 <td colspan="9"><strong>##</strong><strong>$a</strong>BL_12860042<strong>$b</strong>Portico<strong>$n</strong>Cambridge University Press<strong>$5</strong>Uk
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>037</strong></td>
+                                 <td colspan="9"><strong>3#</strong><strong>$a</strong>ISSN_12860042<strong>$b</strong>Portico<strong>$n</strong>Cambridge University Press<strong>$5</strong>Uk<em><span><br /><span>[Source of acquisition information for the earliest
+                                             and current/latest distributor of a serial.]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Undefined</strong></p>
+                  <div>
+                     <p>Undefined and contains a blank (#).</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">■</span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Stock number</strong> 
+                  </p>
+                  <div>
+                     <p>Numbers such as distributor, publisher, or vendor numbers are also recorded in
+                        this subfield.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>240-951/147<strong>$b</strong>GPO
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>001689 E<strong>$b</strong>Vienna Tourist Board
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Source of stock number/acquisition</strong> 
+                  </p>
+                  <div>
+                     <p>Name or abbreviation of the publisher, distributor, or vendor. Can contain full
+                        information relating to the name and address of the publisher, distributor, or
+                        vendor, including information that may also be found elsewhere in the record
+                        (e.g., in the imprint).
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>C CPS 68 003<strong>$b</strong>U.S. Bureau of the Census
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>IUCPSR 7559<strong>$b</strong>Inter-University Consortium for Political and Social
+                              Research, Ann Arbor, Mich.
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>Ruth Duarte, P.O. Box 74, Napa, CA<strong>$c</strong>$25.00
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>U.S. Geological Survey, Reston, Va.
+                              22091
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>U.S. Geological Survey, Denver, Colo.
+                              80255
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>149866<strong>$b</strong>GAO (202) 512-6000 (Voice); (301) 258-4066
+                              (Fax)
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$c - Terms of availability</strong> 
+                  </p>
+                  <div>
+                     <p>Usually a price (and qualifying information such as time period or market) that is
+                        related to the other information in the field. Can contain information used to
+                        specify the price, such as the terms <em>gratis</em>, <em>free</em>, or
+                        <em>N.T.</em> (nontrade). For reproductions, the qualifying information may
+                        indicate the form of the item from which the reprocuction will be made when it is
+                        a major determinant of the price.
+                     </p>
+                     <p>For serially-issued items, the current annual subscription price is usually
+                        recorded. If the term has two or more prices covering different lengths of time,
+                        only the price applicable to a one-year subscription is included. A single issue
+                        price is recorded when it is the only price given. If each issue/volume of the
+                        serial has a separate price, the information is not recorded. (A single issue
+                        price for an annual publication is considered a one-year subscription price.) The
+                        price is qualified when 1) the price is not the one-year price; 2) the
+                        subscription to the serial in hand also includes a subscription to another
+                        publication; and 3) multiple subscription prices are recorded. Qualifying terms
+                        are enclosed in parentheses and are not separately subfield coded.
+                     </p>
+                     <p>For non-serially issued items, if price information is associated with an ISBN or
+                        other standard number, then subfield $c (Terms of availability) of field 020
+                        (International Standard Book Number) or subfield $c (Terms of availability) of
+                        field 024 (Other Standard Identifier), respectively, are preferred.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>FSWEC-77/0420<strong>$b</strong>National Technical Information Service, Springfield, VA
+                              22161<strong>$f</strong>Magnetic tape<strong>$c</strong>$175.00
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>PB-363547<strong>$b</strong>NTIS<strong>$f</strong>paper copy<strong>$c</strong>$4.00<strong>$f</strong>microfiche<strong>$c</strong>$3.00
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>American Institute of Physics, 335 E. 45th St., New
+                              York, N.Y. 10017<strong>$c</strong>$24.00 (institution, U.S.)<strong>$c</strong>$26.00 (institution, foreign)<strong>$c</strong>$14.00 (individual, U.S.)<strong>$c</strong>$16.00 (individual, foreign)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>LC-USZ62-94085<strong>$b</strong>DLC<strong>$c</strong>(b&amp;w film copy neg., after
+                              preservation)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>LC-USZC2-1362<strong>$b</strong>DLC<strong>$c</strong>(color film copy slide, after
+                              preservation)
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>LC-USZC4-1097<strong>$b</strong>DLC<strong>$c</strong>(color film copy transparency)<em><span><br /><span>[A reproduction can be made from three different reproduction sources, which
+                                       determines the price; prices are not given in field 037 since they
+                                       fluctuate.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$f - Form of issue</strong> 
+                  </p>
+                  <div>
+                     <p>Terms describing binding or format of the item available for order. Does not
+                        include statements of coverage or type of subscriber; such information is included
+                        as qualifiers in subfield $c. The subfield is commonly used when more than one
+                        physical form is recorded, each with a separate price.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>Gordon and Breach Science Publishers Ltd., 42 William
+                              IV St., London, W.C.2, England<strong>$f</strong>hard bound<strong>$c</strong>$25.00<strong>$f</strong>paperbound<strong>$c</strong>$12.50
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$g - Additional format characteristics</strong> 
+                  </p>
+                  <div>
+                     <p>Name of the format, the format version number, and/or format version date in which
+                        the data is available for transfer. May be repeated to record compression
+                        technique (information on algorithms or processes applied to the data set in its
+                        transfer format to reduce the size of the file); transfer size (size in megabytes
+                        of the file when transferred); and recording information (information about the
+                        options available or methods used to write the data set to the medium, the density
+                        in which the data set can be transferred, and the units of measure for the
+                        recording density).
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$g</strong>ARCE
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>EROS Data Center<strong>$f</strong>9-track tape;<strong>$g</strong>DEM;<strong>$c</strong>$40 (per file)<strong>$c</strong>$20 (per file in groups of 2 to 6)<strong>$c</strong>$90 base fee plus $7 per file (in groups of 7 or more).<strong>$g</strong>ASCII recording mode; available with no internal labels
+                              or with ANSI standard labels; logical record length is 1024 bytes; block
+                              size is a multiple of 1024 up to 31744 bytes; 1600 or 6250 characters per
+                              inch.
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$n - Note</strong> 
+                  </p>
+                  <div>
+                     <p>Textual note pertaining to the acquisition of the item.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>University Microfilms<strong>$f</strong>microfiche<strong>$c</strong>$15.95<strong>$n</strong>Available only without color
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$3 - Materials specified</strong> 
+                  </p>
+                  <div>
+                     <p>Part of the described materials to which the field applies.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$3</strong>-2013<strong>$a</strong>ISSN_13693786_98<strong>$b</strong>Portico<strong>$n</strong>Informa Healthcare<strong>$5</strong>Uk
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>3#</strong><strong>$3</strong>2014<strong>$a</strong>mmy<strong>$b</strong>Oxford University Press<strong>$5</strong>Uk<em><span><br /><span>[Source of acquisition information for the earliest 
+                                       and current/latest distributors of a serial; the parts relating
+                                       to each source of acquisition are represented by a year range.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$5 - Institution to which field applies</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>037</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>ISSN_23264624<strong>$b</strong>Portico<strong>$n</strong>Wiley<strong>$5</strong>Uk<em><span><br /><span>[Source of acquisition information for the distributor of a serial used by the British
+                                       Library.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Order of Subfields - </strong>Each subfield $f (Form of issue) precedes its corresponding price in subfield $c (Terms
+               of availability).
+            </p>
+         </div>
+         <div>
+            <p><strong>Punctuation - </strong>Field 037 does not end with a period unless the last word in the field is an
+               abbreviation, initial/letter, or other data that ends with a mark of punctuation.
+               Subfields do not end with a mark of punctuation unless the last word in the subfield
+               ends with one. Qualifiers to price in subfield $c are given in parentheses, even when
+               the price is absent.
+            </p>
+         </div>
+         <div>
+            <p><strong>Subfield $b Considerations - </strong>Any name of a person or institution precedes the address. Standard abbreviations are
+               customarily used wherever possible (e.g., St. for street, Bldg. for Building). When
+               recording the abbreviation for a state, the U.S. Postal Service abbreviation is
+               preferred, or, the appropriate AACR 2 abbreviation. When a subscription address is
+               given
+               on the item both in English and in the language of the country of publication, the
+               address in the language of the country of publication is recorded.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div>
+            <p>In 1993, the scope of the field was redefined from "Stock Number" to "Source of
+               Acquisition." Subfield $b was redefined from "Source of stock number" to "Source of
+               stock number/acquisition" so as to include source of acquisition data previously
+               recorded in obsolete field 265 (Source for Acquisition/Subscription Address). Also,
+               as
+               part of the redefinition of field 037, price and form of issue data previously recorded
+               in obsolete field 350 (Price) is to be recorded in field 037.
+            </p>
+         </div>
+         <div class="indicatorHistory"><em>Indicator 1 - Source of acquisition sequence [NEW, 2015]</em><div class="valuehistory">
+               <div><em># - Not applicable/No information provided/Earliest [NEW, 2015]</em></div>
+            </div>
+            <div>
+               <p></p>
+            </div>
+            <div class="valuehistory">
+               <div><em>2 - Intervening [NEW, 2015]</em></div>
+            </div>
+            <div>
+               <p></p>
+            </div>
+            <div class="valuehistory">
+               <div><em>3 - Current/Latest [NEW, 2015]</em></div>
+            </div>
+            <div>
+               <p>Prior to 2015 Indicator 1 was undefined</p>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$3 - Materials specified [NEW, 2015]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$5 - Institution to which field applies [NEW, 2015]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>  
+               
+               &gt;&gt;
+               <strong>037</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(04/29/2015)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#5739333a2438173b383479303821" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

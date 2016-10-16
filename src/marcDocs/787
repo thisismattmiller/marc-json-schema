@@ -14,11 +14,11 @@
             content="Library of Congress Network Development and MARC Standards Office" />
       <link href="../styles.css" rel="stylesheet" type="text/css" />
       <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
-   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   </head>
    <body class="full">
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a> &gt;&gt;
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a> &gt;&gt;
                <strong>787</strong></span></div>
       </div>
       <hr /><a name="skip_menu"></a><h1>787 - Other Relationship Entry (R)</h1>
@@ -73,7 +73,7 @@
                   <li>$z - International Standard Book Number (R)</li>
                   <li>$4 - Relationship code (R)</li>
                   <li>$6 - Linkage (NR)</li>
-                  <li>$7 - Control subfield (NR)<br />Â Â Â Â /0 - Type of main entry heading<br />Â Â Â Â /1 - Form of name<br />Â Â Â Â /2 - Type of record<br />Â Â Â Â /3 - Bibliographic level
+                  <li>$7 - Control subfield (NR)<br />    /0 - Type of main entry heading<br />    /1 - Form of name<br />    /2 - Type of record<br />    /3 - Bibliographic level
                   </li>
                   <li>$8 - Field link and sequence number (R)</li>
                </ul>
@@ -103,7 +103,7 @@
                      Entries-General Information</a></em> section.
             </p>
          </div>
-         <h4><span class="box">â </span> INDICATORS
+         <h4><span class="box">■</span> INDICATORS
          </h4>
          <div class="indicators">
             <div class="indicator">
@@ -129,7 +129,7 @@
                </div>
             </div>
          </div>
-         <h4><span class="box">â  </span> EXAMPLES
+         <h4><span class="box">■ </span> EXAMPLES
          </h4>
          <div class="examplesec">
             <div class="example">
@@ -172,7 +172,7 @@
                <table>
                   <tr>
                      <td>024</td>
-                     <td colspan="9">7#$a0A42010111177788$2istc<em><span><br /><span>[ISTC for the work âGeorge Orwell's Animal farmâ]</span></span></em></td>
+                     <td colspan="9">7#$a0A42010111177788$2istc<em><span><br /><span>[ISTC for the work “George Orwell's Animal farm”]</span></span></em></td>
                   </tr>
                   <tr>
                      <td>100</td>
@@ -188,7 +188,7 @@
                   </tr>
                   <tr>
                      <td><strong>787</strong></td>
-                     <td colspan="9"><strong>18</strong><strong>$i</strong>Related source work<strong>$o</strong>(istc)0A3200912B4A1057<em><span><br /><span>[ISTC for the original source work âAnimal farmâ]</span></span></em></td>
+                     <td colspan="9"><strong>18</strong><strong>$i</strong>Related source work<strong>$o</strong>(istc)0A3200912B4A1057<em><span><br /><span>[ISTC for the original source work “Animal farm”]</span></span></em></td>
                   </tr>
                </table>
             </div>
@@ -196,11 +196,11 @@
       </div>
       <hr class="clear" />
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a> &gt;&gt;
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a> &gt;&gt;
                <strong>787</strong></span></div>
       </div>
       <div class="left"><span class="noprint">(05/31/2011)</span></div>
-      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#254b4148564a65494a460b424a53" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

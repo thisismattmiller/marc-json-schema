@@ -14,13 +14,13 @@
             content="Library of Congress Network Development and MARC Standards Office" />
       <link href="../styles.css" rel="stylesheet" type="text/css" />
       <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
-   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   </head>
    <body class="full">
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>  
                
                &gt;&gt;
                <strong>028</strong></span></div>
@@ -77,7 +77,7 @@
          </div>
          <div>
             <p>Numbers that are identified as stock numbers are recorded in field 037 (Source of
-               Acquisition). In case of doubt as to whether a number is a publisherâs number, record
+               Acquisition). In case of doubt as to whether a number is a publisher’s number, record
                the number in field 500 or 037. Repeatable for multiple numbers associated with an
                item.
             </p>
@@ -86,7 +86,7 @@
       <hr />
       <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
       <div class="guidelines">
-         <h4><span class="box">â </span> INDICATORS
+         <h4><span class="box">■</span> INDICATORS
          </h4>
          <div class="indicators">
             <div class="indicator">
@@ -263,7 +263,7 @@
                </div>
             </div>
          </div>
-         <h4><span class="box">â </span> SUBFIELD CODES
+         <h4><span class="box">■</span> SUBFIELD CODES
          </h4>
          <div class="subfields">
             <div class="subfield">
@@ -331,17 +331,17 @@
                      <table>
                         <tr>
                            <td><strong>028</strong></td>
-                           <td colspan="9"><strong>02</strong><strong>$a</strong>438 953-2<strong>$b</strong>Philips Classics<strong>$q</strong>(set)
+                           <td colspan="9"><strong>02</strong><strong>$a</strong>438 953-2<strong>$b</strong>Philips Classics<strong>$q</strong>set
                            </td>
                         </tr>
                         <tr>
                            <td><strong>028</strong></td>
-                           <td colspan="9"><strong>02</strong><strong>$a</strong>438 954-2<strong>$b</strong>Philips Classics<strong>$q</strong>(disc 1)
+                           <td colspan="9"><strong>02</strong><strong>$a</strong>438 954-2<strong>$b</strong>Philips Classics<strong>$q</strong>disc 1
                            </td>
                         </tr>
                         <tr>
                            <td><strong>028</strong></td>
-                           <td colspan="9"><strong>02</strong><strong>$a</strong>438 955-2<strong>$b</strong>Philips Classics<strong>$q</strong>(disc 2)<em><span><br /><span>[2 CDs, with a number for the set and a number for each CD]</span></span></em></td>
+                           <td colspan="9"><strong>02</strong><strong>$a</strong>438 955-2<strong>$b</strong>Philips Classics<strong>$q</strong>disc 2<em><span><br /><span>[2 CDs, with a number for the set and a number for each CD]</span></span></em></td>
                         </tr>
                      </table>
                   </div>
@@ -349,12 +349,12 @@
                      <table>
                         <tr>
                            <td><strong>028</strong></td>
-                           <td colspan="9"><strong>02</strong><strong>$a</strong>K2 31158<strong>$b</strong>EMI Music Canada<strong>$q</strong>(on label)
+                           <td colspan="9"><strong>02</strong><strong>$a</strong>K2 31158<strong>$b</strong>EMI Music Canada<strong>$q</strong>on label
                            </td>
                         </tr>
                         <tr>
                            <td><strong>028</strong></td>
-                           <td colspan="9"><strong>02</strong><strong>$a</strong>7234 8 31158<strong>$b</strong>EMI Music Canada<strong>$q</strong>(on container spine)<em><span><br /><span>[CD with two different numbers, one on the label and the other 
+                           <td colspan="9"><strong>02</strong><strong>$a</strong>7234 8 31158<strong>$b</strong>EMI Music Canada<strong>$q</strong>on container spine<em><span><br /><span>[CD with two different numbers, one on the label and the other 
                                        on the container spine]</span></span></em></td>
                         </tr>
                      </table>
@@ -363,17 +363,17 @@
                      <table>
                         <tr>
                            <td><strong>028</strong></td>
-                           <td colspan="9"><strong>42</strong><strong>$a</strong>440 073 032-9<strong>$b</strong>Deutsche Grammophon<strong>$q</strong>(set and guide)
+                           <td colspan="9"><strong>42</strong><strong>$a</strong>440 073 032-9<strong>$b</strong>Deutsche Grammophon<strong>$q</strong>set and guide
                            </td>
                         </tr>
                         <tr>
                            <td><strong>028</strong></td>
-                           <td colspan="9"><strong>42</strong><strong>$a</strong>440 073 033-9<strong>$b</strong>Deutsche Grammophon<strong>$q</strong>(disc 1)
+                           <td colspan="9"><strong>42</strong><strong>$a</strong>440 073 033-9<strong>$b</strong>Deutsche Grammophon<strong>$q</strong>disc 1
                            </td>
                         </tr>
                         <tr>
                            <td><strong>028</strong></td>
-                           <td colspan="9"><strong>42</strong><strong>$a</strong>440 073 034-9<strong>$b</strong>Deutsche Grammophon<strong>$q</strong>(disc 2)<em><span><br /><span>[2 DVDs, with number for the set and a number for each DVD]</span></span></em></td>
+                           <td colspan="9"><strong>42</strong><strong>$a</strong>440 073 034-9<strong>$b</strong>Deutsche Grammophon<strong>$q</strong>disc 2<em><span><br /><span>[2 DVDs, with number for the set and a number for each DVD]</span></span></em></td>
                         </tr>
                      </table>
                   </div>
@@ -384,7 +384,7 @@
                   <p class="label"><strong>$6 - Linkage</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                               Subfields</a></em>.
                      </p>
                   </div>
@@ -395,7 +395,7 @@
                   <p class="label"><strong>$8 - Field link and sequence number</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                               Subfields</a></em>.
                      </p>
                   </div>
@@ -406,6 +406,9 @@
       <hr />
       <h3>INPUT CONVENTIONS</h3>
       <div class="conventions">
+          <div>
+            <p><strong>Qualifying Information - </strong>In displays, qualifying information may be enclosed in parentheses.</p>
+         </div>
          <div>
             <p><strong>Punctuation - </strong>Field 028 does not end with a mark of punctuation. All spacing and punctuation internal
                to the number are carried in field 028.
@@ -445,15 +448,15 @@
       </div>
       <hr class="clear" />
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>  
                
                &gt;&gt;
                <strong>028</strong></span></div>
       </div>
       <div class="left"><span class="noprint">(09/19/2012)</span></div>
-      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#bfd1dbd2ccd0ffd3d0dc91d8d0c9" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

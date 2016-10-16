@@ -10,7 +10,7 @@
       <meta name="description" content="This field contains trade availability information  (Network Development and MARC Standards Office, Library of Congress)">
       <meta name="keywords" content="marc, marc21, marc standards">
       <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
-      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+      <link href="//www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
 					body {margin-left: 2em; margin-right: 2em;} 
 					h1 {font-family:Arial, Helvetica, sans-serif;}
 					h3 {text-align:left;}
@@ -40,16 +40,16 @@
 					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
 					.summary {margin-left:2em;}
 					.summarytable {margin-left:4em;}
-				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+				</style></head>
    <body>
-      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>366</strong></div>
+      <div class="head-nav"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="//www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>366</strong></div>
       <hr><a name="skip_menu"></a><h1>366 - Trade Availability Information (R)</h1>
       <hr>
       <div class="formatname">MARC 21 Bibliographic - Full</div>
       <div class="datename">October 2003</div>
       <hr>
-	  <a href="http://www.loc.gov/global/disclaim.html"><img src="http://www.loc.gov/images/disclaimer.gif" alt="Link disclaimer" width="91" height="16" border="0" align="right"></a>
+	  <a href="//www.loc.gov/global/disclaim.html"><img src="//www.loc.gov/images/disclaimer.gif" alt="Link disclaimer" width="91" height="16" border="0" align="right"></a>
       <table width="100%">
          <tr vAlign="top">
             <td width="45%"><strong>First Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
@@ -133,7 +133,7 @@
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>366</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$b</strong>19960517<strong>$c</strong>NP 19951205<strong>$2</strong>onix-as<br><em>[Not yet published as of 5th December 1995; due 17th May 1996]</em></td>
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$b</strong>19960517<strong>$c</strong>NP 19951205<strong>$2</strong>onixas<br><em>[Not yet published as of 5th December 1995; due 17th May 1996]</em></td>
                </tr>
             </table>
          </div>
@@ -197,7 +197,7 @@
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>366</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$c</strong>OP 20011105<strong>$g</strong>20011013<strong>$j</strong>UK<strong>$2</strong>onix-as<br><em>[Item that went out of print in the UK in October 2001. The status was
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$c</strong>OP 20011105<strong>$g</strong>20011013<strong>$j</strong>UK<strong>$2</strong>onixas<br><em>[Item that went out of print in the UK in October 2001. The status was
                                              changed on 5th November 2001]</em></td>
                </tr>
             </table>
@@ -205,27 +205,27 @@
       </div>
       <div class="subfield"><strong>$j - ISO country code</strong> <div class="description">Code for the country in which the information in the field is applicable.</div>
          <div class="description2">
-            <div class="description">Code from: <a href="http://www.iso.org/iso/country_codes/iso_3166_code_lists/english_country_names_and_code_elements.htm">ISO 3166-1</a>, <em>Codes for the Representation of Names of
+            <div class="description">Code from: <a href="http://www.iso.org/iso/country_codes/iso_3166_code_lists/english_country_names_and_code_ehttps://www.iso.org/obp/ui/#search">ISO 3166-1</a>, <em>Codes for the Representation of Names of
                                     Countries</em>.
             </div>
          </div>
       </div>
       <div class="subfield"><strong>$k - MARC country code</strong> <div class="description">Code for the country in which the information in the field is applicable. Code
-                              from: <em><a href="http://www.loc.gov/marc/countries/">MARC Code List for
+                              from: <em><a href="//www.loc.gov/marc/countries/">MARC Code List for
                                     Countries</a></em>.
          </div>
       </div>
       <div class="subfield"><strong>$m - Identification of agency</strong> <div class="description">Identification of the agency supplying the information in the field.</div>
       </div>
       <div class="subfield"><strong>$2 - Source of availability status code</strong> <div class="description">MARC code that identifies the source of the availability status code recorded in
-                              subfield $c. Code from: <em><a href="http://www.loc.gov/standards/sourcelist/availability-status.html">Availability Status Code Source Codes</a></em>.
+                              subfield $c. Code from: <em><a href="//www.loc.gov/standards/sourcelist/availability-status.html">Availability Status Code Source Codes</a></em>.
          </div>
       </div>
-      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                                        Subfields</a></em>.
          </div>
       </div>
-      <div class="subfield"><strong>$8 - Field link and sequence number</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+      <div class="subfield"><strong>$8 - Field link and sequence number</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                                        Subfields</a></em>.
          </div>
       </div>
@@ -233,12 +233,12 @@
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
          <tr valign="bottom">
             <td>
-               <div class="head-nav"><a href="http://www.loc.gov/">Library of
-                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>366</strong></div> (02/23/2008) 
+               <div class="head-nav"><a href="//www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="//www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt; <strong>366</strong></div> (02/23/2008) 
             </td>
-            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+            <td align="right"><a href="/cdn-cgi/l/email-protection#bcd2d8d1cfd3fcd0d3df92dbd3ca">Contact Us</a></td>
          </tr>
       </table>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

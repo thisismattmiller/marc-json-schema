@@ -14,13 +14,13 @@
             content="Library of Congress Network Development and MARC Standards Office" />
       <link href="../styles.css" rel="stylesheet" type="text/css" />
       <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
-   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   </head>
    <body class="full">
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>  
                
                &gt;&gt;
                <strong>024</strong></span></div>
@@ -55,7 +55,7 @@
                   <li>$a - Standard number or code<span> (NR)</span></li>
                   <li>$c - Terms of availability<span> (NR)</span></li>
                   <li>$d - Additional codes following the standard number or code<span> (NR)</span></li>
-                  <li class="changed">$q - Qualifying information<span> (R)</span></li>
+                  <li>$q - Qualifying information<span> (R)</span></li>
                </ul>
             </td>
             <td>
@@ -83,7 +83,7 @@
       <hr />
       <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
       <div class="guidelines">
-         <h4><span class="box">â </span> INDICATORS
+         <h4><span class="box">■</span> INDICATORS
          </h4>
          <div class="indicators">
             <div class="indicator">
@@ -173,7 +173,7 @@
                </div>
             </div>
          </div>
-         <h4><span class="box">â </span> SUBFIELD CODES
+         <h4><span class="box">■</span> SUBFIELD CODES
          </h4>
          <div class="subfields">
             <div class="subfield">
@@ -202,7 +202,7 @@
                   </p>
                   <div>
                      <p>Price or a brief statement of availability and any paranthetical qualifying information
-                        <span class="changed">about availability</span>. Information is only recorded in this subfield
+                        about availability. Information is only recorded in this subfield
                  when a number is present in subfield $a.
                      </p>
                   </div>
@@ -248,7 +248,7 @@
                </div>
             </div>
             <div class="subfield">
-               <div class="changed">
+               <div>
                   <p class="label"><strong>$q - Qualifying information</strong> 
                   </p>
                   <div>
@@ -257,12 +257,12 @@
                   </div>
                   <div class="example">
                      <table>
-                        <tr class="changed">
+                        <tr>
                            <td><strong>024</strong></td>
                            <td colspan="9"><strong>2#</strong><strong>$a</strong>M570406203<strong>$q</strong>score<strong>$q</strong>sewn<strong>$c</strong>EUR28.50
                            </td>
                         </tr>
-                        <tr class="changed">
+                        <tr>
                            <td><strong>024</strong></td>
                            <td colspan="9"><strong>2#</strong><strong>$a</strong>M570406210<strong>$q</strong>parts<strong>$q</strong>sewn
                            </td>
@@ -301,7 +301,7 @@
                      </p>
                   </div>
                   <div>
-                     <p>Code from: <em><a href="http://www.loc.gov/standards/sourcelist/standard-identifier.html">Standard Identifier Source Codes</a></em>.
+                     <p>Code from: <em><a href="//www.loc.gov/standards/sourcelist/standard-identifier.html">Standard Identifier Source Codes</a></em>.
                      </p>
                   </div>
                   <div class="example">
@@ -320,7 +320,7 @@
                   <p class="label"><strong>$6 - Linkage</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                               Subfields</a></em>.
                      </p>
                   </div>
@@ -331,7 +331,7 @@
                   <p class="label"><strong>$8 - Field link and sequence number</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                               Subfields</a></em>.
                      </p>
                   </div>
@@ -342,6 +342,9 @@
       <hr />
       <h3>INPUT CONVENTIONS</h3>
       <div class="conventions">
+       <div>
+            <p><strong>Qualifying Information - </strong>In displays, qualifying information may be enclosed in parentheses.</p>
+         </div>
          <div>
             <p><strong>Punctuation - </strong>Field 024 does not end with a mark of punctuation.
             </p>
@@ -368,7 +371,7 @@
                <div class="example">
                   <table>
                      <tr>
-                        <td width="5%">Â </td>
+                        <td width="5%"> </td>
                         <td colspan="9">
                            <div class="captiontext">Content designated field:</div>
                         </td>
@@ -427,7 +430,7 @@
                <div class="example">
                   <table>
                      <tr>
-                        <td width="5%">Â </td>
+                        <td width="5%"> </td>
                         <td colspan="9">
                            <div class="captiontext">Content designated field:</div>
                         </td>
@@ -476,7 +479,7 @@
                <div class="example">
                   <table>
                      <tr>
-                        <td width="5%">Â </td>
+                        <td width="5%"> </td>
                         <td colspan="9">
                            <div class="captiontext">Content designated field:</div>
                         </td>
@@ -497,7 +500,7 @@
                <div class="example">
                   <table>
                      <tr>
-                        <td width="5%">Â </td>
+                        <td width="5%"> </td>
                         <td colspan="9">
                            <div class="captiontext">Content designated field:</div>
                         </td>
@@ -518,7 +521,7 @@
                <div class="example">
                   <table>
                      <tr>
-                        <td width="5%">Â </td>
+                        <td width="5%"> </td>
                         <td colspan="9">
                            <div class="captiontext">Content designated field:</div>
                         </td>
@@ -560,7 +563,7 @@
                <div class="example">
                   <table>
                      <tr>
-                        <td width="5%">Â </td>
+                        <td width="5%"> </td>
                         <td colspan="9">
                            <div class="captiontext">Content designated field:</div>
                         </td>
@@ -600,7 +603,7 @@
                <div class="example">
                   <table>
                      <tr>
-                        <td width="5%">Â </td>
+                        <td width="5%"> </td>
                         <td colspan="9">
                            <div class="captiontext">Content designated field:</div>
                         </td>
@@ -640,20 +643,20 @@
             </div>
          </div>
          <div class="historySubfield">
-            <div class="changed"><em>$q - Qualifying information [NEW, 2013]</em></div>
+            <div><em>$q - Qualifying information [NEW, 2013]</em></div>
          </div>
       </div>
       <hr class="clear" />
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>Â  
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a>  
                
                &gt;&gt;
                <strong>024</strong></span></div>
       </div>
       <div class="left"><span class="noprint">(09/24/2013)</span></div>
-      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#8ae4eee7f9e5cae6e5e9a4ede5fc" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

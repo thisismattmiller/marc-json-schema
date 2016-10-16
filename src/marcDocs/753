@@ -1,196 +1,277 @@
 <!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
-<html>
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>MARC 21 Format for Bibliographic Data: 753: System Details Access to Computer Files (Network Development and MARC Standards Office, Library of Congress)
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 753:
+         System Details Access to Computer Files (Network Development and MARC Standards
+         Office, Library of Congress)
       </title>
-      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-      <meta name="description" content="This field contains the system details access to computer files (Network Development and MARC Standards Office, Library of Congress)">
-      <meta name="keywords" content="marc, marc21, marc standards">
-      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
-      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
-					body {margin-left: 2em; margin-right: 2em;} 
-					h1 {font-family:Arial, Helvetica, sans-serif;}
-					h3 {text-align:left;}
-					h4 {margin-top:.5em; margin-bottom:.5em;}
-					p {text-align:justify; margin-left:2em; margin-right:2em;}
-					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
-					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
-					.font_small {font-size:9pt;}
-					.fieldtoc {margin-left:2em;}
-					.box {font-family:ZapfDingbats;}
-					.description {text-align:justify; margin-left:2em;}
-					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
-					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
-					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
-					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
-					.example {margin-left:4em;}
-					.changed {color: #FF0000;}
-					.captiontext {font-style:italic;}
-					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
-					.displaycontent {text-align:left;}
-					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
-					.summary {margin-left:2em;}
-					.summarytable {margin-left:4em;}
-				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
-   <body>
-      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a> &gt;&gt; <strong>753</strong></div>
-      <hr><a name="skip_menu"></a><h1>753 - System Details Access to Computer Files (R)</h1>
-      <hr>
-      <div class="formatname">MARC 21 Bibliographic - Full</div>
-      <div class="datename">February 1999</div>
-      <hr>
-      <table width="100%">
-         <tr vAlign="top">
-            <td width="45%"><strong>First Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
-            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+      <meta name="description" content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a>  
+               
+               &gt;&gt;
+               <strong>753</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>753</span> - <span>System Details Access to Computer Files</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">April 2016</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
          </tr>
       </table>
-      <hr>
-      <table width="100%">
-         <tr vAlign="top">
-            <td valign="top" width="50%" align="left"></td>
-            <td valign="top" width="50%" align="left"></td>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
          </tr>
-         <tr vAlign="top">
-            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
          </tr>
-         <tr vAlign="top">
-            <td colspan="1">$a - Make and model of machine (NR) <br>$b - Programming language (NR) <br>$c - Operating system (NR) <br></td>
-            <td colspan="1">$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
-         </tr>
-   </table>
-      <hr>
-      <h3>FIELD DEFINITION AND SCOPE</h3>
-      <p>Information on the technical aspects of a computer file and any accompanying material
-         that may be used to select and arrange the record with other records in a printed
-                  index.
-      </p>
-      <p>Used for the type of machine, operating system, and/or programming language. This kind
-         of added entry is assigned according to various cataloging rules to give access to the
-                     bibliographic record which otherwise would not be possible and to facilitate the
-                     capability of selecting and arranging records for production of printed indexes.      </p>
-      <hr>
-      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
-      <h4><span class="box">&#9632;</span> INDICATORS
-      </h4>
-      <ul>
-         <li>Both indicator positions are undefined; each contains a blank (#).</li>
-      </ul>
-      <h4><span class="box">&#9632;</span> SUBFIELD CODES
-      </h4>
-      <div class="subfield"><strong>$a - Make and model of machine</strong> <div class="example">
-            <table width="100%">
-               <tr>
-                  <td valign="top" width="5%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="15%" align="left"></td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>753</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>IBM PC<strong>$b</strong>Pascal<strong>$c</strong>DOS 1.1
-                  </td>
-               </tr>
-            </table>
-         </div>
-      </div>
-      <div class="subfield"><strong>$b - Programming language</strong> <div class="description">Name of the programming language associated with the data comprising the computer
-                              file (e.g., Pascal).
-         </div>
-         <div class="example">
-            <table width="100%">
-               <tr>
-                  <td valign="top" width="5%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="15%" align="left"></td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>753</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Compaq<strong>$b</strong>Basic<strong>$c</strong>DOS 3.2
-                  </td>
-               </tr>
-            </table>
-         </div>
-      </div>
-      <div class="subfield"><strong>$c - Operating system</strong> <div class="example">
-            <table width="100%">
-               <tr>
-                  <td valign="top" width="5%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="15%" align="left"></td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>753</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Apple II<strong>$c</strong>DOS 3.3
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>753</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>IBM PC<strong>$c</strong>Windows 98
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>753</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>IBM PC<strong>$c</strong>OS/2 Warp
-                  </td>
-               </tr>
-            </table>
-         </div>
-      </div>
-      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
-                                       Subfields</a></em>.
-         </div>
-      </div>
-      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
-        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
-                                       Subfields</a></em>.
-        </div>
-   </div>
-      <hr>
-      <h3>INPUT CONVENTIONS</h3>
-      <div class="description2"><strong>Punctuation</strong> - Field 753 does not end with a mark of punctuation unless the field ends with an
-                     abbreviation, initial/letter, or other data that ends with a mark of punctuation. No
-                     punctuation is recorded between subfields.
-      </div>
-      <hr>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-         <tr valign="bottom">
+         <tr>
             <td>
-               <div class="head-nav"><a href="http://www.loc.gov/">Library of
-                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a> &gt;&gt; <strong>753</strong></div> (02/27/2008) 
+               <ul class="nomark">
+                  <li>$a - Make and model of machine<span> (NR)</span></li>
+                  <li>$b - Programming language<span> (NR)</span></li>
+                  <li>$c - Operating system<span> (NR)</span></li>
+                  <li class="changed">$0 - Authority record control number or standard number<span> (R)</span></li>
+               </ul>
             </td>
-            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+            <td>
+               <ul class="nomark">
+                  <li class="changed">$2 - Source of term<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
          </tr>
       </table>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Information on the technical aspects of a computer file and any accompanying material
+               that may be used to select and arrange the record with other records in a printed
+               index.
+            </p>
+         </div>
+         <div>
+            <p>Used for the type of machine, operating system, and/or programming language. This
+               kind
+               of added entry is assigned according to various cataloging rules to give access to
+               the
+               bibliographic record which otherwise would not be possible and to facilitate the
+               capability of selecting and arranging records for production of printed indexes.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">■</span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <ul>
+               <li>Both indicator positions are undefined; each contains a blank (#).</li>
+            </ul>
+         </div>
+         <h4><span class="box">■</span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Make and model of machine</strong> 
+                  </p>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>753</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>IBM PC<strong>$b</strong>Pascal<strong>$c</strong>DOS 1.1
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Programming language</strong> 
+                  </p>
+                  <div>
+                     <p>Name of the programming language associated with the data comprising the computer
+                        file (e.g., Pascal).
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>753</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Compaq<strong>$b</strong>Basic<strong>$c</strong>DOS 3.2
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$c - Operating system</strong> 
+                  </p>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>753</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Apple II<strong>$c</strong>DOS 3.3
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>753</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>IBM PC<strong>$c</strong>Windows 98
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>753</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>IBM PC<strong>$c</strong>OS/2 Warp
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div class="changed">
+                  <p class="label"><strong>$0 - Authority record control number or standard number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr class="changed">
+                           <td><strong>753</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Sony PlayStation 4<strong>$0</strong>(uri)http://gamemetadata.org/uri/platform/1071<strong>$2</strong>gcipplatform
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div class="changed">
+                  <p class="label"><strong>$2 - Source of term</strong> 
+                  </p>
+                  <div>
+                     <p>MARC code that identifies the source of the terms in subfield $a and $c when they are from a controlled list.</p>
+                  </div>
+                  <div>
+                     <p>Code from: <em><a href="//www.loc.gov/standards/sourcelist/subject.html">Subject Heading and Term Source Codes</a></em>.
+                        
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr class="changed">
+                           <td><strong>753</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Nintendo Game Boy Advance<strong>$0</strong>(uri)http://gamemetadata.org/uri/platform/1038<strong>$2</strong>gcipplatform
+                           </td>
+                        </tr>
+                        <tr class="changed">
+                           <td><strong>753</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>Nintendo DS<strong>$0</strong>(uri)http://gamemetadata.org/uri/platform/1029<strong>$2</strong>gcipplatform<em><span><br /><span>[Game compatible with two gaming platforms]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr class="changed">
+                           <td><strong>753</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$c</strong>Microsoft Windows 8<strong>$0</strong>(uri)http://gamemetadata.org/uri/platform/1078<strong>$2</strong>gcipplatform
+                           </td>
+                        </tr>
+                        <tr class="changed">
+                           <td><strong>753</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$c</strong>Apple Mac OS X 10.9<strong>$0</strong>(uri) http://gamemetadata.org/uri/platform/1109<strong>$2</strong>gcipplatform<em><span><br /><span>[PC/MAC game compatible with multiple operating systems]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Punctuation - </strong>Field 753 does not end with a mark of punctuation unless the field ends with an
+               abbreviation, initial/letter, or other data that ends with a mark of punctuation.
+               No
+               punctuation is recorded between subfields.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="historySubfield">
+            <div class="changed"><em>$0 - Authority record control number or standard number [NEW, 2016]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div class="changed"><em>$2 - Source of term [NEW, 2016]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a>  
+               
+               &gt;&gt;
+               <strong>753</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(04/26/2016)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#d1bfb5bca2be91bdbeb2ffb6bea7" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

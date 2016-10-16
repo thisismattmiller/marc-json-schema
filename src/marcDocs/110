@@ -1,247 +1,290 @@
 <!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   
-      <title>MARC 21 Format for Bibliographic Data: 110: Main Entry-Corporate Name (Network Development and MARC Standards Office, Library of Congress)
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 110:
+         Main Entry-Corporate Name (Network Development and MARC Standards
+         Office, Library of Congress)
       </title>
-      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-      <meta name="description" content="This field contains the main entry-corporate name (Network Development and MARC Standards Office, Library of Congress)">
-      <meta name="keywords" content="marc, marc21, marc standards">
-      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
-      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
-					body {margin-left: 2em; margin-right: 2em;} 
-					h1 {font-family:Arial, Helvetica, sans-serif;}
-					h3 {text-align:left;}
-					h4 {margin-top:.5em; margin-bottom:.5em;}
-					p {text-align:justify; margin-left:2em; margin-right:2em;}
-					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
-					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
-					.font_small {font-size:9pt;}
-					.fieldtoc {margin-left:2em;}
-					.box {font-family:ZapfDingbats;}
-					.description {text-align:justify; margin-left:2em;}
-					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
-					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
-					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
-					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
-					.example {margin-left:4em;}
-					.changed {color: #FF0000;}
-					.captiontext {font-style:italic;}
-					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
-					.displaycontent {text-align:left;}
-					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
-					.summary {margin-left:2em;}
-					.summarytable {margin-left:4em;}
-				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
-   <body>
-      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd1xx.html">1XX</a> &gt;&gt; <strong>110</strong></div>
-      <hr><a name="skip_menu"></a><h1>110 - Main Entry-Corporate Name (NR)</h1>
-      <hr>
-      <div class="formatname">MARC 21 Bibliographic - Full</div>
-      <div class="datename">October 2007</div>
-      <hr>
-      <table width="100%">
-         <tr vAlign="top">
-            <td width="45%"><strong>First Indicator</strong><br><em>Type of corporate name entry element</em><br>0 - Inverted name <br>1 - Jurisdiction name <br>2 - Name in direct order <br><br></td>
-            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd1xx.html">1XX</a>  
+               
+               &gt;&gt;
+               <strong>110</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>110</span> - <span>Main Entry-Corporate Name</span><span> (NR)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">October 2014</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Type of corporate name entry element</em><br /><span>0 - Inverted name</span><br /><span>1 - Jurisdiction name</span><br /><span>2 - Name in direct order</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
          </tr>
       </table>
-      <hr>
-      <table width="100%">
-         <tr vAlign="top">
-            <td valign="top" width="53%" align="left"></td>
-            <td valign="top" width="47%" align="left"></td>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
          </tr>
-         <tr vAlign="top">
-            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
          </tr>
-         <tr vAlign="top">
-            <td colspan="1">$a - Corporate name or jurisdiction name as entry element (NR) <br>$b - Subordinate unit (R) <br>$c - Location of meeting (NR) <br>$d - Date of meeting or treaty signing (R) <br>$e - Relator term (R) <br>$f - Date of a work (NR) <br>$g - Miscellaneous information (NR) <br>$k - Form subheading (R)<br>$l - Language of a work (NR)</td>
-            <td colspan="1">$n - Number of part/section/meeting (R) <br>$p - Name of part/section of a work (R) <br>$t - Title of a work (NR) <br>$u - Affiliation (NR) <br>
-              $0 - Authority record control number (R)<br>
-              $4 - Relator code (R) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R</td>
-         </tr>
-   </table>
-      <hr>
-      <h3>FIELD DEFINITION AND SCOPE</h3>
-      <p>Corporate name used as a main entry in a bibliographic record.</p>
-      <p>According to various cataloging rules, main entry under corporate name is assigned to
-                     works that represent the collective thought of a body.
-      </p>
-      <p>Conference and meeting names that are entered subordinately to a corporate body are
-                     contained in this field rather than in field 111.      </p>
-      <hr>
-      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
-      <p>Descriptions of the first indicator position and all subfield codes, as well as input
-                     conventions for the 110 field, are given in the <em><a href="bdx10.html">X10 Corporate Names-General
-                           Information</a></em> section. Because the second indicator is different for various X10
-                     fields, it is not described in the general information section, but is described
-                  below.
-      </p>
-      <h4><span class="box">&#9632;</span> INDICATORS
-      </h4>
-      <div class="indicator"><strong>Second Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
-            </div>
-      </div>
-      <h4><span class="box">&#9632;</span> EXAMPLES
-      </h4>
-      <div class="example">
-         <table width="100%">
-            <tr>
-               <td valign="top" width="5%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="15%" align="left"></td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>United States.<strong>$b</strong>Court of Appeals (2nd Circuit)               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>Catholic Church.<strong>$b</strong>Province of Baltimore (Md.).<strong>$b</strong>Provincial Council<strong>$n</strong>(10th :<strong>$d</strong>1869)               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Germany.<strong>$b</strong>Nationalversammlung (1919-1920)               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#$a</strong>Seminar Naturschutz und Landwirtschaft.<strong>$0</strong>(DE-101b)200568-2
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Newman (Jean and Dorothy) Industrial Relations
-                                    Library.               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>J.C. Penney Co.               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Cyprus (Archdiocese)               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Pennsylvania.<strong>$b</strong>State Board of Examiners of Nursing Home
-                                    Administrators.               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Jalisco (Mexico).<strong>$t</strong>Ley que aprueba el plan regional urbano de Guadalajara,
-                                       1979-1983.               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>United States.<strong>$b</strong>President (1981-1989 : Reagan)               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>PRONAPADE (Firm)               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Birmingham (Ala.)               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>Scientific Society of San Antonio (1904- )               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>St. James Church (Bronx, New York, N.Y.)               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>United States.<strong>$b</strong>Congress.<strong>$b</strong>Joint Committee on the Library.               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Paris.<strong>$b</strong>Montmartre.               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>Catholic Church.<strong>$b</strong>Concilium Plenarium Americae Latinae<strong>$d</strong>(1899 :<strong>$c</strong>Rome, Italy)               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>International Labour Organisation.<strong>$b</strong>European Regional Conference<strong>$n</strong>(2nd :<strong>$d</strong>1968 :<strong>$c</strong>Geneva, Switzerland)               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>Eastman Kodak Company,<strong>$e</strong>defendant-appellant.               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Minnesota.<strong>$b</strong>Constitutional Convention<strong>$d</strong>(1857 :<strong>$g</strong>Republican)               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>United States.<strong>$b</strong>Congress<strong>$n</strong>(97th, 2nd session :<strong>$d</strong>1982).<strong>$b</strong>House.               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>New York Public Library.<strong>$k</strong>Manuscript<strong>$p</strong>Aulendorf Codex.               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>United States.<strong>$b</strong>National Technical Information Service.<strong>$u</strong>5205 Port Royal Road, Springfield, VA
-                                    22161.               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>J.H. Bufford &amp; Co.<strong>$4</strong>pop               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Jalisco (Mexico).               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>Catholic Church.<strong>$b</strong>Concilium Plenarium Americae Latinae               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>International Labour Organisation.<strong>$b</strong>European Regional Conference               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Minnesota.<strong>$b</strong>Constitutional Convention               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>110</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>2#</strong><strong>$a</strong>New York Public Library.               </td>
-            </tr>
-         </table>
-      </div>
-      <hr>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-         <tr valign="bottom">
+         <tr>
             <td>
-               <div class="head-nav"><a href="http://www.loc.gov/">Library of
-                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd1xx.html">1XX</a> &gt;&gt; <strong>110</strong></div> 
-               (04/14/2008) 
+               <ul class="nomark">
+                  <li>$a - Corporate name or jurisdiction name as entry element<span> (NR)</span></li>
+                  <li>$b - Subordinate unit<span> (R)</span></li>
+                  <li>$c - Location of meeting<span> (R)</span></li>
+                  <li>$d - Date of meeting or treaty signing<span> (R)</span></li>
+                  <li>$e - Relator term<span> (R)</span></li>
+                  <li>$f - Date of a work<span> (NR)</span></li>
+                  <li>$g - Miscellaneous information<span> (R)</span></li>
+                  <li>$k - Form subheading<span> (R)</span></li>
+                  <li>$l - Language of a work<span> (NR)</span></li>
+               </ul>
             </td>
-            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+            <td>
+               <ul class="nomark">
+                  <li>$n - Number of part/section/meeting<span> (R)</span></li>
+                  <li>$p - Name of part/section of a work<span> (R)</span></li>
+                  <li>$t - Title of a work<span> (NR)</span></li>
+                  <li>$u - Affiliation<span> (NR)</span></li>
+                  <li>$0 - Authority record control number or standard number<span> (R)</span></li>
+                  <li>$4 - Relator code<span> (R)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
          </tr>
       </table>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Corporate name used as a main entry in a bibliographic record.</p>
+         </div>
+         <div>
+            <p>According to various cataloging rules, main entry under corporate name is assigned
+               to
+               works that represent the collective thought of a body.
+            </p>
+            <p>Conference and meeting names that are entered subordinately to a corporate body are
+               contained in this field rather than in field 111.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p>Descriptions of the first indicator position and all subfield codes, as well as input
+               conventions for the 110 field, are given in the <a href="//www.loc.gov/marc/bibliographic/bdx10.html"><em>X10 Corporate
+                     Names-General Information</em></a> section. Because the second indicator is different for various X10
+               fields, it is not described in the general information section, but is described
+               below.
+            </p>
+         </div>
+         <h4><span class="box">■</span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Undefined</strong></p>
+                  <div>
+                     <p>Undefined and contains a blank (#).</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">■ </span> EXAMPLES
+         </h4>
+         <div class="examplesec">
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>United States.<strong>$b</strong>Court of Appeals (2nd Circuit)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>Catholic Church.<strong>$b</strong>Province of Baltimore (Md.).<strong>$b</strong>Provincial Council<strong>$n</strong>(10th :<strong>$d</strong>1869)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Germany.<strong>$b</strong>Nationalversammlung (1919-1920)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>Seminar Naturschutz und Landwirtschaft.<strong>$0</strong>(DE-101b)200568-2
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Newman (Jean and Dorothy) Industrial Relations
+                        Library.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>J.C. Penney Co.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Cyprus (Archdiocese)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Pennsylvania.<strong>$b</strong>State Board of Examiners of Nursing Home
+                        Administrators.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Jalisco (Mexico).<strong>$t</strong>Ley que aprueba el plan regional urbano de Guadalajara,
+                        1979-1983.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>United States.<strong>$b</strong>President (1981-1989 : Reagan)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>PRONAPADE (Firm)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Birmingham (Ala.)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>Scientific Society of San Antonio (1904- )
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>St. James Church (Bronx, New York, N.Y.)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>United States.<strong>$b</strong>Congress.<strong>$b</strong>Joint Committee on the Library.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Paris.<strong>$b</strong>Montmartre.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>Catholic Church.<strong>$b</strong>Concilium Plenarium Americae Latinae<strong>$d</strong>(1899 :<strong>$c</strong>Rome, Italy)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>International Labour Organisation.<strong>$b</strong>European Regional Conference<strong>$n</strong>(2nd :<strong>$d</strong>1968 :<strong>$c</strong>Geneva, Switzerland)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>Eastman Kodak Company,<strong>$e</strong>defendant-appellant.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Minnesota.<strong>$b</strong>Constitutional Convention<strong>$d</strong>(1857 :<strong>$g</strong>Republican)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>United States.<strong>$b</strong>Congress<strong>$n</strong>(97th, 2nd session :<strong>$d</strong>1982).<strong>$b</strong>House.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>New York Public Library.<strong>$k</strong>Manuscript<strong>$p</strong>Aulendorf Codex.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>United States.<strong>$b</strong>National Technical Information Service.<strong>$u</strong>5205 Port Royal Road, Springfield, VA
+                        22161.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>J.H. Bufford &amp; Co.<strong>$4</strong>pop
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Jalisco (Mexico).
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>Catholic Church.<strong>$b</strong>Concilium Plenarium Americae Latinae
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>International Labour Organisation.<strong>$b</strong>European Regional Conference
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Minnesota.<strong>$b</strong>Constitutional Convention
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>110</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>New York Public Library.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd1xx.html">1XX</a>  
+               
+               &gt;&gt;
+               <strong>110</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(10/20/2014)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#d5bbb1b8a6ba95b9bab6fbb2baa3" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

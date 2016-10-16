@@ -14,10 +14,10 @@
             content="Library of Congress Network Development and MARC Standards Office" />
       <link href="../styles.css" rel="stylesheet" type="text/css" />
       <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
-   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   </head>
    <body class="full">
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
             <span class="caps"><strong>leader</strong></span></div>
       </div>
       <hr /><a name="skip_menu"></a><h1>Leader (NR)</h1>
@@ -284,7 +284,7 @@
          <div>
             <p>Character positions 20-23 comprise the Entry map for the Directory. They contain four
                one-character numbers that specify the structure of the entries in the Directory. More
-               detailed information about the structure of the Leader is contained in <em><a href="http://www.loc.gov/marc/specifications/">MARC 21 Specifications for Record
+               detailed information about the structure of the Leader is contained in <em><a href="//www.loc.gov/marc/specifications/">MARC 21 Specifications for Record
                      Structure, Character Sets, and Exchange Media</a></em>.
             </p>
          </div>
@@ -292,7 +292,7 @@
       <hr />
       <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
       <div class="guidelines">
-         <h4><span class="box">â </span> CHARACTER POSITIONS
+         <h4><span class="box">■</span> CHARACTER POSITIONS
          </h4>
          <div class="characterPositions">
             <div><strong>00-04 - Record length</strong><div>
@@ -674,13 +674,13 @@
                   <p>Coding scheme used affects the number of octets needed per character, the
                      placement of non-spacing characters, and the use of escape sequences and may
                      affect the character repertoire. Detailed information on the character sets used
-                     in MARC 21 records is contained in <em><a href="http://www.loc.gov/marc/specifications/">MARC 21 Specifications for
+                     in MARC 21 records is contained in <em><a href="//www.loc.gov/marc/specifications/">MARC 21 Specifications for
                            Record Structure, Character Sets, and Exchange Media</a></em>.
                   </p>
                </div>
                <div class="value">
                   <div><span class="valueLabel"># - MARC-8</span><div>
-                        <p>Character coding in the record uses the 8-bit character sets described in <em><a href="http://www.loc.gov/marc/specifications/">MARC 21 Specifications for
+                        <p>Character coding in the record uses the 8-bit character sets described in <em><a href="//www.loc.gov/marc/specifications/">MARC 21 Specifications for
                                  Record Structure, Character Sets, and Exchange Media</a></em>. Non-default character sets used are identified in field 066.
                         </p>
                      </div>
@@ -689,7 +689,7 @@
                <div class="value">
                   <div><span class="valueLabel">a - UCS/Unicode</span><div>
                         <p>Character coding in the record makes use of characters from the Universal Coded
-                           Character Set (UCS) (ISO 10646), or Unicodeâ¢, an industry subset.
+                           Character Set (UCS) (ISO 10646), or Unicode™, an industry subset.
                         </p>
                      </div>
                   </div>
@@ -824,7 +824,7 @@
                            Headings have been checked against an authority file and reflect established
                            forms to the extent that such forms were available at the time the minimal
                            level record was created. The U.S. requirements for minimal-level records can
-                           be found in <em><a href="http://www.loc.gov/marc/bibliographic/nlr/">National Level and Minimal
+                           be found in <em><a href="//www.loc.gov/marc/bibliographic/nlr/">National Level and Minimal
                                  Level Record Requirements</a></em></p>
                      </div>
                   </div>
@@ -1138,10 +1138,10 @@
       </div>
       <hr class="clear" />
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
             <span class="caps"><strong>leader</strong></span></div>
       </div>
       <div class="left"><span class="noprint">(05/31/2011)</span></div>
-      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#0c6268617f634c60636f226b637a" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

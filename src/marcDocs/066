@@ -10,7 +10,7 @@
       <meta name="description" content="This field contains the character sets present (Network Development and MARC Standards Office, Library of Congress)">
       <meta name="keywords" content="marc, marc21, marc standards">
       <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
-      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+      <link href="//www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
 					body {margin-left: 2em; margin-right: 2em;} 
 					h1 {font-family:Arial, Helvetica, sans-serif;}
 					h3 {text-align:left;}
@@ -40,10 +40,10 @@
 					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
 					.summary {margin-left:2em;}
 					.summarytable {margin-left:4em;}
-				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+				</style></head>
    <body>
-      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>066</strong></div>
+      <div class="head-nav"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="//www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>066</strong></div>
       <hr><a name="skip_menu"></a><h1>066 - Character Sets Present (NR)</h1>
       <hr>
       <div class="formatname">MARC 21 Bibliographic - Full</div>
@@ -73,7 +73,7 @@
       <h3>FIELD DEFINITION AND SCOPE</h3>
       <p>Information that indicates that the records were encoded with characters from sets other
          than ISO 10646 (or Unicode). A detailed description of the standard escape sequences
-              used in MARC records is provided in <em><a href="http://www.loc.gov/marc/specifications/">MARC 21 Specifications for Record
+              used in MARC records is provided in <em><a href="//www.loc.gov/marc/specifications/">MARC 21 Specifications for Record
                                  Structure, Character Sets, and Exchange Media</a>.</em></p>
       <p>Alerts users that special processing may be required. Codes for identifying character
                      sets are all but the first character of the escape sequences that designate the sets
@@ -237,12 +237,12 @@
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
          <tr valign="bottom">
             <td>
-               <div class="head-nav"><a href="http://www.loc.gov/">Library of
-                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>066</strong></div> (02/20/2008) 
+               <div class="head-nav"><a href="//www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="//www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt; <strong>066</strong></div> (02/20/2008) 
             </td>
-            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+            <td align="right"><a href="/cdn-cgi/l/email-protection#83ede7eef0ecc3efece0ade4ecf5">Contact Us</a></td>
          </tr>
       </table>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

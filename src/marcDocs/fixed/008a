@@ -14,14 +14,14 @@
             content="Library of Congress Network Development and MARC Standards Office" />
       <link href="../styles.css" rel="stylesheet" type="text/css" />
       <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
-   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   </head>
    <body class="full">
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt;
-               <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt;
+               <a href="//www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
                <strong>008 (All Materials)</strong></span></div>
       </div>
       <hr /><a name="skip_menu"></a><h1><span>008</span> - <span>All Materials</span> (NR)
@@ -205,7 +205,7 @@
       <hr />
       <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
       <div class="guidelines">
-         <h4><span class="box">â </span> CHARACTER POSITIONS
+         <h4><span class="box">■</span> CHARACTER POSITIONS
          </h4>
          <div class="characterPositions">
             <div><strong>00-05 - Date entered on file</strong><div></div>
@@ -259,7 +259,7 @@
                      <table>
                         <tr>
                            <th><strong>Single part/multipart items<br /> complete in one year</strong></th>
-                           <th><strong>Collections/multipart items complete <br />in more than one yearÂ </strong></th>
+                           <th><strong>Collections/multipart items complete <br />in more than one year </strong></th>
                         </tr>
                         <tr>
                            <td>
@@ -811,7 +811,7 @@
                            </tr>
                            <tr>
                               <td>260</td>
-                              <td colspan="9">##$aParis :$bÃditions du Cerf,$c1972-1975.</td>
+                              <td colspan="9">##$aParis :$bÉditions du Cerf,$c1972-1975.</td>
                            </tr>
                         </table>
                      </div>
@@ -1311,7 +1311,7 @@
                   <div><span class="valueLabel">t - Publication date and copyright date</span><div>
                         <p>Date of publication/release/production/execution is present in 008/07-10 and a
                            copyright notice date or phonogram copyright notice date is present in 008/11-14. 
-                           Deposit dates (i.e., those preceded by "D.L." (<em>DÃ©pot lÃ©gal</em>), etc.) may be
+                           Deposit dates (i.e., those preceded by "D.L." (<em>Dépot légal</em>), etc.) may be
                            treated as copyright dates.
                         </p>
                      </div>
@@ -1504,7 +1504,7 @@
             <div><strong>15-17 - Place of publication, production, or execution</strong><div>
                   <p>Two- or three-character alphabetic code that indicates the place of publication,
                      production, or execution. Place code is an authoritative-agency data element. Code
-                     from: <em><a href="http://www.loc.gov/marc/countries/">MARC Code List for Countries</a></em>. Choice of a MARC code is generally related to information in field 260
+                     from: <em><a href="//www.loc.gov/marc/countries/">MARC Code List for Countries</a></em>. Choice of a MARC code is generally related to information in field 260
                   (Publication, Distribution, etc. (Imprint)). The code recorded in 008/15-17 is
                   used in conjunction with field 044 (Country of Producer Code) when more than one
                   code is appropriate to an item. The first code in subfield $a of field
@@ -1700,7 +1700,7 @@
             <hr />
             <div><strong>35-37 - Language</strong><div>
                   <p>Three-character alphabetic code that indicates the language of the item. Code
-                     from: <em><a href="http://www.loc.gov/marc/languages/">MARC Code List for Languages</a></em>. Choice of a MARC code is based on the predominant language of the item.
+                     from: <em><a href="//www.loc.gov/marc/languages/">MARC Code List for Languages</a></em>. Choice of a MARC code is based on the predominant language of the item.
                      Three fill characters (|||) may also be used if no attempt is made to code the
                      language or if non-MARC language coding is preferred (and coded in field 041
                      (Language code)).
@@ -1890,7 +1890,7 @@
                <div>
                   <p>Such modifications include: the romanization of data that originally appeared in a
                      non-roman script; substitution of characters available for those characters that
-                     could not be converted to machine-readable form (e.g., special symbols, "Â¤");
+                     could not be converted to machine-readable form (e.g., special symbols, "¤");
                      shortening of records because the amount of data exceeded a system imposed maximum
                      allowable length. A record is not considered to be modified when romanizing fields
                      in the record that are not transcriptions of data from the item (e.g., headings,
@@ -2366,14 +2366,14 @@
       </div>
       <hr class="clear" />
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt;
-               <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt;
+               <a href="//www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
                <strong>008 (All Materials)</strong></span></div>
       </div>
       <div class="left"><span class="noprint">(09/01/2011)</span></div>
-      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#7a141e1709153a161519541d150c" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

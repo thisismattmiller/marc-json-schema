@@ -7,27 +7,26 @@
          Medium of Performance (Network Development and MARC Standards
          Office, Library of Congress)
       </title>
-      <meta name="description"
-            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="description" content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
       <meta name="keywords" content="marc, marc21, marc standards" />
-      <meta name="author"
-            content="Library of Congress Network Development and MARC Standards Office" />
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office" />
       <link href="../styles.css" rel="stylesheet" type="text/css" />
       <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
-   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   </head>
    <body class="full">
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt;
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>  
+               
+               &gt;&gt;
                <strong>382</strong></span></div>
       </div>
-      <hr /><a name="skip_menu"></a><h1><span>382</span> - <span>Medium of Performance</span> (R)
-      </h1>
+      <hr /><a name="skip_menu"></a><h1><span>382</span> - <span>Medium of Performance</span><span> (R)</span></h1>
       <hr />
       <div class="formatname">MARC 21 Bibliographic - full</div>
-      <div class="datename">April 2012</div>
+      <div class="datename">April 2016</div>
       <hr />
       <table width="100%" class="indicators">
          <tr>
@@ -35,8 +34,8 @@
             <th width="45%"> Second Indicator </th>
          </tr>
          <tr>
-            <td><em>Display constant controller</em><br /># - No information provided<br />0 - Medium of performance<br />1 - Partial medium of performance<br /><br /></td>
-            <td><em>Access control</em><br /># - No information provided<br />0 - Not intended for access<br />1 - Intended for access<br /><br /></td>
+            <td><em>Display constant controller</em><br /><span># - No information provided</span><br /><span>0 - Medium of performance</span><br /><span>1 - Partial medium of performance</span><br /><br /></td>
+            <td><em>Access control</em><br /><span># - No information provided</span><br /><span>0 - Not intended for access</span><br /><span>1 - Intended for access</span><br /><br /></td>
          </tr>
       </table>
       <hr />
@@ -51,21 +50,24 @@
          <tr>
             <td>
                <ul class="nomark">
-                  <li>$a - Medium of performance (R)</li>
-                  <li>$b - Soloist (R)</li>
-                  <li>$d - Doubling instrument (R)</li>
-                  <li>$n - Number of performers of the same medium (R)</li>
-                  <li>$p - Alternative medium of performance (R)</li>
-                  <li>$s - Total number of performers (R)</li>
+                  <li>$a - Medium of performance<span> (R)</span></li>
+                  <li>$b - Soloist<span> (R)</span></li>
+                  <li>$d - Doubling instrument<span> (R)</span></li>
+                  <li>$e - <span class="changed">Number of ensembles of the same type</span><span> (R)</span></li>
+                  <li>$n - Number of performers of the same medium<span> (R)</span></li>
+                  <li>$p - Alternative medium of performance<span> (R)</span></li>
+                  <li class="changed">$r - Total number of individuals performing alongside ensembles<span> (NR)</span></li>
                </ul>
             </td>
             <td>
                <ul class="nomark">
-                  <li>$v - Note (R)</li>
-                  <li>$0 - Authority record control number or standard number (R)</li>
-                  <li>$2 - Source of term (NR)</li>
-                  <li>$6 - Linkage (NR)</li>
-                  <li>$8 - Field link and sequence number (R)</li>
+                  <li>$s - Total number of performers<span> (NR)</span></li>
+                  <li class="changed">$t - Total number of ensembles<span> (NR)</span></li>
+                  <li>$v - Note<span> (R)</span></li>
+                  <li>$0 - Authority record control number or standard number<span> (R)</span></li>
+                  <li>$2 - Source of term<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
                </ul>
             </td>
          </tr>
@@ -80,19 +82,20 @@
          </div>
          <div>
             <p><em>For works and expressions:</em> the instrumental, vocal, and/or other medium of performance for which a musical
-               				work was originally conceived or for which a musical expression is written or performed.  
-               				May be used to differentiate a musical work or expression from another with the same title.
+               				work was originally conceived or for which a musical expression is written or
+               performed.  
+               				May be used to differentiate a musical work or expression from another with the
+               same title.
             </p>
          </div>
          <div>
             <p>Multiple mediums from the same source vocabulary may be recorded in the 
-				same field in separate occurrences of subfield $a (Medium of 
+				same field in separate occurrences of subfields $a (Medium of 
 				performance), $b (Soloist), $d (Doubling instrument), or $p 
 				(Alternative medium of performance).  Multiple mediums from the same source vocabulary may
 				also be recorded in separate occurrences of the field if each medium is controlled by an Authority
 				record control number or standard number in subfield $0. Terms from different source
-               			  vocabularies are recorded in separate occurrences of the field.
-            </p>
+			  vocabularies are recorded in separate occurrences of the field.</p>
          </div>
       </div>
       <hr />
@@ -101,12 +104,12 @@
          <div>
             <p></p>
          </div>
-         <h4><span class="box">â </span> INDICATORS
+         <h4><span class="box">■</span> INDICATORS
          </h4>
          <div class="indicators">
             <div class="indicator">
                <div>
-                  <p class="label"><strong>First Indicator - Display constant controller</span></strong></p>
+                  <p class="label"><strong>First Indicator - Display constant controller</strong></p>
                   <div>
                      <p></p>
                   </div>
@@ -125,7 +128,8 @@
                   <div class="value">
                      <div><span class="valueLabel">1 - Partial medium of performance</span><div>
                            <p>Incomplete medium of performance of the musical work/expression. To be
-                              	            used when certain instruments or voices are prominent but the complete 
+                              	            used when certain instruments or voices are prominent but the complete
+                              
                               	            instrumentation is unknown to the cataloger.
                            </p>
                         </div>
@@ -166,7 +170,7 @@
                </div>
             </div>
          </div>
-         <h4><span class="box">â </span> SUBFIELD CODES
+         <h4><span class="box">■</span> SUBFIELD CODES
          </h4>
          <div class="subfields">
             <div class="subfield">
@@ -225,7 +229,9 @@
                   <p class="label"><strong>$b - Soloist</strong> 
                   </p>
                   <div>
-                     <p>Medium of performance term for a soloist (a featured instrument or voice accompanied by an ensemble).</p>
+                     <p>Medium of performance term for a soloist (a featured instrument or voice accompanied
+                        by an ensemble).
+                     </p>
                   </div>
                   <div class="example">
                      <table>
@@ -252,6 +258,32 @@
                         <tr>
                            <td><strong>382</strong></td>
                            <td colspan="9"><strong>01</strong><strong>$a</strong>flute<strong>$n</strong>1<strong>$d</strong>piccolo<strong>$n</strong>1<strong>$d</strong>alto flute<strong>$n</strong>1<strong>$d</strong>bass flute<strong>$n</strong>1<strong>$s</strong>1<em><span><br /><span>[A work for solo flute, doubling piccolo, doubling alto flute, and doubling bass flute.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$e - <span class="changed">Number of ensembles of the same type</span></strong> 
+                  </p>
+                  <div>
+                     <p>Number of ensembles named in the preceding subfield. Use after $a (Medium of performance)
+						or $p (Alternative medium of performance).</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>01</strong><strong>$b</strong>harpsichord<strong>$n</strong>1<strong>$b</strong>piano<strong>$n</strong>1<strong>$a</strong>chamber orchestra<strong>$e</strong>2<strong>$2</strong>lcmpt<em><span><br /><span>[A double concerto for harpsichord and piano with two chamber orchestras.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>01</strong><strong>$a</strong>violin<strong>$n</strong>2<strong>$a</strong>soprano voice<strong>$n</strong>2<strong>$a</strong>alto voice<strong>$n</strong>1<strong>$a</strong>tenor voice<strong>$n</strong>1<strong>$a</strong>bass voice<strong>$n</strong>2<strong>$a</strong>mixed chorus<strong>$e</strong>2<strong>$a</strong>continuo<strong>$2</strong>lcmpt<em><span><br /><span>[A work for two violins, individual SSATBB voices, two mixed choirs, and continuo.]</span></span></em></td>
                         </tr>
                      </table>
                   </div>
@@ -297,6 +329,34 @@
                </div>
             </div>
             <div class="subfield">
+               <div class="changed">
+                  <p class="label"><strong>$r - Total number of individuals performing alongside ensembles</strong> 
+                  </p>
+                  <div>
+                     <p>The total number of individual performers given in all instances of subfield $b needed to perform
+						in the musical work/expression alongside one or more ensembles. Use subfield $s to record total number
+						of individual performers when no ensembles are involved.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr class="changed">
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>01</strong><strong>$b</strong>speaker<strong>$n</strong>1<strong>$b</strong>mezzo-soprano voice<strong>$n</strong>1<strong>$b</strong>baritone voice<strong>$n</strong>1<strong>$a</strong>mixed chorus<strong>$e</strong>1<strong>$a</strong>orchestra<strong>$e</strong>1<strong>$r</strong>3<strong>$t</strong>2<strong>$2</strong>lcmpt<em><span><br /><span>[A work for speaker, mezzo-soprano, baritone, mixed chorus, and orchestra.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr class="changed">
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>01</strong><strong>$b</strong>soprano voice<strong>$n</strong>3<strong>$b</strong>alto voice<strong>$n</strong>2<strong>$b</strong>tenor voice<strong>$n</strong>1<strong>$b</strong>baritone voice<strong>$n</strong>1<strong>$b</strong>bass voice<strong>$n</strong>1<strong>$a</strong>mixed chorus<strong>$e</strong>2<strong>$v</strong>SATB, SATB<strong>$a</strong>children's chorus<strong>$e</strong>1<strong>$a</strong>orchestra<strong>$e</strong>1<strong>$r</strong>8<strong>$t</strong>4<strong>$2</strong>lcmpt<em><span><br /><span>[A work for 8 vocal soloists (3 sopranos, 2 altos, tenor, baritone, bass), 
+                                       							2 SATB mixed choruses, 1 children's choir, and orchestra.]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
                <div>
                   <p class="label"><strong>$s - Total number of performers</strong> 
                   </p>
@@ -307,10 +367,27 @@
                      <table>
                         <tr>
                            <td><strong>382</strong></td>
-                           <td colspan="9"><strong>01</strong><strong>$a</strong>soprano<strong>$n</strong>2<strong>$a</strong>mezzo-soprano<strong>$n</strong>1<strong>$a</strong>tenor saxophone<strong>$n</strong>1<strong>$d</strong>bass clarinet<strong>$n</strong>1<strong>$a</strong>trumpet<strong>$n</strong>1<strong>$a</strong>piano<strong>$n</strong>1<strong>$a</strong>violin<strong>$n</strong>1<strong>$d</strong>viola<strong>$n</strong>1<strong>$a</strong>double bass<strong>$n</strong>1<strong>$s</strong>8<em><span><br />
-                                 <span>[A work for 2 sopranos, one mezzo-soprano, tenor saxophone
+                           <td colspan="9"><strong>01</strong><strong>$a</strong>soprano<strong>$n</strong>2<strong>$a</strong>mezzo-soprano<strong>$n</strong>1<strong>$a</strong>tenor saxophone<strong>$n</strong>1<strong>$d</strong>bass clarinet<strong>$n</strong>1<strong>$a</strong>trumpet<strong>$n</strong>1<strong>$a</strong>piano<strong>$n</strong>1<strong>$a</strong>violin<strong>$n</strong>1<strong>$d</strong>viola<strong>$n</strong>1<strong>$a</strong>double bass<strong>$n</strong>1<strong>$s</strong>8<em><span><br /><span>[A work for 2 sopranos, one mezzo-soprano, tenor saxophone
                                        		          (doubling bass clarinet), C trumpet, piano, violin (doubling viola), and
                                        		          double bass--8 total performers).]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div class="changed">
+                  <p class="label"><strong>$t - Total number of ensembles</strong> 
+                  </p>
+                  <div>
+                     <p>The total number of ensembles needed to perform in the musical work/expression.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr class="changed">
+                           <td><strong>382</strong></td>
+                           <td colspan="9"><strong>01</strong><strong>$a</strong>mixed chorus<strong>$e</strong>2<strong>$v</strong>SATB, SATB<strong>$t</strong>2<strong>$2</strong>lcmpt<em><span><br /><span>[A work for 2 unaccompanied choruses, each
+                                       							consisting of soprano, alto, tenor, and bass voices (SATB).]</span></span></em></td>
                         </tr>
                      </table>
                   </div>
@@ -321,8 +398,10 @@
                   <p class="label"><strong>$v - Note</strong> 
                   </p>
                   <div>
-                     <p>Note for information that is not kept otherwise in the subfields of the field.  May contain a description 
-                        		      of the relationship between an alternative medium of performance and its primary medium of performance, or other
+                     <p>Note for information that is not kept otherwise in the subfields of the field.  May
+                        contain a description 
+                        		      of the relationship between an alternative medium of performance and its primary
+                        medium of performance, or other
                         		      textual information.
                      </p>
                   </div>
@@ -342,7 +421,7 @@
                   <p class="label"><strong>$0 - Authority record control number or standard number</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
                      </p>
                   </div>
                </div>
@@ -356,7 +435,7 @@
 						it is from a controlled list.</p>
                   </div>
                   <div>
-                     <p>Code from: <em><a href="http://www.loc.gov/standards/sourcelist/musical-instrumentation.html">Musical Instrumentation
+                     <p>Code from: <em><a href="//www.loc.gov/standards/sourcelist/musical-instrumentation.html">Musical Instrumentation
                               						and Voice Code Source Codes</a></em>.
                         					
                      </p>
@@ -368,7 +447,7 @@
                   <p class="label"><strong>$6 - Linkage</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
                      </p>
                   </div>
                </div>
@@ -378,7 +457,7 @@
                   <p class="label"><strong>$8 - Field link and sequence number</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
                      </p>
                   </div>
                </div>
@@ -427,13 +506,31 @@
             <div><em>$d - Doubling instrument [NEW, 2012]</em></div>
          </div>
          <div class="historySubfield">
+            <div><em>$e - Number of ensembles [NEW, 2015]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div class="changed"><em>$e - Number of ensembles [RENAMED, 2016]</em></div>
+         </div>
+         <div class="historySubfield">
             <div><em>$p - Alternative medium of performance [NEW, 2012]</em></div>
          </div>
          <div class="historySubfield">
             <div><em>$n - Number of performers of the same medium [NEW, 2012]</em></div>
          </div>
          <div class="historySubfield">
+            <div class="changed"><em>$r - Total number of individuals performing alongside ensembles [NEW, 2016]</em></div>
+         </div>
+         <div class="historySubfield">
             <div><em>$s - Total number of performers [NEW, 2012]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div class="changed"><em>$t - Total number of ensembles [NEW, 2016]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$s - Total number of performers [CHANGED, 2014]</em><div class="subfieldHistoryDsc">
+                  <p>Repeatability corrected</p>
+               </div>
+            </div>
          </div>
          <div class="historySubfield">
             <div><em>$v - Note [NEW, 2012]</em></div>
@@ -441,13 +538,15 @@
       </div>
       <hr class="clear" />
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt;
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>  
+               
+               &gt;&gt;
                <strong>382</strong></span></div>
       </div>
-      <div class="left"><span class="noprint">(04/16/2012)</span></div>
-      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <div class="left"><span class="noprint">(04/26/2016)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#c3ada7aeb0ac83afaca0eda4acb5" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

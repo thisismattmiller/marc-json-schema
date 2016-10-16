@@ -1,397 +1,269 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-<head>
-  <meta http-equiv="Content-Type" content=
-  "text/html; charset=utf-8">
-
-  <title>MARC 21 Format for Bibliographic Data: 336: Content Type
-  (Network Development and MARC Standards Office, Library of
-  Congress)</title>
-  <meta http-equiv="Content-Type" content=
-  "text/html; charset=utf-8">
-  <meta name="description" content=
-  "This field contains the (Network Development and MARC Standards Office, Library of Congress)">
-  <meta name="keywords" content="marc, marc21, marc standards">
-  <meta name="author" content=
-  "Library of Congress Network Development and MARC Standards Office">
-  <link href="update10-stylesheet.css" rel="stylesheet" type=
-  "text/css">
-<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
-
-<body>
-  <div class="head-nav">
-    <a href="http://www.loc.gov/">Library of Congress</a>
-    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
-    <a href=
-    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-    &gt;&gt; <a href=
-    "http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>
-    &gt;&gt; <strong>336</strong>
-  </div>
-  <hr>
-  <a name="skip_menu" id="skip_menu"></a>
-
-  <h1>336 - Content Type (R)</h1>
-  <hr>
-
-  <div class="formatname">
-    MARC 21 Bibliographic - Full
-  </div>
-
-  <div class="datename">
-    October 2009
-  </div>
-  <hr>
-
-  <table width="100%">
-    <tr valign="top">
-      <td width="45%"><strong>First Indicator</strong><br>
-      <em>Undefined</em><br>
-      # - Undefined<br>
-      <br></td>
-
-      <td width="45%"><strong>Second Indicator</strong><br>
-      <em>Undefined</em><br>
-      # - Undefined<br>
-      <br></td>
-    </tr>
-  </table>
-  <hr>
-
-  <table width="100%">
-    <tr valign="top">
-      <td valign="top" width="50%" align="left"></td>
-
-      <td valign="top" width="50%" align="left"></td>
-    </tr>
-
-    <tr valign="top">
-      <td colspan="2"><strong>Subfield Codes</strong><br></td>
-    </tr>
-
-    <tr valign="top">
-      <td colspan="1">$a - Content type term (R)<br>
-      $b - Content type code (R)<br>
-      $2 - Source (NR)<br></td>
-
-      <td colspan="1">$3 - Materials specified (NR)<br>
-      $6 - Linkage (NR)<br>
-      $8 - Field link and sequence number (R)<br></td>
-    </tr>
-  </table>
-  <hr>
-
-  <h3>FIELD DEFINITION AND SCOPE</h3>
-
-  <p>The form of communication through which a work is expressed.
-  Used in conjunction with Leader /06 (Type of record), which
-  indicates the general type of content of the resource. Field
-  336 information enables expression of more specific content
-  types and content types from various lists.</p>
-
-  <p>Multiple content types from the same source vocabulary or
-  code list may be recorded in the same field in separate
-  occurrences of subfield $a (Content type term) and subfield $b
-  (Content type code). Terms from different source vocabularies
-  are recorded in separate occurrences of the field.</p>
-  <hr>
-
-  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
-
-  <h4><span class="box">â </span> INDICATORS</h4>
-
-  <ul>
-    <li>Both indicator positions are undefined; each contains a
-    blank (#).</li>
-  </ul>
-
-  <h4><span class="box">â </span> SUBFIELD CODES</h4>
-
-  <div class="subfield">
-    <strong>$a - Content type term</strong>
-
-    <div class="description">
-      Content type of the work being described.
-    </div>
-
-    <div class="example">
-      <table width="100%">
-        <tr>
-          <td valign="top" width="5%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="15%" align="left"></td>
-        </tr>
-
-        <tr>
-          <td valign="top" colspan="1" align="left">
-          <strong>336</strong></td>
-
-          <td valign="top" colspan="9" align="left">
-          <strong>##</strong><strong>$a</strong>performed
-          music<strong>$2</strong>rdacontent</td>
-        </tr>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 336:
+         Content Type (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description" content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>  
+               
+               &gt;&gt;
+               <strong>336</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>336</span> - <span>Content Type</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">September 2015</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+         </tr>
       </table>
-    </div>
-
-    <div class="example">
-      <table width="100%">
-        <tr>
-          <td valign="top" width="5%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="15%" align="left"></td>
-        </tr>
-
-        <tr>
-          <td valign="top" colspan="1" align="left">
-          <strong>336</strong></td>
-
-          <td valign="top" colspan="9" align="left">
-          <strong>##$a</strong>two-dimensional
-          moving image<strong>$b</strong>tdi<strong>$2</strong>rdacontent</td>
-        </tr>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Content type term<span> (R)</span></li>
+                  <li>$b - Content type code<span> (R)</span></li>
+                  <li>$0 - Authority record control number or standard number<span> (R)</span></li>
+                  <li>$2 - Source<span> (NR)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$3 - Materials specified<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
+         </tr>
       </table>
-    </div>
-  </div>
-
-  <div class="subfield">
-    <strong>$b - Content type code</strong>
-
-    <div class="description">
-      Code representing the content type of the work being
-      described.
-    </div>
-
-    <div class="example">
-      <table width="100%">
-        <tr>
-          <td valign="top" width="5%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="15%" align="left"></td>
-        </tr>
-
-        <tr>
-          <td valign="top" colspan="1" align="left">
-          <strong>336</strong></td>
-
-          <td valign="top" colspan="9" align="left">
-          <strong>##</strong><strong>$b</strong>prm<strong>$2</strong>rdacontent</td>
-        </tr>
-      </table>
-    </div>
-
-    <div class="example">
-      <table width="100%">
-        <tr>
-          <td valign="top" width="5%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="15%" align="left"></td>
-        </tr>
-
-        <tr>
-          <td valign="top" colspan="1" align="left">
-          <strong>336</strong></td>
-
-          <td valign="top" colspan="9" align="left">
-          <strong>##</strong><strong>$b</strong>txt<strong>$2</strong>rdacontent<strong>$3</strong>liner notes</td>
-        </tr>
-      </table>
-    </div>
-  </div>
-
-  <div class="subfield">
-    <strong>$2 - Source</strong>
-
-    <div class="description">
-      MARC code that identifies the source of the term or code
-      used to record the content type information.
-    </div>
-
-    <div class="description2 description">
-      Code from: <a href=
-      "http://www.loc.gov/standards/sourcelist/genre-form.html"><em>Genre/Form Code and Term Source Codes</em></a>.
-    </div>
-
-    <div class="example">
-      <table width="100%">
-        <tr>
-          <td valign="top" width="5%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="15%" align="left"></td>
-        </tr>
-
-        <tr>
-          <td valign="top" colspan="1" align="left">
-          <strong>336</strong></td>
-
-          <td valign="top" colspan="9" align="left">
-          <strong>##</strong><strong>$b</strong>tdm<strong>$2</strong>rdacontent</td>
-        </tr>
-      </table>
-    </div>
-  </div>
-
-  <div class="subfield">
-    <strong>$3 - Materials specified</strong>
-
-    <div class="description">
-      Part of the described materials to which the field applies.
-    </div>
-
-    <div class="example">
-      <table width="100%">
-        <tr>
-          <td valign="top" width="5%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="10%" align="left"></td>
-
-          <td valign="top" width="15%" align="left"></td>
-        </tr>
-
-        <tr>
-          <td valign="top" colspan="1" align="left">
-          <strong>336</strong></td>
-
-          <td valign="top" colspan="9" align="left">
-          <strong>##</strong><strong>$a</strong>text<strong>$2</strong>rdacontent<strong>$3</strong>liner notes</td>
-        </tr>
-      </table>
-    </div>
-  </div>
-
-  <div class="subfield">
-    <strong>$6 - Linkage</strong>
-
-    <div class="description">
-      See description of this subfield in Appendix A:
-      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
-      Control Subfields</a></em>.
-    </div>
-  </div>
-
-  <div class="subfield">
-    <strong>$8 - Field link and sequence number</strong>
-
-    <div class="description">
-      See description of this subfield in Appendix A:
-      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
-      Control Subfields</a></em>.
-    </div>
-  </div>
-  <hr>
-
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr valign="bottom">
-      <td>
-        <div class="head-nav">
-          <a href="http://www.loc.gov/">Library of Congress</a>
-          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
-          &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-          &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>
-          &gt;&gt; <strong>336</strong>
-        </div>(11/12/2009)
-      </td>
-
-      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
-      Us</a></td>
-    </tr>
-  </table>
-<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>The form of communication through which a work is expressed.  Used 
+               			          in conjunction with Leader /06 (Type of record), which indicates the
+               general
+               			          type of content of the resource.  Field 336 information enables expression
+               			          of more specific content types and content types from various lists.
+            </p>
+         </div>
+         <div>
+            <p>Multiple content types from the same source vocabulary or code list may be recorded in the same field in
+				separate occurrences of subfield $a (Content type term) and subfield $b (Content type code). 
+				Terms from different source vocabularies are recorded in separate occurrences of the field.</p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p></p>
+         </div>
+         <h4><span class="box">■</span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <ul>
+               <li>Both indicator positions are undefined; each contains a blank (#).</li>
+            </ul>
+         </div>
+         <h4><span class="box">■</span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Content type term</strong> 
+                  </p>
+                  <div>
+                     <p>Content type of the work being described.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>336</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>performed music<strong>$2</strong>rdacontent
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>336</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>two-dimensional moving image<strong>$b</strong>tdi<strong>$2</strong>rdacontent
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$b - Content type code</strong> 
+                  </p>
+                  <div>
+                     <p>Code representing the content type of the work being described.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>336</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>prm<strong>$2</strong>rdacontent
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>336</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>txt<strong>$2</strong>rdacontent<strong>$3</strong>liner notes
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$0 - Authority record control number or standard number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>336</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>performed music<strong>$b</strong>prm<strong>$0</strong>(uri)http://id.loc.gov/vocabulary/contentTypes/prm<strong>$2</strong>rdacontent
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>336</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>performed music<strong>$0</strong>(uri)http://rdaregistry.info/termList/RDAContentType/1011
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Source</strong> 
+                  </p>
+                  <div>
+                     <p>MARC code that identifies the source of the term or code used to record the content
+                        
+                        						type information. 
+                     </p>
+                  </div>
+                  <div>
+                     <p>Code from: <em><a href="//www.loc.gov/standards/sourcelist/genre-form.html">Genre/Form Code and Term Source Codes</a></em>.
+                        					
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>336</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$b</strong>tdm<strong>$2</strong>rdacontent
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$3 - Materials specified</strong> 
+                  </p>
+                  <div>
+                     <p>Part of the described materials to which the field applies.</p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>336</strong></td>
+                           <td colspan="9"><strong>##</strong><strong>$a</strong>text<strong>$2</strong>rdacontent<strong>$3</strong>liner notes
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="historySubfield">
+            <div><em>$0 - Authority record control number or standard number [NEW, 2015]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>  
+               
+               &gt;&gt;
+               <strong>336</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(09/22/2015)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#8de3e9e0fee2cde1e2eea3eae2fb" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

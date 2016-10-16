@@ -21,16 +21,16 @@
   name="author">
   <link type="text/css" rel="stylesheet" href=
   "update10-stylesheet.css">
-<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+</head>
 
 <body>
   <div class="head-nav">
-    <a href="http://www.loc.gov/">Library of Congress</a>
-    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href="//www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt;
     <a href=
-    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    "//www.loc.gov/marc/bibliographic/">Bibliographic</a>
     &gt;&gt; <a href=
-    "http://www.loc.gov/marc/bibliographic/bd4xx.html">4XX</a>
+    "//www.loc.gov/marc/bibliographic/bd4xx.html">4XX</a>
     &gt;&gt; <strong>490</strong>
   </div>
   <hr>
@@ -101,7 +101,7 @@
 
   <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
 
-  <h4><span class="box">â </span> INDICATORS</h4>
+  <h4><span class="box">■</span> INDICATORS</h4>
 
   <div class="indicator">
     <strong>First Indicator - Series tracing policy</strong>
@@ -416,7 +416,7 @@
     </div>
   </div>
 
-  <h4><span class="box">â </span> SUBFIELD CODES</h4>
+  <h4><span class="box">■</span> SUBFIELD CODES</h4>
 
   <div class="subfield">
     <strong>$a - Series statement</strong>
@@ -599,7 +599,7 @@
           <strong>1#</strong><strong>$a</strong>Papers and
           documents of the I.C.I. Series C, Bibliographies
           ;<strong>$v</strong>no. 3 =<strong>$a</strong>Travaux
-          et documents de l'I.C.I. SÃ©rie C, Bibliographies
+          et documents de l'I.C.I. Série C, Bibliographies
           ;<strong>$v</strong>no 3</td>
         </tr>
       </table>
@@ -786,7 +786,7 @@
           <strong>490</strong></td>
 
           <td align="left" colspan="9" valign="top">
-          <strong>1#</strong><strong>$a</strong>MÃ©moire du
+          <strong>1#</strong><strong>$a</strong>Mémoire du
           BRGM,<strong>$x</strong>0071-8246
           ;<strong>$v</strong>no 123</td>
         </tr>
@@ -946,7 +946,7 @@
 
     <div class="description">
       See description of this subfield in Appendix A:
-      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">
       Control Subfields</a></em>.
     </div>
   </div>
@@ -956,7 +956,7 @@
 
     <div class="description">
       See description of this subfield in Appendix A:
-      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">
       Control Subfields</a></em>.
     </div>
   </div>
@@ -1015,7 +1015,7 @@
           <strong>490</strong></td>
 
           <td align="left" colspan="9" valign="top">
-          <strong>1#</strong><strong>$a</strong>MÃ©moire du
+          <strong>1#</strong><strong>$a</strong>Mémoire du
           BRGM,<strong>$x</strong>0071-8246
           ;<strong>$v</strong>no 123</td>
         </tr>
@@ -1285,19 +1285,19 @@
     <tr valign="bottom">
       <td>
         <div class="head-nav">
-          <a href="http://www.loc.gov/">Library of Congress</a>
-          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          <a href="//www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a>
           &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          "//www.loc.gov/marc/bibliographic/">Bibliographic</a>
           &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/bd4xx.html">4XX</a>
+          "//www.loc.gov/marc/bibliographic/bd4xx.html">4XX</a>
           &gt;&gt; <strong>490</strong>
         </div>(11/12/2009)
       </td>
 
-      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      <td align="right"><a href="/cdn-cgi/l/email-protection#e18f858c928ea18d8e82cf868e97">Contact
       Us</a></td>
     </tr>
   </table>
-<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+<script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

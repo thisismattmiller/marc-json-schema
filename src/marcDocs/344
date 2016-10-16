@@ -7,24 +7,23 @@
          Sound Characteristics (Network Development and MARC Standards
          Office, Library of Congress)
       </title>
-      <meta name="description"
-            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="description" content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
       <meta name="keywords" content="marc, marc21, marc standards" />
-      <meta name="author"
-            content="Library of Congress Network Development and MARC Standards Office" />
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office" />
       <link href="../styles.css" rel="stylesheet" type="text/css" />
       <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
-   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   </head>
    <body class="full">
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt;
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>  
+               
+               &gt;&gt;
                <strong>344</strong></span></div>
       </div>
-      <hr /><a name="skip_menu"></a><h1><span>344</span> - <span>Sound Characteristics</span> (R)
-      </h1>
+      <hr /><a name="skip_menu"></a><h1><span>344</span> - <span>Sound Characteristics</span><span> (R)</span></h1>
       <hr />
       <div class="formatname">MARC 21 Bibliographic - full</div>
       <div class="datename">September 2011</div>
@@ -51,23 +50,23 @@
          <tr>
             <td>
                <ul class="nomark">
-                  <li>$a - Type of recording (R)</li>
-                  <li>$b - Recording medium (R)</li>
-                  <li>$c - Playing speed (R)</li>
-                  <li>$d - Groove characteristic (R)</li>
-                  <li>$e - Track configuration (R)</li>
-                  <li>$f - Tape configuration (R)</li>
-                  <li>$g - Configuration of playback channels (R)</li>
+                  <li>$a - Type of recording<span> (R)</span></li>
+                  <li>$b - Recording medium<span> (R)</span></li>
+                  <li>$c - Playing speed<span> (R)</span></li>
+                  <li>$d - Groove characteristic<span> (R)</span></li>
+                  <li>$e - Track configuration<span> (R)</span></li>
+                  <li>$f - Tape configuration<span> (R)</span></li>
+                  <li>$g - Configuration of playback channels<span> (R)</span></li>
                </ul>
             </td>
             <td>
                <ul class="nomark">
-                  <li>$h - Special playback characteristics (R)</li>
-                  <li>$0 - Authority record control number or standard number (R)</li>
-                  <li>$2 - Source (NR)</li>
-                  <li>$3 - Materials specified (NR)</li>
-                  <li>$6 - Linkage (NR)</li>
-                  <li>$8 - Field link and sequence number (R)</li>
+                  <li>$h - Special playback characteristics<span> (R)</span></li>
+                  <li>$0 - Authority record control number or standard number<span> (R)</span></li>
+                  <li>$2 - Source<span> (NR)</span></li>
+                  <li>$3 - Materials specified<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
                </ul>
             </td>
          </tr>
@@ -78,6 +77,12 @@
          <div>
             <p>Technical specifications relating to the encoding of sound in a resource.</p>
          </div>
+         <div>
+            <p>Multiple values from the same source vocabulary may be recorded in the same field
+               in separate occurrences of subfields. Terms from different source vocabularies are
+               recorded in separate occurrences of the field.
+            </p>
+         </div>
       </div>
       <hr />
       <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
@@ -85,14 +90,14 @@
          <div>
             <p></p>
          </div>
-         <h4><span class="box">â </span> INDICATORS
+         <h4><span class="box">■</span> INDICATORS
          </h4>
          <div class="indicators">
             <ul>
                <li>Both indicator positions are undefined; each contains a blank (#).</li>
             </ul>
          </div>
-         <h4><span class="box">â </span> SUBFIELD CODES
+         <h4><span class="box">■</span> SUBFIELD CODES
          </h4>
          <div class="subfields">
             <div class="subfield">
@@ -208,7 +213,8 @@
                   <p class="label"><strong>$g - Configuration of playback channels</strong> 
                   </p>
                   <div>
-                     <p>The number of sound channels used to make a recording (e.g., one channel for a monophonic 
+                     <p>The number of sound channels used to make a recording (e.g., one channel for a monophonic
+                        
                         						recording, two channels for a stereophonic recording).
                      </p>
                   </div>
@@ -246,7 +252,7 @@
                   <p class="label"><strong>$0 - Authority record control number or standard number</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
                      </p>
                   </div>
                </div>
@@ -274,7 +280,7 @@
                   <p class="label"><strong>$6 - Linkage</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
                      </p>
                   </div>
                </div>
@@ -284,7 +290,7 @@
                   <p class="label"><strong>$8 - Field link and sequence number</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
                      </p>
                   </div>
                </div>
@@ -300,13 +306,15 @@
       </div>
       <hr class="clear" />
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a> &gt;&gt;
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>  
+               
+               &gt;&gt;
                <strong>344</strong></span></div>
       </div>
-      <div class="left"><span class="noprint">(09/01/2011)</span></div>
-      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <div class="left"><span class="noprint">(09/22/2015)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#4628222b3529062a292568212930" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

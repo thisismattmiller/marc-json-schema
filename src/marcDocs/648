@@ -14,13 +14,13 @@
             content="Library of Congress Network Development and MARC Standards Office" />
       <link href="../styles.css" rel="stylesheet" type="text/css" />
       <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
-   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   </head>
    <body class="full">
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a>Â  
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a>  
                
                &gt;&gt;
                <strong>648</strong></span></div>
@@ -28,7 +28,7 @@
       <hr /><a name="skip_menu"></a><h1><span>648</span> - <span>Subject Added Entry-Chronological Term</span><span> (R)</span></h1>
       <hr />
       <div class="formatname">MARC 21 Bibliographic - full</div>
-      <div class="datename">April 2013</div>
+      <div class="datename">October 2014</div>
       <hr />
       <table width="100%" class="indicators">
          <tr>
@@ -36,8 +36,8 @@
             <th width="45%"> Second Indicator </th>
          </tr>
          <tr>
-            <td><em>Type of date or time period</em><br /><span># - No information provided</span><br /><span>0 - Date or time period covered or depicted</span><br /><span>1 - Date or time period of creation or origin</span><br /><br /></td>
-            <td><em>Thesaurus</em><br /><span>0 - Library of Congress Subject Headings</span><br /><span>1 - LC subject headings for children's literature</span><br /><span>2 - Medical Subject Headings</span><br /><span>3 - National Agricultural Library subject authority file</span><br /><span>4 - Source not specified</span><br /><span>5 - Canadian Subject Headings</span><br /><span>6 - RÃ©pertoire de vedettes-matiÃ¨re</span><br /><span>7 - Source specified in subfield $2</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+            <td><em>Thesaurus</em><br /><span>0 - Library of Congress Subject Headings</span><br /><span>1 - LC subject headings for children's literature</span><br /><span>2 - Medical Subject Headings</span><br /><span>3 - National Agricultural Library subject authority file</span><br /><span>4 - Source not specified</span><br /><span>5 - Canadian Subject Headings</span><br /><span>6 - Répertoire de vedettes-matière</span><br /><span>7 - Source specified in subfield $2</span><br /><br /></td>
          </tr>
       </table>
       <hr />
@@ -97,75 +97,14 @@
                subdivisions.
             </p>
          </div>
-         <h4><span class="box">â </span> INDICATORS
+         <h4><span class="box">■</span> INDICATORS
          </h4>
          <div class="indicators">
             <div class="indicator">
                <div>
-                  <p class="label"><strong>First Indicator - Type of date or time period</strong></p>
-                  <div></div>
-                  <div class="value">
-                     <div><span class="valueLabel"># - No information provided</span></div>
-                  </div>
-                  <div class="value">
-                     <div><span class="valueLabel">0 - Date or time period covered or depicted</span><div class="example"><br /><table>
-                              <tr>
-                                 <td><strong>648</strong></td>
-                                 <td colspan="9"><strong>17</strong><strong>$a</strong>1860-1865<strong>$2</strong>fast
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <td><strong>648</strong></td>
-                                 <td colspan="9"><strong>07</strong><strong>$a</strong>1860-1865<strong>$2</strong>fast<em><span><br /><span>[A collection, published 1969, of letters dated 1860-1865.
-                                             The period depicted and created are the same.]</span></span></em></td>
-                              </tr>
-                           </table>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="value">
-                     <div><span class="valueLabel">1 - Date or time period of creation or origin</span><div class="example"><br /><table>
-                              <tr>
-                                 <td><strong>648</strong></td>
-                                 <td colspan="9"><strong>10</strong><strong>$a</strong>Nineteenth century.
-                                 </td>
-                              </tr>
-                           </table>
-                        </div>
-                        <div class="example">
-                           <table>
-                              <tr>
-                                 <td><strong>648</strong></td>
-                                 <td colspan="9"><strong>17</strong><strong>$a</strong>203-1486<strong>$2</strong>fast
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <td><strong>648</strong></td>
-                                 <td colspan="9"><strong>10</strong><strong>$a</strong>Middle Ages.
-                                 </td>
-                              </tr>
-                           </table>
-                        </div>
-                        <div class="example">
-                           <table>
-                              <tr>
-                                 <td><strong>648</strong></td>
-                                 <td colspan="9"><strong>17</strong><strong>$a</strong>1932-1940<strong>$2</strong>fast
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <td><strong>648</strong></td>
-                                 <td colspan="9"><strong>10</strong><strong>$a</strong>Nineteen thirties.
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <td><strong>648</strong></td>
-                                 <td colspan="9"><strong>10</strong><strong>$a</strong>Nineteen forties.
-                                 </td>
-                              </tr>
-                           </table>
-                        </div>
-                     </div>
+                  <p class="label"><strong>First Indicator - Undefined</strong></p>
+                  <div>
+                     <p>Undefined and contains a blank (#).</p>
                   </div>
                </div>
             </div>
@@ -231,9 +170,9 @@
                      </div>
                   </div>
                   <div class="value">
-                     <div><span class="valueLabel">6 - RÃ©pertoire de vedettes-matiÃ¨re</span><div>
-                           <p>Subject added entry conforms to the <em>RÃ©pertoire de vedettes-matiÃ¨re</em>
-                              that is maintained by the BibliothÃ¨que de l'UniversitÃ© Laval.
+                     <div><span class="valueLabel">6 - Répertoire de vedettes-matière</span><div>
+                           <p>Subject added entry conforms to the <em>Répertoire de vedettes-matière</em>
+                              that is maintained by the Bibliothèque de l'Université Laval.
                            </p>
                         </div>
                      </div>
@@ -248,7 +187,7 @@
                </div>
             </div>
          </div>
-         <h4><span class="box">â </span> SUBFIELD CODES
+         <h4><span class="box">■</span> SUBFIELD CODES
          </h4>
          <div class="subfields">
             <div class="subfield">
@@ -325,7 +264,7 @@
                   <p class="label"><strong>$0 - Authority record control number or standard number</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                               Subfields</a></em>. 
                      </p>
                   </div>
@@ -338,7 +277,7 @@
                   <div>
                      <p>MARC code that identifies the source list from which the subject added entry was
                   assigned. It is used only when the second indicator position contains value 7
-                  (Source specified in subfield $2). Code from: <em><a href="http://www.loc.gov/standards/sourcelist/subject.html">Subject Heading and Term Source Codes</a></em>.
+                  (Source specified in subfield $2). Code from: <em><a href="//www.loc.gov/standards/sourcelist/subject.html">Subject Heading and Term Source Codes</a></em>.
                      </p>
                   </div>
                   <div class="example">
@@ -376,7 +315,7 @@
                   <p class="label"><strong>$6 - Linkage</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                               Subfields</a></em>. 
                      </p>
                   </div>
@@ -387,7 +326,7 @@
                   <p class="label"><strong>$8 - Field link and sequence number</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                               Subfields</a></em>. 
                      </p>
                   </div>
@@ -437,21 +376,45 @@
                <p>Prior to 2013 Indicator 1 was undefined.</p>
             </div>
          </div>
+         <div class="indicatorHistory"><em>Indicator 1 - Type of date or time period [OBSOLETE, 2014]</em><div class="valuehistory">
+               <div><em># - No information provided [OBSOLETE, 2014]</em></div>
+            </div>
+            <div>
+               <p></p>
+            </div>
+            <div class="valuehistory">
+               <div><em>0 - Date or time period depicted [OBSOLETE, 2014]</em></div>
+            </div>
+            <div>
+               <p></p>
+            </div>
+            <div class="valuehistory">
+               <div><em>1 - Date or time period of creation or origin [OBSOLETE, 2014]</em></div>
+            </div>
+            <div>
+               <p>Definition of Indicator 1 repealed in 2014 when new field 388 (Time Period of Creation)
+                  was approved.
+               </p>
+            </div>
+         </div>
          <div class="historySubfield">
-            <div><em>$0 - Authority record control number or standard number [NEW, 2007]</em></div>
+            <div><em>$0 - Authority record control number [NEW, 2007]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$0 - Authority record control number [REDEFINED, 2010]</em></div>
          </div>
       </div>
       <hr class="clear" />
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a>Â  
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a>  
                
                &gt;&gt;
                <strong>648</strong></span></div>
       </div>
-      <div class="left"><span class="noprint">(04/29/2013)</span></div>
-      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <div class="left"><span class="noprint">(10/20/2014)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#117f757c627e517d7e723f767e67" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

@@ -17,7 +17,7 @@
   <meta name="keywords" content="marc, marc21, marc standards">
   <meta name="author" content=
   "Library of Congress Network Development and MARC Standards Office">
-  <link href="http://www.loc.gov/marc/marc-generic.css" rel=
+  <link href="//www.loc.gov/marc/marc-generic.css" rel=
   "stylesheet" type="text/css">
 <style type="text/css">
                                         body {margin-left: 2em; margin-right: 2em;} 
@@ -51,16 +51,16 @@
                                         .summary {margin-left:2em;}
                                         .summarytable {margin-left:4em;}
 </style>
-<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+</head>
 
 <body>
   <div class="head-nav">
-    <a href="http://www.loc.gov/">Library of Congress</a>
-    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href="//www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt;
     <a href=
-    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    "//www.loc.gov/marc/bibliographic/">Bibliographic</a>
     &gt;&gt; <a href=
-    "http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a>
+    "//www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a>
     &gt;&gt; <strong>780</strong>
   </div>
   <hr>
@@ -165,7 +165,7 @@
   "bd76x78x.html">76X-78X Linking Entries-General
   Information</a></em> section.</p>
 
-  <h4><span class="box">â </span> INDICATORS</h4>
+  <h4><span class="box">■</span> INDICATORS</h4>
 
   <div class="indicator">
     <strong>Second Indicator - Type of relationship</strong>
@@ -286,8 +286,8 @@
                 245</td>
 
                 <td valign="top" colspan="9" align="left">
-                00$aAnnales scientifiques de l'UniversitÃ© de
-                BesanÃ§on.$pMathÃ©matiques.</td>
+                00$aAnnales scientifiques de l'Université de
+                Besançon.$pMathématiques.</td>
               </tr>
 
               <tr>
@@ -296,8 +296,8 @@
 
                 <td valign="top" colspan="9" align="left">
                 <strong>01</strong><strong>$t</strong>Annales
-                scientifiques de l'UniversitÃ© de
-                BesanÃ§on<strong>$w</strong>(OCoLC)6179013</td>
+                scientifiques de l'Université de
+                Besançon<strong>$w</strong>(OCoLC)6179013</td>
               </tr>
 
               <tr>
@@ -316,7 +316,7 @@
                 <td colspan="9">
                   <div class="displaycontent">
                     Continues in part: Annales scientifiques de
-                    l'UniversitÃ© de BesanÃ§on.
+                    l'Université de Besançon.
                   </div>
                 </td>
               </tr>
@@ -360,7 +360,7 @@
                 245</td>
 
                 <td valign="top" colspan="9" align="left">
-                00$aHespÃ©ris tamuda.</td>
+                00$aHespéris tamuda.</td>
               </tr>
 
               <tr>
@@ -368,7 +368,7 @@
                 <strong>780</strong></td>
 
                 <td valign="top" colspan="9" align="left">
-                <strong>02</strong><strong>$t</strong>HespÃ©ris
+                <strong>02</strong><strong>$t</strong>Hespéris
                 <strong>$w</strong>(OCoLC)1752037#</td>
               </tr>
 
@@ -387,7 +387,7 @@
 
                 <td colspan="9">
                   <div class="displaycontent">
-                    Supersedes: HespÃ©ris.
+                    Supersedes: Hespéris.
                   </div>
                 </td>
               </tr>
@@ -511,7 +511,7 @@
                 580</td>
 
                 <td valign="top" colspan="9" align="left">
-                ##$aMerger of: Annales de gÃ©ophysique and: Annali
+                ##$aMerger of: Annales de géophysique and: Annali
                 de geofisica.</td>
               </tr>
 
@@ -521,7 +521,7 @@
 
                 <td valign="top" colspan="9" align="left">
                 <strong>14</strong><strong>$t</strong>Annales de
-                gÃ©ophysique<strong>$x</strong>0003-4029<strong>$w</strong>(OCoLC)1481255
+                géophysique<strong>$x</strong>0003-4029<strong>$w</strong>(OCoLC)1481255
                 <strong>$w</strong>(DLC)###52016346#</td>
               </tr>
 
@@ -862,19 +862,19 @@
     <tr valign="bottom">
       <td>
         <div class="head-nav">
-          <a href="http://www.loc.gov/">Library of Congress</a>
-          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          <a href="//www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a>
           &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          "//www.loc.gov/marc/bibliographic/">Bibliographic</a>
           &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a>
+          "//www.loc.gov/marc/bibliographic/bd76x78x.html">76X-78X</a>
           &gt;&gt; <strong>780</strong>
         </div>(11/12/2009)
       </td>
 
-      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      <td align="right"><a href="/cdn-cgi/l/email-protection#9df3f9f0eef2ddf1f2feb3faf2eb">Contact
       Us</a></td>
     </tr>
   </table>
-<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+<script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

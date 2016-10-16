@@ -10,7 +10,7 @@
       <meta name="description" content="This field contains the address (Network Development and MARC Standards Office, Library of Congress)">
       <meta name="keywords" content="marc, marc21, marc standards">
       <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
-      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
+      <link href="//www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
 					body {margin-left: 2em; margin-right: 2em;} 
 					h1 {font-family:Arial, Helvetica, sans-serif;}
 					h3 {text-align:left;}
@@ -40,10 +40,10 @@
 					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
 					.summary {margin-left:2em;}
 					.summarytable {margin-left:4em;}
-				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+				</style></head>
    <body>
-      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd25x28x.html">25X-28X</a> &gt;&gt; <strong>270</strong></div>
+      <div class="head-nav"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a>
+         					&gt;&gt; <a href="//www.loc.gov/marc/bibliographic/bd25x28x.html">25X-28X</a> &gt;&gt; <strong>270</strong></div>
       <hr><a name="skip_menu"></a><h1>270 - Address (R)</h1>
       <hr>
       <div class="formatname">MARC 21 Bibliographic - Full</div>
@@ -178,12 +178,12 @@
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Gateway Publishing<strong>$a</strong>P.O. Box 786<strong>$b</strong>North Adams<strong>$c</strong>MA<strong>$e</strong>01247<strong>$k</strong>1- 413-664-6185<strong>$l</strong>1-413-664-9343<strong>$m</strong>info@prgguide.com<strong>$m</strong>Webmaster@internetsourcebook.com
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Gateway Publishing<strong>$a</strong>P.O. Box 786<strong>$b</strong>North Adams<strong>$c</strong>MA<strong>$e</strong>01247<strong>$k</strong>1- 413-664-6185<strong>$l</strong>1-413-664-9343<strong>$m</strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="7d14131b123d0d0f1a1a08141918531e1210">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script><strong>$m</strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="f0a795929d9183849582b0999e8495829e9584839f85829395929f9f9bde939f9d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
                   </td>
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Hoover's, Inc.<strong>$a</strong>1033 La Posada Dr., Suite 250<strong>$b</strong>Austin<strong>$c</strong>TX<strong>$e</strong>78752<strong>$k</strong>1-512-374-4500<strong>$l</strong>1-512-374-4501<strong>$m</strong>info@hoovers.com
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Hoover's, Inc.<strong>$a</strong>1033 La Posada Dr., Suite 250<strong>$b</strong>Austin<strong>$c</strong>TX<strong>$e</strong>78752<strong>$k</strong>1-512-374-4500<strong>$l</strong>1-512-374-4501<strong>$m</strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="761f181019361e1919001304055815191b">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
                   </td>
                </tr>
                <tr>
@@ -211,7 +211,7 @@
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Claims Providers of America P.O. Box 395<strong>$b</strong>Esparto<strong>$c</strong>CA<strong>$e</strong>95627<strong>$k</strong>800-735-6660<strong>$l</strong>916-796-3631<strong>$m</strong>Info@claims.com
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>Claims Providers of America P.O. Box 395<strong>$b</strong>Esparto<strong>$c</strong>CA<strong>$e</strong>95627<strong>$k</strong>800-735-6660<strong>$l</strong>916-796-3631<strong>$m</strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="a9e0c7cfc6e9cac5c8c0c4da87cac6c4">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
                   </td>
                </tr>
             </table>
@@ -258,12 +258,12 @@
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>GaleNet<strong>$a</strong>835 Penobscot Bldg.<strong>$b</strong>Detroit<strong>$c</strong>MI<strong>$d</strong>U.S.<strong>$e</strong>48226-4094<strong>$m</strong>galenet@gale.com
+                  <td vAlign="top" colspan="9" align="left"><strong>1#</strong><strong>$a</strong>GaleNet<strong>$a</strong>835 Penobscot Bldg.<strong>$b</strong>Detroit<strong>$c</strong>MI<strong>$d</strong>U.S.<strong>$e</strong>48226-4094<strong>$m</strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="86e1e7eae3e8e3f2c6e1e7eae3a8e5e9eb">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
                   </td>
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>International Atomic Energy Agency<strong>$a</strong>P.O. Box 100<strong>$a</strong>Wagramer Strasse 5,<strong>$e</strong>A-1400<strong>$b</strong>Vienna<strong>$d</strong>Austria<strong>$k</strong>+43-1-2600-0<strong>$l</strong>+43-1-2600-7<strong>$m</strong>officialmail@iaeo.org
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>International Atomic Energy Agency<strong>$a</strong>P.O. Box 100<strong>$a</strong>Wagramer Strasse 5,<strong>$e</strong>A-1400<strong>$b</strong>Vienna<strong>$d</strong>Austria<strong>$k</strong>+43-1-2600-0<strong>$l</strong>+43-1-2600-7<strong>$m</strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="bad5dcdcd3d9d3dbd6d7dbd3d6fad3dbdfd594d5c8dd">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
                   </td>
                </tr>
             </table>
@@ -463,7 +463,7 @@
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Minnesota Center against Violence and Abuse<strong>$a</strong>386 McNeal Hall<strong>$a</strong>1985 Buford Ave.<strong>$a</strong>University of Minnesota<strong>$b</strong>Saint Paul<strong>$c</strong>MN<strong>$e</strong>55108<strong>$k</strong>1-612-624-0721<strong>$k</strong>1-800-646-2282 (In Minnesota)<strong>$l</strong>1-612-625-4288<strong>$m</strong>mincava@umn.edu
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Minnesota Center against Violence and Abuse<strong>$a</strong>386 McNeal Hall<strong>$a</strong>1985 Buford Ave.<strong>$a</strong>University of Minnesota<strong>$b</strong>Saint Paul<strong>$c</strong>MN<strong>$e</strong>55108<strong>$k</strong>1-612-624-0721<strong>$k</strong>1-800-646-2282 (In Minnesota)<strong>$l</strong>1-612-625-4288<strong>$m</strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="e18c888f82809780a1948c8fcf848594">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
                   </td>
                </tr>
                <tr>
@@ -524,12 +524,12 @@
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Federation of Tax Administrators<strong>$a</strong>444 N. Capitol St., NW<strong>$b</strong>Washington<strong>$c</strong>DC<strong>$e</strong>20001<strong>$m</strong>webmaster@taxadmin.org
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Federation of Tax Administrators<strong>$a</strong>444 N. Capitol St., NW<strong>$b</strong>Washington<strong>$c</strong>DC<strong>$e</strong>20001<strong>$m</strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="364153545b57454253447642574e57525b5f5818594451">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
                   </td>
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Library of Congress<strong>$a</strong>Network Development and MARC Standards Office<strong>$b</strong>Washington<strong>$c</strong>DC<strong>$d</strong>U.S.<strong>$e</strong>20540-4402<strong>$l</strong>1-202-707-0115<strong>$m</strong>ndmso@loc.gov
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>Library of Congress<strong>$a</strong>Network Development and MARC Standards Office<strong>$b</strong>Washington<strong>$c</strong>DC<strong>$d</strong>U.S.<strong>$e</strong>20540-4402<strong>$l</strong>1-202-707-0115<strong>$m</strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="dcb2b8b1afb39cb0b3bff2bbb3aa">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script>
                   </td>
                </tr>
             </table>
@@ -583,7 +583,7 @@
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>School of Law, The University of Waikato<strong>$a</strong>Private Bag 3105<strong>$b</strong>Hamilton<strong>$d</strong>New Zealand<strong>$k</strong>64-7-856 2889 x6258<strong>$m</strong>douglas@liinz.org.nz<strong>$p</strong>DouglasDavey<strong>$q</strong>LIINZ site administrator
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>School of Law, The University of Waikato<strong>$a</strong>Private Bag 3105<strong>$b</strong>Hamilton<strong>$d</strong>New Zealand<strong>$k</strong>64-7-856 2889 x6258<strong>$m</strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="e4808b9183888597a4888d8d8a9eca8b9683ca8a9e">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script><strong>$p</strong>DouglasDavey<strong>$q</strong>LIINZ site administrator
                   </td>
                </tr>
                <tr>
@@ -650,7 +650,7 @@
       </div>
       <div class="subfield"><strong>$4 - Relator code</strong> <div class="description">MARC code that specifies the relationship between the address and the item
                               described in the record. More than one relator code may be used if there is more
-                              than one relationship. Code from: <em><a href="http://www.loc.gov/marc/relators/relahome.html">MARC Code Lists for
+                              than one relationship. Code from: <em><a href="//www.loc.gov/marc/relators/relahome.html">MARC Code Lists for
                                           Relators, Sources, Description Conventions</a></em>.
          </div>
          <div class="example">
@@ -669,18 +669,18 @@
                </tr>
                <tr>
                   <td vAlign="top" colspan="1" align="left"><strong>270</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>OCLC Online Computer Library Center, Inc.<strong>$a</strong>6565 Frantz Road<strong>$b</strong>Dublin<strong>$c</strong>OH<strong>$e</strong>43017-3395<strong>$k</strong>1-614-764-6000<strong>$m</strong>oclc@oclc.org<strong>$4</strong>org
+                  <td vAlign="top" colspan="9" align="left"><strong>##</strong><strong>$a</strong>OCLC Online Computer Library Center, Inc.<strong>$a</strong>6565 Frantz Road<strong>$b</strong>Dublin<strong>$c</strong>OH<strong>$e</strong>43017-3395<strong>$k</strong>1-614-764-6000<strong>$m</strong><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="3a555956597a555956591455485d">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script><strong>$4</strong>org
                   </td>
                </tr>
             </table>
          </div>
       </div>
-      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                                        Subfields</a></em>.
          </div>
       </div>
       <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
-        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+        <div class="description">See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                                        Subfields</a></em>.
         </div>
    </div>
@@ -762,12 +762,12 @@
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
          <tr valign="bottom">
             <td>
-               <div class="head-nav"><a href="http://www.loc.gov/">Library of
-                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd25x28x.html">25X-28X</a> &gt;&gt; <strong>270</strong></div> (02/22/2008) 
+               <div class="head-nav"><a href="//www.loc.gov/">Library of
+                     								Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a>
+                  								&gt;&gt; <a href="//www.loc.gov/marc/bibliographic/bd25x28x.html">25X-28X</a> &gt;&gt; <strong>270</strong></div> (02/22/2008) 
             </td>
-            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+            <td align="right"><a href="/cdn-cgi/l/email-protection#2f414b425c406f43404c01484059">Contact Us</a></td>
          </tr>
       </table>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>
