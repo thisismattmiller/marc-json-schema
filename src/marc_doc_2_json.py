@@ -591,7 +591,7 @@ class marcDoc2Json:
 
 
 		if not foundIndicators: 
-			print (fieldNumber, fieldTitle, "Has no idicators")
+			print (fieldNumber, fieldTitle, "Has no indicators")
 			
 
 		if not foundSubfields: 
