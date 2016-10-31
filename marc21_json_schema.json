@@ -403,50 +403,6 @@
         "name": "Map",
         "positions": [
             {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Color",
-                "start": 3,
-                "stop": 3,
-                "values": {
-                    "a": "One color",
-                    "c": "Multicolored",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "d": "Atlas",
-                    "g": "Diagram",
-                    "j": "Map",
-                    "k": "Profile",
-                    "q": "Model",
-                    "r": "Remote-sensing image",
-                    "s": "Section",
-                    "u": "Unspecified",
-                    "y": "View",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "a": "Map"
-                }
-            },
-            {
                 "name": "Physical medium",
                 "start": 4,
                 "stop": 4,
@@ -476,26 +432,56 @@
                 }
             },
             {
+                "name": "Undefined",
+                "start": 2,
+                "stop": 2,
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            {
+                "name": "Color",
+                "start": 3,
+                "stop": 3,
+                "values": {
+                    "a": "One color",
+                    "c": "Multicolored",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "a": "Map"
+                }
+            },
+            {
+                "name": "Specific material designation",
+                "start": 1,
+                "stop": 1,
+                "values": {
+                    "d": "Atlas",
+                    "g": "Diagram",
+                    "j": "Map",
+                    "k": "Profile",
+                    "q": "Model",
+                    "r": "Remote-sensing image",
+                    "s": "Section",
+                    "u": "Unspecified",
+                    "y": "View",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
                 "name": "Type of reproduction",
                 "start": 5,
                 "stop": 5,
                 "values": {
                     "f": "Facsimile",
                     "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Production/reproduction details",
-                "start": 6,
-                "stop": 6,
-                "values": {
-                    "a": "Photocopy, blueline print",
-                    "b": "Photocopy",
-                    "c": "Pre-production",
-                    "d": "Film",
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
@@ -512,6 +498,20 @@
                     "n": "Not applicable",
                     "|": "No attempt to code"
                 }
+            },
+            {
+                "name": "Production/reproduction details",
+                "start": 6,
+                "stop": 6,
+                "values": {
+                    "a": "Photocopy, blueline print",
+                    "b": "Photocopy",
+                    "c": "Pre-production",
+                    "d": "Film",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
             }
         ],
         "repeatable": true
@@ -521,6 +521,37 @@
         "name": "Electronic Resource",
         "positions": [
             {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "c": "Electronic resource"
+                }
+            },
+            {
+                "name": "Specific material designation",
+                "start": 1,
+                "stop": 1,
+                "values": {
+                    "a": "Tape cartridge",
+                    "b": "Chip cartridge",
+                    "c": "Computer optical disc cartridge",
+                    "d": "Computer disc, type unspecified",
+                    "e": "Computer disc cartridge, type unspecified",
+                    "f": "Tape cassette",
+                    "h": "Tape reel",
+                    "j": "Magnetic disk",
+                    "k": "Computer card",
+                    "m": "Magneto-optical disc",
+                    "o": "Optical disc",
+                    "r": "Remote",
+                    "s": "Standalone device",
+                    "u": "Unspecified",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
                 "name": "Undefined",
                 "start": 2,
                 "stop": 2,
@@ -529,13 +560,18 @@
                 }
             },
             {
-                "name": "Sound",
-                "start": 5,
-                "stop": 5,
+                "name": "Color",
+                "start": 3,
+                "stop": 3,
                 "values": {
-                    "#": "No sound (silent)",
-                    "a": "Sound",
+                    "a": "One color",
+                    "b": "Black-and-white",
+                    "c": "Multicolored",
+                    "g": "Gray scale",
+                    "m": "Mixed",
+                    "n": "Not applicable",
                     "u": "Unknown",
+                    "z": "Other",
                     "|": "No attempt to code"
                 }
             },
@@ -558,49 +594,14 @@
                 }
             },
             {
-                "name": "Color",
-                "start": 3,
-                "stop": 3,
+                "name": "Sound",
+                "start": 5,
+                "stop": 5,
                 "values": {
-                    "a": "One color",
-                    "b": "Black-and-white",
-                    "c": "Multicolored",
-                    "g": "Gray scale",
-                    "m": "Mixed",
-                    "n": "Not applicable",
+                    "#": "No sound (silent)",
+                    "a": "Sound",
                     "u": "Unknown",
-                    "z": "Other",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "a": "Tape cartridge",
-                    "b": "Chip cartridge",
-                    "c": "Computer optical disc cartridge",
-                    "d": "Computer disc, type unspecified",
-                    "e": "Computer disc cartridge, type unspecified",
-                    "f": "Tape cassette",
-                    "h": "Tape reel",
-                    "j": "Magnetic disk",
-                    "k": "Computer card",
-                    "m": "Magneto-optical disc",
-                    "o": "Optical disc",
-                    "r": "Remote",
-                    "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "c": "Electronic resource"
                 }
             },
             {
@@ -613,6 +614,29 @@
                     "mmm": "Multiple",
                     "nnn": "Not applicable",
                     "|||": "No attempt to code"
+                }
+            },
+            {
+                "name": "File formats",
+                "start": 9,
+                "stop": 9,
+                "values": {
+                    "a": "One file format",
+                    "m": "Multiple file formats",
+                    "u": "Unknown",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Quality assurance target(s)",
+                "start": 10,
+                "stop": 10,
+                "values": {
+                    "a": "Absent",
+                    "n": "Not applicable",
+                    "p": "Present",
+                    "u": "Unknown",
+                    "|": "No attempt to code"
                 }
             },
             {
@@ -655,29 +679,6 @@
                     "u": "Unknown",
                     "|": "No attempt to code"
                 }
-            },
-            {
-                "name": "Quality assurance target(s)",
-                "start": 10,
-                "stop": 10,
-                "values": {
-                    "a": "Absent",
-                    "n": "Not applicable",
-                    "p": "Present",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "File formats",
-                "start": 9,
-                "stop": 9,
-                "values": {
-                    "a": "One file format",
-                    "m": "Multiple file formats",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
-                }
             }
         ],
         "repeatable": true
@@ -705,6 +706,14 @@
                 }
             },
             {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "d": "Globe"
+                }
+            },
+            {
                 "name": "Specific material designation",
                 "start": 1,
                 "stop": 1,
@@ -714,26 +723,6 @@
                     "c": "Terrestrial globe",
                     "e": "Earth moon globe",
                     "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "d": "Globe"
-                }
-            },
-            {
-                "name": "Type of reproduction",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "f": "Facsimile",
-                    "n": "Not applicable",
-                    "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
                 }
@@ -760,6 +749,18 @@
                     "z": "Other",
                     "|": "No attempt to code"
                 }
+            },
+            {
+                "name": "Type of reproduction",
+                "start": 5,
+                "stop": 5,
+                "values": {
+                    "f": "Facsimile",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
             }
         ],
         "repeatable": true
@@ -774,42 +775,6 @@
                 "stop": 2,
                 "values": {
                     "#": "Undefined"
-                }
-            },
-            {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "a": "Moon",
-                    "b": "Braille",
-                    "c": "Combination",
-                    "d": "Tactile, with no writing system",
-                    "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "f": "Tactile material"
-                }
-            },
-            {
-                "name": "Level of contraction",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "a": "Uncontracted",
-                    "b": "Contracted",
-                    "m": "Combination",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
                 }
             },
             {
@@ -828,6 +793,55 @@
                     "u": "Unknown",
                     "z": "Other",
                     "||": "No attempt to code"
+                }
+            },
+            {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "f": "Tactile material"
+                }
+            },
+            {
+                "name": "Specific material designation",
+                "start": 1,
+                "stop": 1,
+                "values": {
+                    "a": "Moon",
+                    "b": "Braille",
+                    "c": "Combination",
+                    "d": "Tactile, with no writing system",
+                    "u": "Unspecified",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Level of contraction",
+                "start": 5,
+                "stop": 5,
+                "values": {
+                    "a": "Uncontracted",
+                    "b": "Contracted",
+                    "m": "Combination",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Special physical characteristics",
+                "start": 9,
+                "stop": 9,
+                "values": {
+                    "a": "Print/braille",
+                    "b": "Jumbo or enlarged braille",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
                 }
             },
             {
@@ -853,19 +867,6 @@
                     "z": "Other",
                     "|||": "No attempt to code"
                 }
-            },
-            {
-                "name": "Special physical characteristics",
-                "start": 9,
-                "stop": 9,
-                "values": {
-                    "a": "Print/braille",
-                    "b": "Jumbo or enlarged braille",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
             }
         ],
         "repeatable": true
@@ -875,23 +876,27 @@
         "name": "Projected Graphic",
         "positions": [
             {
+                "name": "Specific material designation",
+                "start": 1,
+                "stop": 1,
+                "values": {
+                    "c": "Filmstrip cartridge",
+                    "d": "Filmslip",
+                    "f": "Filmstrip, type unspecified",
+                    "o": "Filmstrip roll",
+                    "s": "Slide",
+                    "t": "Transparency",
+                    "u": "Unspecified",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
                 "name": "Undefined",
                 "start": 2,
                 "stop": 2,
                 "values": {
                     "#": "Undefined"
-                }
-            },
-            {
-                "name": "Sound on medium or separate",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "#": "No sound (silent)",
-                    "a": "Sound on medium",
-                    "b": "Sound separate from medium",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
                 }
             },
             {
@@ -927,27 +932,23 @@
                 }
             },
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "c": "Filmstrip cartridge",
-                    "d": "Filmslip",
-                    "f": "Filmstrip, type unspecified",
-                    "o": "Filmstrip roll",
-                    "s": "Slide",
-                    "t": "Transparency",
-                    "u": "Unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Category of material",
                 "start": 0,
                 "stop": 0,
                 "values": {
                     "g": "Projected graphic"
+                }
+            },
+            {
+                "name": "Sound on medium or separate",
+                "start": 5,
+                "stop": 5,
+                "values": {
+                    "#": "No sound (silent)",
+                    "a": "Sound on medium",
+                    "b": "Sound separate from medium",
+                    "u": "Unknown",
+                    "|": "No attempt to code"
                 }
             },
             {
@@ -965,6 +966,24 @@
                     "g": "Optical and magnetic sound track on motion picture film",
                     "h": "Videotape",
                     "i": "Videodisc",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Secondary support material",
+                "start": 8,
+                "stop": 8,
+                "values": {
+                    "#": "No secondary support",
+                    "c": "Cardboard",
+                    "d": "Glass",
+                    "e": "Synthetic",
+                    "h": "Metal",
+                    "j": "Metal and glass",
+                    "k": "Synthetic and glass",
+                    "m": "Mixed collection",
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
@@ -994,24 +1013,6 @@
                     "z": "Other",
                     "|": "No attempt to code"
                 }
-            },
-            {
-                "name": "Secondary support material",
-                "start": 8,
-                "stop": 8,
-                "values": {
-                    "#": "No secondary support",
-                    "c": "Cardboard",
-                    "d": "Glass",
-                    "e": "Synthetic",
-                    "h": "Metal",
-                    "j": "Metal and glass",
-                    "k": "Synthetic and glass",
-                    "m": "Mixed collection",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
             }
         ],
         "repeatable": true
@@ -1026,6 +1027,33 @@
                 "stop": 2,
                 "values": {
                     "#": "Undefined"
+                }
+            },
+            {
+                "name": "Dimensions",
+                "start": 4,
+                "stop": 4,
+                "values": {
+                    "a": "8 mm.",
+                    "d": "16 mm.",
+                    "f": "35 mm.",
+                    "g": "70 mm.",
+                    "h": "105 mm.",
+                    "l": "3x5 in. or 8x13 cm.",
+                    "m": "4x6 in. or 11x15 cm.",
+                    "o": "6x9 in. or 16x23 cm.",
+                    "p": "3 1/4 x 7 3/8 in. or 9x19 cm.",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "h": "Microform"
                 }
             },
             {
@@ -1060,27 +1088,34 @@
                 }
             },
             {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
+                "name": "Reduction ratio",
+                "start": 6,
+                "stop": 8,
+                "values": {}
+            },
+            {
+                "name": "Emulsion on film",
+                "start": 10,
+                "stop": 10,
                 "values": {
-                    "h": "Microform"
+                    "a": "Silver halide",
+                    "b": "Diazo",
+                    "c": "Vesicular",
+                    "m": "Mixed emulsion",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
                 }
             },
             {
-                "name": "Dimensions",
-                "start": 4,
-                "stop": 4,
+                "name": "Color",
+                "start": 9,
+                "stop": 9,
                 "values": {
-                    "a": "8 mm.",
-                    "d": "16 mm.",
-                    "f": "35 mm.",
-                    "g": "70 mm.",
-                    "h": "105 mm.",
-                    "l": "3x5 in. or 8x13 cm.",
-                    "m": "4x6 in. or 11x15 cm.",
-                    "o": "6x9 in. or 16x23 cm.",
-                    "p": "3 1/4 x 7 3/8 in. or 9x19 cm.",
+                    "b": "Black-and-white",
+                    "c": "Multicolored",
+                    "m": "Mixed",
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
@@ -1115,40 +1150,6 @@
                     "p": "Safety base, polyester",
                     "r": "Safety base, mixed",
                     "t": "Safety base, triacetate",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Emulsion on film",
-                "start": 10,
-                "stop": 10,
-                "values": {
-                    "a": "Silver halide",
-                    "b": "Diazo",
-                    "c": "Vesicular",
-                    "m": "Mixed emulsion",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Reduction ratio",
-                "start": 6,
-                "stop": 8,
-                "values": {}
-            },
-            {
-                "name": "Color",
-                "start": 9,
-                "stop": 9,
-                "values": {
-                    "b": "Black-and-white",
-                    "c": "Multicolored",
-                    "m": "Mixed",
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
@@ -1198,6 +1199,14 @@
                 }
             },
             {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "k": "Nonprojected graphic"
+                }
+            },
+            {
                 "name": "Specific material designation",
                 "start": 1,
                 "stop": 1,
@@ -1217,49 +1226,10 @@
                     "o": "Flash card",
                     "p": "Postcard",
                     "q": "Icon",
-                    "r": "Radiograph&gt;",
+                    "r": "Radiograph",
                     "s": "Study print",
                     "u": "Unspecified",
                     "v": "Photograph, type unspecified",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "k": "Nonprojected graphic"
-                }
-            },
-            {
-                "name": "Secondary support material",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "#": "No secondary support",
-                    "a": "Canvas",
-                    "b": "Bristol board",
-                    "c": "Cardboard/illustration board",
-                    "d": "Glass",
-                    "e": "Synthetic",
-                    "f": "Skin",
-                    "g": "Textile",
-                    "h": "Metal",
-                    "i": "Plastic",
-                    "l": "Vinyl",
-                    "m": "Mixed collection",
-                    "n": "Vellum",
-                    "o": "Paper",
-                    "p": "Plaster",
-                    "q": "Hardboard",
-                    "r": "Porcelain",
-                    "s": "Stone",
-                    "t": "Wood",
-                    "u": "Unknown",
-                    "v": "Leather",
-                    "w": "Parchment",
                     "z": "Other",
                     "|": "No attempt to code"
                 }
@@ -1293,6 +1263,37 @@
                     "z": "Other",
                     "|": "No attempt to code"
                 }
+            },
+            {
+                "name": "Secondary support material",
+                "start": 5,
+                "stop": 5,
+                "values": {
+                    "#": "No secondary support",
+                    "a": "Canvas",
+                    "b": "Bristol board",
+                    "c": "Cardboard/illustration board",
+                    "d": "Glass",
+                    "e": "Synthetic",
+                    "f": "Skin",
+                    "g": "Textile",
+                    "h": "Metal",
+                    "i": "Plastic",
+                    "l": "Vinyl",
+                    "m": "Mixed collection",
+                    "n": "Vellum",
+                    "o": "Paper",
+                    "p": "Plaster",
+                    "q": "Hardboard",
+                    "r": "Porcelain",
+                    "s": "Stone",
+                    "t": "Wood",
+                    "u": "Unknown",
+                    "v": "Leather",
+                    "w": "Parchment",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
             }
         ],
         "repeatable": true
@@ -1302,23 +1303,40 @@
         "name": "Motion Picture",
         "positions": [
             {
+                "name": "Configuration of playback channels",
+                "start": 8,
+                "stop": 8,
+                "values": {
+                    "k": "Mixed",
+                    "m": "Monaural",
+                    "n": "Not applicable",
+                    "q": "Quadraphonic, multichannel, or surround",
+                    "s": "Stereophonic",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Specific material designation",
+                "start": 1,
+                "stop": 1,
+                "values": {
+                    "c": "Film cartridge",
+                    "f": "Film cassette",
+                    "o": "Film roll",
+                    "r": "Film reel",
+                    "u": "Unspecified",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
                 "name": "Undefined",
                 "start": 2,
                 "stop": 2,
                 "values": {
                     "#": "Undefined"
-                }
-            },
-            {
-                "name": "Sound on medium or separate",
-                "start": 5,
-                "stop": 5,
-                "values": {
-                    "#": "No sound (silent)",
-                    "a": "Sound on medium",
-                    "b": "Sound separate from medium",
-                    "u": "Unknown",
-                    "|": "No attempt to code"
                 }
             },
             {
@@ -1342,34 +1360,18 @@
                 }
             },
             {
-                "name": "Dimensions",
-                "start": 7,
-                "stop": 7,
+                "name": "Production elements",
+                "start": 9,
+                "stop": 9,
                 "values": {
-                    "a": "Standard 8 mm.",
-                    "b": "Super 8 mm./single 8 mm.",
-                    "c": "9.5 mm.",
-                    "d": "16 mm.",
-                    "e": "28 mm.",
-                    "f": "35 mm.",
-                    "g": "70 mm.",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Motion picture presentation format",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "a": "Standard sound aperture (reduced frame)",
-                    "b": "Nonanamorphic (wide-screen)",
-                    "c": "3D",
-                    "d": "Anamorphic (wide-screen)",
-                    "e": "Other wide-screen format",
-                    "f": "Standard silent aperture (full frame)",
-                    "u": "Unknown",
+                    "a": "Workprint",
+                    "b": "Trims",
+                    "c": "Outtakes",
+                    "d": "Rushes",
+                    "e": "Mixing tracks",
+                    "f": "Title bands/inter-title rolls",
+                    "g": "Production rolls",
+                    "n": "Not applicable",
                     "z": "Other",
                     "|": "No attempt to code"
                 }
@@ -1390,15 +1392,18 @@
                 }
             },
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
+                "name": "Dimensions",
+                "start": 7,
+                "stop": 7,
                 "values": {
-                    "c": "Film cartridge",
-                    "f": "Film cassette",
-                    "o": "Film roll",
-                    "r": "Film reel",
-                    "u": "Unspecified",
+                    "a": "Standard 8 mm.",
+                    "b": "Super 8 mm./single 8 mm.",
+                    "c": "9.5 mm.",
+                    "d": "16 mm.",
+                    "e": "28 mm.",
+                    "f": "35 mm.",
+                    "g": "70 mm.",
+                    "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
                 }
@@ -1412,116 +1417,30 @@
                 }
             },
             {
-                "name": "Production elements",
-                "start": 9,
-                "stop": 9,
+                "name": "Motion picture presentation format",
+                "start": 4,
+                "stop": 4,
                 "values": {
-                    "a": "Workprint",
-                    "b": "Trims",
-                    "c": "Outtakes",
-                    "d": "Rushes",
-                    "e": "Mixing tracks",
-                    "f": "Title bands/inter-title rolls",
-                    "g": "Production rolls",
-                    "n": "Not applicable",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Configuration of playback channels",
-                "start": 8,
-                "stop": 8,
-                "values": {
-                    "k": "Mixed",
-                    "m": "Monaural",
-                    "n": "Not applicable",
-                    "q": "Quadraphonic, multichannel, or surround",
-                    "s": "Stereophonic",
+                    "a": "Standard sound aperture (reduced frame)",
+                    "b": "Nonanamorphic (wide-screen)",
+                    "c": "3D",
+                    "d": "Anamorphic (wide-screen)",
+                    "e": "Other wide-screen format",
+                    "f": "Standard silent aperture (full frame)",
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
                 }
             },
             {
-                "name": "Film inspection date",
-                "start": 17,
-                "stop": 22,
-                "values": {}
-            },
-            {
-                "name": "Positive/negative aspect",
-                "start": 10,
-                "stop": 10,
+                "name": "Sound on medium or separate",
+                "start": 5,
+                "stop": 5,
                 "values": {
-                    "a": "Positive",
-                    "b": "Negative",
-                    "n": "Not applicable",
+                    "#": "No sound (silent)",
+                    "a": "Sound on medium",
+                    "b": "Sound separate from medium",
                     "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Generation",
-                "start": 11,
-                "stop": 11,
-                "values": {
-                    "d": "Duplicate",
-                    "e": "Master",
-                    "o": "Original",
-                    "r": "Reference print/viewing copy",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Base of film",
-                "start": 12,
-                "stop": 12,
-                "values": {
-                    "a": "Safety base, undetermined",
-                    "c": "Safety base, acetate undetermined",
-                    "d": "Safety base, diacetate",
-                    "i": "Nitrate base",
-                    "m": "Mixed base (nitrate and safety)",
-                    "n": "Not applicable",
-                    "p": "Safety base, polyester",
-                    "r": "Safety base, mixed",
-                    "t": "Safety base, triacetate",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Refined categories of color",
-                "start": 13,
-                "stop": 13,
-                "values": {
-                    "a": "3 layer color",
-                    "b": "2 color, single strip",
-                    "c": "Undetermined 2 color",
-                    "d": "Undetermined 3 color",
-                    "e": "3 strip color",
-                    "f": "2 strip color",
-                    "g": "Red strip",
-                    "h": "Blue or green strip",
-                    "i": "Cyan strip",
-                    "j": "Magenta strip",
-                    "k": "Yellow strip",
-                    "l": "S E N 2",
-                    "m": "S E N 3",
-                    "n": "Not applicable",
-                    "p": "Sepia tone",
-                    "q": "Other tone",
-                    "r": "Tint",
-                    "s": "Tinted and toned",
-                    "t": "Stencil color",
-                    "u": "Unknown",
-                    "v": "Hand colored",
-                    "z": "Other",
                     "|": "No attempt to code"
                 }
             },
@@ -1570,6 +1489,88 @@
                     "z": "Other",
                     "|": "No attempt to code"
                 }
+            },
+            {
+                "name": "Refined categories of color",
+                "start": 13,
+                "stop": 13,
+                "values": {
+                    "a": "3 layer color",
+                    "b": "2 color, single strip",
+                    "c": "Undetermined 2 color",
+                    "d": "Undetermined 3 color",
+                    "e": "3 strip color",
+                    "f": "2 strip color",
+                    "g": "Red strip",
+                    "h": "Blue or green strip",
+                    "i": "Cyan strip",
+                    "j": "Magenta strip",
+                    "k": "Yellow strip",
+                    "l": "S E N 2",
+                    "m": "S E N 3",
+                    "n": "Not applicable",
+                    "p": "Sepia tone",
+                    "q": "Other tone",
+                    "r": "Tint",
+                    "s": "Tinted and toned",
+                    "t": "Stencil color",
+                    "u": "Unknown",
+                    "v": "Hand colored",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Base of film",
+                "start": 12,
+                "stop": 12,
+                "values": {
+                    "a": "Safety base, undetermined",
+                    "c": "Safety base, acetate undetermined",
+                    "d": "Safety base, diacetate",
+                    "i": "Nitrate base",
+                    "m": "Mixed base (nitrate and safety)",
+                    "n": "Not applicable",
+                    "p": "Safety base, polyester",
+                    "r": "Safety base, mixed",
+                    "t": "Safety base, triacetate",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Film inspection date",
+                "start": 17,
+                "stop": 22,
+                "values": {}
+            },
+            {
+                "name": "Positive/negative aspect",
+                "start": 10,
+                "stop": 10,
+                "values": {
+                    "a": "Positive",
+                    "b": "Negative",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Generation",
+                "start": 11,
+                "stop": 11,
+                "values": {
+                    "d": "Duplicate",
+                    "e": "Master",
+                    "o": "Original",
+                    "r": "Reference print/viewing copy",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
             }
         ],
         "repeatable": true
@@ -1579,20 +1580,20 @@
         "name": "Kit",
         "positions": [
             {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "o": "Kit"
+                }
+            },
+            {
                 "name": "Specific material designation",
                 "start": 1,
                 "stop": 1,
                 "values": {
                     "u": "Unspecified",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "o": "Kit"
                 }
             }
         ],
@@ -1603,20 +1604,20 @@
         "name": "Notated Music",
         "positions": [
             {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "q": "Notated music"
+                }
+            },
+            {
                 "name": "Specific material designation",
                 "start": 1,
                 "stop": 1,
                 "values": {
                     "u": "Unspecified",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "q": "Notated music"
                 }
             }
         ],
@@ -1627,14 +1628,6 @@
         "name": "Remote-Sensing Image",
         "positions": [
             {
-                "name": "Undefined",
-                "start": 2,
-                "stop": 2,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
                 "name": "Attitude of sensor",
                 "start": 4,
                 "stop": 4,
@@ -1644,6 +1637,37 @@
                     "c": "Vertical",
                     "n": "Not applicable",
                     "u": "Unknown",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Specific material designation",
+                "start": 1,
+                "stop": 1,
+                "values": {
+                    "u": "Unspecified",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined",
+                "start": 2,
+                "stop": 2,
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            {
+                "name": "Altitude of sensor",
+                "start": 3,
+                "stop": 3,
+                "values": {
+                    "a": "Surface",
+                    "b": "Airborne",
+                    "c": "Spaceborne",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
                     "|": "No attempt to code"
                 }
             },
@@ -1668,17 +1692,11 @@
                 }
             },
             {
-                "name": "Altitude of sensor",
-                "start": 3,
-                "stop": 3,
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
                 "values": {
-                    "a": "Surface",
-                    "b": "Airborne",
-                    "c": "Spaceborne",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
+                    "r": "Remote-sensing image"
                 }
             },
             {
@@ -1695,50 +1713,6 @@
                     "g": "Land-based remote-sensing device",
                     "h": "Water surface-based remote-sensing device",
                     "i": "Submersible remote-sensing device",
-                    "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
-                "values": {
-                    "u": "Unspecified",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "r": "Remote-sensing image"
-                }
-            },
-            {
-                "name": "Sensor type",
-                "start": 8,
-                "stop": 8,
-                "values": {
-                    "a": "Active",
-                    "b": "Passive",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Platform use category",
-                "start": 7,
-                "stop": 7,
-                "values": {
-                    "a": "Meteorological",
-                    "b": "Surface observing",
-                    "c": "Space observing",
-                    "m": "Mixed uses",
                     "n": "Not applicable",
                     "u": "Unknown",
                     "z": "Other",
@@ -1793,6 +1767,33 @@
                     "zz": "Other",
                     "||": "No attempt to code"
                 }
+            },
+            {
+                "name": "Sensor type",
+                "start": 8,
+                "stop": 8,
+                "values": {
+                    "a": "Active",
+                    "b": "Passive",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Platform use category",
+                "start": 7,
+                "stop": 7,
+                "values": {
+                    "a": "Meteorological",
+                    "b": "Surface observing",
+                    "c": "Space observing",
+                    "m": "Mixed uses",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
             }
         ],
         "repeatable": true
@@ -1802,26 +1803,38 @@
         "name": "Sound Recording",
         "positions": [
             {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "s": "Sound recording"
+                }
+            },
+            {
+                "name": "Specific material designation",
+                "start": 1,
+                "stop": 1,
+                "values": {
+                    "d": "Sound disc",
+                    "e": "Cylinder",
+                    "g": "Sound cartridge",
+                    "i": "Sound-track film",
+                    "q": "Roll",
+                    "r": "Remote",
+                    "s": "Sound cassette",
+                    "t": "Sound-tape reel",
+                    "u": "Unspecified",
+                    "w": "Wire recording",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
                 "name": "Undefined",
                 "start": 2,
                 "stop": 2,
                 "values": {
                     "#": "Undefined"
-                }
-            },
-            {
-                "name": "Tape width",
-                "start": 7,
-                "stop": 7,
-                "values": {
-                    "l": "1/8 in.",
-                    "m": "1/4 in.",
-                    "n": "Not applicable",
-                    "o": "1/2 in.",
-                    "p": "1 in.",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
                 }
             },
             {
@@ -1840,9 +1853,23 @@
                     "k": "15/16 ips (tapes)",
                     "l": "1 7/8 ips (tapes)",
                     "m": "3 3/4 ips (tapes)",
+                    "n": "Not applicable",
                     "o": "7 1/2 ips (tapes)",
                     "p": "15 ips (tapes)",
                     "r": "30 ips (tape)",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Configuration of playback channels",
+                "start": 4,
+                "stop": 4,
+                "values": {
+                    "m": "Monaural",
+                    "q": "Quadraphonic, multichannel, or surround",
+                    "s": "Stereophonic",
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
@@ -1883,72 +1910,15 @@
                 }
             },
             {
-                "name": "Specific material designation",
-                "start": 1,
-                "stop": 1,
+                "name": "Tape width",
+                "start": 7,
+                "stop": 7,
                 "values": {
-                    "d": "Sound disc",
-                    "e": "Cylinder",
-                    "g": "Sound cartridge",
-                    "i": "Sound-track film",
-                    "q": "Roll",
-                    "s": "Sound cassette",
-                    "t": "Sound-tape reel",
-                    "u": "Unspecified",
-                    "w": "Wire recording",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Configuration of playback channels",
-                "start": 4,
-                "stop": 4,
-                "values": {
-                    "m": "Monaural",
-                    "q": "Quadraphonic",
-                    "s": "Stereophonic",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "s": "Sound recording"
-                }
-            },
-            {
-                "name": "Special playback characteristics",
-                "start": 12,
-                "stop": 12,
-                "values": {
-                    "a": "NAB standard",
-                    "b": "CCIR standard",
-                    "c": "Dolby-B encoded",
-                    "d": "dbx encoded",
-                    "e": "Digital recording",
-                    "f": "Dolby-A encoded",
-                    "g": "Dolby-C encoded",
-                    "h": "CX encoded",
+                    "l": "1/8 in.",
+                    "m": "1/4 in.",
                     "n": "Not applicable",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Capture and storage technique",
-                "start": 13,
-                "stop": 13,
-                "values": {
-                    "a": "Acoustical capture, direct storage",
-                    "b": "Direct storage, not acoustical",
-                    "d": "Digital storage",
-                    "e": "Analog electrical storage",
+                    "o": "1/2 in.",
+                    "p": "1 in.",
                     "u": "Unknown",
                     "z": "Other",
                     "|": "No attempt to code"
@@ -2002,6 +1972,7 @@
                     "i": "Aluminum with lacquer",
                     "l": "Metal",
                     "m": "Plastic with metal",
+                    "n": "Not applicable",
                     "p": "Plastic",
                     "r": "Paper with lacquer or ferrous oxide",
                     "s": "Shellac",
@@ -2022,6 +1993,39 @@
                     "u": "Unknown",
                     "|": "No attempt to code"
                 }
+            },
+            {
+                "name": "Special playback characteristics",
+                "start": 12,
+                "stop": 12,
+                "values": {
+                    "a": "NAB standard",
+                    "b": "CCIR standard",
+                    "c": "Dolby-B encoded",
+                    "d": "dbx encoded",
+                    "e": "Digital recording",
+                    "f": "Dolby-A encoded",
+                    "g": "Dolby-C encoded",
+                    "h": "CX encoded",
+                    "n": "Not applicable",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Capture and storage technique",
+                "start": 13,
+                "stop": 13,
+                "values": {
+                    "a": "Acoustical capture, direct storage",
+                    "b": "Direct storage, not acoustical",
+                    "d": "Digital storage",
+                    "e": "Analog electrical storage",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
             }
         ],
         "repeatable": true
@@ -2030,6 +2034,14 @@
         "fixed": true,
         "name": "Text",
         "positions": [
+            {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "t": "Text"
+                }
+            },
             {
                 "name": "Specific material designation",
                 "start": 1,
@@ -2042,14 +2054,6 @@
                     "u": "Unspecified",
                     "z": "Other",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "t": "Text"
                 }
             }
         ],
@@ -2083,6 +2087,14 @@
                 }
             },
             {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "v": "Videorecording"
+                }
+            },
+            {
                 "name": "Specific material designation",
                 "start": 1,
                 "stop": 1,
@@ -2094,14 +2106,6 @@
                     "u": "Unspecified",
                     "z": "Other",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "v": "Videorecording"
                 }
             },
             {
@@ -2132,14 +2136,17 @@
                 }
             },
             {
-                "name": "Sound on medium or separate",
-                "start": 5,
-                "stop": 5,
+                "name": "Configuration of playback channels",
+                "start": 8,
+                "stop": 8,
                 "values": {
-                    "#": "No sound (silent)",
-                    "a": "Sound on medium",
-                    "b": "Sound separate from medium",
+                    "k": "Mixed",
+                    "m": "Monaural",
+                    "n": "Not applicable",
+                    "q": "Quadraphonic, multichannel, or surround",
+                    "s": "Stereophonic",
                     "u": "Unknown",
+                    "z": "Other",
                     "|": "No attempt to code"
                 }
             },
@@ -2180,17 +2187,14 @@
                 }
             },
             {
-                "name": "Configuration of playback channels",
-                "start": 8,
-                "stop": 8,
+                "name": "Sound on medium or separate",
+                "start": 5,
+                "stop": 5,
                 "values": {
-                    "k": "Mixed",
-                    "m": "Monaural",
-                    "n": "Not applicable",
-                    "q": "Quadraphonic, multichannel, or surround",
-                    "s": "Stereophonic",
+                    "#": "No sound (silent)",
+                    "a": "Sound on medium",
+                    "b": "Sound separate from medium",
                     "u": "Unknown",
-                    "z": "Other",
                     "|": "No attempt to code"
                 }
             }
@@ -2202,6 +2206,14 @@
         "name": "Unspecified",
         "positions": [
             {
+                "name": "Category of material",
+                "start": 0,
+                "stop": 0,
+                "values": {
+                    "z": "Unspecified"
+                }
+            },
+            {
                 "name": "Specific material designation",
                 "start": 1,
                 "stop": 1,
@@ -2210,14 +2222,6 @@
                     "u": "Unspecified",
                     "z": "Other",
                     "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Category of material",
-                "start": 0,
-                "stop": 0,
-                "values": {
-                    "z": "Unspecified"
                 }
             }
         ],
@@ -2341,23 +2345,6 @@
         "name": "Books",
         "positions": [
             {
-                "name": "Target audience (006/05)",
-                "start": 22,
-                "stop": 22,
-                "values": {
-                    "#": "Unknown or not specified",
-                    "a": "Preschool",
-                    "b": "Primary",
-                    "c": "Pre-adolescent",
-                    "d": "Adolescent",
-                    "e": "Adult",
-                    "f": "Specialized",
-                    "g": "General",
-                    "j": "Juvenile",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Illustrations (006/01-04)",
                 "start": 18,
                 "stop": 21,
@@ -2378,6 +2365,23 @@
                     "m": "Phonodisc, phonowire, etc.",
                     "o": "Photographs",
                     "p": "Illuminations",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Target audience (006/05)",
+                "start": 22,
+                "stop": 22,
+                "values": {
+                    "#": "Unknown or not specified",
+                    "a": "Preschool",
+                    "b": "Primary",
+                    "c": "Pre-adolescent",
+                    "d": "Adolescent",
+                    "e": "Adult",
+                    "f": "Specialized",
+                    "g": "General",
+                    "j": "Juvenile",
                     "|": "No attempt to code"
                 }
             },
@@ -2436,16 +2440,6 @@
                 }
             },
             {
-                "name": "Index (006/14)",
-                "start": 31,
-                "stop": 31,
-                "values": {
-                    "0": "No index",
-                    "1": "Index present",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Government publication (006/11)",
                 "start": 28,
                 "stop": 28,
@@ -2458,22 +2452,9 @@
                     "l": "Local",
                     "m": "Multistate",
                     "o": "Government publication-level undetermined",
-                    "s": "State, provincial, territorial, dependent, etc.",
+                    "s": "State, provincial, territorial, dependent, etc. ",
                     "u": "Unknown if item is government publication",
                     "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Biography (006/17)",
-                "start": 34,
-                "stop": 34,
-                "values": {
-                    "#": "No biographical material",
-                    "a": "Autobiography",
-                    "b": "Individual biography",
-                    "c": "Collective biography",
-                    "d": "Contains biographical information",
                     "|": "No attempt to code"
                 }
             },
@@ -2488,15 +2469,6 @@
                 }
             },
             {
-                "name": "Undefined (006/15)",
-                "start": 32,
-                "stop": 32,
-                "values": {
-                    "#": "Undefined",
-                    "|": "No attempt to code"
-                }
-            },
-            {
                 "name": "Festschrift (006/13)",
                 "start": 30,
                 "stop": 30,
@@ -2505,6 +2477,22 @@
                     "1": "Festschrift",
                     "|": "No attempt to code"
                 }
+            },
+            {
+                "name": "Index (006/14)",
+                "start": 31,
+                "stop": 31,
+                "values": {
+                    "0": "No index",
+                    "1": "Index present",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined (006/15)",
+                "start": 32,
+                "stop": 32,
+                "values": {}
             },
             {
                 "name": "Literary form (006/16)",
@@ -2525,6 +2513,19 @@
                     "u": "Unknown",
                     "|": "No attempt to code"
                 }
+            },
+            {
+                "name": "Biography (006/17)",
+                "start": 34,
+                "stop": 34,
+                "values": {
+                    "#": "No biographical material",
+                    "a": "Autobiography",
+                    "b": "Individual biography",
+                    "c": "Collective biography",
+                    "d": "Contains biographical information",
+                    "|": "No attempt to code"
+                }
             }
         ],
         "repeatable": false
@@ -2534,22 +2535,11 @@
         "name": "Computer Files",
         "positions": [
             {
-                "name": "Undefined (006/07-08)",
-                "start": 24,
-                "stop": 25,
+                "name": "Undefined (006/01-04)",
+                "start": 18,
+                "stop": 21,
                 "values": {
                     "#": "Undefined",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Form of item (006/06)",
-                "start": 23,
-                "stop": 23,
-                "values": {
-                    "#": "Unknown or not specified",
-                    "o": "Online",
-                    "q": "Direct electronic",
                     "|": "No attempt to code"
                 }
             },
@@ -2567,6 +2557,26 @@
                     "f": "Specialized",
                     "g": "General",
                     "j": "Juvenile",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Form of item (006/06)",
+                "start": 23,
+                "stop": 23,
+                "values": {
+                    "#": "Unknown or not specified",
+                    "o": "Online",
+                    "q": "Direct electronic",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined (006/07-08)",
+                "start": 24,
+                "stop": 25,
+                "values": {
+                    "#": "Undefined",
                     "|": "No attempt to code"
                 }
             },
@@ -2592,9 +2602,9 @@
                 }
             },
             {
-                "name": "Undefined (006/01-04)",
-                "start": 18,
-                "stop": 21,
+                "name": "Undefined (006/10)",
+                "start": 27,
+                "stop": 27,
                 "values": {
                     "#": "Undefined",
                     "|": "No attempt to code"
@@ -2616,15 +2626,6 @@
                     "s": "State, provincial, territorial, dependent, etc.",
                     "u": "Unknown if item is government publication",
                     "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined (006/10)",
-                "start": 27,
-                "stop": 27,
-                "values": {
-                    "#": "Undefined",
                     "|": "No attempt to code"
                 }
             },
@@ -2957,6 +2958,14 @@
                 }
             },
             {
+                "name": "Undefined (006/07)",
+                "start": 24,
+                "stop": 24,
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            {
                 "name": "Type of cartographic material (006/08)",
                 "start": 25,
                 "stop": 25,
@@ -3001,14 +3010,6 @@
                 }
             },
             {
-                "name": "Undefined (006/15)",
-                "start": 32,
-                "stop": 32,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
                 "name": "Form of item (006/12)",
                 "start": 29,
                 "stop": 29,
@@ -3024,6 +3025,32 @@
                     "r": "Regular print reproduction",
                     "s": "Electronic",
                     "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined (006/13)",
+                "start": 30,
+                "stop": 30,
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            {
+                "name": "Index (006/14)",
+                "start": 31,
+                "stop": 31,
+                "values": {
+                    "0": "No index",
+                    "1": "Index present",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined (006/15)",
+                "start": 32,
+                "stop": 32,
+                "values": {
+                    "#": "Undefined"
                 }
             },
             {
@@ -3043,32 +3070,6 @@
                     "z": "Other",
                     "||": "No attempt to code"
                 }
-            },
-            {
-                "name": "Index (006/14)",
-                "start": 31,
-                "stop": 31,
-                "values": {
-                    "0": "No index",
-                    "1": "Index present",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined (006/13)",
-                "start": 30,
-                "stop": 30,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Undefined (006/07)",
-                "start": 24,
-                "stop": 24,
-                "values": {
-                    "#": "Undefined"
-                }
             }
         ],
         "repeatable": false
@@ -3077,41 +3078,6 @@
         "fixed": true,
         "name": "Continuing Resources",
         "positions": [
-            {
-                "name": "Nature of entire work (006/07)",
-                "start": 24,
-                "stop": 24,
-                "values": {
-                    "#": "Not specified",
-                    "5": "Calendars",
-                    "6": "Comics/graphic novels",
-                    "a": "Abstracts/summaries",
-                    "b": "Bibliographies",
-                    "c": "Catalogs",
-                    "d": "Dictionaries",
-                    "e": "Encyclopedias",
-                    "f": "Handbooks",
-                    "g": "Legal articles",
-                    "h": "Biography",
-                    "i": "Indexes",
-                    "k": "Discographies",
-                    "l": "Legislation",
-                    "m": "Theses",
-                    "n": "Surveys of literature in a subject area",
-                    "o": "Reviews",
-                    "p": "Programmed texts",
-                    "q": "Filmographies",
-                    "r": "Directories",
-                    "s": "Statistics",
-                    "t": "Technical reports",
-                    "u": "Standards/specifications",
-                    "v": "Legal cases and case notes",
-                    "w": "Law reports and digests",
-                    "y": "Yearbooks",
-                    "z": "Treaties",
-                    "|": "No attempt to code"
-                }
-            },
             {
                 "name": "Frequency (006/01)",
                 "start": 18,
@@ -3152,20 +3118,25 @@
                 }
             },
             {
-                "name": "Form of item (006/06)",
-                "start": 23,
-                "stop": 23,
+                "name": "Undefined (006/03)",
+                "start": 20,
+                "stop": 20,
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            {
+                "name": "Type of continuing resource (006/04)",
+                "start": 21,
+                "stop": 21,
                 "values": {
                     "#": "None of the following",
-                    "a": "Microfilm",
-                    "b": "Microfiche",
-                    "c": "Microopaque",
-                    "d": "Large print",
-                    "f": "Braille",
-                    "o": "Online",
-                    "q": "Direct electronic",
-                    "r": "Regular print reproduction",
-                    "s": "Electronic",
+                    "d": "Updating database",
+                    "l": "Updating loose-leaf",
+                    "m": "Monographic series",
+                    "n": "Newspaper",
+                    "p": "Periodical",
+                    "w": "Updating Web site",
                     "|": "No attempt to code"
                 }
             },
@@ -3188,96 +3159,55 @@
                 }
             },
             {
-                "name": "Type of continuing resource (006/04)",
-                "start": 21,
-                "stop": 21,
+                "name": "Form of item (006/06)",
+                "start": 23,
+                "stop": 23,
                 "values": {
                     "#": "None of the following",
-                    "d": "Updating database",
-                    "l": "Updating loose-leaf",
-                    "m": "Monographic series",
-                    "n": "Newspaper",
-                    "p": "Periodical",
-                    "w": "Updating Web site",
+                    "a": "Microfilm",
+                    "b": "Microfiche",
+                    "c": "Microopaque",
+                    "d": "Large print",
+                    "f": "Braille",
+                    "o": "Online",
+                    "q": "Direct electronic",
+                    "r": "Regular print reproduction",
+                    "s": "Electronic",
                     "|": "No attempt to code"
                 }
             },
             {
-                "name": "Undefined (006/03)",
-                "start": 20,
-                "stop": 20,
+                "name": "Nature of entire work (006/07)",
+                "start": 24,
+                "stop": 24,
                 "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Original alphabet or script of title (006/16)",
-                "start": 33,
-                "stop": 33,
-                "values": {
-                    "#": "No alphabet or script given/No key title",
-                    "a": "Basic Roman",
-                    "b": "Extended Roman",
-                    "c": "Cyrillic",
-                    "d": "Japanese",
-                    "e": "Chinese",
-                    "f": "Arabic",
-                    "g": "Greek",
-                    "h": "Hebrew",
-                    "i": "Thai",
-                    "j": "Devanagari",
-                    "k": "Korean",
-                    "l": "Tamil",
-                    "u": "Unknown",
-                    "z": "Other",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Entry convention (006/17)",
-                "start": 34,
-                "stop": 34,
-                "values": {
-                    "0": "Successive entry",
-                    "1": "Latest entry",
-                    "2": "Integrated entry",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Conference publication (006/12)",
-                "start": 29,
-                "stop": 29,
-                "values": {
-                    "0": "Not a conference publication",
-                    "1": "Conference publication",
-                    "|": "No attempt to code"
-                }
-            },
-            {
-                "name": "Undefined (006/13-15)",
-                "start": 30,
-                "stop": 32,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Government publication (006/11)",
-                "start": 28,
-                "stop": 28,
-                "values": {
-                    "#": "Not a government publication",
-                    "a": "Autonomous or semi-autonomous component",
-                    "c": "Multilocal",
-                    "f": "Federal/national",
-                    "i": "International intergovernmental",
-                    "l": "Local",
-                    "m": "Multistate",
-                    "o": "Government publication-level undetermined",
-                    "s": "State, provincial, territorial, dependent, etc.",
-                    "u": "Unknown if item is government publication",
-                    "z": "Other",
+                    "#": "Not specified",
+                    "5": "Calendars",
+                    "6": "Comics/graphic novels",
+                    "a": "Abstracts/summaries",
+                    "b": "Bibliographies",
+                    "c": "Catalogs",
+                    "d": "Dictionaries",
+                    "e": "Encyclopedias",
+                    "f": "Handbooks",
+                    "g": "Legal articles",
+                    "h": "Biography",
+                    "i": "Indexes",
+                    "k": "Discographies",
+                    "l": "Legislation",
+                    "m": "Theses",
+                    "n": "Surveys of literature in a subject area",
+                    "o": "Reviews",
+                    "p": "Programmed texts",
+                    "q": "Filmographies",
+                    "r": "Directories",
+                    "s": "Statistics",
+                    "t": "Technical reports",
+                    "u": "Standards/specifications",
+                    "v": "Legal cases and case notes",
+                    "w": "Law reports and digests",
+                    "y": "Yearbooks",
+                    "z": "Treaties",
                     "|": "No attempt to code"
                 }
             },
@@ -3315,6 +3245,77 @@
                     "z": "Treaties",
                     "|||": "No attempt to code"
                 }
+            },
+            {
+                "name": "Government publication (006/11)",
+                "start": 28,
+                "stop": 28,
+                "values": {
+                    "#": "Not a government publication",
+                    "a": "Autonomous or semi-autonomous component",
+                    "c": "Multilocal",
+                    "f": "Federal/national",
+                    "i": "International intergovernmental",
+                    "l": "Local",
+                    "m": "Multistate",
+                    "o": "Government publication-level undetermined",
+                    "s": "State, provincial, territorial, dependent, etc. ",
+                    "u": "Unknown if item is government publication",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Conference publication (006/12)",
+                "start": 29,
+                "stop": 29,
+                "values": {
+                    "0": "Not a conference publication",
+                    "1": "Conference publication",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined (006/13-15)",
+                "start": 30,
+                "stop": 32,
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            {
+                "name": "Original alphabet or script of title (006/16)",
+                "start": 33,
+                "stop": 33,
+                "values": {
+                    "#": "No alphabet or script given/No key title",
+                    "a": "Basic Roman",
+                    "b": "Extended Roman",
+                    "c": "Cyrillic",
+                    "d": "Japanese",
+                    "e": "Chinese",
+                    "f": "Arabic",
+                    "g": "Greek",
+                    "h": "Hebrew",
+                    "i": "Thai",
+                    "j": "Devanagari",
+                    "k": "Korean",
+                    "l": "Tamil",
+                    "u": "Unknown",
+                    "z": "Other",
+                    "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Entry convention (006/17)",
+                "start": 34,
+                "stop": 34,
+                "values": {
+                    "0": "Successive entry",
+                    "1": "Latest entry",
+                    "2": "Integrated entry",
+                    "|": "No attempt to code"
+                }
             }
         ],
         "repeatable": false
@@ -3336,6 +3337,14 @@
                 }
             },
             {
+                "name": "Undefined (006/04)",
+                "start": 21,
+                "stop": 21,
+                "values": {
+                    "#": "Undefined"
+                }
+            },
+            {
                 "name": "Target audience (006/05)",
                 "start": 22,
                 "stop": 22,
@@ -3350,6 +3359,14 @@
                     "g": "General",
                     "j": "Juvenile",
                     "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined (006/06-10)",
+                "start": 23,
+                "stop": 27,
+                "values": {
+                    "#": "Undefined"
                 }
             },
             {
@@ -3390,17 +3407,9 @@
                 }
             },
             {
-                "name": "Undefined (006/04)",
-                "start": 21,
-                "stop": 21,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
-                "name": "Undefined (006/06-10)",
-                "start": 23,
-                "stop": 27,
+                "name": "Undefined (006/13-15)",
+                "start": 30,
+                "stop": 32,
                 "values": {
                     "#": "Undefined"
                 }
@@ -3434,14 +3443,6 @@
                 }
             },
             {
-                "name": "Undefined (006/13-15)",
-                "start": 30,
-                "stop": 32,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
                 "name": "Technique (006/17)",
                 "start": 34,
                 "stop": 34,
@@ -3463,14 +3464,6 @@
         "name": "Mixed Materials",
         "positions": [
             {
-                "name": "Undefined (006/07-17)",
-                "start": 24,
-                "stop": 34,
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            {
                 "name": "Form of item (006/06)",
                 "start": 23,
                 "stop": 23,
@@ -3486,6 +3479,14 @@
                     "r": "Regular print reproduction",
                     "s": "Electronic",
                     "|": "No attempt to code"
+                }
+            },
+            {
+                "name": "Undefined (006/07-17)",
+                "start": 24,
+                "stop": 34,
+                "values": {
+                    "#": "Undefined"
                 }
             },
             {
@@ -3603,20 +3604,7 @@
     },
     "015": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "National Bibliography Number",
         "repeatable": true,
         "subfields": {
@@ -3794,20 +3782,7 @@
     },
     "020": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "International Standard Book Number",
         "repeatable": true,
         "subfields": {
@@ -3908,28 +3883,7 @@
     },
     "024": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of standard number or code",
-                "values": {
-                    "0": "International Standard Recording Code",
-                    "1": "Universal Product Code",
-                    "2": "International Standard Music Number",
-                    "3": "International Article Number",
-                    "4": "Serial Item and Contribution Identifier",
-                    "7": "Source specified in subfield $2",
-                    "8": "Unspecified type of standard number or code"
-                }
-            },
-            "2": {
-                "name": "Difference indicator",
-                "values": {
-                    "#": "No information provided",
-                    "0": "No difference",
-                    "1": "Difference"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Other Standard Identifier",
         "repeatable": true,
         "subfields": {
@@ -4074,20 +4028,7 @@
     },
     "027": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Standard Technical Report Number",
         "repeatable": true,
         "subfields": {
@@ -4120,28 +4061,7 @@
     },
     "028": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of publisher number",
-                "values": {
-                    "0": "Issue number",
-                    "1": "Matrix number",
-                    "2": "Plate number",
-                    "3": "Other music number",
-                    "4": "Videorecording number",
-                    "5": "Other publisher number"
-                }
-            },
-            "2": {
-                "name": "Note/added entry controller",
-                "values": {
-                    "0": "No note, no added entry",
-                    "1": "Note, added entry",
-                    "2": "Note, no added entry",
-                    "3": "No note, added entry"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Publisher Number",
         "repeatable": true,
         "subfields": {
@@ -4449,24 +4369,7 @@
     },
     "034": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of scale",
-                "values": {
-                    "0": "Scale indeterminable/No scale recorded",
-                    "1": "Single scale",
-                    "3": "Range of scales"
-                }
-            },
-            "2": {
-                "name": "Type of ring",
-                "values": {
-                    "#": "Not applicable",
-                    "0": "Outer ring",
-                    "1": "Exclusion ring"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Coded Cartographic Mathematical Data",
         "repeatable": true,
         "subfields": {
@@ -4676,23 +4579,20 @@
     },
     "037": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Source of Acquisition",
         "repeatable": true,
         "subfields": {
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "5": {
+                "name": "Institution to which field applies",
+                "repeatable": true,
+                "static": false
+            },
             "6": {
                 "name": "Linkage",
                 "repeatable": false,
@@ -4829,23 +4729,7 @@
     },
     "041": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Translation indication",
-                "values": {
-                    "#": "No information provided",
-                    "0": "Item not a translation/does not include a\n                  \t\t\t\t\t\ttranslation",
-                    "1": "Item is or includes a translation"
-                }
-            },
-            "2": {
-                "name": "Source of code",
-                "values": {
-                    "#": "MARC language code",
-                    "7": "Source specified in subfield $2"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Language Code",
         "repeatable": true,
         "subfields": {
@@ -4949,20 +4833,7 @@
     },
     "043": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Geographic Area Code",
         "repeatable": false,
         "subfields": {
@@ -5105,20 +4976,7 @@
     },
     "046": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Special Coded Dates",
         "repeatable": true,
         "subfields": {
@@ -5810,24 +5668,7 @@
     },
     "082": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of edition",
-                "values": {
-                    "0": "Full edition",
-                    "1": "Abridged edition",
-                    "7": "Other edition specified in subfield $2"
-                }
-            },
-            "2": {
-                "name": "Source of classification number",
-                "values": {
-                    "#": "No information provided",
-                    "0": "Assigned by LC",
-                    "4": "Assigned by agency other than LC"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Dewey Decimal Classification Number",
         "repeatable": true,
         "subfields": {
@@ -5870,22 +5711,7 @@
     },
     "083": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of edition",
-                "values": {
-                    "0": "Full edition",
-                    "1": "Abridged edition",
-                    "7": "Other edition specified in subfield $2"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Additional Dewey Decimal Classification Number",
         "repeatable": true,
         "subfields": {
@@ -5938,20 +5764,7 @@
     },
     "084": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Other Classification Number",
         "repeatable": true,
         "subfields": {
@@ -6128,20 +5941,7 @@
     },
     "088": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Report Number",
         "repeatable": true,
         "subfields": {
@@ -6169,27 +5969,12 @@
     },
     "100": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of personal name entry element",
-                "values": {
-                    "0": "Forename",
-                    "1": "Surname",
-                    "3": "Family name"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Main Entry-Personal Name",
         "repeatable": false,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -6240,7 +6025,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "j": {
@@ -6287,27 +6072,12 @@
     },
     "110": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of corporate name entry element",
-                "values": {
-                    "0": "Inverted name",
-                    "1": "Jurisdiction name",
-                    "2": "Name in direct order"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Main Entry-Corporate Name",
         "repeatable": false,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -6322,7 +6092,7 @@
                 "static": false
             },
             "8": {
-                "name": "Field link and sequence number (R",
+                "name": "Field link and sequence number",
                 "repeatable": true,
                 "static": false
             },
@@ -6338,7 +6108,7 @@
             },
             "c": {
                 "name": "Location of meeting",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "d": {
@@ -6358,7 +6128,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "k": {
@@ -6395,27 +6165,12 @@
     },
     "111": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of meeting name entry element",
-                "values": {
-                    "0": "Inverted name",
-                    "1": "Jurisdiction name",
-                    "2": "Name in direct order"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Main Entry-Meeting Name",
         "repeatable": false,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -6441,7 +6196,7 @@
             },
             "c": {
                 "name": "Location of meeting",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "d": {
@@ -6461,7 +6216,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "j": {
@@ -6508,25 +6263,12 @@
     },
     "130": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Nonfiling characters",
-                "values": {
-                    "0-9": "Number of nonfiling characters"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Main Entry-Uniform Title",
         "repeatable": false,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -6557,7 +6299,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -6704,26 +6446,12 @@
     },
     "240": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Uniform title printed or displayed",
-                "values": {
-                    "0": "Not printed or displayed",
-                    "1": "Printed or displayed"
-                }
-            },
-            "2": {
-                "name": "Nonfiling characters",
-                "values": {
-                    "0-9": "Number of nonfiling characters"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Uniform Title",
         "repeatable": false,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -6754,7 +6482,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -6874,21 +6602,7 @@
     },
     "243": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Uniform title printed or displayed",
-                "values": {
-                    "0": "Not printed or displayed",
-                    "1": "Printed or displayed"
-                }
-            },
-            "2": {
-                "name": "Nonfiling characters",
-                "values": {
-                    "0-9": "Number of nonfiling characters"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Collective Uniform Title",
         "repeatable": false,
         "subfields": {
@@ -6919,7 +6633,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -7054,32 +6768,7 @@
     },
     "246": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Note/added entry controller",
-                "values": {
-                    "0": "Note, no added entry",
-                    "1": "Note, added entry",
-                    "2": "No note, no added entry",
-                    "3": "No note, added entry"
-                }
-            },
-            "2": {
-                "name": "Type of title",
-                "values": {
-                    "#": "No type specified",
-                    "0": "Portion of title",
-                    "1": "Parallel title",
-                    "2": "Distinctive title",
-                    "3": "Other title",
-                    "4": "Cover title",
-                    "5": "Added title page title",
-                    "6": "Caption title",
-                    "7": "Running title",
-                    "8": "Spine title"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Varying Form of Title",
         "repeatable": true,
         "subfields": {
@@ -7115,7 +6804,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -7142,22 +6831,7 @@
     },
     "247": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Title added entry",
-                "values": {
-                    "0": "No added entry",
-                    "1": "Added entry"
-                }
-            },
-            "2": {
-                "name": "Note controller",
-                "values": {
-                    "0": "Display note",
-                    "1": "Do not display note"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Former Title",
         "repeatable": true,
         "subfields": {
@@ -7188,7 +6862,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -7215,20 +6889,7 @@
     },
     "250": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Edition Statement",
         "repeatable": true,
         "subfields": {
@@ -7481,22 +7142,7 @@
     },
     "260": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Sequence of publishing statements",
-                "values": {
-                    "#": "Not applicable/No information provided/Earliest available publisher",
-                    "2": "Intervening publisher",
-                    "3": "Current/latest publisher"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Publication, Distribution, etc. (Imprint)",
         "repeatable": true,
         "subfields": {
@@ -7697,26 +7343,7 @@
     },
     "264": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Sequence of statements",
-                "values": {
-                    "#": "Not applicable/No information provided/Earliest",
-                    "2": "Intervening",
-                    "3": "Current/latest"
-                }
-            },
-            "2": {
-                "name": "Function of entity",
-                "values": {
-                    "0": "Production",
-                    "1": "Publication",
-                    "2": "Distribution",
-                    "3": "Manufacture",
-                    "4": "Copyright notice date"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Production, Publication, Distribution, Manufacture, and Copyright Notice",
         "repeatable": true,
         "subfields": {
@@ -7884,20 +7511,7 @@
     },
     "300": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Physical Description",
         "repeatable": true,
         "subfields": {
@@ -8110,23 +7724,15 @@
     },
     "336": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Content Type",
         "repeatable": true,
         "subfields": {
+            "0": {
+                "name": "Authority record control number or standard number",
+                "repeatable": true,
+                "static": false
+            },
             "2": {
                 "name": "Source",
                 "repeatable": false,
@@ -8161,23 +7767,15 @@
     },
     "337": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Media Type",
         "repeatable": true,
         "subfields": {
+            "0": {
+                "name": "Authority record control number or standard number",
+                "repeatable": true,
+                "static": false
+            },
             "2": {
                 "name": "Source",
                 "repeatable": false,
@@ -8212,23 +7810,15 @@
     },
     "338": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Carrier Type",
         "repeatable": true,
         "subfields": {
+            "0": {
+                "name": "Authority record control number or standard number",
+                "repeatable": true,
+                "static": false
+            },
             "2": {
                 "name": "Source",
                 "repeatable": false,
@@ -8263,20 +7853,7 @@
     },
     "340": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Physical Medium",
         "repeatable": true,
         "subfields": {
@@ -8610,20 +8187,7 @@
     },
     "344": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Sound Characteristics",
         "repeatable": true,
         "subfields": {
@@ -8696,20 +8260,7 @@
     },
     "345": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Projection Characteristics of Moving Image",
         "repeatable": true,
         "subfields": {
@@ -8752,20 +8303,7 @@
     },
     "346": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Video Characteristics",
         "repeatable": true,
         "subfields": {
@@ -8808,20 +8346,7 @@
     },
     "347": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Digital File Characteristics",
         "repeatable": true,
         "subfields": {
@@ -8876,7 +8401,50 @@
                 "static": false
             },
             "f": {
-                "name": "Transmission speed",
+                "name": "Encoded bitrate",
+                "repeatable": true,
+                "static": false
+            }
+        }
+    },
+    "348": {
+        "fixed": false,
+        "indicators": {},
+        "name": "Format of Notated Music",
+        "repeatable": true,
+        "subfields": {
+            "0": {
+                "name": "Authority record control number or standard number",
+                "repeatable": true,
+                "static": false
+            },
+            "2": {
+                "name": "Source of term",
+                "repeatable": false,
+                "static": false
+            },
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Format of notated music term",
+                "repeatable": true,
+                "static": false
+            },
+            "b": {
+                "name": "Format of notated music code",
                 "repeatable": true,
                 "static": false
             }
@@ -9486,23 +9054,72 @@
             }
         }
     },
-    "377": {
+    "370": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
+        "indicators": {},
+        "name": "Associated Place",
+        "repeatable": true,
+        "subfields": {
+            "0": {
+                "name": "Authority record control number or standard number",
+                "repeatable": true,
+                "static": false
             },
             "2": {
-                "name": "Source of code",
-                "values": {
-                    "#": "MARC language code",
-                    "7": "Source specified in subfield $2"
-                }
+                "name": "Source of term",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "c": {
+                "name": "Associated country",
+                "repeatable": true,
+                "static": false
+            },
+            "f": {
+                "name": "Other associated place",
+                "repeatable": true,
+                "static": false
+            },
+            "g": {
+                "name": "Place of origin of work",
+                "repeatable": true,
+                "static": false
+            },
+            "s": {
+                "name": "Start period",
+                "repeatable": false,
+                "static": false
+            },
+            "t": {
+                "name": "End period",
+                "repeatable": false,
+                "static": false
+            },
+            "u": {
+                "name": "Uniform Resource Identifier",
+                "repeatable": true,
+                "static": false
+            },
+            "v": {
+                "name": "Source of information",
+                "repeatable": true,
+                "static": false
             }
-        },
+        }
+    },
+    "377": {
+        "fixed": false,
+        "indicators": {},
         "name": "Associated Language",
         "repeatable": true,
         "subfields": {
@@ -9637,24 +9254,7 @@
     },
     "382": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Display constant controller",
-                "values": {
-                    "#": "No information provided",
-                    "0": "Medium of performance",
-                    "1": "Partial medium of performance"
-                }
-            },
-            "2": {
-                "name": "Access control",
-                "values": {
-                    "#": "No information provided",
-                    "0": "Not intended for access",
-                    "1": "Intended for access"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Medium of Performance",
         "repeatable": true,
         "subfields": {
@@ -9693,6 +9293,11 @@
                 "repeatable": true,
                 "static": false
             },
+            "e": {
+                "name": "<span class=\"changed\">Number of ensembles of the same type",
+                "repeatable": true,
+                "static": false
+            },
             "n": {
                 "name": "Number of performers of the same medium",
                 "repeatable": true,
@@ -9703,9 +9308,19 @@
                 "repeatable": true,
                 "static": false
             },
+            "r": {
+                "name": "Total number of individuals performing alongside ensembles",
+                "repeatable": false,
+                "static": false
+            },
             "s": {
                 "name": "Total number of performers",
-                "repeatable": true,
+                "repeatable": false,
+                "static": false
+            },
+            "t": {
+                "name": "Total number of ensembles",
+                "repeatable": false,
                 "static": false
             },
             "v": {
@@ -9717,20 +9332,7 @@
     },
     "383": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Numeric Designation of Musical Work",
         "repeatable": true,
         "subfields": {
@@ -9816,20 +9418,7 @@
     },
     "385": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Audience Characteristics",
         "repeatable": true,
         "subfields": {
@@ -9882,20 +9471,7 @@
     },
     "386": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Creator/Contributor Characteristics",
         "repeatable": true,
         "subfields": {
@@ -9942,6 +9518,44 @@
             "n": {
                 "name": "Demographic group code",
                 "repeatable": false,
+                "static": false
+            }
+        }
+    },
+    "388": {
+        "fixed": false,
+        "indicators": {},
+        "name": "Time Period of Creation",
+        "repeatable": true,
+        "subfields": {
+            "0": {
+                "name": "Authority record control number or standard number",
+                "repeatable": true,
+                "static": false
+            },
+            "2": {
+                "name": "Source of term",
+                "repeatable": false,
+                "static": false
+            },
+            "3": {
+                "name": "Materials specified",
+                "repeatable": false,
+                "static": false
+            },
+            "6": {
+                "name": "Linkage",
+                "repeatable": false,
+                "static": false
+            },
+            "8": {
+                "name": "Field link and sequence number",
+                "repeatable": true,
+                "static": false
+            },
+            "a": {
+                "name": "Time period of creation term",
+                "repeatable": true,
                 "static": false
             }
         }
@@ -10823,24 +10437,7 @@
     },
     "510": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Coverage/location in source",
-                "values": {
-                    "0": "Coverage unknown",
-                    "1": "Coverage complete",
-                    "2": "Coverage is selective",
-                    "3": "Location in source not given",
-                    "4": "Location in source given"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Citation/References Note",
         "repeatable": true,
         "subfields": {
@@ -12397,20 +11994,7 @@
     },
     "546": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Language Note",
         "repeatable": true,
         "subfields": {
@@ -12741,22 +12325,7 @@
     },
     "561": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Privacy",
-                "values": {
-                    "#": "No information provided",
-                    "0": "Private",
-                    "1": "Not private"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Ownership and Custodial History",
         "repeatable": true,
         "subfields": {
@@ -13361,20 +12930,7 @@
     },
     "588": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Source of Description Note",
         "repeatable": true,
         "subfields": {
@@ -13402,34 +12958,12 @@
     },
     "600": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of personal name entry element",
-                "values": {
-                    "0": "Forename",
-                    "1": "Surname",
-                    "3": "Family name"
-                }
-            },
-            "2": {
-                "name": "Thesaurus",
-                "values": {
-                    "0": "Library of Congress Subject Headings",
-                    "1": "LC subject headings for children's literature",
-                    "2": "Medical Subject Headings",
-                    "3": "National Agricultural Library subject authority file",
-                    "4": "Source not specified",
-                    "5": "Canadian Subject Headings",
-                    "6": "R\u00e9pertoire de vedettes-mati\u00e8re",
-                    "7": "Source specified in subfield $2"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Subject Added Entry-Personal Name",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -13490,7 +13024,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -13582,34 +13116,12 @@
     },
     "610": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of corporate name entry element",
-                "values": {
-                    "0": "Inverted name",
-                    "1": "Jurisdiction name",
-                    "2": "Name in direct order"
-                }
-            },
-            "2": {
-                "name": "Thesaurus",
-                "values": {
-                    "0": "Library of Congress Subject Headings",
-                    "1": "LC subject headings for children's literature",
-                    "2": "Medical Subject Headings",
-                    "3": "National Agricultural Library subject authority file",
-                    "4": "Source not specified",
-                    "5": "Canadian Subject Headings",
-                    "6": "R\u00e9pertoire de vedettes-mati\u00e8re",
-                    "7": "Source specified in subfield $2"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Subject Added Entry-Corporate Name",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -13650,7 +13162,7 @@
             },
             "c": {
                 "name": "Location of meeting",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "d": {
@@ -13670,7 +13182,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -13752,34 +13264,12 @@
     },
     "611": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of meeting name entry element",
-                "values": {
-                    "0": "Inverted name",
-                    "1": "Jurisdiction name",
-                    "2": "Name in direct order"
-                }
-            },
-            "2": {
-                "name": "Thesaurus",
-                "values": {
-                    "0": "Library of Congress Subject Headings",
-                    "1": "LC subject headings for children's literature",
-                    "2": "Medical Subject Headings",
-                    "3": "National Agricultural Library subject authority file",
-                    "4": "Source not specified",
-                    "5": "Canadian Subject Headings",
-                    "6": "R\u00e9pertoire de vedettes-mati\u00e8re",
-                    "7": "Source specified in subfield $2"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Subject Added Entry-Meeting Name",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -13815,7 +13305,7 @@
             },
             "c": {
                 "name": "Location of meeting",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "d": {
@@ -13835,7 +13325,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -13912,32 +13402,12 @@
     },
     "630": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Nonfiling characters",
-                "values": {
-                    "0-9": "Number of nonfiling characters"
-                }
-            },
-            "2": {
-                "name": "Thesaurus",
-                "values": {
-                    "0": "Library of Congress Subject Headings",
-                    "1": "LC subject headings for children's literature",
-                    "2": "Medical Subject Headings",
-                    "3": "National Agricultural Library subject authority file",
-                    "4": "Source not specified",
-                    "5": "Canadian Subject Headings",
-                    "6": "R\u00e9pertoire de vedettes-mati\u00e8re",
-                    "7": "Source specified in subfield $2"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Subject Added Entry-Uniform Title",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -13988,7 +13458,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -14065,29 +13535,7 @@
     },
     "648": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of date or time period",
-                "values": {
-                    "#": "No information provided",
-                    "0": "Date or time period covered or depicted",
-                    "1": "Date or time period of creation or origin"
-                }
-            },
-            "2": {
-                "name": "Thesaurus",
-                "values": {
-                    "0": "Library of Congress Subject Headings",
-                    "1": "LC subject headings for children's literature",
-                    "2": "Medical Subject Headings",
-                    "3": "National Agricultural Library subject authority file",
-                    "4": "Source not specified",
-                    "5": "Canadian Subject Headings",
-                    "6": "R\u00c3\u00a9pertoire de vedettes-mati\u00c3\u00a8re",
-                    "7": "Source specified in subfield $2"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Subject Added Entry-Chronological Term",
         "repeatable": true,
         "subfields": {
@@ -14145,35 +13593,12 @@
     },
     "650": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Level of subject",
-                "values": {
-                    "#": "No information provided",
-                    "0": "No level specified",
-                    "1": "Primary",
-                    "2": "Secondary"
-                }
-            },
-            "2": {
-                "name": "Thesaurus",
-                "values": {
-                    "0": "Library of Congress Subject Headings",
-                    "1": "LC subject headings for children's literature",
-                    "2": "Medical Subject Headings",
-                    "3": "National Agricultural Library subject authority file",
-                    "4": "Source not specified",
-                    "5": "Canadian Subject Headings",
-                    "6": "R\u00e9pertoire de vedettes-mati\u00e8re",
-                    "7": "Source specified in subfield $2"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Subject Added Entry-Topical Term",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -14227,6 +13652,11 @@
                 "repeatable": true,
                 "static": false
             },
+            "g": {
+                "name": "Miscellaneous information",
+                "repeatable": true,
+                "static": false
+            },
             "v": {
                 "name": "Form subdivision",
                 "repeatable": true,
@@ -14251,32 +13681,12 @@
     },
     "651": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Thesaurus",
-                "values": {
-                    "0": "Library of Congress Subject Headings",
-                    "1": "LC subject headings for children's literature",
-                    "2": "Medical Subject Headings",
-                    "3": "National Agricultural Library subject authority file",
-                    "4": "Source not specified",
-                    "5": "Canadian Subject Headings",
-                    "6": "R\u00e9pertoire de vedettes-mati\u00e8re",
-                    "7": "Source specified in subfield $2"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Subject Added Entry-Geographic Name",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -14312,6 +13722,11 @@
             },
             "e": {
                 "name": "Relator term",
+                "repeatable": true,
+                "static": false
+            },
+            "g": {
+                "name": "Miscellaneous information",
                 "repeatable": true,
                 "static": false
             },
@@ -14857,28 +14272,12 @@
     },
     "700": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of personal name entry element",
-                "values": {
-                    "0": "Forename",
-                    "1": "Surname",
-                    "3": "Family name"
-                }
-            },
-            "2": {
-                "name": "Type of added entry",
-                "values": {
-                    "#": "No information provided",
-                    "2": "Analytical entry"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Added Entry-Personal Name",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -14939,7 +14338,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -15021,28 +14420,12 @@
     },
     "710": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of corporate name entry element",
-                "values": {
-                    "0": "Inverted name",
-                    "1": "Jurisdiction name",
-                    "2": "Name in direct order"
-                }
-            },
-            "2": {
-                "name": "Type of added entry",
-                "values": {
-                    "#": "No information provided",
-                    "2": "Analytical entry"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Added Entry-Corporate Name",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -15083,7 +14466,7 @@
             },
             "c": {
                 "name": "Location of meeting",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "d": {
@@ -15103,7 +14486,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -15175,28 +14558,12 @@
     },
     "711": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of meeting name entry element",
-                "values": {
-                    "0": "Inverted name",
-                    "1": "Jurisdiction name",
-                    "2": "Name in direct order"
-                }
-            },
-            "2": {
-                "name": "Type of added entry",
-                "values": {
-                    "#": "No information provided",
-                    "2": "Analytical entry"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Added Entry-Meeting Name",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -15232,7 +14599,7 @@
             },
             "c": {
                 "name": "Location of meeting",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "d": {
@@ -15252,7 +14619,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -15367,26 +14734,12 @@
     },
     "730": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Nonfiling characters",
-                "values": {
-                    "0-9": "Number of nonfiling characters"
-                }
-            },
-            "2": {
-                "name": "Type of added entry",
-                "values": {
-                    "#": "No information provided",
-                    "2": "Analytical entry"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Added Entry-Uniform Title",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -15427,7 +14780,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -15689,23 +15042,20 @@
     },
     "753": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "System Details Access to Computer Files",
         "repeatable": true,
         "subfields": {
+            "0": {
+                "name": "Authority record control number or standard number",
+                "repeatable": true,
+                "static": false
+            },
+            "2": {
+                "name": "Source of term",
+                "repeatable": false,
+                "static": false
+            },
             "6": {
                 "name": "Linkage",
                 "repeatable": false,
@@ -17979,22 +17329,7 @@
     },
     "787": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Note controller",
-                "values": {
-                    "0": "Display note",
-                    "1": "Do not display note"
-                }
-            },
-            "2": {
-                "name": "Display constant controller",
-                "values": {
-                    "#": "Related item",
-                    "8": "No display constant generated"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Other Relationship Entry",
         "repeatable": true,
         "subfields": {
@@ -18135,27 +17470,12 @@
     },
     "800": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of personal name entry element",
-                "values": {
-                    "0": "Forename",
-                    "1": "Surname",
-                    "3": "Family name"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Series Added Entry-Personal Name",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -18231,7 +17551,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -18318,27 +17638,12 @@
     },
     "810": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of corporate name entry element",
-                "values": {
-                    "0": "Inverted name",
-                    "1": "Jurisdiction name",
-                    "2": "Name in direct order"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Series Added Entry-Corporate Name",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -18394,7 +17699,7 @@
             },
             "c": {
                 "name": "Location of meeting",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "d": {
@@ -18414,7 +17719,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -18491,27 +17796,12 @@
     },
     "811": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Type of meeting name entry element",
-                "values": {
-                    "0": "Inverted name",
-                    "1": "Jurisdiction name",
-                    "2": "Name in direct order"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Series Added Entry-Meeting Name",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -18562,7 +17852,7 @@
             },
             "c": {
                 "name": "Location of meeting",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "d": {
@@ -18582,7 +17872,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -18654,26 +17944,12 @@
     },
     "830": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            },
-            "2": {
-                "name": "Nonfiling characters",
-                "values": {
-                    "0": "No nonfiling characters",
-                    "1-9": "Number of nonfiling characters"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Series Added Entry-Uniform Title",
         "repeatable": true,
         "subfields": {
             "0": {
-                "name": "Authority record control number",
+                "name": "Authority record control number or standard number",
                 "repeatable": true,
                 "static": false
             },
@@ -18729,7 +18005,7 @@
             },
             "g": {
                 "name": "Miscellaneous information",
-                "repeatable": false,
+                "repeatable": true,
                 "static": false
             },
             "h": {
@@ -19404,22 +18680,7 @@
     },
     "883": {
         "fixed": false,
-        "indicators": {
-            "1": {
-                "name": "Method of machine assignment",
-                "values": {
-                    "#": "No information provided/not applicable",
-                    "0": "Fully machine-generated",
-                    "1": "Partially machine-generated"
-                }
-            },
-            "2": {
-                "name": "Undefined",
-                "values": {
-                    "#": "Undefined"
-                }
-            }
-        },
+        "indicators": {},
         "name": "Machine-generated Metadata Provenance",
         "repeatable": true,
         "subfields": {
@@ -19466,6 +18727,39 @@
             "x": {
                 "name": "Validity end date",
                 "repeatable": false,
+                "static": false
+            }
+        }
+    },
+    "884": {
+        "fixed": false,
+        "indicators": {},
+        "name": "Description Conversion Information",
+        "repeatable": true,
+        "subfields": {
+            "a": {
+                "name": "Conversion process",
+                "repeatable": false,
+                "static": false
+            },
+            "g": {
+                "name": "Conversion date",
+                "repeatable": false,
+                "static": false
+            },
+            "k": {
+                "name": "Identifier of source metadata",
+                "repeatable": false,
+                "static": false
+            },
+            "q": {
+                "name": "Conversion agency",
+                "repeatable": false,
+                "static": false
+            },
+            "u": {
+                "name": "Uniform Resource Identifier",
+                "repeatable": true,
                 "static": false
             }
         }

@@ -14,13 +14,13 @@
             content="Library of Congress Network Development and MARC Standards Office" />
       <link href="../styles.css" rel="stylesheet" type="text/css" />
       <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
-   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   </head>
    <body class="full">
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt;
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt;
                <strong>043</strong></span></div>
       </div>
       <hr /><a name="skip_menu"></a><h1><span>043</span> - <span>Geographic Area Code</span> (NR)
@@ -70,7 +70,7 @@
       <h3>FIELD DEFINITION AND SCOPE</h3>
       <div class="definition">
          <div>
-            <p>Geographic area codes associated with an item. Code from: <em><a href="http://www.loc.gov/marc/geoareas/">MARC Code List for Geographic Areas</a></em>. The source of a local code in subfield $b is indicated in subfield
+            <p>Geographic area codes associated with an item. Code from: <em><a href="//www.loc.gov/marc/geoareas/">MARC Code List for Geographic Areas</a></em>. The source of a local code in subfield $b is indicated in subfield
             $2. The source of codes in subfield $c is <em>ISO 3166, Codes for
                   the representation of names of countries and their subdivisions - Part 1 : Country
                   codes</em> or <em>Part 2 : Country subdivision codes</em>.
@@ -90,14 +90,14 @@
       <hr />
       <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
       <div class="guidelines">
-         <h4><span class="box">â </span> INDICATORS
+         <h4><span class="box">■</span> INDICATORS
          </h4>
          <div class="indicators">
             <ul>
                <li>Both indicator positions are undefined; each contains a blank (#).</li>
             </ul>
          </div>
-         <h4><span class="box">â </span> SUBFIELD CODES
+         <h4><span class="box">■</span> SUBFIELD CODES
          </h4>
          <div class="subfields">
             <div class="subfield">
@@ -207,7 +207,7 @@
                   <p class="label"><strong>$0 - Authority record control number or standard number</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
                      </p>
                   </div>
                </div>
@@ -221,7 +221,7 @@
                   $b is used to indicate a local GAC code.</p>
                   </div>
                   <div>
-                     <p>Code from: <em><a href="http://www.loc.gov/standards/sourcelist/geographic-area.html">Geographic Area Code
+                     <p>Code from: <em><a href="//www.loc.gov/standards/sourcelist/geographic-area.html">Geographic Area Code
                               and Term Source Codes</a></em>.
                      </p>
                   </div>
@@ -232,7 +232,7 @@
                   <p class="label"><strong>$6 - Linkage</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                               Subfields</a></em>.
                      </p>
                   </div>
@@ -243,7 +243,7 @@
                   <p class="label"><strong>$8 - Field link and sequence number</strong> 
                   </p>
                   <div>
-                     <p>See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
                               Subfields</a></em>.
                      </p>
                   </div>
@@ -257,7 +257,7 @@
          <div>
             <p><strong>Structure - </strong>All alphabetic characters are input in lowercase. Embedded and trailing hyphens are
                carried in the MARC record. A detailed description of the structure and use of GACs is
-               contained in <em><a href="http://www.loc.gov/marc/geoareas/">MARC Code List for Geographic Areas</a></em>.
+               contained in <em><a href="//www.loc.gov/marc/geoareas/">MARC Code List for Geographic Areas</a></em>.
             </p>
          </div>
       </div>
@@ -276,13 +276,13 @@
       </div>
       <hr class="clear" />
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt;
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd01x09x.html">01X-09X</a> &gt;&gt;
                <strong>043</strong></span></div>
       </div>
       <div class="left"><span class="noprint">(09/01/2011)</span></div>
-      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#1c7278716f735c70737f327b736a" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

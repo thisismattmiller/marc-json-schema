@@ -41,7 +41,7 @@ class marcDoc2Json:
 			
 			self.processHTML(html)
 
-		with open("../marc21_biblo_schema.json",'w') as aFile:
+		with open("../marc21_json_schema.json",'w') as aFile:
 			aFile.write(json.dumps(self.schema, sort_keys=True, indent=4, separators=(',', ': ')))		
 
 
@@ -59,8 +59,8 @@ class marcDoc2Json:
 			url = baseURL.replace("{CODE}","%03d" % (x,))
 			r = requests.get(url)
 			if r.status_code == 200:
-				with open(dataDirectory+"%03d" % (x,), 'w') as newfile:
-					 newfile.write(r.text)
+				with open(self.dataDirectory+"%03d" % (x,), 'wb') as newfile:
+					 newfile.write(r.text.encode("iso-8859-1"))
 				print ("%03d" % (x,), " - Good")
 			else:
 				print ("%03d" % (x,), " - Bad")
@@ -73,8 +73,8 @@ class marcDoc2Json:
 			url = baseURL.replace("{CODE}",x)
 			r = requests.get(url)
 			if r.status_code == 200:
-				with open(dataDirectoryFixed+x, 'w') as newfile:
-					 newfile.write(r.text)
+				with open(self.dataDirectoryFixed+x, 'wb') as newfile:
+					 newfile.write(r.text.encode("iso-8859-1"))
 				print (x, " - Good")
 			else:
 				print (x, " - Bad")
@@ -362,8 +362,13 @@ class marcDoc2Json:
 			indicators = soup('table',{'class':'indicators'})
 			if len(indicators) == 1:
 				subSoup = BeautifulSoup(str(indicators))
-				indicators = [subSoup.find_all("td")[0], subSoup.find_all("td")[1]]
-				bothIndicators = self.processIndicators(indicators)
+				cells = subSoup.find_all("td")
+				if len(cells) > 2:
+					indicators = [subSoup.find_all("td")[0], subSoup.find_all("td")[1]]
+					bothIndicators = self.processIndicators(indicators)
+				else:
+					bothIndicators = {}
+					foundIndicators = False
 			else:
 				foundIndicators = False
 

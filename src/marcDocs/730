@@ -1,931 +1,468 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-<head>
-  <meta name="generator" content="HTML Tidy, see www.w3.org">
-  <meta http-equiv="Content-Type" content=
-  "text/html; charset=utf-8">
-
-  <title>MARC 21 Format for Bibliographic Data: 730: Added
-  Entry-Uniform Title (Network Development and MARC Standards
-  Office, Library of Congress)</title>
-  <meta http-equiv="Content-Type" content=
-  "text/html; charset=utf-8">
-  <meta name="description" content=
-  "This field contains the added entry-uniform title (Network Development and MARC Standards Office, Library of Congress)">
-  <meta name="keywords" content="marc, marc21, marc standards">
-  <meta name="author" content=
-  "Library of Congress Network Development and MARC Standards Office">
-  <link type="text/css" rel="stylesheet" href=
-  "update10-stylesheet.css">
-<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
-
-<body>
-  <div class="head-nav">
-    <a href="http://www.loc.gov/">Library of Congress</a>
-    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
-    <a href=
-    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-    &gt;&gt; <a href=
-    "http://www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a>
-    &gt;&gt; <strong>730</strong>
-  </div>
-  <hr>
-  <a name="skip_menu" id="skip_menu"></a>
-
-  <h1>730 - Added Entry-Uniform Title (R)</h1>
-  <hr>
-
-  <div class="formatname">
-    MARC 21 Bibliographic - Full
-  </div>
-
-  <div class="datename">
-    October 2009
-  </div>
-  <hr>
-
-  <table width="100%">
-    <tr valign="top">
-      <td width="45%"><strong>First Indicator</strong><br>
-      <em>Nonfiling characters</em><br>
-      0-9 - Number of nonfiling characters<br>
-      <br></td>
-
-      <td width="45%"><strong>Second Indicator</strong><br>
-      <em>Type of added entry</em><br>
-      # - No information provided<br>
-      2 - Analytical entry<br>
-      <br></td>
-    </tr>
-  </table>
-  <hr>
-
-  <table width="100%">
-    <tr valign="top">
-      <td valign="top" width="50%" align="left"></td>
-
-      <td valign="top" width="50%" align="left"></td>
-    </tr>
-
-    <tr valign="top">
-      <td colspan="2"><strong>Subfield Codes</strong><br></td>
-    </tr>
-
-    <tr valign="top">
-      <td colspan="1">$a - Uniform title (NR)<br>
-      $d - Date of treaty signing (R)<br>
-      $f - Date of a work (NR)<br>
-      $g - Miscellaneous information (NR)<br>
-      $h - Medium (NR)<br>
-      $i - Relationship information (R)<br>
-      $k - Form subheading (R)<br>
-      $l - Language of a work (NR)<br>
-      $m - Medium of performance for music (R)<br>
-      $n - Number of part/section of a work (R)<br>
-      $o - Arranged statement for music (NR)<br></td>
-
-      <td colspan="1">$p - Name of part/section of a work (R)<br>
-      $r - Key for music (NR)<br>
-      $s - Version (NR)<br>
-      $t - Title of a work (NR)<br>
-      $x - International Standard Serial Number (NR)<br>
-      $0 - Authority record control number (R)<br>
-      $3 - Materials specified (NR)<br>
-      $5 - Institution to which field applies (NR)<br>
-      $6 - Linkage (NR)<br>
-      $8 - Field link and sequence number (R)<br></td>
-    </tr>
-  </table>
-  <hr>
-
-  <h3>FIELD DEFINITION AND SCOPE</h3>
-
-  <p>Uniform title, a related or an analytical title that is
-  controlled by an authority file or list, used as an added
-  entry.</p>
-
-  <p>Added entries are assigned according to various cataloging
-  rules to give access to the bibliographic record from headings
-  which may not be more appropriately assigned as 630 (Subject
-  Added Entry-Uniform Title) or 830 (Series Added Entry-Uniform
-  Title) fields.</p>
-  <hr>
-
-  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
-
-  <p>Description of the first indicator position and all subfield
-  codes, as well as input conventions for the 730 field are given
-  in the <em><a href="bdx30.html">X30 Uniform Titles-General
-  Information</a></em> section. Because the second indicator is
-  different for various fields, it is not described in the
-  general information section, but is described below.</p>
-
-  <h4><span class="box">â </span> INDICATORS</h4>
-
-  <div class="indicator">
-    <strong>Second Indicator - Type of added entry</strong>
-
-    <div class="description">
-      Distinguishes between an analytical entry and no
-      information provided.
-
-      <div class="indicatorvalue">
-        <strong># - No information provided</strong>
-
-        <div class="description">
-          Added entry is not for an analytic or when no
-          information is provided as to whether the added entry
-          is for an analytic.
-
-          <div class="example">
-            <table width="100%">
-              <tr>
-                <td valign="top" width="5%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="15%" align="left"></td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                245</td>
-
-                <td valign="top" colspan="9" align="left">
-                00$aChemical pricing patterns :$bcomparisons of
-                annual high and low prices for 1,250 key
-                chemicals and related process materials for the
-                years of 1952...</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                500</td>
-
-                <td valign="top" colspan="9" align="left">##$aAt
-                head of title: Oil, paint and drug reporter.</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                <strong>730</strong></td>
-
-                <td valign="top" colspan="9" align="left">
-                <strong>0#</strong><strong>$a</strong>Oil, paint
-                and drug reporter.</td>
-              </tr>
-            </table>
-          </div>
-        </div>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 730:
+         Added Entry-Uniform Title (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a>  
+               
+               &gt;&gt;
+               <strong>730</strong></span></div>
       </div>
-
-      <div class="indicatorvalue">
-        <strong>2 - Analytical entry</strong>
-
-        <div class="description">
-          Item in hand contains the work that is represented by
-          the added entry.
-
-          <div class="example">
-            <table width="100%">
-              <tr>
-                <td valign="top" width="5%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="15%" align="left"></td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                100</td>
-
-                <td valign="top" colspan="9" align="left">
-                1#$aBarwise, Jon.</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                245</td>
-
-                <td valign="top" colspan="9" align="left">14$aThe
-                language of first-order logic :$bincluding the
-                Macintosh program Tarski'a world 4.0 /$cJon
-                Barwise and John Etchemendy.</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                <strong>730</strong></td>
-
-                <td valign="top" colspan="9" align="left">
-                <strong>02</strong><strong>$a</strong>Tarski's
-                world.</td>
-              </tr>
-            </table>
-          </div>
-        </div>
+      <hr /><a name="skip_menu"></a><h1><span>730</span> - <span>Added Entry-Uniform Title</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">October 2014</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Nonfiling characters</em><br /><span>0-9 - Number of nonfiling characters</span><br /><br /></td>
+            <td><em>Type of added entry</em><br /><span># - No information provided</span><br /><span>2 - Analytical entry</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Uniform title<span> (NR)</span></li>
+                  <li>$d - Date of treaty signing<span> (R)</span></li>
+                  <li>$f - Date of a work<span> (NR)</span></li>
+                  <li>$g - Miscellaneous information<span> (R)</span></li>
+                  <li>$h - Medium<span> (NR)</span></li>
+                  <li>$i - Relationship information<span> (R)</span></li>
+                  <li>$k - Form subheading<span> (R)</span></li>
+                  <li>$l - Language of a work<span> (NR)</span></li>
+                  <li>$m - Medium of performance for music<span> (R)</span></li>
+                  <li>$n - Number of part/section of a work<span> (R)</span></li>
+                  <li>$o - Arranged statement for music<span> (NR)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$p - Name of part/section of a work<span> (R)</span></li>
+                  <li>$r - Key for music<span> (NR)</span></li>
+                  <li>$s - Version<span> (NR)</span></li>
+                  <li>$t - Title of a work<span> (NR)</span></li>
+                  <li>$x - International Standard Serial Number<span> (NR)</span></li>
+                  <li>$0 - Authority record control number or standard number<span> (R)</span></li>
+                  <li>$3 - Materials specified<span> (NR)</span></li>
+                  <li>$5 - Institution to which field applies<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Uniform title, a related or an analytical title that is controlled by an authority
+               file or
+               				list, used as an added entry.
+            </p>
+         </div>
+         <div>
+            <p>Added entries are assigned according to various cataloging rules to give access to
+               the
+               				bibliographic record from headings which may not be more appropriately assigned
+               as 630
+               				(Subject Added Entry-Uniform Title) or 830 (Series Added Entry-Uniform Title)
+               fields.
+            </p>
+         </div>
       </div>
-    </div>
-  </div>
-
-  <h4><span class="box">â </span> EXAMPLES</h4>
-
-  <div class="example">
-    <table width="100%">
-      <tr>
-        <td valign="top" width="5%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="15%" align="left"></td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Bible.<strong>$p</strong>O.T.<strong>
-        $p</strong>Judges
-        V.<strong>$l</strong>German<strong>$s</strong>Grether.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Index librorum
-        prohibitorum.<strong>$f</strong>1570.<strong>$5</strong>[NUC
-        symbol]</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>ActualitÃ©s-Service.<strong>
-        $n</strong>No 306 (Supplement 1)</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Cancionero musical
-        de
-        Segovia.<strong>$k</strong>Selections.<strong>$f</strong>1980.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Gone with the wind
-        (Motion picture)</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Frankfurt
-        heute.<strong>$h</strong>Motion picture.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>20/20 (Television
-        program)</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Fabrication of
-        biteplane.<strong>$n</strong>Part
-        1,<strong>$p</strong>Waxing on mounted cards.</td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="example">
-    <table width="100%">
-      <tr>
-        <td valign="top" width="5%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="15%" align="left"></td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">245</td>
-
-        <td valign="top" colspan="9" align="left">00$aBTL.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">580</td>
-
-        <td valign="top" colspan="9" align="left">##$aSuppl. to:
-        Weinwirtschaft, 1981-1982; Weinwirtschaft. Technik, and
-        Weinwirtschaft. Markt, 1983; Baubedarf Manager,
-        FarbenfachgeschÃ¤ft, and GetrÃ¤nke Revue, 1983-</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Weinwirtschaft.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Weinwirtschaft.<strong>
-        $p</strong>Technik.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Weinwirtschaft.<strong>
-        $p</strong>Markt.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Baubedarf
-        Manager.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>FarbenfachgeschÃ¤ft.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>GetrÃ¤nke
-        Revue.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">772</td>
-
-        <td valign="top" colspan="9" align="left">
-        1#$tWeinwirtschaft$w(DLC)###83644948$w(OCoLC)9345710</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">772</td>
-
-        <td valign="top" colspan="9" align="left">
-        1#$tWeinwirtschaft.
-        Technik$x0723-1369$w(DLC)###83644949$w(OCoLC)9345574</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">772</td>
-
-        <td valign="top" colspan="9" align="left">
-        1#$aWeinwirtschaft.
-        Markt$w(DLC)###83644950$w(OCoLC)9345548<br>
-        <em>[One publication that is a supplement to
-        others.]</em></td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">772</td>
-
-        <td valign="top" colspan="9" align="left">0#$aBaubedarf
-        Manager</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">772</td>
-
-        <td valign="top" colspan="9" align="left">
-        1#$tFarbenfachgeschÃ¤ft</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">772</td>
-
-        <td valign="top" colspan="9" align="left">1#$aGetrÃ¤nke
-        Revue$w(DLC)sn#91020150$w(OCoLC)9345710</td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="example">
-    <table width="100%">
-      <tr>
-        <td valign="top" width="5%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="15%" align="left"></td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">245</td>
-
-        <td valign="top" colspan="9" align="left">00$aClient
-        characteristic &amp; population movement report for
-        calendar year ...$pProbation subsidy / State of
-        Washington, Department of Social and Health Services,
-        Bureau of Juvenile Rehabilitation.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">580</td>
-
-        <td valign="top" colspan="9" align="left">##$aAlso
-        published in a quarterly edition: Client characteristic
-        &amp; population movement report for quarter ...
-        Probation subsidy.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Client
-        characteristic &amp; population movement report for
-        quarter ...<strong>$p</strong>Probation subsidy.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">775</td>
-
-        <td valign="top" colspan="9" align="left">1#$tClient
-        characteristic &amp; population movement report for
-        quarter ... Probation subsidy$w(OCoLC)1258055<br>
-        <em>[A publication is published in more than one edition;
-        an added entry is made for the other
-        edition(s).]</em></td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="example">
-    <table width="100%">
-      <tr>
-        <td valign="top" width="5%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="15%" align="left"></td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">245</td>
-
-        <td valign="top" colspan="9" align="left">00$aForeign
-        affairs bibliography.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">580</td>
-
-        <td valign="top" colspan="9" align="left">##$aBased upon
-        the bibliographical notes appearing quarterly in: Foreign
-        affairs.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Foreign affairs
-        (Council on Foreign Relations)</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">787</td>
-
-        <td valign="top" colspan="9" align="left">1#$tForeign
-        affairs (Council on Foreign Relations)<br>
-        <em>[A publication is related in a non-specific manner to
-        another publication.]</em></td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="example">
-    <table width="100%">
-      <tr>
-        <td valign="top" width="5%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="15%" align="left"></td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">245</td>
-
-        <td valign="top" colspan="9" align="left">00$aLektÃ¼re
-        Magazin.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">580</td>
-
-        <td valign="top" colspan="9" align="left">##$aIssued
-        Jan.-June 1981 with: BÃ¼cherkommentare, v. 30, no.
-        1-6.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>BÃ¼cherkommentare.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">777</td>
-
-        <td valign="top" colspan="9" align="left">
-        1#$tBÃ¼cherkommentare$gJan. 1981-June 1981<br>
-        <em>[One publication is issued within another.]</em></td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="example">
-    <table width="100%">
-      <tr>
-        <td valign="top" width="5%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="15%" align="left"></td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">245</td>
-
-        <td valign="top" colspan="9" align="left">04$aThe People
-        speak newsletter.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">500</td>
-
-        <td valign="top" colspan="9" align="left">##$aA summary
-        of a radio program, "People speak."</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>People speak (Radio
-        program)<br>
-        <em>[Names of radio or television programs.]</em></td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="example">
-    <table width="100%">
-      <tr>
-        <td valign="top" width="5%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="15%" align="left"></td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">130</td>
-
-        <td valign="top" colspan="9" align="left">0#$aDomestic
-        engineering (1889)</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">580</td>
-
-        <td valign="top" colspan="9" align="left">##$aVols. for
-        June 27, 1931-Mar. 1935, Mar. 1941-1966 include the
-        section: Automatic heat and air conditioning (varies);
-        also issued separately Sept. 1933-&lt;June 1940&gt;</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>02</strong><strong>$a</strong>Automatic heat and
-        air conditioning.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">777</td>
-
-        <td valign="top" colspan="9" align="left">1#$tAutomatic
-        heat and air conditioning<br>
-        <em>[A regularly issued part with a distinctive title for
-        which an added entry is made.]</em></td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="example">
-    <table width="100%">
-      <tr>
-        <td valign="top" width="5%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="15%" align="left"></td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">100</td>
-
-        <td valign="top" colspan="9" align="left">1#$aBarwise,
-        Jon.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">245</td>
-
-        <td valign="top" colspan="9" align="left">14$aThe
-        language of first-order logic :$bincluding the Macintosh
-        program Tarski's world 4.0 /$cJon Barwise and John
-        Etchemendy.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>02</strong><strong>$a</strong>Tarski's
-        world.<strong>$f</strong>1993</td>
-      </tr>
-    </table>
-  </div>
-
-  <div class="example">
-    <table width="100%">
-      <tr>
-        <td valign="top" width="5%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="15%" align="left"></td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>60 minutes
-        (Television program)</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>02</strong><strong>$a</strong>Bonn
-        Convention<strong>$d</strong>(1952).<strong>$f</strong>1980.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>0#</strong><strong>$a</strong>Economics library
-        selections.<strong>$n</strong>Series
-        I,<strong>$p</strong>New books in economics.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>730</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>02</strong><strong>$a</strong>God save the
-        king;<strong>$o</strong>arr.<strong>$f</strong>1982.</td>
-      </tr>
-    </table>
-  </div>
-  <hr>
-
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr valign="bottom">
-      <td>
-        <div class="head-nav">
-          <a href="http://www.loc.gov/">Library of Congress</a>
-          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
-          &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-          &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a>
-          &gt;&gt; <strong>730</strong>
-        </div>(11/12/2009)
-      </td>
-
-      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
-      Us</a></td>
-    </tr>
-  </table>
-<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p>Description of the first indicator position and all subfield codes, as well as input
+               				conventions for the 730 field are given in the <a href="//www.loc.gov/marc/bibliographic/bdx30.html"><em>X30 Uniform Titles-General
+                     				Information</em></a> section. Because the second indicator is different for various fields, it
+               				is not described in the general information section, but is described below.
+            </p>
+         </div>
+         <h4><span class="box">■</span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Type of added entry</strong></p>
+                  <div>
+                     <p>Distinguishes between an analytical entry and no information provided.</p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - No information provided</span><div>
+                           <p>Added entry is not for an analytic or when no information is provided as to whether
+                              							the added entry is for an analytic.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td>245</td>
+                                 <td colspan="9">00$aChemical pricing patterns :$bcomparisons of annual high and low prices for 1,250 key
+                                    									chemicals and related process materials for the years of 1952...
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>500</td>
+                                 <td colspan="9">##$aAt head of title: Oil, paint and drug
+                                    								reporter.
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>730</strong></td>
+                                 <td colspan="9"><strong>0#</strong><strong>$a</strong>Oil, paint and drug reporter.
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - Analytical entry</span><div>
+                           <p>Item in hand contains the work that is represented by the added entry.</p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td>100</td>
+                                 <td colspan="9">1#$aBarwise, Jon.</td>
+                              </tr>
+                              <tr>
+                                 <td>245</td>
+                                 <td colspan="9">14$aThe language of first-order logic :$bincluding the Macintosh program Tarski'a world 4.0 /$cJon Barwise and John Etchemendy.</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>730</strong></td>
+                                 <td colspan="9"><strong>02</strong><strong>$a</strong>Tarski's world.
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">■ </span> EXAMPLES
+         </h4>
+         <div class="examplesec">
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Bible.<strong>$p</strong>O.T.<strong>$p</strong>Judges V.<strong>$l</strong>German<strong>$s</strong>Grether.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Index librorum prohibitorum.<strong>$f</strong>1570.<strong>$5</strong>[NUC symbol]
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Actualités-Service.<strong>$n</strong>No 306 (Supplement 1)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Cancionero musical de Segovia.<strong>$k</strong>Selections.<strong>$f</strong>1980.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Gone with the wind (Motion picture)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Frankfurt heute.<strong>$h</strong>Motion picture.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>20/20 (Television program)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Fabrication of biteplane.<strong>$n</strong>Part 1,<strong>$p</strong>Waxing on mounted cards.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>245</td>
+                     <td colspan="9">00$aBTL.</td>
+                  </tr>
+                  <tr>
+                     <td>580</td>
+                     <td colspan="9">##$aSuppl. to: Weinwirtschaft, 1981-1982; Weinwirtschaft. Technik,
+                        							and Weinwirtschaft. Markt, 1983; Baubedarf Manager, Farbenfachgeschäft, and
+                        Getränke
+                        							Revue, 1983-
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Weinwirtschaft.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Weinwirtschaft.<strong>$p</strong>Technik.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Weinwirtschaft.<strong>$p</strong>Markt.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Baubedarf Manager.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Farbenfachgeschäft.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Getränke Revue.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>772</td>
+                     <td colspan="9">1#$tWeinwirtschaft$w(DLC)###83644948$w(OCoLC)9345710</td>
+                  </tr>
+                  <tr>
+                     <td>772</td>
+                     <td colspan="9">1#$tWeinwirtschaft. Technik$x0723-1369$w(DLC)###83644949$w(OCoLC)9345574</td>
+                  </tr>
+                  <tr>
+                     <td>772</td>
+                     <td colspan="9">1#$aWeinwirtschaft. Markt$w(DLC)###83644950$w(OCoLC)9345548<em><span><br /><span>[One publication that is a supplement to others.]</span></span></em></td>
+                  </tr>
+                  <tr>
+                     <td>772</td>
+                     <td colspan="9">0#$aBaubedarf Manager</td>
+                  </tr>
+                  <tr>
+                     <td>772</td>
+                     <td colspan="9">1#$tFarbenfachgeschäft</td>
+                  </tr>
+                  <tr>
+                     <td>772</td>
+                     <td colspan="9">1#$aGetränke Revue$w(DLC)sn#91020150$w(OCoLC)9345710</td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>245</td>
+                     <td colspan="9">00$aClient characteristic &amp; population movement report for
+                        							calendar year ...$pProbation subsidy / State of Washington, Department of Social
+                        							and Health Services, Bureau of Juvenile Rehabilitation.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>580</td>
+                     <td colspan="9">##$aAlso published in a quarterly edition: Client characteristic
+                        							&amp; population movement report for quarter ... Probation
+                        						subsidy.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Client characteristic &amp; population movement report for
+                        							quarter ...<strong>$p</strong>Probation subsidy.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>775</td>
+                     <td colspan="9">1#$tClient characteristic &amp; population movement report for
+                        							quarter ... Probation subsidy$w(OCoLC)1258055<em><span><br /><span>[A publication is published in more than one edition; an added entry is made for the
+                                 						other edition(s).]</span></span></em></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>245</td>
+                     <td colspan="9">00$aForeign affairs bibliography.</td>
+                  </tr>
+                  <tr>
+                     <td>580</td>
+                     <td colspan="9">##$aBased upon the bibliographical notes appearing quarterly in:
+                        							Foreign affairs.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Foreign affairs (Council on Foreign Relations)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>787</td>
+                     <td colspan="9">1#$tForeign affairs (Council on Foreign Relations)<em><span><br /><span>[A publication is related in a non-specific manner to another publication.]</span></span></em></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>245</td>
+                     <td colspan="9">00$aLektüre Magazin.</td>
+                  </tr>
+                  <tr>
+                     <td>580</td>
+                     <td colspan="9">##$aIssued Jan.-June 1981 with: Bücherkommentare, v. 30, no.
+                        						1-6.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Bücherkommentare.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>777</td>
+                     <td colspan="9">1#$tBücherkommentare$gJan. 1981-June 1981<em><span><br /><span>[One publication is issued within another.]</span></span></em></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>245</td>
+                     <td colspan="9">04$aThe People speak newsletter.</td>
+                  </tr>
+                  <tr>
+                     <td>500</td>
+                     <td colspan="9">##$aA summary of a radio program, "People speak."</td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>People speak (Radio program)<em><span><br /><span>[Names of radio or television programs.]</span></span></em></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>130</td>
+                     <td colspan="9">0#$aDomestic engineering (1889)</td>
+                  </tr>
+                  <tr>
+                     <td>580</td>
+                     <td colspan="9">##$aVols. for June 27, 1931-Mar. 1935, Mar. 1941-1966 include the
+                        							section: Automatic heat and air conditioning (varies); also issued separately
+                        Sept.
+                        							1933-&lt;June 1940&gt;
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>02</strong><strong>$a</strong>Automatic heat and air conditioning.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>777</td>
+                     <td colspan="9">1#$tAutomatic heat and air conditioning<em><span><br /><span>[A regularly issued part with a distinctive title for which an added entry is
+                                 					made.]</span></span></em></td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td>100</td>
+                     <td colspan="9">1#$aBarwise, Jon.</td>
+                  </tr>
+                  <tr>
+                     <td>245</td>
+                     <td colspan="9">14$aThe language of first-order logic :$bincluding the Macintosh program Tarski's world 4.0 /$cJon Barwise and John Etchemendy.</td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>02</strong><strong>$a</strong>Tarski's world.<strong>$f</strong>1993
+                     </td>
+                  </tr>
+               </table>
+            </div>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>60 minutes (Television program)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>02</strong><strong>$a</strong>Bonn Convention<strong>$d</strong>(1952).<strong>$f</strong>1980.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Economics library selections.<strong>$n</strong>Series I,<strong>$p</strong>New books in economics.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>730</strong></td>
+                     <td colspan="9"><strong>02</strong><strong>$a</strong>God save the king;<strong>$o</strong>arr.<strong>$f</strong>1982.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a>  
+               
+               &gt;&gt;
+               <strong>730</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(10/20/2014)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#8ce2e8e1ffe3cce0e3efa2ebe3fa" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

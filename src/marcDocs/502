@@ -17,16 +17,16 @@
   <meta name="author" content=
   "Library of Congress Network Development and MARC Standards Office"> <link type="text/css" rel="stylesheet" href=
   "update10-stylesheet.css">
-<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+</head>
 
 <body>
   <div class="head-nav">
-    <a href="http://www.loc.gov/">Library of Congress</a>
-    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
+    <a href="//www.loc.gov/">Library of Congress</a>
+    &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt;
     <a href=
-    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+    "//www.loc.gov/marc/bibliographic/">Bibliographic</a>
     &gt;&gt; <a href=
-    "http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a>
+    "//www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a>
     &gt;&gt; <strong>502</strong>
   </div>
   <hr>
@@ -107,14 +107,14 @@
 
   <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
 
-  <h4><span class="box">â </span> INDICATORS</h4>
+  <h4><span class="box">■</span> INDICATORS</h4>
 
   <ul>
     <li>Both indicator positions are undefined; each contains a
     blank (#).</li>
   </ul>
 
-  <h4><span class="box">â </span> SUBFIELD CODES</h4>
+  <h4><span class="box">■</span> SUBFIELD CODES</h4>
 
   <div class="subfield">
     <strong>$a - Dissertation note</strong>
@@ -171,7 +171,7 @@
 
           <td valign="top" colspan="9" align="left">
           <strong>##</strong><strong>$a</strong>Karl Schmidt's
-          thesis (doctoral)--Ludwig-Maximilians-UniversitÃ¤t,
+          thesis (doctoral)--Ludwig-Maximilians-Universität,
           Munich, 1965.</td>
         </tr>
 
@@ -180,8 +180,8 @@
           <strong>502</strong></td>
 
           <td valign="top" colspan="9" align="left">
-          <strong>##</strong><strong>$a</strong>MÃ©moire de stage
-          (3e cycle)--UniversitÃ© de Nantes, 1981.</td>
+          <strong>##</strong><strong>$a</strong>Mémoire de stage
+          (3e cycle)--Université de Nantes, 1981.</td>
         </tr>
 
         <tr>
@@ -358,7 +358,7 @@
 
           <td valign="top" colspan="9" align="left">
           <strong>##</strong><strong>$g</strong>Karl Schmidt's
-          thesis<strong>$b</strong>Doctoral<strong>$c</strong>Ludwig-Maximilians-UniversitÃ¤t,
+          thesis<strong>$b</strong>Doctoral<strong>$c</strong>Ludwig-Maximilians-Universität,
           Munich <strong>$d</strong>1965.</td>
         </tr>
       </table>
@@ -416,7 +416,7 @@
 
     <div class="description">
       See description of this subfield in Appendix A:
-      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">
       Control Subfields</a></em>.
     </div>
   </div>
@@ -426,7 +426,7 @@
 
     <div class="description">
       See description of this subfield in Appendix A:
-      <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">
+      <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">
       Control Subfields</a></em>.
     </div>
   </div>
@@ -479,19 +479,19 @@
     <tr valign="bottom">
       <td>
         <div class="head-nav">
-          <a href="http://www.loc.gov/">Library of Congress</a>
-          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
+          <a href="//www.loc.gov/">Library of Congress</a>
+          &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a>
           &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
+          "//www.loc.gov/marc/bibliographic/">Bibliographic</a>
           &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a>
+          "//www.loc.gov/marc/bibliographic/bd5xx.html">5XX</a>
           &gt;&gt; <strong>502</strong>
         </div>(09/01/2008)
       </td>
 
-      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
+      <td align="right"><a href="/cdn-cgi/l/email-protection#09676d647a664965666a276e667f">Contact
       Us</a></td>
     </tr>
   </table>
-<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+<script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

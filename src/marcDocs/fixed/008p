@@ -1,2692 +1,1706 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-<head>
-  <meta name="generator" content="HTML Tidy, see www.w3.org">
-  <meta http-equiv="Content-Type" content=
-  "text/html; charset=utf-8">
-
-  <title>MARC 21 Format for Bibliographic Data: 008: Maps
-  (Network Development and MARC Standards Office, Library of
-  Congress)</title>
-  <meta http-equiv="Content-Type" content=
-  "text/html; charset=utf-8">
-  <meta name="description" content=
-  "This field contains the (Network Development and MARC Standards Office, Library of Congress)">
-  <meta name="keywords" content="marc, marc21, marc standards">
-  <meta name="author" content=
-  "Library of Congress Network Development and MARC Standards Office">
-  <link href="update11-stylesheet.css" rel="stylesheet" type=
-  "text/css">
-<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
-
-<body>
-  <div class="head-nav">
-    <a href="http://www.loc.gov/">Library of Congress</a>
-    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
-    <a href=
-    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-    &gt;&gt; <a href=
-    "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
-    &gt;&gt; <a href=
-    "http://www.loc.gov/marc/bibliographic/bd008.html">008</a>
-    &gt;&gt; <strong>008 (Maps)</strong>
-  </div>
-  <hr>
-  <a name="skip_menu" id="skip_menu"></a>
-
-  <h1>008 - Maps (NR)</h1>
-  <hr>
-
-  <div class="formatname">
-    MARC 21 Bibliographic - Full
-  </div>
-
-  <div class="datename">
-    February 2010
-  </div>
-  <hr>
-  <strong>Indicators and Subfield Codes</strong>
-
-  <div class="description">
-    Field has no indicators or subfield codes; the data elements
-    are positionally defined.
-  </div>
-
-  <table width="100%">
-    <tr valign="top">
-      <td width="45%"><strong>Character Positions</strong><br>
-      <strong>18-21 - Relief (006/01-04)</strong><br>
-      # - No relief shown<br>
-      a - Contours<br>
-      b - Shading<br>
-      c - Gradient and bathymetric tints<br>
-      d - Hachures<br>
-      e - Bathymetry/soundings<br>
-      f - Form lines<br>
-      g - Spot heights<br>
-      i - Pictorially<br>
-      j - Land forms<br>
-      k - Bathymetry/isolines<br>
-      m - Rock drawings<br>
-      z - Other<br>
-      |||| - No attempt to code<br>
-      <br>
-      <strong>22-23 - Projection (006/05-06)</strong><br>
-      ## - Projection not specified<br>
-      aa - Aitoff<br>
-      ab - Gnomic<br>
-      ac - Lambert's azimuthal equal area<br>
-      ad - Orthographic<br>
-      ae - Azimuthal equidistant<br>
-      af - Stereographic<br>
-      ag - General vertical near-sided<br>
-      am - Modified stereographic for Alaska<br>
-      an - Chamberlin trimetric<br>
-      ap - Polar stereographic<br>
-      au - Azimuthal, specific type unknown<br>
-      az - Azimuthal, other<br>
-      ba - Gall<br>
-      bb - Goode's homolographic<br>
-      bc - Lambert's cylindrical equal area<br>
-      bd - Mercator<br>
-      be - Miller<br>
-      bf - Mollweide<br>
-      bg - Sinusoidal<br>
-      bh - Transverse Mercator<br>
-      bi - Gauss-Kruger<br>
-      bj - Equirectangular<br>
-      bk - Krovak<br>
-      bl - Cassini-Soldner<br>
-      bo - Oblique Mercator<br>
-      br - Robinson<br>
-      bs - Space oblique Mercator<br>
-      bu - Cylindrical, specific type unknown<br>
-      bz - Cylindrical, other<br>
-      ca - Albers equal area<br>
-      cb - Bonne<br>
-      cc - Lambert's conformal conic<br>
-      ce - Equidistant conic<br>
-      cp - Polyconic<br>
-      cu - Conic, specific type unknown<br>
-      cz - Conic, other<br>
-      da - Armadillo<br>
-      db - Butterfly<br>
-      dc - Eckert<br>
-      dd - Goode's homolosine<br>
-      de - Miller's bipolar oblique conformal conic<br>
-      df - Van Der Grinten<br>
-      dg - Dimaxion<br>
-      dh - Cordiform<br>
-      dl - Lambert conformal<br>
-      zz - Other<br>
-      || - No attempt to code</td>
-
-      <td width="45%"><strong>24 - Undefined
-      (006/07)</strong><br>
-      # - Undefined<br>
-      <br>
-      <strong>25 - Type of cartographic material
-      (006/08)</strong><br>
-      a - Single map<br>
-      b - Map series<br>
-      c - Map serial<br>
-      d - Globe<br>
-      e - Atlas<br>
-      f - Separate supplement to another work<br>
-      g - Bound as part of another work<br>
-      u - Unknown<br>
-      z - Other<br>
-      | - No attempt to code<br>
-      <br>
-      <strong>26-27 - Undefined (006/09-10)</strong><br>
-      # - Undefined<br>
-      <br>
-      <strong>28 - Government publication (006/11)</strong><br>
-      # - Not a government publication<br>
-      a - Autonomous or semi-autonomous component<br>
-      c - Multilocal<br>
-      f - Federal/national<br>
-      i - International intergovernmental<br>
-      l - Local<br>
-      m - Multistate<br>
-      o - Government publication-level undetermined<br>
-      s - State, provincial, territorial, dependent, etc.<br>
-      u - Unknown if item is government publication<br>
-      z - Other<br>
-      | - No attempt to code<br>
-      <br>
-      <strong>29 - Form of item (006/12)</strong><br>
-      # - None of the following<br>
-      a - Microfilm<br>
-      b - Microfiche<br>
-      c - Microopaque<br>
-      d - Large print<br>
-      f - Braille<br>
-      o - Online<br>
-      q - Direct electronic<br>
-      r - Regular print reproduction<br>
-      s - Electronic<br>
-      | - No attempt to code<br>
-      <br>
-      <strong>30 - Undefined (006/13)</strong><br>
-      # - Undefined<br>
-      <br>
-      <strong>31 - Index (006/14)</strong><br>
-      0 - No index<br>
-      1 - Index present<br>
-      | - No attempt to code<br>
-      <br>
-      <strong>32 - Undefined (006/15)</strong><br>
-      # - Undefined<br>
-      <br>
-      <strong>33-34 - Special format characteristics
-      (006/16-17)</strong><br>
-      # - No specified special format characteristics<br>
-      e - Manuscript<br>
-      j - Picture card, post card<br>
-      k - Calendar<br>
-      l - Puzzle<br>
-      n - Game<br>
-      o - Wall map<br>
-      p - Playing cards<br>
-      r - Loose-leaf<br>
-      z - Other<br>
-      || - No attempt to code<br>
-      <br></td>
-    </tr>
-  </table>
-  <hr>
-
-  <h3>FIELD DEFINITION AND SCOPE</h3>
-
-  <p><strong>Maps</strong> definition of field 008/18-34 is used
-  when Leader/06 (Type of record) contains code e (Cartographic
-  material) or f (Manuscript cartographic material). Field 008
-  positions 01-17 and 35-39 are defined the same in all 008
-  fields and are described in the <em>008-All materials</em>
-  section.</p>
-
-  <p>Field 008/18-34 character positions are equivalent to those
-  in field 006/01-17 when field 006/00 (Form of material)
-  contains code e (Cartographic material) or f (Manuscript
-  cartographic material). Details about specific codes defined
-  for the equivalent character positions in field 006 and 008 for
-  <strong>maps</strong> are provided in the <em>Guidelines for
-  Applying Content Designators</em> section of <em>008-Maps</em>
-  only.</p>
-  <hr>
-
-  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
-
-  <h4><span class="box">â </span> CHARACTER POSITIONS</h4>
-  <hr>
-
-  <div class="characterposition">
-    <strong>18-21 - Relief (006/01-04)</strong>
-
-    <div class="description">
-      Up to four one-character alphabetic codes that indicate the
-      relief type specified on the item. Codes are recorded in
-      order of their importance to the described item. If fewer
-      than four codes are assigned, the codes are left justified
-      and each unused position contains a blank (#).
-    </div>
-
-    <div class="description2 description">
-      Codes used in this field indicate only the relief forms
-      most commonly found on maps and are usually derived from
-      information given in field 500 (General Note). If more than
-      four codes are appropriate to an item, only the four most
-      important are recorded.
-    </div>
-
-    <div class="charactervalue">
-      <strong># - No relief shown</strong>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/18-21</strong></td>
-
-            <td valign="top" colspan="8" align="left">####<br>
-            <em>[No note field]</em></td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>a - Contours</strong>
-
-      <div class="description">
-        Relief shown by contours.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/18-21</strong></td>
-
-            <td valign="top" colspan="8" align="left">ae##</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">500</td>
-
-            <td valign="top" colspan="9" align="left">##$aRelief
-            shown by contours. Depths shown by soundings.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>b - Shading</strong>
-
-      <div class="description">
-        Relief shown by shading (generally of a single color).
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/18-21</strong></td>
-
-            <td valign="top" colspan="8" align="left">b###</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">500</td>
-
-            <td valign="top" colspan="9" align="left">##$aRelief
-            shown by shading.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>c - Gradient and bathymetric tints</strong>
-
-      <div class="description">
-        Relief shown by gradient or bathymetric tints.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/18-21</strong></td>
-
-            <td valign="top" colspan="8" align="left">c###</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">500</td>
-
-            <td valign="top" colspan="9" align="left">##$aRelief
-            shown by gradient tints.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>d - Hachures</strong>
-
-      <div class="description">
-        Relief shown by hachures (short lines which follow the
-        direction of maximum slope).
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/18-21</strong></td>
-
-            <td valign="top" colspan="8" align="left">dg##</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">500</td>
-
-            <td valign="top" colspan="9" align="left">##$aRelief
-            shown by hachures and spot heights.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>e - Bathymetry/soundings</strong>
-
-      <div class="description">
-        Underwater relief (depth) shown by soundings or spot
-        depths.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/18-21</strong></td>
-
-            <td valign="top" colspan="8" align="left">e###</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">500</td>
-
-            <td valign="top" colspan="9" align="left">##$aDepths
-            shown by soundings.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>f - Form lines</strong>
-
-      <div class="description">
-        Relief shown by form lines.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/18-21</strong></td>
-
-            <td valign="top" colspan="8" align="left">f###</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">500</td>
-
-            <td valign="top" colspan="9" align="left">##$aRelief
-            shown by form lines.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>g - Spot heights</strong>
-
-      <div class="description">
-        Relief shown by spot heights.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/18-21</strong></td>
-
-            <td valign="top" colspan="8" align="left">g###</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">500</td>
-
-            <td valign="top" colspan="9" align="left">##$aRelief
-            shown by spot heights.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>i - Pictorially</strong>
-
-      <div class="description">
-        Land forms and other topographic features shown in the
-        correct planimetric position by pictorial symbols
-        representing their appearance from a high oblique view.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/18-21</strong></td>
-
-            <td valign="top" colspan="8" align="left">i###</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">500</td>
-
-            <td valign="top" colspan="9" align="left">##$aRelief
-            shown pictorially.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>j - Land forms</strong>
-
-      <div class="description">
-        Relief shown by land forms.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/18-21</strong></td>
-
-            <td valign="top" colspan="8" align="left">jg##</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">500</td>
-
-            <td valign="top" colspan="9" align="left">##$aRelief
-            shown by land forms, and spot heights.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>k - Bathymetry/isolines</strong>
-
-      <div class="description">
-        Underwater relief (depth) shown by isolines (lines that
-        represent constant depths).
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/18-21</strong></td>
-
-            <td valign="top" colspan="8" align="left">kb##</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">500</td>
-
-            <td valign="top" colspan="9" align="left">##$aDepths
-            shown by isolines. Relief shown by shading.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>m - Rock drawings</strong>
-
-      <div class="description">
-        Relief rock drawing.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>z - Other</strong>
-
-      <div class="description">
-        None of the other defined codes are appropriate.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>|||| - No attempt to code</strong>
-    </div>
-  </div>
-  <hr>
-
-  <div class="characterposition">
-    <strong>22-23 - Projection (006/05-06)</strong>
-
-    <div class="description">
-      Two-character alphabetic code that indicates the projection
-      used in producing the item.
-    </div>
-
-    <div class="description2 description">
-      Specifically named projections are not described in this
-      document. The presence of the name of the projection
-      identifies the appropriate code for 008/22-23. Cartographic
-      reference sources may be consulted for a more detailed
-      explanation of specific projections.
-    </div>
-
-    <div class="charactervalue">
-      <strong>## - Projection not specified</strong>
-
-      <div class="description">
-        Used for most globes.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>aa - Aitoff</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>ab - Gnomic</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>ac - Lambert's azimuthal equal area</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>ad - Orthographic</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>ae - Azimuthal equidistant</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>af - Stereographic</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>ag - General vertical near-sided</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>am - Modified stereographic for Alaska</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>an - Chamberlin trimetric</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>ap - Polar stereographic</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>au - Azimuthal, specific type unknown</strong>
-
-      <div class="description">
-        Only the projection type (azimuthal) is known, not the
-        specific projection.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>az - Azimuthal, other</strong>
-
-      <div class="description">
-        Azimuthal projection for which none of the other defined
-        codes are appropriate.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>ba - Gall</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bb - Goode's homolographic</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bc - Lambert's cylindrical equal area</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bd - Mercator</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>be - Miller</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bf - Mollweide</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bg - Sinusoidal</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bh - Transverse Mercator</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bi - Gauss-Kruger</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bj - Equirectangular</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bk - Krovak</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bl - Cassini-Soldner</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bo - Oblique Mercator</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>br - Robinson</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bs - Space oblique Mercator</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bu - Cylindrical, specific type unknown</strong>
-
-      <div class="description">
-        Only the projection type (cylindrical) is known, not the
-        specific projection.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>bz - Cylindrical, other</strong>
-
-      <div class="description">
-        Cylindrical projection for which none of the other
-        defined codes are appropriate.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>ca - Albers equal area</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>cb - Bonne</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>cc - Lambert's conformal conic</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>ce - Equidistant conic</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>cp - Polyconic</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>cu - Conic, specific type unknown</strong>
-
-      <div class="description">
-        Only the projection type (conic) is known, not the
-        specific projection.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>cz - Conic, other</strong>
-
-      <div class="description">
-        Conic projection for which none of the other defined
-        codes are appropriate.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>da - Armadillo</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>db - Butterfly</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>dc - Eckert</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>dd - Goode's homolosine</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>de - Miller's bipolar oblique conformal
-      conic</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>df - Van Der Grinten</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>dg - Dimaxion</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>dh - Cordiform</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>dl - Lambert conformal</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>zz - Other</strong>
-
-      <div class="description">
-        None of the other defined codes are appropriate.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>|| - No attempt to code</strong>
-    </div>
-  </div>
-  <hr>
-
-  <div class="characterposition">
-    <strong>24 - Undefined (006/07)</strong>
-
-    <div class="description">
-      Undefined; contains a blank (#) or a fill character (|).
-    </div>
-  </div>
-  <hr>
-
-  <div class="characterposition">
-    <strong>25 - Type of cartographic material (006/08)</strong>
-
-    <div class="description">
-      One-character alphabetic code that indicates the type of
-      cartographic item described.
-    </div>
-
-    <div class="charactervalue">
-      <strong>a - Single map</strong>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/25</strong></td>
-
-            <td valign="top" colspan="8" align="left">a</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">300</td>
-
-            <td valign="top" colspan="9" align="left">##$a1 map
-            :$bcol. ;$c10 x 40 cm.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>b - Map series</strong>
-
-      <div class="description">
-        Number of related but physically separate and
-        bibliographically distinct cartographic units intended by
-        the producer(s) or issuing body(s) to form a single
-        group.
-      </div>
-
-      <div class="description2 description">
-        Not used for atlas series.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/25</strong></td>
-
-            <td valign="top" colspan="8" align="left">b</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">300</td>
-
-            <td valign="top" colspan="9" align="left">##$a50 maps
-            :$b2 col. ;$c40 x 25 cm.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>c - Map serial</strong>
-
-      <div class="description">
-        Issued in successive parts bearing numerical or
-        chronological designations and intended to be continued
-        indefinitely.
-      </div>
-
-      <div class="description2 description">
-        For serially issued atlases, code e (Atlas) is used.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/25</strong></td>
-
-            <td valign="top" colspan="8" align="left">c</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">300</td>
-
-            <td valign="top" colspan="9" align="left">##$amaps
-            :$bcol. ;$c20 x 60 cm., on sheets 25 x 65 cm.<br>
-            <em>[Three spaces in subfield â¡a given for an
-            incomplete set.]</em></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">315</td>
-
-            <td valign="top" colspan="9" align="left">
-            ##$aQuarterly.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>d - Globe</strong>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/25</strong></td>
-
-            <td valign="top" colspan="8" align="left">d</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">300</td>
-
-            <td valign="top" colspan="9" align="left">##$a1 globe
-            :$bcol., plastic, mounted on metal stand ;$c70 cm. in
-            diam.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>e - Atlas</strong>
-
-      <div class="description">
-        Includes atlas series, and serially issued atlases.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/25</strong></td>
-
-            <td valign="top" colspan="8" align="left">e</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">300</td>
-
-            <td valign="top" colspan="9" align="left">##$a1 atlas
-            (288 p.) :$bchiefly col. maps ;$c38 cm.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>f - Separate supplement to another work</strong>
-
-      <div class="description">
-        Other work being supplemented does not have to be
-        cartographic material.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>g - Bound as part of another work</strong>
-
-      <div class="description">
-        Other work included does not have to be cartographic
-        material.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>u - Unknown</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>z - Other</strong>
-
-      <div class="description">
-        None of the other defined codes are appropriate.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>| - No attempt to code</strong>
-    </div>
-  </div>
-  <hr>
-
-  <div class="characterposition">
-    <strong>26-27 - Undefined (006/09-10)</strong>
-
-    <div class="description">
-      Undefined; each contains a blank (#) or a fill character
-      (|).
-    </div>
-  </div>
-  <hr>
-
-  <div class="characterposition">
-    <strong>28 - Government publication (006/11)</strong>
-
-    <div class="description">
-      One-character alphabetic code that indicates whether the
-      item is published or produced by or for an international,
-      national, provincial, state, or local government agency, or
-      by any subdivision of such a body, and, if so, the
-      jurisdictional level of the agency.
-    </div>
-
-    <div class="description2 description">
-      Government bodies and all their subdivisions are treated as
-      government bodies regardless of how they may be entered as
-      headings (i.e., entered under jurisdiction or not). In the
-      bibliographic record, the body does not have to be a main
-      or added entry, but it should be named as publisher, etc.
-      in the publication, distribution, etc. area, or have caused
-      the item to be published (usually inferred when the
-      governmental body is responsible for the content of the
-      work). When in doubt, treat the item as a government
-      publication.
-    </div>
-
-    <div class="description2">
-      <div class="description">
-        <strong>Guidelines for certain types of
-        publications</strong>
-      </div>
-
-      <ul>
-        <li class="nobullet"><strong>Socialist
-        countries</strong>- Since the coding of all items
-        published in socialist countries as government
-        publications would limit the usefulness of this element,
-        coding should be used only for the same type of bodies
-        that would be considered government in a non-socialist
-        country. In coding items in this manner, when in doubt,
-        treat the item as a government publication.</li>
-
-        <li class="nobullet"><strong>Two levels</strong>- If an
-        item is published or produced jointly by government
-        agencies at two different levels, record the code for the
-        higher government level.</li>
-
-        <li class="nobullet"><strong>Academic
-        publications</strong>- In the U.S., items published by
-        academic institutions are considered government
-        publications if the institutions are created or
-        controlled by a government.</li>
-
-        <li class="nobullet"><strong>University presses</strong>-
-        In the U.S., items published by university presses are
-        considered government publications if the presses are
-        created or controlled by a government (e.g., state
-        university presses in the United States).</li>
-      </ul>
-    </div>
-
-    <div class="charactervalue">
-      <strong># - Not a government publication</strong>
-
-      <div class="description">
-        Not published by or for a government body.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/28</strong></td>
-
-            <td valign="top" colspan="8" align="left">#</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">110</td>
-
-            <td valign="top" colspan="9" align="left">2#$aRand
-            McNally.</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/28</strong></td>
-
-            <td valign="top" colspan="8" align="left">#</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">260</td>
-
-            <td valign="top" colspan="9" align="left">##$aNew
-            York :$bMacmillan,$c1983.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>a - Autonomous or semi-autonomous
-      component</strong>
-
-      <div class="description">
-        Published or produced by or for a government body of an
-        autonomous or semi-autonomous component of a country.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/28</strong></td>
-
-            <td valign="top" colspan="8" align="left">a</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">110</td>
-
-            <td valign="top" colspan="9" align="left">
-            1#$aSabah.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>c - Multilocal</strong>
-
-      <div class="description">
-        Published or produced by or for a multilocal jurisdiction
-        which is defined as a regional combination of
-        jurisdictions below the state level.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/28</strong></td>
-
-            <td valign="top" colspan="8" align="left">c</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">110</td>
-
-            <td valign="top" colspan="9" align="left">2#$aHouston
-            Independent School District.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>f - Federal/national</strong>
-
-      <div class="description">
-        Published or produced by or for a federal or national
-        government body, e.g., a sovereign nation, such as
-        Canada. Used for the governments of England, Wales,
-        Scotland, and Northern Ireland. Also used for American
-        Indian tribes.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/28</strong></td>
-
-            <td valign="top" colspan="8" align="left">f</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">110</td>
-
-            <td valign="top" colspan="9" align="left">
-            2#$aServicio GeolÃ³gico Nacional (Argentina)</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>i - International intergovernmental</strong>
-
-      <div class="description">
-        Published or produced by or for an international
-        intergovernmental body.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/28</strong></td>
-
-            <td valign="top" colspan="8" align="left">i</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">110</td>
-
-            <td valign="top" colspan="9" align="left">2#$aWorld
-            Health Organization.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>l - Local</strong>
-
-      <div class="description">
-        Published or produced by or for a local government
-        jurisdiction such as a county, city, town, etc.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/28</strong></td>
-
-            <td valign="top" colspan="8" align="left">l</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">110</td>
-
-            <td valign="top" colspan="9" align="left">
-            1#$aKippenheim (Germany)</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/28</strong></td>
-
-            <td valign="top" colspan="8" align="left">l</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">110</td>
-
-            <td valign="top" colspan="9" align="left">
-            1#$aDistrict of Columbia.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>m - Multistate</strong>
-
-      <div class="description">
-        Published or produced by or for a regional combination of
-        jurisdictions at the state, provincial, territorial,
-        etc., level.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/28</strong></td>
-
-            <td valign="top" colspan="8" align="left">m</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">110</td>
-
-            <td valign="top" colspan="9" align="left">2#$aLake
-            Erie Regional Transportation Authority.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>o - Government publication-level
-      undetermined</strong>
-
-      <div class="description">
-        Published or produced by or for a government body but
-        that the jurisdictional level cannot be determined.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>s - State, provincial, territorial, dependent,
-      etc.</strong>
-
-      <div class="description">
-        Jurisdictional level of the government body is a state,
-        province, territory, etc.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/28</strong></td>
-
-            <td valign="top" colspan="8" align="left">s</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">110</td>
-
-            <td valign="top" colspan="9" align="left">
-            1#$aWyoming.$bAir Resources Council.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>u - Unknown if item is government
-      publication</strong>
-
-      <div class="description">
-        Whether or not the item is published or produced by or
-        for a government agency is unknown.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>z - Other</strong>
-
-      <div class="description">
-        None of the other defined codes are appropriate.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>| - No attempt to code</strong>
-    </div>
-  </div>
-  <hr>
-
-  <div class="characterposition">
-    <strong>29 - Form of item (006/12)</strong>
-
-    <div class="description">
-      One-character alphabetic code that indicates the form of
-      material for the item.
-    </div>
-
-    <div class="charactervalue">
-      <strong># - None of the following</strong>
-
-      <div class="description">
-        Not specified by one of the other codes.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>a - Microfilm</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>b - Microfiche</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>c - Microopaque</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>d - Large print</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>f - Braille</strong>
-    </div>
-    
-    <div class="charactervalue">
-      <strong>o - Online</strong>
-      
-      <div class="description">
-        The resource is accessed by means of hardware and software connections to a
-        communications network.  If a distinction between types of electronic resources is
-        not necessary, code s can be used as a generic code for any form of electronic resource.
-      </div>
-    </div>
-    
-    <div class="charactervalue">
-      <strong>q - Direct electronic</strong>
-      
-      <div class="description">
-        Storage on a directly accessible tangible recording medium, e.g. disc, tape, playaway
-        device, flashdrive, portable hard drive, etc.  If a distinction between types of electronic resources is
-        not necessary, code s can be used as a generic code for any form of electronic resource.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>r - Regular print reproduction</strong>
-
-      <div class="description">
-        Eye-readable print, such as a photocopy.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>s - Electronic</strong>
-
-      <div class="description">
-        Intended for manipulation by a computer. May reside in a
-        carrier accessed either directly or remotely, in some
-        cases requiring the use of peripheral devices attached to
-        the computer (e.g., a CD-ROM player). Not used for items
-        that do not require the use of a computer (e.g., music
-        compact discs, videodiscs).  This
-        code can be used as a generic code for any form of electronic
-        resource.  Codes o and q may be used if there is a need
-        to separately identify online and direct electronic resources.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>| - No attempt to code</strong>
-    </div>
-  </div>
-  <hr>
-
-  <div class="characterposition">
-    <strong>30 - Undefined (006/13)</strong>
-
-    <div class="description">
-      Undefined; contains a blank (#) or a fill character (|).
-    </div>
-  </div>
-  <hr>
-
-  <div class="characterposition">
-    <strong>31 - Index (006/14)</strong>
-
-    <div class="description">
-      One-character numeric code that indicates whether the item
-      or accompanying material includes a location index or
-      gazetteer.
-    </div>
-
-    <div class="description2 description">
-      Information for this data element is derived from mention
-      of an index or gazetteer in other parts of the
-      bibliographic record (e.g., in the title or in a note). A
-      map index to adjoining sheets is not considered an index
-      when coding this position. This data element refers only to
-      gazetteers, place name indexes, etc. Graphic indexes such
-      as index maps are not coded.
-    </div>
-
-    <div class="charactervalue">
-      <strong>0 - No index</strong>
-
-      <div class="description">
-        Does not include an index or gazetteer to its own
-        contents.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/31</strong></td>
-
-            <td valign="top" colspan="8" align="left">0<br>
-            <em>[No indication of index or gazetteer in
-            bibliographic data]</em></td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>1 - Index present</strong>
-
-      <div class="description">
-        Includes an index or gazetteer to its own contents.
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/31</strong></td>
-
-            <td valign="top" colspan="8" align="left">1</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">500</td>
-
-            <td valign="top" colspan="9" align="left">##$aIndex
-            to points of interest on verso.</td>
-          </tr>
-        </table>
-      </div>
-
-      <div class="example">
-        <table width="100%">
-          <tr>
-            <td valign="top" width="5%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="10%" align="left"></td>
-
-            <td valign="top" width="15%" align="left"></td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">
-            <strong>008/31</strong></td>
-
-            <td valign="top" colspan="8" align="left">1</td>
-          </tr>
-
-          <tr>
-            <td valign="top" colspan="1" align="left">500</td>
-
-            <td valign="top" colspan="9" align="left">
-            ##$aIncludes gazetteer and glossary.</td>
-          </tr>
-        </table>
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>| - No attempt to code</strong>
-    </div>
-  </div>
-  <hr>
-
-  <div class="characterposition">
-    <strong>32 - Undefined (006/15)</strong>
-
-    <div class="description">
-      Undefined; contains a blank (#) or a fill character (|).
-    </div>
-  </div>
-  <hr>
-
-  <div class="characterposition">
-    <strong>33-34 - Special format characteristics
-    (006/16-17)</strong>
-
-    <div class="description">
-      Up to two one-character alphabetic codes that indicate the
-      special format characteristics of the map. Codes are
-      recorded in order of their importance to the described
-      item. If only one code is assigned, it is left justified
-      and the unused position contains a blank (#).
-    </div>
-
-    <div class="description2 description">
-      If more than two characteristics are appropriate to an
-      item, only the two most important are recorded.
-    </div>
-
-    <div class="charactervalue">
-      <strong># - No specified special format
-      characteristics</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>e - Manuscript</strong>
-
-      <div class="description">
-        Drawn or fashioned by hand.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>j - Picture card, post card</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>k - Calendar</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>l - Puzzle</strong>
-
-      <div class="description">
-        Image may be disassembled into pieces and reassembled.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>n - Game</strong>
-
-      <div class="description">
-        Intended to be used as or is part of a game.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>o - Wall map</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>p - Playing cards</strong>
-    </div>
-
-    <div class="charactervalue">
-      <strong>r - Loose-leaf</strong>
-
-      <div class="description">
-        Separate leaves intended to be stored in a binder or
-        case. Loose-leaf items are often meant to be updated.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>z - Other</strong>
-
-      <div class="description">
-        None of the other defined codes are appropriate.
-      </div>
-    </div>
-
-    <div class="charactervalue">
-      <strong>|| - No attempt to code</strong>
-    </div>
-  </div>
-  <hr>
-
-  <h3>INPUT CONVENTIONS</h3>
-
-  <div class="description2">
-    <strong>Capitalization</strong> - Alphabetic codes are input
-    in lowercase.
-  </div>
-
-  <div class="description2">
-    <strong>Field length</strong> - Field 008 should always
-    consist of forty (40) character positions.
-  </div>
-  <hr>
-
-  <h3>CONTENT DESIGNATOR HISTORY</h3>
-
-  <div class="font_small">
-    <em>008/18-21 - Relief</em>
-
-    <div class="charactervaluehistory">
-      <em>e - Bathymetry/soundings [REDEFINED, 1980]</em>
-    </div>
-
-    <div class="charactervaluehistory">
-      <em>k - Bathymetry/isolines [NEW, 1980]</em>
-    </div>
-
-    <div class="charactervaluehistory">
-      <em>h - Color [OBSOLETE, 1980]</em>
-    </div>
-
-    <div class="description">
-      Prior to the definition of code k and the redefinition of
-      code e, both <em>soundings</em> and <em>isolines</em> were
-      identified by code e (Bathymetry). Code h was made obsolete
-      in favor of the use of code c (Gradient and bathymetric
-      tints) to record coloration.
-    </div><br>
-    <em>008/22-23 - Projection</em>
-
-    <div class="charactervaluehistory">
-      <em>bk - Krovak [NEW, 2009]</em>
-    </div>
-
-    <div class="charactervaluehistory">
-      <em>bl - Cassini-Soldner [NEW, 2009]</em>
-    </div><br>
-    <em>008/24 - Prime meridian [OBSOLETE, 1997] [USMARC
-    only]</em>
-
-    <div class="description">
-      Defined codes were: # (Not specified), e (Greenwich), f
-      (Ferro), g (Paris), p (Philadelphia), w (Washington, D.C.),
-      and z (Other).
-    </div><br>
-    <em>008/24-25 - Prime meridian [OBSOLETE, 1997] [CAN/MARC
-    only]</em>
-
-    <div class="description">
-      Prior to 1997, this position was used to indicate the prime
-      meridian that was named on a map. Defined codes were:
-
-      <div class="table">
-        <table>
-          <tr>
-            <td valign="top" align="left">aa</td>
-
-            <td valign="top" align="left">Greenwich, England</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">ab</td>
-
-            <td valign="top" align="left">Ferro, Canary Is.</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">ac</td>
-
-            <td valign="top" align="left">Paris, France</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">ad</td>
-
-            <td valign="top" align="left">Amsterdam, Neth.</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">ae</td>
-
-            <td valign="top" align="left">Athens, Greece</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">af</td>
-
-            <td valign="top" align="left">Batavia, (Djakarta)
-            Indonesia</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">ag</td>
-
-            <td valign="top" align="left">Berne, Switzerland</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">ah</td>
-
-            <td valign="top" align="left">Bogota, Columbia</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">ai</td>
-
-            <td valign="top" align="left">Bombay, India</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">aj</td>
-
-            <td valign="top" align="left">Brussels, Belgium</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">ak</td>
-
-            <td valign="top" align="left">Cadiz, Spain</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">al</td>
-
-            <td valign="top" align="left">Capetown, S.A.</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">am</td>
-
-            <td valign="top" align="left">Caracas, Venezuela</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">an</td>
-
-            <td valign="top" align="left">Copenhagen,
-            Denmark</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">ao</td>
-
-            <td valign="top" align="left">Cordoba, Argentina</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">ap</td>
-
-            <td valign="top" align="left">Helsinki, Finland</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">aq</td>
-
-            <td valign="top" align="left">Julianehaab,
-            Greenland</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">ar</td>
-
-            <td valign="top" align="left">Lisbon, Portugal</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">as</td>
-
-            <td valign="top" align="left">Madras, India</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">at</td>
-
-            <td valign="top" align="left">Madrid, Spain</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">ba</td>
-
-            <td valign="top" align="left">Mexico City, Mex.</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bb</td>
-
-            <td valign="top" align="left">Munich, Germany</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bc</td>
-
-            <td valign="top" align="left">Naples, Italy</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bd</td>
-
-            <td valign="top" align="left">Oslo (Christiana),
-            Norway</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">be</td>
-
-            <td valign="top" align="left">Philadelphia, Pa.</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bf</td>
-
-            <td valign="top" align="left">Pulkovo (St.
-            Petersburg), Russia</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bg</td>
-
-            <td valign="top" align="left">Rio de Janeiro,
-            Brazil</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bh</td>
-
-            <td valign="top" align="left">Rome, Italy</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bi</td>
-
-            <td valign="top" align="left">Santiago, Chile</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bj</td>
-
-            <td valign="top" align="left">Stockholm, Sweden</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bk</td>
-
-            <td valign="top" align="left">Sydney, Aust.</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bl</td>
-
-            <td valign="top" align="left">Tirana, Albania</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bm</td>
-
-            <td valign="top" align="left">Tokyo, Japan</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bn</td>
-
-            <td valign="top" align="left">Washington, D.C.</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bo</td>
-
-            <td valign="top" align="left">London, England</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bp</td>
-
-            <td valign="top" align="left">Moscow, Russia</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">bq</td>
-
-            <td valign="top" align="left">Istanbul, Turkey</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">br</td>
-
-            <td valign="top" align="left">Peking, China</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">uu</td>
-
-            <td valign="top" align="left">Unknown</td>
-          </tr>
-
-          <tr>
-            <td valign="top" align="left">zz</td>
-
-            <td valign="top" align="left">Other</td>
-          </tr>
-        </table>
-      </div>
-    </div><br>
-    <em>008/25 - Type of cartographic material</em>
-
-    <div class="charactervaluehistory">
-      <em>e - Atlas [NEW, 1995]</em>
-    </div>
-
-    <div class="description">
-      Prior to the definition of code e (Atlas), atlases were
-      treated as printed language material. The field 008
-      configuration for books was used.
-    </div><br>
-    <em>008/26-27 - Publisher code [OBSOLETE, 1980]</em>
-
-    <div class="description">
-      Name of the publisher may be contained in subfield â¡b of
-      field 260.
-    </div><br>
-     <em>008/29 - Form of item</em>
-      
-      <div class="charactervaluehistory"><em>o - Online [NEW, 2010]</em>
-      </div>
-      
-      <div class="charactervaluehistory"><em>q - Direct electronic [NEW, 2010]</em>
-       </div><br>
-    <em>008/30 - Narrative text [OBSOLETE, 1997] [CAN/MARC
-    only]</em>
-
-    <div class="description">
-      Defined codes were: 0 (No text present), 1 (Text on
-      cartographic item), 2 (Text accompanies cartographic item).
-    </div><br>
-    <em>008/31 - Index [CAN/MARC only]</em>
-
-    <div class="charactervaluehistory">
-      <em>2 - Index or gazetteer accompanies cartographic item
-      [OBSOLETE, 1997] [CAN/MARC only]</em>
-    </div><br>
-    <em>008/32 - Citation indicator [OBSOLETE, 1980]</em>
-
-    <div class="description">
-      Defined codes were: a (<em>Bibliographic cartographique
-      internationale</em>), b (American Revolution), h (Hummel
-      purchases), r (Railroad), t (Treasure), v (Vellum), w
-      (Warner purchase), y (American Revolution and vellum), z
-      (Treasure and B.C.I.), # (Not applicable).
-    </div><br>
-    <em>008/33-34 - Special format characteristics</em>
-
-    <div class="charactervaluehistory">
-      <em>a - Photocopy, blue line print [OBSOLETE, 1982]</em>
-    </div>
-
-    <div class="charactervaluehistory">
-      <em>b - Photocopy [OBSOLETE, 1982]</em>
-    </div>
-
-    <div class="charactervaluehistory">
-      <em>c - Negative photocopy [OBSOLETE, 1982]</em>
-    </div>
-
-    <div class="charactervaluehistory">
-      <em>d - Film negative [OBSOLETE, 1982]</em>
-    </div>
-
-    <div class="charactervaluehistory">
-      <em>f - Facsimile [OBSOLETE, 1982]</em>
-    </div>
-
-    <div class="charactervaluehistory">
-      <em>g - Relief model [OBSOLETE, 1982]</em>
-    </div>
-
-    <div class="charactervaluehistory">
-      <em>h - Rare [OBSOLETE, 1982]</em>
-    </div>
-
-    <div class="charactervaluehistory">
-      <em>m - Braille [OBSOLETE, 1998]</em>
-    </div>
-
-    <div class="charactervaluehistory">
-      <em>q - Large print [OBSOLETE, 1998]</em>
-    </div>
-  </div>
-  <hr>
-
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr valign="bottom">
-      <td>
-        <div class="head-nav">
-          <a href="http://www.loc.gov/">Library of Congress</a>
-          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
-          &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-          &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>
-          &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/bd008.html">008</a>
-          &gt;&gt; <strong>008 (Maps)</strong>
-        </div>(03/05/2010)
-      </td>
-
-      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
-      Us</a></td>
-    </tr>
-  </table>
-<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 008:
+         Maps (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description" content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd00x.html">00X</a>  
+               
+               &gt;&gt;
+               <a href="//www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
+               <strong>008 (Maps)</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>008</span> - <span>Maps</span><span> (NR)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">April 2015</div>
+      <hr />
+      <h4>Indicators and Subfield Codes</h4>
+      <div class="wildcard">
+         <div>
+            <p>Field has no indicators or subfield codes; the data elements are positionally defined.</p>
+         </div>
+      </div>
+      <table width="100%" class="characterPositions">
+         <tr>
+            <td width="45%"><strong>Character Positions</strong></td>
+            <td width="45%"></td>
+         </tr>
+         <tr>
+            <td colspan="2"><span><strong>18-21 - Relief (006/01-04)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - No relief shown</dd>
+                  <dd>a - Contours</dd>
+                  <dd>b - Shading</dd>
+                  <dd>c - Gradient and bathymetric tints</dd>
+                  <dd>d - Hachures</dd>
+                  <dd>e - Bathymetry/soundings</dd>
+                  <dd>f - Form lines</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>g - Spot heights</dd>
+                  <dd>i - Pictorially</dd>
+                  <dd>j - Land forms</dd>
+                  <dd>k - Bathymetry/isolines</dd>
+                  <dd>m - Rock drawings</dd>
+                  <dd>z - Other</dd>
+                  <dd>|||| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>22-23 - Projection (006/05-06)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>## - Projection not specified</dd>
+                  <dd>aa - Aitoff</dd>
+                  <dd>ab - Gnomic</dd>
+                  <dd>ac - Lambert's azimuthal equal area</dd>
+                  <dd>ad - Orthographic</dd>
+                  <dd>ae - Azimuthal equidistant</dd>
+                  <dd>af - Stereographic</dd>
+                  <dd>ag - General vertical near-sided</dd>
+                  <dd>am - Modified stereographic for Alaska</dd>
+                  <dd>an - Chamberlin trimetric</dd>
+                  <dd>ap - Polar stereographic</dd>
+                  <dd>au - Azimuthal, specific type unknown</dd>
+                  <dd>az - Azimuthal, other</dd>
+                  <dd>ba - Gall</dd>
+                  <dd>bb - Goode's homolographic</dd>
+                  <dd>bc - Lambert's cylindrical equal area</dd>
+                  <dd>bd - Mercator</dd>
+                  <dd>be - Miller</dd>
+                  <dd>bf - Mollweide</dd>
+                  <dd>bg - Sinusoidal</dd>
+                  <dd>bh - Transverse Mercator</dd>
+                  <dd>bi - Gauss-Kruger</dd>
+                  <dd>bj - Equirectangular</dd>
+                  <dd>bk - Krovak</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>bl - Cassini-Soldner</dd>
+                  <dd>bo - Oblique Mercator</dd>
+                  <dd>br - Robinson</dd>
+                  <dd>bs - Space oblique Mercator</dd>
+                  <dd>bu - Cylindrical, specific type unknown</dd>
+                  <dd>bz - Cylindrical, other</dd>
+                  <dd>ca - Albers equal area</dd>
+                  <dd>cb - Bonne</dd>
+                  <dd>cc - Lambert's conformal conic</dd>
+                  <dd>ce - Equidistant conic</dd>
+                  <dd>cp - Polyconic</dd>
+                  <dd>cu - Conic, specific type unknown</dd>
+                  <dd>cz - Conic, other</dd>
+                  <dd>da - Armadillo</dd>
+                  <dd>db - Butterfly</dd>
+                  <dd>dc - Eckert</dd>
+                  <dd>dd - Goode's homolosine</dd>
+                  <dd>de - Miller's bipolar oblique conformal conic</dd>
+                  <dd>df - Van Der Grinten</dd>
+                  <dd>dg - Dimaxion</dd>
+                  <dd>dh - Cordiform</dd>
+                  <dd>dl - Lambert conformal</dd>
+                  <dd>zz - Other</dd>
+                  <dd>|| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>24 - Undefined (006/07)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Undefined</dd>
+               </dl>
+            </td>
+            <td></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>25 - Type of cartographic material (006/08)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>a - Single map</dd>
+                  <dd>b - Map series</dd>
+                  <dd>c - Map serial</dd>
+                  <dd>d - Globe</dd>
+                  <dd>e - Atlas</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>f - Separate supplement to another work</dd>
+                  <dd>g - Bound as part of another work</dd>
+                  <dd>u - Unknown</dd>
+                  <dd>z - Other</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>26-27 - Undefined (006/09-10)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Undefined</dd>
+               </dl>
+            </td>
+            <td></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>28 - Government publication (006/11)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Not a government publication</dd>
+                  <dd>a - Autonomous or semi-autonomous component</dd>
+                  <dd>c - Multilocal</dd>
+                  <dd>f - Federal/national</dd>
+                  <dd>i - International intergovernmental</dd>
+                  <dd>l - Local</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>m - Multistate</dd>
+                  <dd>o - Government publication-level undetermined</dd>
+                  <dd>s - State, provincial, territorial, dependent, etc.</dd>
+                  <dd>u - Unknown if item is government publication</dd>
+                  <dd>z - Other</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>29 - Form of item (006/12)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - None of the following</dd>
+                  <dd>a - Microfilm</dd>
+                  <dd>b - Microfiche</dd>
+                  <dd>c - Microopaque</dd>
+                  <dd>d - Large print</dd>
+                  <dd>f - Braille</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>o - Online</dd>
+                  <dd>q - Direct electronic</dd>
+                  <dd>r - Regular print reproduction</dd>
+                  <dd>s - Electronic</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>30 - Undefined (006/13)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Undefined</dd>
+               </dl>
+            </td>
+            <td></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>31 - Index (006/14)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>0 - No index</dd>
+                  <dd>1 - Index present</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>32 - Undefined (006/15)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Undefined</dd>
+               </dl>
+            </td>
+            <td></td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>33-34 - Special format characteristics (006/16-17)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - No specified special format characteristics</dd>
+                  <dd>e - Manuscript</dd>
+                  <dd>j - Picture card, post card</dd>
+                  <dd>k - Calendar</dd>
+                  <dd>l - Puzzle</dd>
+                  <dd>n - Game</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>o - Wall map</dd>
+                  <dd>p - Playing cards</dd>
+                  <dd>r - Loose-leaf</dd>
+                  <dd>z - Other</dd>
+                  <dd>|| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p><strong>Maps</strong> definition of field 008/18-34 is used when Leader/06 (Type of record)
+               				contains code e (Cartographic material) or f (Manuscript cartographic material).
+               Field 008
+               				positions 01-17 and 35-39 are defined the same in all 008 fields and are described
+               in the
+               					<em>008-All materials</em> section.
+            </p>
+            <p>Field 008/18-34 character positions are equivalent to those in field 006/01-17 when
+               field
+               				006/00 (Form of material) contains code e (Cartographic material) or f (Manuscript
+               				cartographic material). Details about specific codes defined for the equivalent
+               character
+               				positions in field 006 and 008 for <strong>maps</strong> are provided in the <em>Guidelines
+                  					for Applying Content Designators</em> section of <em>008-Maps</em> only.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">■</span> CHARACTER POSITIONS
+         </h4>
+         <div class="characterPositions">
+            <div><strong>18-21 - Relief (006/01-04)</strong><div>
+                  <p>Up to four one-character alphabetic codes that indicate the relief type specified
+                     on
+                     						the item. Codes are recorded in order of their importance to the described item.
+                     If
+                     						fewer than four codes are assigned, the codes are left justified and each unused
+                     						position contains a blank (#).
+                  </p>
+               </div>
+               <div>
+                  <p>Codes used in this field indicate only the relief forms most commonly found on maps
+                     and
+                     						are usually derived from information given in field 500 (General Note). If more
+                     than
+                     						four codes are appropriate to an item, only the four most important are recorded.
+                     
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - No relief shown</span><div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/18-21</strong></td>
+                              <td colspan="9">####<em><span><br /><span>[No note field]</span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Contours</span><div>
+                        <p>Relief shown by contours.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/18-21</strong></td>
+                              <td colspan="9">ae##</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aRelief shown by contours. Depths shown by
+                                 								soundings.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Shading</span><div>
+                        <p>Relief shown by shading (generally of a single color).</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/18-21</strong></td>
+                              <td colspan="9">b###</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aRelief shown by shading.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Gradient and bathymetric tints</span><div>
+                        <p>Relief shown by gradient or bathymetric tints.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/18-21</strong></td>
+                              <td colspan="9">c###</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aRelief shown by gradient tints.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Hachures</span><div>
+                        <p>Relief shown by hachures (short lines which follow the direction of maximum
+                           						slope).
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/18-21</strong></td>
+                              <td colspan="9">dg##</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aRelief shown by hachures and spot heights.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">e - Bathymetry/soundings</span><div>
+                        <p>Underwater relief (depth) shown by soundings or spot depths.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/18-21</strong></td>
+                              <td colspan="9">e###</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aDepths shown by soundings.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Form lines</span><div>
+                        <p>Relief shown by form lines.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/18-21</strong></td>
+                              <td colspan="9">f###</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aRelief shown by form lines.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">g - Spot heights</span><div>
+                        <p>Relief shown by spot heights.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/18-21</strong></td>
+                              <td colspan="9">g###</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aRelief shown by spot heights.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">i - Pictorially</span><div>
+                        <p>Land forms and other topographic features shown in the correct planimetric position
+                           							by pictorial symbols representing their appearance from a high oblique view.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/18-21</strong></td>
+                              <td colspan="9">i###</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aRelief shown pictorially.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">j - Land forms</span><div>
+                        <p>Relief shown by land forms.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/18-21</strong></td>
+                              <td colspan="9">jg##</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aRelief shown by land forms, and spot
+                                 								heights.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">k - Bathymetry/isolines</span><div>
+                        <p>Underwater relief (depth) shown by isolines (lines that represent constant
+                           						depths).
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/18-21</strong></td>
+                              <td colspan="9">kb##</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aDepths shown by isolines. Relief shown by
+                                 								shading.
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">m - Rock drawings</span><div>
+                        <p>Relief rock drawing.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">z - Other</span><div>
+                        <p>None of the other defined codes are appropriate.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">|||| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>22-23 - Projection (006/05-06)</strong><div>
+                  <p>Two-character alphabetic code that indicates the projection used in producing the
+                     					item.
+                  </p>
+               </div>
+               <div>
+                  <p>Specifically named projections are not described in this document. The presence of
+                     the
+                     						name of the projection identifies the appropriate code for 008/22-23. Cartographic
+                     						reference sources may be consulted for a more detailed explanation of specific
+                     						projections.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">## - Projection not specified</span><div>
+                        <p>Used for most globes.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">aa - Aitoff</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ab - Gnomic</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ac - Lambert's azimuthal equal area</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ad - Orthographic</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ae - Azimuthal equidistant</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">af - Stereographic</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ag - General vertical near-sided</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">am - Modified stereographic for Alaska</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">an - Chamberlin trimetric</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ap - Polar stereographic</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">au - Azimuthal, specific type unknown</span><div>
+                        <p>Only the projection type (azimuthal) is known, not the specific projection.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">az - Azimuthal, other</span><div>
+                        <p>Azimuthal projection for which none of the other defined codes are appropriate.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ba - Gall</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bb - Goode's homolographic</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bc - Lambert's cylindrical equal area</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bd - Mercator</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">be - Miller</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bf - Mollweide</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bg - Sinusoidal</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bh - Transverse Mercator</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bi - Gauss-Kruger</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bj - Equirectangular</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bk - Krovak</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bl - Cassini-Soldner</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bo - Oblique Mercator</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">br - Robinson</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bs - Space oblique Mercator</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bu - Cylindrical, specific type unknown</span><div>
+                        <p>Only the projection type (cylindrical) is known, not the specific projection.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">bz - Cylindrical, other</span><div>
+                        <p>Cylindrical projection for which none of the other defined codes are appropriate.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ca - Albers equal area</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cb - Bonne</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cc - Lambert's conformal conic</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">ce - Equidistant conic</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cp - Polyconic</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cu - Conic, specific type unknown</span><div>
+                        <p>Only the projection type (conic) is known, not the specific projection.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">cz - Conic, other</span><div>
+                        <p>Conic projection for which none of the other defined codes are appropriate.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">da - Armadillo</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">db - Butterfly</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">dc - Eckert</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">dd - Goode's homolosine</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">de - Miller's bipolar oblique conformal conic</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">df - Van Der Grinten</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">dg - Dimaxion</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">dh - Cordiform</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">dl - Lambert conformal</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">zz - Other</span><div>
+                        <p>None of the other defined codes are appropriate.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">|| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>24 - Undefined (006/07)</strong><div>
+                  <p>Undefined; contains a blank (#) or a fill character (|).</p>
+               </div>
+            </div>
+            <hr />
+            <div><strong>25 - Type of cartographic material (006/08)</strong><div>
+                  <p>One-character alphabetic code that indicates the type of cartographic item
+                     					described.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Single map</span><div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/25</strong></td>
+                              <td colspan="9">a</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a1 map :$bcol. ;$c10 x 40 cm.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Map series</span><div>
+                        <p>Number of related but physically separate and bibliographically distinct cartographic
+                           							units intended by the producer(s) or issuing body(s) to form a single group.
+                        </p>
+                     </div>
+                     <div>
+                        <p>Not used for atlas series.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/25</strong></td>
+                              <td colspan="9">b</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a50 maps :$b2 col. ;$c40 x 25 cm.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Map serial</span><div>
+                        <p>Issued in successive parts bearing numerical or chronological designations and
+                           							intended to be continued indefinitely.
+                        </p>
+                     </div>
+                     <div>
+                        <p>For serially issued atlases, code e (Atlas) is used.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/25</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$amaps :$bcol. ;$c20 x 60 cm., on sheets 25 x 65 cm.<em><span><br /><span>[Three spaces in subfield $a given for an incomplete set.]</span></span></em></td>
+                           </tr>
+                           <tr>
+                              <td>315</td>
+                              <td colspan="9">##$aQuarterly.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Globe</span><div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/25</strong></td>
+                              <td colspan="9">d</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a1 globe :$bcol., plastic, mounted on metal stand ;$c70 cm. in diam.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">e - Atlas</span><div>
+                        <p>Includes atlas series, and serially issued atlases.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/25</strong></td>
+                              <td colspan="9">e</td>
+                           </tr>
+                           <tr>
+                              <td>300</td>
+                              <td colspan="9">##$a1 atlas (288 p.) :$bchiefly col. maps ;$c38 cm.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Separate supplement to another work</span><div>
+                        <p>Other work being supplemented does not have to be cartographic material.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">g - Bound as part of another work</span><div>
+                        <p>Other work included does not have to be cartographic material.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Unknown</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">z - Other</span><div>
+                        <p>None of the other defined codes are appropriate.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>26-27 - Undefined (006/09-10)</strong><div>
+                  <p>Undefined; each contains a blank (#) or a fill character (|).</p>
+               </div>
+            </div>
+            <hr />
+            <div><strong>28 - Government publication (006/11)</strong><div>
+                  <p>One-character alphabetic code that indicates whether the item is published or produced
+                     						by or for an international, national, provincial, state, or local government
+                     agency, or
+                     						by any subdivision of such a body, and, if so, the jurisdictional level of the
+                     					agency.
+                  </p>
+               </div>
+               <div>
+                  <p>Government bodies and all their subdivisions are treated as government bodies
+                     						regardless of how they may be entered as headings (i.e., entered under jurisdiction
+                     or
+                     						not). In the bibliographic record, the body does not have to be a main or added
+                     entry,
+                     						but it should be named as publisher, etc. in the publication, distribution,
+                     etc. area,
+                     						or have caused the item to be published (usually inferred when the governmental
+                     body is
+                     						responsible for the content of the work). When in doubt, treat the item as a
+                     government
+                     						publication.
+                  </p>
+               </div>
+               <div>
+                  <p><strong>Guidelines for certain types of publications</strong></p>
+                  <ul>
+                     <li><strong>Socialist countries</strong>- Since the coding of all items published in
+                        							socialist countries as government publications would limit the usefulness of
+                        this
+                        							element, coding should be used only for the same type of bodies that would
+                        be
+                        							considered government in a non-socialist country. In coding items in this manner,
+                        when
+                        							in doubt, treat the item as a government publication.
+                     </li>
+                     <li><strong>Two levels</strong>- If an item is published or produced jointly by government
+                        							agencies at two different levels, record the code for the higher government
+                        level.
+                     </li>
+                     <li><strong>Academic publications</strong>- In the U.S., items published by academic
+                        							institutions are considered government publications if the institutions are
+                        created or
+                        							controlled by a government.
+                     </li>
+                  </ul>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Not a government publication</span><div>
+                        <p>Not published by or for a government body.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">#</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">2#$aRand McNally.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">#</td>
+                           </tr>
+                           <tr>
+                              <td>260</td>
+                              <td colspan="9">##$aNew York :$bMacmillan,$c1983.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Autonomous or semi-autonomous component</span><div>
+                        <p>Published or produced by or for a government body of an autonomous or semi-autonomous
+                           							component of a country.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">a</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">1#$aSabah.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Multilocal</span><div>
+                        <p>Published or produced by or for a multilocal jurisdiction which is defined as a
+                           							regional combination of jurisdictions below the state level.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">2#$aHouston Independent School District.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Federal/national</span><div>
+                        <p>Published or produced by or for a federal or national government body, e.g., a
+                           							sovereign nation, such as Canada. Used for the governments of England, Wales,
+                           							Scotland, and Northern Ireland. Also used for American Indian tribes.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">f</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">2#$aServicio Geológico Nacional (Argentina)</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">i - International intergovernmental</span><div>
+                        <p>Published or produced by or for an international intergovernmental body.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">i</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">2#$aWorld Health Organization.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">l - Local</span><div>
+                        <p>Published or produced by or for a local government jurisdiction such as a county,
+                           							city, town, etc.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">l</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">1#$aKippenheim (Germany)</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">l</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">1#$aDistrict of Columbia.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">m - Multistate</span><div>
+                        <p>Published or produced by or for a regional combination of jurisdictions at the state,
+                           							provincial, territorial, etc., level.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">m</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">2#$aLake Erie Regional Transportation Authority.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">o - Government publication-level undetermined</span><div>
+                        <p>Published or produced by or for a government body but that the jurisdictional level
+                           							cannot be determined.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">s - State, provincial, territorial, dependent, etc.</span><div>
+                        <p>Jurisdictional level of the government body is a state, province, territory, etc.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">s</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">1#$aWyoming.$bAir Resources Council.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Unknown if item is government publication</span><div>
+                        <p>Whether or not the item is published or produced by or for a government agency is
+                           							unknown.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">z - Other</span><div>
+                        <p>None of the other defined codes are appropriate.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>29 - Form of item (006/12)</strong><div>
+                  <p>One-character alphabetic code that indicates the form of material for the item.</p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - None of the following</span><div>
+                        <p>Not specified by one of the other codes.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Microfilm</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Microfiche</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Microopaque</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Large print</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Braille</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">o - Online</span><div>
+                        <p>The resource is accessed by means of hardware and software connections to a
+                           							communications network. If a distinction between types of electronic resources
+                           is not
+                           							necessary, code s can be used as a generic code for any form of electronic
+                           						resource.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">q - Direct electronic</span><div>
+                        <p>Storage on a directly accessible tangible recording medium, e.g. disc, tape, playaway
+                           							device, flashdrive, portable hard drive, etc. If a distinction between types
+                           of
+                           							electronic resources is not necessary, code s can be used as a generic code
+                           for any
+                           							form of electronic resource.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">r - Regular print reproduction</span><div>
+                        <p>Eye-readable print, such as a photocopy.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">s - Electronic</span><div>
+                        <p>Intended for manipulation by a computer. May reside in a carrier accessed either
+                           							directly or remotely, in some cases requiring the use of peripheral devices
+                           attached
+                           							to the computer (e.g., a CD-ROM player). Not used for items that do not require
+                           the
+                           							use of a computer (e.g., music compact discs, videodiscs). This code can be
+                           used as a
+                           							generic code for any form of electronic resource. Codes o and q may be used
+                           if there
+                           							is a need to separately identify online and direct electronic resources.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>30 - Undefined (006/13)</strong><div>
+                  <p>Undefined; contains a blank (#) or a fill character (|).</p>
+               </div>
+            </div>
+            <hr />
+            <div><strong>31 - Index (006/14)</strong><div>
+                  <p>One-character numeric code that indicates whether the item or accompanying material
+                     						includes a location index or gazetteer.
+                  </p>
+               </div>
+               <div>
+                  <p>Information for this data element is derived from mention of an index or gazetteer
+                     in
+                     						other parts of the bibliographic record (e.g., in the title or in a note). A
+                     map index
+                     						to adjoining sheets is not considered an index when coding this position. This
+                     data
+                     						element refers only to gazetteers, place name indexes, etc. Graphic indexes
+                     such as
+                     						index maps are not coded.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">0 - No index</span><div>
+                        <p>Does not include an index or gazetteer to its own contents.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/31</strong></td>
+                              <td colspan="9">0<em><span><br /><span>[No indication of index or gazetteer in bibliographic data] </span></span></em></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">1 - Index present</span><div>
+                        <p>Includes an index or gazetteer to its own contents.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/31</strong></td>
+                              <td colspan="9">1</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aIndex to points of interest on verso.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/31</strong></td>
+                              <td colspan="9">1</td>
+                           </tr>
+                           <tr>
+                              <td>500</td>
+                              <td colspan="9">##$aIncludes gazetteer and glossary.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>32 - Undefined (006/15)</strong><div>
+                  <p>Undefined; contains a blank (#) or a fill character (|).</p>
+               </div>
+            </div>
+            <hr />
+            <div><strong>33-34 - Special format characteristics (006/16-17)</strong><div>
+                  <p>Up to two one-character alphabetic codes that indicate the special format
+                     						characteristics of the map. Codes are recorded in order of their importance
+                     to the
+                     						described item. If only one code is assigned, it is left justified and the unused
+                     						position contains a blank (#).
+                  </p>
+               </div>
+               <div>
+                  <p>If more than two characteristics are appropriate to an item, only the two most
+                     						important are recorded.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - No specified special format characteristics</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">e - Manuscript</span><div>
+                        <p>Drawn or fashioned by hand.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">j - Picture card, post card</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">k - Calendar</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">l - Puzzle</span><div>
+                        <p>Image may be disassembled into pieces and reassembled.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">n - Game</span><div>
+                        <p>Intended to be used as or is part of a game.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">o - Wall map</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">p - Playing cards</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">r - Loose-leaf</span><div>
+                        <p>Separate leaves intended to be stored in a binder or case. Loose-leaf items are often
+                           							meant to be updated.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">z - Other</span><div>
+                        <p>None of the other defined codes are appropriate.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">|| - No attempt to code</span></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Capitalization - </strong>Alphabetic codes are input in lowercase.
+            </p>
+         </div>
+         <div>
+            <p><strong>Field length - </strong>Field 008 should always consist of forty (40) character positions.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="characterPositionHistory">
+            <div><em>008/18-21 - Relief</em><div class="characterPositionHistoryDsc">
+                  <p>Prior to the definition of code k and the redefinition of code e, both <em>soundings</em>
+                     					and <em>isolines</em> were identified by code e (Bathymetry). Code h was made obsolete in
+                     					favor of the use of code c (Gradient and bathymetric tints) to record coloration.
+                  </p>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">e - Bathymetry/soundings [REDEFINED, 1980]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">k - Bathymetry/isolines [NEW, 1980]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">h - Color [OBSOLETE, 1980]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/22-23 - Projection</em><div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">bk - Krovak [NEW, 2009]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">bl - Cassini-Soldner [NEW, 2009]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/24 - Prime meridian [OBSOLETE, 1997] [USMARC only]</em><div class="characterPositionHistoryDsc">
+                  <p>Defined codes were: # (Not specified), e (Greenwich), f (Ferro), g (Paris), p
+                     					(Philadelphia), w (Washington, D.C.), and z (Other).
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/24-25 - Prime meridian [OBSOLETE, 1997] [CAN/MARC only]</em><div class="characterPositionHistoryDsc">
+                  <p>Prior to 1997, this position was used to indicate the prime meridian that was named
+                     on a
+                     					map. Defined codes were:
+                  </p>
+                  <div class="table">
+                     <table>
+                        <tr>
+                           <td>aa</td>
+                           <td>Greenwich, England</td>
+                        </tr>
+                        <tr>
+                           <td>ab</td>
+                           <td>Ferro, Canary Is.</td>
+                        </tr>
+                        <tr>
+                           <td>ac</td>
+                           <td>Paris, France</td>
+                        </tr>
+                        <tr>
+                           <td>ad</td>
+                           <td>Amsterdam, Neth.</td>
+                        </tr>
+                        <tr>
+                           <td>ae</td>
+                           <td>Athens, Greece</td>
+                        </tr>
+                        <tr>
+                           <td>af</td>
+                           <td>Batavia, (Djakarta) Indonesia</td>
+                        </tr>
+                        <tr>
+                           <td>ag</td>
+                           <td>Berne, Switzerland</td>
+                        </tr>
+                        <tr>
+                           <td>ah</td>
+                           <td>Bogota, Columbia</td>
+                        </tr>
+                        <tr>
+                           <td>ai</td>
+                           <td>Bombay, India</td>
+                        </tr>
+                        <tr>
+                           <td>aj</td>
+                           <td>Brussels, Belgium</td>
+                        </tr>
+                        <tr>
+                           <td>ak</td>
+                           <td>Cadiz, Spain</td>
+                        </tr>
+                        <tr>
+                           <td>al</td>
+                           <td>Capetown, S.A.</td>
+                        </tr>
+                        <tr>
+                           <td>am</td>
+                           <td>Caracas, Venezuela</td>
+                        </tr>
+                        <tr>
+                           <td>an</td>
+                           <td>Copenhagen, Denmark</td>
+                        </tr>
+                        <tr>
+                           <td>ao</td>
+                           <td>Cordoba, Argentina</td>
+                        </tr>
+                        <tr>
+                           <td>ap</td>
+                           <td>Helsinki, Finland</td>
+                        </tr>
+                        <tr>
+                           <td>aq</td>
+                           <td>Julianehaab, Greenland</td>
+                        </tr>
+                        <tr>
+                           <td>ar</td>
+                           <td>Lisbon, Portugal</td>
+                        </tr>
+                        <tr>
+                           <td>as</td>
+                           <td>Madras, India</td>
+                        </tr>
+                        <tr>
+                           <td>at</td>
+                           <td>Madrid, Spain</td>
+                        </tr>
+                        <tr>
+                           <td>ba</td>
+                           <td>Mexico City, Mex.</td>
+                        </tr>
+                        <tr>
+                           <td>bb</td>
+                           <td>Munich, Germany</td>
+                        </tr>
+                        <tr>
+                           <td>bc</td>
+                           <td>Naples, Italy</td>
+                        </tr>
+                        <tr>
+                           <td>bd</td>
+                           <td>Oslo (Christiana), Norway</td>
+                        </tr>
+                        <tr>
+                           <td>be</td>
+                           <td>Philadelphia, Pa.</td>
+                        </tr>
+                        <tr>
+                           <td>bf</td>
+                           <td>Pulkovo (St. Petersburg), Russia</td>
+                        </tr>
+                        <tr>
+                           <td>bg</td>
+                           <td>Rio de Janeiro, Brazil</td>
+                        </tr>
+                        <tr>
+                           <td>bh</td>
+                           <td>Rome, Italy</td>
+                        </tr>
+                        <tr>
+                           <td>bi</td>
+                           <td>Santiago, Chile</td>
+                        </tr>
+                        <tr>
+                           <td>bj</td>
+                           <td>Stockholm, Sweden</td>
+                        </tr>
+                        <tr>
+                           <td>bk</td>
+                           <td>Sydney, Aust.</td>
+                        </tr>
+                        <tr>
+                           <td>bl</td>
+                           <td>Tirana, Albania</td>
+                        </tr>
+                        <tr>
+                           <td>bm</td>
+                           <td>Tokyo, Japan</td>
+                        </tr>
+                        <tr>
+                           <td>bn</td>
+                           <td>Washington, D.C.</td>
+                        </tr>
+                        <tr>
+                           <td>bo</td>
+                           <td>London, England</td>
+                        </tr>
+                        <tr>
+                           <td>bp</td>
+                           <td>Moscow, Russia</td>
+                        </tr>
+                        <tr>
+                           <td>bq</td>
+                           <td>Istanbul, Turkey</td>
+                        </tr>
+                        <tr>
+                           <td>br</td>
+                           <td>Peking, China</td>
+                        </tr>
+                        <tr>
+                           <td>uu</td>
+                           <td>Unknown</td>
+                        </tr>
+                        <tr>
+                           <td>zz</td>
+                           <td>Other</td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/25 - Type of cartographic material</em><div class="characterPositionHistoryDsc">
+                  <p>Prior to the definition of code e (Atlas), atlases were treated as printed language
+                     					material. The field 008 configuration for books was used.
+                  </p>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">e - Atlas [NEW, 1995]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/26-27 - Publisher code [OBSOLETE, 1980]</em><div class="characterPositionHistoryDsc">
+                  <p>Name of the publisher may be contained in subfield $b of field 260.</p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/28 - Government publication</em><div class="characterPositionHistoryDsc">
+                  <p>Prior to 2015, university press publications were included as examples of government
+                     publications.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/29 - Form of item</em><div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">o - Online [NEW, 2010]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">q - Direct electronic [NEW, 2010]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/30 - Narrative text [OBSOLETE, 1997] [CAN/MARC only]</em><div class="characterPositionHistoryDsc">
+                  <p>Defined codes were: 0 (No text present), 1 (Text on cartographic item), 2 (Text
+                     					accompanies cartographic item).
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/31 - Index [CAN/MARC only]</em><div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">2 - Index or gazetteer accompanies cartographic item [OBSOLETE, 1997] [CAN/MARC only]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/32 - Citation indicator [OBSOLETE, 1980]</em><div class="characterPositionHistoryDsc">
+                  <p>Defined codes were: a (<em>Bibliographic cartographique internationale</em>), b (American
+                     					Revolution), h (Hummel purchases), r (Railroad), t (Treasure), v (Vellum), w
+                     (Warner
+                     					purchase), y (American Revolution and vellum), z (Treasure and B.C.I.), # (Not
+                     					applicable).
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/33-34 - Special format characteristics</em><div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">a - Photocopy, blue line print [OBSOLETE, 1982]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">b - Photocopy [OBSOLETE, 1982]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">c - Negative photocopy [OBSOLETE, 1982]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">d - Film negative [OBSOLETE, 1982]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">f - Facsimile [OBSOLETE, 1982]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">g - Relief model [OBSOLETE, 1982]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">h - Rare [OBSOLETE, 1982]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">m - Braille [OBSOLETE, 1998]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">q - Large print [OBSOLETE, 1998]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd00x.html">00X</a>  
+               
+               &gt;&gt;
+               <a href="//www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
+               <strong>008 (Maps)</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(04/29/2015)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#751b1118061a35191a165b121a03" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

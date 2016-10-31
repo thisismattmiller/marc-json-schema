@@ -1,247 +1,331 @@
 <!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
-<html>
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   
-      <title>MARC 21 Format for Bibliographic Data: 247: Former Title (Network Development and MARC Standards Office, Library of Congress)
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 247:
+         Former Title (Network Development and MARC Standards
+         Office, Library of Congress)
       </title>
-      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-      <meta name="description" content="This field contains the former title (Network Development and MARC Standards Office, Library of Congress)">
-      <meta name="keywords" content="marc, marc21, marc standards">
-      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
-      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
-					body {margin-left: 2em; margin-right: 2em;} 
-					h1 {font-family:Arial, Helvetica, sans-serif;}
-					h3 {text-align:left;}
-					h4 {margin-top:.5em; margin-bottom:.5em;}
-					p {text-align:justify; margin-left:2em; margin-right:2em;}
-					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
-					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
-					.font_small {font-size:9pt;}
-					.fieldtoc {margin-left:2em;}
-					.box {font-family:ZapfDingbats;}
-					.description {text-align:justify; margin-left:2em;}
-					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
-					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
-					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
-					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
-					.example {margin-left:4em;}
-					.changed {color: #FF0000;}
-					.captiontext {font-style:italic;}
-					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
-					.displaycontent {text-align:left;}
-					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
-					.summary {margin-left:2em;}
-					.summarytable {margin-left:4em;}
-				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
-   <body>
-      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a> &gt;&gt; <strong>247</strong></div>
-      <hr><a name="skip_menu"></a><h1>247 - Former Title (R)</h1>
-      <hr>
-      <div class="formatname">MARC 21 Bibliographic - Full</div>
-      <div class="datename">October 2002</div>
-      <hr>
-      <table width="100%">
-         <tr vAlign="top">
-            <td width="45%"><strong>First Indicator</strong><br><em>Title added entry</em><br>0 - No added entry <br>1 - Added entry <br><br></td>
-            <td width="45%"><strong>Second Indicator</strong><br><em>Note controller</em><br>0 - Display note <br>1 - Do not display note <br><br></td>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a>  
+               
+               &gt;&gt;
+               <strong>247</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>247</span> - <span>Former Title</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">October 2014</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Title added entry</em><br /><span>0 - No added entry</span><br /><span>1 - Added entry</span><br /><br /></td>
+            <td><em>Note controller</em><br /><span>0 - Display note</span><br /><span>1 - Do not display note</span><br /><br /></td>
          </tr>
       </table>
-      <hr>
-      <table width="100%">
-         <tr vAlign="top">
-            <td valign="top" width="50%" align="left"></td>
-            <td valign="top" width="50%" align="left"></td>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
          </tr>
-         <tr vAlign="top">
-            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
          </tr>
-         <tr vAlign="top">
-            <td colspan="1">$a - Title (NR) <br>$b - Remainder of title (NR) <br>$f - Date or sequential designation (NR) <br>$g - Miscellaneous information (NR) <br>$h - Medium (NR) <br></td>
-            <td colspan="1">$n - Number of part/section of a work (R) <br>$p - Name of part/section of a work (R) <br>$x - International Standard Serial Number (NR) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Title<span> (NR)</span></li>
+                  <li>$b - Remainder of title<span> (NR)</span></li>
+                  <li>$f - Date or sequential designation<span> (NR)</span></li>
+                  <li>$g - Miscellaneous information<span> (R)</span></li>
+                  <li>$h - Medium<span> (NR)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$n - Number of part/section of a work<span> (R)</span></li>
+                  <li>$p - Name of part/section of a work<span> (R)</span></li>
+                  <li>$x - International Standard Serial Number<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
          </tr>
-   </table>
-      <hr>
+      </table>
+      <hr />
       <h3>FIELD DEFINITION AND SCOPE</h3>
-      <p>Former title proper used when one cataloging record represents several titles associated
-                     with an entity.
-      </p>
-      <p>For instance, under some cataloging rules (e.g., ALA rules) a serial is cataloged under
-                     the latest title, with former titles noted in the <strong>same</strong> record in a
-                        <em>title varies</em> note. Likewise, under some cataloging rules (e.g., AACR2) an
-                     integrating resource is cataloged under the latest title, with former titles noted in
-                     the <strong>same</strong> record. Former titles proper may also be recorded in field 547
-                     (Former Title Complexity Note).
-      </p>
-      <p>Under other cataloging rules (e.g., AACR2), separate bibliographic records are created
-                     when a significant change in a serial title has occurred. When separate records are made
-                     for change of title, the linking entry fields 780 and 785 may be used to show the
-                     preceding and succeeding entries.      </p>
-      <hr>
+      <div class="definition">
+         <div>
+            <p>Former title proper used when one cataloging record represents several titles associated
+               with an entity.
+            </p>
+         </div>
+         <div>
+            <p>For instance, under some cataloging rules (e.g., ALA rules) a serial is cataloged
+               under
+               the latest title, with former titles noted in the <strong>same</strong> record in a
+               <em>title varies</em> note. Likewise, under some cataloging rules (e.g., AACR2) an
+               integrating resource is cataloged under the latest title, with former titles noted
+               in
+               the <strong>same</strong> record. Former titles proper may also be recorded in field 547
+               (Former Title Complexity Note).
+            </p>
+            <p>Under other cataloging rules (e.g., AACR2), separate bibliographic records are created
+               when a significant change in a serial title has occurred. When separate records are
+               made
+               for change of title, the linking entry fields 780 and 785 may be used to show the
+               preceding and succeeding entries.
+            </p>
+         </div>
+      </div>
+      <hr />
       <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
-      <h4><span class="box">&#9632;</span> INDICATORS
-      </h4>
-      <div class="indicator"><strong>First Indicator - Title added entry</strong> <div class="description">Whether a title added entry is made.
-            <div class="indicatorvalue"><strong>0 - No added entry</strong> <div class="description">No title added entry is made.</div>
+      <div class="guidelines">
+         <h4><span class="box">■</span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>First Indicator - Title added entry</strong></p>
+                  <div>
+                     <p>Whether a title added entry is made.</p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - No added entry</span><div>
+                           <p>No title added entry is made.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Added entry</span><div>
+                           <p>Title added entry is made.</p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td>245</td>
+                                 <td colspan="9">00$aFamily circle.</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>247</strong></td>
+                                 <td colspan="9"><strong>10</strong><strong>$a</strong>Everywoman's magazine<strong>$f</strong>v. 1-24, Jan. 1948-57.
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="indicatorvalue"><strong>1 - Added entry</strong> <div class="description">Title added entry is made.
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Note controller</strong></p>
+                  <div>
+                     <p>Whether a note is displayed from data in the field.</p>
+                  </div>
+                  <div>
+                     <p>Whenever an intelligible note cannot be made from data in this field, a textual
+                        note is recorded in field 547 and this indicator is set to value 1.
+                     </p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Display note</span><div>
+                           <p><em>Title varies:</em> may be generated with the note for display.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Do not display note</span></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">■</span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div>
+               <p>Detailed description of subfields $a, $b, $h,
+               $n, and $p, including examples and most input conventions are
+               given in the <a href="//www.loc.gov/marc/bibliographic/bd245.html"><em>245 Title Statement</em></a> section. Other subfields are described
+                  below.
+               </p>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$f - Date or sequential designation</strong> 
+                  </p>
+                  <div>
+                     <p>Dates or volume and issue numbers that relate the former variant title to the
+                        record.
+                     </p>
+                  </div>
                   <div class="example">
-                     <table width="100%">
+                     <table>
                         <tr>
-                           <td valign="top" width="5%" align="left"></td>
-                           <td valign="top" width="10%" align="left"></td>
-                           <td valign="top" width="10%" align="left"></td>
-                           <td valign="top" width="10%" align="left"></td>
-                           <td valign="top" width="10%" align="left"></td>
-                           <td valign="top" width="10%" align="left"></td>
-                           <td valign="top" width="10%" align="left"></td>
-                           <td valign="top" width="10%" align="left"></td>
-                           <td valign="top" width="10%" align="left"></td>
-                           <td valign="top" width="15%" align="left"></td>
-                        </tr>
-                        <tr>
-                           <td vAlign="top" colspan="1" align="left">245</td>
-                           <td vAlign="top" colspan="9" align="left">00$aFamily circle.</td>
-                        </tr>
-                        <tr>
-                           <td vAlign="top" colspan="1" align="left"><strong>247</strong></td>
-                           <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Everywoman's magazine<strong>$f</strong>v. 1-24, Jan. 1948-57.
+                           <td><strong>247</strong></td>
+                           <td colspan="9"><strong>10</strong><strong>$a</strong>Journalism bulletin<strong>$f</strong>Mar. 1924-Nov. 1927
                            </td>
                         </tr>
                      </table>
                   </div>
                </div>
             </div>
-         </div>
-      </div>
-      <div class="indicator"><strong>Second Indicator - Note controller</strong> <div class="description">Whether a note is displayed from data in the field.
-            <div class="description2">Whenever an intelligible note cannot be made from data in this field, a textual
-                                 note is recorded in field 547 and this indicator is set to value 1.
-            </div>
-            <div class="indicatorvalue"><strong>0 - Display note</strong> <div class="description"><em>Title varies:</em> may be generated with the note for display.
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$g - Miscellaneous information</strong> 
+                  </p>
+                  <div>
+                     <p>Miscellaneous information that is not more appropriately recorded in another
+                        subfield. It is used for information such as the phrase <em>varies slightly</em>,
+                        enclosed in parentheses.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td><strong>247</strong></td>
+                           <td colspan="9"><strong>01</strong><strong>$a</strong>&lt;former title&gt;<strong>$g</strong>(varies slightly)
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
                </div>
             </div>
-            <div class="indicatorvalue"><strong>1 - Do not display note</strong> </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$x - International Standard Serial Number</strong> 
+                  </p>
+                  <div>
+                     <p>ISSN is an authoritative-agency data element. ISSNs are assigned to serial
+                        publications by national centers under the auspices of the ISSN Network.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
+                              Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
-      <h4><span class="box">&#9632;</span> SUBFIELD CODES
-      </h4>
-      <div class="description">Detailed description of subfields $a, $b, $h,
-                        $n, and $p, including examples and most input conventions are
-                        given in the <em><a href="bd245.html">245 Title Statement</a></em> section. Other subfields are described
-                        below.
-      </div>
-      <div class="subfield"><strong>$f - Date or sequential designation</strong> <div class="description">Dates or volume and issue numbers that relate the former variant title to the
-                              record.
-         </div>
-         <div class="example">
-            <table width="100%">
-               <tr>
-                  <td valign="top" width="5%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="15%" align="left"></td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>247</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>10</strong><strong>$a</strong>Journalism bulletin<strong>$f</strong>Mar. 1924-Nov. 1927
-                  </td>
-               </tr>
-            </table>
-         </div>
-      </div>
-      <div class="subfield"><strong>$g - Miscellaneous information</strong> <div class="description">Miscellaneous information that is not more appropriately recorded in another
-                              subfield. It is used for information such as the phrase <em>varies slightly</em>,
-                              enclosed in parentheses.
-         </div>
-         <div class="example">
-            <table width="100%">
-               <tr>
-                  <td valign="top" width="5%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="15%" align="left"></td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>247</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>01</strong><strong>$a</strong>&lt;former title&gt;<strong>$g</strong>(varies slightly)
-                  </td>
-               </tr>
-            </table>
-         </div>
-      </div>
-      <div class="subfield"><strong>$x - International Standard Serial Number</strong> <div class="description">ISSN is an authoritative-agency data element. ISSNs are assigned to serial
-                              publications by national centers under the auspices of the ISSN Network.
-         </div>
-      </div>
-      <div class="subfield"><strong>$6 - Linkage</strong> <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
-                                       Subfields</a></em>.
-         </div>
-      </div>
-      <div class="subfield"><strong>$8 - Field link and sequence number</strong> 
-        <div class="description">See description of this subfield in Appendix A: <em><a href="http://www.loc.gov/marc/bibliographic/ecbdcntf.html">Control
-                                       Subfields</a></em>.
-        </div>
-   </div>
-      <hr>
+      <hr />
       <h3>INPUT CONVENTIONS</h3>
-      <div class="description2"><strong>Punctuation</strong> - Field 247 does not end with a mark of punctuation unless the last word in the field is
-                     an abbreviation, initial/letter, or data that ends with a mark of punctuation. See also
-                     subfield descriptions in the <em><a href="bd245.html">245 Title Statement</a></em> section for punctuation
-                     information.
+      <div class="conventions">
+         <div>
+            <p><strong>Punctuation - </strong>Field 247 does not end with a mark of punctuation unless the last word in the field
+               is
+               an abbreviation, initial/letter, or data that ends with a mark of punctuation. See
+               also
+               subfield descriptions in the <a href="//www.loc.gov/marc/bibliographic/bd245.html"><em>245 Title Statement</em></a> section for punctuation
+               information.
+            </p>
+         </div>
+         <div>
+            <p><strong>Initial Articles - </strong>Initial articles (e.g., Der, An) are generally not recorded in field 247 unless the
+               intent is to file on the article.
+            </p>
+         </div>
+         <div>
+            <p><strong>Display Constant</strong></p>
+            <div class="table">
+               <table>
+                  <tr>
+                     <td><em>Title varies:</em></td>
+                  </tr>
+               </table>
+            </div>
+            <p>Legend <em>Title varies:</em> precedes a former title or title variation in the note
+               made from data in field 247. The legend is not carried in the MARC record but may
+               be
+               system generated as a display constant associated with the value 0 in the second
+               indicator position.
+            </p>
+         </div>
       </div>
-      <div class="description2"><strong>Initial Articles</strong> - Initial articles (e.g., Der, An) are generally not recorded in field 247 unless the
-                     intent is to file on the article.
-      </div>
-      <div class="description2"><strong>Display Constant</strong>
-        <div class="table">
-            <table>
-               <tr>
-                  <td valign="top" align="left"><em>Title varies:</em></td>
-               </tr>
-            </table>
-        </div>Legend <em>Title varies:</em> precedes a former title or title variation in the note
-                     made from data in field 247. The legend is not carried in the MARC record but may be
-                     system generated as a display constant associated with the value 0 in the second
-                     indicator position.
-   </div>
-      <hr>
+      <hr />
       <h3>CONTENT DESIGNATOR HISTORY</h3>
-      <div class="font_small"><em>$a - Title proper/short title [RENAMED, 2002]</em><br><em>$d - Designation of section/part/series (SE) [OBSOLETE, 1979]</em><br><em>$e - Name of section/part/series (SE) [OBSOLETE, 1979]</em><br>Prior to the redefinition of subfields $n and $p for
-                           <strong>numbered</strong> and <strong>named</strong> parts/sections of a work in
-                        other fields in 1979, these data were contained in subfields $d and
-                        $e in field 247.<br><em>$h - Medium</em><br>Prior to the definition of $g (Miscellaneous information) in 1979,
-                        subfield $h was defined for miscellaneous information.<br><em>$c - Remainder of Title Page transcription [OBSOLETE] [CAN/MARC only]</em></div>
-      <hr>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-         <tr valign="bottom">
-            <td>
-               <div class="head-nav"><a href="http://www.loc.gov/">Library of
-                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a> &gt;&gt; <strong>247</strong></div> (02/22/2008) 
-            </td>
-            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
-         </tr>
-      </table>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <div class="history">
+         <div class="historySubfield">
+            <div><em>$a - Title proper/short title [RENAMED, 2002]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$d - Designation of section/part/series (SE) [OBSOLETE, 1979]</em></div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$e - Name of section/part/series (SE) [OBSOLETE, 1979]</em><div class="subfieldHistoryDsc">
+                  <p>Prior to the redefinition of subfields $n and $p for
+                  <strong>numbered</strong> and <strong>named</strong> parts/sections of a work in
+               other fields in 1979, these data were contained in subfields $d and
+               $e in field 247.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$g - Miscellaneous information [CHANGED, 2014]</em><div class="subfieldHistoryDsc">
+                  <p>In 2014, subfield $g was made repeatable.</p>
+               </div>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$h - Medium</em><div class="subfieldHistoryDsc">
+                  <p>Prior to the definition of $g (Miscellaneous information) in 1979,
+               subfield $h was defined for miscellaneous information.</p>
+               </div>
+            </div>
+         </div>
+         <div class="historySubfield">
+            <div><em>$c - Remainder of Title Page transcription [OBSOLETE] [CAN/MARC only]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd20x24x.html">20X-24X</a>  
+               
+               &gt;&gt;
+               <strong>247</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(10/20/2014)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#6709030a1408270b080449000811" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

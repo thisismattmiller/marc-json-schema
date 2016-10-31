@@ -1,276 +1,310 @@
 <!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>MARC 21 Format for Bibliographic Data: 630: Subject Added Entry-Uniform Title (Network Development and MARC Standards Office, Library of Congress)
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 630:
+         Subject Added Entry-Uniform Title (Network Development and MARC Standards
+         Office, Library of Congress)
       </title>
-      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-      <meta name="description" content="This field contains the subject added entry-uniform title  (Network Development and MARC Standards Office, Library of Congress)">
-      <meta name="keywords" content="marc, marc21, marc standards">
-      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
-      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
-					body {margin-left: 2em; margin-right: 2em;} 
-					h1 {font-family:Arial, Helvetica, sans-serif;}
-					h3 {text-align:left;}
-					h4 {margin-top:.5em; margin-bottom:.5em;}
-					p {text-align:justify; margin-left:2em; margin-right:2em;}
-					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
-					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
-					.font_small {font-size:9pt;}
-					.fieldtoc {margin-left:2em;}
-					.box {font-family:ZapfDingbats;}
-					.description {text-align:justify; margin-left:2em;}
-					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
-					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
-					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
-					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
-					.example {margin-left:4em;}
-					.changed {color: #FF0000;}
-					.captiontext {font-style:italic;}
-					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
-					.displaycontent {text-align:left;}
-					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
-					.summary {margin-left:2em;}
-					.summarytable {margin-left:4em;}
-				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
-   <body>
-      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a> &gt;&gt; <strong>630</strong></div>
-      <hr><a name="skip_menu"></a><h1>630 - Subject Added Entry-Uniform Title (R)</h1>
-      <hr>
-      <div class="formatname">MARC 21 Bibliographic - Full</div>
-      <div class="datename">October 2007</div>
-      <hr>
-      <table width="100%">
-         <tr vAlign="top">
-            <td width="45%"><strong>First Indicator</strong><br><em>Nonfiling characters</em><br>0-9 - Number of nonfiling characters <br><br></td>
-            <td width="45%"><strong>Second Indicator</strong><br><em>Thesaurus</em><br>0 - Library of Congress Subject Headings <br>1 - LC subject headings for children's literature <br>2 - Medical Subject Headings <br>3 - National Agricultural Library subject authority file <br>4 - Source not specified <br>5 - Canadian Subject Headings <br>6 - R&eacute;pertoire de vedettes-mati&egrave;re <br>7 - Source specified in subfield $2 <br><br></td>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a>  
+               
+               &gt;&gt;
+               <strong>630</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>630</span> - <span>Subject Added Entry-Uniform Title</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">October 2014</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Nonfiling characters</em><br /><span>0-9 - Number of nonfiling characters</span><br /><br /></td>
+            <td><em>Thesaurus</em><br /><span>0 - Library of Congress Subject Headings</span><br /><span>1 - LC subject headings for children's literature</span><br /><span>2 - Medical Subject Headings</span><br /><span>3 - National Agricultural Library subject authority file</span><br /><span>4 - Source not specified</span><br /><span>5 - Canadian Subject Headings</span><br /><span>6 - Répertoire de vedettes-matière</span><br /><span>7 - Source specified in subfield $2</span><br /><br /></td>
          </tr>
       </table>
-      <hr>
-      <table width="100%">
-         <tr vAlign="top">
-            <td valign="top" width="50%" align="left"></td>
-            <td valign="top" width="50%" align="left"></td>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
          </tr>
-         <tr vAlign="top">
-            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
          </tr>
-         <tr vAlign="top">
-            <td colspan="1">$a - Uniform title (NR) <br>$d - Date of treaty signing (R) <br>$e - Relator term (R) <br>$f - Date of a work (NR) <br>$g - Miscellaneous information (NR) <br>$h - Medium (NR) <br>$k - Form subheading (R) <br>$l - Language of a work (NR) <br>$m - Medium of performance for music (R) <br>$n - Number of part/section of a work (R) <br>$o - Arranged statement for music (NR) <br>$p - Name of part/section of a work (R) <br>$r - Key for music (NR) <br></td>
-            <td colspan="1">$s - Version (NR) <br>$t - Title of a work (NR) <br>$v - Form subdivision (R) <br>$x - General subdivision (R) <br>$y - Chronological subdivision (R) <br>$z - Geographic subdivision (R) <br>
-              $0 - Authority record control number (R)<br>
-              $2 - Source of heading or term (NR) <br>$3 - Materials specified (NR) <br>$4 - Relator code (R) <br>$6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Uniform title<span> (NR)</span></li>
+                  <li>$d - Date of treaty signing<span> (R)</span></li>
+                  <li>$e - Relator term<span> (R)</span></li>
+                  <li>$f - Date of a work<span> (NR)</span></li>
+                  <li>$g - Miscellaneous information<span> (R)</span></li>
+                  <li>$h - Medium<span> (NR)</span></li>
+                  <li>$k - Form subheading<span> (R)</span></li>
+                  <li>$l - Language of a work<span> (NR)</span></li>
+                  <li>$m - Medium of performance for music<span> (R)</span></li>
+                  <li>$n - Number of part/section of a work<span> (R)</span></li>
+                  <li>$o - Arranged statement for music<span> (NR)</span></li>
+                  <li>$p - Name of part/section of a work<span> (R)</span></li>
+                  <li>$r - Key for music<span> (NR)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$s - Version<span> (NR)</span></li>
+                  <li>$t - Title of a work<span> (NR)</span></li>
+                  <li>$v - Form subdivision<span> (R)</span></li>
+                  <li>$x - General subdivision<span> (R)</span></li>
+                  <li>$y - Chronological subdivision<span> (R)</span></li>
+                  <li>$z - Geographic subdivision<span> (R)</span></li>
+                  <li>$0 - Authority record control number or standard number<span> (R)</span></li>
+                  <li>$2 - Source of heading or term<span> (NR)</span></li>
+                  <li>$3 - Materials specified<span> (NR)</span></li>
+                  <li>$4 - Relator code<span> (R)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
          </tr>
-   </table>
-      <hr>
+      </table>
+      <hr />
       <h3>FIELD DEFINITION AND SCOPE</h3>
-      <p>Subject added entry in which the entry element is a uniform title.</p>
-      <p>Subject added entries are assigned to a bibliographic record to provide access according
-         to established subject cataloging principles and guidelines. Field 630 may be used by
-         any institution assigning subject headings based on the lists and authority files
-                     identified in the second indicator position or in subfield $2 (Source of
-                     heading or term).
-      </p>
-      <p>Title used in phrase subject headings (e.g., Bible and atheism) is contained in field
-                     650 (Subject Added Entry-Topical Term).      </p>
-      <hr>
+      <div class="definition">
+         <div>
+            <p>Subject added entry in which the entry element is a uniform title.</p>
+         </div>
+         <div>
+            <p>Subject added entries are assigned to a bibliographic record to provide access according
+            to established subject cataloging principles and guidelines. Field 630 may be used by
+            any institution assigning subject headings based on the lists and authority files
+            identified in the second indicator position or in subfield $2 (Source of
+            heading or term).</p>
+            <p>Title used in phrase subject headings (e.g., Bible and atheism) is contained in field
+               650 (Subject Added Entry-Topical Term).
+            </p>
+         </div>
+      </div>
+      <hr />
       <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
-      <p>Description of the first indicator position and all subfield codes, as well as input
-                     conventions for the 630 field are given in the <em><a href="bdx30.html">X30 Uniform Titles-General
-                           Information</a></em> section. Because the second indicator is different for various
-                     fields, it is not described in the general information section, but is described
-                  below.
-      </p>
-      <h4><span class="box">&#9632;</span> INDICATORS
-      </h4>
-      <div class="indicator"><strong>Second Indicator - Thesaurus</strong> <div class="description">Subject heading system or thesaurus used in constructing the subject heading.
-            <div class="indicatorvalue"><strong>0 - Library of Congress Subject Headings</strong> <div class="description">Subject added entry conforms to and is appropriate for use in the <em>Library
-                                             of Congress Subject Headings</em> (LCSH) and the Name authority files that
-                                       are maintained by the Library of Congress.</div>
-            </div>
-            <div class="indicatorvalue"><strong>1 - LC subject headings for children's literature</strong> <div class="description">Subject added entry conforms to the "AC Subject Headings" section of the
-                                          <em>Library of Congress Subject Headings</em> and is appropriate for use in
-                                       the LC Annotated Card Program.
+      <div class="guidelines">
+         <div>
+            <p>Description of the first indicator position and all subfield codes, as well as input
+               conventions for the 630 field are given in the <a href="//www.loc.gov/marc/bibliographic/bdx30.html"><em>X30 Uniform Titles-General
+                     Information</em></a> section. Because the second indicator is different for various
+               fields, it is not described in the general information section, but is described
+               below.
+            </p>
+         </div>
+         <h4><span class="box">■</span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Thesaurus</strong></p>
+                  <div>
+                     <p>Subject heading system or thesaurus used in constructing the subject heading.</p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">0 - Library of Congress Subject Headings</span><div>
+                           <p>Subject added entry conforms to and is appropriate for use in the <em>Library
+                                 of Congress Subject Headings</em> (LCSH) and the Name authority files that
+                              are maintained by the Library of Congress.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - LC subject headings for children's literature</span><div>
+                           <p>Subject added entry conforms to the "AC Subject Headings" section of the
+                              <em>Library of Congress Subject Headings</em> and is appropriate for use in
+                              the LC Annotated Card Program.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - Medical Subject Headings</span><div>
+                           <p>Subject added entry conforms to and is appropriate for use in the National
+                              Library of Medicine authority files.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">3 - National Agricultural Library subject authority file</span><div>
+                           <p>Subject added entry conforms to and is appropriate for use in the National
+                              Agricultural Library subject authority file.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">4 - Source not specified</span><div>
+                           <p>Subject added entry conforms to a controlled list that cannot be identified by
+                     second indicator values 0-3, 5-6 or by a code in subfield $2. Field 653 (Index Term-Uncontrolled)
+                     is used to record terms that are not derived from controlled subject heading lists.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">5 - Canadian Subject Headings</span><div>
+                           <p>Subject added entry conforms to and is appropriate for use in the <em>Canadian
+                                 Subject Headings</em> that is maintained by the Library and Archives
+                              Canada.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">6 - Répertoire de vedettes-matière</span><div>
+                           <p>Subject added entry conforms to the <em>Répertoire de vedettes-matière</em>
+                              that is maintained by the Bibliothèque de l'Université Laval.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">7 - Source specified in subfield $2</span><div>
+                           <p>Subject added entry conforms to a set of subject heading system/thesaurus
+                     building rules. The identifying code is given in subfield $2.</p>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
-            <div class="indicatorvalue"><strong>2 - Medical Subject Headings</strong> <div class="description">Subject added entry conforms to and is appropriate for use in the National
-                                       Library of Medicine authority files.
-               </div>
-            </div>
-            <div class="indicatorvalue"><strong>3 - National Agricultural Library subject authority file</strong> <div class="description">Subject added entry conforms to and is appropriate for use in the National
-                                       Agricultural Library subject authority file.
-               </div>
-            </div>
-            <div class="indicatorvalue"><strong>4 - Source not specified</strong> <div class="description">Subject added entry conforms to a controlled list that cannot be identified by
-                                       second indicator values 0-3, 5-6 or by a code in subfield $2.Field 653 (Index Term-Uncontrolled) is used to record terms that are not
-                                       derived from controlled subject heading lists.
-               </div>
-            </div>
-            <div class="indicatorvalue"><strong>5 - Canadian Subject Headings</strong> <div class="description">Subject added entry conforms to and is appropriate for use in the <em>Canadian
-                                             Subject Headings</em> that is maintained by the Library and Archives
-                                    Canada.
-               </div>
-            </div>
-            <div class="indicatorvalue"><strong>6 - R&eacute;pertoire de vedettes-mati&egrave;re</strong> <div class="description">Subject added entry conforms to the <em>R&eacute;pertoire de vedettes-mati&egrave;re</em>
-                                       that is maintained by the Biblioth&egrave;que de l'Universit&eacute; Laval.
-               </div>
-            </div>
-            <div class="indicatorvalue"><strong>7 - Source specified in subfield $2</strong> <div class="description">Subject added entry conforms to a set of subject heading system/thesaurus
-                                       building rules. The identifying code is given in subfield $2.
-               </div>
+         </div>
+         <h4><span class="box">■ </span> EXAMPLES
+         </h4>
+         <div class="examplesec">
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>630</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>Bible.<strong>$l</strong>English<strong>$x</strong>Versions.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>630</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>Talmud<strong>$x</strong>Theology.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>630</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>Berliner revue<strong>$x</strong>History<strong>$y</strong>20th century.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>630</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>Ukrainian weekly<strong>$v</strong>Indexes<strong>$v</strong>Periodicals.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>630</strong></td>
+                     <td colspan="9"><strong>05</strong><strong>$a</strong>Studio magazine.<strong>$p</strong>Contemporary paintings<strong>$v</strong>Periodicals.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>630</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>Bible.<strong>$p</strong>N.T.<strong>$p</strong>Romans<strong>$x</strong>Geography<strong>$v</strong>Maps.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>630</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>Bible.<strong>$k</strong>Manuscripts.<strong>$l</strong>Latin.<strong>$p</strong>N.T.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>630</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>MS-DOS (Computer file)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>630</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>Four seasons (Motion picture : 1981)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>630</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>Domesday book,<strong>$e</strong>depicted.<em><span><br /><span>[Photo of the Domesday book.]</span></span></em></td>
+                  </tr>
+                  <tr>
+                     <td><strong>630</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>Farnese Hours,<strong>$e</strong>depicted.
+                     </td>
+                  </tr>
+               </table>
             </div>
          </div>
       </div>
-      <h4><span class="box">&#9632;</span> EXAMPLES
-      </h4>
-      <div class="example">
-         <table width="100%">
-            <tr>
-               <td valign="top" width="5%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="15%" align="left"></td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>630</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Bible.<strong>$l</strong>English<strong>$x</strong>Versions.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>630</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Talmud<strong>$x</strong>Theology.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>630</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Berliner revue<strong>$x</strong>History<strong>$y</strong>20th century.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>630</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Ukrainian weekly<strong>$v</strong>Indexes<strong>$v</strong>Periodicals.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>630</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>05</strong><strong>$a</strong>Studio magazine.<strong>$p</strong>Contemporary paintings<strong>$v</strong>Periodicals.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>630</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Bible.<strong>$p</strong>N.T.<strong>$p</strong>Romans<strong>$x</strong>Geography<strong>$v</strong>Maps.
-               </td>
-            </tr>
-           
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>630</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Bible.<strong>$k</strong>Manuscripts.<strong>$l</strong>Latin.<strong>$p</strong>N.T.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>630</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>MS-DOS (Computer file)
-               </td>
-            </tr>
-           
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>630</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Four seasons (Motion picture : 1981)
-               </td>
-            </tr>
-           
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>630</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Domesday book,<strong>$e</strong>depicted.<br><em>[Photo of the Domesday book.]</em></td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>630</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Farnese Hours,<strong>$e</strong>depicted.
-               </td>
-            </tr>
-       
-        
-           
-         </table>
-   </div>
-      <hr>
+      <hr />
       <h3>INPUT CONVENTIONS</h3>
-      <div class="description2"><strong>Display Constants</strong>
-        <div class="table">
-            <table width="684">
-               <tr>
-                  <td width="40" align="left" valign="top">-</td>
-                  <td width="632" align="left" valign="top"><em>[dash associated with the content of subfield $v,
-                                                      $x, $y, and $z]</em></td>
-               </tr>
-          </table>
-        </div>Dash (-) that precedes a subdivision in an extended 630 subject heading is not carried
-                     in the MARC record. It may be system generated as a display constant associated with the
-                     content of subfield $v, $x, $y, and $z.
-         <div class="example">
-            <table width="100%">
-               <tr>
-                  <td valign="top" width="5%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="10%" align="left"></td>
-                  <td valign="top" width="15%" align="left"></td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td width="100%">
-                     <div class="captiontext">Content designated field:</div>
-                  </td>
-               </tr>
-               <tr>
-                  <td vAlign="top" colspan="1" align="left"><strong>630</strong></td>
-                  <td vAlign="top" colspan="9" align="left"><strong>00</strong><strong>$a</strong>Beowulf<strong>$x</strong>Language<strong>$v</strong>Glossaries, etc.
-              <tr>
-                        <td></td>
-                        <td>
-                           <div class="displaytext">Display example:&nbsp;</div>
-                        </td>
-              </tr>
-                     <tr>
-                        <td></td>
-                        <td>
-                           <div class="displaycontent">Beowulf-Language-Glossaries, etc. </div>
-                        </td>
-                    
-               </tr>
-            </table>
+      <div class="conventions">
+         <div>
+            <p><strong>Display Constants</strong></p>
+            <div class="table">
+               <table>
+                  <tr>
+                     <td>-</td>
+                     <td><em>[dash associated with the content of subfield $v,
+                              $x, $y, and $z]</em></td>
+                  </tr>
+               </table>
+            </div>
+            <p>Dash (-) that precedes a subdivision in an extended 630 subject heading is not carried
+            in the MARC record. It may be system generated as a display constant associated with the
+            content of subfield $v, $x, $y, and $z.</p>
+            <div class="example">
+               <table>
+                  <tr>
+                     <td width="5%"> </td>
+                     <td colspan="9">
+                        <div class="captiontext">Content designated field:</div>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>630</strong></td>
+                     <td colspan="9"><strong>00</strong><strong>$a</strong>Beowulf<strong>$x</strong>Language<strong>$v</strong>Glossaries, etc.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td></td>
+                     <td colspan="9">
+                        <div class="captiontext">Display example:</div>Beowulf-Language-Glossaries, etc. 
+                     </td>
+                  </tr>
+               </table>
+            </div>
          </div>
-   </div>
-      <hr>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-         <tr valign="bottom">
-            <td>
-               <div class="head-nav"><a href="http://www.loc.gov/">Library of
-                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a> &gt;&gt; <strong>630</strong></div> 
-               (05/16/2008) 
-            </td>
-            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
-         </tr>
-      </table>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd6xx.html">6XX</a>  
+               
+               &gt;&gt;
+               <strong>630</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(10/20/2014)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#c6a8a2abb5a986aaa9a5e8a1a9b0" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

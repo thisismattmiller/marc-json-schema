@@ -14,16 +14,16 @@
             content="Library of Congress Network Development and MARC Standards Office" />
       <link href="../styles.css" rel="stylesheet" type="text/css" />
       <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
-   <script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
+   </head>
    <body class="full">
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>Â  
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd00x.html">00X</a>  
                
                &gt;&gt;
-               <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
+               <a href="//www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
                <strong>008 (Music)</strong></span></div>
       </div>
       <hr /><a name="skip_menu"></a><h1><span>008</span> - <span>Music</span><span> (NR)</span></h1>
@@ -335,7 +335,7 @@
       <hr />
       <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
       <div class="guidelines">
-         <h4><span class="box">â </span> CHARACTER POSITIONS
+         <h4><span class="box">■</span> CHARACTER POSITIONS
          </h4>
          <div class="characterPositions">
             <div><strong>18-19 - Form of composition (006/01-02)</strong><div>
@@ -598,10 +598,10 @@
                <div class="value">
                   <div><span class="valueLabel">tl - Teatro lirico</span><div>
                         <p>Used for a large number of more specific terms which describe 
-                           							Spanish and Spanish American theatre music: "tonadilla escÃ©nica", 
-                           							"fiestas de mÃºsica", 
-                           							"sainetes lÃ­ricos", "entremeses 
-                           							cÃ³mico-lÃ­rico," etc.
+                           							Spanish and Spanish American theatre music: "tonadilla escénica", 
+                           							"fiestas de música", 
+                           							"sainetes líricos", "entremeses 
+                           							cómico-lírico," etc.
                         </p>
                      </div>
                   </div>
@@ -623,7 +623,7 @@
                         <p>Characteristic form of Spanish polyphony, religious or secular, 
                            							from the 16th to 18th centuries. Religious villancicos were usually 
                            							sung in important ceremonies (including Christmas, when these 
-                           							songs were sometimes called âpastoradasâ).
+                           							songs were sometimes called “pastoradas”).
                         </p>
                      </div>
                   </div>
@@ -637,8 +637,8 @@
                <div class="value">
                   <div><span class="valueLabel">za - Zarzuelas</span><div>
                         <p>Term applicable to all musical plays taking that name, from the 
-                           							âfiestas de zarzuelaâ of the 17th/18th-centuries to the so-called 
-                           							âzarzuela modernaâ (âmodern zarzuelaâ) from the mid 19th to 
+                           							“fiestas de zarzuela” of the 17th/18th-centuries to the so-called 
+                           							“zarzuela moderna” (“modern zarzuela”) from the mid 19th to 
                            							the mid 20th-century.
                         </p>
                      </div>
@@ -1011,7 +1011,7 @@
                            </tr>
                            <tr>
                               <td>245</td>
-                              <td colspan="9">14$aDas MÃ¼nchner Kammerorchester spielt Werke
+                              <td colspan="9">14$aDas Münchner Kammerorchester spielt Werke
                                  								...
                               </td>
                            </tr>
@@ -1616,7 +1616,7 @@
                            </tr>
                            <tr>
                               <td>245</td>
-                              <td colspan="9">00$aPoÃ©sies et prose franÃ§aises ...</td>
+                              <td colspan="9">00$aPoésies et prose françaises ...</td>
                            </tr>
                         </table>
                      </div>
@@ -1982,16 +1982,16 @@
       </div>
       <hr class="clear" />
       <div class="head-nav">
-         <div class="noprint"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; 
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-            <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
-            <span class="caps"><a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a>Â  
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd00x.html">00X</a>  
                
                &gt;&gt;
-               <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
+               <a href="//www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
                <strong>008 (Music)</strong></span></div>
       </div>
       <div class="left"><span class="noprint">(04/29/2013)</span></div>
-      <div class="right"><a href="mailto:ndmso@loc.gov" class="noprint">Contact Us</a></div>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#e08e848d938fa08c8f83ce878f96" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

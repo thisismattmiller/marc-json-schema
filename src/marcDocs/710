@@ -1,574 +1,309 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-
-<html>
-<head>
-  <meta name="generator" content="HTML Tidy, see www.w3.org">
-  <meta http-equiv="Content-Type" content=
-  "text/html; charset=utf-8">
-
-  <title>MARC 21 Format for Bibliographic Data: 710: Added
-  Entry-Corporate Name (Network Development and MARC Standards
-  Office, Library of Congress)</title>
-  <meta http-equiv="Content-Type" content=
-  "text/html; charset=utf-8">
-  <meta name="description" content=
-  "This field contains the added entry-corporate name (Network Development and MARC Standards Office, Library of Congress)">
-  <meta name="keywords" content="marc, marc21, marc standards">
-  <meta name="author" content=
-  "Library of Congress Network Development and MARC Standards Office">
-  <link type="text/css" rel="stylesheet" href=
-  "update10-stylesheet.css">
-<script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
-
-<body>
-  <div class="head-nav">
-    <a href="http://www.loc.gov/">Library of Congress</a>
-    &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt;
-    <a href=
-    "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-    &gt;&gt; <a href=
-    "http://www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a>
-    &gt;&gt; <strong>710</strong>
-  </div>
-  <hr>
-  <a name="skip_menu" id="skip_menu"></a>
-
-  <h1>710 - Added Entry-Corporate Name (R)</h1>
-  <hr>
-
-  <div class="formatname">
-    MARC 21 Bibliographic - Full
-  </div>
-
-  <div class="datename">
-    October 2009
-  </div>
-  <hr>
-
-  <table width="100%">
-    <tr valign="top">
-      <td width="45%"><strong>First Indicator</strong><br>
-      <em>Type of corporate name entry element</em><br>
-      0 - Inverted name<br>
-      1 - Jurisdiction name<br>
-      2 - Name in direct order<br>
-      <br></td>
-
-      <td width="45%"><strong>Second Indicator</strong><br>
-      <em>Type of added entry</em><br>
-      # - No information provided<br>
-      2 - Analytical entry<br>
-      <br></td>
-    </tr>
-  </table>
-  <hr>
-
-  <table width="100%">
-    <tr valign="top">
-      <td valign="top" width="50%" align="left"></td>
-
-      <td valign="top" width="50%" align="left"></td>
-    </tr>
-
-    <tr valign="top">
-      <td colspan="2"><strong>Subfield Codes</strong><br></td>
-    </tr>
-
-    <tr valign="top">
-      <td colspan="1">$a - Corporate name or jurisdiction name as
-      entry element (NR)<br>
-      $b - Subordinate unit (R)<br>
-      $c - Location of meeting (NR)<br>
-      $d - Date of meeting or treaty signing (R)<br>
-      $e - Relator term (R)<br>
-      $f - Date of a work (NR)<br>
-      $g - Miscellaneous information (NR)<br>
-      $h - Medium (NR)<br>
-      $i - Relationship information (R)<br>
-      $k - Form subheading (R)<br>
-      $l - Language of a work (NR)<br>
-      $m - Medium of performance for music (R)<br>
-      $n - Number of part/section/meeting (R)<br></td>
-
-      <td colspan="1">$o - Arranged statement for music (NR)<br>
-      $p - Name of part/section of a work (R)<br>
-      $r - Key for music (NR)<br>
-      $s - Version (NR)<br>
-      $t - Title of a work (NR)<br>
-      $u - Affiliation (NR)<br>
-      $x - International Standard Serial Number (NR)<br>
-      $0 - Authority record control number (R)<br>
-      $3 - Materials specified (NR)<br>
-      $4 - Relator code (R)<br>
-      $5 - Institution to which field applies (NR)<br>
-      $6 - Linkage (NR)<br>
-      $8 - Field link and sequence number (R)<br></td>
-    </tr>
-  </table>
-  <hr>
-
-  <h3>FIELD DEFINITION AND SCOPE</h3>
-
-  <p>Added entry in which the entry element is a corporate
-  name.</p>
-
-  <p>Added entries are assigned according to various cataloging
-  rules to give access to the bibliographic record from corporate
-  name headings which may not be more appropriately assigned as
-  610 (Subject Added Entry-Corporate Name) or 810 (Series Added
-  Entry-Corporate Name) fields.</p>
-  <hr>
-
-  <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
-
-  <p>Description of the first indicator position and all subfield
-  codes, as well as input conventions for the 710 field are given
-  in the <em><a href="bdx10.html">X10 Corporate Names-General
-  Information</a></em> section. Because the second indicator is
-  different for various fields, it is not described in the
-  general information section, but is described below.</p>
-
-  <h4><span class="box">â </span> INDICATORS</h4>
-
-  <div class="indicator">
-    <strong>Second Indicator - Type of added entry</strong>
-
-    <div class="description">
-      Distinguishes between an analytical entry and no
-      information provided.
-
-      <div class="indicatorvalue">
-        <strong># - No information provided</strong>
-
-        <div class="description">
-          Used when the added entry is not for an analytic or
-          when no information is provided as to whether the added
-          entry is for an analytic.
-
-          <div class="example">
-            <table width="100%">
-              <tr>
-                <td valign="top" width="5%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="15%" align="left"></td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                245</td>
-
-                <td valign="top" colspan="9" align="left">
-                00$aCarbohydrate chemistry.</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                260</td>
-
-                <td valign="top" colspan="9" align="left">
-                ##$aLondon :$bChemical Society.</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                <strong>710</strong></td>
-
-                <td valign="top" colspan="9" align="left">
-                <strong>2#</strong><strong>$a</strong>Chemical
-                Society (Great Britain)</td>
-              </tr>
-            </table>
-          </div>
-
-          <div class="example">
-            <table width="100%">
-              <tr>
-                <td valign="top" width="5%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="15%" align="left"></td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                100</td>
-
-                <td valign="top" colspan="9" align="left">
-                2#$aKrishna Moorthy, K.$q(Krishma),$d1927-</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                245</td>
-
-                <td valign="top" colspan="9" align="left">
-                10$aTechnology transfer :$bIndia's iron &amp;
-                steel: an ICRIER research study with experts'
-                comments /$cK. Krishna Moorthy.</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                <strong>710</strong></td>
-
-                <td valign="top" colspan="9" align="left">
-                <strong>2#</strong><strong>$a</strong>Indian
-                Council for Research on International Economic
-                Relations.</td>
-              </tr>
-            </table>
-          </div>
-
-          <div class="example">
-            <table width="100%">
-              <tr>
-                <td valign="top" width="5%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="15%" align="left"></td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                100</td>
-
-                <td valign="top" colspan="9" align="left">
-                1#$aGotshaw, F. Marco.</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                245</td>
-
-                <td valign="top" colspan="9" align="left">
-                10$aJourneyman's guide to the National Electrical
-                Code /$cFurman Marco Gotshaw.</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                <strong>710</strong></td>
-
-                <td valign="top" colspan="9" align="left">
-                <strong>2#</strong><strong>$a</strong>National
-                Fire Protection
-                Association.<strong>$t</strong>National
-                electrical code (1993)</td>
-              </tr>
-            </table>
-          </div>
-        </div>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 710:
+         Added Entry-Corporate Name (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a>  
+               
+               &gt;&gt;
+               <strong>710</strong></span></div>
       </div>
-
-      <div class="indicatorvalue">
-        <strong>2 - Analytical entry</strong>
-
-        <div class="description">
-          Item in hand contains the work that is represented by
-          the added entry.
-
-          <div class="example">
-            <table width="100%">
-              <tr>
-                <td valign="top" width="5%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="10%" align="left"></td>
-
-                <td valign="top" width="15%" align="left"></td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                100</td>
-
-                <td valign="top" colspan="9" align="left">
-                1#$aFernandex, Perfecto V.</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                245</td>
-
-                <td valign="top" colspan="9" align="left">
-                10$aPrimer on labor law, 1982-92/$cby Perfecto V.
-                Fernandez.</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                500</td>
-
-                <td valign="top" colspan="9" align="left">
-                ##$aIncludes text of the Philippines labor
-                relations law.</td>
-              </tr>
-
-              <tr>
-                <td valign="top" colspan="1" align="left">
-                <strong>710</strong></td>
-
-                <td valign="top" colspan="9" align="left">
-                <strong>12</strong><strong>$a</strong>Philippines.<strong>
-                $t</strong>Labor code of the
-                Philippines.<strong>$n</strong>Book
-                5,<strong>$p</strong>Labor
-                relations.<strong>$f</strong>1981.</td>
-              </tr>
-            </table>
-          </div>
-        </div>
+      <hr /><a name="skip_menu"></a><h1><span>710</span> - <span>Added Entry-Corporate Name</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">October 2014</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Type of corporate name entry element</em><br /><span>0 - Inverted name</span><br /><span>1 - Jurisdiction name</span><br /><span>2 - Name in direct order</span><br /><br /></td>
+            <td><em>Type of added entry</em><br /><span># - No information provided</span><br /><span>2 - Analytical entry</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Corporate name or jurisdiction name as entry element<span> (NR)</span></li>
+                  <li>$b - Subordinate unit<span> (R)</span></li>
+                  <li>$c - Location of meeting<span> (R)</span></li>
+                  <li>$d - Date of meeting or treaty signing<span> (R)</span></li>
+                  <li>$e - Relator term<span> (R)</span></li>
+                  <li>$f - Date of a work<span> (NR)</span></li>
+                  <li>$g - Miscellaneous information<span> (R)</span></li>
+                  <li>$h - Medium<span> (NR)</span></li>
+                  <li>$i - Relationship information<span> (R)</span></li>
+                  <li>$k - Form subheading<span> (R)</span></li>
+                  <li>$l - Language of a work<span> (NR)</span></li>
+                  <li>$m - Medium of performance for music<span> (R)</span></li>
+                  <li>$n - Number of part/section/meeting<span> (R)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$o - Arranged statement for music<span> (NR)</span></li>
+                  <li>$p - Name of part/section of a work<span> (R)</span></li>
+                  <li>$r - Key for music<span> (NR)</span></li>
+                  <li>$s - Version<span> (NR)</span></li>
+                  <li>$t - Title of a work<span> (NR)</span></li>
+                  <li>$u - Affiliation<span> (NR)</span></li>
+                  <li>$x - International Standard Serial Number<span> (NR)</span></li>
+                  <li>$0 - Authority record control number or standard number<span> (R)</span></li>
+                  <li>$3 - Materials specified<span> (NR)</span></li>
+                  <li>$4 - Relator code<span> (R)</span></li>
+                  <li>$5 - Institution to which field applies<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Added entry in which the entry element is a corporate name.</p>
+         </div>
+         <div>
+            <p>Added entries are assigned according to various cataloging rules to give access to
+               the
+               				bibliographic record from corporate name headings which may not be more appropriately
+               				assigned as 610 (Subject Added Entry-Corporate Name) or 810 (Series Added Entry-Corporate
+               				Name) fields.
+            </p>
+         </div>
       </div>
-    </div>
-  </div>
-
-  <h4><span class="box">â </span> EXAMPLES</h4>
-
-  <div class="example">
-    <table width="100%">
-      <tr>
-        <td valign="top" width="5%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="10%" align="left"></td>
-
-        <td valign="top" width="15%" align="left"></td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>1#</strong><strong>$a</strong>Minnesota.<strong>$b</strong>Constitutional
-        Convention<strong>$d</strong>(1857
-        :<strong>$g</strong>Republican)</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>2#</strong><strong>$a</strong>Herbert E. Budek
-        Films and Slides (Firm)</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>1#</strong><strong>$a</strong>United
-        States.<strong>$b</strong>Army Map
-        Service.<strong>$t</strong>Eastern United States
-        1:250,000.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>1#</strong><strong>$a</strong>France.<strong>$t</strong>Treaties,
-        etc.<strong>$g</strong>Poland,<strong>$d</strong>1948
-        Mar. 2.<strong>$k</strong>Protocols,
-        etc.,<strong>$d</strong>1951 Mar. 6.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>1#</strong><strong>$a</strong>Canada.<strong>$k</strong>Treaties,
-        etc.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>2#</strong><strong>$a</strong>New Orleans Blue
-        Serenaders.<strong>$4</strong>prf</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>2#</strong><strong>$a</strong>WGBH (Television
-        station : Boston, Mass.)</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>2#</strong><strong>$a</strong>Hallmark Collection
-        (Library of Congress)<strong>$5</strong>DLC</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>2#</strong><strong>$a</strong>Bridgewater
-        Library,<strong>$e</strong>former
-        owner.<strong>$5</strong>NjP</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>1#</strong><strong>$a</strong>Algeria.<strong>$t</strong>Treaties,
-        etc.<strong>$g</strong>England and
-        Wales,<strong>$d</strong>1682 Apr. 20.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>22</strong><strong>$a</strong>Catholic
-        Church.<strong>$t</strong>Mass, 33rd Sunday of ordinary
-        time (Chant).<strong>$f</strong>1979.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>22</strong><strong>$a</strong>Catholic
-        Church.<strong>$b</strong>Pope (1958-1963 : John
-        XXIII).<strong>$t</strong>Mater et
-        magistra.<strong>$l</strong>French.<strong>$k</strong>Selections.<strong>
-        $f</strong>1963.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>1#</strong><strong>$a</strong>United
-        States.<strong>$t</strong>Constitution.<strong>$p</strong>13th
-        Amendment.</td>
-      </tr>
-
-      <tr>
-        <td valign="top" colspan="1" align="left">
-        <strong>710</strong></td>
-
-        <td valign="top" colspan="9" align="left">
-        <strong>1#</strong><strong>$a</strong>Ecuador.<strong>$t</strong>Plan
-        Nacional de Desarrollo,
-        1980-1984.<strong>$n</strong>Parte
-        1,<strong>$p</strong>Grandes objetivos
-        nacionales.<strong>$l</strong>English.</td>
-      </tr>
-    </table>
-  </div>
-  <hr>
-
-  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr valign="bottom">
-      <td>
-        <div class="head-nav">
-          <a href="http://www.loc.gov/">Library of Congress</a>
-          &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a>
-          &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-          &gt;&gt; <a href=
-          "http://www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a>
-          &gt;&gt; <strong>710</strong>
-        </div>(11/12/2009)
-      </td>
-
-      <td align="right"><a href="mailto:ndmso@loc.gov">Contact
-      Us</a></td>
-    </tr>
-  </table>
-<script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p>Description of the first indicator position and all subfield codes, as well as input
+               				conventions for the 710 field are given in the <a href="//www.loc.gov/marc/bibliographic/bdx10.html"><em>X10 Corporate
+                     						Names-General Information</em></a> section. Because the second indicator is different for various fields, it
+               				is not described in the general information section, but is described below.
+            </p>
+         </div>
+         <h4><span class="box">■</span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Type of added entry</strong></p>
+                  <div>
+                     <p>Distinguishes between an analytical entry and no information provided.</p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - No information provided</span><div>
+                           <p>Used when the added entry is not for an analytic or when no information is provided
+                              							as to whether the added entry is for an analytic.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td>245</td>
+                                 <td colspan="9">00$aCarbohydrate chemistry.</td>
+                              </tr>
+                              <tr>
+                                 <td>260</td>
+                                 <td colspan="9">##$aLondon :$bChemical Society.</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>710</strong></td>
+                                 <td colspan="9"><strong>2#</strong><strong>$a</strong>Chemical Society (Great Britain)
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td>100</td>
+                                 <td colspan="9">2#$aKrishna Moorthy, K.$q(Krishma),$d1927-</td>
+                              </tr>
+                              <tr>
+                                 <td>245</td>
+                                 <td colspan="9">10$aTechnology transfer :$bIndia's iron &amp; steel: an ICRIER research study with
+                                    									experts' comments /$cK. Krishna Moorthy.
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>710</strong></td>
+                                 <td colspan="9"><strong>2#</strong><strong>$a</strong>Indian Council for Research on International Economic
+                                    									Relations.
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td>100</td>
+                                 <td colspan="9">1#$aGotshaw, F. Marco.</td>
+                              </tr>
+                              <tr>
+                                 <td>245</td>
+                                 <td colspan="9">10$aJourneyman's guide to the National Electrical Code /$cFurman Marco Gotshaw.</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>710</strong></td>
+                                 <td colspan="9"><strong>2#</strong><strong>$a</strong>National Fire Protection Association.<strong>$t</strong>National electrical code (1993)
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - Analytical entry</span><div>
+                           <p>Item in hand contains the work that is represented by the added entry.</p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td>100</td>
+                                 <td colspan="9">1#$aFernandex, Perfecto V.</td>
+                              </tr>
+                              <tr>
+                                 <td>245</td>
+                                 <td colspan="9">10$aPrimer on labor law, 1982-92/$cby Perfecto V. Fernandez.</td>
+                              </tr>
+                              <tr>
+                                 <td>500</td>
+                                 <td colspan="9">##$aIncludes text of the Philippines labor relations
+                                    								law.
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>710</strong></td>
+                                 <td colspan="9"><strong>12</strong><strong>$a</strong>Philippines.<strong>$t</strong>Labor code of the Philippines.<strong>$n</strong>Book 5,<strong>$p</strong>Labor relations.<strong>$f</strong>1981.
+                                 </td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">■ </span> EXAMPLES
+         </h4>
+         <div class="examplesec">
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Minnesota.<strong>$b</strong>Constitutional Convention<strong>$d</strong>(1857 :<strong>$g</strong>Republican)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>Herbert E. Budek Films and Slides (Firm)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>United States.<strong>$b</strong>Army Map Service.<strong>$t</strong>Eastern United States 1:250,000.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>France.<strong>$t</strong>Treaties, etc.<strong>$g</strong>Poland,<strong>$d</strong>1948 Mar. 2.<strong>$k</strong>Protocols, etc.,<strong>$d</strong>1951 Mar. 6.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Canada.<strong>$k</strong>Treaties, etc.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>New Orleans Blue Serenaders.<strong>$4</strong>prf
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>WGBH (Television station : Boston, Mass.)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>Hallmark Collection (Library of Congress)<strong>$5</strong>DLC
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>2#</strong><strong>$a</strong>Bridgewater Library,<strong>$e</strong>former owner.<strong>$5</strong>NjP
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Algeria.<strong>$t</strong>Treaties, etc.<strong>$g</strong>England and Wales,<strong>$d</strong>1682 Apr. 20.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>22</strong><strong>$a</strong>Catholic Church.<strong>$t</strong>Mass, 33rd Sunday of ordinary time (Chant).<strong>$f</strong>1979.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>22</strong><strong>$a</strong>Catholic Church.<strong>$b</strong>Pope (1958-1963 : John XXIII).<strong>$t</strong>Mater et magistra.<strong>$l</strong>French.<strong>$k</strong>Selections.<strong>$f</strong>1963.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>United States.<strong>$t</strong>Constitution.<strong>$p</strong>13th Amendment.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>710</strong></td>
+                     <td colspan="9"><strong>1#</strong><strong>$a</strong>Ecuador.<strong>$t</strong>Plan Nacional de Desarrollo, 1980-1984.<strong>$n</strong>Parte 1,<strong>$p</strong>Grandes objetivos nacionales.<strong>$l</strong>English.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd70x75x.html">70X-75X</a>  
+               
+               &gt;&gt;
+               <strong>710</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(10/20/2014)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#deb0bab3adb19eb2b1bdf0b9b1a8" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

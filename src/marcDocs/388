@@ -1,0 +1,305 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 388:
+         Time Period of Creation (Network Development and MARC Standards
+         Office, Library of Congress)
+      </title>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>  
+               
+               &gt;&gt;
+               <strong>388</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>388</span> - <span>Time Period of Creation</span><span> (R)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">October 2014</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Type of time period</em><br /><span># - No information provided</span><br /><span>1 - Creation of work</span><br /><span>2 - Creation of aggregate work</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
+         </tr>
+      </table>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
+         </tr>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
+         </tr>
+         <tr>
+            <td>
+               <ul class="nomark">
+                  <li>$a - Time period of creation term<span> (R)</span></li>
+                  <li>$0 - Authority record control number or standard number<span> (R)</span></li>
+                  <li>$2 - Source of term<span> (NR)</span></li>
+               </ul>
+            </td>
+            <td>
+               <ul class="nomark">
+                  <li>$3 - Materials specified<span> (NR)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
+         </tr>
+      </table>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>The time period of creation or origin of the work or expression (including aggregate
+               works), or of the works
+               	    	or expressions contained in an aggregation.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p></p>
+         </div>
+         <h4><span class="box">■</span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>First Indicator - Type of time period</strong></p>
+                  <div>
+                     <p></p>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel"># - No information provided</span><div>
+                           <p></p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">1 - Creation of work</span><div>
+                           <p>The time period of creation or origin of the work/expression, or of the components
+                              of an aggregate work/expression considered collectively.
+                           </p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td>046</td>
+                                 <td colspan="9">##$k07uu/1100$2edtf</td>
+                              </tr>
+                              <tr>
+                                 <td>245</td>
+                                 <td colspan="9">00$aBeowulf</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>388</strong></td>
+                                 <td colspan="9"><strong>1#</strong><strong>$a</strong>Anglo-Saxon period<strong>$2</strong>[source code for controlled vocabulary]<em><span><br />
+                                 <span>[A work originally written between the 8th and 11th centuries A.D.]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td>046</td>
+                                 <td colspan="9">##$o-07uu/-05uu$p06uu$2edtf</td>
+                              </tr>
+                              <tr>
+                                 <td>245</td>
+                                 <td colspan="9">00$aBroken laughter :$bselect fragments of Greek comedy.</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>388</strong></td>
+                                 <td colspan="9"><strong>1#</strong><strong>$a</strong>Ancient period<strong>$2</strong>[source code for controlled vocabulary]<em><span><br /><span>[An aggregation of ancient Greek fragments, the dates of which could
+                                             	      				range from the 8th-6th centuries B.C. to the 7th century A.D.]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="value">
+                     <div><span class="valueLabel">2 - Creation of aggregate work</span><div>
+                           <p>The time period of creation or origin of an aggregate work/expression.</p>
+                        </div>
+                        <div class="example">
+                           <table>
+                              <tr>
+                                 <td>046</td>
+                                 <td colspan="9">##$k1985$l9999$o1801$p1899</td>
+                              </tr>
+                              <tr>
+                                 <td>245</td>
+                                 <td colspan="9">00$aNineteenth century English drama$h[microform]</td>
+                              </tr>
+                              <tr>
+                                 <td><strong>388</strong></td>
+                                 <td colspan="9"><strong>1#</strong><strong>$a</strong>19th century<strong>$2</strong>[source code for controlled vocabulary]
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td><strong>388</strong></td>
+                                 <td colspan="9"><strong>2#</strong><strong>$a</strong>20th century<strong>$a</strong>21st century<strong>$2</strong>[source code for controlled vocabulary]<em><span><br /><span>[A set of English drama originally created from 1800-1899 and aggregated in a microform
+                                             set beginning in 1985]</span></span></em></td>
+                              </tr>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Undefined</strong></p>
+                  <div>
+                     <p>Undefined and contains a blank (#).</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">■</span> SUBFIELD CODES
+         </h4>
+         <div class="subfields">
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$a - Time period of creation term</strong> 
+                  </p>
+                  <div>
+                     <p>A term that indicates the time period of creation or orgin of the work/expression
+                        (including aggregate works), or of the works
+                        						or expressions contained in an aggregation.
+                     </p>
+                  </div>
+                  <div class="example">
+                     <table>
+                        <tr>
+                           <td>046</td>
+                           <td colspan="9">##$k1980$o1781$p1791</td>
+                        </tr>
+                        <tr>
+                           <td>100</td>
+                           <td colspan="9">1#$aMozart, Wolfgang Amadeus,$d1756-1791.</td>
+                        </tr>
+                        <tr>
+                           <td>245</td>
+                           <td colspan="9">10$aDie grossen Opern.</td>
+                        </tr>
+                        <tr>
+                           <td><strong>388</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>1781-1791<strong>$2</strong>fast
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>388</strong></td>
+                           <td colspan="9"><strong>1#</strong><strong>$a</strong>18th century<strong>$2</strong>[source code for controlled vocabulary]
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><strong>388</strong></td>
+                           <td colspan="9"><strong>2#</strong><strong>$a</strong>1980<strong>$2</strong>fast<em><span><br /><span>[An aggregate work released in 1980, containing the individual works that were created
+                                       from 1781-1791]</span></span></em></td>
+                        </tr>
+                     </table>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$0 - Authority record control number or standard number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$2 - Source of term</strong> 
+                  </p>
+                  <div>
+                     <p>Specifies a code that identifies the source of a controlled vocabulary used in $a.</p>
+                  </div>
+                  <div>
+                     <p>Code from: <em><a href="//www.loc.gov/standards/sourcelist/temporal.html">Temporal Term
+                              						Source Codes</a></em>.
+                        					
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$3 - Materials specified</strong> 
+                  </p>
+                  <div>
+                     <p>Part of the described materials to which the field
+                        						applies.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$6 - Linkage</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="subfield">
+               <div>
+                  <p class="label"><strong>$8 - Field link and sequence number</strong> 
+                  </p>
+                  <div>
+                     <p>See description of this subfield in Appendix A: <em><a href="//www.loc.gov/marc/bibliographic/ecbdcntf.html">Control Subfields</a></em>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="historyField">
+            <div><em>Field 388 - Time Period of Creation [NEW, 2014]</em></div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd3xx.html">3XX</a>  
+               
+               &gt;&gt;
+               <strong>388</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(10/20/2014)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#c0aea4adb3af80acafa3eea7afb6" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>

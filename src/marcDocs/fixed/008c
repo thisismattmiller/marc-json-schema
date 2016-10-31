@@ -1,1123 +1,1087 @@
 <!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html40/loose.dtd">
-<html>
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   
-      <title>MARC 21 Format for Bibliographic Data: 008: Computer Files 
-         					 (Network Development and MARC Standards Office, Library of
-         					Congress)
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 008:
+         Computer Files (Network Development and MARC Standards
+         Office, Library of Congress)
       </title>
-      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-      <meta name="description" content="This field contains the 008 for computer files (Network Development and MARC Standards Office, Library of Congress)">
-      <meta name="keywords" content="marc, marc21, marc standards">
-      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
-      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
-					body {margin-left: 2em; margin-right: 2em;} 
-					h1 {font-family:Arial, Helvetica, sans-serif;}
-					h3 {text-align:left;}
-					h4 {margin-top:.5em; margin-bottom:.5em;}
-					p {text-align:justify; margin-left:2em; margin-right:2em;}
-					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
-					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
-					.font_small {font-size:9pt;}
-					.fieldtoc {margin-left:2em;}
-					.box {font-family:ZapfDingbats;}
-					.description {text-align:justify; margin-left:2em;}
-					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
-					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
-					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
-					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
-					.example {margin-left:4em;}
-					.changed {color: #FF0000;}
-					.captiontext {font-style:italic;}
-					.displaytext {font-style:italic; margin-left:6em; margin-bottom:.5em; margin-top:.5em;}
-					.displaycontent {margin-left:4em;}
-					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
-					.summary {margin-left:2em;}
-					.summarytable {margin-left:4em;}
-				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
-   <body>
-      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a> 
-         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt; <strong>008 (Computer Files) </strong></div>
-      <hr><a name="skip_menu"></a><h1>008 - Computer Files (NR)</h1>
-      <hr>
-      <div class="formatname">MARC 21 Bibliographic - Full</div>
-      <div class="datename">February 2010</div>
-      <hr><strong>Indicators and Subfield Codes</strong><div class="description">Field has no indicators or subfield codes; the data elements are positionally
-                  defined.
-      </div>
-      <table width="100%">
-         <tr vAlign="top">
-            <td width="45%"><strong>Character Positions</strong><br>
-              <strong>18-21 - Undefined  (006/01-04) </strong><br>
-                # - Undefined<br>
-                 | - No attempt to code<br>
-              <br>
-              <strong>22 - Target audience  (006/05) </strong><br>
-              # - Unknown or not specified <br>a - Preschool <br>b - Primary <br>c - Pre-adolescent <br>d - Adolescent <br>e - Adult <br>f - Specialized <br>g - General <br>j - Juvenile <br>| - No attempt to code <br><br>
-              <strong>23 - Form of item  (006/06) </strong><br>
-              # - Unknown or not specified<br>
-              o - Online<br>
-              q - Direct electronic<br>
-              | - No attempt to code<br>
-              <br>
-                 <strong>24-25 - Undefined  (006/07-08) </strong><br>
-                  # - Undefined<br>
-                   | - No attempt to code<br>
-             <br>
-             <strong>26 - Type of computer file  (006/09) </strong><br>
-             a - Numeric data <br>
-             b - Computer program <br>
-             c - Representational <br>
-             d - Document <br>
-             e - Bibliographic data <br>
-             f - Font <br>
-             g - Game <br>
-             h - Sound <br>
-             i - Interactive multimedia <br>
-             j - Online system or service <br>
-             m - Combination <br>
-             u - Unknown <br>
-             z - Other <br>
-             | - No attempt to code <br>
-           <br></td>
-            <td width="45%"><br>
-               <strong>27 - Undefined  (006/10) </strong><br>
-                 # - Undefined<br>
-                  | - No attempt to code<br>
-           <br>
-             <strong>28 - Government publication  (006/11) </strong><br>
-           # - Not a government publication <br>a - Autonomous or semi-autonomous component <br>c - Multilocal <br>f - Federal/national <br>i - International intergovernmental <br>l - Local <br>m - Multistate <br>o - Government publication-level undetermined <br>s - State, provincial, territorial, dependent, etc. <br>u - Unknown if item is government publication <br>z - Other <br>| - No attempt to code <br><br>
-           <strong>29-34 - Undefined  (006/12-17) </strong><br>
-             # - Undefined<br>
-              | - No attempt to code<br>
-           <br></td>
-         </tr>
-   </table>
-      <hr>
-      <h3>CHARACTER POSITION  DEFINITION AND SCOPE</h3>
-      <p><strong>Computer files</strong> definition of field 008/18-34 is used when Leader/06
-                     (Type of record) contains code m. Field 008 positions 01-17 and 35-39 are defined the
-                     same in all 008 fields and are described in the <em>008-All materials</em> section.
-      </p>
-      <p>Field 008/18-34 correspond to equivalent positionally defined data elements in field
-                     006/01-17 when field 006/00 (Form of material) contains code m (Computer file/Electronic
-                     resource). Details about specific codes defined for the equivalent character positions
-                     in field 006 and 008 for <strong>computer files</strong> are provided in the
-                        <em>Guidelines for Applying Content Designators</em> section of <em>008-Computer
-                           files</em> only.      </p>
-      <hr>
-      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
-      <h4><span class="box">&#9632;</span> CHARACTER POSITIONS
-      </h4>
-      <div class="characterposition"><strong>18-21 - Undefined   (006/01-04) </strong><div class="description">Four undefined character positions; each contains a blank (#) or a fill character (|).</div>
-      </div>
-      <hr>
-      <div class="characterposition"><strong>22 - Target audience   (006/05) </strong><div class="description">One-character alphabetic code indicates the target audience for which
-                              the material is intended.
-         </div>
-         <div class="description2">
-            <div class="description">Used primarily for educational electronic materials. When items with factual
-                                 content are considered appropriate for more than one target audience, the code is
-                                 recorded for the primary target audience.
-            </div>
-            <div class="description3">If the record has both reading grade and interest age information present in the
-                                 521 (Target Audience Note) field, 008/22 is coded based on the interest age
-                                 information.
-            </div>
-         </div>
-         <div class="charactervalue"><strong># - Unknown or not specified</strong> <div class="description">Target audience for which the material is intended is unknown or is not
-                                    specified.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
-                     <td vAlign="top" colspan="8" align="left">#</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">245</td>
-                     <td vAlign="top" colspan="9" align="left">10$aMacPoint$h[electronic resource] /$cwritten by Bill Atkinson.</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>a - Preschool</strong> <div class="description">Intended for children, approximate ages 0-5 years.</div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
-                     <td vAlign="top" colspan="8" align="left">a</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">245</td>
-                     <td vAlign="top" colspan="9" align="left">00$aSesame Street letters for you$h[electronic resource].</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>b - Primary</strong> <div class="description">Intended for children, approximate ages 6-8 years.</div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="9%" align="left"></td>
-                     <td valign="top" width="6%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
-                     <td vAlign="top" colspan="8" align="left">b</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">245</td>
-                     <td vAlign="top" colspan="9" align="left">10$aAlphabet zoo$h[electronic resource].</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>c - Pre-adolescent</strong> <div class="description">Intended for young people, approximate ages 9-13.</div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="9%" align="left"></td>
-                     <td valign="top" width="6%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
-                     <td vAlign="top" colspan="8" align="left">c</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">245</td>
-                     <td vAlign="top" colspan="9" align="left">10$aEating for good health$h[electronic resource] /$cwritten by Del Surette.</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>d - Adolescent</strong> <div class="description">Intended for young people, approximate ages 14-17.</div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="9%" align="left"></td>
-                     <td valign="top" width="6%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
-                     <td vAlign="top" colspan="8" align="left">d</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">245</td>
-                     <td vAlign="top" colspan="9" align="left">10$aBumble plot$h[electronic resource] /$cby Leslie Grimm ; artist, Corinne.</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>e - Adult</strong> <div class="description">Intended for adults.</div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="9%" align="left"></td>
-                     <td valign="top" width="6%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
-                     <td vAlign="top" colspan="8" align="left">e</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">245</td>
-                     <td vAlign="top" colspan="9" align="left">00$aMaInTax 1985$h[electronic resource] /$cdeveloped by Michael W. Morgan ...</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>f - Specialized</strong> <div class="description">Aimed at a particular audience and the nature of the presentation would make
-                                    the item of little interest to other audiences. Examples of items which are
-                                    coded f include: 1) technical software geared to a very specialized audience
-                                    and 2) items which address a limited audience, for example, the employees of a
-                                    single organization.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="9%" align="left"></td>
-                     <td valign="top" width="6%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
-                     <td vAlign="top" colspan="8" align="left">f</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">245</td>
-                     <td vAlign="top" colspan="9" align="left">00$aDimensional analysis$h[electronic resource] :$bengineering software ...</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>g - General</strong> <div class="description">Of general interest and not aimed at an audience of a particular intellectual
-                                    level. Used for fictional works that are not covered more appropriately by one
-                                    of the other codes.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="9%" align="left"></td>
-                     <td valign="top" width="6%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
-                     <td vAlign="top" colspan="8" align="left">g</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">245</td>
-                     <td vAlign="top" colspan="9" align="left">00$a[Lode runner]$h[electronic resource].</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>j - Juvenile</strong> <div class="description">Intended for use by children and young people, approximate ages 0-15. Used when
-                                    one does not want to more specifically code for the juvenile target
-                                 audience.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="9%" align="left"></td>
-                     <td valign="top" width="6%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/22</strong></td>
-                     <td vAlign="top" colspan="8" align="left">j</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">245</td>
-                     <td vAlign="top" colspan="9" align="left">00$aEasy color paint$h[electronic resource].</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
-      </div>
-      <hr>
-        <div class="characterposition"><strong>23 - Form of item   (006/06) </strong><div class="description">One-character alphabetic code that specifies the form of material for the item.</div>
-                <div class="charactervalue"><strong># - Unknown or not specified</strong>
-                 </div>
-               <div class="charactervalue"><strong>o - Online</strong> <em></em><div class="description">The resource is accessed by means of hardware and software connections to a
-                  communications network.
-               </div>
-               </div>
-               <div class="charactervalue"><strong>q - Direct electronic</strong> <em></em><div class="description">Storage on a directly accessible tangible recording medium, e.g. disc, tape, playaway
-                  device, flashdrive, portable hard drive, etc.
-               </div>
-               </div>
-               <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
-         </div>
-         <hr>
-      <div class="characterposition"><strong>24-25 - Undefined   (006/07-08) </strong>
-        <div class="description">Two undefined character positions; each contains a blank (#) or a fill character
-                              (|).
-         </div>
-      </div>
-      <hr>
-      <div class="characterposition"><strong>26 - Type of computer file   (006/09) </strong><div class="description">One-character alphabetic code that indicates the type of computer file described
-                              in the bibliographic record.
-         </div>
-         <div class="description2">
-            <div class="description">Specific type of electronic resource is also described in textual form in field
-                                 516 (Type of Computer File or Data Note).
-            </div>
-         </div>
-         <div class="charactervalue"><strong>a - Numeric data</strong> <div class="description">Mostly numbers or representation by numbers, such as records containing all
-                                    information on student test scores, all information on football team
-                                    statistics, etc. Information may be original surveys and/or information that
-                                    has been summarized or statistically manipulated.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="9%" align="left"></td>
-                     <td valign="top" width="6%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/26</strong></td>
-                     <td vAlign="top" colspan="8" align="left">a</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">516</td>
-                     <td vAlign="top" colspan="9" align="left">##$aNumeric data</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>b - Computer program</strong> <div class="description">Ordered set of instructions directing the computer to perform basic operations
-                                    and identifying the information and mechanisms required. Includes videogames
-                                    and microcomputer software and computer models. Some types of computer programs
-                                    (e.g., game, font) are identified by separate codes in this character
-                                 position.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/26</strong></td>
-                     <td vAlign="top" colspan="8" align="left">b</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">516</td>
-                     <td vAlign="top" colspan="9" align="left">##$aComputer programs</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>c - Representational</strong> <div class="description">Pictorial or graphic information that can be manipulated in conjunction with
-                                    other types of files to produce graphic patterns that can be used to interpret
-                                    and give meaning to the information.
-            </div>
-            <div class="description2">
-               <div class="description">Does not include a document in image format.</div>
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="9%" align="left"></td>
-                     <td valign="top" width="6%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/26</strong></td>
-                     <td vAlign="top" colspan="8" align="left">c</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">516</td>
-                     <td vAlign="top" colspan="9" align="left">##$aGraphic data (Architectural
-                                                drawings)
-                     </td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>d - Document</strong> <div class="description">Textual, consisting mostly of alphabetic information (words or sentences)
-                                    converted into a coded format that can be processed, sorted, and manipulated by
-                                    machine, and then retrieved in many optional formats. Includes language
-                                    material intended to constitute a textual document, whether represented as
-                                    ASCII or image data. Includes both single bibliographic entities or a
-                                    collection of bibliographic entities. Documents whose primary purpose is
-                                    textual, even if search software is present, are coded here.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="9%" align="left"></td>
-                     <td valign="top" width="6%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/26</strong></td>
-                     <td vAlign="top" colspan="8" align="left">d</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">516</td>
-                     <td vAlign="top" colspan="9" align="left">##$aText (Law reports and digests)</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>e - Bibliographic data</strong> <div class="description">Data with bibliographic citations. Includes data from library catalogs or
-                                    citation databases. The data may be in a structured or unstructured form.
-                                    Search software may be present, but the purpose of the record is description of
-                                    the content of the bibliographic data or database, rather than description of
-                                    the online system or service.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="9%" align="left"></td>
-                     <td valign="top" width="6%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/26</strong></td>
-                     <td vAlign="top" colspan="8" align="left">e</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">516</td>
-                     <td vAlign="top" colspan="9" align="left">##$aLibrary catalog</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>f - Font</strong> <div class="description">Information for a computer to produce fonts.</div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/26</strong></td>
-                     <td vAlign="top" colspan="8" align="left">f</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">516</td>
-                     <td vAlign="top" colspan="9" align="left">##$aFonts (Bitmapped and PostScript)</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>g - Game</strong> <div class="description">Intended for recreational or educational use. Generally games consist of text
-                                    and software. A videogame is included here.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/26</strong></td>
-                     <td vAlign="top" colspan="8" align="left">g</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">516</td>
-                     <td vAlign="top" colspan="9" align="left">##$aComputer game</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>h - Sound</strong> <div class="description">Data encoding sounds producible by the computer.</div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/26</strong></td>
-                     <td vAlign="top" colspan="8" align="left">h</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">516</td>
-                     <td vAlign="top" colspan="9" align="left">##$aAudio data (Digital audio file)</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>i - Interactive multimedia</strong> <div class="description">Supports navigation through and manipulation of many kinds of media (i.e.,
-                                    audio, video, etc.). Interactive multimedia usually gives the user a high level
-                                    of control, often allowing almost conversational interaction with the computer
-                                    and data.
-            </div>
-         </div>
-         <div class="charactervalue"><strong>j - Online system or service</strong> <div class="description">May contain nonbibliographic information. An online system or service supports
-                                    system-based user interaction. If the focus of the record is to describe the
-                                    system itself, with the content of the databases incidental contained therein,
-                                    it is coded here. If the resource is an online file where the system is
-                                    incidental to the description, it falls into another category. Examples of
-                                    online systems or services are: online library systems (consisting of a variety
-                                    of databases), FTP sites, electronic bulletin boards, network information
-                                    centers.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/26</strong></td>
-                     <td vAlign="top" colspan="8" align="left">j</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">516</td>
-                     <td vAlign="top" colspan="9" align="left">##$aCampus-wide information system</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>m - Combination</strong> <div class="description">Combination of two or more of the above types of files.</div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="9%" align="left"></td>
-                     <td valign="top" width="6%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/26</strong></td>
-                     <td vAlign="top" colspan="8" align="left">m</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">516</td>
-                     <td vAlign="top" colspan="9" align="left">##$aComputer programs and text files</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>u - Unknown</strong> <div class="description">Type of file is unknown.</div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/26</strong></td>
-                     <td vAlign="top" colspan="8" align="left">u</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other defined codes are appropriate.</div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/26</strong></td>
-                     <td vAlign="top" colspan="8" align="left">z</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">516</td>
-                     <td vAlign="top" colspan="9" align="left">##$aMailing list</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
-      </div>
-      <hr>
-      <div class="characterposition"><strong>27 - Undefined   (006/10) </strong><div class="description">Undefined; contains a blank (#) or a fill character (|).</div>
-      </div>
-      <hr>
-      <div class="characterposition"><strong>28 - Government publication   (006/11) </strong><div class="description">One-character alphabetic code that indicates whether the computer file is
-                              published or produced by or for an international, national, provincial, state, or
-                              local government agency (including intergovermental bodies of all types), any
-                              subdivision of such a body and, if so, the jurisdictional level of the agency.
-         </div>
-         <div class="description2">
-            <div class="description">Government bodies and all their subdivisions are treated as government bodies
-                                 regardless of how they may be entered as headings (i.e., entered under
-                                 jurisdiction or not). In the bibliographic record, the body does not have to be a
-                                 main or added entry, but it should be named as publisher, etc. in the publication,
-                                 distribution, etc. area, or have caused the item to be published (usually inferred
-                                 when the governmental body is responsible for the content of the work). When in
-                                 doubt, treat the item as a government publication.
-            </div>
-         </div>
-         <div class="description2">
-            <div class="description"><strong>Guidelines for certain types of publications</strong></div>
-            <ul>
-               <li class="nobullet"><strong>Socialist countries</strong>- Since the coding of all items published
-                                       in socialist countries as government publications would limit the usefulness of
-                                       this element, coding should be used only for the same type of bodies that would
-                                       be considered government in a non-socialist country. In coding items in this
-                                       manner, when in doubt, treat the item as a government publication.
-               </li>
-               <li class="nobullet"><strong>Two levels</strong>- If an item is published or produced jointly by
-                                       government agencies at two different levels, record the code for the higher
-                                       government level.
-               </li>
-               <li class="nobullet"><strong>Academic publications</strong>- In the U.S., items published by
-                                       academic institutions are considered government publications if the
-                                       institutions are created or controlled by a government.
-               </li>
-               <li class="nobullet"><strong>University presses</strong>- In the U.S., items published by university
-                                       presses are considered government publications if the presses are created or
-                                       controlled by a government (e.g., state university presses in the United
-                                       States).
-               </li>
-            </ul>
-         </div>
-         <div class="charactervalue"><strong># - Not a government publication</strong> <div class="description">Not published by or for a government body.</div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
-                     <td vAlign="top" colspan="8" align="left">#</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">110</td>
-                     <td vAlign="top" colspan="9" align="left">2#$aSentinel Software Ltd.</td>
-                  </tr>
-               </table>
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
-                     <td vAlign="top" colspan="8" align="left">#</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">130</td>
-                     <td vAlign="top" colspan="9" align="left">0#$aMs. Pac-Man.</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>a - Autonomous or semi-autonomous component</strong> <div class="description">Published or produced by or for a government body of an autonomous or
-                                    semi-autonomous component of a country.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
-                     <td vAlign="top" colspan="8" align="left">a</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">110</td>
-                     <td vAlign="top" colspan="9" align="left">1#$aSabah.</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>c - Multilocal</strong> <div class="description">Published or produced by or for a multilocal jurisdiction which is defined as a
-                                    regional combination of jurisdictions below the state level.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
-                     <td vAlign="top" colspan="8" align="left">c</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">110</td>
-                     <td vAlign="top" colspan="9" align="left">2#$aHouston Independent School District.</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>f - Federal/national</strong> <div class="description">Published or produced by or for a federal or national government body, e.g., a
-                                    sovereign nation, such as Canada. Used for the governments of England, Wales,
-                                    Scotland, and Northern Ireland. Code f is also used for American Indian
-                                 tribes.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
-                     <td vAlign="top" colspan="8" align="left">f</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">110</td>
-                     <td vAlign="top" colspan="9" align="left">2#$aCentre national de la recherche scientifique
-                                                   (France)
-                     </td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>i - International intergovernmental</strong> <div class="description">Published or produced by or for an international intergovernmental body.</div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
-                     <td vAlign="top" colspan="8" align="left">i</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">110</td>
-                     <td vAlign="top" colspan="9" align="left">2#$aUnesco.</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>l - Local</strong> <div class="description">Published or produced by or for a local government jurisdiction such as a
-                                    county, city, town, etc.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
-                     <td vAlign="top" colspan="8" align="left">l</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">110</td>
-                     <td vAlign="top" colspan="9" align="left">1#$aSchiedam (Netherlands)</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>m - Multistate</strong> <div class="description">Published or produced by or for a regional combination of jurisdictions at the
-                                    state, provincial, territorial, etc., level.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
-                     <td vAlign="top" colspan="8" align="left">m</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">110</td>
-                     <td vAlign="top" colspan="9" align="left">2#$aCouncil of State Governments.</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>o - Government publication-level undetermined</strong> <div class="description">Published or produced by or for a government body but that the jurisdictional
-                                    level cannot be determined.
-            </div>
-         </div>
-         <div class="charactervalue"><strong>s - State, provincial, territorial, dependent, etc.</strong> <div class="description">Jurisdictional level of the government body that published or produced an item
-                                    is a state, province, territory, etc.
-            </div>
-            <div class="example">
-               <table width="100%">
-                  <tr>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="5%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="10%" align="left"></td>
-                     <td valign="top" width="15%" align="left"></td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left"><strong>008/28</strong></td>
-                     <td vAlign="top" colspan="8" align="left">s</td>
-                  </tr>
-                  <tr>
-                     <td vAlign="top" colspan="1" align="left">110</td>
-                     <td vAlign="top" colspan="9" align="left">1#$aVirginia.$bDivision of Motor Vehicles.</td>
-                  </tr>
-               </table>
-            </div>
-         </div>
-         <div class="charactervalue"><strong>u - Unknown if item is government publication</strong> <div class="description">Whether or not the item is published or produced by or for a government agency
-                                    is unknown.
-            </div>
-         </div>
-         <div class="charactervalue"><strong>z - Other</strong> <div class="description">None of the other defined codes are appropriate.</div>
-         </div>
-         <div class="charactervalue"><strong>| - No attempt to code</strong> </div>
-      </div>
-      <hr>
-      <div class="characterposition"><strong>29-34 - Undefined   (006/12-17) </strong>
-        <div class="description">Six undefined character positions; each contains a blank (#) or a fill character
-                              (|).
-        </div>
-   </div>
-      <hr>
-      <h3>INPUT CONVENTIONS</h3>
-      <div class="description2"><strong>Capitalization</strong> - Alphabetic codes are input in lowercase.
-      </div>
-      <div class="description2"><strong>Field length</strong> - Field 008 should always consist of forty (40) character positions.
-      </div>
-      <hr>
-      <h3>CONTENT DESIGNATOR HISTORY</h3>
-      <div class="font_small"><br><em>008/18 - Frequency [OBSOLETE, 1995]</em><div class="description">Defined codes were: # (No determinable frequency), a (Annual), b (Bimonthly), c
-                           (Semiweekly), d (Daily), e (Biweekly), f (Semiannual), g (Biennial), h (Triennial), i
-                           (Three times a week), j (Three times a month), m (Monthly), n (Not applicable), q
-                           (Quarterly), s (Semimonthly), t (Three times a year), u (Unknown), w (Weekly), and z
-                           (Other). For serially issued computer files, frequency can be coded in field 006/01
-                           configured for serials.
-         </div><br><br><em>008/19 - Regularity [OBSOLETE, 1995]</em><div class="description">Defined codes were: # (Not applicable), n (Normalized irregular), r (Regular), x
-                           (Completely irregular), and u (Unknown). For serially issued computer files,
-                           regularity can be coded in field 006/02 configured for serials.
-         </div><br><br><em>008/22 - Target audience [NEW, 1988] [USMARC only]</em><div class="description">Prior to the definition of this element, the byte was undefined. Prior to 1993, when
-                           code j (Juvenile) was defined, juvenile materials could only be identified by codes a
-                           (Preschool), b (Primary), and c (Elementary and junior high).
-         </div>
-         <div class="charactervaluehistory"><em>c - Elementary and junior high [RENAMED, 2002]</em></div>
-         <div class="charactervaluehistory"><em>d - Secondary (senior high) [RENAMED, 2002]</em></div><br><br>
-            <em>008/23 - Form of item [NEW, 2010]</em>
-           <div class="description">Prior to the definition of this element, the byte was undefined and contained a blank (#) or a fill character
-             (|).</div>
-            <div class="charactervaluehistory"><em>o - Online [NEW, 2010]</em>
-            </div>
-            <div class="charactervaluehistory"><em>q - Direct electronic [NEW, 2010]</em></div><br><br>
+      <meta name="description" content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author" content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
             
-       <em>008/27 - Type of machine [OBSOLETE, 1989]</em><div class="description">Defined codes were: a (Computer readable), z (Other).</div>
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd00x.html">00X</a>  
+               
+               &gt;&gt;
+               <a href="//www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
+               <strong>008 (Computer Files)</strong></span></div>
       </div>
-      <hr>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-         <tr valign="bottom">
+      <hr /><a name="skip_menu"></a><h1><span>008</span> - <span>Computer Files</span><span> (NR)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">April 2015</div>
+      <hr />
+      <h4>Indicators and Subfield Codes</h4>
+      <div class="wildcard">
+         <div>
+            <p>Field has no indicators or subfield codes; the data elements are positionally
+               defined.
+            </p>
+         </div>
+      </div>
+      <table width="100%" class="characterPositions">
+         <tr>
+            <td width="45%"><strong>Character Positions</strong></td>
+            <td width="45%"></td>
+         </tr>
+         <tr>
+            <td colspan="2"><span><strong>18-21 - Undefined (006/01-04)</strong></span></td>
+         </tr>
+         <tr>
             <td>
-               <div class="head-nav"><a href="http://www.loc.gov/">Library of
-                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd00x.html">00X</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt; <strong>008 (Computer Files) </strong></div> 
-               (03/05/2010) 
+               <dl>
+                  <dd># - Undefined</dd>
+               </dl>
             </td>
-            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+            <td>
+               <dl>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>22 - Target audience (006/05)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Unknown or not specified</dd>
+                  <dd>a - Preschool</dd>
+                  <dd>b - Primary</dd>
+                  <dd>c - Pre-adolescent</dd>
+                  <dd>d - Adolescent</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>e - Adult</dd>
+                  <dd>f - Specialized</dd>
+                  <dd>g - General</dd>
+                  <dd>j - Juvenile</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>23 - Form of item (006/06)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Unknown or not specified</dd>
+                  <dd>o - Online</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>q - Direct electronic</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>24-25 - Undefined (006/07-08)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Undefined</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>26 - Type of computer file (006/09)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd>a - Numeric data</dd>
+                  <dd>b - Computer program</dd>
+                  <dd>c - Representational</dd>
+                  <dd>d - Document</dd>
+                  <dd>e - Bibliographic data</dd>
+                  <dd>f - Font</dd>
+                  <dd>g - Game</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>h - Sound</dd>
+                  <dd>i - Interactive multimedia</dd>
+                  <dd>j - Online system or service</dd>
+                  <dd>m - Combination</dd>
+                  <dd>u - Unknown</dd>
+                  <dd>z - Other</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>27 - Undefined (006/10)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Undefined</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>28 - Government publication (006/11)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Not a government publication</dd>
+                  <dd>a - Autonomous or semi-autonomous component</dd>
+                  <dd>c - Multilocal</dd>
+                  <dd>f - Federal/national</dd>
+                  <dd>i - International intergovernmental</dd>
+                  <dd>l - Local</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>m - Multistate</dd>
+                  <dd>o - Government publication-level undetermined</dd>
+                  <dd>s - State, provincial, territorial, dependent, etc.</dd>
+                  <dd>u - Unknown if item is government publication</dd>
+                  <dd>z - Other</dd>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" class="characterPositionTitle"><span><strong>29-34 - Undefined (006/12-17)</strong></span></td>
+         </tr>
+         <tr>
+            <td>
+               <dl>
+                  <dd># - Undefined</dd>
+               </dl>
+            </td>
+            <td>
+               <dl>
+                  <dd>| - No attempt to code</dd>
+               </dl>
+            </td>
          </tr>
       </table>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p><strong>Computer files</strong> definition of field 008/18-34 is used when Leader/06
+               (Type of record) contains code m. Field 008 positions 01-17 and 35-39 are defined
+               the
+               same in all 008 fields and are described in the <em>008-All materials</em> section.
+            </p>
+            <p>Field 008/18-34 correspond to equivalent positionally defined data elements in field
+               006/01-17 when field 006/00 (Form of material) contains code m (Computer file/Electronic
+               resource). Details about specific codes defined for the equivalent character positions
+               in field 006 and 008 for <strong>computer files</strong> are provided in the
+               <em>Guidelines for Applying Content Designators</em> section of <em>008-Computer
+                  files</em> only.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <h4><span class="box">■</span> CHARACTER POSITIONS
+         </h4>
+         <div class="characterPositions">
+            <div><strong>18-21 - Undefined (006/01-04)</strong><div>
+                  <p>Four undefined character positions; each contains a blank (#) or a fill character
+                     (|).
+                  </p>
+               </div>
+            </div>
+            <hr />
+            <div><strong>22 - Target audience (006/05)</strong><div>
+                  <p>One-character alphabetic code indicates the target audience for which
+                     the material is intended.
+                  </p>
+               </div>
+               <div>
+                  <p>Used primarily for educational electronic materials. When items with factual
+                     content are considered appropriate for more than one target audience, the code is
+                     recorded for the primary target audience.
+                  </p>
+                  <p>If the record has both reading grade and interest age information present in the
+                     521 (Target Audience Note) field, 008/22 is coded based on the interest age
+                     information.
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Unknown or not specified</span><div>
+                        <p>Target audience for which the material is intended is unknown or is not
+                           specified.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/22</strong></td>
+                              <td colspan="9">#</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">10$aMacPoint$h[electronic resource] /$cwritten by Bill Atkinson.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Preschool</span><div>
+                        <p>Intended for children, approximate ages 0-5 years.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/22</strong></td>
+                              <td colspan="9">a</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">00$aSesame Street letters for you$h[electronic resource].</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Primary</span><div>
+                        <p>Intended for children, approximate ages 6-8 years.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/22</strong></td>
+                              <td colspan="9">b</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">10$aAlphabet zoo$h[electronic resource].</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Pre-adolescent</span><div>
+                        <p>Intended for young people, approximate ages 9-13.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/22</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">10$aEating for good health$h[electronic resource] /$cwritten by Del Surette.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Adolescent</span><div>
+                        <p>Intended for young people, approximate ages 14-17.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/22</strong></td>
+                              <td colspan="9">d</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">10$aBumble plot$h[electronic resource] /$cby Leslie Grimm ; artist, Corinne.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">e - Adult</span><div>
+                        <p>Intended for adults.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/22</strong></td>
+                              <td colspan="9">e</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">00$aMaInTax 1985$h[electronic resource] /$cdeveloped by Michael W. Morgan ...</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Specialized</span><div>
+                        <p>Aimed at a particular audience and the nature of the presentation would make
+                           the item of little interest to other audiences. Examples of items which are
+                           coded f include: 1) technical software geared to a very specialized audience
+                           and 2) items which address a limited audience, for example, the employees of a
+                           single organization.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/22</strong></td>
+                              <td colspan="9">f</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">00$aDimensional analysis$h[electronic resource] :$bengineering software ...</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">g - General</span><div>
+                        <p>Of general interest and not aimed at an audience of a particular intellectual
+                           level. Used for fictional works that are not covered more appropriately by one
+                           of the other codes.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/22</strong></td>
+                              <td colspan="9">g</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">00$a[Lode runner]$h[electronic resource].</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">j - Juvenile</span><div>
+                        <p>Intended for use by children and young people, approximate ages 0-15. Used when
+                           one does not want to more specifically code for the juvenile target
+                           audience.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/22</strong></td>
+                              <td colspan="9">j</td>
+                           </tr>
+                           <tr>
+                              <td>245</td>
+                              <td colspan="9">00$aEasy color paint$h[electronic resource].</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>23 - Form of item (006/06)</strong><div>
+                  <p>One-character alphabetic code that specifies the form of material for the item.</p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Unknown or not specified</span></div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">o - Online</span><div>
+                        <p>The resource is accessed by means of hardware and software connections to a
+                           communications network.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">q - Direct electronic</span><div>
+                        <p>Storage on a directly accessible tangible recording medium, e.g. disc, tape, playaway
+                           device, flashdrive, portable hard drive, etc.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>24-25 - Undefined (006/07-08)</strong><div>
+                  <p>Two undefined character positions; each contains a blank (#) or a fill character
+                     (|).
+                  </p>
+               </div>
+            </div>
+            <hr />
+            <div><strong>26 - Type of computer file (006/09)</strong><div>
+                  <p>One-character alphabetic code that indicates the type of computer file described
+                     in the bibliographic record.
+                  </p>
+               </div>
+               <div>
+                  <p>Specific type of electronic resource is also described in textual form in field
+                     516 (Type of Computer File or Data Note).
+                  </p>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Numeric data</span><div>
+                        <p>Mostly numbers or representation by numbers, such as records containing all
+                           information on student test scores, all information on football team
+                           statistics, etc. Information may be original surveys and/or information that
+                           has been summarized or statistically manipulated.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/26</strong></td>
+                              <td colspan="9">a</td>
+                           </tr>
+                           <tr>
+                              <td>516</td>
+                              <td colspan="9">##$aNumeric data</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">b - Computer program</span><div>
+                        <p>Ordered set of instructions directing the computer to perform basic operations
+                           and identifying the information and mechanisms required. Includes videogames
+                           and microcomputer software and computer models. Some types of computer programs
+                           (e.g., game, font) are identified by separate codes in this character
+                           position.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/26</strong></td>
+                              <td colspan="9">b</td>
+                           </tr>
+                           <tr>
+                              <td>516</td>
+                              <td colspan="9">##$aComputer programs</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Representational</span><div>
+                        <p>Pictorial or graphic information that can be manipulated in conjunction with
+                           other types of files to produce graphic patterns that can be used to interpret
+                           and give meaning to the information.
+                        </p>
+                     </div>
+                     <div>
+                        <p>Does not include a document in image format.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/26</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td>516</td>
+                              <td colspan="9">##$aGraphic data (Architectural
+                                 drawings)
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">d - Document</span><div>
+                        <p>Textual, consisting mostly of alphabetic information (words or sentences)
+                           converted into a coded format that can be processed, sorted, and manipulated by
+                           machine, and then retrieved in many optional formats. Includes language
+                           material intended to constitute a textual document, whether represented as
+                           ASCII or image data. Includes both single bibliographic entities or a
+                           collection of bibliographic entities. Documents whose primary purpose is
+                           textual, even if search software is present, are coded here.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/26</strong></td>
+                              <td colspan="9">d</td>
+                           </tr>
+                           <tr>
+                              <td>516</td>
+                              <td colspan="9">##$aText (Law reports and digests)</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">e - Bibliographic data</span><div>
+                        <p>Data with bibliographic citations. Includes data from library catalogs or
+                           citation databases. The data may be in a structured or unstructured form.
+                           Search software may be present, but the purpose of the record is description of
+                           the content of the bibliographic data or database, rather than description of
+                           the online system or service.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/26</strong></td>
+                              <td colspan="9">e</td>
+                           </tr>
+                           <tr>
+                              <td>516</td>
+                              <td colspan="9">##$aLibrary catalog</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Font</span><div>
+                        <p>Information for a computer to produce fonts.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/26</strong></td>
+                              <td colspan="9">f</td>
+                           </tr>
+                           <tr>
+                              <td>516</td>
+                              <td colspan="9">##$aFonts (Bitmapped and PostScript)</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">g - Game</span><div>
+                        <p>Intended for recreational or educational use. Generally games consist of text
+                           and software. A videogame is included here.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/26</strong></td>
+                              <td colspan="9">g</td>
+                           </tr>
+                           <tr>
+                              <td>516</td>
+                              <td colspan="9">##$aComputer game</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">h - Sound</span><div>
+                        <p>Data encoding sounds producible by the computer.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/26</strong></td>
+                              <td colspan="9">h</td>
+                           </tr>
+                           <tr>
+                              <td>516</td>
+                              <td colspan="9">##$aAudio data (Digital audio file)</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">i - Interactive multimedia</span><div>
+                        <p>Supports navigation through and manipulation of many kinds of media (i.e.,
+                           audio, video, etc.). Interactive multimedia usually gives the user a high level
+                           of control, often allowing almost conversational interaction with the computer
+                           and data.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">j - Online system or service</span><div>
+                        <p>May contain nonbibliographic information. An online system or service supports
+                           system-based user interaction. If the focus of the record is to describe the
+                           system itself, with the content of the databases incidental contained therein,
+                           it is coded here. If the resource is an online file where the system is
+                           incidental to the description, it falls into another category. Examples of
+                           online systems or services are: online library systems (consisting of a variety
+                           of databases), FTP sites, electronic bulletin boards, network information
+                           centers.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/26</strong></td>
+                              <td colspan="9">j</td>
+                           </tr>
+                           <tr>
+                              <td>516</td>
+                              <td colspan="9">##$aCampus-wide information system</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">m - Combination</span><div>
+                        <p>Combination of two or more of the above types of files.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/26</strong></td>
+                              <td colspan="9">m</td>
+                           </tr>
+                           <tr>
+                              <td>516</td>
+                              <td colspan="9">##$aComputer programs and text files</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Unknown</span><div>
+                        <p>Type of file is unknown.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/26</strong></td>
+                              <td colspan="9">u</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">z - Other</span><div>
+                        <p>None of the other defined codes are appropriate.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/26</strong></td>
+                              <td colspan="9">z</td>
+                           </tr>
+                           <tr>
+                              <td>516</td>
+                              <td colspan="9">##$aMailing list</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>27 - Undefined (006/10)</strong><div>
+                  <p>Undefined; contains a blank (#) or a fill character (|).</p>
+               </div>
+            </div>
+            <hr />
+            <div><strong>28 - Government publication (006/11)</strong><div>
+                  <p>One-character alphabetic code that indicates whether the computer file is
+                     published or produced by or for an international, national, provincial, state, or
+                     local government agency (including intergovermental bodies of all types), any
+                     subdivision of such a body and, if so, the jurisdictional level of the agency.
+                  </p>
+               </div>
+               <div>
+                  <p>Government bodies and all their subdivisions are treated as government bodies
+                     regardless of how they may be entered as headings (i.e., entered under
+                     jurisdiction or not). In the bibliographic record, the body does not have to be a
+                     main or added entry, but it should be named as publisher, etc. in the publication,
+                     distribution, etc. area, or have caused the item to be published (usually inferred
+                     when the governmental body is responsible for the content of the work). When in
+                     doubt, treat the item as a government publication.
+                  </p>
+               </div>
+               <div>
+                  <p><strong>Guidelines for certain types of publications</strong></p>
+                  <ul>
+                     <li><strong>Socialist countries</strong>- Since the coding of all items published
+                        in socialist countries as government publications would limit the usefulness of
+                        this element, coding should be used only for the same type of bodies that would
+                        be considered government in a non-socialist country. In coding items in this
+                        manner, when in doubt, treat the item as a government publication.
+                     </li>
+                     <li><strong>Two levels</strong>- If an item is published or produced jointly by
+                        government agencies at two different levels, record the code for the higher
+                        government level.
+                     </li>
+                     <li><strong>Academic publications</strong>- In the U.S., items published by
+                        academic institutions are considered government publications if the
+                        institutions are created or controlled by a government.
+                     </li>
+                  </ul>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel"># - Not a government publication</span><div>
+                        <p>Not published by or for a government body.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">#</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">2#$aSentinel Software Ltd.</td>
+                           </tr>
+                        </table>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">#</td>
+                           </tr>
+                           <tr>
+                              <td>130</td>
+                              <td colspan="9">0#$aMs. Pac-Man.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">a - Autonomous or semi-autonomous component</span><div>
+                        <p>Published or produced by or for a government body of an autonomous or
+                           semi-autonomous component of a country.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">a</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">1#$aSabah.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">c - Multilocal</span><div>
+                        <p>Published or produced by or for a multilocal jurisdiction which is defined as a
+                           regional combination of jurisdictions below the state level.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">c</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">2#$aHouston Independent School District.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">f - Federal/national</span><div>
+                        <p>Published or produced by or for a federal or national government body, e.g., a
+                           sovereign nation, such as Canada. Used for the governments of England, Wales,
+                           Scotland, and Northern Ireland. Code f is also used for American Indian
+                           tribes.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">f</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">2#$aCentre national de la recherche scientifique
+                                 (France)
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">i - International intergovernmental</span><div>
+                        <p>Published or produced by or for an international intergovernmental body.</p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">i</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">2#$aUnesco.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">l - Local</span><div>
+                        <p>Published or produced by or for a local government jurisdiction such as a
+                           county, city, town, etc.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">l</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">1#$aSchiedam (Netherlands)</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">m - Multistate</span><div>
+                        <p>Published or produced by or for a regional combination of jurisdictions at the
+                           state, provincial, territorial, etc., level.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">m</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">2#$aCouncil of State Governments.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">o - Government publication-level undetermined</span><div>
+                        <p>Published or produced by or for a government body but that the jurisdictional
+                           level cannot be determined.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">s - State, provincial, territorial, dependent, etc.</span><div>
+                        <p>Jurisdictional level of the government body that published or produced an item
+                           is a state, province, territory, etc.
+                        </p>
+                     </div>
+                     <div class="example">
+                        <table>
+                           <tr>
+                              <td><strong>008/28</strong></td>
+                              <td colspan="9">s</td>
+                           </tr>
+                           <tr>
+                              <td>110</td>
+                              <td colspan="9">1#$aVirginia.$bDivision of Motor Vehicles.</td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">u - Unknown if item is government publication</span><div>
+                        <p>Whether or not the item is published or produced by or for a government agency
+                           is unknown.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">z - Other</span><div>
+                        <p>None of the other defined codes are appropriate.</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="value">
+                  <div><span class="valueLabel">| - No attempt to code</span></div>
+               </div>
+            </div>
+            <hr />
+            <div><strong>29-34 - Undefined (006/12-17)</strong><div>
+                  <p>Six undefined character positions; each contains a blank (#) or a fill character
+                     (|).
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>INPUT CONVENTIONS</h3>
+      <div class="conventions">
+         <div>
+            <p><strong>Capitalization - </strong>Alphabetic codes are input in lowercase.
+            </p>
+         </div>
+         <div>
+            <p><strong>Field length - </strong>Field 008 should always consist of forty (40) character positions.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div class="characterPositionHistory">
+            <div><em>008/18 - Frequency [OBSOLETE, 1995]</em><div class="characterPositionHistoryDsc">
+                  <p>Defined codes were: # (No determinable frequency), a (Annual), b (Bimonthly), c
+                     (Semiweekly), d (Daily), e (Biweekly), f (Semiannual), g (Biennial), h (Triennial),
+                     i
+                     (Three times a week), j (Three times a month), m (Monthly), n (Not applicable), q
+                     (Quarterly), s (Semimonthly), t (Three times a year), u (Unknown), w (Weekly), and
+                     z
+                     (Other). For serially issued computer files, frequency can be coded in field 006/01
+                     configured for serials.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/19 - Regularity [OBSOLETE, 1995]</em><div class="characterPositionHistoryDsc">
+                  <p>Defined codes were: # (Not applicable), n (Normalized irregular), r (Regular), x
+                     (Completely irregular), and u (Unknown). For serially issued computer files,
+                     regularity can be coded in field 006/02 configured for serials.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/22 - Target audience [NEW, 1988] [USMARC only]</em><div class="characterPositionHistoryDsc">
+                  <p>Prior to the definition of this element, the byte was undefined. Prior to 1993, when
+                     code j (Juvenile) was defined, juvenile materials could only be identified by codes
+                     a
+                     (Preschool), b (Primary), and c (Elementary and junior high).
+                  </p>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">c - Elementary and junior high [RENAMED, 2002]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">d - Secondary (senior high) [RENAMED, 2002]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/23 - Form of item [NEW, 2010]</em><div class="characterPositionHistoryDsc">
+                  <p>Prior to the definition of this element, the byte was undefined and contained 
+                     a blank (#) or a fill character (|).
+                  </p>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">o - Online [NEW, 2010]</div>
+                  </div>
+               </div>
+               <div class="charactervaluehistory">
+                  <div>
+                     <div class="charactervaluehistoryLabel">q - Direct electronic [NEW, 2010]</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/27 - Type of machine [OBSOLETE, 1989]</em><div class="characterPositionHistoryDsc">
+                  <p>Defined codes were: a (Computer readable), z (Other).</p>
+               </div>
+            </div>
+         </div>
+         <div class="characterPositionHistory">
+            <div><em>008/28 - Government publication</em><div class="characterPositionHistoryDsc">
+                  <p>Prior to 2015, university press publications were included as examples of government
+                     publications.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd00x.html">00X</a>  
+               
+               &gt;&gt;
+               <a href="//www.loc.gov/marc/bibliographic/bd008.html">008</a> &gt;&gt;
+               <strong>008 (Computer Files)</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(04/29/2015)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#046a6069776b44686b672a636b72" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>

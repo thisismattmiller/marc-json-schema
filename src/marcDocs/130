@@ -1,246 +1,266 @@
 <!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   
-      <title>MARC 21 Format for Bibliographic Data: 130: Main Entry-Uniform Title (Network Development and MARC Standards Office, Library of Congress)
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>MARC 21 Format for Bibliographic Data: 130:
+         Main Entry-Uniform Title (Network Development and MARC Standards
+         Office, Library of Congress)
       </title>
-      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-      <meta name="description" content="This field contains the main entry-uniform title (Network Development and MARC Standards Office, Library of Congress)">
-      <meta name="keywords" content="marc, marc21, marc standards">
-      <meta name="author" content="Library of Congress Network Development and MARC Standards Office">
-      <link href="http://www.loc.gov/marc/marc-generic.css" rel="stylesheet" type="text/css"><style type="text/css">
-					body {margin-left: 2em; margin-right: 2em;} 
-					h1 {font-family:Arial, Helvetica, sans-serif;}
-					h3 {text-align:left;}
-					h4 {margin-top:.5em; margin-bottom:.5em;}
-					p {text-align:justify; margin-left:2em; margin-right:2em;}
-					.formatname {font-weight:bold; font-family:Arial, Helvetica, sans-serif; margin-left:.5em}
-					.datename {font-weight:bold; text-align:right; font-family:Arial, Helvetica, sans-serif; margin-top:-1.2em;}
-					.font_small {font-size:9pt;}
-					.fieldtoc {margin-left:2em;}
-					.box {font-family:ZapfDingbats;}
-					.description {text-align:justify; margin-left:2em;}
-					.description2  {text-align:justify; margin-top:1em; margin-bottom:1em;}
-					.description3 {text-align:justify; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.indicator {text-align:left; margin-top:1em; margin-bottom:1em;}
-					.indicatorvalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.subfield {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.characterposition {text-align:left; margin-top:1em; margin-bottom:1em; margin-left:2em;}
-					.charactervalue {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.characterpositionhistory {text-align:left; margin-top:.5em; margin-bottom:.5em; margin-left:2em;}
-					.charactervaluehistory {margin-left:2em; margin-top:.1em; margin-bottom:.1em;}
-					.example {margin-left:4em;}
-					.changed {color: #FF0000;}
-					.captiontext {font-style:italic;}
-					.displaytext {font-style:italic; margin-bottom:.5em; margin-top:.5em;}
-					.displaycontent {text-align:left;}
-					.table {margin-left:2em; margin-top:1em; margin-bottom:1em;}
-					.head-nav {font-family:Arial, Helvetica, sans-serif; font-size:9pt;}
-					.summary {margin-left:2em;}
-					.summarytable {margin-left:4em;}
-				</style><script type="text/javascript" src="http://cdn.loc.gov/js/global/foresee/foresee-trigger.js"></script></head>
-   <body>
-      <div class="head-nav"><a href="http://www.loc.gov/">Library of Congress</a> &gt;&gt;  <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-         					&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd1xx.html">1XX</a> &gt;&gt; <strong>130</strong></div>
-      <hr><a name="skip_menu"></a><h1>130 - Main Entry-Uniform Title (NR)</h1>
-      <hr>
-      <div class="formatname">MARC 21 Bibliographic - Full</div>
-      <div class="datename">October 2007</div>
-      <hr>
-      <table width="100%">
-         <tr vAlign="top">
-            <td width="45%"><strong>First Indicator</strong><br><em>Nonfiling characters</em><br>0-9 - Number of nonfiling characters <br><br></td>
-            <td width="45%"><strong>Second Indicator</strong><br><em>Undefined</em><br># - Undefined <br><br></td>
+      <meta name="description"
+            content="This field contains the  (Network Development and MARC Standards Office, Library of Congress)" />
+      <meta name="keywords" content="marc, marc21, marc standards" />
+      <meta name="author"
+            content="Library of Congress Network Development and MARC Standards Office" />
+      <link href="../styles.css" rel="stylesheet" type="text/css" />
+      <link href="../print.css" rel="stylesheet" type="text/css" media="print" />
+   </head>
+   <body class="full">
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd1xx.html">1XX</a>  
+               
+               &gt;&gt;
+               <strong>130</strong></span></div>
+      </div>
+      <hr /><a name="skip_menu"></a><h1><span>130</span> - <span>Main Entry-Uniform Title</span><span> (NR)</span></h1>
+      <hr />
+      <div class="formatname">MARC 21 Bibliographic - full</div>
+      <div class="datename">October 2014</div>
+      <hr />
+      <table width="100%" class="indicators">
+         <tr>
+            <th width="45%"> First Indicator </th>
+            <th width="45%"> Second Indicator </th>
+         </tr>
+         <tr>
+            <td><em>Nonfiling characters</em><br /><span>0-9 - Number of nonfiling characters</span><br /><br /></td>
+            <td><em>Undefined</em><br /><span># - Undefined</span><br /><br /></td>
          </tr>
       </table>
-      <hr>
-      <table width="100%">
-         <tr vAlign="top">
-            <td valign="top" width="50%" align="left"></td>
-            <td valign="top" width="50%" align="left"></td>
+      <hr />
+      <table width="100%" class="subfields">
+         <tr>
+            <td width="50%"></td>
+            <td width="50%"></td>
          </tr>
-         <tr vAlign="top">
-            <td colspan="2"><strong>Subfield Codes</strong><br></td>
+         <tr>
+            <th colspan="2">Subfield Codes</th>
          </tr>
-         <tr vAlign="top">
-            <td colspan="1">$a - Uniform title (NR) <br>$d - Date of treaty signing (R) <br>$f - Date of a work (NR) <br>$g - Miscellaneous information (NR) <br>$h - Medium (NR) <br>$k - Form subheading (R) <br>$l - Language of a work (NR) <br>$m - Medium of performance for music (R) <br>$n - Number of part/section of a work (R) </td>
-            <td colspan="1">$o - Arranged statement for music (NR) <br>$p - Name of part/section of a work (R) <br>$r - Key for music (NR) <br>$s - Version (NR) <br>$t - Title of a work (NR) <br>
-              $0 - Authority record control number (R)<br>
-              $6 - Linkage (NR) <br>$8 - Field link and sequence number (R) <br></td>
-         </tr>
-   </table>
-      <hr>
-      <h3>FIELD DEFINITION AND SCOPE</h3>
-      <p>Uniform title used as a main entry in a bibliographic record.</p>
-      <p>Main entry under a uniform title is used when a work is entered directly under title and
-         the work has appeared under varying titles, necessitating that a particular title be
-         chosen to represent the work. Cataloging rules also prescribe the use of this field when
-         the work is entered directly under title and additions or deletions to the title proper
-         must be accommodated. In this latter case, the title may not actually vary from
-         iteration to iteration. The title that appears on the work being cataloged is contained
-                     in field 245. There will be no 100, 110, or 111 field in records with field 130.      </p>
-      <hr>
-      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
-      <p>Descriptions of the first indicator position and all subfield codes, as well as input
-                     conventions for the 130 field, are given in the <em><a href="bdx30.html">X30 Uniform Titles-General
-                           Information</a></em> section. Because the second indicator is different for various X30
-                     fields, it is not described in the general information section, but is described
-                  below.
-      </p>
-      <h4><span class="box">&#9632;</span> INDICATORS
-      </h4>
-      <div class="indicator"><strong>Second Indicator - Undefined</strong> <div class="description">Undefined and contains a blank (#).
-            </div>
-      </div>
-      <h4><span class="box">&#9632;</span> EXAMPLES
-      </h4>
-      <div class="example">
-         <table width="100%">
-            <tr>
-               <td valign="top" width="5%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="10%" align="left"></td>
-               <td valign="top" width="15%" align="left"></td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Chanson de Roland.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Bible.<strong>$l</strong>English.<strong>$s</strong>Authorized.<strong>$k</strong>Selections.<strong>$f</strong>1970.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Transactions of the Anarchists.<strong>$p</strong>Initial part.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Bible.<strong>$p</strong>O.T.<strong>$p</strong>Five Scrolls.<strong>$l</strong>Hebrew.<strong>$s</strong>Biblioteca apostolica vaticana.<strong>$k</strong>Manuscript.<strong>$n</strong>Urbiniti Hebraicus 1.<strong>$f</strong>1980.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Bible.<strong>$p</strong>N.T.<strong>$p</strong>Romans.<strong>$l</strong>English.<strong>$s</strong>Revised standard.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Three little pigs.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>San Francisco journal (1980)
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Kathy (Motion picture : 1981)
-               </td>
-            </tr>
-        
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Elektroshlakovyi pereplav.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Si&egrave;ge d'Orl&eacute;ans (Mystery play)
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Beowulf.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Dialogue (Montreal, Quebec : 1962).<strong>$l</strong>English.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Tosefta.<strong>$l</strong>English.<strong>$f</strong>1977.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>King Kong (1933)
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Gone with the wind (Motion picture).<strong>$h</strong>Sound recording.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Convention for the Protection of Human Rights and
-                                       Fundamental Freedoms<strong>$d</strong>(1950).<strong>$k</strong>Protocols, etc.,<strong>$d</strong>1963 Sept. 16.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Portrait and biographical album of Isabella County, Mich.<strong>$k</strong>Selections.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Vedas.<strong>$p</strong>Rgveda.<strong>$l</strong>Italian &amp; Sanskrit.<strong>$k</strong>Selections.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Concertos,<strong>$m</strong>violin,string orchestra,<strong>$r</strong>D major.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Annale Universiteit van Stellenbosch.<strong>$n</strong>Serie A2,<strong>$p</strong>S&ouml;ologie.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Bible.<strong>$p</strong>N.T.<strong>$p</strong>Philippians.<strong>$l</strong>English.<strong>$s</strong>Revised Standard.<strong>$f</strong>1980.
-               </td>
-            </tr>
-            <tr>
-               <td vAlign="top" colspan="1" align="left"><strong>130</strong></td>
-               <td vAlign="top" colspan="9" align="left"><strong>0#</strong><strong>$a</strong>Songs, unacc.
-               </td>
-            </tr>
-         </table>
-      </div>
-      <hr>
-      <h3>CONTENT DESIGNATOR HISTORY</h3>
-      <div class="font_small">In the serials specifications, only subfield $a was defined for field 130
-                     prior to 1980. The other subfields were defined in 1980. Data appropriate for these
-                     subfields in records created prior to that time may not be separately subfield
-                  coded.<br>
-   </div>
-      <hr>
-      <table width="100%" border="0" cellspacing="0" cellpadding="0">
-         <tr valign="bottom">
+         <tr>
             <td>
-               <div class="head-nav"><a href="http://www.loc.gov/">Library of
-                     								Congress</a> &gt;&gt; <a href="http://www.loc.gov/marc/">MARC</a> &gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/">Bibliographic</a>
-                  								&gt;&gt; <a href="http://www.loc.gov/marc/bibliographic/bd1xx.html">1XX</a> &gt;&gt; <strong>130</strong></div> (02/21/2008) 
+               <ul class="nomark">
+                  <li>$a - Uniform title<span> (NR)</span></li>
+                  <li>$d - Date of treaty signing<span> (R)</span></li>
+                  <li>$f - Date of a work<span> (NR)</span></li>
+                  <li>$g - Miscellaneous information<span> (R)</span></li>
+                  <li>$h - Medium<span> (NR)</span></li>
+                  <li>$k - Form subheading<span> (R)</span></li>
+                  <li>$l - Language of a work<span> (NR)</span></li>
+                  <li>$m - Medium of performance for music<span> (R)</span></li>
+                  <li>$n - Number of part/section of a work<span> (R)</span></li>
+               </ul>
             </td>
-            <td align="right"><a href="mailto:ndmso@loc.gov">Contact Us</a></td>
+            <td>
+               <ul class="nomark">
+                  <li>$o - Arranged statement for music<span> (NR)</span></li>
+                  <li>$p - Name of part/section of a work<span> (R)</span></li>
+                  <li>$r - Key for music<span> (NR)</span></li>
+                  <li>$s - Version<span> (NR)</span></li>
+                  <li>$t - Title of a work<span> (NR)</span></li>
+                  <li>$0 - Authority record control number or standard number<span> (R)</span></li>
+                  <li>$6 - Linkage<span> (NR)</span></li>
+                  <li>$8 - Field link and sequence number<span> (R)</span></li>
+               </ul>
+            </td>
          </tr>
       </table>
-   <script type='text/javascript' src='http://cdn.loc.gov/js/global/metrics/sc/v25.2/2.0/s_code.js'></script></body>
+      <hr />
+      <h3>FIELD DEFINITION AND SCOPE</h3>
+      <div class="definition">
+         <div>
+            <p>Uniform title used as a main entry in a bibliographic record.</p>
+         </div>
+         <div>
+            <p>Main entry under a uniform title is used when a work is entered directly under title
+               and
+               the work has appeared under varying titles, necessitating that a particular title
+               be
+               chosen to represent the work. Cataloging rules also prescribe the use of this field
+               when
+               the work is entered directly under title and additions or deletions to the title proper
+               must be accommodated. In this latter case, the title may not actually vary from
+               iteration to iteration. The title that appears on the work being cataloged is contained
+               in field 245. There will be no 100, 110, or 111 field in records with field 130.
+            </p>
+         </div>
+      </div>
+      <hr />
+      <h3>GUIDELINES FOR APPLYING CONTENT DESIGNATORS</h3>
+      <div class="guidelines">
+         <div>
+            <p>Descriptions of the first indicator position and all subfield codes, as well as input
+               conventions for the 130 field, are given in the <a href="//www.loc.gov/marc/bibliographic/bdx30.html"><em>X30 Uniform Titles-General
+                     Information</em></a> section. Because the second indicator is different for various X30
+               fields, it is not described in the general information section, but is described
+               below.
+            </p>
+         </div>
+         <h4><span class="box">■</span> INDICATORS
+         </h4>
+         <div class="indicators">
+            <div class="indicator">
+               <div>
+                  <p class="label"><strong>Second Indicator - Undefined</strong></p>
+                  <div>
+                     <p>Undefined and contains a blank (#).</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <h4><span class="box">■ </span> EXAMPLES
+         </h4>
+         <div class="examplesec">
+            <div class="example">
+               <table>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Chanson de Roland.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Bible.<strong>$l</strong>English.<strong>$s</strong>Authorized.<strong>$k</strong>Selections.<strong>$f</strong>1970.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Transactions of the Anarchists.<strong>$p</strong>Initial part.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Bible.<strong>$p</strong>O.T.<strong>$p</strong>Five Scrolls.<strong>$l</strong>Hebrew.<strong>$s</strong>Biblioteca apostolica vaticana.<strong>$k</strong>Manuscript.<strong>$n</strong>Urbiniti Hebraicus 1.<strong>$f</strong>1980.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Bible.<strong>$p</strong>N.T.<strong>$p</strong>Romans.<strong>$l</strong>English.<strong>$s</strong>Revised standard.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Three little pigs.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>San Francisco journal (1980)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Kathy (Motion picture : 1981)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Elektroshlakovyi pereplav.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Siège d'Orléans (Mystery play)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Beowulf.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Dialogue (Montreal, Quebec : 1962).<strong>$l</strong>English.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Tosefta.<strong>$l</strong>English.<strong>$f</strong>1977.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>King Kong (1933)
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Gone with the wind (Motion picture).<strong>$h</strong>Sound recording.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Convention for the Protection of Human Rights and
+                        Fundamental Freedoms<strong>$d</strong>(1950).<strong>$k</strong>Protocols, etc.,<strong>$d</strong>1963 Sept. 16.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Portrait and biographical album of Isabella County, Mich.<strong>$k</strong>Selections.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Vedas.<strong>$p</strong>Rgveda.<strong>$l</strong>Italian &amp; Sanskrit.<strong>$k</strong>Selections.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Concertos,<strong>$m</strong>violin,string orchestra,<strong>$r</strong>D major.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Annale Universiteit van Stellenbosch.<strong>$n</strong>Serie A2,<strong>$p</strong>Söologie.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Bible.<strong>$p</strong>N.T.<strong>$p</strong>Philippians.<strong>$l</strong>English.<strong>$s</strong>Revised Standard.<strong>$f</strong>1980.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td><strong>130</strong></td>
+                     <td colspan="9"><strong>0#</strong><strong>$a</strong>Songs, unacc.
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+      <hr />
+      <h3>CONTENT DESIGNATOR HISTORY</h3>
+      <div class="history">
+         <div>
+            <p>In the serials specifications, only subfield $a was defined for field 130
+            prior to 1980. The other subfields were defined in 1980. Data appropriate for these
+            subfields in records created prior to that time may not be separately subfield
+         coded.</p>
+         </div>
+      </div>
+      <hr class="clear" />
+      <div class="head-nav">
+         <div class="noprint"><a href="//www.loc.gov/">Library of Congress</a> &gt;&gt; <a href="//www.loc.gov/marc/">MARC</a> &gt;&gt; 
+            
+            <a href="//www.loc.gov/marc/bibliographic/">Bibliographic</a> &gt;&gt; 
+            <span class="caps"><a href="//www.loc.gov/marc/bibliographic/bd1xx.html">1XX</a>  
+               
+               &gt;&gt;
+               <strong>130</strong></span></div>
+      </div>
+      <div class="left"><span class="noprint">(10/20/2014)</span></div>
+      <div class="right"><a href="/cdn-cgi/l/email-protection#600e040d130f200c0f034e070f16" class="noprint">Contact Us</a></div>
+   <script type='text/javascript' src='//cdn.loc.gov/js/global/metrics/sc/s_code.js'></script><script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
 </html>
